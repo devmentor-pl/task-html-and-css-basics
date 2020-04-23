@@ -14,6 +14,9 @@
   color: white;
 }
 
+header {
+  border: 2px solid green;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -22,6 +25,7 @@
   width: 90%;
   margin: auto;
   padding: 20px 0;
+  border: 2px solid blue;
 }
 
 li, a {
@@ -44,30 +48,35 @@ li, a {
 .main__header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 90vh;
+  height: 60vh;
   width: 90%;
   margin: auto;
+  border: 2px solid orange;
 }
 
 .header__content {
   width: 40%;
   padding: 20px;
-  border: 2px solid blue;
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.header__content p {
+  padding: 20px 0 40px 0;
+  line-height: 1.6;
 }
 
 .header__screen {
-  border: 2px solid red;
+  margin: 10px;
   width: 60%;
-  height: 60%;
   position: relative;
+  border: 1px solid red;
 }
 
 .header__img {
-  height: 60%;
-  border-radius: 17px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 7%; left: 20%; right: 0; bottom: 0;
+  transform: rotate(-8deg);
+  width: 75%;
+  border-radius: 17px;
 }
