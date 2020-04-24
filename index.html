@@ -13,26 +13,26 @@
 
     <header class="header">
       <div class="header__container">
-        <nav class="nav">
+        <nav class="nav__bar">
           <div class="nav__logo">
             <img class="nav__logo-img" src="./images/logo.svg" alt="logo">
           </div>
 
-          <ul class="nav__links">
-            <li><a href="#">The Team</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Features</a></li>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">The Team</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
           </ul>
         </nav>
 
         <div class="header__main">
-          <div class="header__content">
-            <h1>Beautiful Free Nova Template</h1>
-            <p>A top notch premium quality template for your next web project.</p>
-            <button class="btn-1">Download FREE!</button>
+          <div class="header__text">
+            <h1 class="header__title">Beautiful Free Nova Template</h1>
+            <p class="header__about">A top notch premium quality template for your next web project.</p>
+            <button class="btn-primary">Download FREE!</button>
           </div>
 
-          <div class="header__screen">
+          <div class="header__photo">
             <img class="header__img" src="./images/screen.png" alt="">
           </div>
         </div>
@@ -48,19 +48,19 @@
 
           <div class="features__types">
             <div class="feature__box">
-              <img class="features__img" src="./images/responsive.svg" alt="">
+              <img class="features__img" src="./images/responsive.svg" alt="phone icon">
               <p class="features__task">Fully responsive<p>
                   <p class="features__about">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
             </div>
 
             <div class="feature__box">
-              <img class="features__img" src="./images/customizable.svg" alt="">
+              <img class="features__img" src="./images/customizable.svg" alt="tools icon">
               <p class="features__task">Customizable<p>
                   <p class="features__about">Change the colors, pictures or any of the sections to suit your needs.</p>
             </div>
 
             <div class="feature__box">
-              <img class="features__img" src="./images/design.svg" alt="">
+              <img class="features__img" src="./images/design.svg" alt="decorative icon">
               <p class="features__task">Slic and beautiful desing</p>
               <p class="features__about">Trendy and fresh design, fits any website.</p>
             </div>
@@ -69,77 +69,84 @@
       </section>
 
       <section class="logos">
-        <div>
-          <img src="./images/logos.png" alt="">
+        <div class="logos__container">
+          <div>
+            <img class="logos__img" src="./images/logos.png" alt="logos">
+          </div>
         </div>
       </section>
 
-      <section>
-        <div>
-          <img src="./images/imac.png" alt="">
+      <section class="imac">
+        <div class="imac__container">
+          <img class="imac__img" class="" src="./images/imac.png" alt="">
         </div>
 
-        <div>
-          <p>Simple and beautiful</p>
-          <p>Use Nova theme for your next web project. It is completely customizable so you can change any of the
-            sections to fit your needs. Nova Theme is FREE for any kind of use, personal and commercial. Have a fun and
+        <article class="imac__text">
+          <h5 class="imac__title">Simple and beautiful</h5>
+          <p class="imac__about">Use Nova theme for your next web project. It is completely customizable so you can
+            change any of the
+            sections to fit your needs. </p>
+          <p class="imac__about">Nova Theme is FREE for any kind of use, personal and commercial. Have a fun
+            and
             good luck!</p>
-        </div>
+        </article>
       </section>
 
-      <section>
-        <article>
-          <h4>Choose your priving plan</h4>
-          <p>Pick any of our super affordable pricing plans.</p>
-        </article>
-
-        <div>
-          <div>
-            <article>
-              <p>basic</p>
-              <p><span>&#x24</span>15</p>
-              <p>per month</p>
-            </article>
-
-            <ul>
-              <li>Up to 7 Projects</li>
-              <li>2 Additional Developers</li>
-            </ul>
-
-            <button>Get Started</button>
-          </div>
+      <section class="pricing">
+        <div class="pricing__container">
+          <article>
+            <h4>Choose your priving plan</h4>
+            <p>Pick any of our super affordable pricing plans.</p>
+          </article>
 
           <div>
-            <article>
-              <p>agency</p>
-              <p><span>&#x24</span>55</p>
-              <p>per month</p>
-            </article>
+            <div>
+              <article>
+                <p>basic</p>
+                <p><span>&#x24</span>15</p>
+                <p>per month</p>
+              </article>
 
-            <ul>
-              <li>Up to 25 Projects</li>
-              <li>2 Additional Developers</li>
-              <li>Unlimited Support</li>
-            </ul>
+              <ul>
+                <li>Up to 7 Projects</li>
+                <li>2 Additional Developers</li>
+              </ul>
 
-            <button>Get Started</button>
-          </div>
+              <button>Get Started</button>
+            </div>
 
-          <div>
-            <article>
-              <p>pro</p>
-              <p><span>&#x24</span>75</p>
-              <p>per month</p>
-            </article>
+            <div>
+              <article>
+                <p>agency</p>
+                <p><span>&#x24</span>55</p>
+                <p>per month</p>
+              </article>
 
-            <ul>
-              <li>Up to 25 Projects</li>
-              <li>2 Additional Developers</li>
-              <li>Unlimited Support</li>
-              <li>1.5GB Disc Space</li>
-            </ul>
+              <ul>
+                <li>Up to 25 Projects</li>
+                <li>2 Additional Developers</li>
+                <li>Unlimited Support</li>
+              </ul>
 
-            <button>Get Started</button>
+              <button>Get Started</button>
+            </div>
+
+            <div>
+              <article>
+                <p>pro</p>
+                <p><span>&#x24</span>75</p>
+                <p>per month</p>
+              </article>
+
+              <ul>
+                <li>Up to 25 Projects</li>
+                <li>2 Additional Developers</li>
+                <li>Unlimited Support</li>
+                <li>1.5GB Disc Space</li>
+              </ul>
+
+              <button>Get Started</button>
+            </div>
           </div>
         </div>
       </section>

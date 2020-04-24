@@ -1,8 +1,15 @@
 
 :root {
   --font-color1: #fff;
-  --btn-color1: #25F18B;
-  --bgc-section1: #000;
+  --font-color2: #000;
+  --font-color3: #25F18B;
+  --bgc-1: #fff;
+  --bgc-2: #000;
+  --bgc-3: #464646;
+  --bgc-4: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  --bgc-5: #f5ebeb;
+  --border-color1: #fff;
+  --border-color2: #000;
 }
 
 *,
@@ -67,7 +74,7 @@
 /* Nav and main header */
 
 .header {
-  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  background: var(--bgc-4);
 }
 
 .header__container {
@@ -76,14 +83,14 @@
   /* border: orange 1px solid; */
 }
 
-.nav {
+.nav__bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 10vh;
-  width: 95%;
+  min-height: 15vh;
+  width: 80%;
   margin: auto;
-  padding: 40px 0;
+  padding-top: 40px;
   /* border: orange 1px solid; */
 }
 
@@ -95,17 +102,24 @@
   cursor: pointer;
 }
 
-nav__links li, a {
-  padding: 0 10px;
-  color: inherit;
-  text-decoration: none;
-  letter-spacing: 2px;
+.nav__list  {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  list-style: none;
+  /* border: 1px yellow solid; */
 }
 
-.nav__links  {
-  display: flex;
-  text-align: center;
-  list-style: none;
+.nav__item {
+  padding: 5px;
+  /* border: 1px solid red; */
+} 
+
+.nav__link {
+  padding: 0 10px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: inherit;
 }
 
 .header__main {
@@ -117,24 +131,25 @@ nav__links li, a {
   /* border: orange 1px solid; */
 }
 
-.header__content {
+.header__text {
   width: 45%;
   padding: 20px;
   line-height: 1.6;
   /* border: 1px solid white; */
 }
 
-.header__content h1 {
+.header__title {
+  margin: 60px 0 30px 0;
+  color: var(--font-color3);
   letter-spacing: 1px;
   word-spacing: 3px;
-  margin: 60px 0 30px 0;
 }
 
-.header__content p {
+.header__about {
   padding: 20px 0 30px 0;
 }
 
-.header__screen {
+.header__photo {
   width: 50%;
   position: relative;
   /* border: 1px solid white; */
@@ -151,7 +166,7 @@ nav__links li, a {
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.btn-1 {
+.btn-primary {
   width: 170px;
   height: 45px;
   margin-top: 20px;
@@ -159,7 +174,7 @@ nav__links li, a {
   color: var(--font-color1);
   letter-spacing: 1px;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid var(--border-color1);
   cursor: pointer;
   background-color: var(--btn-color1);
   -webkit-box-shadow: 10px 10px 18px 3px rgba(0,0,0,0.38);
@@ -168,21 +183,20 @@ nav__links li, a {
   transition: all .5s ease;
 }
 
-.btn-1:hover {
-  color: var(--bgc-section1);
-  border: 1px solid black;
+.btn-primary:hover {
+  color: var(--bgc-2);
+  border: 1px solid var(--border-color2);
 } 
 
 
 /* Section 1 - Features */
 
 .features {
-  background-color: var( --bgc-section1);
+  background-color: var(--bgc-2);
 }
 
 .features__container {
   max-width: 1050px;
-  height: 65vh;
   margin: auto;
   /* border: 1px red solid; */
 }
@@ -191,7 +205,9 @@ nav__links li, a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90%;
   height: 12vh;
+  margin: auto;
   font-size: 25px;
   letter-spacing: 3px;
   /* border: yellow 1px solid; */
@@ -211,14 +227,14 @@ nav__links li, a {
   width: 32%;
   height: 320px;
   margin: 0 auto 5px auto;
-  color: white;
+  color: var(--font-color1);
   /* border: 1px solid white; */
 }
 
 .features__img {
   height: 50px;
   width: 50px;
-  background-color: #fff;
+  background-color: var(--bgc-1);
   padding: 10px;
   border-radius: 50%;
   margin: 20px 0 20px 0;
@@ -241,12 +257,71 @@ nav__links li, a {
 /* Section 2 - Logos */
 
 .logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0 10px 0;
+  background-color: var(--bgc-5);
 }
 
-.logos img {
-  margin: 0 auto;
+.logos__container {
+  max-width: 1050px;
+  margin: auto;
+  padding: 40px;
+  position: relative;
+  /* border: 1px solid red; */
 }
+.logos__img {
+  width: 80%;
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; right: 0; bottom: 0;
+   /* border: 1px solid green; */
+}
+
+
+/* Section 3 - Imac and text */
+
+.imac {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1050px;
+  margin: 50px auto;
+  color: var(--font-color2);
+  /* border: 1px solid black; */
+}
+
+ .imac__container {
+  width: 45%;
+  height: 350px;
+  position: relative;
+  /* border: 1px solid red; */
+
+ }
+
+ .imac__img {
+  width: 70%;
+  position: absolute;
+  margin: auto;
+  top: 0; left: 0; right: 0; bottom: 0;
+ }
+
+ .imac__text {
+  width: 45%;
+  height: 350px;
+  /* border: 1px solid green; */
+}
+
+.imac__title {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.imac__about {
+  padding: 20px 20px 0 20px;
+  line-height: 1.6em;
+}
+
+
+
+/* Section 4 - Pricing plan */
