@@ -289,19 +289,19 @@
 }
 
  .imac__container {
-  width: 45%;
+  width: 60%;
   height: 350px;
   position: relative;
   /* border: 1px solid red; */
-
  }
 
  .imac__img {
-  width: 70%;
+  width: 100%;
   position: absolute;
   margin: auto;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 100px; left: 0; right: 0; bottom: 0;
  }
+
 
  .imac__text {
   width: 45%;
@@ -325,3 +325,16 @@
 
 
 /* Section 4 - Pricing plan */
+
+
+
+
+/* Footer */
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13vh;
+  background-color: #464646;
+}
