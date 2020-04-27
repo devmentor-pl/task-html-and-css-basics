@@ -365,7 +365,8 @@
 .pricing__table {
   background-color:var(--bgc-7);
   flex: 1;
-  margin: 10px;
+  margin: 10px auto;
+  max-width: 300px;
   text-transform: uppercase;
   border-radius: 12px;
   position: relative;
@@ -604,7 +605,6 @@ padding-bottom: 20px;
 
   .imac__container {
     flex-wrap: wrap;
-
   }
   
   .imac__text {
@@ -616,6 +616,5 @@ padding-bottom: 20px;
   .team__table  {
     flex: 100%;
   }
-  
 }
 
