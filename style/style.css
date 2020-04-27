@@ -597,20 +597,25 @@ padding-bottom: 20px;
 
 @media screen and (max-width: 780px) {
   
-
-  
-  .pricing__table,
-  .team__table  {
-    flex: 100%;
-  }
-
   .features__box {
     flex-wrap: wrap;
     width: 50%;
   }
 
+  .imac__container {
+    flex-wrap: wrap;
+
+  }
+  
   .imac__text {
     padding-top: 8px;
+    margin-bottom: -120px;
   }
+ 
+  .pricing__table,
+  .team__table  {
+    flex: 100%;
+  }
+  
 }
 
