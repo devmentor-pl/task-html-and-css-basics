@@ -1,15 +1,23 @@
 
 :root {
-  --font-color1: #fff;
-  --font-color2: #000;
-  --font-color3: #25F18B;
-  --bgc-1: #fff;
-  --bgc-2: #000;
+  --font-color1: #ffffff;
+  --font-color2: #000000;
+  --font-color3: #e8b638;
+  --font-color4: #b5b1b1;
+  --font-color5: #675c5c;
+  --font-color6: #334444;
+  --bgc-1: #ffffff;
+  --bgc-2: #000000;
   --bgc-3: #464646;
-  --bgc-4: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  --bgc-4: radial-gradient(#c24a7e, #6956eb);
   --bgc-5: #f5ebeb;
-  --border-color1: #fff;
-  --border-color2: #000;
+  --bgc-6: #464646;
+  --bgc-7:  #f1f1f1;
+  --bgc-8: #dddddd;
+  --bgc-9: #57606f;
+  --bgc-10:#8d8f93;
+  --border-color1: #e8b638;
+  --border-color2: #ffffff;
 }
 
 *,
@@ -88,14 +96,10 @@
   justify-content: space-between;
   align-items: center;
   min-height: 15vh;
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding-top: 40px;
   /* border: orange 1px solid; */
-}
-
-.nav__logo {
-  margin-left: 10px;
 }
 
 .nav__logo-img {
@@ -111,13 +115,13 @@
 }
 
 .nav__item {
-  padding: 5px;
+  padding: 15px;
   /* border: 1px solid red; */
 } 
 
 .nav__link {
-  padding: 0 10px;
   text-decoration: none;
+  text-transform: uppercase;
   letter-spacing: 2px;
   color: inherit;
 }
@@ -184,7 +188,7 @@
 }
 
 .btn-primary:hover {
-  color: var(--bgc-2);
+  color: var(--font-color3); 
   border: 1px solid var(--border-color2);
 } 
 
@@ -196,55 +200,60 @@
 }
 
 .features__container {
+  flex-wrap: wrap;
   max-width: 1050px;
   margin: auto;
   /* border: 1px red solid; */
 }
 
-.features__title {
+.features__header {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
   width: 90%;
   height: 12vh;
-  margin: auto;
-  font-size: 25px;
-  letter-spacing: 3px;
   /* border: yellow 1px solid; */
+}
+
+.features__title {
+  font-size: 25px;
+  letter-spacing: 4px;
 }
 
 .features__types {
  display: flex;   
+ flex-wrap: wrap;
  margin: auto;
  width: 90%;
  /* border: green 1px solid; */
 }
 
-.feature__box {
+.features__box {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto 5px auto;
   width: 32%;
   height: 320px;
-  margin: 0 auto 5px auto;
   color: var(--font-color1);
   /* border: 1px solid white; */
 }
 
 .features__img {
+  margin: 20px 0 20px 0;
   height: 50px;
   width: 50px;
-  background-color: var(--bgc-1);
   padding: 10px;
   border-radius: 50%;
-  margin: 20px 0 20px 0;
+  background-color: var(--bgc-1);
 }
 
 .features__task {
+  padding: 20px;
   font-weight: 600;
   letter-spacing: 1px;
   word-spacing: 2px;
-  padding: 20px;
 }
 
 .features__about {
@@ -261,16 +270,16 @@
 }
 
 .logos__container {
-  max-width: 1050px;
   margin: auto;
   padding: 40px;
+  max-width: 1050px;
   position: relative;
   /* border: 1px solid red; */
 }
 .logos__img {
+  margin: auto;
   width: 80%;
   position: absolute;
-  margin: auto;
   top: 0; left: 0; right: 0; bottom: 0;
    /* border: 1px solid green; */
 }
@@ -278,35 +287,28 @@
 
 /* Section 3 - Imac and text */
 
-.imac {
+.imac__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: auto;
   max-width: 1050px;
-  margin: 50px auto;
   color: var(--font-color2);
   /* border: 1px solid black; */
 }
 
  .imac__container {
-  width: 60%;
-  height: 450px;
-  position: relative;
-  /* border: 1px solid red; */
+  margin-bottom: 20px;
  }
 
  .imac__img {
-  width: 100%;
-  position: absolute;
-  margin: auto;
-  top: 100px; left: 0; right: 0; bottom: 0;
+  margin: 15px 0 0 28px;
+  width: 80%;
  }
 
-
  .imac__text {
-  width: 45%;
-  height: 350px;
-  /* border: 1px solid green; */
+  height: 400px;
+  padding-top: 25px;
 }
 
 .imac__title {
@@ -323,47 +325,45 @@
 }
 
 
-
 /* Section 4 - Pricing plan */
 
-
 .pricing__container {
-  max-width: 1050px;
   margin: auto;
-  background-color: #f1f1f1;
+  max-width: 1050px;
+  background-color: var(--bgc-7);
 }
 
-.pricing__description {
+.pricing__main-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
   color: #675c5c;
-  height: 20vh;
-  margin-top: 80px;
 }
 
 .pricing__title {
+  padding: 20px;
   font-size: 25px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 3px;
-  padding-bottom: 10px;
 }
 
 .pricing__about {
   letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 
 .pricing__tables-container {
   display: flex;
   flex-wrap: wrap;
-  width: 90%;
   margin: auto;
+  width: 90%;
 }
 
 .pricing__table {
-  background-color: #f1f1f1;
+  background-color:var(--bgc-7);
   flex: 1;
   margin: 10px;
   text-transform: uppercase;
@@ -376,8 +376,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  letter-spacing: 2px;
   color: var(--font-color1);
+  letter-spacing: 2px;
   border-radius: 12px 12px 0 0;
   position: relative;
 }
@@ -400,16 +400,16 @@
 }
 
 .pricing__period {
-  font-size: 15px;
   padding-bottom: 30px;
+  font-size: 15px;
 }
 
 .pricing__stars {
   padding: 6px 15px 0 30px;
+  text-align: center;
   font-size: 20px;
   letter-spacing: 15px;
   color: var(--font-color2);
-  text-align: center;
   border-radius: 15px;
   opacity: .6;
   position: absolute;
@@ -418,8 +418,8 @@
 }
 
 .pricing__list {
-  height: 200px;
   padding: 17px 0;
+  height: 200px;
   text-decoration: none;
   list-style: none;
   border-radius: 0 0 12px 12px;
@@ -427,25 +427,25 @@
 
 .pricing__item {
   margin: 8px 0;
-  font-size: 14px;
-  color: #344;
   text-align: center;
+  font-size: 14px;
+  color: var(--font-color6);
 }
 
 .pricing__border {
+  margin: auto;
   width: 80px;
   height: 1px;
-  background-color: #ddd;
-  margin: auto;
+  background-color: var(--bgc-8);
 }
 
 .pricing__btn {
   display: block;
-  width: 45%;
-  max-width: 150px;
   margin: auto;
   margin-bottom: 20px;
   padding: 8px 0;
+  width: 45%;
+  max-width: 150px;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -477,27 +477,110 @@ button:focus {
 }
 
 .pricing__btn {
-  background-color: #8d8f93;
+  background-color: var(--bgc-10);
   color: var(--font-color1);
 }
 
 .pricing__btn:hover {
   color: var(--font-color1);
-  background-color: #57606f;
+  background-color: var(--bgc-9);
 }
 
 .pricing__table:hover {
   transform: scale(1.1);
   box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-  background-color: #fff;
+  background-color: var(--bgc-1);
 }
 
-@media screen and (max-width: 780px) {
-  .pricing__table {
-    flex: 100%;
-  }
+
+/* Section 5 - Team  */
+
+.team__main-container {
+  margin: auto;
+  max-width: 1050px;
+  color: var(--font-color2);
 }
 
+.team__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.team__title {
+  color: var(--font-color5);
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.team__tables-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+  cursor: pointer;
+}
+
+.team__table {
+  flex-grow: 1;
+  text-align: center;
+  margin: 10px auto;
+  max-width: 300px;
+  transition: all .5s ease-in;
+}
+
+.team__container-img {
+  margin-top: 20px;
+}
+
+.team__img {
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  box-shadow: 3px 3px 15px rgba(0,0,0,0.6);
+}
+
+.team__list {
+  padding: 17px;
+  text-decoration: none;
+  list-style: none;
+}
+.team__role {
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--font-color4);
+}
+
+.team__name {
+  padding: 10px;
+  font-weight: 600;
+}
+
+.team__description {
+  color: var(--font-color4);
+}
+
+.team__socialMedia {
+  padding: 20px;
+  letter-spacing: 10px;
+}
+
+/* tutaj musialem dac padding bo ikona social media byla wyzej niz pozostale, czy mozna to inaczej zalatwic? */
+.team__card-2 .team__description {
+padding-bottom: 20px;
+}
+
+
+.team__table:hover {
+  background-color: var(--bgc-7);
+  transform: scale(1.1);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  border-radius: 12px;
+}
 
 
 /* Footer */
@@ -506,11 +589,28 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   height: 13vh;
-  background-color: #464646;
+  background-color: var(--bgc-6);
 }
 
 
+@media screen and (max-width: 780px) {
+  
 
-/* Section 5 Team */
+  
+  .pricing__table,
+  .team__table  {
+    flex: 100%;
+  }
+
+  .features__box {
+    flex-wrap: wrap;
+    width: 50%;
+  }
+
+  .imac__text {
+    padding-top: 8px;
+  }
+}
 

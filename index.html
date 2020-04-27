@@ -19,9 +19,9 @@
           </div>
 
           <ul class="nav__list">
-            <li class="nav__item"><a class="nav__link" href="#">The Team</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Pricing</a></li>
-            <li class="nav__item"><a class="nav__link" href="#">Features</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">team</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">features</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">pricing</a></li>
           </ul>
         </nav>
 
@@ -42,24 +42,24 @@
     <main>
       <section class="features">
         <div class="features__container">
-          <div class="features__title">
-            <h5>Features<h5>
+          <div class="features__header">
+            <h5 class="features__title">Features<h5>
           </div>
 
           <div class="features__types">
-            <div class="feature__box">
+            <div class="features__box">
               <img class="features__img" src="./images/responsive.svg" alt="phone icon">
               <p class="features__task">Fully responsive<p>
                   <p class="features__about">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
             </div>
 
-            <div class="feature__box">
+            <div class="features__box">
               <img class="features__img" src="./images/customizable.svg" alt="tools icon">
               <p class="features__task">Customizable<p>
                   <p class="features__about">Change the colors, pictures or any of the sections to suit your needs.</p>
             </div>
 
-            <div class="feature__box">
+            <div class="features__box">
               <img class="features__img" src="./images/design.svg" alt="decorative icon">
               <p class="features__task">Slic and beautiful desing</p>
               <p class="features__about">Trendy and fresh design, fits any website.</p>
@@ -76,26 +76,28 @@
         </div>
       </section>
 
-      <section class="imac">
+      <section>
         <div class="imac__container">
-          <img class="imac__img" class="" src="./images/imac.png" alt="">
-        </div>
+          <div class="imac__container-img">
+            <img class="imac__img" class="" src="./images/imac.png" alt="">
+          </div>
 
-        <article class="imac__text">
-          <h5 class="imac__title">Simple and beautiful</h5>
-          <p class="imac__about">Use Nova theme for your next web project. It is completely customizable so you can
-            change any of the
-            sections to fit your needs. </p>
-          <p class="imac__about">Nova Theme is FREE for any kind of use, personal and commercial. Have a fun
-            and
-            good luck!</p>
-        </article>
+          <article class="imac__text">
+            <h5 class="imac__title">Simple and beautiful</h5>
+            <p class="imac__about">Use Nova theme for your next web project. It is completely customizable so you can
+              change any of the
+              sections to fit your needs. </p>
+            <p class="imac__about">Nova Theme is FREE for any kind of use, personal and commercial. Have a fun
+              and
+              good luck!</p>
+          </article>
+        </div>
       </section>
 
-      <section class="pricing">
+      <section>
         <div class="pricing__container">
 
-          <article class="pricing__description">
+          <article class="pricing__main-header">
             <h5 class="pricing__title">Choose your pricing plan</h5>
             <p class="pricing__about">Pick any of our super affordable pricing plans.</p>
           </article>
@@ -164,60 +166,61 @@
 
 
       <section>
-        <div class="team__container">
-          <div>
-            <h4>The Team</h4>
+        <div class="team__main-container">
+          <div class="team__header">
+            <h5 class="team__title">The Team</h5>
           </div>
 
-          <div>
-            <div>
-              <div>
-                <img src="./images/cto.png" alt="">
+          <div class="team__tables-container">
+
+            <div class="team__table">
+              <div class="team__container-img">
+                <img class="team__img" src="./images/cto.png" alt="">
               </div>
 
-              <article>
-                <p>Cto</p>
-                <p>Johnny B Good</p>
-                <p>The brains behind the whole operation</p>
-              </article>
+              <ul class="team__list">
+                <li class="team__role">cto</li>
+                <li class="team__name">Johnny Good</li>
+                <li class="team__description">The brains behind the whole operation</li>
+              </ul>
 
-              <div>
+              <div class="team__socialMedia">
                 <img src="./images/team-twitter.svg" alt="">
                 <img src="./images/team-facebook.svg" alt="">
               </div>
             </div>
 
-            <div>
-              <div>
-                <img src="./images/ceo.png" alt="">
+            <div class="team__table">
+              <div class="team__container-img">
+                <img class="team__img" src="./images/ceo.png" alt="">
               </div>
 
-              <article>
-                <p>Ceo</p>
-                <p>Roll Over Beethoven</p>
-                <p>The one that puts it all together</p>
-              </article>
+              <ul class="team__list team__card-2">
+                <li class="team__role">ceo</li>
+                <li class="team__name">Jane Matson</li>
+                <li class="team__description">The one that puts it all together</li>
+              </ul>
 
-              <div>
+              <div class="team__socialMedia">
                 <img src="./images/team-twitter.svg" alt="">
                 <img src="./images/team-facebook.svg" alt="">
               </div>
             </div>
 
-            <div>
-              <div>
-                <img src="./images/cfo.png" alt="">
+            <div class="team__table">
+              <div class="team__container-img">
+                <img class="team__img" src="./images/cfo.png" alt="">
               </div>
 
-              <article>
-                <p>Cfo</p>
-                <p>Chuck Berry</p>
-                <p>The guy with his hand on the wallet</p>
-              </article>
+              <ul class="team__list">
+                <li class="team__role">cfo</li>
+                <li class="team__name">Chuck Berry</li>
+                <li class="team__description">The guy with his hand on the wallet</li>
+              </ul>
 
-              <div>
-                <img src="./images/team-twitter.svg" alt="">
-                <img src="./images/team-facebook.svg" alt="">
+              <div class="team__socialMedia">
+                <a class="twitter__link" href="#" target="_blank"><img src="./images/team-twitter.svg" alt=""></a>
+                <a class="facebook__link" href="#" target="_blank"><img src="./images/team-facebook.svg" alt=""></a>
               </div>
             </div>
           </div>
