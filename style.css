@@ -5,3 +5,401 @@
     font-family: 'Montserrat', sans-serif;
 
 }
+
+/* nie wiem jak nazywać klasy*/
+
+
+body {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+
+}
+
+nav {
+    position: relative;
+    top: 0;
+    right: 0;
+    max-width: 1050px;
+    margin: 0 auto;
+    height: 10vh;
+
+}
+
+.logo {
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    color: white;
+    font-size: 6vh;
+    padding: 2vh;
+}
+
+.nav-menu {
+    position: absolute;
+    display: flex;
+    top: 2vh;
+    right: 0;
+    padding: 2vh;
+}
+
+.nav-menu li {
+    list-style: none;
+    font-size: 3vh;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 3vw;
+    text-transform: uppercase;
+}
+
+ul {
+    transition: transform .3s;
+}
+
+.nav-menu li:hover {
+    transform: scale(1.2);
+}
+
+header {
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+
+}
+
+.team {
+    margin-top: 15vh;
+    color: white;
+    width: 30%;
+    padding-left: 3vh;
+    margin-right: 7vh;
+}
+
+.team p {
+    margin-top: 7vh;
+    font-size: 2vh;
+}
+
+.team .download {
+    margin-top: 8vh;
+    font-size: 3vh;
+    padding: 1vh;
+    font-weight: bold;
+    border: 0.2vh solid black;
+    border-radius: 1vh;
+}
+
+.team .download:hover {
+    color: white;
+    background: black;
+    border: 2px solid white;
+}
+
+.img {
+    margin-top: 10vh;
+    background-image: url('https://cdn.pixabay.com/photo/2018/08/08/21/48/interface-3593269_960_720.png');
+    width: 60%;
+    background-position: center;
+    background-position-y: -30vh;
+    transform: rotate(-5deg);
+    border-radius: 2vh;
+    height: 50vh;
+    margin-bottom: 10vh;
+}
+
+.features {
+    width: 100%;
+    background-color: black;
+}
+
+.feauturesOne {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+
+.feauturesOne h3 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+.feauturesMain {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.feauturesMain {
+    display: flex;
+    max-width: 1050px;
+    min-height: 50vh;
+    margin: 0 auto;
+}
+
+.aboutusOne,
+.aboutusTwo,
+.aboutusThree {
+    margin: 5vh 0 5vh 2vh;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    min-height: 40vh;
+
+}
+
+.feauturesMain i {
+    margin-top: 5vh;
+    background-color: violet;
+    padding: 3vh;
+    font-size: 4vh;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 1px;
+}
+
+.feauturesMain h4 {
+    margin-top: 4vh;
+    font-size: 3vh;
+    padding: 2vh;
+}
+
+.feauturesMain p {
+    padding: 2vh;
+    margin-bottom: 4vh;
+    font-size: 1.8vh;
+}
+
+.logoItems {
+    margin-top: 6vh;
+    padding-top: 6vh;
+    background-color: white;
+}
+
+.logoItem {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 0 auto;
+
+
+}
+
+.logoItem i {
+    font-size: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vh;
+    color: lightgray;
+}
+
+.simple {
+    display: flex;
+    padding-top: 15vh;
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.imgSimple {
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/10/21/47/laptop-2838921_960_720.jpg');
+    width: 50%;
+    margin-left: 2vh;
+    height: 70vh;
+    background-position: center;
+}
+
+.simpleText {
+    width: 40%;
+    margin-top: 10vh;
+    margin-left: 3vh;
+
+}
+
+.simpleText h5 {
+    font-size: 5vh;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.simpleText p {
+    font-size: 3vh;
+    margin-top: 5vh;
+    text-align: justify;
+}
+
+.pricingPlan {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    background-color: #F5F5F5;
+    min-height: 90vh;
+}
+
+.pricingPlan h6 {
+    text-align: center;
+    margin-top: 5vh;
+    text-transform: uppercase;
+    font-size: 5vh;
+    font-weight: lighter;
+}
+
+.pricingPlan p {
+    font-size: 2vh;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.plan {
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.basic {
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh;
+    margin-top: 7vh;
+    width: 34%;
+    text-align: center;
+    margin-left: 5vh;
+    min-height: 35vh;
+    border: 2px solid #F5F5F5;
+    box-shadow: 1px 4px 4px 1px;
+    transition: translate .3s;
+}
+
+.center {
+    background-color: white;
+}
+
+.basic:hover {
+    background-color: white;
+    box-shadow: 0 0 2px 1px;
+}
+
+.basic h7 {
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 4vh;
+
+}
+
+.basic p {
+    font-size: 2vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.basic button {
+    text-transform: uppercase;
+    background-color: white;
+    border: 2px solid black;
+    padding: 1vh;
+    border-radius: 3px;
+    font-size: 2vh;
+    transition: translate .3s;
+}
+
+.basic button:hover {
+    background-color: black;
+    color: white;
+}
+
+.basic .price {
+    font-weight: bolder;
+    font-size: 5vh;
+}
+
+.teamReddit {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 15vh;
+}
+
+.teamReddit h8 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 5vh;
+    margin-top: 7vh;
+}
+
+.container {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+
+.teamPeople {
+    padding: 5vh;
+
+}
+
+
+/* nie umiem zrobic miniaturek zdjec*/
+
+/*dlcazego na wiekszej rozdzielnosci jest jajko,  a na mniejszej okrag ? , jak zmniejszyc obrazek, ale bez ucinania */
+.imgTeamOne {
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491_960_720.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.imgTeamTwo {
+    background-image: url('https://cdn.pixabay.com/photo/2017/05/11/08/48/model-2303361_960_720.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.imgTeamThree {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/22/06/05/girl-1848454_960_720.jpg');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 50%;
+}
+
+.nameTeam {
+    margin-top: 6vh;
+}
+
+.name {
+    font-size: 3vh;
+    font-weight: lighter;
+    margin-top: 3vh;
+    color: grey;
+}
+
+
+.teamPeople p {
+    margin-top: 3vh;
+}
+
+.teamPeople i {
+    margin-top: 3vh;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: white;
+    font-size: 3vh;
+}
