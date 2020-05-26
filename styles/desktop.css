@@ -1,0 +1,15 @@
+.header__template {
+  display: flex;
+}
+.features__row__title {
+  display: flex;
+}
+.pricing__row__tiles {
+  display: flex;
+}
+.samples__row {
+  display: flex;
+}
+.team__row__tiles {
+  display: flex;
+}
