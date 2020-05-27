@@ -7,18 +7,20 @@ html, body {
   font-weight: bold;
 }
 .row, .container, .cell {
-  border: 2px solid;
-  margin: 0;
-  padding: 5px;
+  border: 3px solid;
+  margin: 10px;
+  padding: 10px;
+  /* margin: 0;
+  padding: 0; */
 }
 .row {
   border-color: #21da64;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 .container {
   border-color: #1d87e8;
 }
 .cell {
   border-color: #ec9522;
-  margin-left: 100px;
-  margin-right: 100px;
 }

@@ -31,29 +31,32 @@
 /* .picture-wrap {
   max-height: 400px;
 } */
-
-/* NOTE: czemu nie dziala? */
-.features {
-  background-color: black;
-  color: whitesmoke;
-  padding: 10px;
-}
-}
 /* features row */
 .features__title {
   text-align: center;
+  /* background-color: #000; */
 }
-.features__row {
+.features__row__wrap {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 40vh;
+  background-color: #1a1a1a;
+}
+.features__row__container {
+  display: flex;
+  padding: 0 150px;
+  justify-content: center;
 }
 .features__row__cell {
 display: flex;
+min-height: 450px;
+max-width: 300px;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+
+color: whitesmoke;
 }
 .header__nav .cell {
   border: 5px solid seagreen;
