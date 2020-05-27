@@ -7,6 +7,7 @@
 .header__container {
   display: flex;
   justify-content: space-between;
+  padding: 30px;
 }
 .menu__item {
   color: white;
@@ -19,15 +20,28 @@
   margin: 5px;
   padding: 5px;
 }
-
+.header__subtitle {
+  font-size: 3em;
+}
+.header__section__cell {
+  padding: 15px;
+}
+.header__section__cell > p {
+  padding: 35px 0;
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+  max-width: 50%;
+}
 /* template container */
 .header__template {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-column-gap: 0;
+  padding: 20px;
 }
 .features__title {
   color: whitesmoke;
+  padding: 10px;
 }
 .features__row__wrap {
   display: flex;
@@ -36,11 +50,16 @@
   align-items: center;
   min-height: 40vh;
   background-color: #1a1a1a;
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
 .features__row__container, .pricing__row__tiles, .team__row__tiles {
   display: flex;
   padding: 0 150px;
   justify-content: center;
+}
+.features__row__container{
+  margin-top: 100px;
 }
 .features__row__cell > h4 {
   margin: 30px 0;
@@ -51,8 +70,8 @@
 }
 .features__row__cell, .pricing__row__cell, .team__row__cell {
 display: flex;
-min-height: 450px;
-max-width: 300px;
+min-height: 300px;
+max-width: 250px;
 flex-direction: column;
 justify-content: flex-start;
 align-items: center;
@@ -61,7 +80,26 @@ color: whitesmoke;
 .pricing__row__cell, .team__row__cell {
   color: #1a1a1a;
 }
+.pricing__row__cell h4, .position {
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.pricing__row__price {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.pricing__row {
+  padding: 50px 0;
+}
+.pricing__row__tiles {
+  display: flex;
+  margin-bottom: 20px;
+}
 .pricing__row__cell {
+  margin-left: 10px;
+  margin-right: 10px;
   box-shadow: 3px 3px 8px #bababa;
 }
 .pricing__row__cell:hover {
@@ -109,8 +147,22 @@ color: whitesmoke;
 .team__row__tiles {
   display: flex;
 }
+.team__member__name {
+  padding-bottom: 20px;
+  font-weight: 500;
+}
 
+/* justify paragraphs on tiles */
+.features__row__cell p, .pricing__row p, .team__row p {
+  text-align: center;
+}
 /* buttons */
+.pricing__row__cell button {
+  background-color: #2091e3;
+}
+.pricing__button {
+  margin: 20px 0;
+}
 .btn {
   height: 50px;
   width: 150px;
@@ -132,6 +184,10 @@ color: whitesmoke;
   width: 126px;
   border-radius: 50%;
   align-items: center;
+}
+.filter-color {
+  padding: 10px 0;
+  filter: invert(50%) sepia(8%) saturate(192%) hue-rotate(314deg) brightness(100%) contrast(89%);
 }
 
 /* footer */
