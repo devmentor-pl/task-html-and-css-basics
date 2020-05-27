@@ -14,54 +14,64 @@
 <body>
   <!-- header, logo, menu -->
   <header class="header row">
-    <div class="header__container container">
-      <h1 class="header__logo cell"><a href="#">HOME</a></h1>
 
+    <!-- header container -->
+    <div class="header__container container">
+      <h1 class="header__logo cell"><a href="#"><img src="./images/logo.svg" alt="favicon_nova"></a></h1>
       <!-- menu -->
       <nav class="header__nav cell">
-        <ul>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Prices</a></li>
-          <li><a href="#">Features</a></li>
+        <ul class="header__menu">
+          <li><a class="menu__item" href="#">Team</a></li>
+          <li><a class="menu__item" href="#">Prices</a></li>
+          <li><a class="menu__item" href="#">Features</a></li>
         </ul>
-      </nav>
     </div>
 
     <!-- template container -->
     <div class="header__template container">
       <section class="header__section__cell cell">
-        <h2>Beautiful Nova template</h2>
+        <h2 class="header__subtitle">Beautiful Free Nova Template</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sit ratione ea. Aliquid, asperiores, quaerat.</p>
-        <button class="header__button"><a href="#">Download</a></button>
+        <button class="header__button btn"><a href="#">Download</a></button>
       </section>
-      <section class="header__section__cell cell">
-        <picture>
-          IMG here
-        </picture>
-      </section>
+        <section class="header__section__cell cell">
+          <picture class="picture">
+            <img src="./images/screen.png" alt="">
+          </picture>
+        </section>
+      </div>
+    </div>
     </div>
   </header>
 
-  <!------ main section ------>
+  <!----- main section ----->
 
   <!-- features row -->
-  <div class="features__row row">
-    <div class="features__row__title container">
+  <div class="features row">
+    <!-- features header -->
+    <div class="features__title container">
       <h2>Features</h2>
     </div>
-    <div class="features__row__title container">
+    <!-- features tiles -->
+    <div class="features__row container">
       <section class="features__row__cell cell">
-        <img src="#" alt="#">
+        <div class="features__round">
+          <img src="./images/responsive.svg" alt="#">
+        </div>
         <h4>Fully responsive</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, sequi.</p>
       </section>
       <section class="features__row__cell cell">
-        <img src="#" alt="#">
+        <div class="features__round">
+          <img src="./images/customizable.svg" alt="#">
+        </div>
         <h4>Customizable</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, sequi.</p>
       </section>
       <section class="features__row__cell cell">
-        <img src="#" alt="#">
+        <div class="features__round">
+          <img src="./images/design.svg" alt="#">
+        </div>
         <h4>Slick and Beautiful</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, sequi.</p>
       </section>

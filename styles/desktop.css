@@ -1,15 +1,100 @@
+/* header and nav */
+.header {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  min-height: 40vh;
+  color: #fff;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__item {
+  color: white;
+  text-decoration: none;
+}
+.header__menu {
+  display: flex;
+}
+.header__menu > li {
+  margin: 5px;
+  padding: 5px;
+}
+
+/* template container */
 .header__template {
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 0;
 }
-.features__row__title {
-  display: flex;
+
+/* NOTE: zdjecie musi byc w jakims kontenerze, trzeba go ustawic */;
+/* .picture-wrap {
+  max-height: 400px;
+} */
+
+/* NOTE: czemu nie dziala? */
+.features {
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
 }
+}
+/* features row */
+.features__title {
+  text-align: center;
+}
+.features__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+.features__row__cell {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.header__nav .cell {
+  border: 5px solid seagreen;
+}
+/* pricing row */
 .pricing__row__tiles {
   display: flex;
 }
+
+/* samples row */
 .samples__row {
   display: flex;
 }
+
+/* team row */
 .team__row__tiles {
   display: flex;
 }
+
+/* buttons */
+.btn {
+  height: 50px;
+  width: 150px;
+  color: white;
+  border-radius: 10px;
+  background-color: #4ad239;
+}
+.btn a {
+  color: white;
+  font-size: 1.7em;
+  text-decoration: none;
+}
+.features__round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  align-items: center;
+}
+
+/* footer */
