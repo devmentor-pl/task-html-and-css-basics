@@ -7,12 +7,18 @@ html, body {
 p {
   line-height: 2em;
 }
+h3 {
+  font-size: 3em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color:
+}
 .header__subtitle {
   font-size: 2em;
   font-weight: bold;
 }
 .row, .container, .cell {
-  border: 3px solid;
+  /* border: 3px solid; */
   margin: 0;
   margin: 0;
 }
