@@ -1,6 +1,8 @@
 html, body {
   font-family: Helvetica, Arial, serif;
   box-sizing: border-box;
+  color: #575757;
+  font-size: 1em;
 }
 .header__subtitle {
   font-size: 2em;
@@ -10,8 +12,7 @@ html, body {
   border: 3px solid;
   margin: 10px;
   padding: 10px;
-  /* margin: 0;
-  padding: 0; */
+
 }
 .row {
   border-color: #21da64;

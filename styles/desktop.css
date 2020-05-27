@@ -26,15 +26,8 @@
   grid-template-columns: 50% 50%;
   grid-column-gap: 0;
 }
-
-/* NOTE: zdjecie musi byc w jakims kontenerze, trzeba go ustawic */;
-/* .picture-wrap {
-  max-height: 400px;
-} */
-/* features row */
 .features__title {
-  text-align: center;
-  /* background-color: #000; */
+  color: whitesmoke;
 }
 .features__row__wrap {
   display: flex;
@@ -44,33 +37,62 @@
   min-height: 40vh;
   background-color: #1a1a1a;
 }
-.features__row__container {
+.features__row__container, .pricing__row__tiles, .team__row__tiles {
   display: flex;
   padding: 0 150px;
   justify-content: center;
 }
-.features__row__cell {
+.features__row__cell > h4 {
+  margin: 30px 0;
+  font-size: 1.5em;
+  text-align: center;
+  white-space: nowrap;
+
+}
+.features__row__cell, .pricing__row__cell, .team__row__cell {
 display: flex;
 min-height: 450px;
 max-width: 300px;
 flex-direction: column;
-justify-content: center;
-
+justify-content: flex-start;
+align-items: center;
 color: whitesmoke;
+}
+.pricing__row__cell, .team__row__cell {
+  color: #1a1a1a;
 }
 .header__nav .cell {
   border: 5px solid seagreen;
 }
 /* pricing row */
+.pricing__row__title, .team__row__title {
+  text-align: center;
+  padding: 40px 0;
+}
+
 .pricing__row__tiles {
   display: flex;
 }
 
+/* sponsors row */
+.sponsors__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 25px 0;
+}
 /* samples row */
 .samples__row {
   display: flex;
 }
-
+.samples__cell {
+  padding: 30px 50px;
+}
+.samples__cell > h4, .pricing__row__title > h4, .features__title, .team__row__title > h4 {
+  font-size: 3em;
+  text-align: center;
+}
 /* team row */
 .team__row__tiles {
   display: flex;
@@ -94,10 +116,13 @@ color: whitesmoke;
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  height: 60px;
-  width: 60px;
+  height: 126px;
+  width: 126px;
   border-radius: 50%;
   align-items: center;
 }
 
 /* footer */
+.footer__row__credits {
+  text-align: center;
+}
