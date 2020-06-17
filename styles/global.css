@@ -1,35 +1,55 @@
-.wrapper {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .row {
-  max-width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid green;
 }
 
-.header {
+.center {
   flex-basis: 100%;
-  display: flex;
-  justify-content: space-between;
+  max-width: 1050px;
+  padding: 5px;
   border: 2px solid blue;
 }
 
-.header__logo {
-  /* flex-basis: 30%; */
-  border: 2px solid orange;
+.header {
+  color: white;
+  min-height: 50vh;
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
+/* NAV SECTION */
 .header__menu {
-  flex-basis: 30%;
   display: flex;
+  justify-content: space-between;
+  min-height: 5vh;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
   border: 2px solid orange;
 }
 
 .menu__list {
-  flex-basis: 100%;
+  flex-basis: 30%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  border: 2px solid orange;
 }
+
+.menu__item > * {
+  text-decoration: none;
+  color: white;
+}
+
+/* HEADER CONTENT SECTION */
