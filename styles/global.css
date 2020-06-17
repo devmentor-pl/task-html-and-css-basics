@@ -10,8 +10,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 2px solid green;
-  margin-bottom: 5px;
+  /* border: 2px solid green; */
 }
 
 .center {
@@ -19,7 +18,7 @@ body {
   max-width: 1050px;
   margin-bottom: 5px;
   padding: 5px;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }
 
 .header {
@@ -65,7 +64,6 @@ body {
   flex-direction: column;
   justify-content: center;
   flex-basis: 35%;
-  border: 2px solid orange;
   padding: 20px 0 70px;
 }
 
@@ -115,12 +113,53 @@ body {
 
 .features {
   min-height: 40vh;
-}
-
-.features__title {
-  min-height: 5vh;
+  background-color: black;
+  color: white;
 }
 
 .features__item {
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.features__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 40px 0;
+}
+
+.features__cell {
+  flex-basis: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  padding: 20px;
+  /* border: 2px solid orange; */
+}
+
+.cell__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.cell__title {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cell__about {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* PARTNERS SECTION */
