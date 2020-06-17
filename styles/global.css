@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  max-width: 1050px;
+}
+
+.header {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid blue;
+}
+
+.header__logo {
+  /* flex-basis: 30%; */
+  border: 2px solid orange;
+}
+
+.header__menu {
+  flex-basis: 30%;
+  display: flex;
+  border: 2px solid orange;
+}
+
+.menu__list {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
