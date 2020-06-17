@@ -31,6 +31,7 @@ body {
 .header__menu {
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
 
 .header__logo {
@@ -163,3 +164,37 @@ body {
 }
 
 /* PARTNERS SECTION */
+
+.partners {
+  padding: 15px;
+}
+
+/* iMac SECTION */
+
+.iMac__container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.iMac__item {
+  flex-basis: 45%;
+  padding: 60px 20px;
+}
+
+.iMac__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 20px 0 0 20px;
+}
+
+.iMac__content {
+  margin: 40px 0 0 20px;
+  width: 75%;
+  line-height: 1.5rem;
+}
+
+.iMac__item img {
+  max-width: 100%;
+}
