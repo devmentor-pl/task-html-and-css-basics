@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -10,7 +16,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* border: 2px solid green; */
 }
 
 .center {
@@ -18,7 +23,6 @@ body {
   max-width: 1050px;
   margin-bottom: 5px;
   padding: 5px;
-  /* border: 2px solid blue; */
 }
 
 .header {
@@ -141,7 +145,7 @@ body {
   /* border: 2px solid orange; */
 }
 
-.cell__logo {
+.features__cell__logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,13 +156,13 @@ body {
   margin-bottom: 20px;
 }
 
-.cell__title {
+.features__cell__title {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
 }
 
-.cell__about {
+.features__cell__about {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -166,7 +170,8 @@ body {
 /* PARTNERS SECTION */
 
 .partners {
-  padding: 15px;
+  padding: 20px;
+  background-color: #f8f9f9;
 }
 
 /* iMac SECTION */
@@ -174,11 +179,12 @@ body {
 .iMac__container {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  max-width: 1440px;
+  /* border: 1px solid blue */
 }
 
 .iMac__item {
-  flex-basis: 45%;
+  flex-basis: 50%;
   padding: 60px 20px;
 }
 
@@ -197,4 +203,145 @@ body {
 
 .iMac__item img {
   max-width: 100%;
+}
+
+/* PRICING SECTION */
+
+.pricing {
+  background-color: #f8f9f9;
+}
+
+.pricing__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.pricing__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.pricing__cell {
+  flex-basis: 28%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px 20px 30px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.pricing__cell:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+}
+
+.pricing__cell__title {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.pricing__cell__price {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.pricing__cell__info {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.pricing__cell__about {
+  margin-top: 20px;
+  line-height: 1.5rem;
+  height: 150px;
+}
+
+.pricing__cell__button {
+  padding: 15px 45px;
+  border-radius: 5px;
+  outline: none;
+  border: #0dbcea;
+  background-color: #0dbcea;
+  color: white;
+  cursor: pointer;
+}
+
+/* TEAM SECTION */
+
+.team__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.team__title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.team__cell {
+  flex-basis: 28%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* border: 2px solid orange; */
+}
+
+.team__cell:nth-child(1) {
+  flex-basis: 33%;
+}
+
+.team__cell__logo {
+  margin-bottom: 25px;
+}
+
+.team__cell__title {
+  margin-bottom: 15px;
+}
+
+.team__cell__name {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.team__cell__about {
+  font-weight: 300;
+}
+
+.team__cell__social > img {
+  margin: 5px;
+}
+
+.team__cell__social {
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.footer p {
+  color: white;
+  margin-right: 10px;
+  font-size: 10px;
 }
