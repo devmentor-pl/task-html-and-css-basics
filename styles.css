@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 200px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+header {
+    display: block;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 100vh;
+}
+
+.header-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.header-logo {
+    float: left;
+    padding: 40px 0;
+}
+
+.header-nav {
+    float: right;
+}
+
+.header-nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 40px 0;
+}
+
+.header-nav-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+}
+
+.header-hero {
+    position: relative;
+}
+
+.header-hero-section:first-child {
+    margin: 40px 0;
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+    color: white;
+}
+
+.header-hero-section:first-child h2 {
+    margin: 30px 0;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.header-hero-section:first-child p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.header-hero-section:first-child button {
+    margin-top: 30px;
+    background: #25F18B;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+
+.header-hero-section:first-child button a {
+    padding: 2px 6px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.header-hero-section:last-child {
+    float: right;
+}
+
+.header-hero-section:last-child img {
+    width: 600px;
+    height: 400px;
+    margin-top: 60px;
+    margin-right: 80px;
+    transform: rotate(-10deg);
+}
+
+.features {
+    height: 65vh;
+    background: black;
+}
+
+.features-wrapper h3 {
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+    text-transform: uppercase;
+}
+
+.feature {
+    color: white;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.feature-image {
+    margin: 20px 0;
+    background-position: center;
+}
+
+.feature-image img {
+    border-radius: 50%;
+    padding: 25px;
+    background: white;
+    width: 100px;
+    height: 100px;
+    background-position: center;
+}
+
+.feature h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.sponsors {
+    padding: 30px 0;
+    background: #F9FAFA;
+}
+
+.sponsors-wrapper {
+    display: flex;
+    align-items: baseline;
+    align-self: center;
+    justify-content: center;
+}
+
+.sponsors-wrapper img {
+    text-align: center;
+}
+
+.samples-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.sample {
+    margin: 50px 0;
+}
+
+.sample:first-child img {
+    width: 800px;
+    height: 600px;
+}
+
+.sample:last-child {
+    padding: 0 40px;
+}
+
+.sample:last-child h4 {
+    font-size: 40px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 60px 0;
+}
+
+.sample:last-child p {
+    padding-right: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.pricing-container {
+    background: #F9FAFA;
+    padding-bottom: 80px;
+    grid-gap: 60px;
+}
+
+.pricing-wrapper h3 {
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    padding: 80px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.pricing-wrapper>p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing {
+    text-align: center;
+    padding: 25px 35px;
+    transition: .3s;
+}
+
+.pricing:hover {
+    -webkit-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 27px 0px rgba(0, 0, 0, 0.6);
+    background: white;
+}
+
+.pricing h4 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.price-desc {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.pricing button {
+    margin: 60px 0 30px 0;
+    padding: 20px 40px;
+    border: none;
+    background: #0ABCEB;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pricing button a {
+    color: white;
+    text-decoration: none;
+}
+
+.team-wrapper {
+    padding-bottom: 100px
+}
+
+.team-wrapper h3 {
+    font-size: 40px;
+    font-weight: 300;
+    color: black;
+    text-align: center;
+    padding: 80px 0;
+    text-transform: uppercase;
+}
+
+.teammate {
+    text-align: center;
+    padding: 0 90px;
+}
+
+.teammate img {
+    margin: 40px 0;
+}
+
+.position {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.teammate-name {
+    margin-bottom: 10px;
+}
+
+.socials img {
+    margin: 20px;
+    color: #464646;
+}
+
+.footer {
+    color: white;
+}
+
+.footer-wrapper {
+    padding: 30px 0;
+    background: #464646;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper p {
+    margin-right: 15px;
+}
