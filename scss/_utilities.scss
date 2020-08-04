@@ -1,0 +1,124 @@
+@import 'variabilities';
+
+// CSS RESET
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+// MIXINS
+@mixin transform($value) {
+	-webkit-transform: $value;
+	-ms-transform: $value;
+	transform: $value;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: $blackish;
+}
+
+// TEXT, FONT
+h1,
+h2,
+h3,
+h4 {
+	font-family: $main-font;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight: 700;
+}
+h2 {
+	font-size: 2.3rem;
+	font-weight: 600;
+}
+h3 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+h4 {
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+h5 {
+	font-size: 1.3rem;
+	font-family: $sec-font;
+	font-weight: 300;
+}
+
+p {
+	font-family: $sec-font;
+	font-size: 1.2rem;
+	line-height: 1.6;
+}
+
+// BUTTONS
+.btn {
+	border-style: none;
+	font-family: $main-font;
+	font-size: 1.5rem;
+	line-height: 2;
+	padding: 0 20px;
+	border-radius: 5px;
+	&:hover {
+		cursor: pointer;
+	}
+
+	&--dark {
+		color: $whiteish;
+		background: $cont-color;
+
+		&:hover {
+			background: lighten($cont-color, $amount: 2);
+		}
+	}
+
+	&--up-case {
+		font-weight: bold;
+	}
+}
+
+// SECTION
+.sec {
+	width: $content-width;
+	margin: 100px auto 0 auto;
+	text-align: center;
+
+	&__heading {
+		display: inline-block;
+		border-bottom: 2px solid $blackish;
+		padding-bottom: 3px;
+		margin-bottom: 80px;
+	}
+}
+
+// CONTAINER
+
+%cont-shared {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container {
+	&__column {
+		width: 30%;
+	}
+	&--2-col {
+		@extend %cont-shared;
+		align-items: center;
+		text-align: left;
+	}
+
+	&--3-col {
+		@extend %cont-shared;
+		text-align: center;
+		align-items: flex-start;
+	}
+}
