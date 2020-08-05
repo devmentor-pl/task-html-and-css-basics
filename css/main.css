@@ -9,7 +9,8 @@ li {
 
 a {
   text-decoration: none;
-  color: #333; }
+  color: #333;
+  display: inline-block; }
 
 h1,
 h2,
