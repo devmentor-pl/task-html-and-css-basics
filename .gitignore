@@ -1,3 +1,1 @@
-*.json
 node_modules/
-scss/_reset.scss
