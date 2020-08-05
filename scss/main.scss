@@ -51,7 +51,7 @@ html {
 	&__img {
 		width: 100%;
 		padding-left: 40px;
-		transform: rotate(-20deg); //użyć prefiksów?
+		transform: rotate(-20deg);
 		-webkit-filter: drop-shadow(0px 5px 10px rgba(#333, 0.5));
 		filter: drop-shadow(0px 5px 10px rgba(#333, 0.5));
 	}
@@ -151,8 +151,6 @@ html {
 					font-size: 1rem;
 				}
 			}
-
-			// Czy innym sposobem było użycie flex na column i przypisanie btn justify-self: flex-end?;
 
 			&--card {
 				background: #fafafa;
