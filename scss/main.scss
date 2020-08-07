@@ -125,12 +125,14 @@ html {
 			position: relative;
 			padding: 40px 10px 40px 10px;
 			height: 450px;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
-			align-items: center;
+			// display: flex;
+			// flex-direction: column;
+			// justify-content: space-between;
+			// align-items: center;
 
 			.pricing {
+				margin-bottom: 30px;
+
 				&__type {
 					text-transform: uppercase;
 					font-size: 1.6rem;
@@ -144,6 +146,7 @@ html {
 				}
 			}
 			.descr {
+				margin-bottom: 30px;
 				&__top,
 				&__middle,
 				&__bottom {
@@ -155,6 +158,14 @@ html {
 			&--card {
 				background: #fafafa;
 				box-shadow: 0 3px 20px rgba(#333, 0.1);
+			}
+
+			&__btn {
+				position: absolute;
+				margin-bottom: 40px;
+				bottom: 0;
+				left: calc(50% - 80px);
+				width: 180px;
 			}
 		}
 	}

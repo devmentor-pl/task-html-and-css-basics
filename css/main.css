@@ -167,25 +167,31 @@ html {
 .sec-4 .container .column {
   position: relative;
   padding: 40px 10px 40px 10px;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
-  .sec-4 .container .column .pricing__type {
-    text-transform: uppercase;
-    font-size: 1.6rem;
-    color: #888; }
-  .sec-4 .container .column .pricing__price {
-    font-size: 3rem; }
-  .sec-4 .container .column .pricing__month {
-    color: #888; }
-  .sec-4 .container .column .descr__top, .sec-4 .container .column .descr__middle, .sec-4 .container .column .descr__bottom {
-    font-size: 1rem;
-    font-size: 1rem; }
+  height: 450px; }
+  .sec-4 .container .column .pricing {
+    margin-bottom: 30px; }
+    .sec-4 .container .column .pricing__type {
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      color: #888; }
+    .sec-4 .container .column .pricing__price {
+      font-size: 3rem; }
+    .sec-4 .container .column .pricing__month {
+      color: #888; }
+  .sec-4 .container .column .descr {
+    margin-bottom: 30px; }
+    .sec-4 .container .column .descr__top, .sec-4 .container .column .descr__middle, .sec-4 .container .column .descr__bottom {
+      font-size: 1rem;
+      font-size: 1rem; }
   .sec-4 .container .column--card {
     background: #fafafa;
     box-shadow: 0 3px 20px rgba(51, 51, 51, 0.1); }
+  .sec-4 .container .column__btn {
+    position: absolute;
+    margin-bottom: 40px;
+    bottom: 0;
+    left: calc(50% - 80px);
+    width: 180px; }
 
 .sec-5 .person__img {
   margin-bottom: 10px; }
