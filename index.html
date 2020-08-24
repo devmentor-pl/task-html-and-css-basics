@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .container {
+            width: 100%;
+            max-width: 1430px;
+        }
+        .green {
+            width: 100%;
+            position: relative;
+        }
+        .blue {
+            position: absolute;
+            top: 2.5vh;
+            height: 10vh;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .logo {
+            padding-top: 5vh;
+        }
+        .nav-flex {
+            display: flex;
+            height: 15vh;
+            justify-content: space-between;
+            margin: auto;
+        }
+        .menu {
+            padding-top: 4vh;
+            
+        }
+        ul {
+            list-style: none;
+        }
+        li {
+            display: inline-block;
+            padding: 1vw;
+            padding-top: 3vh;
+            padding-left: 1vw;
+            margin: auto;
+            color: white;
+            font-weight: bold;
+        }
+        .green.upper {
+            background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+            height: 94vh;
+        }
+        .first {
+            height: 78vh;
+            top: 15vh;
+            display: flex;
+        }
+        .div-button {
+            width:40%;
+
+        }
+        .screen {
+        }
+        p.header {
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+            padding-top:10vh ;
+        }
+        .txt {
+            font-size: 1.5rem;
+            color: white;
+            padding-left: 1vw;
+            padding-top: 3vh;
+        }
+        .download {
+            background-color: #4CAF50;
+            border: 1px solid #4CAF50;
+            color: white;
+            padding: 2vh 4vw;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 8%;
+            margin: 8vh;
+            box-sizing: content-box;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: auto;
+            margin-top: 6vh;
+            margin-left: 1vw;
+        }
+        .d-button {
+
+        }
+        #ss {
+            height: 60%;
+            border: 0.8rem solid white;
+            border-radius: 7%;
+            display: block;
+            margin: auto;
+            transform: rotate(-10deg);
+            margin-top: 5vh;
+        }
+        .fts {
+            font-size: 2.2rem;
+            color: white;
+            margin: auto;
+            text-align: center;
+            margin-top: 5vh;
+        }
+        .black {
+            background-color: black;
+            height: 67vh;
+            top: 94vh;
+            position: absolute;
+        }
+        .flex-elements {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        .cir-bgc {
+            background-color: white;
+            height: 10vh;
+            margin: auto;
+            width: 10vh;
+        
+            
+            border-radius: 50%;
+            
+            box-shadow: inset 0 0 1em white, 0 0 2em white;
+
+        }
+        .bgc2 {
+        }
+        .bgc3 {
+        }
+        .svg {
+            height: 5vh;
+            display: block;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h3 {
+            color: white;
+            display: block;
+            padding-top: 5vh;
+            text-align: center;
+        }
+        .sh3 {
+        }
+        .circle {
+            margin-top: 20vh;
+            flex-grow:1;
+            max-width: 33.33%; /*zapytaj czy to dobre rozwiazanie*/
+        }
+        .th3 {
+        }
+        p {
+            color: white;
+            
+        }
+        .description {
+            display: inline;
+            text-align: center;
+        }
+        .partners {
+            height: 12vh;
+            background-color: white;
+            top: 67vh;
+        }
+        .logos {
+            display: block;
+            margin: auto;
+            transform: scale(1.2, 1.2);
+        }
+        .middle {
+            top: 70vh;
+            height: 80vh;
+            background-color: white;
+            display: flex;
+        }
+        .imac {
+            transform: scale(0.9, 0.9);
+            max-width: 50%;
+        }
+        .imac-des {
+
+        }
+        .header-imac {
+            margin-top: 10vh;
+            color: gray;
+            font-size: 2.5rem;
+            color: black;
+        }
+        .des-imac {
+            color: gray;
+            line-height: 2rem;
+        }
+        .plan {
+            top: 65vh;
+            height: 80vh;
+            display: flex;
+        }
+        .plan-des {
+            color: gray;
+            text-align: center;
+            padding-top: 2vh;
+        }
+        .pricing {
+            
+            height: 50vh;
+            display: flex;
+            top:30vh; /* zapytaj jak dziala vh dokladnie */
+            justify-content: space-evenly;
+        }
+        .p-box {
+            width: 20%;
+            height: 100%;
+            display: inline-block;
+
+            
+        }
+        .center {
+            width: 30%;
+            border: 1px white solid;
+            border-radius: 5%;
+            box-shadow: inset 0 0 1em white, 0 0 2em gray;
+        }
+        .dol {
+            font-size: 4rem;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 2vh;
+        }
+        .info {
+            text-align: center;
+            padding-top: 5vh;
+            font-weight: bold;
+            line-height: 3vh;
+        }
+        .team {
+            display: block;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 15vh;
+        }
+        .fnt {
+            font-size: 1.5rem;
+        }
+        .plan-dess {
+            color: gray;
+            text-align: center;
+            padding-top: 0;
+        }
+        .pad {
+            padding-top: 2vh;
+        }
+        .icons-div {
+            display: flex;
+            width: 30%;
+            left: 50%;
+            position: relative;
+            transform: translateX(-50%);
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <div class="green upper">
+        <nav class="container nav-flex">
+            <div class="logo">
+                <img src="images/logo.svg" alt="logo">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>The team</li>
+                    <li>Pricing</li>
+                    <li>Features</li>
+                </ul>
+            </div>
+        </nav>
+        <section class="blue first container">
+            <div class="div-button">
+                <p class="header">Beautiful Free Nova template</p>
+                <p class="txt">A top notch premium quality template for your next web project.</p>
+                <button class="download"><p class="d-button">Download FREE</p></button>
+            </div>
+            <div class="screen"><img id="ss" src="images/screen.png" alt="screen"></div>
+        </section>
+    </div>
+    <div class="green black">
+        <p class="fts">FEATURES</p>
+        <div class="blue flex-elements container">
+            <div class="circle"><div class="cir-bgc"><img class="svg" src="images/responsive.svg" alt="responsive"></div><h3>Lorem ipsum dolor sit amet.</h3><p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, libero!</p></div>
+            <div class="circle"><div class="cir-bgc bgc2"><img class="svg" src="images/customizable.svg" alt="customizable"></div><h3>Lorem ipsum dolor sit amet.</h3><p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, earum!</p></div>
+            <div class="circle"><div class="cir-bgc bgc3"><img class="svg" src="images/design.svg" alt="design"></div><h3>Lorem ipsum dolor sit amet.</h3><p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, provident!</p></div>
+            
+        </div>
+    </div>
+    <div class="green partners">
+        <div class="blue container">
+            <img class="logos" src="images/logos.png" alt="logos">
+        </div>
+    </div>
+    <div class="green middle">
+        <img class="imac" src="images/imac.png" alt="imac">
+        <article class="imac-des">
+            <p class="header-imac">SIMPLE AND BEAUTIFUL</p>
+            <p class="des-imac">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatum sint minima sit, at velit obcaecati accusamus aut quibusdam? Odit officiis necessitatibus voluptates consequatur voluptatem aperiam itaque perferendis nam, non iste nemo qui excepturi maiores nobis, quos obcaecati pariatur voluptate facilis sequi quisquam a? Consequatur!</p>
+        </article>
+    </div>
+    <div class="green plan">
+        <div class="blue">
+            <p class="header-imac">CHOOSE YOUR PRICING PLAN</p>
+            <p class="plan-des">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="blue pricing container">
+            <div class="p-box side">
+                <p class="plan-des">AGENCY</p>
+                <p class="dol">$15</p>
+                <p class="plan-des">per month</p>
+                <p class="plan-des info">Up to 25 Projects <br>2 Additional Developer <br>Unlimited Support</p>
+            </div>
+            <div class="p-box center">
+                <p class="plan-des">AGENCY</p>
+                <p class="dol">$15</p>
+                <p class="plan-des">per month</p>
+                <p class="plan-des info">Up to 25 Projects <br>2 Additional Developer <br>Unlimited Support</p>
+            </div>
+            <div class="p-box side">
+                <p class="plan-des">AGENCY</p>
+                <p class="dol">$15</p>
+                <p class="plan-des">per month</p>
+                <p class="plan-des info">Up to 25 Projects <br>2 Additional Developer <br>Unlimited Support</p>
+            </div>
+        </div>
+    </div>
+    <div class="green plan">
+        <div class="blue">
+            <p class="header-imac">THE TEAM</p>
+        </div>
+        <div class="blue pricing container">
+            <div class="p-box side">
+                <img class="team" src="images/ceo.png" alt="ceo">
+                <p class="plan-des fnt">CEO</p>
+                <p class="plan-dess info">Roll Over Beethoven</p>
+                <p class="plan-des">The one that puts it all together</p>
+                <div class="icons-div">
+                    <img class="pad" src="images/team-facebook.svg" alt="fb">
+                    <img class="pad" src="images/team-twitter.svg" alt="twitter">
+                    </div>
+            </div>
+            <div class="p-box">
+                <img class="team" src="images/cfo.png" alt="cfo">
+                <p class="plan-des fnt">CFO</p>
+                <p class="plan-dess info">Chuck Berry</p>
+                <p class="plan-des">The guy with his hand on the wallet</p>
+                <div class="icons-div">
+                    <img class="pad" src="images/team-facebook.svg" alt="fb">
+                    <img class="pad" src="images/team-twitter.svg" alt="twitter">
+                    </div>
+            </div>
+            <div class="p-box side">
+                <img class="team" src="images/cto.png" alt="cto">
+                <p class="plan-des fnt">CTO</p>
+                <p class="plan-dess info">Johnny B Good</p>
+                <p class="plan-des">The brains behind the whole operation</p> <!-- jak zrobic, by tekst sie nie zawijal ale zachowujac wymiary divow -->
+                <div class="icons-div">
+                <img class="" src="images/team-facebook.svg" alt="fb">
+                <img class="" src="images/team-twitter.svg" alt="twitter">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
