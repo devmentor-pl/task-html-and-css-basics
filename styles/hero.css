@@ -46,9 +46,3 @@
   right: -11px;
   top: -11px;
 }
-
-.hero__image img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}

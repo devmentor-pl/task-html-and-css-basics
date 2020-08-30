@@ -1,0 +1,15 @@
+.presentation {
+  display: flex;
+  padding: 5rem;
+}
+
+.presentation__image,
+.presentation__info {
+  padding: 5rem;
+  width: 49%;
+}
+
+.presentation__description {
+  line-height: 2;
+  max-width: 80%;
+}

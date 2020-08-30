@@ -31,3 +31,16 @@ body {
   min-height: 100vh;
   padding: 0;
 }
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.section-title {
+  font-weight: 200;
+  margin: 0;
+  padding: 4rem 0;
+  text-transform: uppercase;
+}
