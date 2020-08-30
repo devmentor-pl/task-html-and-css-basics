@@ -23,6 +23,7 @@
 .hero__description {
   font-size: 1.6rem;
   font-weight: 200;
+  margin-bottom: 3rem;
 }
 
 .hero__image {

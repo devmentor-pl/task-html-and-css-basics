@@ -11,3 +11,7 @@
 .button--call-to-action {
   background-color: var(--accent-color);
 }
+
+.button--call-to-action:hover {
+  background-color: var(--accent-dark-color);
+}
