@@ -1,0 +1,50 @@
+.team {
+  margin: 0 auto;
+  max-width: 1050px;
+  padding: 4rem 0 6rem;
+  text-align: center;
+}
+
+.team-members {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.team-member {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+.team-member__photo {
+  margin-bottom: 1rem;
+}
+
+.team-member__title {
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.team-member__name {
+  margin: 0;
+}
+
+.social-link {
+  display: inline-block;
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.social-link--facebook {
+  background: url(../images/team-facebook.svg) center center no-repeat;
+}
+
+.social-link--twitter {
+  background: url(../images/team-twitter.svg) center center no-repeat;
+}

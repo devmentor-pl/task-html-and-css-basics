@@ -15,7 +15,7 @@
 
 .pricing-plans__subtitle {
   font-size: 1.4rem;
-  margin: 0 0 3rem;
+  margin: 0 0 6rem;
   opacity: 0.5;
 }
 
@@ -65,7 +65,7 @@
 
 .pricing-plan__start-button {
   background-color: var(--button-background-color);
-  margin: auto 0 4rem;
+  margin: auto 0 1rem;
 }
 
 .pricing-plan__start-button:hover {
