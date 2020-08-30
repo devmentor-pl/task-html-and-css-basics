@@ -1,7 +1,7 @@
 .hero {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
   color: var(--secondary-text-color);
-  height: 100vh;
+  height: 80vh;
 }
 
 .hero__content {

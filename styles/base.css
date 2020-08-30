@@ -6,6 +6,8 @@
   --secondary-text-color: #fff;
   --accent-color: #25f18b;
   --accent-dark-color: #1fa562;
+  --features-background-color: #000;
+  --features-images-background-color: #fff;
 }
 
 html {
