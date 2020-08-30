@@ -4,7 +4,7 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1050px;
-  padding: 2rem 0;
+  padding: 2.4rem 0;
 }
 
 .nav__list {
@@ -17,9 +17,8 @@
 .nav__link {
   color: var(--secondary-text-color);
   display: inline-block;
-  font-size: 1.2rem;
   height: 100%;
-  padding: 1rem 1.5rem;
+  padding: 1rem 2rem;
   text-decoration: none;
   width: 100%;
 }
