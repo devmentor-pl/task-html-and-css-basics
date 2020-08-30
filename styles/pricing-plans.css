@@ -1,0 +1,77 @@
+.pricing-plans__wrapper {
+  background-color: var(--pricing-plans-background-color);
+}
+
+.pricing-plans {
+  margin: 0 auto;
+  max-width: 1050px;
+  padding: 4rem 0 6rem;
+  text-align: center;
+}
+
+.pricing-plans__title {
+  padding-bottom: 1rem;
+}
+
+.pricing-plans__subtitle {
+  font-size: 1.4rem;
+  margin: 0 0 3rem;
+  opacity: 0.5;
+}
+
+.pricing-plans__list,
+.pricing-plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-plans__list {
+  display: grid;
+  grid-column-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+}
+
+.pricing-plan__title {
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.pricing-plan__price {
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pricing-plan__price-period {
+  font-size: 1.2rem;
+  margin: 0 0 3rem;
+}
+
+.pricing-plan__features {
+  line-height: 1.8;
+  margin-bottom: 4rem;
+}
+
+.pricing-plan__start-button {
+  background-color: var(--button-background-color);
+  margin: auto 0 4rem;
+}
+
+.pricing-plan__start-button:hover {
+  background-color: var(--button-background-dark-color);
+}
+
+.pricing-plan--recommended {
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.2);
+}

@@ -8,6 +8,9 @@
   --accent-dark-color: #1fa562;
   --features-background-color: #000;
   --features-images-background-color: #fff;
+  --pricing-plans-background-color: #f2f5f5;
+  --button-background-color: #0abceb;
+  --button-background-dark-color: #09a6d2;
 }
 
 html {
