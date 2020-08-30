@@ -2,6 +2,9 @@
 
 :root {
   --background-color: #f9fafa;
+  --primary-text-color: #3c3c3c;
+  --secondary-text-color: #fff;
+  --accent-color: #25f18b;
 }
 
 html {
@@ -16,6 +19,11 @@ html {
 
 body {
   background-color: var(--background-color);
+  color: var(--primary-text-color);
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100vh;
+  padding: 0;
 }

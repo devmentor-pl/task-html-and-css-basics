@@ -1,0 +1,53 @@
+.hero {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  color: var(--secondary-text-color);
+  height: 100vh;
+}
+
+.hero__content {
+  display: flex;
+  margin: 3rem auto 0;
+  max-width: 1050px;
+}
+
+.hero__info {
+  flex: 1 1 0;
+  padding-right: 1rem;
+}
+
+.hero__title {
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+.hero__description {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+.hero__image {
+  flex: 2 1 0;
+  margin: 1rem 0 0 6rem;
+}
+
+.hero__image-wrapper {
+  position: relative;
+  transform: rotate(-4deg);
+}
+
+.hero__image-wrapper::after {
+  border: 1.2rem solid #fff;
+  border-radius: 1.1rem;
+  bottom: -18px;
+  content: "";
+  left: -14px;
+  position: absolute;
+  right: -14px;
+  top: -18px;
+}
+
+.hero__image img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}

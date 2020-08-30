@@ -7,6 +7,9 @@
     <title>Nova</title>
 
     <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/buttons.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
   </head>
   <body>
     <main class="main">
@@ -17,28 +20,35 @@
           </a>
 
           <nav class="nav">
-            <li class="nav__item">
-              <a href="#" class="nav__link">The Team</a>
-            </li>
-            <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
-            <li class="nav__item">
-              <a href="#" class="nav__link">Features</a>
-            </li>
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">The Team</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Pricing</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Features</a>
+              </li>
+            </ul>
           </nav>
         </header>
 
         <section class="hero__content">
           <div class="hero__info">
-            <h1>Beautiful Free Nova template</h1>
-            <p>
+            <h1 class="hero__title">Beautiful Free Nova template</h1>
+            <p class="hero__description">
               A top notch premium quality template for your next web project.
             </p>
             <button class="button button--call-to-action">
               Download FREE!
             </button>
           </div>
+
           <div class="hero__image">
-            <img src="images/screen.png" alt="Image of the app." />
+            <div class="hero__image-wrapper">
+              <img src="images/screen.png" alt="Image of the app." />
+            </div>
           </div>
         </section>
       </div>
