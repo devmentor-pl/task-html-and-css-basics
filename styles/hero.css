@@ -29,6 +29,7 @@
 .hero__image {
   flex: 3 1 0;
   margin: 1rem 0 0 6rem;
+  padding: 0 3rem;
 }
 
 .hero__image-wrapper {
@@ -45,4 +46,34 @@
   position: absolute;
   right: -11px;
   top: -11px;
+}
+
+@media (max-width: 1440px) {
+  .hero__info {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__content {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .hero__info {
+    order: 1;
+    padding: 0 6rem;
+  }
+
+  .hero__image {
+    order: 0;
+    margin-bottom: 4rem;
+    width: 80%;
+  }
+}
+
+@media (max-width: 380px) {
+  .hero__content {
+    clear: both;
+  }
 }

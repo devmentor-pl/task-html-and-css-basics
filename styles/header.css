@@ -7,6 +7,10 @@
   padding: 2.4rem 0;
 }
 
+.nav__menu-button {
+  display: none;
+}
+
 .nav__list {
   display: flex;
   list-style: none;
@@ -25,4 +29,113 @@
 
 .nav__link:hover {
   color: var(--accent-color);
+}
+
+@media (max-width: 1440px) {
+  .header {
+    padding: 2.4rem 2rem;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 540px) {
+  .header {
+    display: block;
+  }
+
+  .nav {
+    margin-top: 1rem;
+  }
+
+  .nav__list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 380px) {
+  .header {
+    display: block;
+    min-height: 110px;
+    position: relative;
+  }
+
+  .header__logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .nav {
+    float: right;
+    margin-bottom: 4rem;
+  }
+
+  .nav__menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 3rem 2rem;
+    position: relative;
+    user-select: none;
+  }
+
+  .nav__menu-icon > span {
+    background-color: #fff;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background-color 0.2s ease-out;
+    width: 18px;
+  }
+
+  .nav__menu-icon > span::before,
+  .nav__menu-icon > span::after {
+    background-color: #fff;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    width: 100%;
+  }
+
+  .nav__menu-icon > span::before {
+    top: 5px;
+  }
+
+  .nav__menu-icon > span::after {
+    top: -5px;
+  }
+
+  .nav__menu-button:checked ~ .nav__list {
+    max-height: 150px;
+  }
+
+  .nav__menu-button:checked ~ .nav__menu-icon > span {
+    background-color: transparent;
+  }
+
+  .nav__menu-button:checked ~ .nav__menu-icon > span::before {
+    transform: rotate(-45deg);
+  }
+
+  .nav__menu-button:checked ~ .nav__menu-icon > span::after {
+    transform: rotate(45deg);
+  }
+
+  .nav__menu-button:checked ~ .nav__menu-icon > span::before,
+  .nav__menu-button:checked ~ .nav__menu-icon > span::after {
+    top: 0;
+  }
+
+  .nav__list {
+    clear: both;
+    display: block;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .nav__link {
+    display: block;
+  }
 }
