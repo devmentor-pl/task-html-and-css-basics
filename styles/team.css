@@ -48,3 +48,9 @@
 .social-link--twitter {
   background: url(../images/team-twitter.svg) center center no-repeat;
 }
+
+@media (max-width: 580px) {
+  .team-members {
+    grid-template-columns: 1fr;
+  }
+}
