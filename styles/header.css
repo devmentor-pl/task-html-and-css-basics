@@ -71,7 +71,6 @@
 
   .nav__menu-icon {
     cursor: pointer;
-    display: inline-block;
     float: right;
     padding: 3rem 2rem;
     position: relative;

@@ -13,3 +13,26 @@
   line-height: 2;
   max-width: 80%;
 }
+
+@media (max-width: 768px) {
+  .presentation {
+    flex-direction: column;
+  }
+
+  .presentation__image {
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+  }
+
+  .presentation__info {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .presentation {
+    padding: 3rem;
+  }
+}
