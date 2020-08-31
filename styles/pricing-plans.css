@@ -75,3 +75,12 @@
 .pricing-plan--recommended {
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 768px) {
+  .pricing-plans__subtitle {
+    padding: 0 2rem;
+  }
+  .pricing-plans__list {
+    grid-template-columns: 1fr;
+  }
+}
