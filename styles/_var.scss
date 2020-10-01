@@ -6,6 +6,7 @@ sans-serif;
 $smaller: 14px;
 $standard: 16px;
 $bigger: 20px;
+$biggest: 30px;
 $heroBig: 40px;
 
 //Color variables
@@ -13,9 +14,10 @@ $white: #FEFFF9;
 $pink: #c24a7e;
 $orange: #F9B349;
 $lime: #25F18B;
+$black: #000;
 
 //Mixins
-@mixin padding($bottom:40px, $top:40px) {
+@mixin padding($bottom:60px, $top:60px) {
     padding-top: $bottom;
     padding-bottom: $bottom;
 }
