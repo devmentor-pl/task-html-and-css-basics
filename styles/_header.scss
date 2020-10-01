@@ -1,0 +1,127 @@
+@import '_var.scss';
+
+header {
+    background: radial-gradient($pink, rgb(105, 86, 235))
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    @include padding();
+
+
+    &__image {
+        width: 75%;
+    }
+
+    &__items {
+        width: 30%;
+        overflow: hidden;
+        padding: 15px 0px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+
+
+    &__link {
+        color: $white;
+        font-family: $fontRobot;
+        font-size: $standard;
+        font-weight: 700;
+        letter-spacing: 1px;
+        overflow: hidden;
+        position: relative;
+        text-decoration: none;
+        text-transform: capitalize;
+
+        &::after {
+            bottom: -20%;
+            background-color: $orange;
+            content: '';
+            height: 3px;
+            left: -10%;
+            position: absolute;
+            transform: translateX(-500%);
+            transition: .3s ease-in;
+            width: 120%;
+
+        }
+
+        &:hover::after {
+            transform: translateX(0%);
+        }
+    }
+}
+
+.hero {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    min-height: 75vh;
+}
+
+.hero__description {
+    margin-top: 40px;
+    flex-basis: 30%;
+}
+
+.hero__title {
+    color: $white;
+    margin-bottom: 30px;
+
+    &--big {
+        font-size: $heroBig;
+        text-transform: capitalize;
+    }
+
+    &--small {
+        font-weight: 300;
+        font-size: $bigger;
+        line-height: 150%;
+        width: 75%;
+    }
+}
+
+.button {
+    border: 4px solid $lime;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: $fontMont;
+    font-size: $smaller;
+    font-weight: 700;
+    outline: none;
+    padding: 20px 48px;
+    transition: .3s ease-in;
+
+    &--hero {
+        background-color: $lime;
+        color: $white;
+    }
+
+    &:hover {
+        background-color: transparent;
+        border: 4px solid $lime;
+        border-radius: 5px;
+    }
+
+}
+
+.hero__graphics {
+    align-items: center;
+    display: flex;
+    flex-basis: 60%;
+    justify-content: center;
+    transform: rotate(-5deg);
+}
+
+.hero__graphics-img {
+    width: 100%;
+}

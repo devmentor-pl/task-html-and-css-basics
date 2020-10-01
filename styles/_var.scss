@@ -1,0 +1,21 @@
+//Font variables
+$fontMont: 'Montserrat',
+sans-serif;
+$fontRobot: 'Roboto',
+sans-serif;
+$smaller: 14px;
+$standard: 16px;
+$bigger: 20px;
+$heroBig: 40px;
+
+//Color variables
+$white: #FEFFF9;
+$pink: #c24a7e;
+$orange: #F9B349;
+$lime: #25F18B;
+
+//Mixins
+@mixin padding($bottom:40px, $top:40px) {
+    padding-top: $bottom;
+    padding-bottom: $bottom;
+}

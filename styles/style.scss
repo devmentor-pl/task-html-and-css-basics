@@ -1,0 +1,21 @@
+//MAIN styling file
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+@import '_var.scss';
+@import '_header.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fontMont;
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1050px;
+}
