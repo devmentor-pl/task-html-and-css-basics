@@ -1,0 +1,8 @@
+@import '_var.scss';
+
+.logos {
+    @include padding();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
