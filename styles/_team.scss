@@ -1,0 +1,54 @@
+@import '_var.scss';
+
+.team__members {
+    @include padding();
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.team__member {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: stretch;
+    width: 30%;
+}
+
+.team__image {
+    margin-bottom: 60px;
+    transition: .3s linear;
+
+    &:hover {
+        filter: brightness(125%);
+        transform: scale(1.25);
+    }
+}
+
+.team__text {
+    font-weight: 300;
+    font-size: $smaller;
+    margin-bottom: 20px;
+    text-align: center;
+
+    &--big {
+
+        font-size: $bigger;
+        text-transform: uppercase;
+    }
+
+    &--bold {
+        color: $darkGray;
+        font-weight: 700;
+    }
+}
+
+.team__icon--link {
+    color: $darkGray;
+}
+
+i {
+    padding: 0 10px;
+}

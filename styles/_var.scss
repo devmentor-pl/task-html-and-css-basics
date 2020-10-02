@@ -15,11 +15,12 @@ $pink: #c24a7e;
 $orange: #F9B349;
 $lime: #25F18B;
 $black: #000;
-$blue: #0ABCEB;
+$blue: rgb(10, 188, 235);
 $gray: rgb(200, 200, 200);
-$darkGray: rgb(180, 180, 180);
+$darkGray: #464646;
 
 //Mixins
+
 @mixin padding($bottom:60px, $top:60px) {
     padding-top: $bottom;
     padding-bottom: $bottom;
