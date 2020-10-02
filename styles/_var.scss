@@ -3,24 +3,27 @@ $fontMont: 'Montserrat',
 sans-serif;
 $fontRobot: 'Roboto',
 sans-serif;
+
+//Font sizes
 $smaller: 14px;
 $standard: 16px;
 $bigger: 20px;
 $biggest: 30px;
 $heroBig: 40px;
 
+
 //Color variables
-$white: #FEFFF9;
-$pink: #c24a7e;
-$orange: #F9B349;
-$lime: #25F18B;
 $black: #000;
 $blue: rgb(10, 188, 235);
-$gray: rgb(200, 200, 200);
 $darkGray: #464646;
+$gray: rgb(200, 200, 200);
+$lime: #25F18B;
+$orange: #F9B349;
+$pink: #c24a7e;
+$white: #FEFFF9;
+
 
 //Mixins
-
 @mixin padding($bottom:60px, $top:60px) {
     padding-top: $bottom;
     padding-bottom: $bottom;

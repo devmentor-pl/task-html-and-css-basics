@@ -1,5 +1,3 @@
-@import '_var.scss';
-
 .team__members {
     @include padding();
     align-items: center;
@@ -34,7 +32,6 @@
     text-align: center;
 
     &--big {
-
         font-size: $bigger;
         text-transform: uppercase;
     }
