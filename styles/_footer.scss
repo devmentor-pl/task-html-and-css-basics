@@ -1,0 +1,19 @@
+@import '_var.scss';
+
+footer {
+    @include padding(30px, 30px);
+    background-color: $darkGray;
+    color: $white;
+    text-align: center;
+}
+
+.footer__text {
+    font-family: $fontRobot;
+    font-size: $smaller;
+    font-weight: 700;
+}
+
+.footer__image {
+    padding-left: 10px;
+    vertical-align: -50%;
+}

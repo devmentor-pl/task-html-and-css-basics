@@ -462,6 +462,25 @@ i {
   padding: 0 10px;
 }
 
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #464646;
+  color: #FEFFF9;
+  text-align: center;
+}
+
+.footer__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.footer__image {
+  padding-left: 10px;
+  vertical-align: -50%;
+}
+
 * {
   margin: 0;
   padding: 0;
