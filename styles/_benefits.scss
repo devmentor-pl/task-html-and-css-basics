@@ -1,0 +1,33 @@
+@import '_var.scss';
+
+.benefits {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    &__computer-img {
+        width: 45%;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__description {
+        padding-top: 30px;
+        width: 40%;
+    }
+}
+
+.text__description--left {
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.text__description--small {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 60%;
+}
