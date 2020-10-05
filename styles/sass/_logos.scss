@@ -1,6 +1,6 @@
 .logos {
-    @include padding();
     align-items: center;
     display: flex;
     justify-content: center;
+    padding: 60px 0;
 }

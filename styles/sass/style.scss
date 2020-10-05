@@ -1,4 +1,9 @@
 //MAIN styling file
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
 
@@ -11,12 +16,6 @@
 @import '_team.scss';
 @import '_footer.scss';
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: $fontMont;

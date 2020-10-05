@@ -4,7 +4,8 @@
     width: 100%;
 
     &__text {
-        @include padding(80px, 60px);
+        padding-bottom: 60px;
+        padding-top: 80px;
     }
 
     &__items {

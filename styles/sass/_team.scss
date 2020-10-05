@@ -1,8 +1,8 @@
 .team__members {
-    @include padding();
     align-items: center;
     display: flex;
     justify-content: space-around;
+    padding: 60px 0;
     width: 100%;
 }
 

@@ -1,10 +1,10 @@
 // @import '_var.scss';
 
 footer {
-    @include padding(30px, 30px);
     background-color: $darkGray;
     color: $white;
     text-align: center;
+    padding: 30px 0;
 }
 
 .footer__text {

@@ -18,14 +18,16 @@
     }
 }
 
-.text__description--left {
-    margin-bottom: 60px;
-    text-align: left;
-}
+.text__description {
+    &--left {
+        margin-bottom: 60px;
+        text-align: left;
+    }
 
-.text__description--small {
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-align: left;
-    width: 60%;
+    &--small {
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-align: left;
+        width: 60%;
+    }
 }

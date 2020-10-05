@@ -21,10 +21,3 @@ $lime: #25F18B;
 $orange: #F9B349;
 $pink: #c24a7e;
 $white: #FEFFF9;
-
-
-//Mixins
-@mixin padding($bottom:60px, $top:60px) {
-    padding-top: $bottom;
-    padding-bottom: $bottom;
-}
