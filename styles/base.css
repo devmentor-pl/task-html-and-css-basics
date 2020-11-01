@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url('./../Montserrat/Montserrat-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url('./../Montserrat/Montserrat-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url('./../Montserrat/Montserrat-Italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Montserrat',  sans-serif;
+}
+
+a {
+    color: rgb(255, 255, 255, 1);
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+}
+
+button {
+    color: rgba(255, 255, 255, 1);
+    width: 50%;
+    min-height: 50px;
+    border: 0;
+    border-radius: 10px;
+}
+
+button:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+.sectionOne {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.sectionTwo {
+    background: rgba(0, 0, 0, 1)
+}
+
+.sectionFour, .sectionSix {
+    background: rgba(255, 255, 255, 1)
+}
+
+.sectionThree, .sectionFive {
+    background: rgba(248, 249, 249, 1)
+}
+
+.row, .cell, .container {
+    /* margin: 5px; */
+    padding: 5px;
+    /* outline: 3px solid; */
+}
+
+.row {
+    width: 100%;
+    /* margin-bottom: 10px;
+    outline-color: rgba(11, 128, 0, 0.87); */
+} 
+
+.container {
+    margin: 0 auto;
+    max-width: 1050px;
+    /* outline-color: rgba(0, 89, 255, 0.76); */
+}
+
+.cell {
+    min-height: 50px;
+    /* outline-color: rgba(255, 166, 0, 0.986);  */
+}
