@@ -7,7 +7,7 @@
 .content__information {
     min-height: 400px;
     width: 75%;
-    color: rgba(255, 255, 255, 1);   
+    color: var(--color-section-four);   
 }
 
 .content__article {
@@ -24,7 +24,7 @@
     width: 25%;
 }
 
-.content__ads--sectionTwo {
+.content__ads--section-two {
 	height: 50%;
 	width: 100%;
     display: flex;
@@ -34,7 +34,7 @@
     text-align: center;
 }
 
-.content__ads--sectionFive {
+.content__ads--section-five {
 	height: 33%;
     width: 100%;
     display: flex;
@@ -44,7 +44,7 @@
     text-align: center;
 }
 
-.content__ads--sectionSix {
+.content__ads--section-six {
 	height: 50%;
 	width: 100%;
     display: flex;
@@ -75,13 +75,13 @@
 }
 
 .content__information > button {
-    background-color: rgba(37, 241, 139, 1);
+    background-color: var(--color-section-one-gamma);
     margin-top: 30px;
 }
 
 .content__information > figure {
     width: 80%;
-    background-color:  rgba(255, 255, 255, 1);
+    background-color: var(--color-section-four);
     text-align: center;
     border-radius: 20px;
     transform: matrix(1, -0.1 ,0.1, 1, 70, 30);
@@ -93,7 +93,7 @@
 
 .content__information > figure:hover {
     width: 80%;
-    background-color:  rgba(255, 255, 255, 1);
+    background-color: var(--color-section-four);
     text-align: center;
     border-radius: 20px;
     cursor: pointer;
@@ -112,7 +112,7 @@
 /*-------------------------------------------------------*/
 /*--------------- Stylizacja Sekcji 2 -------------------*/
 .content__container--backgroundBlack {
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--color-section-two-alfa);
     font-style: normal;
 }
 
@@ -122,29 +122,29 @@
     margin: 2%;
 }
 
-figure.content__ads--sectionTwo {
-    background-color: rgba(255, 255, 255, 1);
+figure.content__ads--section-two {
+    background-color: var(--color-section-four);
     width: 80px;
     height: 80px;
     border-radius: 100%;
 }
 
-.content__ads--sectionTwo > img {
+.content__ads--section-two > img {
     transition: transform .3s ease-in-out;
 }
 
-.content__ads--sectionTwo > img:hover {
+.content__ads--section-two > img:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
 
-.content__ads--sectionTwo > span {
+.content__ads--section-two > span {
     font-weight: bold;
     margin-top: 15%;
     margin-bottom: 5%;
 }
 
-.content__ads--sectionTwo > p {
+.content__ads--section-two > p {
     font-size: 15px;
 }
 
@@ -153,7 +153,7 @@ figure.content__ads--sectionTwo {
 .content__article {
     min-height: 400px;
     width: 75%;
-    color: rgba(0, 0, 0, 0.6);
+    color: var(--color-section-four-alfa);
 }
 
 .content__article > h1 {
@@ -173,16 +173,16 @@ figure.content__ads--sectionTwo {
 
 /*-------------------------------------------------------*/
 /*--------------- Stylizacja Sekcji 5 -------------------*/
-.sectionFive > .content__container > .content__ads:hover {
-    background-color: rgba(255, 255, 255, 1);
-    box-shadow: 0 0 20px 10px rgba(225, 228, 231, 0.8)
+.section-five > .content__container > .content__ads:hover {
+    background-color: var(--color-section-four);
+    box-shadow: 0 0 20px 10px var(--color-section-five-alfa);
 }
 
 .content__container--backgroundWhite {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--color-section-five-beta);
     font-style: normal;
 }
 
@@ -198,59 +198,58 @@ figure.content__ads--sectionTwo {
     margin: 0.5%;
 }
 
-.content__ads--sectionFive > span:first-child {
+.content__ads--section-five > span:first-child {
     font-size: 20px;
     letter-spacing: 1px;
 }
 
-.content__ads--sectionFive > *:first-child + * {
+.content__ads--section-five > *:first-child + * {
     font-size: 40px;
     font-weight: bold;
 }
 
-.content__ads--sectionFive > span:last-child {
+.content__ads--section-five > span:last-child {
     font-size: 12px;
 }
 
-p.content__ads--sectionFive {
+p.content__ads--section-five {
     font-size: 13px;
     font-weight: bold;
     width: 65%;
 }
 
-.content__ads--sectionFive > button {
-    background-color: rgba(10, 188, 235, 1);
+.content__ads--section-five > button {
+    background-color: var(--color-section-five-gamma);
 }
 
 /*-------------------------------------------------------*/
 /*--------------- Stylizacja Sekcji 6 -------------------*/
-.content__ads--sectionSix > span:first-child {
+.content__ads--section-six > span:first-child {
     font-size: 20px;
     letter-spacing: 2px;
 }
 
-.content__ads--sectionSix > *:first-child + * {
+.content__ads--section-six > *:first-child + * {
     font-size: 16px;
     font-weight: bold;
-    color:  rgba(0, 0, 0, 0.8);
+    color: var(--color-section-six-alfa);
 }
 
-.content__ads--sectionSix > p {
+.content__ads--section-six > p {
     font-size: 12px;
 }
 
-.content__ads--sectionSix > figure {
+.content__ads--section-six > figure {
     display: flex;
 }
 
-.content__ads--sectionSix > figure > a > img {
+.content__ads--section-six > figure > a > img {
     margin-right: 15px;
     transform: scale(1.2);
     transition: transform .5s ease-in-out;
 }
 
-.content__ads--sectionSix > figure > a > img:hover {
-    /* background-color: rgba(48, 149, 211, 0.6); */
+.content__ads--section-six > figure > a > img:hover {
     cursor: pointer;
     transform: scale(2);
 }

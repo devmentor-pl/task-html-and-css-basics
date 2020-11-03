@@ -29,7 +29,7 @@
 }
 
 .nav__item:hover {
-	border-top: 2px solid rgb(255, 255, 255, 1);
+	border-top: 2px solid var(--color-section-four);
 	margin-top: -2px;
 }
 
@@ -59,10 +59,10 @@
 }
 
 .dropdown__item {
-	background-color: rgba(138, 82, 194, 0.8);
+	background-color: var(--color-header-nav);
 }
 .dropdown__item:hover {
-	border-top: 2px solid rgba(255, 255, 255, 1);
+	border-top: 2px solid var(--color-section-four);
 	margin-top: -2px;
 }
 /*-------------------------------------------------------*/

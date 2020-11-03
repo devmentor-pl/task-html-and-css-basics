@@ -1,13 +1,16 @@
 .footer {
-    background-color: rgba(70, 70, 70, 0.9);
-    color: rgb(255, 255, 255, 1);
+    background-color: var(--color-footer);
+    color: var(--color-section-four);
+}
+
+.footer > p {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footer > span {
+.footer > p > span {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     margin-right: 10px;
 }

@@ -1,22 +1,42 @@
 @font-face {
     font-family: 'Montserrat';
-    src: local('Montserrat'), url('./../Montserrat/Montserrat-Regular.ttf');
+    src: local('Montserrat'), url('./../fonts/Montserrat/Montserrat-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: local('Montserrat'), url('./../Montserrat/Montserrat-Bold.ttf');
+    src: local('Montserrat'), url('./../fonts/Montserrat/Montserrat-Bold.ttf');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: local('Montserrat'), url('./../Montserrat/Montserrat-Italic.ttf');
+    src: local('Montserrat'), url('./../fonts/Montserrat/Montserrat-Italic.ttf');
     font-weight: normal;
     font-style: italic;
+}
+
+:root {
+    --color-section-two: rgba(0, 0, 0, 1);
+    --color-section-six-alfa: rgba(0, 0, 0, 0.8);
+    --color-section-four-alfa: rgba(0, 0, 0, 0.6);
+    --color-section-five-beta: rgba(0, 0, 0, 0.5);
+    --color-footer: rgba(70, 70, 70, 0.9);
+    --color-section-four: rgba(255, 255, 255, 1);
+    --color-section-two-alfa: rgba(255, 255, 255, 0.7);
+    --color-section-three: rgba(248, 249, 249, 1);
+    --color-section-five-alfa: rgba(225, 228, 231, 0.8);
+    --color-row: rgba(11, 128, 0, 0.87);
+    --color-container: rgba(0, 89, 255, 0.76);
+    --color-cell: rgba(255, 166, 0, 0.986);
+    --color-section-five-gamma: rgba(10, 188, 235, 1);
+    --color-section-one-gamma: rgba(37, 241, 139, 1);
+    --color-section-one-alfa: rgb(194, 74, 126);
+    --color-section-one-beta: rgb(105, 86, 235);
+    --color-header-nav: rgba(138, 82, 194, 0.8);
 }
 
 body {
@@ -24,7 +44,7 @@ body {
 }
 
 a {
-    color: rgb(255, 255, 255, 1);
+    color: var(--color-section-four);
 	text-align: center;
 	text-decoration: none;
 	display: block;
@@ -32,7 +52,7 @@ a {
 }
 
 button {
-    color: rgba(255, 255, 255, 1);
+    color: var(--color-section-four);
     width: 50%;
     min-height: 50px;
     border: 0;
@@ -40,7 +60,7 @@ button {
 }
 
 button:hover {
-    border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid var(--color-section-four);
 }
 
 p {
@@ -53,20 +73,20 @@ figure {
 	padding: 0;
 }
 
-.sectionOne {
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+.section-one {
+    background: radial-gradient(var(--color-section-one-alfa), var(--color-section-one-beta));
 }
 
-.sectionTwo {
-    background: rgba(0, 0, 0, 1)
+.section-two {
+    background: var(--color-section-two);
 }
 
-.sectionFour, .sectionSix {
-    background: rgba(255, 255, 255, 1)
+.section-four, .section-six {
+    background: var(--color-section-four);
 }
 
-.sectionThree, .sectionFive {
-    background: rgba(248, 249, 249, 1)
+.section-three, .section-five {
+    background: var(--color-section-three);
 }
 
 .row, .cell, .container {
@@ -78,16 +98,16 @@ figure {
 .row {
     width: 100%;
     /* margin-bottom: 10px;
-    outline-color: rgba(11, 128, 0, 0.87); */
+    outline-color: var(--color-row); */
 } 
 
 .container {
     margin: 0 auto;
     max-width: 1050px;
-    /* outline-color: rgba(0, 89, 255, 0.76); */
+    /* outline-color: var(--color-container); */
 }
 
 .cell {
     min-height: 50px;
-    /* outline-color: rgba(255, 166, 0, 0.986);  */
+    /* outline-color: var(--color-cell);  */
 }
