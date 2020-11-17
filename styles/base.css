@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .row, .container, .cell {
+    outline: 2px solid
+}
+
+.row {
+    outline-color: green;
+}
+
+.container {
+    outline-color: lightblue;
+}
+
+.cell {
+    outline-color: yellow;
+} */
