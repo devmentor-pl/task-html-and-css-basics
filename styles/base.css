@@ -13,7 +13,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* .row, .container, .cell {
+.row, .container, .cell {
     outline: 2px solid
 }
 
@@ -26,5 +26,5 @@ body {
 }
 
 .cell {
-    outline-color: yellow;
-} */
+    outline-color: orange;
+}

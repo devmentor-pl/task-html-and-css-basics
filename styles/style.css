@@ -39,11 +39,7 @@
 
 
 /* Header */
-.heading {
-    font-size: 4rem;
-    color: #fff;
-    margin-bottom: 2rem;
-}
+
 
 .header__content {
     display: flex;
@@ -53,7 +49,7 @@
 }
 
 .header__heading {
-    padding-top: 10rem;
+    padding: 10rem;
     color: #fff;
     margin-left: 1rem;
     
@@ -111,4 +107,186 @@
     transform: scale(1.1);
     box-shadow: 2px 2px 4px #000;
     transition: all 1s;
+}
+
+/* HEADING */
+.heading {
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.heading--two {
+    font-size: 3.7rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+.heading--two-black {
+    color: #000;
+    font-size: 3.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.heading--three {
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Futures */
+
+.features {
+    background-color: #000;
+    color: #fff;
+    padding: 15rem;
+}
+
+.feature__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__heading {
+    padding: 3rem;
+}
+
+.features__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    list-style-type: none;
+    width: calc(100%/3);
+}
+
+.feature__item {
+    max-width: 70%;
+}
+
+.feature__img {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 10px #fff;
+}
+
+.feature__img > img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.feature__text {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 0;
+}
+
+/* Companys Logo */
+
+.cooperating-companies {
+    background-color: #fff;
+}
+
+.cooperating-companies__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+/* Company description */
+
+.company-wrapper {
+    background-color: #fff;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.company-wrapper__img {
+    flex-basis: 49%;
+    padding: 5rem;
+}
+
+.company-wrapper__img > img {
+    width: 100%;
+}
+
+.company-wrapper__description {
+    flex-basis: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15rem;
+    width: 100px;
+}
+
+.heading-company__text {
+    line-height: 2.5;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+}
+
+
+/* Plan */
+.pricing-plans {
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.pricing-plans__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.pricing-plans__heading  .text {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: rgb(124, 115, 115);
+    margin-top: 0;
+}
+
+.offers {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.pricing-plans__offer {
+    display: flex;
+    align-items: stretch;
+    justify-self: center;
+    margin: .4rem;
+    width: 25%;
+}
+
+.offers-plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.offers-plan__item > h3 {
+    font-weight: 400;
 }

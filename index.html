@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Nova | Home Page</title>
@@ -38,19 +39,23 @@
         </article>
     </header>
 
-    <!--Section features-->
-    <!-- <section class="features row">
-        <h1 class="feature__heading">Features</h1>
-        <div class="feature__container container">
+    <!-- Section features-->
+     <section class="features row">
+         <div class="feature__heading container">
+             <h2 class="heading heading--two">Features</h2>
+         </div>
+        <article class="feature__container container">
             <ul class="features__list cell">
                 <li class="feature__item">
-                    <img src="./images/responsive.svg" alt="">
+                    <figure class="feature__img ">
+                        <img src="./images/responsive.svg" alt=""></>
+                    </figure>  
                 </li>
                 <li class="feature__item">
-                    <h3 class="feature__heading">Fully Responsive</h3>
+                    <h3 class="heading heading--three">Fully Responsive</h3>
                 </li>
                 <li class="feature__item">
-                    <p>
+                    <p class="feature__text">
                         Looks amazing on any device: smartohone, tablet,laptop and desktop.
                     </p>
                 </li>
@@ -58,13 +63,15 @@
 
             <ul class="features__list cell">
                 <li class="feature__item">
+                    <figure class="feature__img">
                     <img src="./images/customizable.svg" alt="">
+                </figure>
                 </li>
                 <li class="feature__item">
-                    <h3 class="feature__heading">customizable</h3>
+                    <h3 class="heading heading--three">customizable</h3>
                 </li>
                 <li class="feature__item">
-                    <p>
+                    <p class="feature__text">
                         Change the colors, pictures or any of the sections to suit your needs.
                     </p>
                 </li>
@@ -72,19 +79,109 @@
 
             <ul class="features__list cell">
                 <li class="feature__item">
-                    <img src="./images/design.svg" alt="">
+                    <figure class="feature__img">
+                        <img src="./images/design.svg" alt="">
+                    </figure>
                 </li>
                 <li class="feature__item">
-                    <h3 class="feature__heading">Slick and Beatiful design</h3>
+                    <h3 class="heading heading--three">Slick and Beatiful design</h3>
                 </li>
                 <li class="feature__item">
-                    <p clss="feature__">
+                    <p class="feature__text">
                         Trendy and fresh design, fits any website.
                     </p>
                 </li>
             </ul>
+        </article>
+    </section>
+
+    <!-- Cooperating companies-->
+    <section class="cooperating-companies row">
+        <div class="cooperating-companies__container container">
+            <img src="./images/logos.png" alt="Logo of basecamp, grubhub, trello buffer and pocket">
         </div>
-    </section> -->
+    </section>
+
+    <!--Company Descriptions-->
+    <section class="company-wrapper row">
+        <section class="company-wrapper__img cell">
+            <img src="./images/imac.png" alt="iMac">
+        </section>
+        <article class="company-wrapper__description cell">
+            <h2 class="heading heading--two-black">Simple and beautiful</h2>
+            <p class="heading-company__text">Use Nova for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is free for any kind of use, personal and commercial. Have fun and good luck!</p>
+        </article>
+    </section>
+
+    <!-- Offers plan-->
+    <article class="pricing-plans row">
+        <header class="pricing-plans__heading container">
+            <h1 class="heading heading--two-black">CHOOSE YOU PRICING PLAN</h1>
+            <p class="text">Pick any of our super affordable pricing plans</p>
+        </header>
+
+        <div class="offers container">
+            <section class="pricing-plans__offer cell">
+                <ul class="offers-plan">
+                    <li class="offers-plan__item">
+                        <h3>BASIC</h3>
+                    </li>
+                    <li class="offers-plan__item">
+                        <span>&#36;15</span>
+                        <span>per month</span>
+                    </li>
+                    <li class="offers-plan__item">
+                        <p>Up to 7 Projects</p> 
+                        <p>2 Additional Developers</p>
+                    </li>
+                    <li class="offers-plan__item"><button class="btn">Get Started</button></li>
+                </ul>
+            </section>
+    
+            <section class="pricing-plans__offer cell">
+                <ul class="offers-plan">
+                    <li class="offers-plan__item">
+                        <h3>BASIC</h3>
+                    </li>
+                    <li class="offers-plan__item">
+                        <span>&#36;55</span>
+                        <span>per month</span>
+                    </li>
+                    <li class="offers-plan__item">
+                        <p> Up to 25 Projects 2</p> 
+                        <p>Additional Developers</p> 
+                        <p>Unlimited Support</p>
+                    </li>
+                    <li class="offers-plan__item">
+                        <button class="btn">Get Started</button>
+                    </li>
+                </ul>
+                
+            </section>
+    
+            <section class="pricing-plans__offer cell">
+                <ul class="offers-plan">
+                    <li class="offers-plan__item">
+                        <h3>BASIC</h3>
+                    </li>
+                    <li class="offers-plan__item">
+                        <span>&#36;75</span>
+                        <span>per month</span>
+                    </li>
+                    <li class="offers-plan__item">
+                        <p>Up to 7 Projects</p> 
+                        <p>2 Additional Developers</p>
+                        <p>Unlimited Support</p>
+                        <p>1.5GB Disk</p>
+                    </li>
+                    <li class="offers-plan__item"><button class="btn">Get Started</button></li>
+                </ul>
+            </section>
+    
+        </div>
+
+    </article>
+
 </body>
 
 </html>
