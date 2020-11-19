@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/base.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/_variables.css">
+    <link rel="stylesheet" href="./styles/_base.css">
+    <link rel="stylesheet" href="./styles/_layout.css">
+    <link rel="stylesheet" href="./styles/_heading.css">
+    <link rel="stylesheet" href="./styles/_button.css">
+    <link rel="stylesheet" href="./styles/_style.css">
     <title>Nova | Home Page</title>
 </head>
 
@@ -28,7 +34,7 @@
             <section class="header__heading cell">
                 <h1 class="heading">Beatuiful Free Nova template</h1>
                 <p class="header__description">A top notch premium quality template for you next web project.</p>
-                <button class="btn btn--header">Download FREE!</button>
+                <button class="btn btn--header btn--green">Download FREE!</button>
             </section>
 
             <section class="header__image cell">
@@ -40,16 +46,16 @@
     </header>
 
     <!-- Section features-->
-     <section class="features row">
-         <div class="feature__heading container">
-             <h2 class="heading heading--two">Features</h2>
-         </div>
+    <section class="features row">
+        <div class="feature__heading container">
+            <h2 class="heading heading--two">Features</h2>
+        </div>
         <article class="feature__container container">
             <ul class="features__list cell">
                 <li class="feature__item">
                     <figure class="feature__img ">
-                        <img src="./images/responsive.svg" alt=""></>
-                    </figure>  
+                        <img src="./images/responsive.svg" alt="Mobile phone">
+                    </figure>
                 </li>
                 <li class="feature__item">
                     <h3 class="heading heading--three">Fully Responsive</h3>
@@ -64,8 +70,8 @@
             <ul class="features__list cell">
                 <li class="feature__item">
                     <figure class="feature__img">
-                    <img src="./images/customizable.svg" alt="">
-                </figure>
+                        <img src="./images/customizable.svg" alt="Tools">
+                    </figure>
                 </li>
                 <li class="feature__item">
                     <h3 class="heading heading--three">customizable</h3>
@@ -80,7 +86,7 @@
             <ul class="features__list cell">
                 <li class="feature__item">
                     <figure class="feature__img">
-                        <img src="./images/design.svg" alt="">
+                        <img src="./images/design.svg" alt="identity badge">
                     </figure>
                 </li>
                 <li class="feature__item">
@@ -109,7 +115,9 @@
         </section>
         <article class="company-wrapper__description cell">
             <h2 class="heading heading--two-black">Simple and beautiful</h2>
-            <p class="heading-company__text">Use Nova for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is free for any kind of use, personal and commercial. Have fun and good luck!</p>
+            <p class="heading-company__text">Use Nova for your next web project. It is completely customizable so you
+                can change any of the sections to fit your needs. Nova Theme is free for any kind of use, personal and
+                commercial. Have fun and good luck!</p>
         </article>
     </section>
 
@@ -131,57 +139,155 @@
                         <span>per month</span>
                     </li>
                     <li class="offers-plan__item">
-                        <p>Up to 7 Projects</p> 
+                        <p>Up to 7 Projects</p>
                         <p>2 Additional Developers</p>
                     </li>
-                    <li class="offers-plan__item"><button class="btn">Get Started</button></li>
+                    <li class="offers-plan__item">
+                        <button class="btn btn--blue">Get Started</button>
+                    </li>
                 </ul>
             </section>
-    
+
             <section class="pricing-plans__offer cell">
                 <ul class="offers-plan">
                     <li class="offers-plan__item">
-                        <h3>BASIC</h3>
+                        <h3>AGENCY</h3>
                     </li>
                     <li class="offers-plan__item">
                         <span>&#36;55</span>
                         <span>per month</span>
                     </li>
                     <li class="offers-plan__item">
-                        <p> Up to 25 Projects 2</p> 
-                        <p>Additional Developers</p> 
+                        <p> Up to 25 Projects 2</p>
+                        <p>Additional Developers</p>
                         <p>Unlimited Support</p>
                     </li>
                     <li class="offers-plan__item">
-                        <button class="btn">Get Started</button>
+                        <button class="btn btn--blue">Get Started</button>
                     </li>
                 </ul>
-                
+
             </section>
-    
+
             <section class="pricing-plans__offer cell">
                 <ul class="offers-plan">
                     <li class="offers-plan__item">
-                        <h3>BASIC</h3>
+                        <h3>PRO</h3>
                     </li>
                     <li class="offers-plan__item">
                         <span>&#36;75</span>
                         <span>per month</span>
                     </li>
                     <li class="offers-plan__item">
-                        <p>Up to 7 Projects</p> 
+                        <p>Up to 7 Projects</p>
                         <p>2 Additional Developers</p>
                         <p>Unlimited Support</p>
                         <p>1.5GB Disk</p>
                     </li>
-                    <li class="offers-plan__item"><button class="btn">Get Started</button></li>
+                    <li class="offers-plan__item">
+                        <button class="btn btn--blue">Get Started</button>
+                    </li>
                 </ul>
             </section>
-    
         </div>
-
     </article>
 
+    <!--Teams-->
+    <article class="teams row">
+        <header class="teams__heading">
+            <h2 class="heading heading--two-black">The team</h2>
+        </header>
+
+        <div class="teams__wrapper container">
+            <section class="employers cell">
+                <ul class="employers__info">
+                    <li class="employers__info__item">
+                        <figure>
+                            <img src="./images/cto.png" alt="Johnny B Good">
+                        </figure>
+                    </li>
+                    <li class="employers__info__item">
+                        <h3>CTO</h3>
+                    </li>
+                    <li class="employers__info__item">
+                        <span>Johnny B Good</span>
+                    </li>
+                    <li class="employers__info__item">
+                        <p>The Brains behind the whole operation</p>
+                    </li>
+                    <li class="employers__info__item">
+                        <span>
+                            <a href="#"><img src="./images/team-twitter.svg" alt="twitter"></a>
+                            </span>
+                        <span>
+                            <a href="#"><img src="./images/team-facebook.svg" alt="facebook"></a>
+                        </span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="employers cell">
+                <ul class="employers__info">
+                    <li class="employers__info__item">
+                        <figure>
+                            <img src="./images/ceo.png" alt="Rool over beethoven">
+                        </figure>
+                    </li>
+                    <li class="employers__info__item">
+                        <h3>CTO</h3>
+                    </li>
+                    <li class="employers__info__item">
+                        <span>Rool Over Beethoven</span>
+                    </li>
+                    <li class="employers__info__item">
+                        <p>The one that puts it all together</p>
+                    </li>
+                    <li class="employers__info__item">
+                        <span>
+                            <a href="#"><img src="./images/team-twitter.svg" alt="twitter"></a>
+                            </span>
+                        <span>
+                            <a href="#"><img src="./images/team-facebook.svg" alt="facebook"></a>
+                        </span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="employers cell">
+                <ul class="employers__info">
+                    <li class="employers__info__item">
+                        <figure>
+                            <img src="./images/cfo.png" alt="Chuck Berry">
+                        </figure>
+                    </li>
+                    <li class="employers__info__item">
+                        <h3>CFO</h3>
+                    </li>
+                    <li class="employers__info__item">
+                        <span>Chuck Berry</span>
+                    </li>
+                    <li class="employers__info__item">
+                        <p>The guy with his hand on the wallet</p>
+                    </li>
+                    <li class="employers__info__item">
+                        <span>
+                            <a href="#"><img src="./images/team-twitter.svg" alt="twitter"></a>
+                            </span>
+                        <span>
+                            <a href="#"><img src="./images/team-facebook.svg" alt="facebook"></a>
+                        </span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </article>
+
+    <!--Footer-->
+    <footer class="footer">
+        <section class="footer__wrapper">
+            <p>A free template by <img src="./images/webscope.svg" alt="Logo Webscope"></p>
+        </section>
+    </footer>
 </body>
 
 </html>

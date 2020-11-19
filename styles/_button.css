@@ -1,0 +1,26 @@
+/* Button */
+
+.btn {
+    padding: 2rem;
+    border-radius: 10px;
+    border: none;
+    color: var(--white-color);
+    width: 20rem;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.btn--green {
+    background-color: var(--green-bg-btn);
+}
+
+.btn--blue {
+    background-color: var(--blue-bg-btn);
+}
+
+.btn--header:hover,
+.btn--blue:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 4px var(--black-color);
+    transition: all 1s;
+}

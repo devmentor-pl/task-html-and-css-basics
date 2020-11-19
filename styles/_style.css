@@ -1,18 +1,4 @@
-.container {
-    max-width: 150rem;
-    margin: 0 auto;
-    outline-color: blue;
-}
-
-
 /* Navigation */
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .nav__logo-link {
     margin-left: 1.5rem;
     align-self: flex-end;
@@ -27,7 +13,7 @@
 
 .nav__item {
     padding: 1.5rem;
-    font-weight: 600;
+    font-weight: var(--font-weight-600);
     margin-right: 1rem;
 }
 
@@ -37,16 +23,7 @@
     font-size: 1.7rem;
 }
 
-
 /* Header */
-
-
-.header__content {
-    display: flex;
-    height: 80vh;
-    justify-content: space-between;
-    min-width: 30%;
-}
 
 .header__heading {
     padding: 10rem;
@@ -59,7 +36,7 @@
     width: 50%;
     margin: 2rem 0 4rem;
     line-height: 1.7;
-    font-weight: 400;
+    font-weight: var(--font-weight-400);
     font-size: 1.9rem;
 }
 
@@ -88,87 +65,19 @@
     transition: transform 1s;
 }
 
-
-
-/* Button */
-
-.btn {
-    padding: 2rem;
-    border-radius: 10px;
-    border: none;
-    background-color: #25F18B;
-    color: #fff;
-    width: 20rem;
-    font-weight: 700;
-    font-size: 1.7rem;
-}
-
-.btn--header:hover {
-    transform: scale(1.1);
-    box-shadow: 2px 2px 4px #000;
-    transition: all 1s;
-}
-
-/* HEADING */
-.heading {
-    font-size: 4rem;
-    color: #fff;
-    margin-bottom: 2rem;
-}
-
-.heading--two {
-    font-size: 3.7rem;
-    font-weight: 300;
-    text-align: center;
-    margin-top: 3rem;
-    text-transform: uppercase;
-}
-
-.heading--two-black {
-    color: #000;
-    font-size: 3.8rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-top: 0;
-}
-
-.heading--three {
-    text-transform: uppercase;
-    font-weight: 500;
-    text-align: center;
-    font-size: 2rem;
-}
-
 /* Futures */
-
-.features {
-    background-color: #000;
-    color: #fff;
-    padding: 15rem;
-}
-
-.feature__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.feature__heading {
-    padding: 3rem;
-}
 
 .features__list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: center;
     list-style-type: none;
     width: calc(100%/3);
+    padding: 0;
 }
 
 .feature__item {
-    max-width: 70%;
+    max-width: 60%;
 }
 
 .feature__img {
@@ -194,28 +103,7 @@
     margin-top: 0;
 }
 
-/* Companys Logo */
-
-.cooperating-companies {
-    background-color: #fff;
-}
-
-.cooperating-companies__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
-}
-
 /* Company description */
-
-.company-wrapper {
-    background-color: #fff;
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    height: 90vh;
-}
 
 .company-wrapper__img {
     flex-basis: 49%;
@@ -232,7 +120,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 15rem;
-    width: 100px;
+    width: calc(100%/2);
 }
 
 .heading-company__text {
@@ -243,22 +131,11 @@
 
 
 /* Plan */
-.pricing-plans {
-    background-color: #fff;
-    padding: 1rem;
-}
-
-.pricing-plans__heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-}
 
 .pricing-plans__heading  .text {
     font-size: 2rem;
     letter-spacing: 1px;
-    color: rgb(124, 115, 115);
+    color:var(--paragraph-grey-color);
     margin-top: 0;
 }
 
@@ -267,6 +144,7 @@
     justify-content: center;
     padding: 2rem;
     margin-top: 1rem;
+    margin-bottom: 15rem;
 }
 
 .pricing-plans__offer {
@@ -283,10 +161,67 @@
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    padding: 0;
+    padding: 2rem;
     margin: 0 auto;
+    text-align: center;
 }
 
-.offers-plan__item > h3 {
-    font-weight: 400;
+.pricing-plans__offer:nth-child(2) {
+    box-shadow: 0 0 10px #333333;
+    border-radius: 10px;
 }
+
+/* Sharing with teams selectors */
+.offers-plan__item > h3,
+.employers__info__item > h3 {
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin-bottom: 0;
+}
+
+.offers-plan__item > span:first-child {
+    font-size: 6rem;
+    font-weight: 700;
+    display: block;
+    color: var(--heading-two-color);
+}
+
+.offers-plan__item > span:last-child {
+    margin-bottom: 4rem;
+    display: block;
+}
+
+.offers-plan__item > p:last-of-type {
+    margin-bottom: 10rem;
+}
+
+.offers-plan__item > p {
+    margin: .6rem;
+    font-weight: var(--font--weight-500);
+    text-align: center;
+}
+
+
+/* Teams heading */
+
+.employers {
+    margin: 2rem;
+    padding: 0;
+    width: calc(100%/3);
+}
+
+.employers__info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.employers__info__item > span {
+    margin: .5rem 0;
+    font-weight: var(--font--weight-700);
+    display: inline-block;
+}
+
+.employers__info__item > p {
+    color: var(--heading-two-color);
+}
+

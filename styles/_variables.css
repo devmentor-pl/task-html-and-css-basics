@@ -1,0 +1,16 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --green-bg-btn: #25F18B;
+    --blue-bg-btn: #0ABCEB;
+
+    --heading-two-color: #333333;
+    --paragraph-grey-color: rgb(124, 115, 115);
+    --footer-bg: #464646;
+
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+}
