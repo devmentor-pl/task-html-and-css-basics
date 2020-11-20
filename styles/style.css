@@ -13,7 +13,7 @@
 
 .nav__item {
     padding: 1.5rem;
-    font-weight: var(--font-weight-600);
+    font-weight: 600;
     margin-right: 1rem;
 }
 
@@ -36,7 +36,7 @@
     width: 50%;
     margin: 2rem 0 4rem;
     line-height: 1.7;
-    font-weight: var(--font-weight-400);
+    font-weight: 400;
     font-size: 1.9rem;
 }
 
@@ -72,12 +72,8 @@
     flex-direction: column;
     align-items: center;
     list-style-type: none;
-    width: calc(100%/3);
+    width: calc(100%/4);
     padding: 0;
-}
-
-.feature__item {
-    max-width: 60%;
 }
 
 .feature__img {
@@ -101,6 +97,8 @@
     font-weight: 400;
     line-height: 1.7;
     margin-top: 0;
+    max-width: 60%;
+    text-align: center;
 }
 
 /* Company description */
@@ -149,19 +147,18 @@
 
 .pricing-plans__offer {
     display: flex;
-    align-items: stretch;
-    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     margin: .4rem;
     width: 25%;
+    text-align: center;
+    padding: 4rem;
 }
 
 .offers-plan {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     list-style-type: none;
-    padding: 2rem;
+    padding: 0;
     margin: 0 auto;
     text-align: center;
 }
@@ -179,7 +176,7 @@
     margin-bottom: 0;
 }
 
-.offers-plan__item > span:first-child {
+.offers-plan__item > span:nth-child(2) {
     font-size: 6rem;
     font-weight: 700;
     display: block;
@@ -192,12 +189,12 @@
 }
 
 .offers-plan__item > p:last-of-type {
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
 }
 
 .offers-plan__item > p {
     margin: .6rem;
-    font-weight: var(--font-weight-500);
+    font-weight: 500;
     text-align: center;
 }
 
@@ -217,7 +214,7 @@
 
 .employers__info__item > span {
     margin: .5rem 0;
-    font-weight: var(--font-weight-700);
+    font-weight: 700;
     display: inline-block;
 }
 

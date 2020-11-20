@@ -9,12 +9,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./styles/_variables.css">
-    <link rel="stylesheet" href="./styles/_base.css">
-    <link rel="stylesheet" href="./styles/_layout.css">
-    <link rel="stylesheet" href="./styles/_heading.css">
-    <link rel="stylesheet" href="./styles/_button.css">
-    <link rel="stylesheet" href="./styles/_style.css">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/heading.css">
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Nova | Home Page</title>
 </head>
 
@@ -50,55 +50,38 @@
         <div class="feature__heading container">
             <h2 class="heading heading--two">Features</h2>
         </div>
-        <article class="feature__container container">
-            <ul class="features__list cell">
-                <li class="feature__item">
-                    <figure class="feature__img ">
-                        <img src="./images/responsive.svg" alt="Mobile phone">
-                    </figure>
-                </li>
-                <li class="feature__item">
-                    <h3 class="heading heading--three">Fully Responsive</h3>
-                </li>
-                <li class="feature__item">
-                    <p class="feature__text">
-                        Looks amazing on any device: smartohone, tablet,laptop and desktop.
-                    </p>
-                </li>
-            </ul>
+        <ul class="feature__container container">
+            <li class="features__list cell">
+                <figure class="feature__img ">
+                    <img src="./images/responsive.svg" alt="Mobile phone">
+                </figure>
+                <h3 class="heading heading--three">Fully Responsive</h3>
+                <p class="feature__text">
+                    Looks amazing on any device: smartohone, tablet,laptop and desktop.
+                </p>
+            </li>
 
-            <ul class="features__list cell">
-                <li class="feature__item">
-                    <figure class="feature__img">
-                        <img src="./images/customizable.svg" alt="Tools">
-                    </figure>
-                </li>
-                <li class="feature__item">
-                    <h3 class="heading heading--three">customizable</h3>
-                </li>
-                <li class="feature__item">
-                    <p class="feature__text">
-                        Change the colors, pictures or any of the sections to suit your needs.
-                    </p>
-                </li>
-            </ul>
+            <li class="features__list cell">
+                <figure class="feature__img">
+                    <img src="./images/customizable.svg" alt="Tools">
+                </figure>
+                <h3 class="heading heading--three">customizable</h3>
+                <p class="feature__text">
+                    Change the colors, pictures or any of the sections to suit your needs.
+                </p>
+            </li>
 
-            <ul class="features__list cell">
-                <li class="feature__item">
-                    <figure class="feature__img">
-                        <img src="./images/design.svg" alt="identity badge">
-                    </figure>
-                </li>
-                <li class="feature__item">
-                    <h3 class="heading heading--three">Slick and Beatiful design</h3>
-                </li>
-                <li class="feature__item">
-                    <p class="feature__text">
-                        Trendy and fresh design, fits any website.
-                    </p>
-                </li>
-            </ul>
-        </article>
+            <li class="features__list cell">
+
+                <figure class="feature__img">
+                    <img src="./images/design.svg" alt="identity badge">
+                </figure>
+                <h3 class="heading heading--three">Slick and Beatiful design</h3>
+                <p class="feature__text">
+                    Trendy and fresh design, fits any website.
+                </p>
+            </li>
+        </ul>
     </section>
 
     <!-- Cooperating companies-->
@@ -130,64 +113,57 @@
 
         <div class="offers container">
             <section class="pricing-plans__offer cell">
+                <header class="offers-plan__item">
+                    <h3>BASIC</h3>
+                    <span>&#36;15</span>
+                    <span>per month</span>
+                </header>
                 <ul class="offers-plan">
-                    <li class="offers-plan__item">
-                        <h3>BASIC</h3>
-                    </li>
-                    <li class="offers-plan__item">
-                        <span>&#36;15</span>
-                        <span>per month</span>
-                    </li>
                     <li class="offers-plan__item">
                         <p>Up to 7 Projects</p>
                         <p>2 Additional Developers</p>
                     </li>
-                    <li class="offers-plan__item">
-                        <button class="btn btn--blue">Get Started</button>
-                    </li>
                 </ul>
+                <footer class="offers-plan__item">
+                    <button class="btn btn--blue">Get Started</button>
+                </footer>
             </section>
 
             <section class="pricing-plans__offer cell">
+                <header class="offers-plan__item">
+                    <h3>AGENCY</h3>
+                    <span>&#36;55</span>
+                    <span>per month</span>
+                </header>
                 <ul class="offers-plan">
-                    <li class="offers-plan__item">
-                        <h3>AGENCY</h3>
-                    </li>
-                    <li class="offers-plan__item">
-                        <span>&#36;55</span>
-                        <span>per month</span>
-                    </li>
                     <li class="offers-plan__item">
                         <p> Up to 25 Projects 2</p>
                         <p>Additional Developers</p>
                         <p>Unlimited Support</p>
                     </li>
-                    <li class="offers-plan__item">
-                        <button class="btn btn--blue">Get Started</button>
-                    </li>
                 </ul>
-
+                <footer class="offers-plan__item">
+                    <button class="btn btn--blue">Get Started</button>
+                </footer>
             </section>
 
             <section class="pricing-plans__offer cell">
+                <header class="offers-plan__item">
+                    <h3>PRO</h3>
+                    <span>&#36;75</span>
+                    <span>per month</span>
+                </header>
                 <ul class="offers-plan">
-                    <li class="offers-plan__item">
-                        <h3>PRO</h3>
-                    </li>
-                    <li class="offers-plan__item">
-                        <span>&#36;75</span>
-                        <span>per month</span>
-                    </li>
                     <li class="offers-plan__item">
                         <p>Up to 7 Projects</p>
                         <p>2 Additional Developers</p>
                         <p>Unlimited Support</p>
                         <p>1.5GB Disk</p>
                     </li>
-                    <li class="offers-plan__item">
-                        <button class="btn btn--blue">Get Started</button>
-                    </li>
                 </ul>
+                <footer class="offers-plan__item">
+                    <button class="btn btn--blue">Get Started</button>
+                </footer>
             </section>
         </div>
     </article>
@@ -200,25 +176,19 @@
 
         <div class="teams__wrapper container">
             <section class="employers cell">
+                <header class="employers__info__item">
+                    <figure>
+                        <img src="./images/cto.png" alt="Johnny B Good">
+                    </figure>
+                    <h3>CTO</h3>
+                    <span>Johnny B Good</span>
+                </header>
+                <p>The Brains behind the whole operation</p>
                 <ul class="employers__info">
-                    <li class="employers__info__item">
-                        <figure>
-                            <img src="./images/cto.png" alt="Johnny B Good">
-                        </figure>
-                    </li>
-                    <li class="employers__info__item">
-                        <h3>CTO</h3>
-                    </li>
-                    <li class="employers__info__item">
-                        <span>Johnny B Good</span>
-                    </li>
-                    <li class="employers__info__item">
-                        <p>The Brains behind the whole operation</p>
-                    </li>
                     <li class="employers__info__item">
                         <span>
                             <a href="#"><img src="./images/team-twitter.svg" alt="twitter"></a>
-                            </span>
+                        </span>
                         <span>
                             <a href="#"><img src="./images/team-facebook.svg" alt="facebook"></a>
                         </span>
@@ -227,25 +197,19 @@
             </section>
 
             <section class="employers cell">
+                <header class="employers__info__item">
+                    <figure>
+                        <img src="./images/ceo.png" alt="Rool over beethoven">
+                    </figure>
+                    <h3>CTO</h3>
+                    <span>Rool Over Beethoven</span>
+                </header>
+                <p>The one that puts it all together</p>
                 <ul class="employers__info">
-                    <li class="employers__info__item">
-                        <figure>
-                            <img src="./images/ceo.png" alt="Rool over beethoven">
-                        </figure>
-                    </li>
-                    <li class="employers__info__item">
-                        <h3>CTO</h3>
-                    </li>
-                    <li class="employers__info__item">
-                        <span>Rool Over Beethoven</span>
-                    </li>
-                    <li class="employers__info__item">
-                        <p>The one that puts it all together</p>
-                    </li>
                     <li class="employers__info__item">
                         <span>
                             <a href="#"><img src="./images/team-twitter.svg" alt="twitter"></a>
-                            </span>
+                        </span>
                         <span>
                             <a href="#"><img src="./images/team-facebook.svg" alt="facebook"></a>
                         </span>
@@ -254,25 +218,19 @@
             </section>
 
             <section class="employers cell">
+                <header class="employers__info__item">
+                    <figure>
+                        <img src="./images/cfo.png" alt="Chuck Berry">
+                    </figure>
+                    <h3>CFO</h3>
+                    <span>Chuck Berry</span>
+                </header>
+                <p>The guy with his hand on the wallet</p>
                 <ul class="employers__info">
-                    <li class="employers__info__item">
-                        <figure>
-                            <img src="./images/cfo.png" alt="Chuck Berry">
-                        </figure>
-                    </li>
-                    <li class="employers__info__item">
-                        <h3>CFO</h3>
-                    </li>
-                    <li class="employers__info__item">
-                        <span>Chuck Berry</span>
-                    </li>
-                    <li class="employers__info__item">
-                        <p>The guy with his hand on the wallet</p>
-                    </li>
                     <li class="employers__info__item">
                         <span>
                             <a href="#"><img src="./images/team-twitter.svg" alt="twitter"></a>
-                            </span>
+                        </span>
                         <span>
                             <a href="#"><img src="./images/team-facebook.svg" alt="facebook"></a>
                         </span>
