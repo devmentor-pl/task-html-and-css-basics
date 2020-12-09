@@ -8,18 +8,16 @@
     <title>Document</title>
 </head>
 <header>
-    <section class="row first__slide">
+    <section class="first__slide">
         <nav class="content__container container nav">
             <div class="cell">
-                <img src="../task-html-and-css-basics/images/logo.svg">
+                <img src="images/logo.svg">
             </div>
-            <div class="cell navigation">
-                <ul>
-                    <li><a href="#team">The team</a></li>
-                    <li><a href="#pricing">Pricing</a></li>
-                    <li><a href="#features">Features</a></li>
+                <ul class="cell navigation">
+                    <li class="navigation__item"><a href="#team">The team</a></li>
+                    <li class="navigation__item"><a href="#pricing">Pricing</a></li>
+                    <li class="navigation__item"><a href="#features">Features</a></li>
                 </ul>
-            </div>
         </nav>
         <article class="content__container container first__slide__content">
             <div class="cell first__slide__description">
@@ -28,120 +26,121 @@
                 <button>Download FREE!</button>
             </div>
             <div class="cell first__slide__photo">
-                <img src="../task-html-and-css-basics/images/screen.png">
+                <img src="images/screen.png">
             </div>
         </article>
     </section>
 </header>
 <body>
-    <section id="features" class="row features">
+    <section id="features" class="features">
         <div class="content__container features__container container">
             <h1>FEATURES</h1>
         </div>
     </section>
-    <section class="row feature">
-        <div class="content__container container descr__features">
-            <div class="cell">
-                <img src="../task-html-and-css-basics/images/responsive.svg">
+    <section class="feature">
+        <ul class="content__container container descr__features">
+            <li class="cell">
+                <img src="images/responsive.svg">
                 <h3>FULLY RESPONSIVE</h3>
                 <p>Looks amazing on any device: smartphone, tablet, laptop and deskop.</p>
-            </div>
-            <div class="cell">
-                <img src="../task-html-and-css-basics/images/customizable.svg">
+            </li>
+            <li class="cell">
+                <img src="images/customizable.svg">
                 <h3>CUSTOMIZABLE</h3>
                 <p>Change the colors, pictures or any of the sections to suit your needs.</p>
-            </div>
-            <div class="cell">
-                <img src="../task-html-and-css-basics/images/design.svg">
+            </li>
+            <li class="cell">
+                <img src="images/design.svg">
                 <h3>SLICK AND BEAUTIFUL DESIGN</h3>
                 <p>Trendy and fresh desigh, fits any website.</p>
-            </div>
-        </div>
+            </li>
+        </ul>
     </section>
-    <section class="row">
+    <section>
         <div class="content__container container logos">
-            <img src="../task-html-and-css-basics/images/logos.png">
+            <img src="images/logos.png">
         </div>
     </section>
-    <section class="row advantage">
+    <section class="advantage">
         <div class="cell">
-            <img src="../task-html-and-css-basics/images/imac.png">
+            <img src="images/imac.png">
         </div>
         <div class="cell">
             <h1 class="adv">SIMPLE AND BEAUTIFUL</h1>
             <p class="adv__desc">Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</p>
         </div>
     </section>
-    <section class="row">
+    <section>
         <div class=" container for__you">
             <h1>CHOOSE YOUR PRICING PLAN</h1>
             <h4>Pick any of our super affordable pricing plans</h4>
         </div>
         <div id="pricing" class="container versions choose">
             <div class="cell">
-                <div class="version__info">
-                    <p class="type">BASIC</p>
-                    <p class="price">$15</p>
-                    <p class="frequency">per month</p>
-                    <p class="possibilities">Up to 7 Projects <br> 2 Additional Developers</p>
-                </div>
-                <div>
-                    <button class="get__started"><a href="#">Get Started</a></button>
-                </div>
+                <ul class="version__info">
+                    <li class="type">BASIC</li>
+                    <li class="price">$15</li>
+                    <li class="frequency">per month</li>
+                    <li class="possibilities">Up to 7 Projects <br> 2 Additional Developers</li>
+                </ul>
+                <ul>
+                    <li><button class="get__started"><a href="#">Get Started</a></button></li>
+                </ul>
             </div>
             <div class="cell">
-                <div class="version__info">
-                    <p class="type">AGENCY</p>
-                    <p class="price">$55</p>
-                    <p class="frequency">per month</p>
-                    <p class="possibilities">Up to 25 Projects <br>2 Additional Developers <br>Unlimited Support</p>
-                </div>
-                <div>
-                    <button class="get__started"><a href="#">Get Started</a></button>
-                </div>
+                <ul class="version__info">
+                    <li class="type">AGENCY</li>
+                    <li class="price">$55</li>
+                    <li class="frequency">per month</li>
+                    <li class="possibilities">Up to 25 Projects <br>2 Additional Developers <br>Unlimited Support</li>
+                </ul>
+                <ul>
+                    <li><button class="get__started"><a href="#">Get Started</a></button></li>
+                </ul>
             </div>
             <div class="cell">
-                <div class="version__info">
-                    <p class="type">PRO</p>
-                    <p class="price">$75</p>
-                    <p class="frequency">per month</p>
-                    <p class="possibilities">Up to 25 Projects<br> 2 Additional Developers <br>Unlimited Support <br>1.5GB Disk Space</p>
-                </div>
-                <div>
-                   <button class="get__started"><a href="#">Get Started</a></button>
-                </div>
+                <ul class="version__info">
+                    <li class="type">PRO</li>
+                    <li class="price">$75</li>
+                    <li class="frequency">per month</li>
+                    <li class="possibilities">Up to 25 Projects<br> 2 Additional Developers <br>Unlimited Support <br>1.5GB Disk Space</li>
+                </ul>
+                <ul>
+                   <li><button class="get__started"><a href="#">Get Started</a></button></li>
+                </ul>
             </div>
+        </div>
     </section>
-    <section class="row">
+    <section>
         <div id="team" class=" container team">
             <h1>THE TEAM</h1>
         </div>
         <div class="container versions about__team">
-            <div class="cell">
-                <img src="../task-html-and-css-basics/images/cto.png"> 
-                <p class="type">CTO</p>
-                <p class="possibilities">Johnny B Good</p>
-                <p class="about__person">The brains behind the whole operation</p>
-                <img class="twitter" src="../task-html-and-css-basics/images/team-twitter.svg"><img src="../task-html-and-css-basics/images/team-facebook.svg">
-            </div>
-            <div class="cell">
-                <img src="../task-html-and-css-basics/images/ceo.png">
-                <p class="type">CEO</p>
-                <p class="possibilities">Roll Over Beethoven</p>
-                <p class="about__person">The one that puts it all together</p>
-                <img class="twitter" src="../task-html-and-css-basics/images/team-twitter.svg"><img src="../task-html-and-css-basics/images/team-facebook.svg">
-            </div>
-            <div class="cell">
-                <img src="../task-html-and-css-basics/images/cfo.png">
-                <p class="type">CFO</p>
-                <p class="possibilities">Chuck Berry</p>
-                <p class="about__person">The guy with his hand on the wallet</p>
-                <img class="twitter" src="../task-html-and-css-basics/images/team-twitter.svg"><img src="../task-html-and-css-basics/images/team-facebook.svg">
-            </div>
+            <ul class="cell">
+                <li><img src="images/cto.png"></li>
+                <li class="type">CTO</li>
+                <li class="possibilities">Johnny B Good</li>
+                <li class="about__person">The brains behind the whole operation</li>
+                <li><img class="twitter" src="images/team-twitter.svg"><img src="images/team-facebook.svg"></li>
+            </ul>
+            <ul class="cell">
+                <li><img src="images/ceo.png"></li>
+                <li class="type">CEO</li>
+                <li class="possibilities">Roll Over Beethoven</li>
+                <li class="about__person">The one that puts it all together</li>
+                <li><img class="twitter" src="images/team-twitter.svg"><img src="images/team-facebook.svg"></li>
+            </ul>
+            <ul class="cell">
+                <li><img src="images/cfo.png"></li>
+                <li class="type">CFO</li>
+                <li class="possibilities">Chuck Berry</li>
+                <li class="about__person">The guy with his hand on the wallet</li>
+                <li><img class="twitter" src="images/team-twitter.svg"><img src="images/team-facebook.svg"></li>
+            </ul>
         </div>
     </section>
-    <section class="row footer">
-        <p>A free template by</p><img src="../task-html-and-css-basics/images/webscope.svg">
-    </section>
+    <footer>
+        <p>A free template by</p><img src="images/webscope.svg">
+    </footer>
 </body>
 </html>

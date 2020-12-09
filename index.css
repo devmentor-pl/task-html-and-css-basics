@@ -4,8 +4,8 @@
 }
 
 @font-face {
-	font-family: 'thin';
-	src: url(Montserrat/Montserrat-Thin.ttf);
+	font-family: 'LightItalic';
+    src: url(Montserrat/Montserrat-LightItalic.ttf);
 }
 
 @font-face {
@@ -16,23 +16,20 @@
 h3 {
     font-size: 15px;
 }
-.nav ul {
+.navigation {
     display: flex;
     padding: 25px 0 0 0;
     text-align: center;
+    width: 300px;
 }
 
-.nav ul li {
+.navigation__item {
     width: 30%;
 }
 
-.nav ul li a {
+.navigation__item a {
     color: white;
     text-decoration: none;
-}
-
-.navigation {
-    width: 300px;
 }
 
 .container {
@@ -54,7 +51,7 @@ h3 {
 }
 
 .first__slide__description p {
-        font-family: 'thin';
+        font-family: 'LightItalic';
         color: white;
         margin-top: 20px;
         line-height: 27px;
@@ -169,7 +166,7 @@ h3 {
 
 .adv {
     font-size: 30px;
-    font-family: 'thin';
+    font-family: 'LightItalic';
     color: #262626;
     padding: 40px 0 20px 20px;
 }
@@ -177,7 +174,7 @@ h3 {
 .adv__desc {
     font-size: 15px;
     color: #4F524F;
-    font-family: 'thin';
+    font-family: 'LightItalic';
     line-height: 25px;
     padding: 10px 160px 0 20px;
 }
@@ -214,7 +211,7 @@ h3 {
 
 
 .for__you {
-    font-family: 'thin';
+    font-family: 'LightItalic';
     font-size: 28px;
     text-align: center;
     margin-top: 10px;
@@ -244,7 +241,7 @@ h3 {
 }
 
 .type {
-    font-family: 'thin';
+    font-family: 'LightItalic';
     color: #949494;
     font-size: 17px;
     padding-top: 30px;
@@ -259,7 +256,7 @@ h3 {
 .frequency {
     font-size: 12px;
     padding-top: 12px;
-    font-family: 'Thin';
+    font-family: 'LightItalic';
 }
 
 .possibilities {
@@ -270,7 +267,7 @@ h3 {
 }
 
 .team {
-    font-family: 'thin';
+    font-family: 'LightItalic';
     text-align: center;
     font-size: 25px;
     padding: 40px 0;
@@ -285,11 +282,11 @@ h3 {
 }
 .about__person {
     font-size: 13px;
-    font-family: 'thin';
+    font-family: 'LightItalic';
     color: #767576;
 }
 
-.footer {
+footer {
     background-color: #363636;
     display: flex;
     color: white;
@@ -298,7 +295,7 @@ h3 {
     padding: 30px;
 }
 
-.footer img {
+footer img {
     margin: -10px 0 0 10px;
 }
 
