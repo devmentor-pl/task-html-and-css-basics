@@ -1,0 +1,75 @@
+.header {
+    height: 100vh;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.header__menu, .header__nav, .header__content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.header__logo {
+    max-width: fit-content;
+}
+
+.header__nav {
+    font: 14px 'montserratbold';
+}
+
+.nav__item {/*todo*/
+    margin: 0 20px 0 0;
+}
+
+.header__nav :last-child {
+    margin-right: 0;
+}
+
+.header__menu :last-child {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.header__content {
+    margin-top: 2%;
+    padding: 10px;
+}
+
+.download__item {
+    margin-top: 10%;
+}
+
+.download__item.title {
+    font: bold 35px 'montserratbold';
+    line-height: 1.1;
+}
+
+.download__item.description {
+    font: bold 18px 'montserratthin';
+    max-width: 80%;
+    line-height: 1.6;
+}
+
+.button {
+    background-color: #30F291;
+    color: white;
+    font: bold 14px 'montserratbold';
+    padding: 5% 12% 5% 12%;
+    border-radius: 10px;
+    border: none;
+}
+
+.header__advert {
+    margin-left: 20px;
+    padding: 3%;
+    padding-right: 0;
+}
+
+.header__content .image  {
+
+    transform: rotate(-6deg);
+    border: 1.5vw solid white;
+    border-radius: 30px;
+    width: 90%;
+}
