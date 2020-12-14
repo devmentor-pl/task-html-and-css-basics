@@ -1,0 +1,27 @@
+.advert {
+    display: flex;
+    justify-content: center;
+}
+
+.advert__image {
+    /* width: 40%; */
+    height: auto;
+    object-fit: contain;
+    padding: 3%;
+}
+
+.advert__description {
+    width: calc(70% - 25px);
+    margin-left: 25px;
+    padding-top: 10vh;
+    padding-left: 3vw;
+}
+
+.desctiption__header {
+    margin-bottom: 7%;
+}
+
+.description__paragraph {
+    width: 60%;
+    word-wrap: break-word;
+}

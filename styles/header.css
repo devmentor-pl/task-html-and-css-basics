@@ -53,11 +53,7 @@
 
 .button {
     background-color: #30F291;
-    color: white;
-    font: bold 14px 'montserratbold';
-    padding: 5% 12% 5% 12%;
-    border-radius: 10px;
-    border: none;
+    font-weight: bold;
 }
 
 .header__advert {

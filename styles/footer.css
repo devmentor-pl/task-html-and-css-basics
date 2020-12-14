@@ -1,0 +1,21 @@
+.footer {
+    /* width: 100vw;
+    height: auto; */
+    background-color: #464646;
+}
+
+.footer__caption {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__caption .cell {
+    color: white;
+    font: 11px 'montserratmedium';
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer__caption .cell:first-child {
+    padding-top: 1%;
+}

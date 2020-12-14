@@ -1,0 +1,15 @@
+.logos {
+    display: flex;
+    justify-content: center;
+    background-color: #F8F9F9;
+}
+
+.logos__image {
+    display: flex;
+    justify-content: center;
+}
+
+.logos__image img {
+    object-fit: contain;
+    width: 97%;
+}

@@ -1,0 +1,122 @@
+.pricing, .team {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: #F8F9F9;
+}
+
+.team {
+    background-color: white;
+}
+
+.pricing__header, .team__header {
+    padding: 7vh;
+    padding-bottom: 1vh;
+    margin-bottom: 2%;
+}
+
+.pricing__title {
+    margin-bottom: 2%;
+}
+
+.pricing__paragraph {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.pricing__content, .team__content {
+    width: 80%;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__content:before, .team__content:before {
+    content: normal;
+}
+
+.pricing__item, .team__item {
+    padding: 6vh;
+    text-align: center;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    transition: .2s;
+}
+
+.pricing__item:hover {
+    transform: scale(1.1);
+    background-color: #F6F9F9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(184, 183, 183, 0.993), 0 6px 20px 0 grey;
+}
+
+.pricing__content :first-child, .team__content :first-child {
+    margin-left: 0;
+}
+
+.pricing__item__header {
+    font: 17px 'montserratlight';
+    margin-bottom: 9%;
+}
+
+.pricing__item__price {
+    font: 45px 'montserratbold';
+}
+
+.pricing__item__caption {
+    font: bold 11px 'montserratregular';
+    margin-top: 9%;
+    margin-bottom: 20%;
+}
+
+.item__advantage {
+    font: bold 15px 'montserratregular';
+    margin-bottom: 2%;
+}
+
+.pricing__button {
+    background-color: #0ABCEB;
+    margin-top: 10%;
+}
+
+.team__item {
+    align-items: center;
+}
+
+.team__image {
+    margin: 0 0 10% 0;
+    width: auto;
+    height: auto;
+}
+
+.team__item__position {
+    font: 17px 'montserratlight';
+    margin-bottom: 12px;
+}
+
+.team__item__nick {
+    font: 15px 'montserratbold';
+    margin-bottom: 8px;
+}
+
+.team__item__mission {
+    font: 14px 'montserratregular';
+}
+
+.socialmedia {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia__element {
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}

@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/header.css">
-    <!-- <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/reset.css"> -->
+    <link rel="stylesheet" href="./styles/features.css">
+    <link rel="stylesheet" href="./styles/logos.css">
+    <link rel="stylesheet" href="./styles/details.css">
+    <link rel="stylesheet" href="./styles/options.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
     <header class="header row">
@@ -49,10 +51,164 @@
             <h1>FEATURES</h1>
         </header>
         <div class="features__content container">
-            <figures class="features__image"></figures>
-            <figures class="features__image"></figures>
-            <figures class="features__image"></figures>
+            <article class="features__item cell">
+                <figures class="features__image">
+                    <img src="./images/responsive.svg" alt="responsivity feature">
+                </figures>
+                <h3>FULLY RESPONSIVE</h3>
+                <p>Looks amazing on any device:<br>smartphone, tablet, laptop and desktop.</p>
+            </article>
+            <article class="features__item cell">
+                <figures class="features__image">
+                    <img src="./images/customizable.svg" alt="costumization feature">
+                </figures>
+                <h3>COSTUMIZABLE</h3>
+                <p>Change the colors, pictures or any of the sections to suit your needs.</p>
+            </article>
+            <article class="features__item cell">
+                <figures class="features__image">
+                    <img src="./images/design.svg" alt="beautiful design feature">
+                </figures>
+                <h3>SLICK AND BEAUTIFUL<br> DESIGN</h3>
+                <p>Trendy and fresh design, fits any website.</p>
+            </article>
         </div>
     </section>
+    <article class="logos row">
+        <figures class="logos__image container">
+            <img class="cell" src="./images/logos.png" alt="logos of various programs">
+        </figures>
+    </article>
+    <article class="advert row">
+        <figures class="advert__image container">
+            <img src="./images/imac.png" alt="iMac computer">
+        </figures>
+        <section class="advert__description container">
+            <h1 class="desctiption__header item">SIMPLE AND BEAUTIFUL</h1>
+            <p class="description__paragraph item">Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your personal needs. Nova Theme is free for any kind of use, personal and commercial. Have fun and good luck.</p>
+        </section>
+    </article>
+    <section class="pricing row">
+        <article class="pricing__header container">
+            <h1 class="pricing__title item">CHOOSE YOUR PRICING PLAN</h1>
+            <p class="pricing__paragraph item">Pick any of our super affordable pricing plans</p>
+        </article>
+        <article class="pricing__content container">
+            <section class="pricing__item cell">
+                <div class="a-top">
+                    <h1 class="pricing__item__header">BASIC</h1>
+                    <strong class="pricing__item__price price">$15</strong>
+                    <h6 class="pricing__item__caption">per month</h6>
+                    <p class="pricing__item__advantages">
+                        <h4 class="item__advantage">Up to 7 Projects</h4>
+                        <h4 class="item__advantage">2 Additional Developers</h4>
+                    </p>
+                </div>
+                <div class="a-button">
+                    <button class="pricing__button button" type="submit">Get Started</button>
+                </div>
+            </section>
+            <section class="pricing__item cell">
+                <div class="a-top">
+                    <h1 class="pricing__item__header">AGENCY</h1>
+                    <strong class="pricing__item__price price">$55</strong>
+                    <h6 class="pricing__item__caption">per month</h6>
+                    <p class="pricing__item__advantages">
+                        <h4 class="item__advantage">Up to 25 Projects</h4>
+                        <h4 class="item__advantage">2 Additional Developers</h4>
+                        <h4 class="item__advantage">Unlimited Support</h4>
+                    </p>
+                </div>
+                <div class="a-button">
+                    <button class="pricing__button button" type="submit">Get Started</button>
+                </div>
+            </section>
+            <section class="pricing__item cell">
+                <div class="a-top">
+                    <h1 class="pricing__item__header">PRO</h1>
+                    <strong class="pricing__item__price price">$75</strong>
+                    <h6 class="pricing__item__caption">per month</h6>
+                    <p class="pricing__item__advantages">
+                        <h4 class="item__advantage">Up to 25 Projects</h4>
+                        <h4 class="item__advantage">2 Additional Developers</h4>
+                        <h4 class="item__advantage">Unlimited Support</h4>
+                        <h4 class="item__advantage">1.5GB Disk Space</h4>
+                    </p>
+                </div>
+                <div class="a-button">
+                    <button class="pricing__button button" type="submit">Get Started</button>
+                </div>
+            </section>
+        </article>
+    </section>
+    <section class="team row">
+        <article class="team__header container">
+            <h1 class="team__title item">THE TEAM</h1>
+        </article>
+        <article class="team__content container">
+            <section class="team__item cell">
+                <figures class="team__image">
+                    <img src="./images/cto.png" alt="picture of CTO">
+                </figures>
+                <p class="team__item__description">
+                    <h1 class="team__item__position">CTO</h1>
+                    <h4 class="team__item__nick">Johnny B Good</h4>
+                    <h4 class="team__item__mission">The brains behind the whole operation</h4>
+                </p>
+                <section class="socialmedia">
+                    <a class="socialmedia__element facebook" href="facebook.pl">
+                        <img src="./images/facebook.svg" alt="facebook icon">
+                    </a>
+                    <a class="socialmedia__element twitter" href="twitter.pl">
+                        <img src="./images/twitter.svg" alt="twitter icon">
+                    </a>
+                </section>
+            </section>
+            <section class="team__item cell">
+                <figures class="team__image">
+                    <img src="./images/ceo.png" alt="picture of CEO">
+                </figures>
+                <p class="team__item__description">
+                    <h1 class="team__item__position">CEO</h1>
+                    <h4 class="team__item__nick">Roll Over Beethoven</h4>
+                    <h4 class="team__item__mission">The one that puts it all together</h4>
+                </p>
+                <section class="socialmedia">
+                    <a class="socialmedia__element facebook" href="facebook.pl">
+                        <img src="./images/facebook.svg" alt="facebook icon">
+                    </a>
+                    <a class="socialmedia__element twitter" href="twitter.pl">
+                        <img src="./images/twitter.svg" alt="twitter icon">
+                    </a>
+                </section>
+            </section>
+            <section class="team__item cell">
+                <figures class="team__image">
+                    <img src="./images/cfo.png" alt="picture of CFO">
+                </figures>
+                <p class="team__item__description">
+                    <h1 class="team__item__position">CFO</h1>
+                    <h4 class="team__item__nick">Chuck Berry</h4>
+                    <h4 class="team__item__mission">The guy with his hand on the wallet</h4>
+                </p>
+                <section class="socialmedia">
+                    <a class="socialmedia__element facebook" href="facebook.pl">
+                        <img src="./images/facebook.svg" alt="facebook icon">
+                    </a>
+                    <a class="socialmedia__element twitter" href="twitter.pl">
+                        <img src="./images/twitter.svg" alt="twitter icon">
+                    </a>
+                </section>
+            </section>            
+        </article>
+    </section>
+    <footer class="footer row">
+        <article class="footer__caption container">
+            <p class="cell">A free template by</p>
+            <figures class="footer__image cell">
+                <img src="./images/webscope.svg" alt="A free template by Webscope">
+            </figures>
+        </article>
+    </footer>
 </body>
 </html>
