@@ -52,37 +52,49 @@
         </header>
         <div class="features__content container">
             <article class="features__item cell">
-                <figures class="features__image">
-                    <img src="./images/responsive.svg" alt="responsivity feature">
-                </figures>
-                <h3>FULLY RESPONSIVE</h3>
-                <p>Looks amazing on any device:<br>smartphone, tablet, laptop and desktop.</p>
+                <figure class="features__image">
+                    <div class="image__wrapper">
+                        <img src="./images/responsive.svg" alt="responsivity feature">
+                    </div>
+                    <figcaption>
+                        <h3>FULLY RESPONSIVE</h3>
+                        <p>Looks amazing on any device:<br>smartphone, tablet, laptop and desktop.</p>
+                    </figcaption>
+                </figure>
             </article>
             <article class="features__item cell">
-                <figures class="features__image">
-                    <img src="./images/customizable.svg" alt="costumization feature">
-                </figures>
-                <h3>COSTUMIZABLE</h3>
-                <p>Change the colors, pictures or any of the sections to suit your needs.</p>
+                <figure class="features__image">
+                    <div class="image__wrapper">
+                        <img src="./images/customizable.svg" alt="costumization feature">
+                    </div>
+                    <figcaption>
+                        <h3>COSTUMIZABLE</h3>
+                        <p>Change the colors, pictures or any of the sections to suit your needs.</p>
+                    </figcaption>
+                </figure>
             </article>
             <article class="features__item cell">
-                <figures class="features__image">
-                    <img src="./images/design.svg" alt="beautiful design feature">
-                </figures>
-                <h3>SLICK AND BEAUTIFUL<br> DESIGN</h3>
-                <p>Trendy and fresh design, fits any website.</p>
+                <figure class="features__image">
+                    <div class="image__wrapper">
+                        <img src="./images/design.svg" alt="beautiful design feature">
+                    </div>
+                    <figcaption>
+                        <h3>SLICK AND BEAUTIFUL<br> DESIGN</h3>
+                        <p>Trendy and fresh design, fits any website.</p>    
+                    </figcaption>
+                </figure>
             </article>
         </div>
     </section>
     <article class="logos row">
-        <figures class="logos__image container">
+        <figure class="logos__image container">
             <img class="cell" src="./images/logos.png" alt="logos of various programs">
-        </figures>
+        </figure>
     </article>
     <article class="advert row">
-        <figures class="advert__image container">
+        <figure class="advert__image container">
             <img src="./images/imac.png" alt="iMac computer">
-        </figures>
+        </figure>
         <section class="advert__description container">
             <h1 class="desctiption__header item">SIMPLE AND BEAUTIFUL</h1>
             <p class="description__paragraph item">Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your personal needs. Nova Theme is free for any kind of use, personal and commercial. Have fun and good luck.</p>
@@ -96,13 +108,16 @@
         <article class="pricing__content container">
             <section class="pricing__item cell">
                 <div class="a-top">
-                    <h1 class="pricing__item__header">BASIC</h1>
-                    <strong class="pricing__item__price price">$15</strong>
-                    <h6 class="pricing__item__caption">per month</h6>
-                    <p class="pricing__item__advantages">
-                        <h4 class="item__advantage">Up to 7 Projects</h4>
-                        <h4 class="item__advantage">2 Additional Developers</h4>
-                    </p>
+                    <!-- wiem, że to jest niepoprawnie z BEMem, ale jak zmienię nazwy tych klas to wszystko się posypie ;-( -->
+                    <header>
+                        <h1 class="pricing__item__header">BASIC</h1>
+                        <strong class="pricing__item__price price">$15</strong>
+                        <h6 class="pricing__item__caption">per month</h6>
+                    </header>
+                    <ul class="pricing__item__advantages">
+                        <li class="item__advantage">Up to 7 Projects</li>
+                        <li class="item__advantage">2 Additional Developers</li>
+                    </ul>
                 </div>
                 <div class="a-button">
                     <button class="pricing__button button" type="submit">Get Started</button>
@@ -110,14 +125,17 @@
             </section>
             <section class="pricing__item cell">
                 <div class="a-top">
-                    <h1 class="pricing__item__header">AGENCY</h1>
-                    <strong class="pricing__item__price price">$55</strong>
-                    <h6 class="pricing__item__caption">per month</h6>
-                    <p class="pricing__item__advantages">
-                        <h4 class="item__advantage">Up to 25 Projects</h4>
-                        <h4 class="item__advantage">2 Additional Developers</h4>
-                        <h4 class="item__advantage">Unlimited Support</h4>
-                    </p>
+                    <!-- wiem, że to jest niepoprawnie z BEMem, ale jak zmienię nazwy tych klas to wszystko się posypie ;-( -->
+                    <header>
+                        <h1 class="pricing__item__header">AGENCY</h1>
+                        <strong class="pricing__item__price price">$55</strong>
+                        <h6 class="pricing__item__caption">per month</h6>
+                    </header>
+                    <ul class="pricing__item__advantages">
+                        <li class="item__advantage">Up to 25 Projects</li>
+                        <li class="item__advantage">2 Additional Developers</li>
+                        <li class="item__advantage">Unlimited Support</li>
+                    </ul>
                 </div>
                 <div class="a-button">
                     <button class="pricing__button button" type="submit">Get Started</button>
@@ -125,15 +143,18 @@
             </section>
             <section class="pricing__item cell">
                 <div class="a-top">
-                    <h1 class="pricing__item__header">PRO</h1>
-                    <strong class="pricing__item__price price">$75</strong>
-                    <h6 class="pricing__item__caption">per month</h6>
-                    <p class="pricing__item__advantages">
-                        <h4 class="item__advantage">Up to 25 Projects</h4>
-                        <h4 class="item__advantage">2 Additional Developers</h4>
-                        <h4 class="item__advantage">Unlimited Support</h4>
-                        <h4 class="item__advantage">1.5GB Disk Space</h4>
-                    </p>
+                    <!-- wiem, że to jest niepoprawnie z BEMem, ale jak zmienię nazwy tych klas to wszystko się posypie ;-( -->
+                    <header>
+                        <h1 class="pricing__item__header">PRO</h1>
+                        <strong class="pricing__item__price price">$75</strong>
+                        <h6 class="pricing__item__caption">per month</h6>
+                    </header>
+                    <ul class="pricing__item__advantages">
+                        <li class="item__advantage">Up to 25 Projects</li>
+                        <li class="item__advantage">2 Additional Developers</li>
+                        <li class="item__advantage">Unlimited Support</li>
+                        <li class="item__advantage">1.5GB Disk Space</li>
+                    </ul>
                 </div>
                 <div class="a-button">
                     <button class="pricing__button button" type="submit">Get Started</button>
@@ -142,19 +163,21 @@
         </article>
     </section>
     <section class="team row">
-        <article class="team__header container">
+        <header class="team__header container">
             <h1 class="team__title item">THE TEAM</h1>
-        </article>
+        </header>
         <article class="team__content container">
             <section class="team__item cell">
-                <figures class="team__image">
+                <figure class="team__image">
                     <img src="./images/cto.png" alt="picture of CTO">
-                </figures>
-                <p class="team__item__description">
+                </figure>
+                <div class="team__item__info">
                     <h1 class="team__item__position">CTO</h1>
-                    <h4 class="team__item__nick">Johnny B Good</h4>
-                    <h4 class="team__item__mission">The brains behind the whole operation</h4>
-                </p>
+                    <p>
+                        <h4 class="team__item__nick">Johnny B Good</h4>
+                        <h4 class="team__item__mission">The brains behind the whole operation</h4>
+                    </p>
+                </div>
                 <section class="socialmedia">
                     <a class="socialmedia__element facebook" href="facebook.pl">
                         <img src="./images/facebook.svg" alt="facebook icon">
@@ -168,11 +191,13 @@
                 <figures class="team__image">
                     <img src="./images/ceo.png" alt="picture of CEO">
                 </figures>
-                <p class="team__item__description">
+                <div class="team__item__info">
                     <h1 class="team__item__position">CEO</h1>
-                    <h4 class="team__item__nick">Roll Over Beethoven</h4>
-                    <h4 class="team__item__mission">The one that puts it all together</h4>
-                </p>
+                    <p>
+                        <h4 class="team__item__nick">Roll Over Beethoven</h4>
+                        <h4 class="team__item__mission">The one that puts it all together</h4>
+                    </p>
+                </div>
                 <section class="socialmedia">
                     <a class="socialmedia__element facebook" href="facebook.pl">
                         <img src="./images/facebook.svg" alt="facebook icon">
@@ -186,11 +211,13 @@
                 <figures class="team__image">
                     <img src="./images/cfo.png" alt="picture of CFO">
                 </figures>
-                <p class="team__item__description">
+                <div class="team__item__info">
                     <h1 class="team__item__position">CFO</h1>
-                    <h4 class="team__item__nick">Chuck Berry</h4>
-                    <h4 class="team__item__mission">The guy with his hand on the wallet</h4>
-                </p>
+                    <p>
+                        <h4 class="team__item__nick">Chuck Berry</h4>
+                        <h4 class="team__item__mission">The guy with his hand on the wallet</h4>
+                    </p>
+                </div>
                 <section class="socialmedia">
                     <a class="socialmedia__element facebook" href="facebook.pl">
                         <img src="./images/facebook.svg" alt="facebook icon">
@@ -205,9 +232,7 @@
     <footer class="footer row">
         <article class="footer__caption container">
             <p class="cell">A free template by</p>
-            <figures class="footer__image cell">
-                <img src="./images/webscope.svg" alt="A free template by Webscope">
-            </figures>
+            <img  class="footer__image cell" src="./images/webscope.svg" alt="A free template by Webscope">
         </article>
     </footer>
 </body>

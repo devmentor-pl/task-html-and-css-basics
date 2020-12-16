@@ -25,21 +25,28 @@
     width: 20%;
     text-align: center;
     margin: 20px;
-    margin-left: 4%;
+    /* margin-left: 4%; */
 }
 
 .features__item:first {
     margin-left: 20px;
 }
 
-.features__image {
+.features__image{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.image__wrapper {
+    display: flex;
+    justify-content: center;
     width: 80px;
     height: 80px;
     background-color: white;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+    margin: 30px;
 }
 
 .features__item h3 {
