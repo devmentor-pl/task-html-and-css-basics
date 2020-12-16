@@ -1,0 +1,53 @@
+
+/*layout____________________________________________________LAYOUT_*/
+
+.header, .main, .main__container, .footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+.intro {
+    display: flex;
+    justify-content: center;
+}
+.basic__capition, .container__gr {
+    display: flex;
+    justify-content: center;
+}
+.gr-navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.info, .tariff__capition, .tariff__par, .tariff__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.column__header {
+    display:flex;
+    justify-content: center;
+}
+.column__items {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*style____________________________________________________STYLE_*/
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}

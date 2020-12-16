@@ -1,0 +1,40 @@
+
+                                                    /* Naprawdę nie wiem co ja tu źle robię 
+                                                       ani pierwszy ani drugi sposób nie działa*/ 
+/* 
+body {
+    background-image: url(./assets/demo.png);
+    height: 100vh;
+    width: 100%; 
+    display: block;
+} 
+
+ /* A TO DZIAŁA  */
+/*  body {background-color: red;} */
+
+/*   TAK TEŻ NIE DZIAŁA */
+/* body {
+    background-image: url("https://ibb.co/GQ7v1xy");
+    background-color: transparent;
+    height: 100vh;
+    width: 100%; }*/
+
+/* ------------------------------------START----------------------------------- */
+
+.header, .main, .footer, .page {
+    border: 5px solid green;
+    padding: 20px;
+}
+ .main__container, .container__gr, .gr-navbar, .header__container {
+    border: 5px solid skyblue;
+    padding: 20px;
+}
+
+.logotype, .nav, .container-txt, .container-txt, .gr-part, .gr-navbar__link, .column {
+    border: 5px solid #fc0;
+    padding: 20px;
+
+}
+
+
+.
