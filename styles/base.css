@@ -20,19 +20,27 @@ body {
     width: 100%; }*/
 
 /* ------------------------------------START----------------------------------- */
-
+/* 
 .header, .main, .footer, .page {
-    border: 5px solid green;
-    padding: 20px;
-}
- .main__container, .container__gr, .gr-navbar, .header__container {
-    border: 5px solid skyblue;
+    border: 4px solid green;
     padding: 20px;
 }
 
-.logotype, .nav, .container-txt, .container-txt, .gr-part, .gr-navbar__link, .column {
+ .menu, .main__container, .container__gr, .gr-navbar, .header__container {
+    border: 4px solid skyblue;
+    padding: 5;
+}
+
+.menu, .intro, .basic, .tariff, .column {
+    border: 6px solid violet;
+} */
+
+/* .logotype, .nav, */
+ /* .container-txt, .container-txt, */
+ /* .gr-part, .gr-navbar__link,  */
+ /* .tariff__part, .column__items .column__item { */
     border: 5px solid #fc0;
-    padding: 20px;
+    padding: 10px;
 
 }
 

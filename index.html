@@ -14,195 +14,199 @@
 </head>
 <body class="page">
     
+
     <header class="page__header header">
-        
-        <nav class="header__menu menu">
-            <a class="menu__link logotype" href=".\index.html">
-                <img class="logotype__img" src=".\images\logo.svg" alt="logotyp nova">
-                <!--tutaj powinna być kropka? czy nie? bo jak daje kropke to nie działa
-                     <img src=".\practic... ---- wtedy niedziała-->
-            </a>
-            <ul class="menu__nav nav">
-                <li class="nav__item"><a class="nav__link" href="/TheTeam">The Team</a></li>
-                <li class="nav__item"><a class="nav__link" href="/Pricing">Pricinh</a></li>
-                <li class="nav__item"><a class="nav__link" href="/Features">Features</a></li>
-            </ul>
-        </nav> 
-        <section class="header__container intro">
-            <div class="intro__container container-txt">
-                <h1 class="container-txt__caption">Beautyful Free Nova template</h1>
-                <p class="container-txt__par">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, cumque!</p>
-                <input  class="container-txt__btn type="text">
-            </div>
-            <div class="container-pix">
-                <a href=""><img src="" alt="">
-                    <img class="intro__img" src=".\images\screen.png" alt="">    
+        <div class="div--intro"> 
+<!-- Coś mi to wyjść nie chciało wstawilem tu diva bo mi niedziałało   space-between -->
+            <nav class="header__menu menu">
+                <a class="menu__link logotype" href=".\index.html">
+                    <img class="logotype__img" src=".\images\logo.svg" alt="logotyp nova">
+                    <!--tutaj powinna być kropka? czy nie? bo jak daje kropke to nie działa
+                        <img src=".\practic... ---- wtedy niedziała-->
                 </a>
-            </div>
-        </section>
+                <ul class="menu__nav nav">
+                    <li class="nav__item"><a class="nav__link" href="/TheTeam">The Team</a></li>
+                    <li class="nav__item"><a class="nav__link" href="/Pricing">Pricing</a></li>
+                    <li class="nav__item"><a class="nav__link" href="/Features">Features</a></li>
+                </ul>
+            </nav> 
+            <section class="header__container intro">
+                <div class="intro__container container-txt">
+                    <h1 class="container-txt__caption">Beautyful Free Nova template</h1>
+                    <p class="container-txt__par">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, cumque!</p>
+                    <button class="btn--download btn">Download</button>
+                </div>
+                <div class="container-pix intro__container">
+                    <img class="intro__img" src=".\images\screen.png" alt="">    
+                </div>
+            </section>
+        </div>    
     </header>
 
     <main class="page__main main">
-
-        <!-- UWAGA: The <hgroup> element has been removed from the HTML5 (W3C) specification -->
-        <section class="main__container basic">
-            <header class="basic__header container__txt">
-                <h2 class="basic__capition">Features</h2>
-            </header>
-            <article class="basic__article container__gr">
-                <section class="basic__part gr-part">
-                    <img class="gr-part__icon" src="" alt="">
-                    <h3 class="gr-part__capition">fully responsive</h3>
-                    <p class="gr-part__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, necessitatibus.</p>
-                </section>
-                <section class="basic__part gr-part">
-                    <img class="gr-part__icon" src="" alt="">
-                    <h3 class="gr-part__capition">customizable</h3>
-                    <p class="gr-part__par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, sed?</p>
-                </section>
-                <section class="basic__part gr-part">
-                    <img class="gr-part__icon" src="" alt="">
-                    <h3 class="gr-part__capition">slick and beautiful design</h3>
-                    <p class="gr-part__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maiores?</p>
-                </section>
-            </article>
-            <footer class="basic__footer">
-                <aside class="basic__gr-navbar gr-navbar">
-                    <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do Basecamp"></a>
-                    <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do grubHub"></a>
-                    <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do Trello"></a>
-                    <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do buffer"></a>
-                    <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do pocekt"></a>
-                </aside>
-            </footer>
-        </section>
-
-        <section class="main__container info">
-            <!-- Warto by to było opakować jeszcze w <article> czy to już przegięcie? ;)
-                 bo tak się właśnie zastanawiam, ja bym opakował xD
-              <article> ???
-            Jednak nie bo taga używamy jak fragment strony stanowi 
-               kompletną część strony zdatną do samodzielnej publikacji w innym miejscu -->
-            <div class="container-pix">
-                <a href=""><img src="" alt="">
-                    <img class="info__img" src=".\images\imac.png" alt="">
-                </a>
-            </div>
-            <div class="info__txt container-txt">
-                <h1 class="container-txt__caption">Beautyful Free Nova template</h1>
-                <p class="container-txt__par">A top notch</p>
-            </div>
-        </section>
-
-        <!-- Tak jest okay? Czy lepiej to zrobić jako table? 
-        Tu można użyć article bo już stanowi osobną część -->
-        <section class="main__container tariff">
-            <header class="tariff__header container-txt">
-                <h2 class="tariff__capition container-txt__capition">choose your pricing plan</h2>
-                <p class="tariff__par container-txt__par">Lorem ipsum dolor sit amet consectetur.</p>
-            </header>
-            <div class="tariff__container">
-                <article class="tariff__part column">
-                    <ul class="column__list">
-                        <li class="column__item column__item--header">Basic</li>
-                        <li class="column__item column__item--price">$ 9.99 / year</li>
-                        <li class="column__item column__item--season">10GB Storage</li>
-                        <li class="column__item column__item--prop">10 Emails</li>
-                        <li class="column__item column__item--prop">110 Domains</li>
-                        
-                        <li class="column__item--btn"><a href="#" class="button">Sign Up</a></li>
-                    </ul>
+        <div class="div--basic">
+            <!-- UWAGA: The <hgroup> element has been removed from the HTML5 (W3C) specification -->
+            <section class="main__container basic">
+                <header class="basic__header container__txt">
+                    <h2 class="basic__capition">Features</h2>
+                </header>
+                <article class="basic__article container__gr">
+                    <section class="basic__part gr-part">
+                        <span class="gr-part__icon"><img class="gr-part__img" src=".\images\responsive.svg" alt=""></span>
+                        <h3 class="gr-part__capition">fully responsive</h3>
+                        <p class="gr-part__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, necessitatibus.</p>
+                    </section>
+                    <section class="basic__part gr-part">
+                        <span class="gr-part__icon"><img class="gr-part__img" src=".\images\customizable.svg" alt=""></span>
+                        <h3 class="gr-part__capition">customizable</h3>
+                        <p class="gr-part__par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, sed?</p>
+                    </section>
+                    <section class="basic__part gr-part">
+                        <span class="gr-part__icon"><img class="gr-part__img" src=".\images\design.svg" alt=""></span>
+                        <h3 class="gr-part__capition">slick and beautiful design</h3>
+                        <p class="gr-part__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maiores?</p>
+                    </section>
                 </article>
+                <footer class="basic__footer">
+                    <aside class="basic__gr-navbar gr-navbar">
+                        <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do Basecamp"></a>
+                        <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do grubHub"></a>
+                        <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do Trello"></a>
+                        <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do buffer"></a>
+                        <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src="" alt="link do pocekt"></a>
+                    </aside>
+                </footer>
+            </section>
+        </div>
+    
 
-                <article class="tariff__part column">
-                    <ul class="column__list">
-                        <li class="column__item column__item--header">Basic</li>
-                        <li class="column__item column__item--price">$ 9.99 / year</li>
-                        <li class="column__item column__item--season">10GB Storage</li>
-                        <li class="column__item column__item--prop">10 Emails</li>
-                        <li class="column__item column__item--prop">110 Domains</li>
-                        <li class="column__item column__item--prop">110 Domains</li>
-                        
-                        <li class="column__item--btn"><a href="#" class="button">Sign Up</a></li>
-                    </ul>
-                </article>
-
-                <article class="tariff__part column">
-                    <ul class="column__list">
-                        <li class="column__item column__item--header">Basic</li>
-                        <li class="column__item column__item--price">$ 9.99 / year</li>
-                        <li class="column__item column__item--season">10GB Storage</li>
-                        <li class="column__item column__item--prop">10 Emails</li>
-                        <li class="column__item column__item--prop">110 Domains</li>
-                        <li class="column__item column__item--prop">110 Domains</li>
-                        <li class="column__item column__item--prop">110 Domains</li>
-                        
-                        <li class="column__item--btn"><a href="#" class="button">Sign Up</a></li>
-                    </ul>
-                </article>
-            </div>
-        </section> 
-
-    <!-- W materiałach często sekcja komentarzy jest umieszczana poza main, 
-         pod nim, a przed footer - to jest taki trend? -->
-        <section class="main__container column">
-            <header class="column__header container-txt">
-                <h2 class="column__capition">the item</h2>
-            </header>
+            <section class="main__container info">
+                <!-- Warto by to było opakować jeszcze w <article> czy to już przegięcie? ;)
+                    bo tak się właśnie zastanawiam, ja bym opakował xD
+                <article> ???
+                Jednak nie bo taga używamy jak fragment strony stanowi 
+                kompletną część strony zdatną do samodzielnej publikacji w innym miejscu -->
             
-            <div class="column__items">
-                <article class="column__item">
-                    <a href="" class="column-pix__link"><img src=".\images\cto.png" alt="" class="column__img"></a>
-                    <address>
-                        <header class="column__header">
-                            <h2 class="column__capition"></h2>
-                            <p class="column__par"><abbr title=""></abbr></p>
-                        </header>
-                        <aside class="column_gr-navbar">
-                            <ul>
-                                <li class="column__itembar"><a href="" class="column__linkbar"><img src="" alt="" class="column__icon"></a></li>
-                                <li class="column__itembar"><a href="" class="column__linkbar"><img src="" alt="" class="column__icon"></a></li>
-                            </ul>
-                        </aside>
-                    </address>
-                    <p class="column__par"></p>
-                </article>
+                <img class="info__img" src=".\images\imac.png" alt="">
+                <div class="info__txt container-txt">
+                    <h1 class="container-txt__capition">Simple and Beautiful</h1>
+                    <p class="container-txt__par">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Labore, laudantium repudiandae!</p>
+                </div>
+            </section>
 
-                <article class="column__item">
-                    <a href="" class="column-pix__link"><img src=".\images\ceo.png" alt="" class="column__img"></a>
-                    <address>
-                        <header class="column__header">
-                            <h2 class="column__capition"></h2>
-                            <p class="column__par"><abbr title=""></abbr></p>
-                        </header>
-                        <aside class="column_gr-navbar">
-                            <ul>
-                                <li class="column__itembar"><a href="" class="column__linkbar"><img src="" alt="" class="column__icon"></a></li>
-                                <li class="column__itembar"><a href="" class="column__linkbar"><img src="" alt="" class="column__icon"></a></li>
+            <!-- Tak jest okay? Czy lepiej to zrobić jako table? 
+            Tu można użyć article bo już stanowi osobną część -->
+        <div class="div--tariff"
+                <section class="main__container tariff">
+                    <header class="tariff__header container-txt">
+                        <h2 class="tariff__capition container-txt__capition">choose your pricing plan</h2>
+                        <p class="tariff__par container-txt__par">Lorem ipsum dolor sit amet consectetur.</p>
+                    </header>
+                    <div class="tariff__container">
+                        <article class="tariff__part">
+                            <ul class="column__list">
+                                <li class="column__item column__item--header">Basic</li>
+                                <li class="column__item column__item--price">$ 9.99 / year</li>
+                                <li class="column__item column__item--season">10GB Storage</li>
+                                <li class="column__item column__item--prop">10 Emails</li>
+                                <li class="column__item column__item--prop">110 Domains</li>
+                                
+                                <li class="column__item--btn"><a href="#" class="button">Sign Up</a></li>
                             </ul>
-                        </aside>
-                    </address>
-                    <p class="column__par"></p>
-                </article>
+                        </article>
 
-                <article class="column__item">
-                    <a href="" class="column-pix__link"><img src=".\images\cfo.png" alt="" class="column__img"></a>
-                    <address>
-                        <header class="column__header">
-                            <h2 class="column__capition"></h2>
-                            <p class="column__par"><abbr title=""></abbr></p>
-                        </header>
-                        <aside class="column_gr-navbar">
-                            <ul>
-                                <li class="column__itembar"><a href="" class="column__linkbar"><img src="" alt="" class="column__icon"></a></li>
-                                <li class="column__itembar"><a href="" class="column__linkbar"><img src="" alt="" class="column__icon"></a></li>
+                        <article class="tariff__part">
+                            <ul class="column__list">
+                                <li class="column__item column__item--header">Basic</li>
+                                <li class="column__item column__item--price">$ 9.99 / year</li>
+                                <li class="column__item column__item--season">10GB Storage</li>
+                                <li class="column__item column__item--prop">10 Emails</li>
+                                <li class="column__item column__item--prop">110 Domains</li>
+                                <li class="column__item column__item--prop">110 Domains</li>
+                                
+                                <li class="column__item--btn"><a href="#" class="button">Sign Up</a></li>
                             </ul>
-                        </aside>
-                    </address>
-                    <p class="column__par"></p>
-                </article>
-            </div>
-        </section> 
+                        </article>
+
+                        <article class="tariff__part">
+                            <ul class="column__list">
+                                <li class="column__item column__item--header">Basic</li>
+                                <li class="column__item column__item--price">$ 9.99 / year</li>
+                                <li class="column__item column__item--season">10GB Storage</li>
+                                <li class="column__item column__item--prop">10 Emails</li>
+                                <li class="column__item column__item--prop">110 Domains</li>
+                                <li class="column__item column__item--prop">110 Domains</li>
+                                <li class="column__item column__item--prop">110 Domains</li>
+                                
+                                <li class="column__item--btn"><a href="#" class="button">Sign Up</a></li>
+                            </ul>
+                        </article>
+                    </div>
+                </section> 
+        </div>
+
+            <!-- W materiałach często sekcja komentarzy jest umieszczana poza main, 
+            pod nim, a przed footer - to jest taki trend? -->
+        <div class="div--team">
+            <section class="main__container column">
+                <header class="column__header container-txt">
+                    <h2 class="column__capition--title">the tiem</h2>
+                </header>
+                
+                <div class="columns__items">
+                    <article class="column__item">
+                        <a href="" class="column-pix__link"><img src=".\images\cto.png" alt="" class="column__img"></a>
+                        <address>
+                            <header class="column__header">
+                                <h2 class="column__capition">Johan B. Gold</h2>
+                                <p class="column__par"><abbr title="Chief Technology Officer" lang="en">CTO</abbr></p>
+                            </header>
+                            <aside class="column_gr-navbar">
+                                <ul>
+                                    <li class="column__itembar"><a href="" class="column__linkbar"><img src=".\images\team-facebook.svg" alt="link do facebook'a" class="column__icon"></a></li>
+                                    <li class="column__itembar"><a href="" class="column__linkbar"><img src=".\images\team-twitter.svg" alt="link do twitter'a" class="column__icon"></a></li>
+                                </ul>
+                            </aside>
+                        </address>
+                        <p class="column__par">Lorem ipsum dolor sit amet.</p>
+                    </article>
+
+                    <article class="column__item">
+                        <a href="" class="column-pix__link"><img src=".\images\ceo.png" alt="" class="column__img"></a>
+                        <address>
+                            <header class="column__header">
+                                <h2 class="column__capition">Roli Over Beethoven</h2>
+                                <p class="column__par"><abbr title="Chief Executive Officer" lang="en">CEO</abbr></p>
+                            </header>
+                            <aside class="column_gr-navbar">
+                                <ul>
+                                    <li class="column__itembar"><a href="" class="column__linkbar"><img src=".\images\team-facebook.svg" alt="link do facebook'a" class="column__icon"></a></li>
+                                    <li class="column__itembar"><a href="" class="column__linkbar"><img src=".\images\team-twitter.svg" alt="link do twitter'a" class="column__icon"></a></li>
+                                </ul>
+                            </aside>
+                        </address>
+                        <p class="column__par">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </article>
+
+                    <article class="column__item">
+                        <a href="" class="column-pix__link"><img src=".\images\cfo.png" alt="" class="column__img"></a>
+                        <address>
+                            <header class="column__header">
+                                <h2 class="column__capition">Chuck Berry</h2>
+                                <p class="column__par"><abbr title="Chief Financial Officer" lang="en">CFO</abbr></p>
+                            </header>
+                            <aside class="column_gr-navbar">
+                                <ul>
+                                    <li class="column__itembar"><a href="" class="column__linkbar"><img src=".\images\team-facebook.svg" alt="link do facebook'a" class="column__icon"></a></li>
+                                    <li class="column__itembar"><a href="" class="column__linkbar"><img src=".\images\team-twitter.svg" alt="link do twitter'a" class="column__icon"></a></li>
+                                </ul>
+                            </aside>
+                        </address>
+                        <p class="column__par">Lorem ipsum dolor sit amet consectetur.</p>
+                    </article>
+                </div>
+            </section> 
+        </div>
     </main>
 
     <footer class="page__footer footer">

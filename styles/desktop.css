@@ -1,1 +1,4 @@
    
+   .menu, .intro, .basic, .tariff, .column {
+       max-width: 1050px;
+   }

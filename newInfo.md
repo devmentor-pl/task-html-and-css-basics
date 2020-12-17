@@ -31,3 +31,5 @@ Jednak nie bo taga używamy jak fragment strony stanowi kompletną część stro
 
  delete hgroup
  https://www.sitepoint.com/html5-hgroup-element-dropped/
+
+ Sprawdzić sobie zapis i struktura readme.md
