@@ -268,6 +268,7 @@
 /* tak nachrzaniłem z tymi jednostaki, że już jetem z tego głupi  */
 /* więc chociaż te ostatnie sekcje zrobie w porządku - mam nadzieje  */
 
+/*.main>.div--team_____________________STYLE__________________________.main>.div--team*/
 .div--team {
     height: 50vh;
 }
@@ -327,4 +328,27 @@ przez to poległem - wiec teraz robie na twardo ;) */
 }
 .column__item > .column__par{
     text-align: center;
+}
+/* __________________________________________________________________________________ */
+
+/*.footer_____________________STYLE__________________________.footer*/
+
+.page__footer{
+    height: 50px;
+    background-color: #464646;
+    color: white;
+    display: flex;
+}
+.footer span {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.column__linkbar {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer__par{
+    display:flex;
 }

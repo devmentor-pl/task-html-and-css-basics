@@ -33,3 +33,10 @@ Jednak nie bo taga używamy jak fragment strony stanowi kompletną część stro
  https://www.sitepoint.com/html5-hgroup-element-dropped/
 
  Sprawdzić sobie zapis i struktura readme.md
+
+
+ # Pytania
+
+  jakbym chciał do tego dołożyć jeszcze tłumaczenie to jakby miało to wyglądać?
+  Jako label czy jako dd czy czy jak?
+   <abbr title="Chief Technology Officer" lang="en">CTO</abbr></p>
