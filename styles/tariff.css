@@ -1,0 +1,101 @@
+/* global element styles  */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 20%;
+    height: 50px;
+    min-width: 150px;  
+    border-radius: 3%;      
+}
+.column__item--btn {
+    padding: .5% 1.6%;
+    text-align: center;
+    display: flex;
+}
+.price__btn {
+    text-decoration: none;
+    color: #ffffff;
+    margin: auto;
+}
+/***START***_____DIV--TARIFF_____*/
+
+
+.div--tariff {
+    background-color: #f7f7f7;
+
+    display: flex;
+    width: 100%;
+    height: 45vh;
+}
+.tariff {
+    width: 100%;
+    display: flex;
+    padding: 2%;
+}
+.tariff__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 2%;
+}
+.tariff__capition {
+    color:#333333;
+    text-transform: uppercase;
+    font-size: 1.5em; 
+}
+.tariff__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.tariff__part {
+    padding: 1.2% 2%;
+    align-self: stretch;
+    display: flex;
+}
+.column__list {
+    align-self: stretch;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+}
+.column__item--price {
+    padding: 10px 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.column__item .column__item--header {
+    color: rebeccapurple;
+}
+.span__price__period {
+    display: block;
+    font-size: small;
+}
+.column__item--btn {
+    margin: auto 0 0;
+}
+/* pytanie 2.  Nie umieałeem tego zrobić flexem...*/
+.column__list__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0 20px;
+}
+
+.tariff__part:hover {
+    box-shadow: 0 0 1.5em #000;
+    background-color: #feffff;
+/*++END+++_____DIV--TARIFF_____*/
+}

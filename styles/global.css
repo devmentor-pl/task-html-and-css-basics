@@ -1,3 +1,22 @@
+/* NEW */
+.menu, .intro, .basic, .tariff, .column {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("\assets\fonts\Montserrat-Black.ttf") format("truetype");
+    font-family: "Montserrat-italic";
+    src: url("\assets\fonts\Montserrat-Blackitalic.ttf") format("truetype");
+    font-family: "Montserrat-bold";
+    src: url("\assets\fonts\Montserrat-Bold.ttf") format("truetype");
+    font-family: "Montserrat-light";
+    src: url("\assets\fonts\Montserrat-Light.ttf") format("truetype");
+  }
+
+
+/* END NEW  */
 
 /*layout____________________________________________________LAYOUT_*/
 .page {
@@ -13,22 +32,6 @@
     flex-direction: column;
 }
 
-.header__menu {
-    display: flex;
-    justify-content: row;
-}
-.menu {
-    justify-content: space-between;
-    margin: 25px 0 50px 0;
-}
-.nav {
-    display: flex;
-    justify-content: space-around;
-}
-.intro {
-    display: flex;
-    justify-content: center;
-}
 .basic__capition, .container__gr {
     display: flex;
     justify-content: center;
@@ -37,11 +40,7 @@
     display: flex;
     justify-content: space-around;
 }
-.tariff__capition, .tariff__par, .tariff__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
+
 .column {
     display: flex;
     flex-direction: column;
@@ -60,16 +59,6 @@
 /*style__________________________STYLE__________________________style*/
 
 /*font___________________________STYLE__________________________font*/
-@font-face {
-    font-family: "Montserrat";
-    src: url("\assets\fonts\Montserrat-Black.ttf") format("truetype");
-    font-family: "Montserrat-italic";
-    src: url("\assets\fonts\Montserrat-Blackitalic.ttf") format("truetype");
-    font-family: "Montserrat-bold";
-    src: url("\assets\fonts\Montserrat-Bold.ttf") format("truetype");
-    font-family: "Montserrat-light";
-    src: url("\assets\fonts\Montserrat-Light.ttf") format("truetype");
-  }
   
   /* w sumie to juz zgłupiałem ustawiać globalnie rozmiar fontu w px na 16 px 
   by potem móc z tego korzystać w postaci rem'ów? Czy to są już jakieś globalne ustawienia przeglądarek? */
@@ -80,188 +69,12 @@
 }
 
 
-/*page__header_____________________STYLE__________________________page__header*/
-.header {
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    height: 45vh;
-}
-    .menu {
-        min-height: 50px;
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-    }
-        .nav__link {
-            color: white;
-            padding: 10px;
-            font-weight: bold;
-            text-decoration: none;
-            font-size: 1rem;
-        }
-.link__img {
-    display: flex;
-    justify-content: center;
-}
-
-    .header__container{
-        display: flex;
-        padding-bottom: 10%;
-        align-content: center;
-    }
-
-    .intro__img{
-        border-style: solid;
-        border-color: white;
-        border-width: 18px;
-        /* chyba lepiej tu użyć funkcji calc  
-        coś tu i tak nie tak jest bo jest przerwa pomiedz obrazem a margin */
-        border-radius: 8px;
-        transform: rotate(10deg);
-        margin: 50px auto 0 50px;
-        max-width: 30vh;
-        }
-
-
-    .intro__container {
-        color: white;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        }
-        .intro .container-txt__caption {
-            font-weight: bold;
-            font-size: 1.5rem;
-            padding-bottom: 10%;
-        }
-        .intro .container-txt__par{
-            line-height: 1.5rem;
-            padding-bottom: 10%;
-        }
-
-        .intro .container-txt {
-            flex: 45%;
-            align-self:flex-end;
-        }
-        .intro container-pix {
-            flex: 55%;
-        }
-        .btn__icon {
-            display: flex;
-            padding: 20px;
-        }
-        .btn {
-            background-color: DodgerBlue;
-            border: none;
-            color: white;
-            padding: 12px 30px;
-            cursor: pointer;
-            font-size: 20px;
-            display: inline-block;
-            margin-right: 20%;
-            height: 50px;
-            min-width: 200px;         
-          }
-
-
-/*.main>basic_____________________STYLE__________________________.main>basic*/
-
-
-.div--basic {
-    background-color: black;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.basic__capition {
-    padding: 6% 0 6% 0;
-    font-family: "Montserrat-light", "Helvetica Neue", Helvetica, sans-serif;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.9rem;
-}
-
-.gr-part__icon {
-    background-color: white;
-    display: flex;
-    border-color: white;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    justify-content: center;
-}
-.gr-part__img {
-    width: 60%;
-    padding: 5px;
-}
-.gr-part__icon {
-    display: flex;
-    margin: 0 auto 15px auto;
-}
-.gr-part__capition{
-    color:white;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    line-height: 40px;
-}
-.gr-part__par{
-    color:white;
-   font-weight: 100;
-    text-align: center;
-}
-.basic__footer{
-    background-color: #FFFFFF;
-    padding: 20px;
-    margin: 8% 0 5% 0;
-   
-}
 
 /*.main>info_____________________STYLE__________________________.main>info*/
-.info{
-    display: flex;
-    flex-direction: row;
 
-}
-
-.info .container-txt{
-    flex: 40%;
-}
-.info__img {
-    display: flex;
-    flex: 60%;
-    justify-content: flex-end;
-    width: 100%;
-}
-
-.info__txt{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    padding-top: 5%;
-}
-
-.info .container-txt__capition{
-    color:#cecece;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 3rem;
-    margin-bottom: 5%;    
-
-}
-.info .container-txt__par{
-    color:#cecece;
-   font-weight: 100;
-   font-size: 2rem;
-
-}
 
 /*.main>.tariff_____________________STYLE__________________________.main>.tariff*/
 
-.div--tariff {
-    background-color: #E4E6EA;
-    width: 100%;
-}
 
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -289,9 +102,6 @@ przez to poległem - wiec teraz robie na twardo ;) */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-}
-.column__item{
-    flex: 30%;
 }
 .column-pix__link {
     display: flex;

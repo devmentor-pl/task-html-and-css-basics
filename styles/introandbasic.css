@@ -1,0 +1,151 @@
+/***START___intro___***/
+.page__header {
+    width: 100%;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div--intro {
+    display: flex;
+    width: 100%;
+    padding: 0 5%;
+    margin: 0 0 auto;
+}
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.intro__txt {
+    color: white;
+    align-self: flex-start;
+    padding: 5% 1%;
+    max-width: 400px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 0 1 0.7;
+}
+.intro__pix {
+    display: flex;
+    flex: 0 1 3;
+    padding: 0 0 5% 0;
+    max-width: 550px;
+    min-width: 300px;
+    align-self: flex-start;
+}
+.intro__img {
+    width: 100%;
+    border: 10px solid #fff;
+    border-radius: 8px;
+    transform: rotate(9deg);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.intro .container-txt__caption {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 8%;
+}
+.intro .container-txt__par{
+    line-height: 1.5rem;
+    padding-bottom: 8%;
+}
+.btn__icon {
+    display: flex;
+    padding: 5%;
+}
+/*end___intro___*/
+
+/***START___dosprawdzenia i ew. przepisania inaczej  */
+.gr-part__icon {
+    background-color: white;
+    display: flex;
+    border-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+.gr-part__img {
+    width: 60%;
+    padding: 5px;
+}
+.gr-part__icon {
+    display: flex;
+    margin: 0 auto 15px auto;
+}
+.gr-part__capition{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+}
+.gr-part__par{
+    color:white;
+    font-weight: 100;
+    text-align: center;
+}
+
+/*++end___dosprawdzenia i ew. przepisania inaczej  */
+
+/***START___basic___***/
+.div--basic{
+    background-color: black;
+    
+    display: flex;
+    width: 100%;
+    padding: 0 5%;
+    height: 50vh;
+}
+.basic {
+    width: 100%;
+    display: flex;
+}
+.basic__header {
+    padding: 3% 0;
+}
+.basic__capition {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+.container__gr {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.gr__part {
+    max-width: 30%;
+    min-width: 200px;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.basic__footer{
+    background-color: #FFFFFF;
+    padding: 1.3%;
+    margin-top: 2%;
+}
+.gr-navbar {
+    display: flex;
+    max-height: 30px;
+}
+.gr-navbar__link {
+    display: flex;
+    align-items: center;
+}
+.gr-navbar__icon {
+    width: 100px;
+}
+/*end___basic___*/
+
+
+
