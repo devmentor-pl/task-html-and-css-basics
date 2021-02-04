@@ -1,4 +1,7 @@
-# ETAPY
+# info
+**Muszę to przejrzej po pracy i wtedy zaktualizuję listę pytań** 
+
+## ETAPY
 1. Nadać style - warstwa wizualna, w osobnych plikach
 2. rest / normalize
 3. RWD - w osobnych zapytaniach @media
@@ -6,7 +9,7 @@
 
 * główne sylowanie/warstwa wizualna 
 
-# PYTANIA: 
+## PYTANIA: 
 1. <section class="main__container tariff">  - zostawić czy jednak aside albo najlepiej div?
 >Element section reprezentuje ogólną sekcję dokumentu lub aplikacji. Sekcja w tym kontekście to tematyczna grupa treści. Każda sekcja powinna być zidentyfikowana, zazwyczaj poprzez włączenie nagłówka (element h1-h6) jako elementu potomnego elementu sekcji,
 

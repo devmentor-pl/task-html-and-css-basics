@@ -9,13 +9,14 @@
         <link rel="stylesheet" type="text/css" href="./styles/reset.css">
         <link rel="stylesheet" type="text/css" href="./styles/global.css">
         <link rel="stylesheet" type="text/css" href="./styles/base.css"> <!-- tu jest ten background-image> -->
+        <link rel="stylesheet" type="text/css" href="./styles/navbar.css">
         <link rel="stylesheet" type="text/css" href="./styles/introandbasic.css">
         <link rel="stylesheet" type="text/css" href="./styles/info.css">
         <link rel="stylesheet" type="text/css" href="./styles/tariff.css">
         <link rel="stylesheet" type="text/css" href="./styles/team.css">
-        <link rel="stylesheet" type="text/css" href="./styles/mobile.css">
-        <link rel="stylesheet" type="text/css" href="./styles/desktop.css">
-        <link rel="stylesheet" type="text/css" href="./styles/navbar.css">
+        <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+<!--    <link rel="stylesheet" type="text/css" href="./styles/mobile.css">
+        <link rel="stylesheet" type="text/css" href="./styles/desktop.css"> -->
     </head>
     <body class="page">
         <div class="page__wrapper container__wrapper">
@@ -141,19 +142,15 @@
                         </div>
                     </section> 
                 </div>
-
-                    <!-- W materiałach często sekcja komentarzy jest umieszczana poza main, 
-                    pod nim, a przed footer - to jest taki trend? -->
                 <div class="div--team">
-                    <section class="main__container column">
-                        <header class="column__header container-txt">
-                            <h2 class="column__capition--title">the team</h2>
+                    <section class="main__container section__team">
+                        <header class="team__header container-txt">
+                            <h2 class="team__capition">the team</h2>
                         </header>
-                        
-                        <div class="columns__items">
-                            <article class="column__item">
-                                <a href="" class="column-pix__link"><img src=".\images\cto.png" alt="" class="column__img"></a>
-                                <address>
+                        <div class="team__list">
+                            <article class="article__team__item">
+                                <a href="" class="a__team__item"><img src=".\images\cto.png" alt="" class="column__img"></a>
+                                <address class="address__team__item">
                                     <header class="column__header">
                                         <h2 class="column__capition">Johan B. Gold</h2>
                                         <p class="column__par"><abbr title="Chief Technology Officer" lang="en">CTO</abbr></p>
@@ -163,14 +160,14 @@
                                             <li class="column__itembar"><a href="" class="column__linkbar"><img src=".\images\team-facebook.svg" alt="link do facebook'a" class="column__icon"></a></li>
                                             <li class="column__itembar"><a href="" class="column__linkbar"><img src=".\images\team-twitter.svg" alt="link do twitter'a" class="column__icon"></a></li>
                                         </ul>
-                                    </aside>
-                                </address>
-                                <p class="column__par">Lorem ipsum dolor sit amet.</p>
+                                    </address>
+                                </aside>
+                                <p class="p__team__item column__par">Lorem ipsum dolor sit amet.</p>
                             </article>
 
-                            <article class="column__item">
-                                <a href="" class="column-pix__link"><img src=".\images\ceo.png" alt="" class="column__img"></a>
-                                <address>
+                            <article class="article__team__item">
+                                <a href="" class="a__team__item"><img src=".\images\ceo.png" alt="" class="column__img"></a>
+                                <address class="address__team__item">
                                     <header class="column__header">
                                         <h2 class="column__capition">Roli Over Beethoven</h2>
                                         <p class="column__par"><abbr title="Chief Executive Officer" lang="en">CEO</abbr></p>
@@ -182,12 +179,12 @@
                                         </ul>
                                     </aside>
                                 </address>
-                                <p class="column__par">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                                <p class="p__team__item column__par">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                             </article>
 
-                            <article class="column__item">
-                                <a href="" class="column-pix__link"><img src=".\images\cfo.png" alt="" class="column__img"></a>
-                                <address>
+                            <article class="article__team__item">
+                                <a href="" class="a__team__item"><img src=".\images\cfo.png" alt="" class="column__img"></a>
+                                <address class="address__team__item">
                                     <header class="column__header">
                                         <h2 class="column__capition">Chuck Berry</h2>
                                         <p class="column__par"><abbr title="Chief Financial Officer" lang="en">CFO</abbr></p>
@@ -199,7 +196,7 @@
                                         </ul>
                                     </aside>
                                 </address>
-                                <p class="column__par">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p class="p__team__item column__par">Lorem ipsum dolor sit amet consectetur.</p>
                             </article>
                         </div>
                     </section> 

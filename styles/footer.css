@@ -1,0 +1,30 @@
+.footer_____________________STYLE__________________________.footer
+
+/* .page__footer{
+    display: flex;
+} */
+.footer span {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.column__linkbar {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer__par{
+    display:flex;
+}
+
+.footer {
+    min-height: 50px;
+    height: 5vh;
+    background-color: #464646;
+    color: white;
+    padding: 2.5% 2% 1.5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
