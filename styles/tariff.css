@@ -83,7 +83,7 @@
     font-size: small;
 }
 .column__item--btn {
-    margin: auto 0 0;
+    margin: auto;
 }
 /* pytanie 2.  Nie umieałeem tego zrobić flexem...*/
 .column__list__details {
