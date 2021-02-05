@@ -56,9 +56,10 @@
     flex-wrap: wrap;
 }
 .tariff__part {
-    padding: 1.2% 2%;
+    padding: 2% 2%;
     align-self: stretch;
     display: flex;
+    margin: 2%;
     
 }
 .column__list {
@@ -98,6 +99,16 @@
 .tariff__part:hover {
     box-shadow: 0 0 1.5em #000;
     background-color: #feffff;
-/*++END+++_____DIV--TARIFF_____*/
 }
+.tariff__header__txt {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 0 auto;
+flex-wrap: wrap;
+padding: 2%;
+}
+/*++END+++_____DIV--TARIFF_____*/
 /* commit coś mi nie dziąła - test  */

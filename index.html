@@ -16,8 +16,8 @@
         <link rel="stylesheet" type="text/css" href="./styles/tariff.css">
         <link rel="stylesheet" type="text/css" href="./styles/team.css">
         <link rel="stylesheet" type="text/css" href="./styles/footer.css">
-<!--    <link rel="stylesheet" type="text/css" href="./styles/mobile.css">
-        <link rel="stylesheet" type="text/css" href="./styles/desktop.css"> -->
+        <link rel="stylesheet" type="text/css" href="./styles/mobile.css">
+        <!-- <link rel="stylesheet" type="text/css" href="./styles/desktop.css"> -->
     </head>
     <body class="page">
         <div class="page__wrapper container__wrapper">
@@ -52,30 +52,36 @@
             <main class="page__main main">
                 <div class="div--basic">
                     <section class="main__container basic">
-                        <header class="basic__header container__txt">
+                        <header class="basic__header basic__header__txt">
                             <h2 class="basic__capition">Features</h2>
                         </header>
                         <article class="basic__list container__gr">
                             <section class="basic__item">
                                 <span class="basic__item__icon"><img class="gr-part__img" src=".\images\responsive.svg" alt=""></span>
-                                <h3 class="gr-part__capition">fully responsive</h3>
-                                <p class="gr-part__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, necessitatibus.</p>
+                                <div class="basic__item__txt">
+                                    <h3 class="gr-part__capition">fully responsive</h3>
+                                    <p class="gr-part__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, necessitatibus.</p>
+                                </div>
                             </section>
                             <section class="basic__item">
                                 <span class="basic__item__icon"><img class="gr-part__img" src=".\images\customizable.svg" alt=""></span>
-                                <h3 class="gr-part__capition">customizable</h3>
-                                <p class="gr-part__par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, sed?</p>
+                                <div class="basic__item__txt">
+                                    <h3 class="gr-part__capition">customizable</h3>
+                                    <p class="gr-part__par">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, sed?</p>
+                                </div>
                             </section>
                             <section class="basic__item">
                                 <span class="basic__item__icon"><img class="gr-part__img" src=".\images\design.svg" alt=""></span>
-                                <h3 class="gr-part__capition">beautiful design</h3>
-                                <p class="gr-part__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maiores?</p>
+                                <div class="basic__item__txt">
+                                    <h3 class="gr-part__capition">beautiful design</h3>
+                                    <p class="gr-part__par">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, maiores?</p>
+                                </div>    
                             </section>
                         </article>
                         <footer class="basic__footer">
                             <aside class="basic__gr-navbar gr-navbar">
                                 <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src=".\images\basecamp-logo-2019.svg" alt="link do Basecamp"></a>
-                                <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src=".\images\Grubhub.svg" alt="link do grubHub"></a>
+                                <a class="gr-navbar__link" href=""><img class="gr-navbar__icon basic__icon__grubhub" src=".\images\Grubhub.svg" alt="link do grubHub"></a>
                                 <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src=".\images\trello-logo@logotyp.us.svg" alt="link do Trello"></a>
                                 <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src=".\images\buffer-inc-vector-logo.svg" alt="link do buffer"></a>
                                 <a class="gr-navbar__link" href=""><img class="gr-navbar__icon" src=".\images\pocket-logo@logotyp.us.svg" alt="link do pocekt"></a>
@@ -96,7 +102,7 @@
                 </div>
                 <div class="div--tariff">
                     <section class="main__container tariff">  
-                        <header class="tariff__header container-txt">
+                        <header class="tariff__header tariff__header__txt">
                             <h2 class="tariff__capition container-txt__capition">choose your pricing plan</h2>
                             <p class="tariff__par container-txt__par">Lorem ipsum dolor sit amet consectetur.</p>
                         </header>

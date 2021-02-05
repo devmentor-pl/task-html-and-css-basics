@@ -9,8 +9,9 @@
     text-transform: uppercase;
     text-align: center;
     font-weight: 600;
-    line-height: 40px;
+    padding-bottom: 5%;
 }
+
 .gr-part__par{
     color:white;
     font-weight: 100;
@@ -45,7 +46,10 @@
     background-color: #FFFFFF;
     padding: 1.3%;
     margin: 2% 0 2%;
-
+}
+.basic__icon__grubhub {
+    padding: 2% 0 2% 6% !important;
+    width: 80px !important;
 }
 .gr-navbar {
     display: flex;
