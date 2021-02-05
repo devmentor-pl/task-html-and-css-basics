@@ -2,7 +2,6 @@
 .page__header {
     width: 100%;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +9,7 @@
 .div--intro {
     display: flex;
     width: 100%;
-    padding: 0 5%;
+    padding: 2% 5%;
     margin: 0 0 auto;
 }
 .intro {
