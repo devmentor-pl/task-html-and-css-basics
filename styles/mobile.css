@@ -70,13 +70,13 @@
     /* -> .team */
     .team__list {
         flex-direction: column;
-        flex-basis: 1;
+        justify-content: flex-start;
+
     }
     .article__team__item {
         flex-direction: row;
         justify-content: space-evenly;
     }
-
     .a__team__item img {
         max-width: 100%;
     }
