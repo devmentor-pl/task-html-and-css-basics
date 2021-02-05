@@ -35,7 +35,7 @@
     padding: 0 0 5% 0;
     max-width: 550px;
     min-width: 300px;
-    align-self: flex-start;
+    align-self: center;
 }
 .intro__img {
     width: 100%;
