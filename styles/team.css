@@ -75,13 +75,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 }
-.column__linkbar,
 .column__itembar,
-.column_gr-navbar ul {
+.column__itembar,
+.column_gr-navbar ul,
+.column__linkbar {
     display: flex;
     align-items: center;
-    margin: auto;
 }
+.column__linkbar img {
+    width: auto;
+    min-height: 15px;
+}
+
 /* end__team */
 /* commit coś mi nie dziąła - test  */

@@ -1,0 +1,89 @@
+
+/***START___dosprawdzenia i ew. przepisania inaczej  */
+.gr-part__img {
+    width: 60%;
+    padding: 5px;
+}
+.gr-part__capition{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 40px;
+}
+.gr-part__par{
+    color:white;
+    font-weight: 100;
+    text-align: center;
+}
+
+/*++end___dosprawdzenia i ew. przepisania inaczej  */
+
+/*START___basic___*/
+/* -> main container basic */
+.div--basic{
+    background-color: black;
+    
+    display: flex;
+    width: 100%;
+    padding: 0 5%;
+}
+.basic {
+    width: 100%;
+    display: flex;
+    padding-bottom: 1.5%;
+}
+.basic__header {
+    padding: 3% 0;
+}
+.basic__capition {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+.basic__footer{
+    background-color: #FFFFFF;
+    padding: 1.3%;
+    margin: 2% 0 2%;
+
+}
+.gr-navbar {
+    display: flex;
+    max-height: 30px;
+}
+.gr-navbar__link {
+    display: flex;
+    align-items: center;
+}
+.gr-navbar__icon {
+    width: 100px;
+}
+/* X main container basic */
+/* -> child container basic */
+.basic__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.basic__item {
+    display: flex;
+    max-width: 30%;
+    min-width: 150px;
+    padding: 1%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.basic__item__icon {
+    background-color: #FFFFFF;
+    display: flex;
+    border-color: #FFFFFF;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    
+    display: flex;
+    margin: 0 auto 15px auto;
+}
+/* X child container basic */
+/*END___basic___*/
