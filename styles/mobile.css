@@ -1,4 +1,4 @@
-@media (max-width: 599px) {
+@media (max-width: 601px) {
     .menu {
         padding-top: 20px;
     }
@@ -22,8 +22,8 @@
         flex-direction: row;
     }
     .basic__item__icon {
-        min-width: 50px;
-        height: auto;
+        width: 70px;
+        height: 70px;
         margin-top: 10px;
     }
     .basic__item__txt {
@@ -37,12 +37,33 @@
     .gr-part__capition {
         display: flex;
         padding-bottom: 1%;
-        justify-content: center;
+        padding-left: 5%;
+        justify-content: flex-start;
     }
     .gr-part__par {
         justify-content: flex-start;
         align-self: flex-start;
         text-align: left;
         padding-left: 5%;
+    }
+}
+@media (max-width: 601px) {
+    .info {
+        flex-direction: column;
+    }
+    .info__txt {
+        order: -1;
+        max-width: 100%;
+        padding: 5%;
+        margin: 0;
+        align-items: center;
+    }
+    /* ,tariff */
+    .tariff__list {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tariff__part {
+        align-self: center;
     }
 }
