@@ -90,10 +90,16 @@
 }
 /* pytanie 2.  Nie umieałeem tego zrobić flexem...*/
 .column__list__details {
+    list-style-type: none;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: auto 0 20px;
+}
+.column__item__details {
+    font-weight: 500;
 }
 
 .tariff__part:hover {

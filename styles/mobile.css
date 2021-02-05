@@ -58,7 +58,7 @@
         margin: 0;
         align-items: center;
     }
-    /* ,tariff */
+    /* -> .tariff */
     .tariff__list {
         flex-direction: column;
         justify-content: center;
@@ -66,4 +66,42 @@
     .tariff__part {
         align-self: center;
     }
+    /* X .tariff */
+    /* -> .team */
+    .team__list {
+        flex-direction: column;
+        flex-basis: 1;
+    }
+    .article__team__item {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .a__team__item img {
+        max-width: 100%;
+    }
+    .address__team__item {
+        flex-basis: 20%;
+        min-width: 130px;
+    }
+    .p__team__item {
+        flex-basis: 60%;
+    }
+    .column__header > .column__par {
+        display: flex;
+        padding: 1%
+    }
+    .column__header > .column__capition {
+        order: 1;
+        padding: 2%;
+    }
+    .column__header > .column__par {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        padding: 2%;
+    }
+    /* .team__item__avatar {
+    } */
+    /* X .team */
 }
