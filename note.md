@@ -8,6 +8,8 @@ https://gs.statcounter.com/screen-resolution-stats/all/poland
     * Obecnie najbardziej popularnym rozwiązaniem jest: <br>
         360x640 px -> więc robiłbym z zakresu 340 - 640 <br>
         _jednocześnie pamiętająć by ibecny widok dostosować do 640px_
+    *test na urzędzenia mobilne: <br>
+    https://search.google.com/test/mobile-friendly
 ***
 **EDU** Punkty graniczne tworzy się także na podstawie
 obserwacji wizualnych efektów - możemy
