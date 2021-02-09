@@ -37,14 +37,22 @@
     min-width: 300px;
     align-self: center;
 }
-.intro__img {
-    width: 100%;
+
+.intro__div__img {
+    width: 94%;
     border: 10px solid #fff;
     border-radius: 8px;
     transform: rotate(9deg);
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+.intro__img {
+
+    width: 100%;
+    margin: -5px;
 }
 .intro .container-txt__caption {
     font-weight: bold;
