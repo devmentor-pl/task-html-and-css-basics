@@ -68,6 +68,8 @@
     }
     /* X .tariff */
     /* -> .team */
+
+    
     .team__list {
         flex-direction: column;
         justify-content: flex-start;
