@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'montserrat';
     src: url('fonts/montserrat-semibold-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-semibold-webfont.woff') format('woff');
+        url('fonts/montserrat-semibold-webfont.woff') format('woff');
     font-weight: 600;
     font-style: semibold;
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'montserrat';
     src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-regular-webfont.woff') format('woff');
+        url('fonts/montserrat-regular-webfont.woff') format('woff');
     font-weight: 400;
     font-style: regular;
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'montserrat';
     src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-light-webfont.woff') format('woff');
+        url('fonts/montserrat-light-webfont.woff') format('woff');
     font-weight: 300;
     font-style: light;
 }
@@ -32,4 +32,68 @@
     width: 100%;
     max-width: 1050px;
     border: 2px solid green;
+}
+
+.main-nav__links {
+    display: none;
+}
+
+#menu-switcher:checked + .main-nav__links {
+    display: block;
+}
+
+input#menu-switcher {
+    display: none;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav {
+    border: 1px solid red;
+}
+
+.menu-switcher {
+    cursor: pointer;
+    width: 35px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    border: 0;
+    border-top: 4px solid black;
+    transition: 0.2s transform linear;
+}
+
+.menu-switcher:before,
+.menu-switcher:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-top: 4px solid red;
+    transform: translateY(20px);
+}
+
+.menu-switcher:after {
+    transform: translateY(8px);
+    transition: 0.2s transform linear;
+    /* margin-bottom: 20px; */
+    border-top: 4px solid blue;
+}
+
+.menu-switcher:hover {
+    transform: rotate(45deg) translateY(3px);
+    border: none;
+}
+
+.menu-switcher:hover::after {
+    transform: rotate(-90deg) translateX(-15px);
+}
+
+.menu-switcher:hover::before {
+    transform: translateY(16px);
 }
