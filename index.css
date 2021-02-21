@@ -30,6 +30,10 @@
     font-style: extralight;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     font-family: 'montserrat';
     text-decoration: none;
@@ -39,15 +43,12 @@
     padding: 5px 10px;
     margin: 0 auto;
     width: 100%;
-    /* max-width: 1050px; */
-    border: 2px solid green;
     text-align: center;
 }
 
 @media (min-width: 761px) {
     .container {
         max-width: 1050px;
-        border: 2px solid black;
         margin: 0 auto;
     }
 }
@@ -304,7 +305,7 @@ input#menu-switcher {
 }
 
 .features-item {
-    padding-bottom: 30px;
+    padding-bottom: 80px;
 }
 
 .features-text {
@@ -343,6 +344,10 @@ input#menu-switcher {
     .features-text {
         padding: 0 20px;
     }
+
+    .features-item {
+        padding-bottom: 120px;
+    }
 }
 
 /* ------------------------------- END OF FEATURE CONTENT ------------------------------- */
@@ -350,7 +355,13 @@ input#menu-switcher {
 /* ------------------------------- LOGOS CONTENT ------------------------------- */
 
 .container-logos {
-    padding: 5px 0;
+    padding: 10px 0;
+}
+
+@media (min-width: 1px) {
+    .container-logos {
+        padding: 20px 0;
+    }
 }
 
 /* ------------------------------- END OF LOGOS CONTENT ------------------------------- */
@@ -389,6 +400,7 @@ input#menu-switcher {
     .lorem-text {
         width: 70%;
         line-height: 25px;
+        padding-left: 0;
     }
 }
 
@@ -471,3 +483,49 @@ input#menu-switcher {
 }
 
 /* ------------------------------- END OF PRICE CONTENT ------------------------------- */
+
+/* ------------------------------- TEAM CONTENT ------------------------------- */
+
+.team-box {
+    padding: 20px 0;
+}
+
+.team-img {
+    padding: 30px;
+}
+
+.team-position {
+    text-transform: uppercase;
+}
+
+.team-name {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.team-description {
+    font-weight: 200;
+}
+
+.team-description__social {
+    padding: 10px 0;
+    width: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 761px) {
+    .team-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .team-box {
+        padding-bottom: 100px;
+    }
+
+    .team-description__social {
+        padding: 20px 0;
+    }
+}
