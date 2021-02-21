@@ -182,17 +182,28 @@ input#menu-switcher {
     padding-bottom: 30px;
 }
 
-.btn-download {
-    background-color: #25f18b;
+.btn {
+
     border: none;
     padding: 15px 40px;
     border-radius: 5px;
     color: #FFF;
 }
 
-.btn-download:hover {
-    background-color: #1fc371;
+.btn--download {
+    background-color: #25f18b;
+}
+
+.btn:hover {
     transition: all 0.3s ease-out;
+}
+
+.btn--download:hover {
+    background-color: #1fc371;
+}
+
+.btn:focus {
+    outline: none;
 }
 
 .main-content__img {
@@ -362,6 +373,7 @@ input#menu-switcher {
         width: 50%;
         padding: 20px 30px;
     }
+
     .lorem-content__child:nth-child(1) {
         display: block;
     }
@@ -375,10 +387,87 @@ input#menu-switcher {
     }
 
     .lorem-text {
-
         width: 70%;
         line-height: 25px;
     }
-
-
 }
+
+/* ------------------------------- END OF LOREM IPSUM CONTENT ------------------------------- */
+
+/* ------------------------------- PRICE CONTENT ------------------------------- */
+
+#price {
+    background-color: #f8f9f9;
+}
+
+.price-description {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.price-container {
+    padding: 20px 0;
+}
+
+.price-box {
+    padding: 20px 0;
+}
+
+.price-title {
+    text-transform: uppercase;
+}
+
+.price {
+    padding: 10px 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.month {
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+.description {
+    padding-bottom: 10px;
+}
+
+.btn--start {
+    margin-top: 40px;
+    background-color: #0abceb;
+}
+
+.btn--start:hover {
+    background-color: #0a98c0;
+}
+
+
+@media (min-width: 761px) {
+    .price-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .price-box {
+        position: relative;
+        height: 350px;
+        width: 30%;
+    }
+
+    .price-box:hover {
+        box-shadow: 0px 0px 20px -2px #252525;
+        transform: scale(0.9);
+        transition: all 0.6s;
+        border-radius: 5px;
+    }
+
+    .btn--start {
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+/* ------------------------------- END OF PRICE CONTENT ------------------------------- */
