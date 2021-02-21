@@ -197,6 +197,7 @@ input#menu-switcher {
 
 .main-content__img {
     padding-top: 30px;
+    max-height: 400px;
 }
 
 @media (min-width: 761px) {
@@ -252,9 +253,9 @@ input#menu-switcher {
 /* ------------------------------- FEATURE CONTENT ------------------------------- */
 
 .header-title {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
-    padding: 30px 0;
+    padding: 20px 0;
     text-transform: uppercase;
 }
 
@@ -268,7 +269,7 @@ input#menu-switcher {
 }
 
 .features-shape {
-    background-color:#FFF;
+    background-color: #FFF;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -279,10 +280,10 @@ input#menu-switcher {
     box-shadow: 6px 13px 22px 3px rgb(255 255 255 / 15%);
 }
 
- .feature-img {
+.feature-img {
     height: 50%;
     margin-top: 25%;
-} 
+}
 
 .feature-header {
     padding: 25px 0;
@@ -296,9 +297,9 @@ input#menu-switcher {
 }
 
 .features-text {
-        padding: 0 40px;
-        font-weight: 200;
-        font-size: 18px;
+    padding: 0 40px;
+    font-weight: 200;
+    font-size: 18px;
 }
 
 @media (min-width: 761px) {
@@ -310,13 +311,10 @@ input#menu-switcher {
     .features {
         display: flex;
         justify-content: space-evenly;
-        border: 1px solid red;
     }
 
     .features-item {
         width: 25%;
-        /* padding: 0 30px; */
-        border: 1px solid green;
     }
 
     .features-text {
@@ -334,4 +332,53 @@ input#menu-switcher {
     .features-text {
         padding: 0 20px;
     }
+}
+
+/* ------------------------------- END OF FEATURE CONTENT ------------------------------- */
+
+/* ------------------------------- LOGOS CONTENT ------------------------------- */
+
+.container-logos {
+    padding: 5px 0;
+}
+
+/* ------------------------------- END OF LOGOS CONTENT ------------------------------- */
+
+/* ------------------------------- LOREM IPSUM CONTENT ------------------------------- */
+
+.lorem-content__child:nth-child(1) {
+    display: none;
+}
+
+.lorem-text {
+    padding: 0 20px;
+    line-height: 20px;
+}
+
+
+@media (min-width: 761px) {
+
+    .lorem-content__child {
+        width: 50%;
+        padding: 20px 30px;
+    }
+    .lorem-content__child:nth-child(1) {
+        display: block;
+    }
+
+    .lorem-container {
+        display: flex;
+    }
+
+    .lorem-content__child:nth-child(2) {
+        text-align: left;
+    }
+
+    .lorem-text {
+
+        width: 70%;
+        line-height: 25px;
+    }
+
+
 }
