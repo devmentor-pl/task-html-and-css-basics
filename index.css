@@ -398,9 +398,14 @@ input#menu-switcher {
     }
 
     .lorem-text {
-        width: 70%;
         line-height: 25px;
         padding-left: 0;
+    }
+}
+
+@media (min-width: 1281px) {
+    .lorem-text {
+        width: 70%;
     }
 }
 
@@ -529,3 +534,29 @@ input#menu-switcher {
         padding: 20px 0;
     }
 }
+
+/* ------------------------------- FOOTER CONTENT ------------------------------- */
+
+.footer-container {
+    background-color: #464646;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer__template {
+    display: flex;
+}
+
+.footer__template a {
+    display: flex;
+}
+
+.footer-copyright {
+    line-height: 34px;
+    padding-right: 10px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+/* ------------------------------- END OF FOOTER CONTENT ------------------------------- */
