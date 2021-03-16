@@ -1,0 +1,77 @@
+.header {
+    padding: 1rem;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+}
+
+.nav__item {
+    margin-right: 3rem;
+}
+
+.nav__item--no-space {
+    margin-right: 0;
+}
+
+.nav__link {
+    color: var(--color-alfa);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header__content {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.header__intro {
+    flex-basis: 40%;
+}
+
+.intro__heading {
+    padding: 6rem 3rem 3rem 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-alfa);
+}
+
+.intro__paragraph {
+    padding: 0 15rem 2rem 0;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: var(--color-alfa);
+}
+
+.intro__button {
+    padding: 1.5rem 4rem;
+    border: 0.1rem solid var(--color-beta);
+    border-radius: 1rem;
+    background-color: var(--color-beta);
+    font-size: 1.5rem;
+    color: var(--color-alfa);
+}
+
+.header__content-image {
+    flex-basis: 60%;
+    padding-bottom: 5rem;
+}
+
+.header__content-image--properties {
+    border: 2rem solid var(--color-alfa);
+    border-bottom: 8rem solid var(--color-alfa);
+    border-radius: 3rem;
+    box-shadow: inset 0 0 1rem 1rem var(--color-alfa);
+    transform: scale(0.85) rotate(-5deg) translateY(-3rem);
+}
