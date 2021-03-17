@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: var(--color-eta);
+}
+
+.footer__paragraph {
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color-alfa);
+}
