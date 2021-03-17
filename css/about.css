@@ -23,6 +23,7 @@
 }
 
 .about__paragraph {
+    padding-right: 13rem;
     font-size: 1.5rem;
     line-height: 3rem;
     color: var(--color-gamma);
