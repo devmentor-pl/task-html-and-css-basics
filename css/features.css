@@ -32,7 +32,6 @@
 .feature__image {
     margin: 2rem 0 4rem 0;
     padding: 10px 20px;
-    border: 1px solid var(--color-alfa);
     background-color: var(--color-alfa);
     box-shadow: 0.1rem 0.5rem 1rem 0 var(--color-alfa);
     border-radius: 50%;
@@ -47,7 +46,7 @@
 }
 
 .feature__paragraph {
-    margin: 2rem 0 10rem 0;
+    margin: 2rem 0 12rem 0;
     padding: 0 1rem;
     font-size: 1.3rem;
     text-align: center;
