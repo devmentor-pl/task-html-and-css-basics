@@ -1,0 +1,27 @@
+/* description-section */
+
+.description__row {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.description__img, .description__content {
+    width: auto;
+}
+
+.description__content > h2 {
+    font: normal var(--font-h2) var(--font-alfa);
+    color: var(--color-zeta);
+    text-transform: uppercase;
+    padding-top: 10rem;
+    letter-spacing: 0.1rem;
+}
+
+.description__content > p {
+    font: normal var(--font-p) var(--font-alfa);
+    color: var(--color-zeta);
+    padding-top: 5rem;
+    line-height: 3.5rem;
+}
