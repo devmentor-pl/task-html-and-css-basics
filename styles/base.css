@@ -1,0 +1,25 @@
+/* Global*/
+
+:root {
+    --color-alfa: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    --color-beta: rgba(236, 225, 225, 0.883);
+    --color-delta: rgb(97, 200, 136);
+    --color-gamma: rgb(255, 255, 255);
+    --color-eta: rgb(0, 0, 0);
+    --color-zeta: rgba(44, 42, 42, 0.63);
+    --color-jota: rgba(192, 192, 192, 0.315);
+    --color-sigma: rgb(72, 164, 240);
+
+    --font-alfa:'Montserrat', sans-serif;
+    --font-h1: 4.5rem;
+    --font-h2: 4rem;
+    --font-h3: 3rem;
+    --font-p: 2rem;
+    --font-btn: 1.6rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
