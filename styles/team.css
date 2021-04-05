@@ -1,0 +1,63 @@
+/* team */
+
+.team__row {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.team__row > h2 {
+    font: normal var(--font-h2) var(--font-alfa);
+    color: var(--color-zeta);
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.team__content {
+    display: flex;
+    justify-content: center;
+}
+
+.team__card {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 38rem;
+    height: 35rem;
+}
+
+.team__card > h3 {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: var(--color-zeta);
+    font: normal var(--font-h3) var(--font-alfa);
+}
+
+.team__card > p > b {
+    margin: 0.5rem auto;
+    text-align: center;
+    color: var(--color-zeta);
+    font: bold var(--font-p) var(--font-alfa);
+}
+
+.team__card > p {
+    margin: 0.5rem auto;
+    text-align: center;
+    color: var(--color-zeta);
+    font: normal var(--font-p) var(--font-alfa);
+}
+
+.team__social {
+    display: flex;
+    justify-content: center;
+}
+
+.team__social > img {
+    margin: 1rem;
+}
