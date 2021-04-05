@@ -1,0 +1,58 @@
+/* features-section */
+
+.features__row {
+    background: var(--color-eta);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.features__row > h2 {
+    font: normal var(--font-h2) var(--font-alfa);
+    color: var(--color-beta);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    margin-top: 1rem;
+}
+
+.features__content {
+    display: flex;
+}
+
+.features__card {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.features__img {
+    border-radius: 100%;
+    border: 20px solid var(--color-gamma);
+    background: var(--color-gamma);
+}
+
+.features__img > img {
+    width: 4.5rem;
+    height: 4.1rem;
+}
+
+.features__card > h3 {
+    font: bold var(--font-h3) var(--font-alfa);
+    color: var(--color-gamma);
+    padding: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.features__card > p {
+    font: normal var(--font-p) var(--font-alfa);
+    color: var(--color-beta);
+    line-height: 2.5rem;
+}
+
+
+
