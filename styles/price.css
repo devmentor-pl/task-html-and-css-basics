@@ -1,0 +1,90 @@
+/* price-section */
+
+.price__row {
+    background: var(--color-jota);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.price__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    color: var(--color-zeta);
+}
+
+.price__title > h2 {
+    font: normal var(--font-h2) var(--font-alfa);
+}
+
+.price__title > p {
+    font: normal var(--font-p) var(--font-alfa);
+}
+
+.price__content {
+    display: flex;
+    justify-content: center;
+}
+
+.price__card {
+    padding: 3rem;
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50rem;
+    height: 50rem;
+    text-align: center;
+    border: solid 1px var(--color-jota);
+    border-radius: 10%;
+    background: var(--color-gamma);
+}
+
+.price__card:hover{
+    box-shadow: 0px 0px 25px 9px rgba(194, 191, 191, 0.53);
+}
+
+.price__card > h3 {
+    font: normal var(--font-h3) var(--font-alfa);
+    color: var(--color-zeta);
+    letter-spacing: 0.2rem;;
+}
+
+.price__card > p {
+    font: normal var(--font-p) var(--font-alfa);
+    color: var(--color-zeta);
+}
+
+.price__card > p > b {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.price__card > ul > li {
+    font: bold var(--font-p) var(--font-alfa);
+    color: var(--color-zeta);
+    line-height: 2.5rem;
+}
+
+.price__btn {
+    font: bold var(--font-btn) var(--font-alfa);
+    padding: 1.5rem;
+    border-radius: 10px 10px 10px 10px;
+    width: 20rem;
+    color: var(--color-gamma);
+    background: var(--color-sigma);
+    border: none;
+}
+
+.price__btn:hover {
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
+}
