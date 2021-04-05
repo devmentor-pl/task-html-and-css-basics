@@ -20,7 +20,8 @@
 }
 
 .price__title > h2 {
-    font: normal var(--font-h2) var(--font-alfa);
+    font: bold var(--font-h2) var(--font-alfa);
+    margin: 3rem 0;
 }
 
 .price__title > p {
