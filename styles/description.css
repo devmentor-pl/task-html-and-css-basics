@@ -3,7 +3,8 @@
 .description__row {
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     padding-top: 3rem;
 }
 
@@ -15,7 +16,6 @@
     font: normal var(--font-h2) var(--font-alfa);
     color: var(--color-zeta);
     text-transform: uppercase;
-    padding-top: 10rem;
     letter-spacing: 0.1rem;
 }
 
@@ -23,5 +23,5 @@
     font: normal var(--font-p) var(--font-alfa);
     color: var(--color-zeta);
     padding-top: 5rem;
-    line-height: 3.5rem;
+    line-height: 4rem;
 }

@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .price__title{
@@ -38,12 +38,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    width: 50rem;
-    height: 50rem;
+    justify-content: space-around;
+    width: 70rem;
+    height: 60rem;
     text-align: center;
     border: solid 1px var(--color-jota);
-    border-radius: 10%;
+    border-radius: 20px 20px 20px 20px;
     background: var(--color-gamma);
 }
 

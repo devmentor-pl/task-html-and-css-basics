@@ -30,6 +30,10 @@
     height: 60rem;
 }
 
+.team__img > img{
+    width: 20rem;
+}
+
 .team__card > h3 {
     margin: 2.5rem;
     text-transform: uppercase;

@@ -16,6 +16,11 @@
     margin-top: 6rem;
 }
 
+.header__logo > img {
+    width: 25rem;
+}
+
+
 .header__menu {
     display: flex;
     justify-content: space-between;
@@ -48,13 +53,12 @@
 .header__content {
     font-family: var(--font-alfa);
     color: var(--color-beta);
-    width: 50%;
 }
 
 .header__content > h1 {
     font-weight: bold;
     font-size: var(--font-h1);
-    color: var(--color-gamma)
+    color: var(--color-gamma);
 }
 
 .header__content > p {
@@ -81,14 +85,15 @@
 .header__img {
     display: flex;
     justify-content: flex-end;
+    position: relative;
+    top: -5rem;
+    left: 20rem;
 }
 
 .header__img > img {
+    width: 120rem;
     border: 10px solid var(--color-gamma);
     border-radius: 10px;
     background-color: var(--color-gamma);
     transform: rotate(-5deg);
-    position: relative;
-    top: -5rem;
-    left: 6rem;
 }
