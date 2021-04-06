@@ -70,6 +70,21 @@ button {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1050px;
 }
 
+@media screen and (min-width: 1200px) {
+    
+    :root {
+        --font-h1: 6rem;
+        --font-h2: 7rem;
+        --font-h3: 3.5rem;
+        --font-p: 2.5rem;
+        --font-btn: 2.1rem;
+    }
+
+    .container {
+        max-width: 70%;
+    }
+
+}

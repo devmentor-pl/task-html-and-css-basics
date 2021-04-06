@@ -39,8 +39,9 @@
 
 .header__section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 15rem;
+    width: 100%;
 }
 
 .header__content > p {
@@ -63,7 +64,6 @@
     justify-content: flex-end;
     position: relative;
     top: -5rem;
-    left: 20rem;
 }
 
 .header__img > img {
