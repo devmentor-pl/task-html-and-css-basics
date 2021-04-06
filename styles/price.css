@@ -19,12 +19,7 @@
 }
 
 .price__title > h2 {
-    font: bold var(--font-h2) var(--font-alfa);
     margin: 3rem 0;
-}
-
-.price__title > p {
-    font: normal var(--font-p) var(--font-alfa);
 }
 
 .price__content {
@@ -52,34 +47,20 @@
 }
 
 .price__card > h3 {
-    font: normal var(--font-h3) var(--font-alfa);
     color: var(--color-zeta);
     letter-spacing: 0.2rem;;
 }
 
 .price__card > p {
-    font: normal var(--font-p) var(--font-alfa);
     color: var(--color-zeta);
 }
-
-.price__card > p > b {
-    font-size: 4rem;
-    font-weight: bold;
-}
-
 
 .price__card > ul > li {
-    font: bold var(--font-p) var(--font-alfa);
     color: var(--color-zeta);
-    line-height: 2.5rem;
+    line-height: 3rem;
 }
 
 .price__btn {
-    font: bold var(--font-btn) var(--font-alfa);
-    padding: 1.5rem;
-    border-radius: 10px 10px 10px 10px;
-    width: 20rem;
-    color: var(--color-gamma);
     background: var(--color-sigma);
     border: none;
 }

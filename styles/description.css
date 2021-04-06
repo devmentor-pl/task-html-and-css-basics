@@ -13,15 +13,12 @@
 }
 
 .description__content > h2 {
-    font: normal var(--font-h2) var(--font-alfa);
     color: var(--color-zeta);
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
 
 .description__content > p {
-    font: normal var(--font-p) var(--font-alfa);
     color: var(--color-zeta);
     padding-top: 5rem;
-    line-height: 4rem;
 }

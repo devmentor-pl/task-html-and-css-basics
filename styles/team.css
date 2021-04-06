@@ -8,7 +8,6 @@
 }
 
 .team__row > h2 {
-    font: normal var(--font-h2) var(--font-alfa);
     color: var(--color-zeta);
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -40,21 +39,19 @@
     letter-spacing: 0.5rem;
     text-align: center;
     color: var(--color-zeta);
-    font: normal var(--font-h3) var(--font-alfa);
 }
 
 .team__card > p > b {
     margin: 0.5rem 0;
     text-align: center;
     color: var(--color-zeta);
-    font: bold var(--font-p) var(--font-alfa);
+    font-size: var(--font-p);
 }
 
 .team__card > p {
     margin: 1rem 0;
     text-align: center;
     color: var(--color-zeta);
-    font: normal var(--font-p) var(--font-alfa);
 }
 
 .team__social {

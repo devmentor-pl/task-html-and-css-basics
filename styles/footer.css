@@ -10,7 +10,6 @@
 
 .footer__row > p {
     margin: 2rem 1rem;
-    font: bold var(--font-p)var(--font-alfa);
     color: var(--color-gamma);
 }
 .footer__img {

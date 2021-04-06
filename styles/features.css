@@ -10,7 +10,6 @@
 }
 
 .features__row > h2 {
-    font: normal var(--font-h2) var(--font-alfa);
     color: var(--color-beta);
     text-transform: uppercase;
     letter-spacing: 2rem;
@@ -42,7 +41,6 @@
 }
 
 .features__card > h3 {
-    font: 500 var(--font-h3) var(--font-alfa);
     color: var(--color-gamma);
     padding: 2rem;
     letter-spacing: 0.3rem;
@@ -50,9 +48,7 @@
 }
 
 .features__card > p {
-    font: normal var(--font-p) var(--font-alfa);
     color: var(--color-beta);
-    line-height: 2.5rem;
 }
 
 
