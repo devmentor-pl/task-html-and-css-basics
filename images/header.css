@@ -1,0 +1,56 @@
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 700px;
+}
+
+.header .header__nova {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.nova__container--title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-flex;
+    font-weight: normal;
+    min-width: 100px;
+    height: 15px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+.header.nova__ads{
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.header .nova__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+
+}
+
+.nova__ads{
+    border-width: 30px;
+    border-color: white;
+}
+
+.nova__container--log {
+    background-color: green;
+    border-radius: 20px;
+    padding:10px;
+    max-width: 100px;
+    text-align: center;
+}

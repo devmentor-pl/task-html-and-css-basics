@@ -1,0 +1,15 @@
+body {
+    font-family: 'montserratblack';
+    max-width: 1050px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('montserrat-black-webfont.woff2') format('woff2'),
+        url('montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
