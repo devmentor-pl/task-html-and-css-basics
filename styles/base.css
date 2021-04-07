@@ -10,12 +10,12 @@
     --color-jota: rgba(192, 192, 192, 0.315);
     --color-sigma: rgb(72, 164, 240);
 
-    --font-alfa:'Montserrat', sans-serif;
-    --font-h1: 4.5rem;
-    --font-h2: 5rem;
-    --font-h3: 3rem;
-    --font-p: 2rem;
-    --font-btn: 1.9rem;
+    --font-alfa:'Montserrat', sans-serif; 
+    --font-xl: 5rem;
+    --font-l: 4.5rem;
+    --font-m: 3rem;
+    --font-s: 2rem;
+    --font-xs: 1.9rem;
 }
 
 body {
@@ -24,44 +24,44 @@ body {
 
 h1 {
     font-weight: bold;
-    font-size: var(--font-h1);
+    font-size: var(--font-l);
     color: var(--color-gamma);
 }
 
 h2 {
-    font-size: var(--font-h2);
+    font-size: var(--font-xl);
 }
 
 h3 {
     font-weight: 500;
-    font-size: var(--font-h3);
+    font-size: var(--font-m);
 }
 
 p {
-    font-size: var(--font-p);
+    font-size: var(--font-s);
     line-height: 3.5rem;
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    font-size: var(--font-p);
+    font-size: var(--font-s);
     color: var(--color-gamma)
 }
 
 b {
     font-weight: bold;
-    font-size: var(--font-h1);
+    font-size: var(--font-xl);
 }
 
 li {
     font-weight: bold;
-    font-size: var(--font-p);
+    font-size: var(--font-s);
 }
 
 button {
     font-weight: bold;
-    font-size: var(--font-btn);
+    font-size: var(--font-xs);
     color: var(--color-gamma);
     padding: 1.5rem;
     border-radius: 10px 10px 10px 10px;

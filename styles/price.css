@@ -1,6 +1,6 @@
 /* price-section */
 
-.price__row {
+.price {
     background: var(--color-jota);
     height: 100vh;
     display: flex;
@@ -9,64 +9,65 @@
     justify-content: space-evenly;
 }
 
-.price__title{
+.price__header {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-transform: uppercase;
     letter-spacing: 0.5rem;
     color: var(--color-zeta);
+    text-align: center;
+    text-transform: uppercase;
 }
 
-.price__title > h2 {
-    margin: 3rem 0;
+.price__header-title {
+    margin: 2rem 0;
 }
 
-.price__content {
+.price-content {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
-.price__card {
+.price-content__card {
     padding: 3rem;
-    margin: 0 2rem;
+    margin: 0 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 50rem;
-    height: 60rem;
+    width: 40rem;
+    height: 55rem;
     text-align: center;
     border: solid 1px var(--color-jota);
     border-radius: 20px 20px 20px 20px;
     background: var(--color-gamma);
 }
 
-.price__card:hover{
+.price-content__card:hover{
     box-shadow: 0px 0px 25px 9px rgba(194, 191, 191, 0.53);
 }
 
-.price__card > h3 {
+.price-content__card-title {
     color: var(--color-zeta);
     letter-spacing: 0.2rem;;
+    font-weight: normal;
+    font-size: 3rem;
 }
 
-.price__card > p {
+.price-content__card-para {
     color: var(--color-zeta);
+    font-weight: normal;
 }
 
-.price__card > ul > li {
+.price-content__card-li {
     color: var(--color-zeta);
     line-height: 3rem;
 }
 
-.price__btn {
+.price-content__card-btn {
     background: var(--color-sigma);
     border: none;
 }
 
-.price__btn:hover {
+.price-content__card-btn:hover {
     transform: scale(1.1);
     transition: 0.6s ease-in-out;
 }

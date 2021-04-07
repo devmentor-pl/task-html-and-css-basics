@@ -1,24 +1,24 @@
 /* team */
 
-.team__row {
+.team {
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.team__row > h2 {
+.team__header {
     color: var(--color-zeta);
     text-transform: uppercase;
     letter-spacing: 0.5rem;
 }
 
-.team__content {
+.team-content {
     display: flex;
     justify-content: center;
 }
 
-.team__card {
+.team-content__li {
     margin: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -29,36 +29,41 @@
     height: 60rem;
 }
 
-.team__img > img{
-    width: 20rem;
+.team-content__li-profile-img {
+    width: 18rem;
+    margin-bottom: 3rem;
 }
 
-.team__card > h3 {
-    margin: 2.5rem;
+.team-content__li-title {
+    margin: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     text-align: center;
     color: var(--color-zeta);
+    font-weight: normal;
+    font-size: var(--font-m)
+
 }
 
-.team__card > p > b {
+.team-content__li-para--bold {
     margin: 0.5rem 0;
     text-align: center;
     color: var(--color-zeta);
-    font-size: var(--font-p);
+    font-weight: bold;
 }
 
-.team__card > p {
+.team-content__li-para {
     margin: 1rem 0;
     text-align: center;
     color: var(--color-zeta);
+    font-weight: normal;
 }
 
-.team__social {
+.team-content__li-social {
     display: flex;
     justify-content: center;
 }
 
-.team__social > img {
-    margin: 1rem;
+.team-content__li-social-li {
+    margin: 0 1rem;
 }
