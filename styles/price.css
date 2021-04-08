@@ -28,13 +28,13 @@
 
 .price-content__card {
     padding: 3rem;
-    margin: 0 6rem;
+    margin: 0 6rem 6rem 6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     width: 40rem;
-    height: 55rem;
+    height: 50rem;
     text-align: center;
     border: solid 1px var(--color-jota);
     border-radius: 20px 20px 20px 20px;

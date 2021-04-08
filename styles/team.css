@@ -4,7 +4,7 @@
     height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .team__header {
@@ -26,7 +26,7 @@
     align-items: center;
     text-align: center;
     width: 40rem;
-    height: 60rem;
+    height: 45rem;
 }
 
 .team-content__li-profile-img {
