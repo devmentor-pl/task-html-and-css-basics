@@ -1,0 +1,42 @@
+.software {
+    min-height: 500px;
+}
+.software__header {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #F9FAFA;
+}
+
+.software .software__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.software__picture {
+padding-top: 80px;
+padding-right: 80px;
+}
+
+.software__software {
+padding-bottom: 80px;
+}
+
+.software__title {
+    font-size: 35px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: grey;
+}
+.software__text {
+    width: 80%;
+    line-height: 30px;
+}
+
+
+

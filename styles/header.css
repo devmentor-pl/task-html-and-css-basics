@@ -1,0 +1,84 @@
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    min-height: 650px;
+}
+
+.header__nova {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    min-height: 100px;
+}
+
+
+.nav__list {
+    display: flex;
+}
+
+nav li {
+    font-weight: normal;
+    min-width: 100px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.header.nova__ads{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.header .nova__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.nova__container--left {
+    width: 30%;
+}
+.nova__container--right {
+    border-width: 10px;   
+    border-style: solid; 
+    border-color: white;
+    border-radius: 10px;
+    transform: rotateZ(-5deg);
+ 
+}
+
+.intro__title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.intro__desc {
+   padding: 30px 0;
+   width: 70%;
+   line-height: 20px;
+
+}
+.intro__btn {
+    background-color: rgb(39, 223, 131);
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+.nova__container--log {
+    background-color: green;
+    border-radius: 20px;
+    padding:10px;
+    max-width: 100px;
+    text-align: center;
+}
