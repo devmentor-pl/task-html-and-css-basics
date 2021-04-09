@@ -1,7 +1,6 @@
 .content__price{
     min-height: 650px;
     background-color:rgb(252, 252, 252);
-
 }
 
 .header__price h1{
@@ -11,7 +10,6 @@
     color: grey;
     text-align: center;
     padding-top: 50px ;
-
 }
 
 .header__price h2{
@@ -44,25 +42,15 @@
     border-radius: 20px;
     width: 100px;
     text-align: center;
-
 }
-
 
 .price__title {
 padding: 20px 0;
 }
 
-.price__price {
-
-}
-
 .price__text {
 padding-top: 20px;
 padding-bottom: 60px;
-}
-
-.price__log {
-
 }
 
 .basic, .agency, .pro {

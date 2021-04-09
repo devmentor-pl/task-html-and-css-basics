@@ -1,6 +1,7 @@
 .software {
     min-height: 500px;
 }
+
 .software__header {
     display: flex;
     justify-content: center;
@@ -18,12 +19,12 @@
 }
 
 .software__picture {
-padding-top: 80px;
-padding-right: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
 }
 
 .software__software {
-padding-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 .software__title {
@@ -33,6 +34,7 @@ padding-bottom: 80px;
     padding-bottom: 30px;
     color: grey;
 }
+
 .software__text {
     width: 80%;
     line-height: 30px;

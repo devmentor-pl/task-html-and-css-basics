@@ -45,13 +45,13 @@ nav li {
 .nova__container--left {
     width: 30%;
 }
-.nova__container--right {
+
+.nova__container--right img {
     border-width: 10px;   
     border-style: solid; 
     border-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     transform: rotateZ(-5deg);
- 
 }
 
 .intro__title {
@@ -63,8 +63,8 @@ nav li {
    padding: 30px 0;
    width: 70%;
    line-height: 20px;
-
 }
+
 .intro__btn {
     background-color: rgb(39, 223, 131);
     color: white;
@@ -72,13 +72,5 @@ nav li {
     padding: 10px;
     border-radius: 10px;
     width: 180px;
-    text-align: center;
-}
-
-.nova__container--log {
-    background-color: green;
-    border-radius: 20px;
-    padding:10px;
-    max-width: 100px;
     text-align: center;
 }
