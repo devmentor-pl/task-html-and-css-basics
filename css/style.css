@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+nav,
+section {
+  max-width: 1050px;
+  margin: 0 auto;
+}
+/* Navigation + Brand */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  
+}
+.nav__brand{
+  padding-top: 1.5rem;
+}
+.nav__item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+}
+.item__link{
+  padding: 1.5rem;
+}
+.link{
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Banner section */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid blue;
+  padding: 1rem;
+}
+.banner__item{
+  outline: 1px solid orange;
+  width: 70%;
+  margin-left: 0.5rem;
+  padding-bottom: 5rem;
+}
+.banner__item--text{
+  outline: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+
+}
+h1, .banner__text, .banner__button{
+  color: #fff;
+}
+h1{
+  width: 70%;
+}
+.banner__text{
+  width: 60%;
+}
+.banner__button{
+  width: 45%;
+  padding: 0.8rem;
+  background-color: #25F18B;
+  border: 1px solid #25F18B;
+  border-radius: 0.5rem;
+}
+.banner__img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  transform: rotate(-5deg);
+  border: 0.7rem solid white;
+  border-radius: 5%;
+  background-color: #fff;
+}
+
+
+
+
