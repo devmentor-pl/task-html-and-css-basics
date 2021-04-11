@@ -1,0 +1,193 @@
+.content__features {
+    min-height:550px;
+    background-color: black;
+    color: white;
+}
+
+.header__features {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: lighter ;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 33,33%;
+}
+
+.features__intro {
+    width: 20%;
+    text-align: center; 
+}
+
+.content__title {
+    font-size: 30px;
+    padding: 30px 0;
+}
+
+.content__ads img {
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.content__ads{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: white; 
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+}
+
+.software {
+    min-height: 500px;
+}
+
+.software__header {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #F9FAFA;
+}
+
+.software .software__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.software__picture {
+    padding-top: 80px;
+    padding-right: 80px;
+}
+
+.software__software {
+    padding-bottom: 80px;
+}
+
+.software__title {
+    font-size: 35px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    color: grey;
+}
+
+.software__text {
+    width: 80%;
+    line-height: 30px;
+}
+
+.content__price{
+    min-height: 650px;
+    background-color:rgb(252, 252, 252);
+}
+
+.header__price h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: grey;
+    text-align: center;
+    padding-top: 50px ;
+}
+
+.header__price h2{
+    font-size:20px;
+    font-weight: lighter;
+    color: grey;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 33,33%;
+    }
+
+.agency {
+    background-color: white;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+.price__log {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.price__title {
+padding: 20px 0;
+}
+
+.price__text {
+padding-top: 20px;
+padding-bottom: 60px;
+}
+
+.basic, .agency, .pro {
+    width: 50%;
+    text-align: center;
+}
+
+
+.team{
+    min-height: 650px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    font-size: 40px;
+    color: grey;
+}
+
+.workers {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 33,33%;
+}
+
+.workers__intro {
+    width: 50%;
+    text-align: center;
+}
+
+.workers__name {
+    font-weight: bold;
+    padding: 20px 0;
+}
+.workers__position {
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 20px;
+} 
+
+.workers__text{ 
+    padding-bottom: 20px;
+}
