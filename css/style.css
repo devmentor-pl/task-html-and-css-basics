@@ -136,11 +136,51 @@ h1{
 }
 
 /* Section with logo */
+.logo{
+  background-color: #F9FAFA;
+}
 .logo__item{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding: 2rem;
+  
+}
+
+/* Section iMac */
+.iMac{
+  display: flex;
+  justify-content: space-between;
+}
+.iMac__item{
+  margin: 0.5rem;
+  flex-basis: 48%;
+
+}
+.iMac__text{
+  width: 70%;
+}
+.iMac__img{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.text__iMac--head{
+  font-size: 2.5rem;
+  font-weight:lighter;
+  text-transform: uppercase;
+  color: #4D5250;
+  letter-spacing: 0.1rem;
+  margin-left: 1rem;
+}
+.text__iMac{
+  font-size: 1.2em;
+  line-height: 2.1rem;
+  color: #4D5250;
+  letter-spacing: 0.1rem;
+  margin: 2rem 0 0 1rem;
+  padding: 2rem 0;
 }
 
 
