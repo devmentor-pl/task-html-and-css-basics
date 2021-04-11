@@ -10,7 +10,7 @@ header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
-nav, .banner, .features__boxes, .features__title {
+nav, .banner, .features__boxes, .features__title, .logo__item {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -135,6 +135,13 @@ h1{
   transform: translate(-50%, -50%);
 }
 
+/* Section with logo */
+.logo__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
 
 
   
