@@ -1,6 +1,11 @@
+:root {
+    --color-alfa: rgb(42, 43, 43);
+    --color-beta: rgb(255, 235, 205);
+}
+
 .footer {
-    background-color: rgb(43, 43, 43);
-    color: blanchedalmond;
+    background-color:var(--color-alfa);
+    color: var(--color-beta);
     display: flex;
     justify-content: center;
     padding:10px;

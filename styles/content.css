@@ -140,7 +140,7 @@
 padding: 20px 0;
 }
 
-.price__text {
+.price__text ~ul {
 padding-top: 20px;
 padding-bottom: 60px;
 }
