@@ -10,7 +10,7 @@ header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
-nav, .banner, .features__boxes, .features__title, .logo__item {
+nav, .banner, .features__boxes, .features__title, .logo__item, .l-pricing {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -89,6 +89,7 @@ h1{
 /* Features section */
 .features{
   background-color: black;
+  padding: 4rem;
 }
 
 .features__title{
@@ -183,6 +184,84 @@ h1{
   padding: 2rem 0;
 }
 
+/* Section pricing */
+.pricing{
+  background-color: #F8F9F9;
+  padding: 3rem;
+}
+.box__head{
+  height: 30%;
+}
+.pricing__title--head, .pricing__title--text{
+ color: #4d5250;
+ text-align: center;
+ 
+}
+.pricing__title--head{
+  font-size: 2rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+.pricing__title--text{
+  font-size: 1.2rem;
+  padding-bottom: 2rem;
+}
+.pricing__boxes{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box__item, .box__item--shadow{
+  flex-basis: 30%;
+
+  padding: 2rem 0;
+  /* display-flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.box__item--shadow{
+  background-color: #f9f9f9;
+  box-shadow: 0 0 15px #4d5250;
+  border-radius: 2%;
+}
+.box__text--large, .box__text--medium, .box__text--small{
+  text-align: center;
+  margin: 0.5rem;
+}
+.box__text--large{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.box__text--medium{
+  text-transform: uppercase;
+  color: #4D5250;
+  font-size: 1.2rem;
+}
+.box__text--small{
+  font-size: 0.8rem;
+  color:#000;
+  font-weight: bold;
+}
+.box__description{
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+  height: 100px;
+  text-align: center;
+
+  line-height: 1.3rem;
+}
+.box__button--blue{
+  color: #fff;
+  background-color: #0ABCEB;
+  border-radius: 0.5rem;
+  border: none;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  height: 30%;
+}
 
   
 
