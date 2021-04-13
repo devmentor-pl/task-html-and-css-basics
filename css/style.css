@@ -13,7 +13,7 @@
 
 header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-  height: 80vh;
+  height: 90vh;
 }
 
 nav, .banner, .features__boxes, .features__title, .logo__item, .l-pricing, .l-team {
