@@ -13,9 +13,10 @@
 
 header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  height: 80vh;
 }
 
-nav, .banner, .features__boxes, .features__title, .logo__item, .l-pricing {
+nav, .banner, .features__boxes, .features__title, .logo__item, .l-pricing, .l-team {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -53,34 +54,36 @@ nav, .banner, .features__boxes, .features__title, .logo__item, .l-pricing {
 }
 .banner__item{
   width: 70%;
-  padding-bottom: 5rem;
+  
 }
 .banner__item--text{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-bottom: 5rem;
-
 }
-h1, .banner__text, .banner__button{
+.banner__text, .banner__button{
   color: #fff;
   margin: 1rem 0;
 }
 h1{
-  margin-top: 4rem;
+  margin: 3rem 0 1rem 0;
   font-weight: bold;
+  color: #EAFFFF;
+  font-size: 3rem;
 }
 .banner__text{
   width: 60%;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: lighter;
 }
 .banner__button{
   width: 45%;
-  padding: 0.8rem;
+  padding: 1.5rem 2rem;
   background-color: #25F18B;
   border: 1px solid #25F18B;
   border-radius: 0.5rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 .banner__img{
@@ -95,7 +98,8 @@ h1{
 /* Features section */
 .features{
   background-color: black;
-  padding: 4rem;
+  /* padding: 4rem; */
+  height: 60vh;
 }
 
 .features__title{
@@ -175,7 +179,7 @@ h1{
   margin: 0 auto;
 }
 .text__iMac--head{
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: lighter;
   text-transform: uppercase;
   color: #4D5250;
@@ -183,7 +187,7 @@ h1{
   margin-left: 1rem;
 }
 .text__iMac{
-  font-size: 1.2em;
+  font-size: 1rem;
   line-height: 2.1rem;
   color: #4D5250;
   letter-spacing: 0.1rem;
@@ -269,6 +273,66 @@ h1{
   padding: 1rem 3rem;
   height: 30%;
 }
+
+/* Section The Team */
+
+.team__title{
+  text-align: center;
+  padding: 3rem;
+  color: #636866;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+.team__block{
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.team__box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.member__function, .member__name, .member__text{
+  text-align: center;
+  color: #4d5250;
+  margin: 0;
+  line-height: 2rem;
+}
+.member__function{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.member__name{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.team__twitter, .team__facebook{
+  margin: 0 1rem;
+}
+
+/* Footer */
+.footer-wrap{
+  background-color: #464646;
+}
+.footer__item{
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__item>figure{
+  margin: 0 1rem;
+}
+.footer__text{
+  color: #fff;
+}
+
 
   
 
