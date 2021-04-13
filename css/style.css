@@ -1,6 +1,11 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  src: url('/assets/fonts/Montserrat-Regular.ttf');
+  src: url('/assets/fonts/Montserrat-Bold.ttf');
+  src: url('/assets/fonts/Montserrat-Medium.ttf');
+
+
+
 }
 *{
   font-family: 'Montserrat', sans-serif;
@@ -62,7 +67,8 @@ h1, .banner__text, .banner__button{
   margin: 1rem 0;
 }
 h1{
-  margin-top: 3rem;
+  margin-top: 4rem;
+  font-weight: bold;
 }
 .banner__text{
   width: 60%;
@@ -127,7 +133,8 @@ h1{
 }
 .box__title{
   font-size: 1.2rem;
-  margin: 0.5rem 2rem;
+  margin: 2rem;
+  height: 60px;
 }
 .box__image{
   position: absolute;
@@ -169,7 +176,7 @@ h1{
 }
 .text__iMac--head{
   font-size: 2.5rem;
-  font-weight:lighter;
+  font-weight: lighter;
   text-transform: uppercase;
   color: #4D5250;
   letter-spacing: 0.1rem;
