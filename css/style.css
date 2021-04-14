@@ -114,7 +114,7 @@ h1{
 .features{
   background-color: black;
   /* padding: 4rem; */
-  height: 60vh;
+  height: 70vh;
 }
 
 .features__title{
@@ -147,15 +147,17 @@ h1{
   box-shadow: 10px 10px 100px #EAFFFf;
   position: relative;
 }
-.box__title, .box__paragraph{
+.box__title, .box__paragraph, .box__title--last, .box__paragraph--last{
   color: var(--color-font-white);
   text-align: center;
 }
-.box__title{
+.box__title, .box__title--last{
   font-size: 1.2rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   height: 50px;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
 }
 .box__image{
   position: absolute;
@@ -163,6 +165,10 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.box__title--last{
+  margin-top: 0;
+}
+
 
 /* Section with logo */
 .logo{
