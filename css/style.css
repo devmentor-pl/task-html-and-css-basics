@@ -1,14 +1,29 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url('/assets/fonts/Montserrat-Regular.ttf');
-  src: url('/assets/fonts/Montserrat-Bold.ttf');
-  src: url('/assets/fonts/Montserrat-Medium.ttf');
-
-
-
+  src: url('/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight:300;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+
+
 *{
   font-family: 'Montserrat', sans-serif;
+}
+:root{
+  --color-font-white: #fff;
+  --color-font-grey: #4D5250;
+  --bgc-section: #F8F9F9;
 }
 
 header {
@@ -16,7 +31,7 @@ header {
   height: 90vh;
 }
 
-nav, .banner, .features__boxes, .features__title, .logo__item, .l-pricing, .l-team {
+nav, .banner, .l-features__boxes, .features__title, .logo__item, .l-pricing, .l-team {
   max-width: 1050px;
   margin: 0 auto;
 }
@@ -42,7 +57,7 @@ nav, .banner, .features__boxes, .features__title, .logo__item, .l-pricing, .l-te
 }
 .link{
   text-decoration: none;
-  color: white;
+  color: var(--color-font-white);
   font-size: 1.1rem;
   font-weight: bold;
 }
@@ -62,20 +77,20 @@ nav, .banner, .features__boxes, .features__title, .logo__item, .l-pricing, .l-te
   justify-content: flex-start;
 }
 .banner__text, .banner__button{
-  color: #fff;
+  color: var(--color-font-white);
   margin: 1rem 0;
 }
 h1{
   margin: 3rem 0 1rem 0;
   font-weight: bold;
-  color: #EAFFFF;
+  color: var(--color-font-white);
   font-size: 3rem;
 }
 .banner__text{
   width: 60%;
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
-  font-weight: lighter;
+  font-weight: 300;
 }
 .banner__button{
   width: 45%;
@@ -87,9 +102,9 @@ h1{
   font-weight: bold;
 }
 .banner__img{
-  width: 100%;
+  width: 110%; 
   height: auto;
-  transform: rotate(-5deg);
+  transform: rotate(-6deg) translateX(-5%);
   border: 0.7rem solid white;
   border-radius: 5%;
   background-color: #fff;
@@ -103,14 +118,14 @@ h1{
 }
 
 .features__title{
-  color: #EAFFFF;
+  color: var(--color-font-white);
   text-align: center;
   text-transform: uppercase;
   font-size: 2rem;
   padding: 3rem 0;
-  font-weight: normal;
+  font-weight: lighter;
 }
-.features__boxes{
+.l-features__boxes{
  margin-top: 2rem;
  display:flex;
  justify-content: center;
@@ -125,7 +140,7 @@ h1{
   align-items: center;
 }
 .boxes__item > figure{
-  background-color: #fff;
+  background-color:var(--color-font-white);
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -133,13 +148,14 @@ h1{
   position: relative;
 }
 .box__title, .box__paragraph{
-  color: #EAFFFF;
+  color: var(--color-font-white);
   text-align: center;
 }
 .box__title{
   font-size: 1.2rem;
   margin-top: 2rem;
   height: 50px;
+  margin-bottom: 0;
 }
 .box__image{
   position: absolute;
@@ -150,7 +166,7 @@ h1{
 
 /* Section with logo */
 .logo{
-  background-color: #F9FAFA;
+  background-color: var(--bgc-section);
 }
 .logo__item{
   display: flex;
@@ -183,14 +199,14 @@ h1{
   font-size: 2rem;
   font-weight: lighter;
   text-transform: uppercase;
-  color: #4D5250;
+  color: var(--color-font-grey);
   letter-spacing: 0.1rem;
   margin-left: 1rem;
 }
 .text__iMac{
   font-size: 1rem;
   line-height: 2.1rem;
-  color: #4D5250;
+  color: var(--color-font-grey);
   letter-spacing: 0.1rem;
   margin: 2rem 0 0 1rem;
   padding: 2rem 0;
@@ -198,14 +214,14 @@ h1{
 
 /* Section pricing */
 .pricing{
-  background-color: #F8F9F9;
+  background-color: var(--bgc-section);
   padding: 3rem;
 }
 .box__head{
   height: 30%;
 }
 .pricing__title--head, .pricing__title--text{
- color: #4d5250;
+ color: var(--color-font-grey);
  text-align: center;
  
 }
@@ -248,21 +264,21 @@ h1{
 }
 .box__text--medium{
   text-transform: uppercase;
-  color: #4D5250;
+  color: var(--color-font-grey);
   font-size: 1.2rem;
 }
 .box__text--small{
   font-size: 0.8rem;
-  color:#000;
+  color: var(--color-font-grey);
   font-weight: bold;
 }
 .box__description{
-  font-weight: bold;
+  font-weight: bolder; 
   font-size: 0.9rem;
   padding-top: 1rem;
   height: 100px;
   text-align: center;
-
+  color: var(--color-font-grey);
   line-height: 1.3rem;
 }
 .box__button--blue{
@@ -280,7 +296,7 @@ h1{
 .team__title{
   text-align: center;
   padding: 3rem;
-  color: #636866;
+  color: var(--color-font-grey);
   font-size: 2rem;
   text-transform: uppercase;
   font-weight: lighter;
@@ -299,7 +315,7 @@ h1{
 }
 .member__function, .member__name, .member__text{
   text-align: center;
-  color: #4d5250;
+  color: var(--color-font-grey);
   margin: 0;
   line-height: 2rem;
 }
@@ -331,7 +347,8 @@ h1{
   margin: 0 1rem;
 }
 .footer__text{
-  color: #fff;
+  color: var(--color-font-white);
+  font-weight: bolder;
 }
 
 
