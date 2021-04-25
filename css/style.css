@@ -24,6 +24,7 @@
   --color-font-white: #fff;
   --color-font-grey: #4D5250;
   --bgc-section: #F8F9F9;
+  --color-green: #25F18B;
 }
 
 .header {
@@ -68,7 +69,7 @@
   justify-content: space-between;
 }
 .banner__item{
-  width: 70%;
+  width: 60%;
   
 }
 .banner__item--text{
@@ -95,16 +96,15 @@ h1{
 .banner__button{
   width: 45%;
   padding: 1rem 2rem;
-  background-color: #25F18B;
-  border: 1px solid #25F18B;
+  background-color: var(--color-green);
+  border: 1px solid var(--color-green);
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
 }
 .banner__img{
-  width: 110%; 
   height: auto;
-  transform: rotate(-6deg) translateX(-5%);
+  transform: rotate(-6deg) translate(-5%, -5%) scale(0.8, 0.8);
   border: 0.7rem solid white;
   border-radius: 5%;
   background-color: #fff;
@@ -139,13 +139,14 @@ h1{
   justify-content: space-around;
   align-items: center;
 }
-.boxes__item > figure{
+.image__wrap{
   background-color:var(--color-font-white);
-  width: 100px;
-  height: 100px;
+  padding: 2rem;
   border-radius: 50%;
   box-shadow: 10px 10px 100px #EAFFFf;
   position: relative;
+  width: 50px;
+  height: 50px;
 }
 .box__title, .box__paragraph, .box__title--last, .box__paragraph--last{
   color: var(--color-font-white);
@@ -165,6 +166,7 @@ h1{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .box__title--last{
   margin-top: 0;
 }
