@@ -227,6 +227,8 @@ h1{
 }
 .box__head{
   height: 30%;
+  list-style-type: none;
+  padding: 0;
 }
 .pricing__title--head, .pricing__title--text{
  color: var(--color-font-grey);
