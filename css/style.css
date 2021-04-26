@@ -338,10 +338,17 @@ h1{
   font-size: 1.2rem;
   color: #000;
 }
+.team__social-media{
+  list-style-type: none;
+  padding: 0;
 
-.team__twitter, .team__facebook{
-  margin: 0 1rem;
 }
+
+.social-media__item{
+  margin: 0 1rem;
+  display: inline;
+}
+
 
 /* Footer */
 .footer-wrap{
