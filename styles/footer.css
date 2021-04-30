@@ -1,0 +1,23 @@
+
+/* footer */
+
+.footer__container {
+    background: rgba(44, 42, 42, 0.63);
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0vw;
+    padding: 0.5vw;
+}
+
+.footer__container > p {
+    margin: 1vw;
+    font: bold 1.5vw 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.footer__img {
+    margin: 0.1vw;
+}

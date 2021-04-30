@@ -1,0 +1,99 @@
+
+/* team */
+
+.team__container {
+    background: rgba(192, 192, 192, 0.315);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0vw;
+    padding: 0.5vw;
+}
+
+.team__container > h2 {
+    font: normal 2.5vw 'Montserrat', sans-serif;
+    color: rgba(44, 42, 42, 0.63);
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+}
+
+.team__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    text-align: center;
+    width: 80%;
+    height: 25%;
+    color: rgba(44, 42, 42, 0.63);
+}
+
+.team__header > h2 {
+    font: normal 2.5vw 'Montserrat', sans-serif;
+    padding: 3vw;
+}
+
+.team__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 70%;
+    margin: 0.5vw;
+    padding: 0.5vw;
+}
+
+.team__logo {
+    margin: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 38rem;
+    height: 35rem;
+}
+
+.team__logo > h3 {
+    margin-top: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 0.5vw;
+    text-align: center;
+    color: rgba(44, 42, 42, 0.63);
+    font: normal 2.5vw 'Montserrat', sans-serif;
+}
+
+.team__logo > p > b {
+    margin: 0.5vw;
+    text-align: center;
+    color: rgba(44, 42, 42, 0.63);
+    font: bold 1.2vw 'Montserrat', sans-serif;
+}
+
+.team__logo > p {
+    margin: 0.5vw;
+    text-align: center;
+    color: rgba(44, 42, 42, 0.63);
+    font: normal 1.2vw 'Montserrat', sans-serif;
+}
+
+.team__socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+.team__socialmedia > img.twitter {
+    width: 2vw;
+    height: auto;
+    margin: 1vw;
+}
+
+.team__socialmedia > img.facebook {
+    width: 1vw;
+    height: auto;
+    margin: 1vw;
+}

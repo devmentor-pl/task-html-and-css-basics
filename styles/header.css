@@ -1,0 +1,114 @@
+
+/* header*/
+
+.header__container {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0vw;
+    padding: 0.5vw;
+}
+
+.header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    margin: 0.5vw 0vw 0vw 0vw;
+}
+
+.header__logo {
+    height: 100%;
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 1.5vw;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu > li > a {
+    text-decoration: none;
+    font: bold 1.5vw 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.header__menu > li {
+    margin: 1vw;
+    padding: 1vw;
+}
+
+.header__menu > li:hover {
+    background: rgb(97, 200, 136);
+    /* border: 3px solid rgb(154, 205, 50); */
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+.header__section {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: 1vw;
+}
+
+.header__content {
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(236, 225, 225, 0.883);
+    width: 50%;
+    margin: 0.5vw;
+}
+
+.header__content-header {
+    font-weight: bold;
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    padding-top: 3vw;
+}
+
+.header__content-paragraph {
+    font-size: 2vw;
+    margin: 1vw;
+    padding-top: 3vw;
+}
+
+.header__btn {
+    font: bold 1.2vw 'Montserrat', sans-serif;;
+    padding: 1vw;
+    border-radius: 10px 10px 10px 10px;
+    width: 15vw;
+    color: rgb(255, 255, 255);
+    background: rgb(97, 200, 136);
+    /* border: 3px solid rgb(154, 205, 50); */
+}
+
+.header__btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.header__img {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5vw;
+    padding-bottom: 8vw;
+}
+
+.header__img > img {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-5deg);
+    position: relative;
+    height: auto;
+    width: 80%;
+    top: 0.5vw;
+    left: -4vw;
+}
+

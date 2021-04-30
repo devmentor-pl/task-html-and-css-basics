@@ -1,0 +1,25 @@
+
+/* logos */
+
+.logos__container {
+    background: rgb(255, 255, 255);
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0vw;
+    padding: 0.5vw;
+}
+
+.logos__wrapper {
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 1vw;
+    padding: 0.5vw;
+}
