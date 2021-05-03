@@ -9,8 +9,8 @@ html {
 .container {
     margin: 0 auto;
     padding: 20px 15px;
-    max-width: 1140px;
-    outline: 4px solid royalblue;
+    max-width: 1050px;
+    /* outline: 4px solid royalblue; */
 }
 
 /* -----HEADER----- */
@@ -37,7 +37,6 @@ html {
 
 .nav__item {
     text-align: center;
-    border-bottom: 2px solid white;
     border-bottom: 2px solid transparent;
     transition: .3s;
 }
@@ -111,7 +110,59 @@ html {
 .template__image {
     width: 90%;
     border: 20px solid white;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #fff;
     transform: rotate(-6deg);
+}
+
+/* -----FEATURES----- */
+
+.features {
+    background-color: #000;
+    color: white;
+}
+
+.features__container {
+    display: flex;
+    justify-content: center;
+}
+
+.features__title {
+    font-size: 30px;
+    line-height: 90px;
+    text-transform: uppercase;
+}
+
+/* -----features-card----- */
+
+.features__feature-card {
+    margin: 5px;
+}
+
+.feature-card {
+    width: 260px;
+    height: 300px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.feature-card__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.feature-card__title {
+    margin: 0 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.feature-card__description {
+    margin: 20px 20px 0;
 }
