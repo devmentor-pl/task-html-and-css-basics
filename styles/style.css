@@ -4,6 +4,8 @@ html {
 
 :root {
     --color-violet: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    --color-font: #9d9ba0;
+    --color-font: #AAB7C3;
 }
 
 .container {
@@ -166,3 +168,46 @@ html {
 .feature-card__description {
     margin: 20px 20px 0;
 }
+
+/* -----ASIDE----- */
+
+.aside {
+    background-color: #F9FAFA;
+    text-align: center;
+}
+
+/* -----INFO----- */
+
+.info {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.info__image {
+    padding: 40px;
+    width: 55%;
+}
+
+.info__description {
+    padding: 40px;
+    width: 45%;
+}
+
+.info__title {
+    margin-top: 60px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--color-font);
+}
+
+.info__subtitle {
+    margin-top: 40px;
+    width: 70%;
+    line-height: 200%;
+    color: var(--color-font);
+}
+
+/* -----PRICING----- */
+
+
