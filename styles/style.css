@@ -8,18 +8,21 @@ html {
 
 .container {
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 20px 15px;
     max-width: 1140px;
     outline: 4px solid royalblue;
 }
 
 /* -----HEADER----- */
 
+.header {
+    background: var(--color-violet);
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-violet);
 }
 
 .header__logo {
@@ -50,4 +53,65 @@ html {
 
 .nav__item:hover {
     border-bottom-color: white;
+}
+
+/* -----TEMPLATE----- */
+
+.template {
+    background: var(--color-violet);
+}
+
+.template__container {
+    display: flex;
+}
+
+.template__info {
+    width: 45%;
+    color: white;
+}
+
+.template__title {
+    margin-top: 65px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.template__subtitle {
+    margin-top: 40px;
+    width: 60%;
+    line-height: 150%;
+}
+
+.template__btn-download {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.button {
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    line-height: 45px;
+    color: white;
+}
+
+.button--green {
+    background-color: #25F18B;
+}
+
+.template__bottom-span {
+    text-transform: uppercase;
+}
+
+.template__image-box {
+    padding: 30px 0 90px 20px;
+    width: 55%;
+}
+
+.template__image {
+    width: 90%;
+    border: 20px solid white;
+    border-radius: 10px;
+    background-color: #fff;
+    transform: rotate(-6deg);
 }
