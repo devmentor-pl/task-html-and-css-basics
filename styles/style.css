@@ -11,7 +11,6 @@ html {
     margin: 0 auto;
     padding: 20px 15px;
     max-width: 1050px;
-    outline: 4px solid royalblue;
 }
 
 /* -----HEADER----- */
@@ -32,8 +31,6 @@ html {
 
 .nav {
     display: flex;
-    /* justify-content: space-between; */
-    /* width: 250px; */
 }
 
 .nav__item {
@@ -145,7 +142,6 @@ html {
     height: 300px;
     font-size: 14px;
     text-align: center;
-    border: 2px solid red
 }
 
 .feature-card__logo {
@@ -198,6 +194,8 @@ html {
     margin-top: 60px;
 }
 
+/* nie wiem czy był sens przypisywania poniższych właściwości do odrębnej klasy (.title i .subtitle) ale póżniej kilkakrotnie z nich korzystałam. jeśli tak to czy nie powinnam umieścicć te klasy u góry pliku np pod .container */
+
 .title {
     font-size: 30px;
     text-transform: uppercase;
@@ -243,7 +241,6 @@ html {
 }
 
 .pricing__plan-name {
-    /* margin-top: 50px; */
     font-weight: bold;
     text-transform: uppercase;
     color: var(--color-font);
@@ -284,3 +281,47 @@ html {
 }
 
 /* -----TEAM----- */
+
+.team__container {
+    display: flex;
+    justify-content: center;
+}
+
+.team__title {
+    line-height: 90px;
+}
+
+.team__id {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.team__id-function {
+    font-weight: bold;
+    color: var(--color-font);
+}
+
+.team__id-name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333
+}
+
+.team__id-about {
+    font-size: 13px;
+    font-weight: bold;
+    color: var(--color-font);
+}
+
+.team__id-contact {
+    word-spacing: 15px;
+}
+
+.team__id-image {
+    width: 40%;
+}
+
+/* -----FOOTER----- */

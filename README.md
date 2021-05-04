@@ -1,4 +1,10 @@
-# HTML & CSS: Podstawy
+# ROZWIĄZANIE
+
+ Link: ()
+
+# ZADANIE from devmentor.pl
+
+## HTML & CSS: Podstawy
 
 Najwyższy czas zakodować prawdziwą stronę internetową! 
 
@@ -8,7 +14,7 @@ Będziemy się wzorować na projekcie od chłopaków z [Webscope](https://websco
 
 &nbsp;
 
-## Opis projektu
+### Opis projektu
 
 Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m. in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). Ich podgląd w VS Code możesz wykonać dzięki rozszerzeniu [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer).
 
@@ -23,7 +29,7 @@ Projekt nie musi być wykonany zgodnie z pierowzrorem 1:1, a nawet nie powinien.
 
 Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinień prawidłowo wyglądać na różnej wielkości monitorów/rozdzielczości. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Pamiętaj o tym kodując tą stronę.
 
-## Propozycja podziału
+### Propozycja podziału
 
 Poniżej zamieszczam propozycję podziału strony na poszczególne grupy, gdzie:
 
