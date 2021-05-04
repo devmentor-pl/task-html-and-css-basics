@@ -37,7 +37,7 @@
                 <p class="template__subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat cum nam
                     fuga, aut ducimus dolores!</p>
                 <button class="template__btn-download button button--green">Download <span
-                        class="template__bottom-span">free!</span></button>
+                        class="template__btn-span">free!</span></button>
             </section>
             <div class="template__image-box">
                 <img class="template__image" src="images/screen.png" alt="Website template">
@@ -78,14 +78,54 @@
             <img src="images/imac.png" alt="">
         </div>
         <div class="info__description">
-            <h2 class="info__title">Simple and beautiful</h2>
-            <p class="info__subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore porro magnam
+            <h2 class="info__title title">Simple and beautiful</h2>
+            <p class="info__subtitle subtitle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore porro
+                magnam
                 reiciendis omnis, recusandae hic voluptate laboriosam cumque inventore quaerat.</p>
         </div>
     </article>
     <article class="pricing">
-        <div class="container"></div>
-        <div class="container"></div>
+        <div class="container">
+            <h2 class="pricing__title title">Choose your pricing plan</h2>
+            <p class="pricing__subtitle subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+        <div class="pricing__container container">
+            <section class="pricing__plan">
+                <p class="pricing__plan-name">Basic</p>
+                <p class="pricing__plan-price">$15</p>
+                <!--a może price w span?-->
+                <p class="pricing__plan-period">per month</p>
+                <div class="pricing__plan-info-box">
+                    <!--czy w takim przypadku nie lepiej było całe info dac w jednym <p> i rozdzielać <br> (bo chyba w takim przypadku można użyc <br>?) wtedy nie musiałabym upychac w div? albo czy nie powinnam zastosowac <nav> do wypunktowania cech danego planu choć to rozwiązanie wydawało się bardziej pracochłonne? -->
+                    <p class="pricing__plan-info">Up to 7 projects</p>
+                    <p class="pricing__plan-info">2 Additional Developers</p>
+                </div>
+                <button class="pricing__btn button button--blue">Get Started</button>
+            </section>
+            <section class="pricing__plan">
+                <p class="pricing__plan-name">Agency</p>
+                <p class="pricing__plan-price">$55</p>
+                <p class="pricing__plan-period">per month</p>
+                <div class="pricing__plan-info-box">
+                    <p class="pricing__plan-info">Up to 25 projects</p>
+                    <p class="pricing__plan-info">2 Additional Developers</p>
+                    <p class="pricing__plan-info">Unlimited Support</p>
+                </div>
+                <button class="pricing__btn button button--blue">Get Started</button>
+            </section>
+            <section class="pricing__plan">
+                <p class="pricing__plan-name">Pro</p>
+                <p class="pricing__plan-price">$75</p>
+                <p class="pricing__plan-period">per month</p>
+                <div class="pricing__plan-info-box">
+                    <p class="pricing__plan-info">Up to 25 projects</p>
+                    <p class="pricing__plan-info">2 Additional Developers</p>
+                    <p class="pricing__plan-info">Unlimited Support</p>
+                    <p class="pricing__plan-info">1.5 GB Disk Space</p>
+                </div>
+                <button class="pricing__btn button button--blue">Get Started</button>
+            </section>
+        </div>
     </article>
     <article class="team">
         <div class="container"></div>
