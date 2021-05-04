@@ -34,17 +34,17 @@ html {
 }
 
 .nav__item {
-    text-align: center;
     border-bottom: 2px solid transparent;
+    text-align: center;
     transition: .3s;
 }
 
 .nav__link {
     padding: 10px;
     font-size: 14px;
-    text-decoration: none;
     line-height: 40px;
     font-weight: bold;
+    text-decoration: none;
     color: white;
 }
 
@@ -292,11 +292,15 @@ html {
 }
 
 .team__id {
-    margin: 10px;
+    margin: 10px 0 60px 0;
     padding: 10px;
     width: 300px;
-    text-align: center;
     line-height: 200%;
+    text-align: center;
+}
+
+.team__id-photo {
+    width: 40%;
 }
 
 .team__id-function {
@@ -317,11 +321,27 @@ html {
 }
 
 .team__id-contact {
-    word-spacing: 15px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    transition: .3s;
 }
 
-.team__id-image {
-    width: 40%;
+.team__id-contact:hover {
+    transform: scale(1.5);
 }
 
 /* -----FOOTER----- */
+
+.footer {
+    padding: 10px;
+    background-color: #464646;
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.footer__image {
+    margin-left: 5px;
+    vertical-align: middle;
+}
