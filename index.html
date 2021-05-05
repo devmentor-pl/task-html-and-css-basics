@@ -37,7 +37,7 @@
                 <p class="template__subtitle">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat cum nam
                     fuga, aut ducimus dolores!</p>
                 <button class="template__btn button button--green">Download <span
-                        class="template__btn-span">free!</span></button>
+                        class="template__btn-decorate">free!</span></button>
             </section>
             <div class="template__image-box">
                 <img class="template__image" src="images/screen.png" alt="Website template">
@@ -91,39 +91,43 @@
         </div>
         <div class="pricing__container container">
             <section class="pricing__plan">
-                <h4 class="pricing__plan-name">Basic</h4>
-                <p class="pricing__plan-price">$15</p>
-                <!--a może price w span?-->
-                <p class="pricing__plan-period">per month</p>
-                <div class="pricing__plan-info-box">
-                    <!--czy w takim przypadku nie lepiej było całe info dac w jednym <p> i rozdzielać <br> (bo chyba w takim przypadku można użyc <br>?) wtedy nie musiałabym upychac w div? albo czy nie powinnam zastosowac <nav> do wypunktowania cech danego planu choć to rozwiązanie wydawało się bardziej pracochłonne? -->
-                    <p class="pricing__plan-info">Up to 7 projects</p>
-                    <p class="pricing__plan-info">2 Additional Developers</p>
-                </div>
-                <button class="pricing__btn button button--blue">Get Started</button>
+                <header>
+                    <h4 class="pricing__plan-name">Basic</h4>
+                    <p class="pricing__plan-price">$15</p>
+                    <p class="pricing__plan-period">per month</p>
+                </header>
+                <ul class="pricing__plan-info-box">
+                    <li class="pricing__plan-info">Up to 7 projects</li>
+                    <li class="pricing__plan-info">2 Additional Developers</li>
+                </ul>
+                <button class="pricing__btn button button--buy">Get Started</button>
             </section>
             <section class="pricing__plan">
-                <h4 class="pricing__plan-name">Agency</h4>
-                <p class="pricing__plan-price">$55</p>
-                <p class="pricing__plan-period">per month</p>
-                <div class="pricing__plan-info-box">
-                    <p class="pricing__plan-info">Up to 25 projects</p>
-                    <p class="pricing__plan-info">2 Additional Developers</p>
-                    <p class="pricing__plan-info">Unlimited Support</p>
-                </div>
-                <button class="pricing__btn button button--blue">Get Started</button>
+                <header>
+                    <h4 class="pricing__plan-name">Agency</h4>
+                    <p class="pricing__plan-price">$55</p>
+                    <p class="pricing__plan-period">per month</p>
+                </header>
+                <ul class="pricing__plan-info-box">
+                    <li class="pricing__plan-info">Up to 25 projects</li>
+                    <li class="pricing__plan-info">2 Additional Developers</li>
+                    <li class="pricing__plan-info">Unlimited Support</li>
+                </ul>
+                <button class="pricing__btn button button--buy">Get Started</button>
             </section>
             <section class="pricing__plan">
-                <h4 class="pricing__plan-name">Pro</h4>
-                <p class="pricing__plan-price">$75</p>
-                <p class="pricing__plan-period">per month</p>
-                <div class="pricing__plan-info-box">
-                    <p class="pricing__plan-info">Up to 25 projects</p>
-                    <p class="pricing__plan-info">2 Additional Developers</p>
-                    <p class="pricing__plan-info">Unlimited Support</p>
-                    <p class="pricing__plan-info">1.5 GB Disk Space</p>
-                </div>
-                <button class="pricing__btn button button--blue">Get Started</button>
+                <header>
+                    <h4 class="pricing__plan-name">Pro</h4>
+                    <p class="pricing__plan-price">$75</p>
+                    <p class="pricing__plan-period">per month</p>
+                </header>
+                <ul class="pricing__plan-info-box">
+                    <li class="pricing__plan-info">Up to 25 projects</li>
+                    <li class="pricing__plan-info">2 Additional Developers</li>
+                    <li class="pricing__plan-info">Unlimited Support</li>
+                    <li class="pricing__plan-info">1.5 GB Disk Space</li>
+                </ul>
+                <button class="pricing__btn button button--buy">Get Started</button>
             </section>
         </div>
     </article>
@@ -133,31 +137,58 @@
         </div>
         <div class="team__container container">
             <section class="team__id">
-                <img class="team__id-photo" src="images/cto.png" alt="Johny's">
-                <h4 class="team__id-function">CTO</h4>
-                <p class="team__id-name">Johny B. Good</p>
+                <header>
+                    <img class="team__id-photo" src="images/cto.png" alt="Johny's">
+                    <h4 class="team__id-function">CTO</h4>
+                    <p class="team__id-name">Johny B. Good</p>
+                </header>
                 <p class="team__id-about">Lorem ipsum dolor sit amet.</p>
-                <div>
-                    <!--lepiej upychac img w div czy nie tzreba? pozostałe 2 id bez div -->
-                    <a class="team__id-contact" href="#"><img src="images/team-twitter.svg" alt="logo twitter"></a>
-                    <a class="team__id-contact" href="#"><img src="images/team-facebook.svg" alt="logo facebook"></a>
-                </div>
+                <ul>
+                    <li class="team__id-contact">
+                        <a class="team__id-contact-link" href="#"><img src="images/team-twitter.svg"
+                                alt="logo twitter"></a>
+                    </li>
+                    <li class="team__id-contact">
+                        <a class="team__id-contact-link" href="#"><img src="images/team-facebook.svg"
+                                alt="logo facebook"></a>
+                    </li>
+                </ul>
             </section>
             <section class="team__id">
-                <img class="team__id-photo" src="images/ceo.png" alt="Rol's photo">
-                <h4 class="team__id-function">CEO</h4>
-                <p class="team__id-name">Rol Beethoven</p>
+                <header>
+                    <img class="team__id-photo" src="images/ceo.png" alt="Rol's photo">
+                    <h4 class="team__id-function">CEO</h4>
+                    <p class="team__id-name">Rol Beethoven</p>
+                </header>
                 <p class="team__id-about">Lorem ipsum dolor sit amet consectetur.</p>
-                <a class="team__id-contact" href="#"><img src="images/team-twitter.svg" alt="logo twitter"></a>
-                <a class="team__id-contact" href="#"><img src="images/team-facebook.svg" alt="logo facebook"></a>
+                <ul>
+                    <li class="team__id-contact">
+                        <a class="team__id-contact-link" href="#"><img src="images/team-twitter.svg"
+                                alt="logo twitter"></a>
+                    </li>
+                    <li class="team__id-contact">
+                        <a class="team__id-contact-link" href="#"><img src="images/team-facebook.svg"
+                                alt="logo facebook"></a>
+                    </li>
+                </ul>
             </section>
             <section class="team__id">
-                <img class="team__id-photo" src="images/cfo.png" alt="Chusk's photo">
-                <h4 class="team__id-function">CFO</h4>
-                <p class="team__id-name">Chuck Barry</p>
+                <header>
+                    <img class="team__id-photo" src="images/cfo.png" alt="Chusk's photo">
+                    <h4 class="team__id-function">CFO</h4>
+                    <p class="team__id-name">Chuck Barry</p>
+                </header>
                 <p class="team__id-about">Lorem ipsum dolor sit amet consectetur.</p>
-                <a class="team__id-contact" href="#"><img src="images/team-twitter.svg" alt="logo twitter"></a>
-                <a class="team__id-contact" href="#"><img src="images/team-facebook.svg" alt="logo facebook"></a>
+                <ul>
+                    <li class="team__id-contact">
+                        <a class="team__id-contact-link" href="#"><img src="images/team-twitter.svg"
+                                alt="logo twitter"></a>
+                    </li>
+                    <li class="team__id-contact">
+                        <a class="team__id-contact-link" href="#"><img src="images/team-facebook.svg"
+                                alt="logo facebook"></a>
+                    </li>
+                </ul>
             </section>
         </div>
     </article>
