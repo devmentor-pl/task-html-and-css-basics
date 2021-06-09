@@ -357,6 +357,8 @@ html {
   align-items: center;
   justify-content: center;
   padding: 2rem; }
+  .footer__img {
+    margin-left: 0.5rem; }
 
 @keyframes moveInLeft {
   0% {

@@ -533,6 +533,10 @@ html {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+
+  &__img {
+    margin-left: 0.5rem;
+  }
 }
 
 // Animations
