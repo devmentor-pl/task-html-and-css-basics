@@ -58,6 +58,8 @@ html {
   font-weight: 300;
 }
 
+// Header
+
 .header {
   background-image: $background-gradient;
   height: 75vh;
@@ -116,6 +118,8 @@ html {
   }
 }
 
+// Navigation
+
 .nav {
   padding: 1rem 2rem;
   display: flex;
@@ -141,6 +145,8 @@ html {
 .nav__link:not(:last-child) {
   margin-right: 1rem;
 }
+
+// Section Features
 
 .s-features {
   background-color: $color-black;
@@ -214,12 +220,16 @@ html {
   }
 }
 
+// Section Logos
+
 .s-logos {
   background-color: $color-grey-light;
   padding: 2rem;
   display: flex;
   justify-content: center;
 }
+
+// Section About
 
 .s-about {
   display: flex;
@@ -245,6 +255,8 @@ html {
     padding: 1rem;
   }
 }
+
+// Section Pricing
 
 .s-pricing {
   background-color: $color-grey-light;
@@ -301,4 +313,68 @@ html {
   &__btn {
     background-color: $color-btn-card;
   }
+}
+
+// Section Team
+
+.s-team {
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3.5rem;
+  }
+
+  &__team-member {
+    padding: 2.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.team-member {
+  &__img {
+    width: 9rem;
+  }
+
+  &__role {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 2rem 0 0.5rem 0;
+  }
+
+  &__name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  &__media {
+    margin: 1.5rem;
+  }
+
+  &__media-icon {
+    height: 1.5rem;
+    filter: invert(70%) sepia(0%) saturate(19%) hue-rotate(347deg)
+      brightness(94%) contrast(104%);
+
+    &:first-child {
+      margin-right: 1rem;
+    }
+  }
+}
+
+// Footer
+
+.footer {
+  background-color: $color-grey-dark;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }

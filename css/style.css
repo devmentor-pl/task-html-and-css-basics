@@ -195,3 +195,48 @@ html {
     line-height: 2rem; }
   .card__btn {
     background-color: #08bcea; }
+
+.s-team__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.5rem; }
+
+.s-team__team-member {
+  padding: 2.5rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+
+.team-member__img {
+  width: 9rem; }
+
+.team-member__role {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 2rem 0 0.5rem 0; }
+
+.team-member__name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem; }
+
+.team-member__media {
+  margin: 1.5rem; }
+
+.team-member__media-icon {
+  height: 1.5rem;
+  filter: invert(70%) sepia(0%) saturate(19%) hue-rotate(347deg) brightness(94%) contrast(104%); }
+  .team-member__media-icon:first-child {
+    margin-right: 1rem; }
+
+.footer {
+  background-color: #464646;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem; }
