@@ -16,13 +16,14 @@ $font-main: "Montserrat", sans-serif;
 html {
   font-size: 62.5%;
   font-family: $font-main;
-  color: $color-white;
+  color: $color-grey-dark;
 }
 
 .header {
   background-image: $background-gradient;
   height: 75vh;
   padding: 0.5rem;
+  color: $color-white;
 
   &__content {
     display: flex;
@@ -116,4 +117,79 @@ html {
 
 .nav__link:not(:last-child) {
   margin-right: 1rem;
+}
+
+.s-features {
+  background-color: $color-black;
+  color: $color-white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 1rem;
+
+  &__heading {
+    font-size: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+  }
+
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1.5rem 0;
+  }
+
+  &__feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 1.5rem;
+  }
+}
+
+.feature {
+  &__img {
+    width: 6rem;
+    height: 6rem;
+    background-color: $color-white;
+    border-radius: 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+
+    margin: 1.8rem;
+
+    &--1 {
+      background-image: url(../images/responsive.svg);
+    }
+
+    &--2 {
+      background-image: url(../images/customizable.svg);
+    }
+
+    &--3 {
+      background-image: url(../images/design.svg);
+    }
+  }
+
+  &__heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+  }
+
+  &__desc {
+    font-size: 1.1rem;
+    color: $color-grey-light;
+    line-height: 2rem;
+    max-width: 200px;
+  }
 }
