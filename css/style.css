@@ -28,9 +28,11 @@ html {
 
 .header {
   background-image: radial-gradient(#c24a7e, #6956eb);
-  height: 75vh;
   padding: 0.5rem;
   color: #fff; }
+  @media only screen and (min-width: 43.75rem) {
+    .header {
+      padding: 2rem; } }
   .header__content {
     display: flex;
     flex-direction: column-reverse;
@@ -42,6 +44,9 @@ html {
     background-color: #fff;
     transform: rotate(-5deg);
     border-radius: 8px; }
+    @media only screen and (min-width: 43.75rem) {
+      .header__right {
+        width: 55%; } }
   .header__right-img {
     padding: 1rem; }
   .header__left {
@@ -98,6 +103,11 @@ html {
     display: flex;
     flex-direction: column;
     margin: 1.5rem 0; }
+    @media only screen and (min-width: 43.75rem) {
+      .s-features__content-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 400px));
+        grid-template-rows: repeat(2, minmax(min-content, 250px)); } }
   .s-features__feature {
     display: flex;
     flex-direction: column;
@@ -148,6 +158,9 @@ html {
     width: 15rem;
     height: auto;
     margin-top: 2rem; }
+    @media only screen and (min-width: 43.75rem) {
+      .s-about__img {
+        width: 40rem; } }
   .s-about__text {
     padding: 1rem 3rem;
     text-align: center; }
@@ -167,6 +180,13 @@ html {
     font-size: 1.1rem;
     line-height: 2rem;
     padding: 0.5rem; }
+  .s-pricing__card-wrapper {
+    margin: 2rem 0; }
+    @media only screen and (min-width: 43.75rem) {
+      .s-pricing__card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(200px, 350px));
+        grid-template-rows: repeat(2, min-content); } }
 
 .card {
   background-color: #fff;
@@ -200,7 +220,9 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 3.5rem; }
+  justify-content: center;
+  margin-top: 3.5rem;
+  width: 100%; }
 
 .s-team__team-member {
   padding: 2.5rem;
@@ -209,6 +231,13 @@ html {
   flex-direction: column;
   justify-content: space-between;
   align-items: center; }
+
+@media only screen and (min-width: 43.75rem) {
+  .s-team__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 400px));
+    grid-template-rows: repeat(2, minmax(min-content, 250px));
+    margin-top: 3rem; } }
 
 .team-member__img {
   width: 9rem; }
