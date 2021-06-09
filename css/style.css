@@ -74,6 +74,11 @@ html {
 .nav__link:not(:last-child) {
   margin-right: 1rem; }
 
+.sections-heading {
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: uppercase; }
+
 .s-features {
   background-color: #000;
   color: #fff;
@@ -84,9 +89,6 @@ html {
   text-align: center;
   padding: 1rem; }
   .s-features__heading {
-    font-size: 2rem;
-    padding: 1rem;
-    text-transform: uppercase;
     margin-top: 2.5rem; }
   .s-features__content-wrapper {
     display: flex;
@@ -125,3 +127,26 @@ html {
   color: #f8f9f9;
   line-height: 2rem;
   max-width: 200px; }
+
+.s-logos {
+  background-color: #f8f9f9;
+  padding: 2rem;
+  display: flex;
+  justify-content: center; }
+
+.s-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .s-about__img {
+    padding: 2rem;
+    width: 15rem;
+    height: auto;
+    margin-top: 2rem; }
+  .s-about__text {
+    padding: 1rem 3rem;
+    text-align: center; }
+  .s-about__desc {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding: 1rem; }

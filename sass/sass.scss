@@ -119,6 +119,12 @@ html {
   margin-right: 1rem;
 }
 
+.sections-heading {
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
 .s-features {
   background-color: $color-black;
   color: $color-white;
@@ -132,9 +138,6 @@ html {
   padding: 1rem;
 
   &__heading {
-    font-size: 2rem;
-    padding: 1rem;
-    text-transform: uppercase;
     margin-top: 2.5rem;
   }
 
@@ -191,5 +194,36 @@ html {
     color: $color-grey-light;
     line-height: 2rem;
     max-width: 200px;
+  }
+}
+
+.s-logos {
+  background-color: $color-grey-light;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.s-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    padding: 2rem;
+    width: 15rem;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  &__text {
+    padding: 1rem 3rem;
+    text-align: center;
+  }
+
+  &__desc {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding: 1rem;
   }
 }
