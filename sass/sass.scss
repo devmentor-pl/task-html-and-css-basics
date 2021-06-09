@@ -1,3 +1,119 @@
-body {
-  background-color: pink;
+// Variables //
+
+// Colors
+
+$background-gradient: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+$color-btns: #26f08b;
+$color-grey-light: #f8f9f9;
+$color-grey-dark: #464646;
+$color-white: #fff;
+$color-black: #000;
+
+// Fonts
+
+$font-main: "Montserrat", sans-serif;
+
+html {
+  font-size: 62.5%;
+  font-family: $font-main;
+  color: $color-white;
+}
+
+.header {
+  background-image: $background-gradient;
+  height: 75vh;
+  padding: 0.5rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  &__right {
+    width: 70%;
+    height: auto;
+    margin: 3rem 0;
+    background-color: $color-white;
+    transform: rotate(-5deg);
+    border-radius: 8px;
+  }
+
+  &__right-img {
+    padding: 1rem;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+  }
+
+  &__desc {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    line-height: 2rem;
+  }
+
+  &__btn {
+    &,
+    &:link,
+    &:visited {
+      width: 150px;
+      height: 40px;
+      background-color: $color-btns;
+      color: $color-white;
+      text-decoration: none;
+      padding: 1rem;
+      display: inline-block;
+      border-radius: 10rem;
+      font-size: 1.2rem;
+      font-family: $font-main;
+      font-weight: 600;
+      margin: 1.5rem 2rem;
+      border: none;
+      box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.5s ease-out;
+    }
+  }
+}
+
+.nav {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 8rem;
+    height: auto;
+  }
+
+  &__link {
+    color: $color-white;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-btns;
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav__link:not(:last-child) {
+  margin-right: 1rem;
 }
