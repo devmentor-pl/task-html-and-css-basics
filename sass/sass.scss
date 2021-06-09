@@ -104,6 +104,7 @@ html {
     background-color: $color-white;
     transform: rotate(-5deg);
     border-radius: 8px;
+    transition: all;
 
     @media only screen and (min-width: $bp-tablet) {
       width: 55%;
@@ -111,6 +112,7 @@ html {
 
     @media only screen and (min-width: $bp-desktop) {
       width: 50%;
+      animation: moveInRight 1s ease-out;
     }
   }
 
@@ -131,6 +133,7 @@ html {
       text-align: left;
       margin-right: 6rem;
       max-width: 400px;
+      animation: moveInLeft 1s ease-out;
     }
   }
 
@@ -330,6 +333,7 @@ html {
 
     @media only screen and (min-width: $bp-desktop) {
       width: 60rem;
+      animation: moveInLeft 1s ease-out;
     }
   }
 
@@ -338,9 +342,14 @@ html {
     text-align: center;
 
     @media only screen and (min-width: $bp-tablet) {
+      max-width: 600px;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
       text-align: left;
       margin-left: 3rem;
       max-width: 450px;
+      animation: moveInRight 1s ease-out;
     }
   }
 
@@ -400,6 +409,11 @@ html {
   align-items: center;
 
   box-shadow: $box-shadow;
+  transition: 1s all ease-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 
   &__content-wrap {
     text-align: center;
@@ -519,4 +533,38 @@ html {
   align-items: center;
   justify-content: center;
   padding: 2rem;
+}
+
+// Animations
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
