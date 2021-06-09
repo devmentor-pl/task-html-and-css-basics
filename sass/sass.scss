@@ -412,7 +412,9 @@ html {
   transition: 1s all ease-out;
 
   &:hover {
-    transform: scale(1.2);
+    @media only screen and (min-width: $bp-tablet) {
+      transform: scale(1.2);
+    }
   }
 
   &__content-wrap {
