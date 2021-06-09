@@ -2,6 +2,9 @@ html {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
   color: #464646; }
+  @media only screen and (min-width: 43.75rem) {
+    html {
+      font-size: 75%; } }
 
 .btn, .btn:link, .btn:visited {
   width: 140px;
@@ -12,7 +15,6 @@ html {
   border-radius: 1rem;
   font-size: 1.2rem;
   font-family: "Montserrat", sans-serif;
-  margin: 1.5rem 2rem;
   border: none;
   cursor: pointer; }
 
@@ -25,6 +27,9 @@ html {
   padding: 1rem;
   text-transform: uppercase;
   font-weight: 300; }
+  @media only screen and (min-width: 64rem) {
+    .sections-heading {
+      font-size: 2.5rem; } }
 
 .header {
   background-image: radial-gradient(#c24a7e, #6956eb);
@@ -33,10 +38,18 @@ html {
   @media only screen and (min-width: 43.75rem) {
     .header {
       padding: 2rem; } }
+  @media only screen and (min-width: 64rem) {
+    .header {
+      padding: 2rem 10rem; } }
   .header__content {
     display: flex;
     flex-direction: column-reverse;
-    align-items: center; }
+    align-items: center;
+    justify-content: center; }
+    @media only screen and (min-width: 64rem) {
+      .header__content {
+        flex-direction: row;
+        padding: 3rem; } }
   .header__right {
     width: 70%;
     height: auto;
@@ -47,6 +60,9 @@ html {
     @media only screen and (min-width: 43.75rem) {
       .header__right {
         width: 55%; } }
+    @media only screen and (min-width: 64rem) {
+      .header__right {
+        width: 50%; } }
   .header__right-img {
     padding: 1rem; }
   .header__left {
@@ -56,19 +72,37 @@ html {
     align-items: center;
     margin: 1rem 0;
     text-align: center; }
+    @media only screen and (min-width: 64rem) {
+      .header__left {
+        align-items: flex-start;
+        text-align: left;
+        margin-right: 6rem;
+        max-width: 400px; } }
   .header__heading {
     font-size: 2rem;
     font-weight: bold;
     padding: 0.5rem 0; }
+    @media only screen and (min-width: 64rem) {
+      .header__heading {
+        font-size: 2.5rem; } }
   .header__desc {
     font-size: 1.2rem;
     padding: 0.5rem 0;
-    line-height: 2rem; }
+    line-height: 2rem;
+    font-weight: 300; }
+    @media only screen and (min-width: 64rem) {
+      .header__desc {
+        margin-bottom: 3rem;
+        max-width: 200px; } }
   .header__btn, .header__btn:link, .header__btn:visited {
     width: 150px;
     background-color: #26f08b;
     font-weight: 600;
-    box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25); }
+    box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25);
+    margin: 1.5rem 2rem; }
+    @media only screen and (min-width: 64rem) {
+      .header__btn, .header__btn:link, .header__btn:visited {
+        margin-left: 0; } }
 
 .nav {
   padding: 1rem 2rem;
@@ -97,8 +131,14 @@ html {
   justify-content: center;
   text-align: center;
   padding: 1rem; }
+  @media only screen and (min-width: 43.75rem) {
+    .s-features {
+      padding: 5rem; } }
   .s-features__heading {
     margin-top: 2.5rem; }
+    @media only screen and (min-width: 43.75rem) {
+      .s-features__heading {
+        padding: 3rem; } }
   .s-features__content-wrapper {
     display: flex;
     flex-direction: column;
@@ -108,6 +148,10 @@ html {
         display: grid;
         grid-template-columns: repeat(2, minmax(200px, 400px));
         grid-template-rows: repeat(2, minmax(min-content, 250px)); } }
+    @media only screen and (min-width: 64rem) {
+      .s-features__content-wrapper {
+        grid-template-columns: repeat(3, minmax(200px, 400px));
+        grid-template-rows: auto; } }
   .s-features__feature {
     display: flex;
     flex-direction: column;
@@ -152,7 +196,13 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  justify-content: center; }
+  @media only screen and (min-width: 64rem) {
+    .s-about {
+      flex-direction: row;
+      margin: 2rem 3rem;
+      padding: 5rem; } }
   .s-about__img {
     padding: 2rem;
     width: 15rem;
@@ -161,19 +211,31 @@ html {
     @media only screen and (min-width: 43.75rem) {
       .s-about__img {
         width: 40rem; } }
+    @media only screen and (min-width: 64rem) {
+      .s-about__img {
+        width: 60rem; } }
   .s-about__text {
     padding: 1rem 3rem;
     text-align: center; }
+    @media only screen and (min-width: 43.75rem) {
+      .s-about__text {
+        text-align: left;
+        margin-left: 3rem;
+        max-width: 450px; } }
   .s-about__desc {
     font-size: 1.1rem;
     line-height: 2rem;
-    padding: 1rem; }
+    padding: 1rem;
+    font-weight: 300; }
 
 .s-pricing {
   background-color: #f8f9f9;
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media only screen and (min-width: 43.75rem) {
+    .s-pricing {
+      padding: 5rem; } }
   .s-pricing__heading {
     margin-top: 3.5rem; }
   .s-pricing__desc {
@@ -187,6 +249,10 @@ html {
         display: grid;
         grid-template-columns: repeat(2, minmax(200px, 350px));
         grid-template-rows: repeat(2, min-content); } }
+    @media only screen and (min-width: 64rem) {
+      .s-pricing__card-wrapper {
+        grid-template-columns: repeat(3, minmax(200px, 400px));
+        grid-template-rows: auto; } }
 
 .card {
   background-color: #fff;
@@ -214,30 +280,38 @@ html {
     font-size: 1.2rem;
     line-height: 2rem; }
   .card__btn {
-    background-color: #08bcea; }
+    background-color: #08bcea;
+    margin: 1.5rem 2rem; }
 
-.s-team__heading {
+.s-team {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-top: 3.5rem;
-  width: 100%; }
-
-.s-team__team-member {
-  padding: 2.5rem;
-  margin: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center; }
-
-@media only screen and (min-width: 43.75rem) {
-  .s-team__wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 400px));
-    grid-template-rows: repeat(2, minmax(min-content, 250px));
-    margin-top: 3rem; } }
+  justify-content: center; }
+  @media only screen and (min-width: 43.75rem) {
+    .s-team {
+      padding: 5rem; } }
+  .s-team__heading {
+    margin-top: 3.5rem;
+    width: 100%;
+    text-align: center; }
+  .s-team__team-member {
+    padding: 2.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+  @media only screen and (min-width: 43.75rem) {
+    .s-team__wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(200px, 400px));
+      grid-template-rows: repeat(2, minmax(min-content, 250px));
+      margin-top: 3rem; } }
+  @media only screen and (min-width: 64rem) {
+    .s-team__wrapper {
+      grid-template-columns: repeat(3, minmax(200px, 400px));
+      grid-template-rows: auto; } }
 
 .team-member__img {
   width: 9rem; }
@@ -252,6 +326,9 @@ html {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.5rem; }
+
+.team-member__about {
+  font-weight: 300; }
 
 .team-member__media {
   margin: 1.5rem; }

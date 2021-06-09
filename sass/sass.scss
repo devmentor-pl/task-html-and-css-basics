@@ -21,6 +21,7 @@ $box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25);
 // Breakpoints
 
 $bp-tablet: 43.75rem;
+$bp-desktop: 64rem;
 
 ///////// Styles ////////
 
@@ -28,6 +29,10 @@ html {
   font-size: 62.5%;
   font-family: $font-main;
   color: $color-grey-dark;
+
+  @media only screen and (min-width: $bp-tablet) {
+    font-size: 75%;
+  }
 }
 
 // Components //
@@ -44,7 +49,6 @@ html {
     border-radius: 1rem;
     font-size: 1.2rem;
     font-family: $font-main;
-    margin: 1.5rem 2rem;
     border: none;
     cursor: pointer;
   }
@@ -60,6 +64,10 @@ html {
   padding: 1rem;
   text-transform: uppercase;
   font-weight: 300;
+
+  @media only screen and (min-width: $bp-desktop) {
+    font-size: 2.5rem;
+  }
 }
 
 // Header
@@ -73,10 +81,20 @@ html {
     padding: 2rem;
   }
 
+  @media only screen and (min-width: $bp-desktop) {
+    padding: 2rem 10rem;
+  }
+
   &__content {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
+
+    @media only screen and (min-width: $bp-desktop) {
+      flex-direction: row;
+      padding: 3rem;
+    }
   }
 
   &__right {
@@ -89,6 +107,10 @@ html {
 
     @media only screen and (min-width: $bp-tablet) {
       width: 55%;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      width: 50%;
     }
   }
 
@@ -103,18 +125,35 @@ html {
     align-items: center;
     margin: 1rem 0;
     text-align: center;
+
+    @media only screen and (min-width: $bp-desktop) {
+      align-items: flex-start;
+      text-align: left;
+      margin-right: 6rem;
+      max-width: 400px;
+    }
   }
 
   &__heading {
     font-size: 2rem;
     font-weight: bold;
     padding: 0.5rem 0;
+
+    @media only screen and (min-width: $bp-desktop) {
+      font-size: 2.5rem;
+    }
   }
 
   &__desc {
     font-size: 1.2rem;
     padding: 0.5rem 0;
     line-height: 2rem;
+    font-weight: 300;
+
+    @media only screen and (min-width: $bp-desktop) {
+      margin-bottom: 3rem;
+      max-width: 200px;
+    }
   }
 
   &__btn {
@@ -125,6 +164,11 @@ html {
       background-color: $color-btn-main;
       font-weight: 600;
       box-shadow: $box-shadow;
+      margin: 1.5rem 2rem;
+
+      @media only screen and (min-width: $bp-desktop) {
+        margin-left: 0;
+      }
     }
   }
 }
@@ -171,8 +215,16 @@ html {
 
   padding: 1rem;
 
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 5rem;
+  }
+
   &__heading {
     margin-top: 2.5rem;
+
+    @media only screen and (min-width: $bp-tablet) {
+      padding: 3rem;
+    }
   }
 
   &__content-wrapper {
@@ -185,6 +237,11 @@ html {
       display: grid;
       grid-template-columns: repeat(2, minmax(200px, 400px));
       grid-template-rows: repeat(2, minmax(min-content, 250px));
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      grid-template-columns: repeat(3, minmax(200px, 400px));
+      grid-template-rows: auto;
     }
   }
 
@@ -253,6 +310,13 @@ html {
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
+  justify-content: center;
+
+  @media only screen and (min-width: $bp-desktop) {
+    flex-direction: row;
+    margin: 2rem 3rem;
+    padding: 5rem;
+  }
 
   &__img {
     padding: 2rem;
@@ -263,17 +327,28 @@ html {
     @media only screen and (min-width: $bp-tablet) {
       width: 40rem;
     }
+
+    @media only screen and (min-width: $bp-desktop) {
+      width: 60rem;
+    }
   }
 
   &__text {
     padding: 1rem 3rem;
     text-align: center;
+
+    @media only screen and (min-width: $bp-tablet) {
+      text-align: left;
+      margin-left: 3rem;
+      max-width: 450px;
+    }
   }
 
   &__desc {
     font-size: 1.1rem;
     line-height: 2rem;
     padding: 1rem;
+    font-weight: 300;
   }
 }
 
@@ -284,6 +359,10 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 5rem;
+  }
 
   &__heading {
     margin-top: 3.5rem;
@@ -302,6 +381,11 @@ html {
       display: grid;
       grid-template-columns: repeat(2, minmax(200px, 350px));
       grid-template-rows: repeat(2, min-content);
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      grid-template-columns: repeat(3, minmax(200px, 400px));
+      grid-template-rows: auto;
     }
   }
 }
@@ -343,19 +427,26 @@ html {
 
   &__btn {
     background-color: $color-btn-card;
+    margin: 1.5rem 2rem;
   }
 }
 
 // Section Team
 
 .s-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 5rem;
+  }
+
   &__heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin-top: 3.5rem;
     width: 100%;
+    text-align: center;
   }
 
   &__team-member {
@@ -373,6 +464,11 @@ html {
       grid-template-columns: repeat(2, minmax(200px, 400px));
       grid-template-rows: repeat(2, minmax(min-content, 250px));
       margin-top: 3rem;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      grid-template-columns: repeat(3, minmax(200px, 400px));
+      grid-template-rows: auto;
     }
   }
 }
@@ -393,6 +489,10 @@ html {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+  }
+
+  &__about {
+    font-weight: 300;
   }
 
   &__media {
