@@ -3,7 +3,8 @@
 // Colors
 
 $background-gradient: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-$color-btns: #26f08b;
+$color-btn-main: #26f08b;
+$color-btn-card: #08bcea;
 $color-grey-light: #f8f9f9;
 $color-grey-dark: #464646;
 $color-white: #fff;
@@ -13,10 +14,48 @@ $color-black: #000;
 
 $font-main: "Montserrat", sans-serif;
 
+// Other
+
+$box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25);
+
+///////// Styles ////////
+
 html {
   font-size: 62.5%;
   font-family: $font-main;
   color: $color-grey-dark;
+}
+
+// Components //
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    width: 140px;
+    height: 40px;
+    color: $color-white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-family: $font-main;
+    margin: 1.5rem 2rem;
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+  }
+}
+
+.sections-heading {
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 .header {
@@ -70,25 +109,9 @@ html {
     &:link,
     &:visited {
       width: 150px;
-      height: 40px;
-      background-color: $color-btns;
-      color: $color-white;
-      text-decoration: none;
-      padding: 1rem;
-      display: inline-block;
-      border-radius: 10rem;
-      font-size: 1.2rem;
-      font-family: $font-main;
+      background-color: $color-btn-main;
       font-weight: 600;
-      margin: 1.5rem 2rem;
-      border: none;
-      box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25);
-      cursor: pointer;
-    }
-
-    &:hover {
-      transform: scale(1.1);
-      transition: 0.5s ease-out;
+      box-shadow: $box-shadow;
     }
   }
 }
@@ -109,7 +132,7 @@ html {
     text-decoration: none;
 
     &:hover {
-      color: $color-btns;
+      color: $color-btn-main;
       text-decoration: underline;
     }
   }
@@ -117,12 +140,6 @@ html {
 
 .nav__link:not(:last-child) {
   margin-right: 1rem;
-}
-
-.sections-heading {
-  font-size: 2rem;
-  padding: 1rem;
-  text-transform: uppercase;
 }
 
 .s-features {
@@ -208,6 +225,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
 
   &__img {
     padding: 2rem;
@@ -225,5 +243,62 @@ html {
     font-size: 1.1rem;
     line-height: 2rem;
     padding: 1rem;
+  }
+}
+
+.s-pricing {
+  background-color: $color-grey-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__heading {
+    margin-top: 3.5rem;
+  }
+
+  &__desc {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding: 0.5rem;
+  }
+}
+
+.card {
+  background-color: $color-white;
+  padding: 2.5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: $box-shadow;
+
+  &__content-wrap {
+    text-align: center;
+  }
+
+  &__option {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color-grey-dark;
+    margin-top: 2rem;
+  }
+
+  &__price {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+
+  &__desc {
+    margin: 3rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  &__btn {
+    background-color: $color-btn-card;
   }
 }

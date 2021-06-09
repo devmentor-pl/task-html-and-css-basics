@@ -3,6 +3,29 @@ html {
   font-family: "Montserrat", sans-serif;
   color: #464646; }
 
+.btn, .btn:link, .btn:visited {
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 1.5rem 2rem;
+  border: none;
+  cursor: pointer; }
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-out; }
+
+.sections-heading {
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 300; }
+
 .header {
   background-image: radial-gradient(#c24a7e, #6956eb);
   height: 75vh;
@@ -38,23 +61,9 @@ html {
     line-height: 2rem; }
   .header__btn, .header__btn:link, .header__btn:visited {
     width: 150px;
-    height: 40px;
     background-color: #26f08b;
-    color: #fff;
-    text-decoration: none;
-    padding: 1rem;
-    display: inline-block;
-    border-radius: 10rem;
-    font-size: 1.2rem;
-    font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    margin: 1.5rem 2rem;
-    border: none;
-    box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25);
-    cursor: pointer; }
-  .header__btn:hover {
-    transform: scale(1.1);
-    transition: 0.5s ease-out; }
+    box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25); }
 
 .nav {
   padding: 1rem 2rem;
@@ -73,11 +82,6 @@ html {
 
 .nav__link:not(:last-child) {
   margin-right: 1rem; }
-
-.sections-heading {
-  font-size: 2rem;
-  padding: 1rem;
-  text-transform: uppercase; }
 
 .s-features {
   background-color: #000;
@@ -137,7 +141,8 @@ html {
 .s-about {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 2rem; }
   .s-about__img {
     padding: 2rem;
     width: 15rem;
@@ -150,3 +155,43 @@ html {
     font-size: 1.1rem;
     line-height: 2rem;
     padding: 1rem; }
+
+.s-pricing {
+  background-color: #f8f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .s-pricing__heading {
+    margin-top: 3.5rem; }
+  .s-pricing__desc {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding: 0.5rem; }
+
+.card {
+  background-color: #fff;
+  padding: 2.5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25); }
+  .card__content-wrap {
+    text-align: center; }
+  .card__option {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #464646;
+    margin-top: 2rem; }
+  .card__price {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 0.5rem 0; }
+  .card__desc {
+    margin: 3rem;
+    font-size: 1.2rem;
+    line-height: 2rem; }
+  .card__btn {
+    background-color: #08bcea; }
