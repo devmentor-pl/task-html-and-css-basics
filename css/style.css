@@ -115,6 +115,10 @@ html {
   .nav__logo {
     width: 8rem;
     height: auto; }
+  .nav__item {
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly; }
   .nav__link {
     color: #fff;
     text-decoration: none; }

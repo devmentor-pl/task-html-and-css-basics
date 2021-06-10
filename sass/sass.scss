@@ -189,6 +189,12 @@ html {
     height: auto;
   }
 
+  &__item {
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   &__link {
     color: $color-white;
     text-decoration: none;
