@@ -1,0 +1,582 @@
+// Variables //
+
+// Colors
+
+$background-gradient: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+$color-btn-main: #26f08b;
+$color-btn-card: #08bcea;
+$color-grey-light: #f8f9f9;
+$color-grey-dark: #464646;
+$color-white: #fff;
+$color-black: #000;
+
+// Fonts
+
+$font-main: "Montserrat", sans-serif;
+
+// Other
+
+$box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.25);
+
+// Breakpoints
+
+$bp-tablet: 43.75rem;
+$bp-desktop: 64rem;
+
+///////// Styles ////////
+
+html {
+  font-size: 62.5%;
+  font-family: $font-main;
+  color: $color-grey-dark;
+
+  @media only screen and (min-width: $bp-tablet) {
+    font-size: 75%;
+  }
+}
+
+// Components //
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    width: 140px;
+    height: 40px;
+    color: $color-white;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-family: $font-main;
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-out;
+  }
+}
+
+.sections-heading {
+  font-size: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 300;
+
+  @media only screen and (min-width: $bp-desktop) {
+    font-size: 2.5rem;
+  }
+}
+
+// Header
+
+.header {
+  background-image: $background-gradient;
+  padding: 0.5rem;
+  color: $color-white;
+
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 2rem;
+  }
+
+  @media only screen and (min-width: $bp-desktop) {
+    padding: 2rem 10rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (min-width: $bp-desktop) {
+      flex-direction: row;
+      padding: 3rem;
+    }
+  }
+
+  &__right {
+    width: 70%;
+    height: auto;
+    margin: 3rem 0;
+    background-color: $color-white;
+    transform: rotate(-5deg);
+    border-radius: 8px;
+    transition: all;
+
+    @media only screen and (min-width: $bp-tablet) {
+      width: 55%;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      width: 50%;
+      animation: moveInRight 1s ease-out;
+    }
+  }
+
+  &__right-img {
+    padding: 1rem;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    text-align: center;
+
+    @media only screen and (min-width: $bp-desktop) {
+      align-items: flex-start;
+      text-align: left;
+      margin-right: 6rem;
+      max-width: 400px;
+      animation: moveInLeft 1s ease-out;
+    }
+  }
+
+  &__heading {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 0;
+
+    @media only screen and (min-width: $bp-desktop) {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__desc {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    line-height: 2rem;
+    font-weight: 300;
+
+    @media only screen and (min-width: $bp-desktop) {
+      margin-bottom: 3rem;
+      max-width: 200px;
+    }
+  }
+
+  &__btn {
+    &,
+    &:link,
+    &:visited {
+      width: 150px;
+      background-color: $color-btn-main;
+      font-weight: 600;
+      box-shadow: $box-shadow;
+      margin: 1.5rem 2rem;
+
+      @media only screen and (min-width: $bp-desktop) {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+// Navigation
+
+.nav {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 8rem;
+    height: auto;
+  }
+
+  &__item {
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  &__link {
+    color: $color-white;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-btn-main;
+      text-decoration: underline;
+    }
+  }
+}
+
+.nav__link:not(:last-child) {
+  margin-right: 1rem;
+}
+
+// Section Features
+
+.s-features {
+  background-color: $color-black;
+  color: $color-white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 1rem;
+
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 5rem;
+  }
+
+  &__heading {
+    margin-top: 2.5rem;
+
+    @media only screen and (min-width: $bp-tablet) {
+      padding: 3rem;
+    }
+  }
+
+  &__content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1.5rem 0;
+
+    @media only screen and (min-width: $bp-tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(200px, 400px));
+      grid-template-rows: repeat(2, minmax(min-content, 250px));
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      grid-template-columns: repeat(3, minmax(200px, 400px));
+      grid-template-rows: auto;
+    }
+  }
+
+  &__feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 1.5rem;
+  }
+}
+
+.feature {
+  &__img {
+    width: 6rem;
+    height: 6rem;
+    background-color: $color-white;
+    border-radius: 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+
+    margin: 1.8rem;
+
+    &--1 {
+      background-image: url(../images/responsive.svg);
+    }
+
+    &--2 {
+      background-image: url(../images/customizable.svg);
+    }
+
+    &--3 {
+      background-image: url(../images/design.svg);
+    }
+  }
+
+  &__heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+  }
+
+  &__desc {
+    font-size: 1.1rem;
+    color: $color-grey-light;
+    line-height: 2rem;
+    max-width: 200px;
+  }
+}
+
+// Section Logos
+
+.s-logos {
+  background-color: $color-grey-light;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+// Section About
+
+.s-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  justify-content: center;
+
+  @media only screen and (min-width: $bp-desktop) {
+    flex-direction: row;
+    margin: 2rem 3rem;
+    padding: 5rem;
+  }
+
+  &__img {
+    padding: 2rem;
+    width: 15rem;
+    height: auto;
+    margin-top: 2rem;
+
+    @media only screen and (min-width: $bp-tablet) {
+      width: 40rem;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      width: 60rem;
+      animation: moveInLeft 1s ease-out;
+    }
+  }
+
+  &__text {
+    padding: 1rem 3rem;
+    text-align: center;
+
+    @media only screen and (min-width: $bp-tablet) {
+      max-width: 600px;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      text-align: left;
+      margin-left: 3rem;
+      max-width: 450px;
+      animation: moveInRight 1s ease-out;
+    }
+  }
+
+  &__desc {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding: 1rem;
+    font-weight: 300;
+  }
+}
+
+// Section Pricing
+
+.s-pricing {
+  background-color: $color-grey-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 5rem;
+  }
+
+  &__heading {
+    margin-top: 3.5rem;
+  }
+
+  &__desc {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    padding: 0.5rem;
+  }
+
+  &__card-wrapper {
+    margin: 2rem 0;
+
+    @media only screen and (min-width: $bp-tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(200px, 350px));
+      grid-template-rows: repeat(2, min-content);
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      grid-template-columns: repeat(3, minmax(200px, 400px));
+      grid-template-rows: auto;
+    }
+  }
+}
+
+.card {
+  background-color: $color-white;
+  padding: 2.5rem;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: $box-shadow;
+  transition: 1s all ease-out;
+
+  &:hover {
+    @media only screen and (min-width: $bp-tablet) {
+      transform: scale(1.2);
+    }
+  }
+
+  &__content-wrap {
+    text-align: center;
+  }
+
+  &__option {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color-grey-dark;
+    margin-top: 2rem;
+  }
+
+  &__price {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+
+  &__desc {
+    margin: 3rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  &__btn {
+    background-color: $color-btn-card;
+    margin: 1.5rem 2rem;
+  }
+}
+
+// Section Team
+
+.s-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media only screen and (min-width: $bp-tablet) {
+    padding: 5rem;
+  }
+
+  &__heading {
+    margin-top: 3.5rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  &__team-member {
+    padding: 2.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__wrapper {
+    @media only screen and (min-width: $bp-tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(200px, 400px));
+      grid-template-rows: repeat(2, minmax(min-content, 250px));
+      margin-top: 3rem;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      grid-template-columns: repeat(3, minmax(200px, 400px));
+      grid-template-rows: auto;
+    }
+  }
+}
+
+.team-member {
+  &__img {
+    width: 9rem;
+  }
+
+  &__role {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 2rem 0 0.5rem 0;
+  }
+
+  &__name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  &__about {
+    font-weight: 300;
+  }
+
+  &__media {
+    margin: 1.5rem;
+  }
+
+  &__media-icon {
+    height: 1.5rem;
+    filter: invert(70%) sepia(0%) saturate(19%) hue-rotate(347deg)
+      brightness(94%) contrast(104%);
+
+    &:first-child {
+      margin-right: 1rem;
+    }
+  }
+}
+
+// Footer
+
+.footer {
+  background-color: $color-grey-dark;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+
+  &__img {
+    margin-left: 0.5rem;
+  }
+}
+
+// Animations
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

@@ -1,54 +1,71 @@
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+# devmentor.pl - HTML and CSS basics: project based on design from [Webscope](https://webscopeapp.com/)
 
-&nbsp;
+## Table of contents
 
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-# HTML & CSS: Podstawy
+## Overview
 
-Najwyższy czas zakodować prawdziwą stronę internetową! 
+### The challenge
 
-Będziemy się wzorować na projekcie od chłopaków z [Webscope](https://webscopeapp.com/), który wygląda tak:
+Users should be able to:
 
-![](./assets/demo.png)
+- View the optimal layout for the site depending on their device's screen size
 
-&nbsp;
+### Screenshot
 
-## Opis projektu
+![](.assets/project-screenshot.png)
 
-Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m. in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). Ich podgląd w VS Code możesz wykonać dzięki rozszerzeniu [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer).
+### Links
 
-Font, który jest używany w projekcie to [Montserrat](https://fonts.google.com/specimen/Montserrat).
+- Solution URL: [See my code]()
+- Live Site URL: [Check it out here]()
 
-Tło które widać w górnej części strony to gradient: 
-`background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));`
+## My process
 
-Proponuję dla wygody użyć rozszerzenie do Chrome o nazwie [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi), który pozwoli Ci osadzić plik poglądowy, przedstawiony wyżej (lokalizacja: `./assets/demo.png`) jako tło dla tworzonej strony, co uławi Ci kodowanie.
+### Built with
 
-Projekt nie musi być wykonany zgodnie z pierowzrorem 1:1, a nawet nie powinien. Ważne, aby na pierwszy rzut oka było widać, że jest to pierwowzór. 
+- Semantic HTML5 markup
+- CSS custom properties
+- Sass
+- BEM pattern
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
 
-Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinień prawidłowo wyglądać na różnej wielkości monitorów/rozdzielczości. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Pamiętaj o tym kodując tą stronę.
+### What I learned
 
-## Propozycja podziału
+While building this project I had a chance to test my HTML and CSS skills and build page to the given design. I practise Flexbox and Grid and planning media queries while writing HTML structure.
 
-Poniżej zamieszczam propozycję podziału strony na poszczególne grupy, gdzie:
+I learned how to change SVG color while using IMG tag.
 
-- wiersz (`width: 100%`), kolor zielony
-- wyśrodkowanie (`max-width: 1050px`), kolor niebieski niebieski
-- komórka (wiele elementów w jednej linii), pomarańczowy
+```css
+SVG {
+    filter: invert(70%) sepia(0%) saturate(19%) hue-rotate(347deg)
+      brightness(94%) contrast(104%);
+  }
+}
+```
 
-Nie musisz się od nich stosować to jedynie moja koncepcja, która ma Ci pomóc utworzyć odpowiednią strukturę.
+### Useful resources
 
-![](./assets/demo-info.png)
+- [CSS filter generator to convert from black to target hex color](https://codepen.io/sosuke/pen/Pjoqqp) - It might not work very well but it gave me an idea what properties I need to change the SVG color.
 
-&nbsp;
+## Author
 
-> :warning: Jeśli nie posiadasz materiałów do tego zadania to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/p/html-and-css-basics/)
+- Github - [Axseinga](https://github.com/axseinga)
+- Frontend Mentor - [@Axseinga](https://www.frontendmentor.io/profile/axseinga)
+- LinkedIn - [@Agnieszka Urbanowicz](https://www.linkedin.com/in/agnieszka-urbanowicz-051147151/)
 
+## Acknowledgments
 
-&nbsp;
-
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) - for providing me with this task and for code review.

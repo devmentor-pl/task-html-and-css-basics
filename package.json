@@ -1,0 +1,22 @@
+{
+  "name": "task-html-and-css-basics",
+  "version": "1.0.0",
+  "description": "Task to test HTML and CSS skills - devmentor.pl",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/sass.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axseinga/task-html-and-css-basics.git"
+  },
+  "author": "Agnieszka Urbanowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axseinga/task-html-and-css-basics/issues"
+  },
+  "homepage": "https://github.com/axseinga/task-html-and-css-basics#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
