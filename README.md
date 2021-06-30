@@ -12,7 +12,7 @@ The landing page is based on Webscope project. This Landing page is not mobile-f
 
 ## Links
 
-* Live Site URL: 
+* Live Site URL: [E.Kopacz First Project](https://pensive-borg-6bc9e9.netlify.app)
 
 ## Solutions
 Creating this project I had a opportunity to practice my HTML and CSS skills and learned few CSS properties like:
