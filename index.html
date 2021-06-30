@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/59197bbf48.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css/reset.css">
+    <link rel="stylesheet" href="./style.css/index.css">
+    <title>Task - HTML AND CSS BASIC- E.KOPACZ</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <img src="/images/logo.svg" alt="Logo">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#features__container">Features</a></li>
+                <li class="nav__item"><a class="nav__link" href="#about__container">About</a></li>
+                <li class="nav__item"><a class="nav__link" href="#offer__container">Offer</a></li>
+                <li class="nav__item"><a class="nav__link" href="#team__container">The Team</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="hero">
+                <div class="hero__text">
+                    <h1 class="hero__text__head">Amaizing website template!</h1>
+                    <p class="hero__text__content">Check our professional templates. We offer premium quality and a really cool design.</p>
+                    <button class="hero__text__btn">Click here</button>
+                </div>
+                <div class="hero__image">
+                    <img src="/images/screen.png" alt="Example website template" class="hero__image__img">
+                </div>
+            </div>
+        </section>
+
+        <section id="features__container">
+            <div class="features">
+                <div class="features__head">
+                    <h2 class="features__text">Features</h2>
+                </div>
+                <div class="card">
+                    <div class="card card__item">
+                        <div class="card__icon"><img class="card__icon__img" src="/images/responsive.svg" alt="icon-responsive"></div>
+                        <h3 class="card__head">Fully Reponsive</h3>
+                        <p class="card__text">Looks amaizing on any device: smartphone, tablet, laptop and desktop.</p>
+                    </div>
+                    <div class="card card__item">
+                        <div class="card__icon"><img class="card__icon__img" src="/images/customizable.svg" alt="icon-responsive"></div>
+                        <h3 class="card__head">Customizable</h3>
+                        <p class="card__text">Change the colors, pictures or any of the sections to suit your needs.</p>
+                    </div>
+                    <div class="card card__item">
+                        <div class="card__icon"><img class="card__icon__img" src="/images/design.svg" alt="icon-responsive"></div>
+                        <h3 class="card__head">Beautiful design</h3>
+                        <p class="card__text">Trendy and fresh design, fits any website. Any desing you need, try this out.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="brand__container">
+            <div class="brand">
+                <img src="/images/logos.png" alt="Brands logo" class="brand brand__img">
+            </div>
+        </section>
+
+        <section id="about__container">
+            <div class="about">
+                <div class="about__img"></div>
+                <div class="about__text">
+                    <h3 class="about__text__head">SIMPLE & BEAUTIFUL</h3>
+                    <p class="about__text__p">We have prepared designs that you can use as a base & customize to your needs. These have all been prepared with custom theme options and the powerful Elementor page builder. You can use our one-click importer and start working on your site in minutes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="offer__container">
+            <div class="princing">
+                <div class="offer">
+                    <h3 class="offer__head">CHOOSE YOUR PRINCING PLAN</h3>
+                    <p class="offer__text">Pick any of our super affordable princing plans.</p>
+                </div>
+                <div class="price">
+                    <div class="price__plan">
+                        <div class="price__head">
+                            <img class="price__icon"src="./images/old-train.png" alt="papper-plan-icon">
+                            <span class="price__value">$15</span>
+                            <span class="price__type">per month</span>
+                        </div>
+                        <ul class="price__features">
+                            <li class="price__features__item">BASIC</li>
+                            <li class="price__features__item">Up to 7 projects</li>
+                            <li class="price__features__item">2 Additional Developers</li>
+                        </ul>
+                        <button class="price__btn">Get Started</button>
+                    </div>
+
+                    <div class="price__plan price__center">
+                        <div class="price__head price__center__head">
+                            <img class="price__icon" src="./images/slow-train.png" alt="plane-icon">
+                            <span class="price__value ">$55</span>
+                            <span class="price__type ">per month</span>
+                        </div>
+                        <ul class="price__features price__center__features">
+                            <li class="price__features__item">AGENCY</li>
+                            <li class="price__features__item">Up to 25 Projects</li>
+                            <li class="price__features__item">2 Additional Developers</li>
+                            <li class="price__features__item">Unlimited support</li>
+                        </ul>
+                        <button class="price__btn price__btn__center">Get Started</button>
+                    </div>
+
+                    <div class="price__plan">
+                        <div class="price__head">
+                            <img class="price__icon" src="./images/fast-train.png" alt="space-ship-icon">
+                            <span class="price__value">$75</span>
+                            <span class="price__type">per month</span>
+                        </div>
+                        <ul class="price__features">
+                            <li class="price__features__item">PRO</li>
+                            <li class="price__features__item">Up to 25 Projects</li>
+                            <li class="price__features__item">2 Additional Developers</li>
+                            <li class="price__features__item">Unlimited support</li>
+                            <li class="price__features__item">1.5GB Disk Space</li>
+                        </ul>
+                        <button class="price__btn">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="team__container">
+                <div class="team">
+                    <div class="team__head">
+                        <h3 class="team__head__header">THE TEAM</h3>
+                        <p class="team__head__text">Meet Our Incredible Team!</p>
+                    </div>
+                    <div class="team__person">
+                        <div class="team__person__box">
+                            <div class="team__person__img">
+                                <img src="./images/cto.png" alt="CTO person image">
+                            </div>
+                            <h4 class="team__person__title">CTO</h4>
+                            <span class="team__person__name">Johnny B Good</span>
+                            <span class="team__person__job">The brains behind the whole operation.</span>
+                            <ul class="team__person__social">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-linkedin-in"></i></li>
+                                <li><i class="fab fa-youtube"></i></li>
+                            </ul>
+                        </div>
+                        <div class="team__person__box">
+                            <div class="team__person__img">
+                                <img src="./images/ceo.png" alt="CEO person image">
+                            </div>
+                            <h4 class="team__person__title">CEO</h4>
+                            <span class="team__person__name">Roll Over Beethoven</span>
+                            <span class="team__person__job">The one that put it all together.</span><br/>
+                            <ul class="team__person__social">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-linkedin-in"></i></li>
+                                <li><i class="fab fa-youtube"></i></li>
+                            </ul>
+                        </div>
+                        <div class="team__person__box">
+                            <div class="team__person__img">
+                                <img src="./images/cfo.png" alt="CFO person image">
+                            </div>
+                            <h4 class="team__person__title">CFO</h4>
+                            <span class="team__person__name">Chuck Berry</span>
+                            <span class="team__person__job">The guys with his hand on the wallet.</span>
+                            <ul class="team__person__social">
+                                <li><i class="fab fa-facebook-f"></i></li>
+                                <li><i class="fab fa-twitter"></i></li>
+                                <li><i class="fab fa-linkedin-in"></i></li>
+                                <li><i class="fab fa-youtube"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <span class="footer__item">Copyright &copy; 2021</span>
+            <img src="./images/webscope.svg" alt="webscope-logo" class="footer__item">
+        </div>
+    </footer>
+</body>
+</html>
