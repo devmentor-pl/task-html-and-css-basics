@@ -35,14 +35,14 @@ ul {
 .title {
     font-size: 2.8rem;
     font-weight: 300;
-    letter-spacing: .05rem;
+    letter-spacing: 0.05rem;
     text-align: center;
     text-transform: uppercase;
 }
 
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    height: 80vh;
+    padding-bottom: 20rem;
 }
 
 .header__menu {
@@ -118,7 +118,7 @@ ul {
 }
 
 .header__btn {
-    background: #23F18B;
+    background: #23f18b;
     border-radius: 10px;
     font-size: 1.4rem;
     font-weight: 600;
@@ -131,51 +131,89 @@ ul {
 }
 
 .features__container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     padding-bottom: 4rem;
 }
 
 .features__list {
-    display: flex;
     align-items: flex-start;
+    display: flex;
     justify-content: center;
     margin: 8rem 0;
 }
 
 .features__item {
-    width: 27%;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
     text-align: center;
+    width: 27%;
 }
 
 .features__img {
-    display: flex;
     align-items: center;
-    justify-content: center;
     background: #fff;
-    height: 7rem;
-    width: 7rem;
     border-radius: 50%;
+    display: flex;
+    height: 7rem;
+    justify-content: center;
+    width: 7rem;
 }
 
 .features__subtitle {
-    text-transform: uppercase;
-    width: 65%;
     font-weight: 600;
     margin-top: 2rem;
+    text-transform: uppercase;
+    width: 65%;
 }
 
 .features__description {
-    width: 80%;
-    margin: 0;
     font-size: 1.4rem;
-    line-height: 2.2rem;
     font-weight: 300;
+    line-height: 2.2rem;
+    margin: 0;
+    width: 80%;
 }
 
+.projects__logos {
+    background: #f9fafa;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 1rem;
+}
+
+.projects__container {
+    display: flex;
+    max-width: 90%;
+    padding-bottom: 4rem;
+}
+
+.projects__container-img {
+    width: 50%;
+}
+
+.projects__picture {
+    width: 100%;
+}
+
+.projects__content {
+    width: 50%;
+    padding: 3rem 0 0 10rem;
+}
+
+.projects__title {
+    text-align: left;
+}
+
+.projects__description {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    margin-top: 2.5rem;
+    letter-spacing: 0.5px;
+    width: 75%;
+}
