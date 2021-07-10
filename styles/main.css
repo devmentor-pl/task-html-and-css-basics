@@ -29,6 +29,7 @@ ul {
     border-radius: 10px;
     font-size: 1.4rem;
     padding: 1.5rem 3.5rem;
+    text-align: center;
 }
 
 .title {
@@ -243,7 +244,7 @@ ul {
 .price__description {
     font-size: 1.6rem;
     margin: 0 0 9rem;
-    color: #A1B9C5
+    color: #a1b9c5;
 }
 
 .price__list {
@@ -270,7 +271,7 @@ ul {
 }
 
 .price__plan {
-    color: #A1B9C5;
+    color: #a1b9c5;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 2rem;
@@ -295,7 +296,77 @@ ul {
 }
 
 .price__btn {
-    background: #06BCEB;
+    background: #06bceb;
     color: #fff;
     font-weight: 400;
+}
+
+.team__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10rem;
+}
+
+.team__list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 85%;
+    margin-top: 8rem;
+}
+
+.team__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.team__position {
+    text-transform: uppercase;
+    color: #a1b9c5;
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin: 2.2rem 0 1rem 0;
+}
+
+.team__name {
+    margin: 0 0 1rem 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.team__description {
+    margin: 0 0 1rem 0;
+    color: #a1b9c5;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
+
+.team__social-link:first-child {
+    margin-right: 1.5rem;
+}
+
+.footer {
+    background: #464646;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.footer__author {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer__img {
+    margin-left: 1rem;
 }
