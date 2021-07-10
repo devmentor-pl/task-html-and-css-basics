@@ -25,11 +25,10 @@ ul {
     padding-left: 0;
 }
 
-.wrapper {
-    margin: 0 auto;
-    max-width: 1050px;
-    padding: 4rem 1rem 0;
-    width: 100%;
+.btn {
+    border-radius: 10px;
+    font-size: 1.4rem;
+    padding: 1.5rem 3.5rem;
 }
 
 .title {
@@ -38,6 +37,13 @@ ul {
     letter-spacing: 0.05rem;
     text-align: center;
     text-transform: uppercase;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1050px;
+    padding: 4rem 1rem 0;
+    width: 100%;
 }
 
 .header {
@@ -119,10 +125,7 @@ ul {
 
 .header__btn {
     background: #23f18b;
-    border-radius: 10px;
-    font-size: 1.4rem;
     font-weight: 600;
-    padding: 1.5rem 3.5rem;
 }
 
 .features {
@@ -201,8 +204,8 @@ ul {
 }
 
 .projects__content {
-    width: 50%;
     padding: 3rem 0 0 10rem;
+    width: 50%;
 }
 
 .projects__title {
@@ -212,8 +215,87 @@ ul {
 .projects__description {
     font-size: 1.4rem;
     font-weight: 300;
+    letter-spacing: 0.5px;
     line-height: 2.5rem;
     margin-top: 2.5rem;
-    letter-spacing: 0.5px;
     width: 75%;
+}
+
+.price {
+    background: #f8f9f9;
+}
+
+.price__container {
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__header {
+    text-align: center;
+}
+
+.price__title {
+    margin-bottom: 1rem;
+}
+
+.price__description {
+    font-size: 1.6rem;
+    margin: 0 0 9rem;
+    color: #A1B9C5
+}
+
+.price__list {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.price__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.price__item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.price__plan {
+    color: #A1B9C5;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.price__amount {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.price__period {
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+.price__info-list {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.price__btn {
+    background: #06BCEB;
+    color: #fff;
+    font-weight: 400;
 }
