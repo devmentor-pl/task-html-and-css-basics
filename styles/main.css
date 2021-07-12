@@ -12,8 +12,7 @@
 
 html {
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-    font-size: 62.5%;
+    font: 62.5% "Montserrat", sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -355,7 +354,6 @@ ul {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding-bottom: 10rem;
 }
 
@@ -409,7 +407,6 @@ ul {
 }
 
 .footer {
-    align-items: center;
     background: var(--footer-bg);
     color: var(--main-text-color);
     display: flex;
