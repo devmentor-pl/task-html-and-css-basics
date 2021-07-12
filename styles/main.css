@@ -1,3 +1,15 @@
+:root {
+    --features-bg: #000000;
+    --footer-bg: #464646;
+    --header-bg: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    --header-btn-bg: #23f18b;
+    --main-text-color: #ffffff;
+    --price-bg: #f8f9f9;
+    --price-btn-bg: #06bceb;
+    --projects-bg: #f9fafa;
+    --second-text-color: #a1b9c5;
+}
+
 html {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
@@ -30,7 +42,7 @@ ul {
     font-size: 1.4rem;
     padding: 1.5rem 3.5rem;
     text-align: center;
-    transition: background-color .8s ease, color .8s ease, border .8s ease;
+    transition: background-color 0.8s ease, color 0.8s ease, border 0.8s ease;
 }
 
 .title {
@@ -49,7 +61,7 @@ ul {
 }
 
 .header {
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background: var(--header-bg);
     padding-bottom: 20rem;
 }
 
@@ -72,12 +84,12 @@ ul {
 }
 
 .header__menu-item::before {
-    background: #fff;
-    content: '';
+    background: var(--main-text-color);
+    content: "";
     height: 2px;
     left: 50%;
     position: absolute;
-    top: -.5rem;
+    top: -0.5rem;
     transition: width 0.8s ease, left 0.8s ease;
     width: 0;
 }
@@ -88,7 +100,7 @@ ul {
 }
 
 .header__menu-link {
-    color: #fff;
+    color: var(--main-text-color);
 }
 
 .header__logo {
@@ -102,7 +114,7 @@ ul {
 }
 
 .header__content {
-    color: #fff;
+    color: var(--main-text-color);
     margin-top: 3rem;
     width: 40%;
 }
@@ -116,7 +128,7 @@ ul {
 }
 
 .header__picture::after {
-    background: #fff;
+    background: var(--main-text-color);
     border-radius: 25px;
     content: "";
     height: 120%;
@@ -143,18 +155,18 @@ ul {
 }
 
 .header__btn {
-    background: #23f18b;
+    background: var(--header-btn-bg);
     font-weight: 600;
 }
 
 .header__btn:hover {
-    background-color: #fff;
-    color: black;
+    background-color: var(--main-text-color);
+    color: var(--features-bg);
 }
 
 .features {
-    background: #000;
-    color: #fff;
+    background: var(--features-bg);
+    color: var(--main-text-color);
 }
 
 .features__container {
@@ -183,7 +195,7 @@ ul {
 
 .features__img {
     align-items: center;
-    background: #fff;
+    background: var(--main-text-color);
     border-radius: 50%;
     display: flex;
     height: 7rem;
@@ -207,7 +219,7 @@ ul {
 }
 
 .projects__logos {
-    background: #f9fafa;
+    background: var(--projects-bg);
     display: flex;
     justify-content: center;
     padding: 4rem 1rem;
@@ -246,14 +258,14 @@ ul {
 }
 
 .price {
-    background: #f8f9f9;
+    background: var(--price-bg);
 }
 
 .price__container {
-    padding-bottom: 4rem;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-bottom: 4rem;
 }
 
 .price__header {
@@ -265,9 +277,9 @@ ul {
 }
 
 .price__description {
+    color: var(--second-text-color);
     font-size: 1.6rem;
     margin: 0 0 9rem;
-    color: #a1b9c5;
 }
 
 .price__list {
@@ -277,36 +289,36 @@ ul {
 }
 
 .price__item {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-between;
     padding: 3rem;
-    transition: transform .8s ease, background-color .8s ease, box-shadow .8s ease, border-radius .8s ease;
+    transition: transform 0.8s ease, background-color 0.8s ease, box-shadow 0.8s ease, border-radius 0.8s ease;
 }
 
 .price__item:hover {
-    transform: scale(1.1);
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: var(--main-text-color);
     border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
 }
 
 .price__item-wrapper {
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    text-align: center;
     margin-bottom: 6rem;
+    text-align: center;
 }
 
 .price__plan {
-    color: #a1b9c5;
-    text-transform: uppercase;
-    font-weight: 300;
+    color: var(--second-text-color);
     font-size: 2rem;
+    font-weight: 300;
     margin: 0;
+    text-transform: uppercase;
 }
 
 .price__amount {
@@ -327,16 +339,16 @@ ul {
 }
 
 .price__btn {
-    background: #06bceb;
-    color: #fff;
-    font-weight: 400;
+    background: var(--price-btn-bg);
     border: 2px solid transparent;
+    color: var(--main-text-color);
+    font-weight: 400;
 }
 
 .price__btn:hover {
-    background-color: #fff;
-    color: black;
-    border: 2px solid #06bceb;
+    background-color: var(--main-text-color);
+    border: 2px solid var(--price-btn-bg);
+    color: var(--features-bg);
 }
 
 .team__container {
@@ -348,40 +360,40 @@ ul {
 }
 
 .team__list {
-    display: flex;
     align-items: flex-start;
+    display: flex;
     justify-content: space-between;
-    width: 85%;
     margin-top: 8rem;
+    width: 85%;
 }
 
 .team__item {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
     text-align: center;
 }
 
 .team__position {
-    text-transform: uppercase;
-    color: #a1b9c5;
-    font-weight: 300;
+    color: var(--second-text-color);
     font-size: 1.8rem;
+    font-weight: 300;
     margin: 2.2rem 0 1rem 0;
+    text-transform: uppercase;
 }
 
 .team__name {
-    margin: 0 0 1rem 0;
-    font-weight: 600;
     font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
 }
 
 .team__description {
-    margin: 0 0 1rem 0;
-    color: #a1b9c5;
-    font-weight: 300;
+    color: var(--second-text-color);
     font-size: 1.4rem;
+    font-weight: 300;
+    margin: 0 0 1rem 0;
 }
 
 .team__social-link:first-child {
@@ -397,20 +409,20 @@ ul {
 }
 
 .footer {
-    background: #464646;
-    padding: 2rem 1rem;
-    display: flex;
     align-items: center;
+    background: var(--footer-bg);
+    color: var(--main-text-color);
+    display: flex;
     justify-content: center;
-    color: #fff;
+    padding: 2rem 1rem;
 }
 
 .footer__author {
-    margin: 0;
-    display: flex;
     align-items: center;
+    display: flex;
     font-size: 1.2rem;
     font-weight: 600;
+    margin: 0;
 }
 
 .footer__img {
