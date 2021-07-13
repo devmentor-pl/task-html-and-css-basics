@@ -35,7 +35,7 @@ Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa 
 Poniżej zamieszczam propozycję podziału strony na poszczególne grupy, gdzie:
 
 - wiersz (`width: 100%`), kolor zielony
-- wyśrodkowanie (`max-width: 1050px`), kolor niebieski niebieski
+- wyśrodkowanie (`max-width: 1150px`), kolor niebieski niebieski
 - komórka (wiele elementów w jednej linii), pomarańczowy
 
 Nie musisz się od nich stosować to jedynie moja koncepcja, która ma Ci pomóc utworzyć odpowiednią strukturę.
