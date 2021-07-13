@@ -26,6 +26,8 @@ Tło które widać w górnej części strony to gradient:
 
 Proponuję dla wygody użyć rozszerzenie do Chrome o nazwie [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi), który pozwoli Ci osadzić plik poglądowy, przedstawiony wyżej (lokalizacja: `./assets/demo.png`) jako tło dla tworzonej strony, co uławi Ci kodowanie.
 
+> **Uwaga!** W zależności od [ustawień systemowych](https://pliki.wiki/blog/jak-korzystac-ze-skalowania-ekranu-w-systemie-windows-10/) możliwe, że będziesz musiał użyć we wspomnianym wyżej rozszerzeniu odpowiedniej skali dla wykorzystywanego jako podgląd obrazu. Zazwyczaj domyślna wartość sprawdza się dobrze jednak zwroć na to uwagę.
+
 Projekt nie musi być wykonany zgodnie z pierowzrorem 1:1, a nawet nie powinien. Ważne, aby na pierwszy rzut oka było widać, że jest to pierwowzór. 
 
 Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinień prawidłowo wyglądać na różnej wielkości monitorów/rozdzielczości. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Pamiętaj o tym kodując tą stronę.
