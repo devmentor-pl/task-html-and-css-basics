@@ -331,7 +331,7 @@ ul {
     margin-top: 0;
 }
 
-.price__info-list {
+.price__info {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 2rem;
@@ -394,15 +394,15 @@ ul {
     margin: 0 0 1rem 0;
 }
 
-.team__social-link:first-child {
+.social__link:first-child {
     margin-right: 1.5rem;
 }
 
-.team__social-logo {
+.social__logo {
     transition: transform 0.8s ease;
 }
 
-.team__social-logo:hover {
+.social__logo:hover {
     transform: scale(1.3);
 }
 
