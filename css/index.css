@@ -1,9 +1,13 @@
-* {
+:root {
+  --main-gradient: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+body {
   font-family: "Montserrat", sans-serif;
 }
 
 header {
-  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  background: var(--main-gradient);
   min-height: 100vh;
 }
 
