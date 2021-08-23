@@ -1,7 +1,7 @@
 .novatheme__section {
     height: 87vh;
     background-color: #FFFFFF;
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 
@@ -13,4 +13,31 @@
 .portfolio__container--clients {
     margin-top: 40px;
     height: 35px;
+}
+
+.novatheme__container {
+    display: flex;
+}
+
+.novatheme__container .block__left {
+    width: 50%;
+    display: flex;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.novatheme__container .block__right {
+    width: 50%;
+}
+
+.novatheme__container .block__right--title {
+    margin-top: 200px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.novatheme__container .block__right--text {
+    margin-top: 40px;
+    font-size: 19px;
 }
