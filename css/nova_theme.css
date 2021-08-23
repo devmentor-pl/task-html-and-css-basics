@@ -1,0 +1,16 @@
+.novatheme__section {
+    height: 87vh;
+    background-color: #FFFFFF;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio__container {
+    height: 110px;
+    background-color: #F9FAFA;
+}
+
+.portfolio__container--clients {
+    margin-top: 40px;
+    height: 35px;
+}
