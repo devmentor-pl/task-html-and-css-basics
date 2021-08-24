@@ -1,0 +1,19 @@
+.footer__section {
+    height: 80px;
+    background: #333;
+    color: #fff;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer--text {
+    margin-top: 35px;
+    margin-right: 8px;
+}
+
+.footer--img {
+    margin-top: 28px;
+}
