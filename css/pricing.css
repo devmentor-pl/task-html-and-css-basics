@@ -12,31 +12,78 @@
     flex-direction: column;
 }
 
-.pricing__container--title {
+.pricing__container--header > .pricing__container--title {
     margin-top: 100px;
     text-transform: uppercase;
     font-size: 38px;
 }
 
-.pricing__container--text {
+.pricing__container--header > .pricing__container--text {
     font-size: 21px;
     margin-top: 10px;
 }
 
 /* MAIN */
 .pricing__container--main {
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
 }
 
 .pricing__container__basic {
     width: 33%;
+    margin-left: 18vw;
+    padding: 90px 0;
 }
 
 .pricing__container__agency {
     width: 33%;
+    box-shadow: 5px 10px 61px 20px #ddd;
+    padding: 90px 0;
 }
 
 .pricing__container__pro {
     width: 33%;
+    margin-right: 18vw;
+    padding: 90px 0;
+}
+
+.pricing__container--main .pricing__container--title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.pricing__container--main .pricing__container--price {
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.pricing__container--main .pricing--services {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.pricing__container--main .pricing--services {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+.pricing__container--main .pricing--btn {
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #0ABCEB;
+    padding: 25px 60px;
+}
+
+.basic--btn {
+    margin-top: 90px;
+}
+
+.agency--btn {
+    margin-top: 70px;
+}
+
+.pro--btn {
+    margin-top: 50px;
 }
