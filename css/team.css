@@ -15,25 +15,25 @@
 	font-size: 38px;
 }
 
-.team__container__main {
+.team__list {
 	margin-top: 150px;
 	display: flex;
 	justify-content: center;
 }
 
-.team__item__title {
+.team__title {
 	margin-top: 22px;
 	text-transform: uppercase;
 	font-size: 25px;
 }
 
-.team__item__name {
+.team__name {
 	margin-top: 7px;
 	font-weight: bold;
 	font-size: 18px;
 }
 
-.team__item__text {
+.team__text {
 	margin-top: 12px;
 	font-size: 16px;
 }
@@ -42,21 +42,21 @@
 	width: 8vw;
 }
 
-.team__list__cto {
+.team__item__cto {
 	width: 33.3%;
 	margin-left: 20vw;
 }
 
-.team__list__ceo {
+.team__item__ceo {
 	width: 33.3%;
 }
 
-.team__list__cfo {
+.team__item__cfo {
 	width: 33.3%;
 	margin-right: 20vw;
 }
 
-.team__item__icons {
+.team__icons {
     display: flex;
     justify-content: center;
 	margin: 10px 5px;
