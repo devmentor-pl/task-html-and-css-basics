@@ -21,6 +21,21 @@
 	justify-content: center;
 }
 
+.team__item__cto {
+	width: 33.3%;
+	margin-left: 20vw;
+}
+
+.team__item__ceo {
+	width: 33.3%;
+}
+
+.team__item__cfo {
+	width: 33.3%;
+	margin-right: 20vw;
+}
+
+
 .team__title {
 	margin-top: 22px;
 	text-transform: uppercase;
@@ -38,23 +53,10 @@
 	font-size: 16px;
 }
 
-.team__item__img {
+.team__img {
 	width: 8vw;
 }
 
-.team__item__cto {
-	width: 33.3%;
-	margin-left: 20vw;
-}
-
-.team__item__ceo {
-	width: 33.3%;
-}
-
-.team__item__cfo {
-	width: 33.3%;
-	margin-right: 20vw;
-}
 
 .team__icons {
     display: flex;
