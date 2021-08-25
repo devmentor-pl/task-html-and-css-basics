@@ -1,85 +1,85 @@
 .pricing__section {
-    height: 90vh;
-    background: #F8F9F9;
-    color: var(--color-beta);
-    text-align: center;
+	height: 90vh;
+	background: #f8f9f9;
+	color: var(--color-beta);
+	text-align: center;
 }
 
 /* HEADER */
 .pricing__header {
-    flex-direction: column;
+	flex-direction: column;
 }
 
 .pricing__header__title {
-    margin-top: 100px;
-    text-transform: uppercase;
-    font-size: 38px;
+	margin-top: 100px;
+	text-transform: uppercase;
+	font-size: 38px;
 }
 
 .pricing__header__text {
-    font-size: 21px;
-    margin-top: 10px;
+	font-size: 21px;
+	margin-top: 10px;
 }
 
 /* MAIN */
 .pricing__container {
-    margin-top: 80px;
-    display: flex;
+	margin-top: 80px;
+	display: flex;
 }
 
 .pricing__article__basic {
-    width: 33%;
-    margin-left: 18vw;
-    padding: 90px 0;
+	width: 33%;
+	margin-left: 18vw;
+	padding: 90px 0;
 }
 
 .pricing__article__agency {
-    width: 33%;
-    padding: 90px 0;
+	width: 33%;
+	padding: 90px 0;
 }
 
 .pricing__article__agency--shadow {
-    box-shadow: 5px 10px 61px 20px #ddd;
+	box-shadow: 5px 10px 61px 20px #ddd;
 }
 
 .pricing__article__pro {
-    width: 33%;
-    margin-right: 18vw;
-    padding: 90px 0;
+	width: 33%;
+	margin-right: 18vw;
+	padding: 90px 0;
 }
 
 .pricing__article__title {
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-size: 25px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 25px;
 }
 
 .pricing__article__price--big-bold {
-    font-weight: bold;
-    font-size: 55px;
+	font-weight: bold;
+	font-size: 55px;
 }
 
 .pricing__list-services {
-    margin-top: 30px;
-    font-size: 17px;
+	margin-top: 30px;
+	font-size: 17px;
 }
 
 .pricing__btn--blue {
-    border-radius: 20px;
-    border: none;
-    color: var(--color-alfa);
-    background: #0ABCEB;
-    padding: 25px 60px;
+	border-radius: 20px;
+	border: none;
+	color: var(--color-alfa);
+	background: #0abceb;
+	padding: 25px 60px;
 }
 
 .basic__btn {
-    margin-top: 90px;
+	margin-top: 90px;
 }
 
 .agency__btn {
-    margin-top: 70px;
+	margin-top: 70px;
 }
 
 .pro__btn {
-    margin-top: 50px;
+	margin-top: 50px;
 }
