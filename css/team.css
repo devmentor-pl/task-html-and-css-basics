@@ -4,12 +4,12 @@
 	text-align: center;
 }
 
-.team__container__header {
+.team__header {
 	display: flex;
 	justify-content: center;
 }
 
-.team__container__header > .team__title {
+.team__header__title {
 	margin-top: 70px;
 	text-transform: uppercase;
 	font-size: 38px;
@@ -21,42 +21,42 @@
 	justify-content: center;
 }
 
-.team__container__main .team__container__title {
+.team__item__title {
 	margin-top: 22px;
 	text-transform: uppercase;
 	font-size: 25px;
 }
 
-.team__container__main .team__container__name {
+.team__item__name {
 	margin-top: 7px;
 	font-weight: bold;
 	font-size: 18px;
 }
 
-.team__container__main .team__container__text {
+.team__item__text {
 	margin-top: 12px;
 	font-size: 16px;
 }
 
-.team__container__img {
+.team__item__img {
 	width: 8vw;
 }
 
-.team__container__cto {
+.team__list__cto {
 	width: 33.3%;
 	margin-left: 20vw;
 }
 
-.team__container__ceo {
+.team__list__ceo {
 	width: 33.3%;
 }
 
-.team__container__cfo {
+.team__list__cfo {
 	width: 33.3%;
 	margin-right: 20vw;
 }
 
-.team__container__icons {
+.team__item__icons {
     display: flex;
     justify-content: center;
 	margin: 10px 5px;
