@@ -4,11 +4,6 @@
 	text-align: center;
 }
 
-.team__header {
-	display: flex;
-	justify-content: center;
-}
-
 .team__header__title {
 	margin-top: 70px;
 	text-transform: uppercase;
@@ -17,8 +12,6 @@
 
 .team__list {
 	margin-top: 150px;
-	display: flex;
-	justify-content: center;
 }
 
 .team__item__cto {
@@ -34,7 +27,6 @@
 	width: 33.3%;
 	margin-right: 20vw;
 }
-
 
 .team__title {
 	margin-top: 22px;
@@ -57,19 +49,16 @@
 	width: 8vw;
 }
 
-
 .team__icons {
-    display: flex;
-    justify-content: center;
 	margin: 10px 5px;
 	filter: invert(1.4);
 }
 
 .twitter__icon {
-    height: 20px;
+	height: 20px;
 	margin: 0 13px;
 }
 
 .facebook__icon {
-    height: 20px;
+	height: 20px;
 }

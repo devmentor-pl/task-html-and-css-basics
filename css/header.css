@@ -10,6 +10,8 @@ body {
 /* GENERAL CLASSES */
 .flex {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .container {
@@ -39,8 +41,6 @@ body {
 }
 
 .nav__menu {
-	justify-content: center;
-	align-items: center;
 	margin: 26px;
 }
 
@@ -66,9 +66,6 @@ body {
 }
 
 .article__title {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin-left: 60px;
 	color: var(--color-alfa);
 	font-size: 44px;
