@@ -4,12 +4,12 @@
 	text-align: center;
 }
 
-.team__container--header {
+.team__container__header {
 	display: flex;
 	justify-content: center;
 }
 
-.team__container--header > .team--title {
+.team__container__header > .team__title {
 	margin-top: 70px;
 	text-transform: uppercase;
 	font-size: 38px;
@@ -21,53 +21,53 @@
 	justify-content: center;
 }
 
-.team__container__main .team__container--title {
+.team__container__main .team__container__title {
 	margin-top: 22px;
 	text-transform: uppercase;
 	font-size: 25px;
 }
 
-.team__container__main .team__container--name {
+.team__container__main .team__container__name {
 	margin-top: 7px;
 	font-weight: bold;
 	font-size: 18px;
 }
 
-.team__container__main .team__container--text {
+.team__container__main .team__container__text {
 	margin-top: 12px;
 	font-size: 16px;
 }
 
-.team__container--img {
+.team__container__img {
 	width: 8vw;
 }
 
-.team__container--cto {
+.team__container__cto {
 	width: 33.3%;
 	margin-left: 20vw;
 }
 
-.team__container--ceo {
+.team__container__ceo {
 	width: 33.3%;
 }
 
-.team__container--cfo {
+.team__container__cfo {
 	width: 33.3%;
 	margin-right: 20vw;
 }
 
-.team__container--icons {
+.team__container__icons {
     display: flex;
     justify-content: center;
 	margin: 10px 5px;
 	filter: invert(1.4);
 }
 
-.twitter--icon {
+.twitter__icon {
     height: 20px;
 	margin: 0 13px;
 }
 
-.facebook--icon {
+.facebook__icon {
     height: 20px;
 }

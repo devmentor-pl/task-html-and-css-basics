@@ -10,7 +10,7 @@
     background-color: #F9FAFA;
 }
 
-.portfolio__container--clients {
+.portfolio__container__clients {
     margin-top: 40px;
     height: 35px;
 }
@@ -31,14 +31,14 @@
     width: 50%;
 }
 
-.novatheme__container .block__right--title {
+.novatheme__container .block__right__title {
     margin-top: 120px;
     font-size: 38px;
     width: 30.5vw;
     text-transform: uppercase;
 }
 
-.novatheme__container .block__right--text {
+.novatheme__container .block__right__text {
     margin-top: 40px;
     font-size: 19px;
     width: 30vw;

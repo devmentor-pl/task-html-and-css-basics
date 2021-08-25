@@ -9,11 +9,11 @@
     justify-content: center;
 }
 
-.footer--text {
+.footer__text {
     margin-top: 35px;
     margin-right: 8px;
 }
 
-.footer--img {
+.footer__img {
     margin-top: 28px;
 }

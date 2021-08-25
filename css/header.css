@@ -60,7 +60,7 @@ body {
 	width: 35%;
 }
 
-.content__container .block__left--title {
+.content__container .block__left__title {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -70,7 +70,7 @@ body {
 	font-weight: bold;
 }
 
-.content__container .block__left--text {
+.content__container .block__left__text {
 	margin-left: 60px;
 	margin-top: 20px;
 	width: 340px;
@@ -78,7 +78,7 @@ body {
 	color: #fff;
 }
 
-.content__container .block__left--btn {
+.content__container .block__left__btn {
 	margin-left: 60px;
 	margin-top: 30px;
 	border-radius: 30px;
@@ -97,7 +97,7 @@ body {
 	margin-bottom: 200px;
 }
 
-.content__container .block__right--img {
+.content__container .block__right__img {
 	border-radius: 100px;
 	border: 20px solid white;
 	transform: rotate(-10deg);
