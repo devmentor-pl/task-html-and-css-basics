@@ -1,5 +1,5 @@
 .features__section {
-	height: 60vh;
+	min-height: 600px;
 	background-color: var(--color-beta);
 	color: var(--color-alfa);
 	text-align: center;

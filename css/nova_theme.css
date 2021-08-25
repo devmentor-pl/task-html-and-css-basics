@@ -1,5 +1,5 @@
 .novatheme__section {
-	height: 87vh;
+	min-height: 800px;
 	background-color: var(--color-alfa);
 	color: var(--color-beta);
 	text-align: center;

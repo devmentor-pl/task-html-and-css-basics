@@ -1,5 +1,5 @@
 .footer__section {
-	height: 80px;
+	min-height: 80px;
 	background: var(--color-beta);
 	color: var(--color-alfa);
 }

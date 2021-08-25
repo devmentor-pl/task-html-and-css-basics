@@ -1,5 +1,5 @@
 .team__section {
-	height: 75vh;
+	min-height: 700px;
 	color: var(--color-beta);
 	text-align: center;
 }

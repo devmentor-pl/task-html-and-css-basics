@@ -1,5 +1,5 @@
 .pricing__section {
-	height: 90vh;
+	min-height: 800px;
 	background: #f8f9f9;
 	color: var(--color-beta);
 	text-align: center;

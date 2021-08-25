@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-	height: 83vh;
+	min-height: 900px;
 	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
@@ -58,7 +58,6 @@ body {
 .content__container {
 	margin: 150px auto;
 	max-width: 1500px;
-	min-height: 700px;
 }
 
 .article {
