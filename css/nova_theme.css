@@ -5,12 +5,12 @@
     text-align: center;
 }
 
-.portfolio__container {
+.portfolio__aside {
     height: 110px;
     background-color: #F9FAFA;
 }
 
-.portfolio__container__clients {
+.portfolio__aside__clients {
     margin-top: 40px;
     height: 35px;
 }
