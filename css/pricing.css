@@ -24,7 +24,7 @@
 }
 
 /* MAIN */
-.pricing__container__main {
+.pricing__container {
     margin-top: 80px;
     display: flex;
 }
@@ -37,8 +37,11 @@
 
 .pricing__article__agency {
     width: 33%;
-    box-shadow: 5px 10px 61px 20px #ddd;
     padding: 90px 0;
+}
+
+.pricing__article__agency--shadow {
+    box-shadow: 5px 10px 61px 20px #ddd;
 }
 
 .pricing__article__pro {
@@ -53,17 +56,12 @@
     font-size: 25px;
 }
 
-.pricing__article__price {
+.pricing__article__price--big-bold {
     font-weight: bold;
     font-size: 55px;
 }
 
-.pricing__services {
-    margin-top: 30px;
-    font-size: 17px;
-}
-
-.pricing__services {
+.pricing__list-services {
     margin-top: 30px;
     font-size: 17px;
 }
