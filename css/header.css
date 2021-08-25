@@ -56,11 +56,11 @@ body {
 	min-height: 700px;
 }
 
-.content__container .block__left {
+.article {
 	width: 35%;
 }
 
-.content__container .block__left__title {
+.article__title {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -70,7 +70,7 @@ body {
 	font-weight: bold;
 }
 
-.content__container .block__left__text {
+.article__text {
 	margin-left: 60px;
 	margin-top: 20px;
 	width: 340px;
@@ -78,9 +78,12 @@ body {
 	color: #fff;
 }
 
-.content__container .block__left__btn {
+.article__btn {
 	margin-left: 60px;
 	margin-top: 30px;
+}
+
+.article__btn--green {
 	border-radius: 30px;
 	font-size: 20px;
 	padding: 20px 40px;
@@ -89,7 +92,7 @@ body {
 	border: none;
 }
 
-.content__container .block__right {
+.content__block {
 	position: absolute;
 	left: 45%;
 	top: 20%;
@@ -97,7 +100,7 @@ body {
 	margin-bottom: 200px;
 }
 
-.content__container .block__right__img {
+.content__block__img {
 	border-radius: 100px;
 	border: 20px solid white;
 	transform: rotate(-10deg);
