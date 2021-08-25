@@ -1,6 +1,6 @@
 .team__section {
 	height: 75vh;
-	color: #000;
+	color: var(--color-beta);
 	text-align: center;
 }
 

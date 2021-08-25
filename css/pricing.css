@@ -1,7 +1,7 @@
 .pricing__section {
     height: 90vh;
     background: #F8F9F9;
-    color: #000;
+    color: var(--color-beta);
     text-align: center;
 }
 
@@ -69,7 +69,7 @@
 .pricing__btn--blue {
     border-radius: 20px;
     border: none;
-    color: #fff;
+    color: var(--color-alfa);
     background: #0ABCEB;
     padding: 25px 60px;
 }

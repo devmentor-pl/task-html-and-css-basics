@@ -1,7 +1,7 @@
 .footer__section {
     height: 80px;
-    background: #333;
-    color: #fff;
+    background: var(--color-beta);
+    color: var(--color-alfa);
 }
 
 .footer__container {

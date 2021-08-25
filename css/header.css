@@ -1,3 +1,8 @@
+:root {
+    --color-alfa: #fff;
+    --color-beta: #000;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -45,7 +50,7 @@ body {
 
 .nav__link {
 	text-decoration: none;
-	color: #fff;
+	color: var(--color-alfa);
 	font-size: 18px;
 	padding: 15px;
 }
@@ -65,7 +70,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-left: 60px;
-	color: #fff;
+	color: var(--color-alfa);
 	font-size: 44px;
 	font-weight: bold;
 }
@@ -75,7 +80,7 @@ body {
 	margin-top: 20px;
 	width: 340px;
 	font-size: 20px;
-	color: #fff;
+	color: var(--color-alfa);
 }
 
 .article__btn {
@@ -87,7 +92,7 @@ body {
 	border-radius: 30px;
 	font-size: 20px;
 	padding: 20px 40px;
-	color: #fff;
+	color: var(--color-alfa);
 	background: rgb(9, 214, 170);
 	border: none;
 }
@@ -102,7 +107,7 @@ body {
 
 .content__block__img {
 	border-radius: 100px;
-	border: 20px solid white;
+	border: 20px solid var(--color-alfa);
 	transform: rotate(-10deg);
 	height: 400px;
 }

@@ -1,7 +1,7 @@
 .features__section {
     height: 60vh;
-    background-color: black;
-    color: #fff;
+    background-color: var(--color-beta);
+    color: var(--color-alfa);
     text-align: center;
 }
 
@@ -43,9 +43,9 @@
 
 .feature__icon--white-shadow {
     border-radius: 30%;
-    border: 30px solid white;
-    background: white;
-    box-shadow: 2px 2px 10px white;
+    border: 30px solid var(--color-alfa);
+    background: var(--color-alfa);
+    box-shadow: 2px 2px 10px var(--color-alfa);
 }
 
 .features__title {
