@@ -19,30 +19,27 @@
 	margin-top: 10px;
 }
 
-.pricing__container {
+.container--pricing {
 	margin-top: 80px;
 	display: flex;
 }
 
-.pricing__article__basic {
+.article__content--pricing-basic {
 	width: 33%;
 	margin-left: 18vw;
-	padding: 90px 0;
 }
 
-.pricing__article__agency {
+.article__content--pricing-agency {
 	width: 33%;
-	padding: 90px 0;
 }
 
-.pricing__article__agency--active {
+.article__content--active {
 	box-shadow: 5px 10px 61px 20px #ddd;
 }
 
-.pricing__article__pro {
+.article__content--pricing-pro {
 	width: 33%;
 	margin-right: 18vw;
-	padding: 90px 0;
 }
 
 .article__title--pricing {
@@ -50,7 +47,7 @@
 	font-size: 25px;
 }
 
-.pricing__article__price--big-bold {
+.article__price--big-bold {
 	font-weight: bold;
 	font-size: 55px;
 }

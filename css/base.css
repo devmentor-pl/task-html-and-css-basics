@@ -25,3 +25,7 @@ body {
 .article__description {
 	margin-left: 60px;
 }
+
+.article__content {
+	padding: 90px 0;
+}
