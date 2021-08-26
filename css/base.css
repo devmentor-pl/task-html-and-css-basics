@@ -16,3 +16,12 @@ body {
 .container {
 	max-width: 1450px;
 }
+
+.article__title, 
+.header__title {
+	text-transform: uppercase;
+}
+
+.article__description {
+	margin-left: 60px;
+}

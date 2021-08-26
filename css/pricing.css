@@ -1,27 +1,24 @@
-.pricing__section {
+.pricing {
 	min-height: 800px;
 	background: #f8f9f9;
 	color: var(--color-beta);
 	text-align: center;
 }
 
-/* HEADER */
-.pricing__header {
+.header--pricing {
 	flex-direction: column;
 }
 
-.pricing__header__title {
+.header__title--pricing {
 	margin-top: 100px;
-	text-transform: uppercase;
 	font-size: 38px;
 }
 
-.pricing__header__text {
+.header__text--pricing {
 	font-size: 21px;
 	margin-top: 10px;
 }
 
-/* MAIN */
 .pricing__container {
 	margin-top: 80px;
 	display: flex;
@@ -38,7 +35,7 @@
 	padding: 90px 0;
 }
 
-.pricing__article__agency--shadow {
+.pricing__article__agency--active {
 	box-shadow: 5px 10px 61px 20px #ddd;
 }
 
@@ -48,9 +45,8 @@
 	padding: 90px 0;
 }
 
-.pricing__article__title {
+.article__title--pricing {
 	margin-bottom: 10px;
-	text-transform: uppercase;
 	font-size: 25px;
 }
 

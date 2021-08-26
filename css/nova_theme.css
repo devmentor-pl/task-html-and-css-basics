@@ -1,11 +1,11 @@
-.novatheme__section {
+.novatheme {
 	min-height: 800px;
 	background-color: var(--color-alfa);
 	color: var(--color-beta);
 	text-align: center;
 }
 
-.portfolio__aside {
+.novatheme__clients-logo {
 	height: 110px;
 	background-color: #f9fafa;
 }
@@ -15,11 +15,11 @@
 	height: 35px;
 }
 
-.novatheme__container {
+.novatheme__article {
 	display: flex;
 }
 
-.novatheme__container__block {
+.article__image-wrapper {
 	width: 50%;
 	display: flex;
 	height: 60vh;
@@ -27,23 +27,21 @@
 	margin-top: 75px;
 }
 
-.novatheme__article {
+.article__content--novatheme {
 	width: 50%;
 }
 
-.novatheme__article__title {
+.article__title--novatheme {
 	margin-top: 120px;
 	font-size: 38px;
 	width: 30.5vw;
-	text-transform: uppercase;
 }
 
-.novatheme__article__text {
+.article__description--novatheme {
 	margin-top: 40px;
 	font-size: 19px;
 	width: 30vw;
 	letter-spacing: 4px;
 	line-height: 40px;
 	text-align: left;
-	margin-left: 60px;
 }

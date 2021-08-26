@@ -1,13 +1,12 @@
-.features__section {
+.features {
 	min-height: 600px;
 	background-color: var(--color-beta);
 	color: var(--color-alfa);
 	text-align: center;
 }
 
-.features__header__title {
+.header__title--features {
 	margin-top: 70px;
-	text-transform: uppercase;
 	font-size: 38px;
 }
 

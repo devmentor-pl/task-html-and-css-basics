@@ -1,4 +1,4 @@
-.header {
+.nova-template {
 	min-height: 900px;
 	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
@@ -39,19 +39,18 @@
 	max-width: 1500px;
 }
 
-.article {
+.article__content--nova-template {
 	width: 35%;
 }
 
-.article__title {
+.article__title--nova-template {
 	margin-left: 60px;
 	color: var(--color-alfa);
 	font-size: 44px;
 	font-weight: bold;
 }
 
-.article__text {
-	margin-left: 60px;
+.article__description--nova-template {
 	margin-top: 20px;
 	width: 340px;
 	font-size: 20px;

@@ -21,7 +21,8 @@
 		<link rel="stylesheet" href="./css/footer.css" />
 	</head>
 	<body>
-		<header class="header">
+		<header class="nova-template">
+			<!-- COMEBACK -->
 			<div class="header__container container center">
 				<h1 class="header__logo center">
 					<img src="./images/logo.svg" alt="Website logo" />
@@ -43,9 +44,9 @@
 				</div>
 			</div>
 			<div class="content__container container">
-				<article class="article">
-					<h2 class="article__title center">Beautiful Free Nova template</h2>
-					<p class="article__text">
+				<article class="article__content article__content--nova-template">
+					<h2 class="article__title article__title--nova-template center">Beautiful Free Nova template</h2>
+					<p class="article__description article__description--nova-template">
 						A top notch premium quality template for your next web project.
 					</p>
 					<input
@@ -61,9 +62,9 @@
 		</header>
 
 		<main>
-			<section class="features__section">
-				<header class="features__header center">
-					<h2 class="features__header__title">features</h2>
+			<section class="features">
+				<header class="header header--features center">
+					<h2 class="header__title header__title--features">features</h2>
 				</header>
 				<ul class="features__list">
 					<li class="feature__item-first">
@@ -103,25 +104,26 @@
 					</li>
 				</ul>
 			</section>
-			<section class="novatheme__section">
-				<aside class="portfolio__aside">
+			<section class="novatheme">
+				<aside class="novatheme__clients-logo">
 					<img
 						class="portfolio__aside__clients"
 						src="./images/logos.png"
 						alt="Companies logos that we work with"
 					/>
 				</aside>
-				<div class="novatheme__container">
-					<div class="novatheme__container__block">
+				<!-- <div class="novatheme__article article article--novatheme"> -->
+				<div class="novatheme__article article--novatheme">
+					<div class="article__image-wrapper">
 						<img
-							class="novatheme__container__block_img"
+							class="article__image"
 							src="./images/imac.png"
 							alt="white imac monitor"
 						/>
 					</div>
-					<article class="novatheme__article">
-						<h2 class="novatheme__article__title">simple and beautiful</h2>
-						<p class="novatheme__article__text">
+					<article class="article__content article__content--novatheme">
+						<h2 class="article__title article__title--novatheme">simple and beautiful</h2>
+						<p class="article__description article__description--novatheme">
 							Use Nova theme for our next web project. It is completely
 							customizable so you can change any of the sections to fit your
 							needs. Nova Theme is Free for any kind of use, personal and
@@ -130,16 +132,16 @@
 					</article>
 				</div>
 			</section>
-			<section class="pricing__section">
-				<header class="pricing__header center">
-					<h2 class="pricing__header__title">choose your pricing plan</h2>
-					<p class="pricing__header__text">
+			<section class="pricing">
+				<header class="header header--pricing center">
+					<h2 class="header__title header__title--pricing">choose your pricing plan</h2>
+					<p class="header__text header__text--pricing">
 						Pick any of our super affordable pricing plans
 					</p>
 				</header>
 				<div class="pricing__container">
 					<article class="pricing__article__basic">
-						<h4 class="pricing__article__title">basic</h4>
+						<h4 class="article__title article__title--pricing">basic</h4>
 						<h3
 							class="pricing__article__price pricing__article__price--big-bold"
 						>
@@ -157,9 +159,9 @@
 						/>
 					</article>
 					<article
-						class="pricing__article__agency pricing__article__agency--shadow"
+						class="pricing__article__agency pricing__article__agency--active"
 					>
-						<h4 class="pricing__article__title">agency</h4>
+						<h4 class="article__title article__title--pricing">agency</h4>
 						<h3
 							class="pricing__article__price pricing__article__price--big-bold"
 						>
@@ -178,7 +180,7 @@
 						/>
 					</article>
 					<article class="pricing__article__pro">
-						<h4 class="pricing__article__title">pro</h4>
+						<h4 class="article__title article__title--pricing">pro</h4>
 						<h3
 							class="pricing__article__price pricing__article__price--big-bold"
 						>
@@ -199,9 +201,9 @@
 					</article>
 				</div>
 			</section>
-			<section class="team__section">
-				<header class="team__header center">
-					<h3 class="team__header__title">the team</h3>
+			<section class="team">
+				<header class="header header--team center">
+					<h3 class="header__title header__title--team">the team</h3>
 				</header>
 				<ul class="team__list center">
 					<li class="team__item__cto">
@@ -258,7 +260,7 @@
 				</ul>
 			</section>
 		</main>
-		<footer class="footer__section">
+		<footer class="footer">
 			<div class="footer__container">
 				<p class="footer__text">A free template by</p>
 				<img
