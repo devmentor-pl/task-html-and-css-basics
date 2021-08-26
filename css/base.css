@@ -1,0 +1,18 @@
+:root {
+	--color-alfa: #fff;
+	--color-beta: #000;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	max-width: 1450px;
+}
