@@ -3,7 +3,7 @@
 	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
-.header__container {
+.header--nova-template {
 	justify-content: space-between;
 	margin: 0 auto;
 }
@@ -14,7 +14,7 @@
 	min-width: 280px;
 }
 
-.header__nav {
+.container__nav--nova-template {
 	margin-top: 20px;
 	min-width: 400px;
 }
@@ -23,7 +23,7 @@
 	margin: 26px;
 }
 
-.nav__item {
+.nav__item--nova-template {
 	margin: 0 10px;
 }
 
@@ -57,7 +57,7 @@
 	color: var(--color-alfa);
 }
 
-.article__btn {
+.article__btn--nova-template {
 	margin-left: 60px;
 	margin-top: 30px;
 }
@@ -71,7 +71,7 @@
 	border: none;
 }
 
-.content__block {
+.container__image-wrapper {
 	position: absolute;
 	left: 45%;
 	top: 20%;
@@ -79,7 +79,7 @@
 	margin-bottom: 200px;
 }
 
-.content__block__img {
+.container-image {
 	border-radius: 100px;
 	border: 20px solid var(--color-alfa);
 	transform: rotate(-10deg);
