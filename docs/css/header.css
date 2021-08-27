@@ -1,0 +1,87 @@
+.nova-template {
+	min-height: 900px;
+	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.header--nova-template {
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.header__logo {
+	margin-top: 50px;
+	margin-left: 40px;
+	min-width: 280px;
+}
+
+.container__nav--nova-template {
+	margin-top: 20px;
+	min-width: 400px;
+}
+
+.nav__menu {
+	margin: 26px;
+}
+
+.nav__item--nova-template {
+	margin: 0 10px;
+}
+
+.nav__link {
+	text-decoration: none;
+	color: var(--color-alfa);
+	font-size: 18px;
+	padding: 15px;
+}
+
+.content__container {
+	margin: 150px auto;
+	max-width: 1500px;
+}
+
+.article__content--nova-template {
+	width: 35%;
+}
+
+.article__title--nova-template {
+	margin-left: 60px;
+	color: var(--color-alfa);
+	font-size: 44px;
+	font-weight: bold;
+}
+
+.article__description--nova-template {
+	margin-top: 20px;
+	width: 340px;
+	font-size: 20px;
+	color: var(--color-alfa);
+}
+
+.article__btn--nova-template {
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+.article__btn--green {
+	border-radius: 30px;
+	font-size: 20px;
+	padding: 20px 40px;
+	color: var(--color-alfa);
+	background: rgb(9, 214, 170);
+	border: none;
+}
+
+.container__image-wrapper {
+	position: absolute;
+	left: 45%;
+	top: 20%;
+	flex-direction: row-reverse;
+	margin-bottom: 200px;
+}
+
+.container-image {
+	border-radius: 100px;
+	border: 20px solid var(--color-alfa);
+	transform: rotate(-10deg);
+	height: 400px;
+}

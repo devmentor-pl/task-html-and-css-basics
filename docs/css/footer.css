@@ -1,0 +1,19 @@
+.footer {
+	min-height: 80px;
+	background: var(--color-beta);
+	color: var(--color-alfa);
+}
+
+.footer__container {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__text {
+	margin-top: 35px;
+	margin-right: 8px;
+}
+
+.footer__img {
+	margin-top: 28px;
+}

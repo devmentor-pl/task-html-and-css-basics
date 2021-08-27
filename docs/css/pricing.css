@@ -1,0 +1,78 @@
+.pricing {
+	min-height: 800px;
+	background: #f8f9f9;
+	color: var(--color-beta);
+	text-align: center;
+}
+
+.header--pricing {
+	flex-direction: column;
+}
+
+.header__title--pricing {
+	margin-top: 100px;
+	font-size: 38px;
+}
+
+.header__text--pricing {
+	font-size: 21px;
+	margin-top: 10px;
+}
+
+.container--pricing {
+	margin-top: 80px;
+	display: flex;
+}
+
+.article__content--pricing-basic {
+	width: 33%;
+	margin-left: 18vw;
+}
+
+.article__content--pricing-agency {
+	width: 33%;
+}
+
+.article__content--active {
+	box-shadow: 5px 10px 61px 20px #ddd;
+}
+
+.article__content--pricing-pro {
+	width: 33%;
+	margin-right: 18vw;
+}
+
+.article__title--pricing {
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+.article__price--big-bold {
+	font-weight: bold;
+	font-size: 55px;
+}
+
+.pricing__list-services {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.pricing__btn--blue {
+	border-radius: 20px;
+	border: none;
+	color: var(--color-alfa);
+	background: #0abceb;
+	padding: 25px 60px;
+}
+
+.basic__btn {
+	margin-top: 90px;
+}
+
+.agency__btn {
+	margin-top: 70px;
+}
+
+.pro__btn {
+	margin-top: 50px;
+}

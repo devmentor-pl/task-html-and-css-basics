@@ -1,0 +1,47 @@
+.novatheme {
+	min-height: 800px;
+	background-color: var(--color-alfa);
+	color: var(--color-beta);
+	text-align: center;
+}
+
+.novatheme__clients-logo {
+	height: 110px;
+	background-color: #f9fafa;
+}
+
+.portfolio__aside__clients {
+	margin-top: 40px;
+	height: 35px;
+}
+
+.novatheme__article {
+	display: flex;
+}
+
+.article__image-wrapper {
+	width: 50%;
+	display: flex;
+	height: 60vh;
+	margin-left: 100px;
+	margin-top: 75px;
+}
+
+.article__content--novatheme {
+	width: 50%;
+}
+
+.article__title--novatheme {
+	margin-top: 120px;
+	font-size: 38px;
+	width: 30.5vw;
+}
+
+.article__description--novatheme {
+	margin-top: 40px;
+	font-size: 19px;
+	width: 30vw;
+	letter-spacing: 4px;
+	line-height: 40px;
+	text-align: left;
+}

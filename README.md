@@ -1,56 +1,46 @@
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+![screen of your app](https://via.placeholder.com/1000x300)
+
+# Webscope
+
+See the live version of [Webscope](https://devmentor.pl).
+
+The project was mainly about learning of usage of proper semantic HTML tags.
+Secondly I tried to apply BEM methodology, which was game changer for writing clear, maintainable and reusable CSS code.
+Thirdly I focused on keeping CSS code in different modules in order to improve readability even more.
+
+**Main features**:
+
+- HTML Semantic Elements
+- BEM
+- Separate CSS code for each section
+
+&nbsp;
+## 💡 Technologies
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 &nbsp;
 
+## 💿 Installation
 
-# HTML & CSS: Podstawy
+The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`.
 
-Najwyższy czas zakodować prawdziwą stronę internetową! 
+&nbsp;
+## 💭 Conclusions for future projects
 
-Będziemy się wzorować na projekcie od chłopaków z [Webscope](https://webscopeapp.com/), który wygląda tak:
-
-![](./assets/demo.png)
+In the next project I would like to apply RWD, to make it more accessible on different type of devices.
 
 &nbsp;
 
-## Opis projektu
+## 🙋‍♂️ Feel free to contact me
 
-Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m. in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). Ich podgląd w VS Code możesz wykonać dzięki rozszerzeniu [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer).
-
-Font, który jest używany w projekcie to [Montserrat](https://fonts.google.com/specimen/Montserrat).
-
-Tło które widać w górnej części strony to gradient: 
-`background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));`
-
-Proponuję dla wygody użyć rozszerzenie do Chrome o nazwie [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi), który pozwoli Ci osadzić plik poglądowy, przedstawiony wyżej (lokalizacja: `./assets/demo.png`) jako tło dla tworzonej strony, co uławi Ci kodowanie.
-
-> **Uwaga!** W zależności od [ustawień systemowych](https://pliki.wiki/blog/jak-korzystac-ze-skalowania-ekranu-w-systemie-windows-10/) możliwe, że będziesz musiał użyć we wspomnianym wyżej rozszerzeniu odpowiedniej skali dla wykorzystywanego jako podgląd obrazu. Zazwyczaj domyślna wartość sprawdza się dobrze jednak zwroć na to uwagę.
-
-Projekt nie musi być wykonany zgodnie z pierowzrorem 1:1, a nawet nie powinien. Ważne, aby na pierwszy rzut oka było widać, że jest to pierwowzór. 
-
-Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinień prawidłowo wyglądać na różnej wielkości monitorów/rozdzielczości. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Pamiętaj o tym kodując tą stronę.
-
-## Propozycja podziału
-
-Poniżej zamieszczam propozycję podziału strony na poszczególne grupy, gdzie:
-
-- wiersz (`width: 100%`), kolor zielony
-- wyśrodkowanie (`max-width: 1150px`), kolor niebieski niebieski
-- komórka (wiele elementów w jednej linii), pomarańczowy
-
-Nie musisz się od nich stosować to jedynie moja koncepcja, która ma Ci pomóc utworzyć odpowiednią strukturę.
-
-![](./assets/demo-info.png)
-
-&nbsp;
-
-> :warning: Jeśli nie posiadasz materiałów do tego zadania to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/p/html-and-css-basics/)
+Find me on [LinkedIn](https://www.linkedin.com/in/jakub-paw%C5%82owski-921b74216/) :)
 
 
 &nbsp;
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+## 👏 Thanks / Special thanks / Credits
+
+Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) - for providing me with this task and for code review.
