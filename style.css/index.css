@@ -61,12 +61,15 @@ body {
     background:var(--bg-body);
 }
 
+.container {
+    max-width:1050px;
+    margin:0 auto;
+}
+
 /* HEADER SECTION */
 
 .nav {
-    max-width: 1050px;
     min-height:10vh;
-    margin:0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,9 +108,7 @@ body {
 /* HERO SECTION */
 
 .hero {
-    max-width: 1050px;
     min-height: 90vh;
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,19 +123,19 @@ body {
     flex-basis:45%;
 }
 
-.hero__text__head {
+.herodesc__head {
     font-size: var(--header1);
     font-weight: 500;
     margin: 2rem 1.5rem;
 }
 
-.hero__text__content {
+.herodesc__content {
     font-size:var(--font-content);
     font-weight: 300;
     margin: 1rem 1.5rem;
 }
 
-.hero__text__btn {
+.herodesc__btn {
     width:50%;
     height:100%;
     margin: 1rem 1.5rem;
@@ -150,7 +151,7 @@ body {
     transition: all 750ms ease;
 }
 
-.hero__text__btn:hover {
+.herodesc__btn:hover {
     border: 2px solid transparent;
     border-radius: 35% 65% 65% 35% / 38% 51% 49% 62% ;
     background: var(--bg-btn-hero-hover);
@@ -174,9 +175,7 @@ body {
 }
 
 .features {
-    max-width: 1050px;
     min-height: 60vh;
-    margin: 0 auto;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -241,7 +240,7 @@ body {
     align-items: center;
 }
 
-.card__icon__img {
+.card__img {
     width: 30px;
     height: auto;
 }
@@ -253,9 +252,8 @@ body {
 }
 
 .brand {
-    max-width:1050px;
     height:auto;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .brand__img {
@@ -269,7 +267,7 @@ body {
 }
 
 .about {
-    width:100vw;
+    width:100%;
     height:70vh;
     margin:0 auto;
     display:flex;
@@ -296,14 +294,14 @@ body {
     align-items: flex-start;
 }
 
-.about__text__head {
+.aboutdesc__head {
     width:70%;
     font-size: var(--header3);
     letter-spacing: 0.2rem;
     padding:2.5rem 0;
 }
 
-.about__text__p {
+.aboutdesc__p {
     width:70%;
     font-size:var(--font-content-about);
     line-height: 1.5rem;
@@ -413,7 +411,7 @@ body {
     letter-spacing: 0.2rem;
 }
 
-.price__features__item {
+.pricedesc__item {
     text-align: center;
     padding:0.3rem 0;
 }
@@ -451,26 +449,26 @@ body {
  }
 
 }
-.price__center {
+.pricecenter {
    height:600px;
    animation:center-column .5s ease-in infinite alternate;
    background: linear-gradient(to top, #dd971d, #e6a330, #eeaf40, #f7bb50, #ffc75f);
 }
 
-.price__center__head .price__value,
-.price__center__head .price__type,
-.price__center__features .price__features__item
+.pricecenter__head .price__value,
+.pricecenter__head .price__type,
+.pricecenter__features .pricedesc__item
 {
     color:var(--color-text-offer-center);
 }
 
-.price__plan .price__btn__center {
+.price__plan .pricecenter__btn {
     background:var(--bg-btn-offer-center);
     color:var(--color-btn-offer-center);
     transition: all 750ms ease-in-out;
 }
 
-.price__btn__center:hover {
+.pricecenter__btn:hover {
     background: var(--bg-btn-offer-center-hover);
     color:var(--color-btn-center-hover);
 }
@@ -492,14 +490,14 @@ body {
     align-items: center;
 }
 
-.team__head__header {
+.teamdesc__head {
     padding:1rem 0;
     font-size:var(--header3);
     letter-spacing: 0.2rem;
     text-align: center;
 }
 
-.team__head__text {
+.teamdesc__text {
     margin-bottom:5rem;
     text-align: center;
     font-size: var(--font-card-text);
@@ -513,7 +511,7 @@ body {
 
 }
 
-.team__person__box {
+.persondesc__box {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -526,22 +524,22 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-.team__person__box:hover {
+.persondesc__box:hover {
     transform: scale(1.1);
 }
 
-.team__person__title {
+.persondesc__title {
     font-weight:200;
     padding:1.5rem 0 0.2rem;
 }
 
-.team__person__name {
+.persondesc__name {
     font-weight:500;
     padding:0.2rem 0;
     font-size: var(--header4);
 }
 
-.team__person__job {
+.persondesc__job {
     text-align: center;
     font-weight:200;
     font-size:var(--font-team-job-text);
@@ -550,7 +548,7 @@ body {
 
 }
 
-.team__person__social {
+.persondesc__social {
     display:flex;
 }
 
