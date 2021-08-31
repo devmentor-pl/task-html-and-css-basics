@@ -241,7 +241,7 @@ body {
 }
 
 .card__img {
-    width: 30px;
+    /* width: 30px; */
     height: auto;
 }
 
