@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.header__container {
+    /* outline: 3px green; - nie działa ?? */
+    margin: 0 auto;
+    width: 100%;
+    height: 56em;
+    /*border: 1px solid;*/
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
+}
+
+.header {
+    /*border: 1px solid;*/
+    height: 15%;
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__navigation--list {
+    display: flex;
+}
+
+.navigation__element {
+    padding: 0 12px;
+    margin-right: 22px;
+}
+
+.navigation__element > a{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.header__section {
+    display: flex;
+    /*border: 1px solid;*/
+    width: 76%;
+    height: 100%;
+}
+
+.header__section--text {
+    width: 40%;
+    /*border: 1px solid;*/
+}
+
+.header__section--text > h1 { /* jak ustawić za pomocą flexbox'a?*/
+    font-size: 2.6em;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 3em;
+    letter-spacing: 2px;
+}
+
+.header__section--text > p {
+    margin-top: 30px;
+    font-size: 1.4em;
+    color: white;
+    line-height: 1.6em;
+}
+
+.header__section--text > a {
+    display: inline-block;
+    margin-top: 4.4em;
+    border-radius: 15px;
+    padding: 2.2em 6.1em;
+    font-size: 0.6em;
+    color: white;
+    background-color: limegreen;
+    text-align: center;
+}
+
+.header__section--text span {
+    font-size: 1.8em;
+}
+
+
+.header__section--image {
+    /*border: 1px solid;*/
+    width: 60%;
+} 
+
+.header__section--image  img {
+    border: 20px solid white;
+    transform: rotate(-6deg);
+    margin-top: 3.8em;
+    margin-left: 4.6em;
+    width: 78%;
+    height: 69%;
+    border-radius: 30px;
+}
+
