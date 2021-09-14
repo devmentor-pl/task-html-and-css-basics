@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700;800&display=swap');
 
 :root {
     --color-alfa: white;
@@ -20,11 +20,8 @@ a {
 
 .container__size {
     margin: 0 auto;
-    width: 100%;
     height: 50em;
 }
-
-/* Jak mógłbym pozbyć się flex'ów, żeby skrócić kod? */
 
 .header__container {
     /* outline: 3px green; - nie działa ?? */
@@ -51,7 +48,7 @@ a {
 
 .navigation__element > a{
     color: var(--color-alfa);
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -65,7 +62,7 @@ a {
     width: 40%;
 }
 
-.header__section--text > h1 { /* jak ustawić za pomocą flexbox'a?*/
+.header__section--text > h1 {
     font-size: 2.6em;
     color: var(--color-alfa);
     text-align: left;
@@ -101,6 +98,7 @@ a {
 } 
 
 .header__section--image  img {
+    background-color: var(--color-alfa);
     border: 20px solid white;
     transform: rotate(-6deg);
     margin-top: 3.8em;
@@ -169,7 +167,7 @@ a {
 .section__row--photos > h4 {
     padding: 20px 0;
     text-align: center;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 .section__row--photos > p {
