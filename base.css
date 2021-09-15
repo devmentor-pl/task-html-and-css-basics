@@ -46,7 +46,7 @@ a {
     margin-right: 22px;
 }
 
-.navigation__element > a{
+.navigation__element--link {
     color: var(--color-alfa);
     font-weight: bold;
     text-align: center;
@@ -62,7 +62,7 @@ a {
     width: 40%;
 }
 
-.header__section--text > h1 {
+.header__text--headline {
     font-size: 2.6em;
     color: var(--color-alfa);
     text-align: left;
@@ -71,14 +71,14 @@ a {
     letter-spacing: 2px;
 }
 
-.header__section--text > p {
+.header__text--paragraph {
     margin-top: 30px;
     font-size: 1.4em;
     color: var(--color-alfa);
     line-height: 1.6em;
 }
 
-.header__section--text > a {
+.header__section--button {
     display: inline-block;
     margin-top: 4.4em;
     border-radius: 15px;
@@ -89,7 +89,7 @@ a {
     text-align: center;
 }
 
-.header__section--text span {
+.header__text--span {
     font-size: 1.8em;
 }
 
@@ -97,7 +97,7 @@ a {
     width: 60%;
 } 
 
-.header__section--image  img {
+.header__image--tablet {
     background-color: var(--color-alfa);
     border: 20px solid white;
     transform: rotate(-6deg);
@@ -124,7 +124,7 @@ a {
     font-size: 1.2em;
 }
 
-.section__features--row > h1{
+.section__features--headline, .section__team--headline{
     font-size: 2em;
 }
 
@@ -156,23 +156,25 @@ a {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 8px;
+    width: 30%;
 }
 
-.photo__border > img {
+.photo__border--image {
     display: block;
     height: 1.5em;
     width: 1.5em;
 }
 
-.section__row--photos > h4 {
+.section__row--headline {
     padding: 20px 0;
     text-align: center;
     font-weight: bold;
 }
 
-.section__row--photos > p {
+.section__row--paragraph {
     line-height: 1.8em;
     text-align: center;
+    padding: 0 1em;
 }
 
 .section__container--companies {
@@ -192,7 +194,7 @@ a {
     display: flex;
 }
 
-.section__row--companies > img {
+.section__image--companies {
     width:64%;
     opacity: 0.6;
 }
@@ -226,13 +228,13 @@ a {
     opacity: 0.4;
 }
 
-.main__text > h1 {
+.main__text--headline {
     font-size: 2.1em;
     letter-spacing: 2px;
     margin-bottom: 1.7em;
 }
 
-.main__text > p {
+.main__text--paragraph {
     font-size: 1.2em;
     line-height: 1.9em;
 }
@@ -244,11 +246,11 @@ a {
     background-color: var(--color-beta);
 }
 
-.section__row--text > h1 {
+.section__text--paragraph1 {
     font-size: 2.4em;
 }
 
-.section__row--text > h4{
+.section__text--paragraph4{
     font-size: 1.4em;
     padding-bottom: 30px;
 }
@@ -300,7 +302,7 @@ a {
     bottom: 38%;
 }
 
-.offer__column--text > p {
+.offer__column--paragraph {
     font-weight: bold;
     line-height: 1.5em;
 }
@@ -361,7 +363,7 @@ a {
     position: relative;
 }
 
-.section__team--photos > img {
+.section__team--images {
     position: absolute;
     bottom: 60%;
     width: 45%;
@@ -373,11 +375,11 @@ a {
     text-align: center;
 }
 
-.section__team--text > h2 {
+.team__text--headline {
     font-size: 1.4em;
 }
 
-.section__team--text p:first-of-type {
+.section__team--text .team__text--paragraph:first-of-type {
     padding: 10px 0;
     font-size: 1.2em;
     font-weight: bold;
@@ -393,7 +395,7 @@ a {
     width: 18%;
 }
 
-.section__team--media img {
+.team__media--image {
     height: 1.5em;
 }
 
@@ -410,10 +412,10 @@ a {
     font-weight: bolder;
 }
 
-.footer__container p {
+.footer__container--paragraph {
     font-weight: 600;
 }
 
-.footer__container img{
+.footer__container--image{
     width: 7em;
 }
