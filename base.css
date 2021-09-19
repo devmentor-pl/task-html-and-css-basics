@@ -149,7 +149,7 @@ a {
     padding: 33px;
 }
 
-.section__row--photos {
+.images{
     display: block;
     text-align: center;
     margin-bottom: 8px;
@@ -238,11 +238,11 @@ a {
     background-color: var(--color-beta);
 }
 
-.section__text--paragraph1 {
+.section__text--bigger {
     font-size: 2.4em;
 }
 
-.section__text--paragraph4{
+.section__text--smaller{
     font-size: 1.4em;
     padding-bottom: 30px;
 }
