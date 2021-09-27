@@ -6,6 +6,8 @@ First HTML and CSS task.
 - first project
 - only desktop version
 - css and html task
+- semantic tags
+- BEM naming
 
 
 &nbsp;
@@ -26,7 +28,7 @@ The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/
  
 ## 🤔 Solutions provided in the project
 
-- just one - Filled the background color after the website did not render full photo after rotate:
+- Filled the background color after the website did not render full photo after rotate:
 ```
 .header__image--tablet {
     background-color: var(--color-alfa);
@@ -39,6 +41,10 @@ The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/
     border-radius: 30px;
 }
 ```
+- Learned how and when to use semantic tags
+- Learned what is the BEM naming and how to use it
+- Learned a lot of new CSS commands
+
 
 &nbsp;
 
@@ -54,7 +60,9 @@ I would like to improve
 ```
 etc.
 
-#### and resposible design problem
+#### resposible design problem
+
+#### using semantic tags more often
 
 
 &nbsp;
