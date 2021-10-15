@@ -1,0 +1,125 @@
+/* logos section */
+.logos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logos__content {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  max-width: 1150px;
+  width: 100%;
+}
+.logos__img {
+  width: 80%;
+}
+
+/* product-imac page */
+.product-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.product-page__content-img__img {
+  margin-top: 20px;
+  width: 70vw;
+}
+
+.product-page__desc {
+  align-items: center;
+  color: var(--featuresBgc);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.product-page__desc__title {
+  font-size: 2rem;
+  margin: 3vh 0 2vh 0;
+}
+
+.product-page__desc__text {
+  color: var(--additionalFontColor);
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+/* min-width 768px */
+
+@media (min-width: 768px) {
+  .product-page {
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .product-page__content-img {
+    max-width: 900px;
+    width: 50vw;
+  }
+
+  .product-page__content-img__img {
+    padding: 5%;
+    transition: 0.3s ease-in;
+  }
+  .product-page__content-img__img:hover {
+    transform: scale(1.03);
+  }
+
+  .product-page__desc {
+    align-items: flex-start;
+    height: 100%;
+    justify-content: flex-end;
+    text-align: left;
+    width: 40vw;
+  }
+
+  .product-page__desc__title {
+    font-size: 2rem;
+    margin: 10% 0 0 50px;
+  }
+
+  .product-page__desc__text {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    margin: 2vw 0 0 50px;
+    padding: 0 10% 10% 0;
+  }
+}
+
+/* min-width 1024px */
+
+@media (min-width: 1024px) {
+  .product-page__desc__title {
+    font-size: 2.8rem;
+  }
+
+  .product-page__desc__text {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    padding: 0 20% 25% 0;
+  }
+}
+
+/* min-width 1440px */
+
+@media (min-width: 1440px) {
+  .product-page__desc__title {
+    font-size: 2.8rem;
+  }
+
+  .product-page__desc__text {
+    font-size: 1.4rem;
+    line-height: 3rem;
+    padding: 0 20% 40% 0;
+  }
+}

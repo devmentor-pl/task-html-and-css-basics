@@ -1,0 +1,17 @@
+:root {
+  --additionalFontColor: #797979;
+  --featuresBgc: #0f0f0f;
+  --footerBgc: #22272d;
+  --mainFontColor: #ffffff;
+  --priceValueColor: #333333;
+  --pricingBgc: #f8f9f9;
+  --pricingBtn: #16bceb;
+  --pricingBtnHover: #0d9cc4;
+  --titlePageBtn: #24f28b;
+  --titlePageBtnHover: #0dbd65;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}

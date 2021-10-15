@@ -1,0 +1,18 @@
+footer {
+  align-items: center;
+  background-color: var(--footerBgc);
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer__rights {
+  color: var(--mainFontColor);
+  font-size: 1.1rem;
+}
+
+.footer__webscope-logo {
+  height: 50%;
+  margin-left: 10px;
+}
