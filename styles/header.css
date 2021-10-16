@@ -1,4 +1,4 @@
-header {
+.header {
   align-items: center;
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
   display: flex;
@@ -99,7 +99,7 @@ header {
 /* min-width 1024px */
 
 @media (min-width: 1024px) {
-  header {
+  .header {
     height: 90vh;
     min-height: 700px;
     padding-bottom: 50px;

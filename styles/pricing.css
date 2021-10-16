@@ -22,7 +22,7 @@
 }
 
 .top-content__text,
-.options__item__period {
+.options-item__period {
   color: var(--additionalFontColor);
   font-size: 1.3rem;
   padding-bottom: 10px;
@@ -34,34 +34,34 @@
   max-width: 1150px;
   width: 100%;
 }
-.pricing__options__item {
+.options-item {
   padding: 20px 0;
 }
 
-.options__item__title {
+.options-item__title {
   color: var(--priceValueColor);
   font-size: 1.2rem;
   padding-bottom: 5px;
 }
 
-.options__item__value {
+.options-item__value {
   font-size: 2.5rem;
   font-weight: 600;
 }
 
-.options__item__period {
+.options-item__period {
   font-size: 1rem;
 }
 
-.options__item__list {
+.options-item__list {
   font-size: 1.2rem;
 }
 
-.item__list__benefit {
+.list__benefit {
   margin-bottom: 5px;
 }
 
-.options__item__btn {
+.options-item__btn {
   background-color: var(--pricingBtn);
   border-radius: 5px;
   border: none;
@@ -75,7 +75,7 @@
   width: 30vw;
 }
 
-.options__item__btn:hover {
+.options-item__btn:hover {
   background-color: var(--pricingBtnHover);
   filter: drop-shadow(3px 3px 5px #00000017);
 }
@@ -95,7 +95,7 @@
     justify-content: center;
   }
 
-  .pricing__options__item {
+  .options-item {
     background-color: var(--mainFontColor);
     border-radius: 10px;
     display: flex;
@@ -110,41 +110,41 @@
     width: 25%;
   }
 
-  .pricing__options__item:hover {
+  .options-item:hover {
     filter: drop-shadow(0 0 25px #00000025);
     transform: scale(1.05);
   }
 
-  .pricing__options__item:nth-child(2) {
+  .options-item:nth-child(2) {
     width: 28%;
   }
 
-  .options__item__title {
+  .options-item__title {
     font-size: 1.5rem;
     letter-spacing: 1px;
     padding-bottom: -100px;
   }
 
-  .options__item__value {
+  .options-item__value {
     font-size: 4rem;
     letter-spacing: 2px;
     padding-bottom: 5px;
   }
 
-  .options__item__period {
+  .options-item__period {
     font-size: 1.3rem;
     padding-bottom: 25px;
   }
 
-  .options__item__list {
+  .options-item__list {
     font-size: 1.3rem;
   }
 
-  .item__list__benefit {
+  .list__benefit {
     margin-bottom: 5px;
   }
 
-  .options__item__btn {
+  .options-item__btn {
     margin: 10% auto 2vh auto;
     min-height: 30px;
   }
