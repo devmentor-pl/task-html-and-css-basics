@@ -1,6 +1,6 @@
 .features {
     min-height: 50vh;
-    background-color: black;
+    background-color: #000000;
     text-align: center;
 }
 
@@ -20,13 +20,14 @@
     flex-direction: column;
 }
 
+
 .features__circle {
     background-color: #ffffff;
     border-radius: 50%;
     width: 20%;
     text-align: center;
     align-self: center;
-    height: 30%;
+    height: 32%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -45,10 +46,10 @@
 }
 
 .features__picture {
-    width: 80%;
-    height: 70%;
+    width: 70%;
+    height: 60%;
     align-self: center;
-    color: #8c939e;
+    color: #f9fafa;
 }
 
 .testimonials {

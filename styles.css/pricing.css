@@ -17,12 +17,18 @@
     margin: 0 auto;
 }
 
-
 .pricing__items {
     flex-basis: 33%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 5% 3%;
+}
+
+.pricing__items:hover {
+    box-shadow: 0px 20px 30px #8c939e;
+    background-color: #ffffff;
+    border: 5% 3%;
 }
 
 .pricing__value {
@@ -51,7 +57,8 @@
     text-align: center;
     display: block;
     align-self: center;
-    padding: 2%;
+    padding: 4%;
+    background-color: #0abceb;
 }
 
 .cta__container {

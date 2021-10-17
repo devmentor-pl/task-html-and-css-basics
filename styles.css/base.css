@@ -31,9 +31,5 @@ footer,
 .header,
 .features,
 footer {
-    color: white;
-}
-
-.pricing__cta {
-    background-color: #0abceb;
+    color: #ffffff;
 }

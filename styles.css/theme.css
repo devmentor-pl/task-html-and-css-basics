@@ -10,21 +10,24 @@
 }
 
 .theme>* {
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 
 .theme__description {
-    padding: 5% 0 15% 0;
+    padding: 5% 0 15% 2%;
     height: auto;
+    width: 50%;
 }
 
 .theme__title {
     font-weight: 600;
     padding: 2% 0;
-    color: #8c939e
+    color: #8c939e;
+    font-size: 2rem;
 }
 
 .theme__text {
     font-weight: 300;
     color: #8c939e;
+    width: 70%;
 }
