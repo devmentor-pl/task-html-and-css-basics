@@ -1,0 +1,30 @@
+.theme {
+    min-height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme__foto {
+    width: 90%;
+    height: auto;
+}
+
+.theme>* {
+    flex-basis: 50%;
+}
+
+.theme__description {
+    padding: 5% 0 15% 0;
+    height: auto;
+}
+
+.theme__title {
+    font-weight: 600;
+    padding: 2% 0;
+    color: #8c939e
+}
+
+.theme__text {
+    font-weight: 300;
+    color: #8c939e;
+}
