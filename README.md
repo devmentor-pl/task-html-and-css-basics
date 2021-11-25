@@ -9,7 +9,7 @@
 
 Najwyższy czas zakodować prawdziwą stronę internetową! 
 
-Będziemy się wzorować na projekcie od chłopaków z [Webscope](https://webscopeapp.com/), który wygląda tak:
+Będziemy się wzorować na projekcie od [Webscope](https://themewagon.com/themes/project-app-showasing-onepage-bootstrap-template-free-nova/), który wygląda tak:
 
 ![](./assets/demo.png)
 
@@ -17,7 +17,7 @@ Będziemy się wzorować na projekcie od chłopaków z [Webscope](https://websco
 
 ## Opis projektu
 
-Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m.in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). W VS Code ich podgląd uzyskasz dzięki rozszerzeniu [SVG Viewer](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer).
+Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m.in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). W VS Code ich podgląd uzyskasz dzięki rozszerzeniu [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg).
 
 Font, który jest używany w projekcie, to [Montserrat](https://fonts.google.com/specimen/Montserrat).
 
