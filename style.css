@@ -1,0 +1,140 @@
+.header, .features, .logos, .content, .pricing, .team, .footer, .features {
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: solid green;
+    width: 100%;
+    font-family:'Montserrat', sans-serif;
+}
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: white;
+    font-weight: 700;
+       
+}
+.navigation , .header__content, .features__title, .features__container{
+    margin: 0 auto;
+    padding: 10px;
+    /* height: 100px; mialem ta wysokosc po cos , ale wydaje sie nie potrzebna  */
+    max-width: 1150px;
+    display: flex;
+    outline: solid blue;
+    justify-content: space-between;
+}
+
+ .logo__nova {
+    height: 40%;
+    width: auto;
+ }
+ 
+.logo, .navigation__list, .content__section, .content__aside, .features__item {
+    display: flex;
+    outline: solid orange;
+    align-items:center
+}
+
+.navigation__item {
+    margin:20px;
+    font-weight: 700;
+}
+
+.header__content {
+    height: 500px;
+}
+.content__section { 
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.content__title {
+    margin-top: 60px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.content__description {
+    width: 70%;
+}
+.content__button {
+    padding: 10px 30px;
+    color: white;
+    width: 50%;
+    background-color: rgb(37, 241, 139);
+    border: 1px black solid ;
+    border-radius: 10px;
+}
+
+.content__button:hover {
+background-color: rgb(106, 255, 180);
+}
+
+.content__aside {
+    padding-top: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 58%;
+}
+
+.NextGenApp {
+    height: 80%;
+    width: auto;
+    transform: rotate(-5deg);
+    border: 20px solid white;
+    border-radius: 24px;
+}
+
+
+
+
+.features {
+    background-color: black;
+}
+
+.features__container{
+    
+}
+.features__logo {
+    
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border: solid white;
+    border-radius: 50%;
+}
+.features__title {
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+.features__item {
+    padding: 10px 80px 80px 80px;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: column;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
