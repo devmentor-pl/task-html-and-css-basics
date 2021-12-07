@@ -1,5 +1,5 @@
-.header, .features, .logos, .content, .pricing, .team, .footer, .features {
-    margin: 5px;
+.header, .features, .logos, .content, .pricing, .team, .footer, .features,.main-content {
+    /* margin: 5px; widocznosc poza zielonym outline */
     padding-top: 5px;
     padding-bottom: 5px;
     outline: solid green;
@@ -8,7 +8,7 @@
 }
 
 
-.navigation , .header__content, .features__title, .features__container{
+.navigation , .header__content, .features__title, .features__container, .logos_container{
     margin: 0 auto;
     padding: 10px;
     /* height: 100px; mialem ta wysokosc po cos , ale wydaje sie nie potrzebna  */
@@ -16,6 +16,12 @@
     display: flex;
     outline: solid blue;
     
+}
+
+.logo, .navigation__list, .content__section, .content__aside, .features__item, .screen-logo, .screen-description {
+    display: flex;
+    outline: solid orange;
+    align-items:center
 }
 
 .header {
@@ -32,11 +38,7 @@
     width: auto;
  }
  
-.logo, .navigation__list, .content__section, .content__aside, .features__item {
-    display: flex;
-    outline: solid orange;
-    align-items:center
-}
+
 
 .navigation__item {
     margin:20px;
@@ -132,10 +134,31 @@ background-color: rgb(106, 255, 180);
     border-radius: 50%;
 }
 
-.features-item__title {
+.item__title {
     font-weight: 700;
 }
 
+.logos_container {
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-content__logo {
+    padding: 50px;
+    width: 55%;
+    height: auto;
+}
+
+.main-content__description {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+}
 
 
 
