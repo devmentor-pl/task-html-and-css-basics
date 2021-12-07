@@ -7,12 +7,7 @@
     font-family:'Montserrat', sans-serif;
 }
 
-.header {
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    color: white;
-    font-weight: 700;
-       
-}
+
 .navigation , .header__content, .features__title, .features__container{
     margin: 0 auto;
     padding: 10px;
@@ -20,9 +15,18 @@
     max-width: 1150px;
     display: flex;
     outline: solid blue;
-    justify-content: space-between;
+    
 }
 
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: white;
+    font-weight: 700;
+       
+}
+.navigation, .header__content {
+    justify-content: space-between;
+}
  .logo__nova {
     height: 40%;
     width: auto;
@@ -96,9 +100,27 @@ background-color: rgb(106, 255, 180);
     background-color: black;
 }
 
-.features__container{
-    
+.features__title {
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
 }
+
+.features__container{
+    justify-content: center;
+    gap: 10px;
+}
+
+.features__item {
+    width: 25%;
+    padding: 20px 20px 100px 20px;
+    gap: 20px;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
 .features__logo {
     
     display: flex;
@@ -109,20 +131,13 @@ background-color: rgb(106, 255, 180);
     border: solid white;
     border-radius: 50%;
 }
-.features__title {
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    color: white;
+
+.features-item__title {
+    font-weight: 700;
 }
-.features__item {
-    padding: 10px 80px 80px 80px;
-    display: flex;
-    justify-content: space-between;
-    
-    flex-direction: column;
-    color: white;
-}
+
+
+
 
 
 
