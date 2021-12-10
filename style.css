@@ -25,7 +25,7 @@
     display: flex;
     margin: 20px auto;
     max-width: 1150px;
-    outline: solid var(--color-kappa);
+    /* outline: solid var(--color-kappa); */
     padding: 10px;  
     font-family:'Montserrat', sans-serif;
     font-size: 14px;
@@ -34,7 +34,7 @@
 .navigation__logo, .navigation__list, .content__section, .content__aside, .features__item, .main-content__logo,.main-content__description,.pricing-item, .team__item {
     align-items: center;
     display: flex;
-    outline: solid var(--color-lambda);  
+    /* outline: solid var(--color-lambda);   */
 }
 
 .subsection__title {
