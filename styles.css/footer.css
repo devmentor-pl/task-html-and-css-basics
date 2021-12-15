@@ -1,0 +1,10 @@
+footer {
+    background-color: #464646;
+    max-height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text {
+    padding: 2% 0.5%;
+}

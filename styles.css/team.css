@@ -1,0 +1,44 @@
+.team {
+    min-height: 70vh;
+}
+
+.team__title {
+    font-size: 2rem;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.team__list {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.team__member {
+    flex-basis: 33%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.member__title {
+    padding: 5% 0;
+    text-transform: uppercase;
+
+}
+
+.member__name {
+    padding: 5% 0;
+    font-weight: 600;
+}
+
+.member__text {
+    width: 70%;
+
+}
+
+.member__social {
+    padding: 5% 0 10% 0;
+}
