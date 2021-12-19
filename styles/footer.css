@@ -1,0 +1,22 @@
+.footer.text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer.template {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+}
+
+.footer.text p {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.footer.icon {
+    position: relative;
+    top: -3px;
+    margin-left: 15px;
+}

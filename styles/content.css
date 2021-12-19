@@ -1,0 +1,217 @@
+
+.section__content.container {
+    justify-content: center;
+}
+.section__content.cell {
+   height: calc(100% - 20px);
+   margin: 5px;
+}
+
+
+.section__content.container.logos {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.section__content.title.features {
+    font-weight: 100;
+    margin: auto;
+    color: white;
+}
+
+.section__content.title.theteam {
+    margin: auto;
+}
+.section__content.features.outside.box {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: relative;
+    top: 10%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.section__content.features.inside.box {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.section__content.features.description {
+    top: 15%;
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+
+.section__content.features.description p:last-child {
+    font-weight: 100;
+}
+
+.section__content.theteam.icons {
+    margin-left: 80px;
+}
+
+.section__content > .twitter {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.section__content > .facebook {
+    display: inline-block;
+}
+
+.section__content.ceo,
+.section__content.cto,
+.section__content.cfo {
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section__content.ceo.name,
+.section__content.cto.name,
+.section__content.cfo.name {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.section__content.ceo.description,
+.section__content.cto.description,
+.section__content.cfo.description {
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.section__content > .logos img {
+    width: 65%;
+    height: 60%;
+    margin: auto;
+}
+
+.section__content > .imac img {
+    width: 75%;
+    height: 100%;
+    margin-left: 75px;
+}
+
+.section__content > .pricing_title {
+    text-align: center;
+}
+
+.section__content > .pricing_amount {
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-weight: 100;
+}
+
+
+
+.section__content > .pricing.button {
+    background-color: #0BBCEB;
+    position: relative;
+    top: 30px;
+    margin: auto;
+    width: 70%;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.section__content > .pricing.button a {
+    color: white;
+    font-weight: 100
+}
+
+.section__content > .pricing_amount p:first-child{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+.section__content > .pricing_amount p:last-child{
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+.section__content > .pricing_title p {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+
+}
+
+.section__content > .pricing_amount {
+    margin-top: 10px;
+}
+
+.section__content > .pricing_title {
+    margin-top: 30px;
+    }
+
+.section__content > .pricing_included {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    height: 75px;
+    
+    }
+
+.section__content > .pricing_included p {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+}
+
+.section__content.container > p:first-child {
+    font-size: 30px;
+    font-weight: 100;
+    }
+
+.section__content > .pricingplan.description p {
+    text-align: center;
+    font-weight: 100;
+}
+
+.section__content > .pricingplan.description p:first-child {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.section__content > .pricingplan.description p:last-child {
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.section__content.imac.title {
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+.section__content.imac.description.box {
+    width: 75%;
+    height: 150px;
+}
+
+.section__content.imac.description.box p {
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.section__content > .cto.img,
+.cfo.img,
+.ceo.img {
+    margin-left: 50px;
+    margin-top: 10px;
+}
