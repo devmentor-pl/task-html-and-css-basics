@@ -12,8 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/header.css">
-    <link rel="stylesheet" href="./styles/description.css">
+    <link rel="stylesheet" href="./styles/beginning.css">
     <link rel="stylesheet" href="./styles/features.css">
     <link rel="stylesheet" href="./styles/logos.css">
     <link rel="stylesheet" href="./styles/pricing.css">
@@ -21,30 +20,29 @@
     <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
-    <header class="header row">
+    <div class="beginning row">
         <div class="header__container container">
             <h1 class="header__logo cell"><img src="./images/logo.svg" alt="logo writing 'nova'">
             </h1>
             <nav class="header__nav cell">
-                <ul>
-                    <li>The Team</li>
-                    <li>Pricing</li>
-                    <li>Features</li>
+                <ul class="nav">
+                    <li class="nav__item">The Team</li>
+                    <li class="nav__item">Pricing</li>
+                    <li class="nav__item">Features</li>
                 </ul>
             </nav>
         </div>
-    </header>
-    <section class="description row">
         <div class="descritption__container container">
-            <div class="description__download cell"></div>
+            <div class="description__download cell">
             <article class="description__article">
                 <h2 class="description__article-header">Beautiful Free Nova template</h2>
                 <p class="description__article-text">A top notch premium quality template for your next web project.</p>
             </article>
             <button class="download__btn" type="button">Download FREE!</button>
-            <div class="description__picture cell"><img src="./images/screen.png"></div>
             </div>
-    </section>
+            <div class="description__picture cell"><img src="./images/screen.png"></div>
+        </div>
+    </div>
     <section class="features row">
         <div class="features__container container">
             <h3 class="features__header">Features</h3>
@@ -89,56 +87,58 @@
             <h3 class="pricing__header">Choose your pricing plan</h3>
             <p class="pricing__text">Pick any of our super affordable pricing plan</p>
         </div>
-        <div class="options__container container"></div>
-        <div class="option__one cell">
-            <h5 class="option__type">Basic</h5>
-            <p class="option__prize">$15</p>
-            <p class="option__period">per month</p>
-            <p class="option__amount">Up to 7 Projects<br>2 Additional Developers</p>
-            <button class="option__starting" type="button">Get Started</button>
-        </div>
-        <div class="option__two cell">
-            <h5 class="option__type">Agency</h5>
-            <p class="option__prize">$55</p>
-            <p class="option__period">per month</p>
-            <p class="option__amount">Up to 25 Projects<br>2 Additional Developers<br>Unlimited Support</p>
-            <button class="option_starting" type="button">Get Started</button>
-        </div>
-        <div class="option__three cell">
-            <h5 class="option__type">Pro</h5>
-            <p class="option__prize">$75</p>
-            <p class="option__period">per month</p>
-            <p class="option__amount">Up to 25 Projects<br>2 Additional Developers<br>Unlimited Support<br>1.5 GB Disk Space</p>
-            <button class="option_starting" type="button">Get Started</button>
+        <div class="options__container container">
+            <div class="option__one cell">
+                <h5 class="option__type">Basic</h5>
+                <p class="option__prize">$15</p>
+                <p class="option__period">per month</p>
+                <p class="option__amount">Up to 7 Projects<br>2 Additional Developers</p>
+                <button class="option__starting" type="button">Get Started</button>
+            </div>
+            <div class="option__two cell">
+                <h5 class="option__type">Agency</h5>
+                <p class="option__prize">$55</p>
+                <p class="option__period">per month</p>
+                <p class="option__amount">Up to 25 Projects<br>2 Additional Developers<br>Unlimited Support</p>
+                <button class="option_starting" type="button">Get Started</button>
+            </div>
+            <div class="option__three cell">
+                <h5 class="option__type">Pro</h5>
+                <p class="option__prize">$75</p>
+                <p class="option__period">per month</p>
+                <p class="option__amount">Up to 25 Projects<br>2 Additional Developers<br>Unlimited Support<br>1.5 GB Disk Space</p>
+                <button class="option_starting" type="button">Get Started</button>
+            </div>
         </div>
     </section>
     <section class="team row">
         <div class="team__container container">
             <h3 class="team__header">The Team</h3>
         </div>
-        <div class="people__container container"></div>
-        <div class="people__one cell">
-            <div class="people__photo"><img src="./images/cto.png"></div>
-            <p class="people__position">CTO</p>
-            <p class="people__name">Johnny B good</p>
-            <p class="people__about">The brains behind the whole operation</p>
-            <div class="people__contacts-logos"><img src="./images/team-twitter.svg"><img src="./images/team-facebook.svg">
+        <div class="people__container container">
+            <div class="people__one cell">
+                <div class="people__photo"><img src="./images/cto.png"></div>
+                <p class="people__position">CTO</p>
+                <p class="people__name">Johnny B good</p>
+                <p class="people__about">The brains behind the whole operation</p>
+                <div class="people__contacts-logos"><img src="./images/team-twitter.svg"><img src="./images/team-facebook.svg">
+                </div>
             </div>
-        </div>
-        <div class="people__two cell">
-            <div class="people__photo"><img src="./images/ceo.png"></div>
-            <p class="people__position">CEO</p>
-            <p class="people__name">Roll Over Beethoven</p>
-            <p class="people__about">The one that puts it all together</p>
-            <div class="people__contacts-logos"><img src="./images/team-twitter.svg"><img src="./images/team-facebook.svg">
-        </div>
-        <div class="people__three cell">
-            <div class="people__photo"><img src="./images/cfo.png"></div>
-            <p class="people__position">CFO</p>
-            <p class="people__nam">Chuck Berry</p>
-            <p class="people__about">The guy with his hand on the wallet</p>
-            <div class="people__contacts-logos"><img src="./images/team-twitter.svg"><img src="./images/team-facebook.svg">
-        </div>
+            <div class="people__two cell">
+                <div class="people__photo"><img src="./images/ceo.png"></div>
+                <p class="people__position">CEO</p>
+                <p class="people__name">Roll Over Beethoven</p>
+                <p class="people__about">The one that puts it all together</p>
+                <div class="people__contacts-logos"><img src="./images/team-twitter.svg"><img src="./images/team-facebook.svg"></div>
+            </div>
+            <div class="people__three cell">
+                <div class="people__photo"><img src="./images/cfo.png"></div>
+                <p class="people__position">CFO</p>
+                <p class="people__nam">Chuck Berry</p>
+                <p class="people__about">The guy with his hand on the wallet</p>
+                <div class="people__contacts-logos"><img src="./images/team-twitter.svg"><img src="./images/team-facebook.svg"></div>
+            </div>
+    </div>
     </section>
     <footer class="footer row">
         <div class="footer__content">

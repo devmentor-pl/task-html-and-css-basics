@@ -2,3 +2,22 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+.row, .cell, .container {
+    margin: 5px;
+    padding: 5px;
+    outline: 3px solid;
+}
+
+.row {
+    outline-color: green;
+}
+
+.container {
+    margin: 0 100px;
+    max-width: 1440px;
+    outline-color: blue;
+}
+
+.cell {
+    outline-color: orange;
+}
