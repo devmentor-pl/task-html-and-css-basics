@@ -1,0 +1,15 @@
+.features {
+    color: rgb(255,255,255);
+    background: rgb(0, 0, 0);
+}
+
+.features__header {
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.examples__container {
+    display: flex;
+}

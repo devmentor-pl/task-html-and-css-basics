@@ -2,9 +2,15 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.row, .cell, .container {
+.row, .container {
     margin: 5px;
     padding: 5px;
+    outline: 3px solid;
+}
+
+.cell {
+    margin: 2px;
+    padding: 10px;
     outline: 3px solid;
 }
 
@@ -13,8 +19,8 @@ html {
 }
 
 .container {
-    margin: 0 100px;
-    max-width: 1440px;
+    margin: 0 auto;
+    max-width: 1200px;
     outline-color: blue;
 }
 

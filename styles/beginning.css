@@ -1,11 +1,49 @@
-.header__container {
-    display: flex;
-    justify-content:space-between;
+.beginning {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: rgb(255,255,255);
 }
 
-.header.logo {
-    min-height: 200px;
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
 }
-.header.nav {
-    min-width: 600px;
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding-right: 0;
+}
+
+.nav__item {
+    padding: 10px 5px 10px 10px;
+    margin-right: 0;
+    background-color: red;
+}
+
+.header__logo {
+    min-width: 200px;
+    margin: 0;
+}
+.header__nav {
+    min-width: 300px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.description__container {
+    display: flex;
+}
+
+.download__btn {
+    padding: 5px 15px;
+    background-color: rgb(37, 241, 139);
+    border: none;
+    border-radius: 5px;
+}
+
+.description__article-header {
+    font-weight: 900;
 }
