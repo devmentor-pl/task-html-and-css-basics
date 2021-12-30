@@ -5,13 +5,13 @@ html {
 .row, .container {
     margin: 5px;
     padding: 5px;
-    outline: 3px solid;
+    outline: 5px solid;
 }
 
 .cell {
-    margin: 2px;
+    margin: 5px;
     padding: 10px;
-    outline: 3px solid;
+    outline: 5px solid;
 }
 
 .row {
