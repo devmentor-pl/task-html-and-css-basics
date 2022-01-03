@@ -4,12 +4,50 @@
 }
 
 .features__header {
-    padding: 15px;
+    padding: 55px 15px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 300;
 }
 
 .examples__container {
     display: flex;
+    justify-content: center;
+    height: 357px;
+}
+
+.example {
+    width: 260px;
+
+
+}
+
+.example__header {
+    margin-top: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.example__text {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.example__picture {
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 15px 25px 5px;
+    display: flex;
+    align-items: center;
+    margin: 28px auto 0 auto;
+}
+
+.picture__features {
+    margin: 0 auto;
 }

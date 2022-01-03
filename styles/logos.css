@@ -1,0 +1,13 @@
+.logos__pictures {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logos__container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+

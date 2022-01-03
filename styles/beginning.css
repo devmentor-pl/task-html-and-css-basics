@@ -1,6 +1,10 @@
+:root {
+    --color-alfa: rgb(255,255,255);
+}
+
 .beginning {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    color: rgb(255,255,255);
+    color: var(--color-alfa);
     margin-top: 15px;
 }
 
@@ -26,39 +30,72 @@
 .nav__item {
     padding: 10px 5px 10px 10px;
     margin-right: 0;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .header__logo {
-    min-width: 160px;
-    margin: 5px;
+    min-width: 120px;
+    margin: 5x;
+    padding-left: 30px;
 }
 .header__nav {
-    min-width: 250px;
+    min-width: 300px;
     margin: 10px 0;
     padding-right: 0;
 }
 
 .description__container {
     display: flex;
+    height: 610px;
 }
 
 .download__btn {
-    padding: 5px 15px;
+    padding: 15px 50px;
+    margin: 32px 0 0 25px;
     background-color: rgb(37, 241, 139);
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-alfa);
 }
 
 .description__article-header {
-    font-weight: 900;
+    padding-top: 72px;
+    margin-left: 23px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.description__article-text {
+    padding-top: 20px;
+    margin-left: 23px;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 300;
+
 }
 
 .description__download {
     width: 45%;
     margin-right: 10px;
-    height: 
+}
+
+.picture__first {
+    width: 100px;
 }
 
 .description__picture {
     width: 55%;
+    padding-top: 30px;;
+}
+
+.picture__second {
+    width: 560px;
+    border: var(--color-alfa) solid 18px;
+    border-radius: 20px;
+    background: var(--color-alfa);
+    transform: rotate(355deg);
+    padding-bottom: 30px;
 }
