@@ -11,8 +11,7 @@
 
 .picture__third {
     width: 653px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .utility__about {
@@ -28,10 +27,7 @@
 
 .utility__about-text {
     min-width: 154px;
-    margin-top: 47px;
-    margin-left: 34px;
-    margin-right: 210px;
-    margin-bottom: 30px;
+    margin: 47px 210px 30px 34px;
     line-height: 1.9em;
     font-weight: 300;
     font-size: 15px;

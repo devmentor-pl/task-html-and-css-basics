@@ -4,15 +4,13 @@
 
 .logos__pictures {
     width: 700px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
 }
 
 .logos__container {
     height: 50px;
     display: flex;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
