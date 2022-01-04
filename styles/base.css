@@ -6,28 +6,28 @@ body {
     height: 100vh;
 }
 
-.row, .container {
+/*.row, .container {
     margin: 5px;
-    padding: 5px
+    padding: 5px;
     outline: 5px solid;
-}
+}*/
 
-.cell {
+/*.cell {
     margin: 5px;
     padding: 10px;
     outline: 5px solid;
-}
+}*/
 
-.row {
+/*.row {
     outline-color: green;
-}
+}*/
 
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    outline-color: blue;
+    /*outline-color: blue;*/
 }
 
-.cell {
+/*.cell {
     outline-color: orange;
-}
+}*/

@@ -12,10 +12,12 @@
 
 .people__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    height: 470px;
     padding-right: 100px;
     padding-left: 100px;
-    height: 470px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .people {
@@ -26,6 +28,7 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
+    min-width: 133px;
 }
 
 .people__position {
@@ -50,16 +53,20 @@
 
 .people__contacts-logos {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: space-between;
     margin-top: 18px;
+    /*padding-right: 130px;
+    padding-left: 130px;*/
 }
 
 .twitter__logo {
-    margin-left: 130px;
+    margin-left: auto;
+    margin-right: 10px;
 }
 
 .facebook__logo {
-    margin-right: 130px;
+    margin-right: auto;
+    margin-left: 10px;
 }
 
