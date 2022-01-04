@@ -32,6 +32,7 @@
 .option {
     width: 320px;
     padding-bottom: 50px;
+    position: relative;
 }
 
 .option__type {
@@ -63,25 +64,15 @@
 }
 
 .option__starting {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
     padding: 17px 45px;
     border-radius: 8px;
     color:white;
     background: rgb(10, 188, 235);
     border: none;
-}
-
-.option__starting--middle {
-    margin-top: 83px;
-}
-
-.option__starting--last {
-    margin-top: 64px;
-    max-height: 74px;
+    position: absolute;
+    bottom: 93px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .option--shadow {
