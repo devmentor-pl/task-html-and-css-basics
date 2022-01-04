@@ -35,20 +35,18 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--color-alfa);
 }
 
 .header__logo {
     min-width: 120px;
     margin: 5x;
-    padding-left: 30px;
-    padding-top: 26px;
+    padding: 26px 0 0 30px;
 }
 .header__nav {
     min-width: 300px;
     margin: 15px 0;
-    padding-right: 30px;
-    padding-top: 20px;
+    padding: 20px 30px 0 0;
 }
 
 .description__container {
