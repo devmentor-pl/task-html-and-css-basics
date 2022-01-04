@@ -4,20 +4,17 @@
 
 .team__header {
     text-align: center;
-    padding-top: 71px;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 300;
+    padding-top: 71px;
 }
 
 .people__container {
     display: flex;
     justify-content: center;
     height: 470px;
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 100px;
 }
 
 .people {
@@ -26,8 +23,7 @@
 
 .personal__photo {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
     min-width: 133px;
 }
 
@@ -53,21 +49,16 @@
 
 .people__contacts-logos {
     display: flex;
-    /*align-items: center;*/
     justify-content: space-between;
     margin-top: 18px;
-    /*padding-right: 130px;
-    padding-left: 130px;*/
 }
 
 .twitter__logo {
-    margin-left: auto;
-    margin-right: 10px;
+    margin: 0 10px 0 auto;
 }
 
 .facebook__logo {
-    margin-right: auto;
-    margin-left: 10px;
+    margin: 0 auto 0 10px;
 }
 
 
