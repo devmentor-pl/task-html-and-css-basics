@@ -1,14 +1,17 @@
 .footer__content {
     background: rgb(70, 70, 70);
     display: flex;
-    justify-content: space-between;
-    height: 60px;
-    padding-left: 450px;
-    padding-right: 450px;
+    align-items: center;
+    height: 70px;
 }
 
-.footer__text, .footer__logo {
-    margin: 0 auto;
-    width: 430px;
+.footer__text {
+    margin-left: auto;
+    color: white;
+    font-size: 12px;
+}
+
+.footer__logo {
+    margin-right: auto;
 }
 
