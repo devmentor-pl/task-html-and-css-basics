@@ -5,6 +5,7 @@
 }
 
 .logos__container {
+    background-color: rgb(248, 249, 249);
     height: 50px;
     display: flex;
     align-items: center;

@@ -5,7 +5,6 @@
 .beginning {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     color: var(--color-alfa);
-    margin-top: 15px;
 }
 
 .header__container {
@@ -38,16 +37,18 @@
     min-width: 120px;
     margin: 5x;
     padding-left: 30px;
+    padding-top: 26px;
 }
 .header__nav {
     min-width: 300px;
-    margin: 10px 0;
-    padding-right: 0;
+    margin: 15px 0;
+    padding-right: 30px;
+    padding-top: 20px;
 }
 
 .description__container {
     display: flex;
-    height: 610px;
+    height: 630px;
 }
 
 .download__btn {
@@ -80,6 +81,7 @@
 .description__download {
     width: 45%;
     margin-right: 10px;
+    margin-top: 30px;
 }
 
 .picture__first {
@@ -88,7 +90,8 @@
 
 .description__picture {
     width: 55%;
-    padding-top: 30px;;
+    padding-top: 30px;
+    margin-top: 30px;
 }
 
 .picture__second {
