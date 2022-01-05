@@ -3,15 +3,7 @@
     src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400&display=swap');
 }
 
-ul {
-    display: block;
 
-    margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-
-}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -20,14 +12,30 @@ body {
     margin: 0px;
 }
 
+ul {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    cursor: pointer;
+
+}
+
 h1 {
     font-size: 50px;
     font-weight: 700;
 }
 
-p {
-    font-size: 20px;
+h2 {
+    font-size: 40px;
     font-weight: 100;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.6em;
 }
 
 .main {
@@ -112,7 +120,7 @@ p {
 
 .container__row p {
     max-width: 50%;
-    line-height: 160%;
+
 }
 
 .row__button {
@@ -128,25 +136,30 @@ p {
     max-width: 200px;
 }
 
+.row__button:hover {
+    background-color: #47F39D;
+}
+
 img.screen {
 
     transform: rotate(-5deg) scale(0.8);
+    transition: transform .2s cubic-bezier(0.68, -0.55, 0.49, 1.4);
     border: solid 30px white;
     border-radius: 20px;
     background-color: white;
+}
 
+img.screen:hover {
+    transform: scale(0.95) rotate(5deg);
 }
 
 .main__container--center {
     justify-content: center;
 
-
-
 }
 
 .main__container--center h2 {
-    font-weight: 100;
-    font-size: 40px;
+
     letter-spacing: 5px;
 }
 
@@ -161,8 +174,6 @@ img.screen {
 
 .container__row--center p {
     max-width: 100%;
-    font-weight: 100;
-    font-size: 16px;
 
 }
 
@@ -178,8 +189,13 @@ img.screen {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in-out
+}
 
-
+.container__row--center i:hover {
+    opacity: 1;
 }
 
 i.responsive {
@@ -204,4 +220,43 @@ i.customizable {
     background-position: center;
     width: 60px;
     height: 60px;
+}
+
+.main--white {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+img#logos {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.main__row {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.main__row--text {
+    max-width: 600px;
+    padding-left: 100px;
+}
+
+
+.main__row p {
+    line-height: 1.6em;
+
+}
+
+img#imac {
+    max-width: 700px;
+
 }
