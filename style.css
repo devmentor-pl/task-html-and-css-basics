@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     color: white;
     margin: 0px;
+    list-style-type: none;
 }
 
 ul {
@@ -18,7 +19,10 @@ ul {
     margin-block-end: 0;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+
+
 
 }
 
@@ -30,6 +34,7 @@ h1 {
 h2 {
     font-size: 40px;
     font-weight: 100;
+    text-transform: uppercase;
 }
 
 p {
@@ -50,7 +55,6 @@ p {
 .main__container {
     max-width: 1150px;
     margin: auto;
-    /* border: solid 1px black; */
     display: flex;
     justify-content: space-between;
 
@@ -63,8 +67,6 @@ p {
 .container__menu {
     position: relative;
     display: flex;
-    text-decoration: none;
-    list-style-type: none;
     font-weight: 700;
     box-sizing: border-box;
     height: 64px;
@@ -85,6 +87,7 @@ p {
     box-sizing: border-box;
     min-height: 40px;
     padding-top: 20px;
+    cursor: pointer;
 
 
 }
@@ -156,20 +159,21 @@ img.screen:hover {
 .main__container--center {
     justify-content: center;
 
+
 }
 
-.main__container--center h2 {
 
-    letter-spacing: 5px;
-}
 
 .container__row--center {
     text-align: center;
     padding: 20px;
+
+
+}
+
+.main__container--center .container__row--center {
+
     max-width: 20%;
-
-
-
 }
 
 .container__row--center p {
@@ -224,6 +228,7 @@ i.customizable {
 
 .main--white {
     background: white;
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -231,7 +236,7 @@ i.customizable {
 }
 
 img#logos {
-    width: 100%;
+    max-width: 1100px;
     padding-top: 20px;
     padding-bottom: 10px;
 }
@@ -251,12 +256,147 @@ img#logos {
 }
 
 
-.main__row p {
-    line-height: 1.6em;
-
-}
 
 img#imac {
     max-width: 700px;
+
+}
+
+.main--pricing {
+    background: #F8F9F9;
+    color: black;
+}
+
+.main--pricing .main__container--center:first-child {
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.main--pricing .main__container--center h2 {
+
+    margin-block-end: 0;
+}
+
+.main--pricing .main__container--center p {
+    font-size: 24px;
+}
+
+.container__row--center ul {
+    padding-inline-start: 0;
+}
+
+.container__row--center ul>li {
+    margin-bottom: 0.3em;
+}
+
+.container__row--center h1 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+}
+
+span.container-row__title {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+span.container-row__subtext {
+    font-size: 12px;
+    margin-block-end: 50px;
+}
+
+button#container-row__get-started {
+    background-color: #0ABCEB;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    max-width: 200px;
+    position: absolute;
+    bottom: 50px;
+}
+
+button#container-row__get-started:hover {
+    background-color: rgb(30, 200, 235);
+}
+
+.main--pricing .main__container--center .container__row--center:first-child {
+    margin-left: 0;
+}
+
+.main--pricing .main__container--center .container__row--center {
+    align-items: center;
+    padding: 50px 50px 150px 50px;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.main--pricing .main__container--center .container__row--center:nth-child(2) {
+    background: white;
+    /* border: solid 1px black; */
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 17px 2px rgba(0, 0, 0, 0.16);
+}
+
+.main--team {
+    flex-direction: column;
+    background: white;
+    color: black;
+}
+
+.main--team .container__row--center {
+    max-width: none;
+    width: 30%;
+}
+
+.main--team span.container-row__title {
+    margin-top: 30px;
+}
+
+.main--team b {
+    margin-top: 1.3em;
+}
+
+.main--team .container-row__icons img:first-child {
+
+    margin-right: 20px;
+
+}
+
+.main--team .container-row__icons img {
+    width: auto;
+    height: 90%;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+    fill: black;
+}
+
+.footer {
+    background: #464646;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.footer p {
+    margin-right: 10px;
+
+}
+
+.main--footer img {
+
+    width: 100px;
+    display: block;
+    cursor: pointer;
+
 
 }
