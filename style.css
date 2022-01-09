@@ -21,6 +21,7 @@ ul {
     margin-inline-end: 0px;
     text-decoration: none;
     list-style-type: none;
+    padding-inline-start: 0px;
 
 
 
@@ -65,48 +66,57 @@ p {
 }
 
 .container__menu {
-    position: relative;
-    display: flex;
+
     font-weight: 700;
     box-sizing: border-box;
     height: 64px;
-
-
 }
 
-.container__menu li {
+.container__menu ul.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__menu ul>li.title {
     padding: 20px;
     cursor: pointer;
-
+    display: inline-block;
 }
 
-.container__menu li>ul {
+.container__menu ul>li.title>ul.submenu {
     visibility: hidden;
-    padding-left: 1px;
+}
+
+.container__menu ul>li.title>ul.submenu>li {
     text-align: center;
     box-sizing: border-box;
-    min-height: 40px;
+    min-height: 30px;
     padding-top: 20px;
     cursor: pointer;
-
-
 }
 
-.container__menu li:hover {
+
+
+
+.container__menu ul>li.title:hover {
     color: black;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
+
 }
 
-.container__menu li:hover ul {
-    color: white;
-    transition-duration: 1s;
 
+
+.container__menu ul>li.title:hover ul.submenu>li {
+    color: white;
+    transition-duration: 0.5s;
     visibility: visible;
 }
 
-.container__menu li>ul:hover {
+
+
+.container__menu ul>li.title>ul.submenu>li:hover {
     color: black;
-    transition-duration: 1s;
+    transition-duration: .5s;
     visibility: visible;
 }
 
@@ -176,7 +186,15 @@ img.screen:hover {
     max-width: 20%;
 }
 
-.container__row--center p {
+.container__row--center p.container-row-center--text {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1.6em;
     max-width: 100%;
 
 }
@@ -358,6 +376,10 @@ button#container-row__get-started:hover {
 
 .main--team span.container-row__title {
     margin-top: 30px;
+}
+
+.main--team .container__row p {
+    max-width: 100%;
 }
 
 .main--team b {
