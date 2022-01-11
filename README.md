@@ -1,12 +1,12 @@
-![screen of your app](https://via.placeholder.com/1000x300)
+![screen of your app]<img src="assets/WEBSCOPE.png">
 
 # Webscope FreeNova Project
 
 The project features the use of basic HTML and CSS. I have included:
 
-- expandable list menu,
+- Expandable list menu,
 - Bézier curve element transition,
-- hover-over buttons.
+- Hover-over buttons.
 
 
 &nbsp;
