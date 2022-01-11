@@ -1,4 +1,4 @@
-![screen of your app]<img src="assets/WEBSCOPE.png">
+<img src="assets/WEBSCOPE.png">
 
 # Webscope FreeNova Project
 
