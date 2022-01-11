@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova template - HTML & CSS basics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./styles/main.css" type="text/css" media="all" />
+</head>
+
+<body>
+    <header class="header" id="top">
+        <nav class="header__menu wrapper">
+            <a href="#top" class="header__logo-link">
+                <img src="./images/logo.svg" alt="Logo of Nova company" class="header__logo">
+            </a>
+            <ul class="header__menu-list">
+                <li class="header__menu-item"><a href="#team" class="header__menu-link">The Team</a></li>
+                <li class="header__menu-item"><a href="#price" class="header__menu-link">Pricing</a></li>
+                <li class="header__menu-item"><a href="#features" class="header__menu-link">Features</a></li>
+            </ul>
+        </nav>
+        <div class="header__container wrapper">
+            <article class="header__content">
+                <h1 class="header__title">Beautiful Free Nova template</h1>
+                <p class="header__description">A top notch premium quality template for your next web project.</p>
+                <a href="#" class="header__btn btn">Download FREE!</a>
+            </article>
+            <figure class="header__picture">
+                <img class="header__img" src="./images/screen.png" alt="Screenshot of Nova mobile app">
+            </figure>
+        </div>
+    </header>
+    <main class="main">
+        <section class="features" id="features">
+            <div class="features__container wrapper">
+                <h2 class="features__title title">Features</h2>
+                <ul class="features__list">
+                    <li class="features__item">
+                        <div class="features__img">
+                            <img src="./images/responsive.svg" alt="Mobile phone" class="features__picture">
+                        </div>
+                        <h3 class="features__subtitle">fully responsive</h3>
+                        <p class="features__description">Looks amazing on any device: smartphone, tablet, laptop and
+                            desktop.</p>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__img">
+                            <img src="./images/customizable.svg" alt="Wrench and screwdriver" class="features__picture">
+                        </div>
+                        <h3 class="features__subtitle">customizable</h3>
+                        <p class="features__description">Change the colors, pictures or any of the sections to suit your
+                            needs.</p>
+                    </li>
+                    <li class="features__item">
+                        <div class="features__img">
+                            <img src="./images/design.svg" alt="Medal" class="features__picture">
+                        </div>
+                        <h3 class="features__subtitle">slick and beautiful desing</h3>
+                        <p class="features__description">Trendy and fresh desing, fits any website.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="projects__logos">
+                <img src="./images/logos.png" alt="Logos of: Basecamp, grubHub, Trello, buffer, pocket"
+                    class="projects__img">
+            </div>
+            <div class="projects__container wrapper">
+                <div class="projects__container-img">
+                    <img src="./images/imac.png" alt="iMac computer" class="projects__picture">
+                </div>
+                <article class="projects__content">
+                    <h2 class="projects__title title">simple and beautiful</h2>
+                    <p class="projects__description">Use Nova theme for your next web project. It is completely
+                        customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any
+                        kind of use, personal and commercial. Have fun and good luck!</p>
+                </article>
+            </div>
+        </section>
+        <section class="price" id="price">
+            <div class="price__container wrapper">
+                <header class="price__header">
+                    <h2 class="price__title title">choose your pricing plan</h2>
+                    <p class="price__description">Pick any of our super affordable pricing plans</p>
+                </header>
+                <ul class="price__list">
+                    <li class="price__item">
+                        <div class="price__item-wrapper">
+                            <h3 class="price__plan">basic</h3>
+                            <p class="price__amount">$15</p>
+                            <p class="price__period">per month</p>
+                            <ul class="price__info list">
+                                <li class="list__item">Up to 7 Projects</li>
+                                <li class="list__item">2 Additional Developers</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="price__btn btn">Get Started</a>
+                    </li>
+                    <li class="price__item">
+                        <div class="price__item-wrapper">
+                            <h3 class="price__plan">agency</h3>
+                            <p class="price__amount">$55</p>
+                            <p class="price__period">per month</p>
+                            <ul class="price__info list">
+                                <li class="list__item">Up to 25 Projects</li>
+                                <li class="list__item">2 Additional Developers</li>
+                                <li class="list__item">Unlimited Support</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="price__btn btn">Get Started</a>
+                    </li>
+                    <li class="price__item">
+                        <div class="price__item-wrapper">
+                            <h3 class="price__plan">pro</h3>
+                            <p class="price__amount">$75</p>
+                            <p class="price__period">per month</p>
+                            <ul class="price__info list">
+                                <li class="list__item">Up to 25 Projects</li>
+                                <li class="list__item">2 Additional Developers</li>
+                                <li class="list__item">Unlimited Support</li>
+                                <li class="list__item">1.5GB Disk Space</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="price__btn btn">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="team" id="team">
+            <div class="team__container wrapper">
+                <h2 class="team__title title">the team</h2>
+                <ul class="team__list">
+                    <li class="team__item">
+                        <img src="./images/cto.png" alt="Photo of CTO" class="team__img">
+                        <h3 class="team__position">cto</h3>
+                        <h4 class="team__name">Johnny B Good</h4>
+                        <p class="team__description">The brains behind the whole operation</p>
+                        <div class="team__social social">
+                            <a href="#" class="social__link">
+                                <img src="./images/team-twitter.svg" alt="Twitter logo" class="social__logo">
+                            </a>
+                            <a href="#" class="social__link">
+                                <img src="./images/team-facebook.svg" alt="Facebook logo" class="social__logo">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/ceo.png" alt="Photo of CEO" class="team__img">
+                        <h3 class="team__position">ceo</h3>
+                        <h4 class="team__name">Roll Over Beethoven</h4>
+                        <p class="team__description">The one that puts it all together</p>
+                        <div class="team__social social">
+                            <a href="#" class="social__link">
+                                <img src="./images/team-twitter.svg" alt="Twitter logo" class="social__logo">
+                            </a>
+                            <a href="#" class="social__link">
+                                <img src="./images/team-facebook.svg" alt="Facebook logo" class="social__logo">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/cfo.png" alt="Photo of CFO" class="team__img">
+                        <h3 class="team__position">cfo</h3>
+                        <h4 class="team__name">Chuck Berry</h4>
+                        <p class="team__description">The guy with his hand on the wallet</p>
+                        <div class="team__social social">
+                            <a href="#" class="social__link">
+                                <img src="./images/team-twitter.svg" alt="Twitter logo" class="social__logo">
+                            </a>
+                            <a href="#" class="social__link">
+                                <img src="./images/team-facebook.svg" alt="Facebook logo" class="social__logo">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__author">
+            A free template by <img src="./images/webscope.svg" alt="Webscope logo" class="footer__img">
+        </p>
+    </footer>
+</body>
+
+</html>
