@@ -33,8 +33,12 @@ I would like to improve...
 ## 🙋‍♂️ Feel free to contact me
 Find me on:
 <a href="https://www.facebook.com/dawidtch"><img alt="facebook" src="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico"></a>
+
+
 <a href="https://www.instagram.com/dawid.tchorz/"><img alt="instagram" src="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico"></a>
-<a href="www.linkedin.com/in/dawidtch"><img alt="linkedin" src="https://static-exp1.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca"></a>
+
+
+<a href="www.linkedin.com/in/dawidtch"><img alt="linkedin" src="https://static-exp1.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="32px" height="32px"></a>
 
 
 &nbsp;
