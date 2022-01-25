@@ -1,25 +1,52 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(59, 57, 57)
 }
 
+h2 {
+    font-weight: 300;
+}
 .container {
     margin: 0 auto;
     max-width: 1150px;
 }
 
-.background__color {
+.header__background {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     color: white;
 }
 
-/* header */
+.button {
+    min-width: 150px;
+    border: none;
+    color: white;
+    background-color: #26EF8C;
+    font-size: 12px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+}
 
+.button:hover {
+    background-color: #1fc572;
+}
+/* header */
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.header__logo {
+    min-width: 200px;
+}
 
 .nav__links {
+    min-width: 400px;
     display: flex;
-    justify-content: end;
 }
 
 .nav__link {
@@ -27,11 +54,12 @@ body {
     justify-content: center;
     align-items: center;
     min-width: 100px;
+    text-decoration: none;
+    color:white;
 }
 
-.logo {
-    display: flex;
-    
+.nav__link:hover {
+    color: #1fc572
 }
 
 /* TEMPLATE */
@@ -40,33 +68,49 @@ body {
 }
 .template__container {
     display: flex;
+    justify-content: space-between;
+    padding: 50px 50px 100px 50px;
+}
+
+.template__text {
+    width: 40%;
 }
 
 .template__img {
     width: 70%;
+    margin-left: 100px;
+    border: 15px solid;
+    border-radius: 15px;
+    transform: rotate(-5deg); 
+}
+
+.template__description {
+color:rgb(215 215 215)
+font-weight: 200;
 }
 
 /* FEATURES */
 .features {
     background-color: black;
     color: white;
-    padding: 40px;
-    width: 100%;
+    padding: 40px 0 80px 0;
 }
-
-/* .features__title {
-    display: flex;
-    margin: 0 auto;
-} */
+ .features__title {
+    text-align: center;
+} 
 
 .features-container {
     display: flex;
+    justify-content: center;
     padding-top: 60px;
 }
 
-.feature {
-    flex-basis: 33.33333%;
+.features__item {
     text-align: center;
+    max-width: 23%;
+    align-items: center;
+    padding: 25px;
+    
 }
 
 .feature__icon {
@@ -77,29 +121,131 @@ body {
     border-radius: 50%;
     
 }
+
+
 /* LOGOS */
 
 .logos {
     display: flex;
     margin: 0 auto;
+    padding: 10px;
+    background-color: #F8F9F9;
 }
 
 /* MONITOR */
 .monitor {
     display: flex;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
 }
 
-.monitor__photo-container {
-    width: 50%;
+.monitor__photo {
+    max-width: 60%;
+    
 }
 
 .monitor__text {
-    width: 50%;
+    width: 40%;
+    margin-right: 50px;
+    color:#A8AEB7;
+    
 }
 
+.monitor__img {
+    width: 80%;
+}
+
+.monitor__description {
+font-size: 0.9rem;
+line-height: 1,2;
+font-weight: 200;
+
+
+}
 /* PRICING */
+.pricing {
+    background-color: #F8F9F9;
+    padding: 40px;
+}
+.pricing__header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    color:rgb(83, 83, 83);
+
+}
+.pricing__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    margin: 15px;
+}
+
+.price__button {
+    background-color: #1ce2e2;
+    padding: 15px;
+    min-width: 120px;
+    margin-top: 30px;
+}
+
+.price__button:hover {
+    background-color: #2dc5c5;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.price-month {
+    font-size: 0.8rem;
+}
+
+.price__description{
+    font-size: 0.9rem;
+}
+
+.pricing__column--border {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pricing__column {
+    max-width: 25%;
+    align-items: center;
+    padding: 25px;
+}
 
 /* TEAM */
+
+.team {
+    padding: 50px 100px 100px 100px;
+}
+.team__header {
+    text-align: center;
+    margin-bottom: 50px;
+    color:rgb(83, 83, 83);
+}
+
+.team__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.team__info {
+    max-width: 30%;
+    align-items: center;
+    padding: 25px;
+}
+
+.team__description {
+    font-size: 0.8rem;
+}
 
 /* FOOTER */
 .footer {
