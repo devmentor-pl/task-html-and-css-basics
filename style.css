@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.background__color {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: white;
+}
+
+/* header */
+
+
+.nav__links {
+    display: flex;
+    justify-content: end;
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+}
+
+.logo {
+    display: flex;
+    
+}
+
+/* TEMPLATE */
+.template {
+    margin-top: 50px;
+}
+.template__container {
+    display: flex;
+}
+
+.template__img {
+    width: 70%;
+}
+
+/* FEATURES */
+.features {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    width: 100%;
+}
+
+/* .features__title {
+    display: flex;
+    margin: 0 auto;
+} */
+
+.features-container {
+    display: flex;
+    padding-top: 60px;
+}
+
+.feature {
+    flex-basis: 33.33333%;
+    text-align: center;
+}
+
+.feature__icon {
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+/* LOGOS */
+
+.logos {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* MONITOR */
+.monitor {
+    display: flex;
+}
+
+.monitor__photo-container {
+    width: 50%;
+}
+
+.monitor__text {
+    width: 50%;
+}
+
+/* PRICING */
+
+/* TEAM */
+
+/* FOOTER */
+.footer {
+    background-color:rgb(59, 57, 57);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
