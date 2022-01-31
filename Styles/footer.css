@@ -1,0 +1,15 @@
+.footer{
+    background-color:grey;
+    padding: 1rem;
+    color: white;   
+}
+
+.footer__container{
+    display: flex;
+    justify-content: center;
+
+}
+.footer__text{
+    padding: 0 1rem ;
+   
+}

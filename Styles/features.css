@@ -1,0 +1,40 @@
+.features{
+    background-color: black;
+    color: white;
+    padding: 2rem 0;
+    font-size: 150%;   
+}
+
+.features__textmain{
+    text-align: center;
+}
+
+.feature{
+    flex-basis: 33.33%;
+    padding: 2.5rem;
+    text-align: center; 
+}
+
+.feature__icon{
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    padding: 1.2rem;
+}
+
+.features__container{
+    background-color: black;
+    color: white;
+    padding-top: 3rem;
+    display: flex;
+}
+
+.feature__tekst{
+    padding: 1rem;
+    font-size: 60%;
+}
+
+.feature__tekst2{
+    padding: 0,5rem;
+    font-size: 40%;
+}
