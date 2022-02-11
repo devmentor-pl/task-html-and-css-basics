@@ -58,17 +58,3 @@
     border-radius: 25px;
     transform: rotate(-5deg);
 }
-.pageNova__btn{
-    background-color: var(--color-btn-nova);
-    border-style: none;
-    border-radius: 7px;
-    color: var(--color-text-brigth);
-    /*line-height: 35px;*/
-    margin-top: 15px;
-    padding: 15px 50px;
-}
-.pageNova__btn:hover{
-    border-radius: 15px;
-    transition: 0.2s ease-in-out;
-    box-shadow: 0 0 10px 10px rgb(0,0,0,0.2);
-}

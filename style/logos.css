@@ -1,0 +1,8 @@
+.pageLogos__content{
+   background-color: var(--color-bcgr-logos);
+   padding: 15px 0;      
+}
+.pageLogos__image {
+    display: block; 
+    margin:0 auto;    
+}

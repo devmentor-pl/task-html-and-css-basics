@@ -9,62 +9,158 @@
     <link rel="stylesheet" href="./style/base.css">
     <link rel="stylesheet" href="./style/nova.css">
     <link rel="stylesheet" href="./style/features.css">
+    <link rel="stylesheet" href="./style/template.css">
+    <link rel="stylesheet" href="./style/logos.css">
+    <link rel="stylesheet" href="./style/simple.css">
+    <link rel="stylesheet" href="./style/pricing.css">
+    <link rel="stylesheet" href="./style/team.css">
 </head>
+
 <body>
     <section class="pageNova">
         <div class="pageNova__top center">
             <div class="pageNova__logo">
-                <img src="./images/logo.svg"/>
+                <img src="./images/logo.svg" alt="LOGO"/>
             </div>
 
             <ul class="pageNova__nav nav">
-                <li class="nav__item">The Team</li>
-                <li class="nav__item">Pricing</li>
+                <li class="nav__item"><a href="#team">The Team</a></li>
+                <li class="nav__item"><a href="#pricing">Pricing</a></li>
                 <li class="nav__item"><a href="#features">Features</a></li>
             </ul>
-        </div>
-        
+        </div>        
         <div class="pageNova__bottom center">
             <div class="pageNova__left">
                 <h1>Beautiful Free Nova template</h1><br>
                 <h4 class="pageNova__h4">A top notch premium quality template for your next web project.</h4>
-                <button class="pageNova__btn">Download FREE!</button>                
+                <button class="btn btn--green">Download FREE!</button>                
             </div>
             <div class="pageNova__right">
-                <img class="pageNova__picture" src="./images/screen.png"/>
+                <img class="pageNova__picture" src="./images/screen.png" alt="Obrazek z telefonem"/>
             </div>
         </div>
 
     </section>
-    <section id="features" class="pageFeatures">
-        <h3 class="pageFeatures__header center">
+
+    <section id="features" class="template template--dark">
+        <h3 class="template__header center">
             FEATURES
         </h3>
-        <div class="pageFeatures__content center">
-            <div class="pageFeatures__item">
-                <img class="pageFeatures__icon" src="./images/responsive.svg">
-                <h5 class="pageFeatures__h5">FULLY RESPONSIVE</h5>
-                <h6 class="pageFeatures__h6">Looks amazing on any device: smartphone, tablet, laptop and desktop.</h6>
+        <div class="template__content center">
+            <div class="template__item features">
+                <div class="features__icon"><img src="./images/responsive.svg"></div>
+                <h5 class="features__title">FULLY RESPONSIVE</h5>
+                <h6 class="features__description">Looks amazing on any device: smartphone, tablet, laptop and desktop.</h6>
             </div>
-            <div class="pageFeatures__item">
-                <img class="pageFeatures__icon" src="./images/customizable.svg">
-                <h5 class="pageFeatures__h5">CUSTOMIZABLE</h5>
-                <h6 class="pageFeatures__h6">Change the colors, pictures or any of the sections to suit your needs.</h6>
+            <div class="template__item features">
+                <div class="features__icon"><img src="./images/customizable.svg"></div>
+                <h5 class="features__title">CUSTOMIZABLE</h5>
+                <h6 class="features__description">Change the colors, pictures or any of the sections to suit your needs.</h6>
             </div>
-            <div class="pageFeatures__item">
-                <img class="pageFeatures__icon" src="./images/design.svg">
-                <h5 class="pageFeatures__h5">SLICK AND BEAUTIFUL DESIGN</h5>
-                <h6 class="pageFeatures__h6">Trendy and fresh design, fits any website.</h6>
+            <div class="template__item features">
+                <div class="features__icon"><img src="./images/design.svg"></div>                
+                <h5 class="features__title">SLICK AND BEAUTIFUL DESIGN</h5>
+                <h6 class="features__description">Trendy and fresh design, fits any website.</h6>
+            </div>
+        </div>
+    </section>
+
+    <section class="pageLogos">
+        <div class="pageLogos__content center">
+                <img class="pageLogos__image" src="./images/logos.png" alt="Loga">
+        </div>
+    </section>
+
+    <section class="pageSimple">        
+        <img class="pageSimple__image" src="./images/imac.png">    
+        <div class="pageSimple__right">
+            <h3 class="pageSimple__h3">SIMPLE AND BEAUTIFUL</h3>
+            <span class="pageSimple__span">Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</span>
+        </div>
+    </section>
+
+    <section id="pricing" class="template template--bright">
+        <h3 class="template__header center">
+            CHOOSE YOUR PRINCING PLAN            
+        </h3>
+        <h5 class="template__header template__header--noPadding center">
+            Pick any of our super affordable pricing plans
+        </h5> 
+        <div class="template__content center">
+            <div class="template__item pricing">             
+                <h5 class="pricing__type">BASIC</h5>
+                <h6 class="pricing__price">15</h6>
+                <ul class="pricing__contain">
+                    <li>Up to 7 Projects</li>
+                    <li>2 Additional Developers</li>
+                </ul>
+                <button class="btn btn--blue">Get Started</button>
+
+            </div>
+            <div class="template__item pricing pricing--focus">             
+                <h5 class="pricing__type">AGENCY</h5>
+                <h6 class="pricing__price">55</h6>
+                <ul class="pricing__contain">
+                    <li>Up to 25 Projects</li>
+                    <li>2 Additional Developers</li>
+                    <li>Unlimited Support</li>
+                </ul>
+                <button class="btn btn--blue">Get Started</button>
+
+            </div>
+            <div class="template__item pricing">             
+                <h5 class="pricing__type">PRO</h5>
+                <h6 class="pricing__price">75</h6>
+                <ul class="pricing__contain">
+                    <li>Up to 7 Projects</li>
+                    <li>2 Additional Developers</li>
+                    <li>Unlimited Support</li>
+                    <li>1.5GB Disk Space</li>
+                </ul>
+                <button class="btn btn--blue">Get Started</button>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="template template--white">
+        <h3 class="template__header center">
+            THE TEAM           
+        </h3>
+        <div class="template__content center">
+            <div class="template__item person">             
+                <div class="person__foto"><img src="./images/cto.png"> </div>
+                <h3 class="person__position">CTO</h3>
+                <h4 class="person__name">Johny B Good</h6>
+                <h5 class="person__description">The brains behind the whole operation</h6>
+                <div>
+                    <a href="http://twitter.com"><img src="./images/team-twitter.svg"></a>
+                    <a href="http://facebook.com"><img src="./images/team-facebook.svg"></a>
+                </div>                 
+            </div>
+            <div class="template__item person">             
+                <div class="person__foto"><img src="./images/ceo.png"> </div>
+                <h3 class="person__position">CTO</h3>
+                <h4 class="person__name">Johny B Good</h6>
+                <h5 class="person__description">The brains behind the whole operation</h6>
+                <div>
+                    <a href="http://twitter.com"><img src="./images/team-twitter.svg"></a>
+                    <a href="http://facebook.com"><img src="./images/team-facebook.svg"></a>
+                </div>                 
+            </div>
+            <div class="template__item person">             
+                <div class="person__foto"><img src="./images/cfo.png"> </div>
+                <h3 class="person__position">CTO</h3>
+                <h4 class="person__name">Johny B Good</h6>
+                <h5 class="person__description">The brains behind the whole operation</h6>
+                <div>
+                    <a href="http://twitter.com"><img src="./images/team-twitter.svg"></a>
+                    <a href="http://facebook.com"><img src="./images/team-facebook.svg"></a>
+                </div>                 
             </div>
 
         </div>
-
     </section>
-    <section class="pageLogos">
 
-    </section>
-    <section class="pageSimple">
-
-    </section>
 </body>
 </html>
