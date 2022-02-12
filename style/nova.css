@@ -40,18 +40,18 @@
 }
 /*lewa strona*/
 .pageNova__left{
-    padding-top: 50px;
-    padding-left: 15px;
     color: var(--color-text-brigth);    
+    padding-top: 50px;
+    padding-left: 15px;    
 }
-.pageNova__h4{
+.pageNova__h4{    
     line-height: 40px;
     max-width: 300px;    
 }
 /*prawa strona*/
 .pageNova__right{
-    width: 60%;
     padding:5%;
+    width: 60%;    
 }
 .pageNova__picture{
     border: solid 10px white;

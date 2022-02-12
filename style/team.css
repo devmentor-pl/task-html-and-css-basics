@@ -1,5 +1,20 @@
 .person{
+    height: 350px;
+    width: 300px;    
+}
+.person__position{
+    margin-top: 25px;
+}
+.person__name{
+    font-weight: bold;
+    margin-top: 10px;    
+}
+.person__description{
 
+    margin-top: 10px;
+}
+.person__socialMediaIcons{
+    margin-top:20px;
 }
 
 

@@ -1,8 +1,8 @@
 .pageSimple{
-    width: 100%;
     background-color: var(--color-bcgr-simple);
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .pageSimple__image{  
     max-width: calc(50% - 5px);    
@@ -19,13 +19,12 @@
     color: var(--color-text-dark);
     line-height: 100px;
 }
-
 .pageSimple__span{
     display: block;
-    max-width: 360px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 16px;
+    max-width: 360px;    
     line-height: 200%;
 }
 
