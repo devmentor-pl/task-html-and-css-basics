@@ -1,0 +1,12 @@
+.logos {
+    background: rgb(248, 246, 246);
+    height: 10vh;
+    position: relative;
+}
+
+.logos__img {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

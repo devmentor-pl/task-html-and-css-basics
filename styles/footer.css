@@ -1,0 +1,39 @@
+footer {
+    align-items: center;
+    background: grey;
+    color: white;
+    font-size: 12px;
+    height: 6vh;
+    position: relative;
+}
+
+.footer__heading {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer__img {
+    vertical-align: middle;
+}
+
+.footer__socialmedia {
+    left: 80%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.footer__socialmedia__twitter {
+    margin-left: 10px;
+}
+
+.fa-arrow-up {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    transform: translateY(-50%);
+}

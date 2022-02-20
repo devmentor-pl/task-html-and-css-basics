@@ -1,23 +1,28 @@
-body {
+html {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    letter-spacing: 1px;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
-    width: 100%;
-    height: 100vh;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 100vh;
     margin: 0 auto;
+    width: 100%;
+    background-attachment: fixed;
 }
 
 .menu {
-    max-width: 1150px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    display: flex;
+    font-size: 17px;
     height: 10vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1150px;
 }
 
 .menu__img {
@@ -26,26 +31,36 @@ header {
 
 .menu__nav {
     display: flex;
-    color: white;
 }
 
 .menu__nav__item {
-    margin-left: 50px;
-    position: relative;
-    overflow: hidden;
+    color: white;
     cursor: pointer;
+    margin-left: 50px;
+    overflow: hidden;
     padding: 10px;
+    position: relative;
+    transition: .2s;
+}
+
+.menu__nav__item__link {
+    color: white;
+    transition: .2s;
+}
+
+.menu__nav__item:hover  a {
+    color: #f1c40f;
 }
 
 .menu__nav__item::before {
-    content: '';
-    position: absolute;
+    background-color: #f1c40f;
     bottom: 0px;
-    left: -100%;
-    width: 100%;
+    content: '';
     height: 2px;
-    background-color: green;
+    left: -100%;
+    position: absolute;
     transition: .5s;
+    width: 100%;
 }
 
 .menu__nav__item:hover::before {
@@ -53,13 +68,13 @@ header {
 }
 
 .head__container {
-    max-width: 1150px;
-    height: 70vh;
-    margin: 10px auto;
-    display: flex;
-    color: white;
-    justify-content: space-around;
     align-items: center;
+    color: white;
+    display: flex;
+    height: 70vh;
+    justify-content: space-around;
+    margin: 10px auto;
+    max-width: 1150px;
 }
 
 .head__container__headline {
@@ -69,43 +84,48 @@ header {
 
 .head__container__headline--bigger {
     font-size: 36px;
+    font-weight: 700;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
 }
 
 .head__container__headline--smaller {
-    font-size: 18px;
-    max-width: 250px;
-    margin-bottom: 30px;
     color: gainsboro;
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 250px;
 }
 
 .head__container__headline--btn {
-    width: 180px;
-    height: 50px;
+    background-color: #2ecc71;
     border-radius: 10px;
     border: none;
-    background-color: green;
-    color: white;
+    font-size: 15px;
+    height: 50px;
+    transition: .2s;
+    width: 180px;
 }
 
-.head__container__screen {
+.head__container__headline--btn__link {
+    color: white;
+    transition: .2s;
+}
+
+.head__container__headline--btn:hover {
+    background: #f1c40f;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px #bdc3c7;
 }
 
 .head__container__screen__img {
-    width: 90%;
-    transform: rotate(-5deg);
-    margin-left: 50px;
     border-radius: 30px;
-    box-shadow: 0 0 10px 3px white 
+    box-shadow: 0 0 10px 3px white;
+    margin-left: 50px;
+    transform: rotate(-5deg);
+    width: 90%;
 }
 
 .mouse {
-    left: 50%;
     bottom: -7%;
+    left: 50%;
     transform: translateX(-50%);
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&display=swap');
-

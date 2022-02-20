@@ -1,0 +1,111 @@
+.pricing-plan {
+    background: rgb(248, 246, 246);
+    height: 85vh;
+    padding: 20px;
+}
+
+.pricing-plan__heading {
+    margin: 0 auto;
+    max-width: 1150px;
+    text-align: center;
+}
+
+.pricing-plan__heading--bigger {
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.pricing-plan__heading-smaller {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.pricing-plan__menu__list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.pricing-plan__menu__list__item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px grey;
+    height: 55vh;
+    position: relative;
+    transition: .2s;
+    width: 30%;
+}
+
+.pricing-plan__menu__list__item__type {
+    font-size: 25px;
+    left: 50%;
+    position: absolute;
+    text-transform: uppercase;
+    top: 15%;
+    transform: translateX(-50%);
+}
+
+.pricing-plan__menu__list__item__price {
+    font-size: 40px;
+    font-weight: bold;
+    left: 50%;
+    position: absolute;
+    top: 22%;
+    transform: translateX(-50%);
+}
+
+.pricing-plan__menu__list__item__period {
+    left: 50%;
+    position: absolute;
+    top: 33%;
+    transform: translateX(-50%);
+}
+
+.pricing-plan__menu__list__item__benefits {
+    font-size: 18px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    transform: translateX(-50%);
+    width: 227px;
+}
+ 
+.pricing-plan_menu__list__item__btn {
+    background: #2ecc71;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    height: 10%;
+    left: 50%;
+    position: absolute;
+    top: 76%;
+    transform: translateX(-50%);
+    transition: .2s;
+    width: 60%;
+}
+
+.pricing-plan_menu__list__item__btn__link {
+    color: white;
+}
+
+.pricing-plan_menu__list__item__btn:hover {
+    background: #f1c40f;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px #bdc3c7;
+}
+
+.pricing-plan__menu__list__item:hover {
+    box-shadow: 0 0 50px 3px grey;
+    transform: scale(1.12,1.12);
+}
+
+.fa-check {
+    color: green;
+    font-size: 12px;
+}
