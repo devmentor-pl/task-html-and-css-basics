@@ -48,11 +48,11 @@ a {
     transition: .2s;
 }
 
-.menu__nav__item:hover  a {
+.menu__item:hover  a {
     color: #f1c40f;
 }
 
-.menu__nav__item::before {
+.menu__item::before {
     background-color: #f1c40f;
     bottom: 0px;
     content: '';
@@ -63,7 +63,7 @@ a {
     width: 100%;
 }
 
-.menu__nav__item:hover::before {
+.menu__item:hover::before {
     left: 0;
 }
 
