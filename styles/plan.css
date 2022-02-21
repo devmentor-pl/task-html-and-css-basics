@@ -21,7 +21,7 @@
     margin-bottom: 25px;
 }
 
-.pricing-plan__menu__list {
+.pricing-plan__list {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
@@ -29,7 +29,7 @@
     max-width: 1150px;
 }
 
-.pricing-plan__menu__list__item {
+.pricing-plan__item {
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px 3px grey;
@@ -39,7 +39,7 @@
     width: 30%;
 }
 
-.pricing-plan__menu__list__item__type {
+.pricing-plan__item--type {
     font-size: 25px;
     left: 50%;
     position: absolute;
@@ -48,7 +48,7 @@
     transform: translateX(-50%);
 }
 
-.pricing-plan__menu__list__item__price {
+.pricing-plan__item--price {
     font-size: 40px;
     font-weight: bold;
     left: 50%;
@@ -57,14 +57,14 @@
     transform: translateX(-50%);
 }
 
-.pricing-plan__menu__list__item__period {
+.pricing-plan__item--period {
     left: 50%;
     position: absolute;
     top: 33%;
     transform: translateX(-50%);
 }
 
-.pricing-plan__menu__list__item__benefits {
+.pricing-plan__item--benefits {
     font-size: 18px;
     left: 50%;
     position: absolute;
@@ -74,7 +74,7 @@
     width: 227px;
 }
  
-.pricing-plan_menu__list__item__btn {
+.pricing-plan__item--btn {
     background: #2ecc71;
     border-radius: 10px;
     border: none;
@@ -90,17 +90,17 @@
     width: 60%;
 }
 
-.pricing-plan_menu__list__item__btn__link {
+.pricing-plan__link {
     color: white;
 }
 
-.pricing-plan_menu__list__item__btn:hover {
+.pricing-plan__item--btn:hover {
     background: #f1c40f;
     border-radius: 25px;
     box-shadow: 0 0 10px 5px #bdc3c7;
 }
 
-.pricing-plan__menu__list__item:hover {
+.pricing-plan__item:hover {
     box-shadow: 0 0 50px 3px grey;
     transform: scale(1.12,1.12);
 }

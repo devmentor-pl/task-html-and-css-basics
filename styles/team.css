@@ -14,27 +14,27 @@
     font-size: 40px;
 }
 
-.team__heading__menu__list {
+.team__list {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
     max-width: 1150px;
 }
 
-.team__heading__menu__list__item {
+.team__item {
     height: 30vh;
     position: relative;
     width: 30%;
 }
 
-.team__heading__menu__list__item__img {
+.team__item--img {
     left: 50%;
     position: absolute; 
     top: 5%;
     transform: translateX(-50%);
 }
 
-.team__heading__menu__list__job-position {
+.team__item--job-position {
     font-size: 20px;
     left: 50%;
     position: absolute;
@@ -42,7 +42,7 @@
     transform: translateX(-50%);
 }
 
-.team__heading__menu__list__item__name {
+.team__item--name {
     font-size: 13px;
     font-weight: bold;
     left: 50%;
@@ -51,7 +51,7 @@
     transform: translateX(-50%);
 }
 
-.team__heading__menu__list__item__about {
+.team__item--about {
     font-size: 16px;
     left: 50%;
     position: absolute;
@@ -61,14 +61,14 @@
     width: 307px;
 }
 
-.team__heading__menu__list__item__facebook {
+.team__item--facebook {
     bottom: -2%;
     left: 45%;
     position: absolute;
     transform: translateX(-50%);
 }
 
-.team__heading__menu__list__item__twitter {
+.team__item--twitter {
     bottom: -2%;
     left: 55%;
     position: absolute;

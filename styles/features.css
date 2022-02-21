@@ -23,7 +23,7 @@
     text-align: center;
 }
 
-.features__list__item {
+.features__item {
     align-items: center;
     display: flex;
     flex-flow: column wrap;
@@ -32,7 +32,7 @@
     width: 20%;
 }
 
-.features__list__item__logo {
+.features__item--logo {
     align-items: center;
     background: white;
     border-radius: 50%;
@@ -43,11 +43,11 @@
 }
 
 
-.features__list__item__heading {
+.features__item--heading {
     font-size: 23px;
     text-transform: uppercase;
 }
 
-.features__list__item__paragraph {
+.features__item--paragraph {
     font-size: 17px;
 }

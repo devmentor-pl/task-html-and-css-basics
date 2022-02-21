@@ -6,19 +6,19 @@
     padding: 40px;
 }
 
-.imac-section__photo__head {
+.imac-section__head {
     align-self: flex-start;
     margin-left: 150px;
     margin-top: 50px;
     max-width: 433px;
 }
 
-.imac-section__photo__head__heading {
+.imac-section__heading {
     font-size: 40px;
     margin-bottom: 40px;
     text-transform: uppercase;
 }
 
-.imac-section__photo__head__paragraph {
+.imac-section__paragraph {
     font-size: 17px;
 }

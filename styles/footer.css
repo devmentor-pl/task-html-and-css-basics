@@ -25,15 +25,14 @@ footer {
     transform: translateY(-50%);
 }
 
-.footer__socialmedia__twitter {
+.footer__socialmedia--twitter {
     margin-left: 10px;
 }
 
 .fa-arrow-up {
-    color: white;
+    bottom: 2%;
+    color: orange;
     font-size: 23px;
-    position: absolute;
+    position: fixed;
     right: 1%;
-    top: 50%;
-    transform: translateY(-50%);
 }
