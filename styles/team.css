@@ -9,11 +9,6 @@
     text-align: center;
 }
 
-
-.team__heading--bigger {
-    font-size: 40px;
-}
-
 .team__list {
     display: flex;
     justify-content: space-around;
@@ -27,14 +22,14 @@
     width: 30%;
 }
 
-.team__item--img {
+.item__img {
     left: 50%;
     position: absolute; 
     top: 5%;
     transform: translateX(-50%);
 }
 
-.team__item--job-position {
+.item__job-position {
     font-size: 20px;
     left: 50%;
     position: absolute;
@@ -42,7 +37,7 @@
     transform: translateX(-50%);
 }
 
-.team__item--name {
+.item__name {
     font-size: 13px;
     font-weight: bold;
     left: 50%;
@@ -51,7 +46,7 @@
     transform: translateX(-50%);
 }
 
-.team__item--about {
+.item__about {
     font-size: 16px;
     left: 50%;
     position: absolute;
@@ -61,14 +56,14 @@
     width: 307px;
 }
 
-.team__item--facebook {
+.item__facebook {
     bottom: -2%;
     left: 45%;
     position: absolute;
     transform: translateX(-50%);
 }
 
-.team__item--twitter {
+.item__twitter {
     bottom: -2%;
     left: 55%;
     position: absolute;

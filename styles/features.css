@@ -32,7 +32,7 @@
     width: 20%;
 }
 
-.features__item--logo {
+.item__logo {
     align-items: center;
     background: white;
     border-radius: 50%;
@@ -43,11 +43,11 @@
 }
 
 
-.features__item--heading {
+.item__heading {
     font-size: 23px;
     text-transform: uppercase;
 }
 
-.features__item--paragraph {
+.item__paragraph {
     font-size: 17px;
 }

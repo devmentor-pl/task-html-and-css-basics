@@ -82,20 +82,20 @@ a {
 }
 
 
-.head__headline--bigger {
+.headline__bigger {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.head__headline--smaller {
+.headline__smaller {
     color: gainsboro;
     font-size: 20px;
     margin-bottom: 30px;
     max-width: 250px;
 }
 
-.head__headline--btn {
+.headline__btn {
     background-color: #2ecc71;
     border-radius: 10px;
     border: none;
@@ -110,7 +110,7 @@ a {
     transition: .2s;
 }
 
-.head__headline--btn:hover {
+.headline__btn:hover {
     background: #f1c40f;
     border-radius: 25px;
     box-shadow: 0 0 10px 5px #bdc3c7;

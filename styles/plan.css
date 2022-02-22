@@ -10,13 +10,13 @@
     text-align: center;
 }
 
-.pricing-plan__heading--bigger {
+.heading__bigger {
     font-size: 40px;
     margin-bottom: 15px;
     margin-top: 25px;
 }
 
-.pricing-plan__heading-smaller {
+.heading__smaller {
     font-size: 17px;
     margin-bottom: 25px;
 }
@@ -39,7 +39,7 @@
     width: 30%;
 }
 
-.pricing-plan__item--type {
+.item__type {
     font-size: 25px;
     left: 50%;
     position: absolute;
@@ -48,7 +48,7 @@
     transform: translateX(-50%);
 }
 
-.pricing-plan__item--price {
+.item__price {
     font-size: 40px;
     font-weight: bold;
     left: 50%;
@@ -57,14 +57,14 @@
     transform: translateX(-50%);
 }
 
-.pricing-plan__item--period {
+.item__period {
     left: 50%;
     position: absolute;
     top: 33%;
     transform: translateX(-50%);
 }
 
-.pricing-plan__item--benefits {
+.item__benefits {
     font-size: 18px;
     left: 50%;
     position: absolute;
@@ -74,7 +74,7 @@
     width: 227px;
 }
  
-.pricing-plan__item--btn {
+.item__btn {
     background: #2ecc71;
     border-radius: 10px;
     border: none;
@@ -94,7 +94,7 @@
     color: white;
 }
 
-.pricing-plan__item--btn:hover {
+.item__btn:hover {
     background: #f1c40f;
     border-radius: 25px;
     box-shadow: 0 0 10px 5px #bdc3c7;
