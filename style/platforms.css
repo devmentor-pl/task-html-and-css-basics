@@ -1,0 +1,13 @@
+/** @format */
+
+.platforms {
+  text-align: center;
+  height: 7vh;
+  background-color: var(--platforms-section-bgc);
+}
+.platforms__container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

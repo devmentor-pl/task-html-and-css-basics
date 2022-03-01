@@ -1,0 +1,71 @@
+/** @format */
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
+.team__title {
+  margin-bottom: 10%;
+  font-size: var(--h2-size);
+  color: var(--gray-letters);
+  font-weight: 400;
+}
+.team__container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+.team__cto,
+.team__ceo,
+.team__cfo {
+  width: 30%;
+  height: 400px;
+  padding: 10px;
+}
+.cto__face,
+.ceo__face,
+.cfo__face {
+  margin-bottom: 10%;
+}
+.cto__position,
+.ceo__position,
+.cfo__position {
+  color: var(--gray-letters);
+  margin-bottom: 3%;
+}
+.cto__name,
+.ceo__name,
+.cfo__name {
+  margin-bottom: 3%;
+  font-size: 13px;
+  font-weight: 600;
+}
+.cto__short,
+.ceo__short,
+.cfo__short {
+  margin-bottom: 3%;
+  color: var(--gray-letters);
+  font-size: 12px;
+  font-weight: 200;
+}
+.cto__social-container,
+.ceo__social-container,
+.cfo__social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cto__twitter,
+.ceo__twitter,
+.cfo__twitter,
+.cto__fb,
+.ceo__fb,
+.cfo__fb {
+  margin: 3% 10px 0 10px;
+}
