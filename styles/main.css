@@ -19,9 +19,8 @@ li {
     margin: 0 auto;
     padding: 0 20px;
 }
-.app-layout.vp--full {
+.app-layout {
     width: 100%;
-    min-height: 100vh;
 }
 .app-layout.max-width-100 > :nth-child(n) {
     max-width: 100%;
