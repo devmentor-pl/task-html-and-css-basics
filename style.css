@@ -12,3 +12,33 @@ ul,
 li {
     list-style-type: none;
 }
+.app-layout {
+    border: 3px solid green;
+}
+.app-layout > :nth-child(n) {
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 3px solid blue;
+    background-color: red;
+}
+.app-layout > .simple-beautiful {
+    max-width: 100%;
+}
+.app-layout.bg--gradient {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.app-layout.bg--black {
+    background-color: #000;
+}
+.app-layout.bg--white {
+    background-color: #fff;
+}
+.app-layout.bg--gray {
+    background-color: #464646;
+}
+.app-layout.vw--full {
+    width: 100%;
+    min-height: 100vh;
+}
