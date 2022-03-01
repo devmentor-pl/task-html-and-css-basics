@@ -13,15 +13,16 @@ li {
     list-style-type: none;
 }
 .app-layout {
-    border: 3px solid green;
 }
 .app-layout > :nth-child(n) {
     max-width: 1200px;
     margin: 0 auto;
-    border: 3px solid blue;
-    background-color: red;
 }
-.app-layout > .simple-beautiful {
+.app-layout.vp--full {
+    width: 100%;
+    min-height: 100vh;
+}
+.app-layout.max-width-100 > :nth-child(n) {
     max-width: 100%;
 }
 .app-layout.bg--gradient {
@@ -32,13 +33,9 @@ li {
 .app-layout.bg--black {
     background-color: #000;
 }
-.app-layout.bg--white {
-    background-color: #fff;
+.app-layout.bg--lightgray {
+    background-color: #f9fafa;
 }
 .app-layout.bg--gray {
     background-color: #464646;
-}
-.app-layout.vw--full {
-    width: 100%;
-    min-height: 100vh;
 }
