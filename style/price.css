@@ -1,0 +1,91 @@
+/** @format */
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70vh;
+  background-color: var(--platforms-section-bgc);
+}
+.price__header {
+  margin: 3% 0;
+  color: var(--gray-letters);
+  text-align: center;
+}
+.price__title {
+  font-weight: 400;
+  font-size: var(--h2-size);
+  color: var(--gray-letters);
+  margin-bottom: 1%;
+}
+.price__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price__basic,
+.price__agency,
+.price__pro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+  height: 300px;
+  margin: 30px;
+  padding: 20px;
+}
+.price__basic:hover,
+.price__agency:hover,
+.price__pro:hover {
+  background-color: white;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.basic__title,
+.agency__title,
+.pro__title {
+  color: var(--gray-letters);
+  margin-bottom: 3%;
+}
+.basic__price,
+.agency__price,
+.pro__price {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 1%;
+}
+.basic__month,
+.agency__month,
+.pro__month {
+  font-size: 10px;
+  margin-bottom: 7%;
+}
+.basic__project,
+.agency__project,
+.pro__project,
+.basic__developers,
+.agency__developers,
+.pro__developers,
+.agency__support,
+.pro__support,
+.pro__disk-space {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.price-btn {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15%;
+  background-color: var(--blue-btn);
+  border: none;
+  border-radius: 10px;
+  width: 45%;
+  height: 40px;
+  color: var(--white-letters);
+  font-weight: 400;
+}
