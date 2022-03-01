@@ -17,6 +17,7 @@ li {
 .app-layout > :nth-child(n) {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 .app-layout.vp--full {
     width: 100%;
@@ -38,4 +39,17 @@ li {
 }
 .app-layout.bg--gray {
     background-color: #464646;
+}
+
+/* RWD */
+@media screen and (max-width: 1200px) {
+    .app-layout > :nth-child(n) {
+        max-width: 970px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .app-layout > :nth-child(n) {
+        max-width: 720px;
+    }
 }

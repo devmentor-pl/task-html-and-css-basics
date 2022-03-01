@@ -9,7 +9,7 @@
     >
     <meta
         name="viewport"
-        content="width=device-width, initial-scale=1.0"
+        content="width=device-width, initial-scale=1.0, user-scalable=no"
     >
     <link
         rel="preconnect"
@@ -26,7 +26,11 @@
     >
     <link
         rel="stylesheet"
-        href="./style.css"
+        href="./styles/main.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./styles/hero.css"
     >
     <title>Nova SPA Clone</title>
 </head>
@@ -34,7 +38,13 @@
 <body>
     <header class="hero app-layout bg--gradient vp--full">
         <nav class="hero__nav">
-            <img src="./images/logo.svg" alt="nova-image">
+            <a href="#">
+                <img
+                    class="hero__nav__logo"
+                    src="./images/logo.svg"
+                    alt="nova-image"
+                >
+            </a>
             <ul class="hero__nav__list">
                 <li class="hero__nav__item">
                     <a href="#team">The Team</a>
@@ -56,8 +66,8 @@
             <div class="hero__heading__container">
                 <div class="heading__image">
                     <img
-                    src="./images/screen.png"
-                    alt="heading-image"
+                        src="./images/screen.png"
+                        alt="heading-image"
                     >
                 </div>
             </div>
