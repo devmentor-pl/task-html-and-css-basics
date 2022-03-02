@@ -26,7 +26,7 @@ a {
     width: 100%;
 }
 .app-layout.max-width-100 > :nth-child(n) {
-    max-width: 100%;
+    max-width: 1400px;
 }
 .app-layout.bg--gradient {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
