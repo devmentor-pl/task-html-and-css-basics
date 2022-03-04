@@ -5,5 +5,34 @@ header,
 .offer,
 .team,
 footer {
-    outline: 2px lightgreen solid;
+    border: 2px green solid;
+    padding: 2px;
+}
+
+.logo-nav,
+.hero,
+.feature,
+.icons,
+.ads>div,
+.offer-plan,
+.dollers,
+.team-header,
+.team-persons {
+    border: 2px solid blue;
+    padding: 2px;
+    margin: 2px;
+}
+
+.logo,
+.nav,
+.beauty,
+.screen,
+.icons>div,
+.apple__img,
+.apple__desc,
+.dollers>div,
+.team-persons>div {
+    border: 1px orange solid;
+    padding: 2px;
+    margin: 2px;
 }
