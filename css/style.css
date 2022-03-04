@@ -1,8 +1,18 @@
-header,
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header,
 .black,
 .ads,
 .apple,
-.offer,
+.pricing,
 .team,
 footer {
     border: 2px green solid;
@@ -11,7 +21,7 @@ footer {
 
 .logo-nav,
 .hero,
-.feature,
+.features,
 .icons,
 .ads>div,
 .offer-plan,
