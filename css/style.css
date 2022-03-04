@@ -1,5 +1,91 @@
-body {
-    /*background-image: url(../assets/demo.png);*/
+/* COMMON */
+
+html, body {
+    background-image: url(../assets/demo.png);
     background-size: cover;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    min-width: 120px;
+    padding: 2px;
+    color: white;
+    background-color: green;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: lightgreen;
+}
+
+.cta-button--blue {
+    background-color: blue;
+    font-size: 12px;
+}
+
+.cta-button--blue:hover {
+    background-color: lightblue;
+}
+
+/* END OF COMMON */
+
+/* HEADER */
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+/* END OF HEADER */
+
+/* LOGO */
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* END OF LOGO */
+
+/* NAV */
+
+.nav {
+    
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    list-style: none;    
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    color: white;
+    text-decoration: none;
+    transition: font-weight .5s ease-in-out;
+}
+
+.nav__link:hover {
+    font-weight: bold;
+}
+
+/* END OF NAV */
