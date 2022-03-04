@@ -1,36 +1,48 @@
+/* GENERAL */
+
 html,
 body {
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #444;
+}
+
+
+/* END GENERAL */
+
+
+/* FRAMES */
+
 .header,
-.black,
+.features,
 .ads,
 .apple,
 .pricing,
 .team,
 footer {
-    border: 2px green solid;
-    padding: 2px;
+    outline: 2px green solid;
+    width: 100%;
 }
 
 .logo-nav,
 .hero,
-.features,
+.features-title,
 .icons,
 .ads>div,
 .offer-plan,
 .dollers,
 .team-header,
 .team-persons {
-    border: 2px solid blue;
-    padding: 2px;
-    margin: 2px;
+    outline: 2px solid blue;
 }
 
 .logo,
@@ -42,7 +54,88 @@ footer {
 .apple__desc,
 .dollers>div,
 .team-persons>div {
-    border: 1px orange solid;
-    padding: 2px;
-    margin: 2px;
+    outline: 2px orange solid;
 }
+
+
+/* END FRAMES */
+
+
+/* COMMON */
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+
+/* END COMMON */
+
+
+/* HEADER LOGO NAV */
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* END HEADER LOGO NAV */
+
+
+/* HERO */
+
+.hero {
+    display: flex;
+}
+
+.hero__beauty {
+    /* width: 50%; */
+}
+
+.hero_screen {
+    /* width: 50%; */
+}
+
+.screen--width {
+    /* width: 100%; */
+}
+
+
+/* END HERO */
+
+
+/* FEATURES */
+
+
+/* END FEATURES */
+
+
+/* ADS */
+
+
+/* END ADS */
+
+
+/* APPLE */
+
+
+/* END APPLE */
+
+
+/* PRICING */
+
+
+/* END PRICING */
+
+
+/* TEAM */
+
+
+/* END TEAM */
+
+
+/* FOOTER */
+
+
+/* END FOOTER */
