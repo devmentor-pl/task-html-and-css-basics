@@ -13,8 +13,8 @@
 
     <header class="header" id="header">
 
-        <section class="container">
-            <h1 class="logo">
+        <section class="logo container">
+            <h1 class="logo__header">
                 <img class="logo__image" src="./images/logo.svg" alt="logo">
             </h1>
             <nav class="nav">
@@ -31,8 +31,8 @@
                 </ul>
             </nav>
         </section>
-        
-        <section class="container hero" id="hero">
+
+        <section class="hero container" id="hero">
             <div class="hero__info">
                 <h1 class="hero__header">Beautiful Free Nova <br>template</h1>
                 <p class="hero__sub-header">A top notch premium quality template for your next web project</p>
@@ -76,36 +76,61 @@
             </div>
         </section>
 
-        <section>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <h4>Simple and beautiful</h4>
-                <p>Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</p>
-            </div>
+        <section class="design" id="design">
+           <div class="design__container container">
+                <div class="design__image-container">
+                    <img class="design__image" src="./images/imac.png" alt="imac">
+                </div>
+                <div class="design__text-container">
+                    <h3 class="design__header">Simple and beautiful</h3>
+                    <p class="design__text">Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</p>
+                </div>
+           </div>
         </section>
 
-        <section>
-            <div>
-                <h4>Choose your pricing plan</h4>
-                <p>Pick any of our super affordable pricing plans</p>
+        <section class="pricing" id="pricing">
+            <div class="pricing__text-container">
+                <h3 class="pricing__header">Choose your pricing plan</h3>
+                <p class="pricing__text">Pick any of our super affordable pricing plans</p>
             </div>
-            <div>
-                <div>
-                    <p>Basic</p>
-                    <p>$15</p>
-                    <p>per month</p>
-                    <div>
-                        <p>Up to 7 Projects</p>
-                        <p>2 Additional Developers</p>
-                    </div>
-                    <button>Get Started</button>                    
+            <div class="pricing__plans">
+                <div class="pricing__plan">
+                    <p class="pricing__plan-type">Basic</p>
+                    <p class="pricing__plan-price">$15</p>
+                    <p class="pricing__plan-period">per month</p>
+                    <p class="pricing__plan-text">
+                        Up to 7 Projects <br>
+                        2 Additional Developers
+                    </p>
+                    <button class="cta-button--blue">Get Started</button>                    
+                </div>
+                <div class="pricing__plan">
+                    <p class="pricing__plan-type">Agency</p>
+                    <p class="pricing__plan-price">$55</p>
+                    <p class="pricing__plan-period">per month</p>
+                    <p class="pricing__plan-text">
+                        Up to 25 Projects <br>
+                        2 Additional Developers <br>
+                        Unlimited Support
+                    </p>
+                    <button class="cta-button--blue">Get Started</button>                    
+                </div>
+                <div class="pricing__plan">
+                    <p class="pricing__plan-type">Pro</p>
+                    <p class="pricing__plan-price">$75</p>
+                    <p class="pricing__plan-period">per month</p>
+                    <p class="pricing__plan-text">
+                        Up to 25 Projects <br>
+                        2 Additional Developers <br>
+                        Unlimited Support <br>
+                        1.5GB Disk Space
+                    </p>
+                    <button class="cta-button--blue">Get Started</button>                    
                 </div>
             </div>
         </section>
 
-        <section>
+        <section class="team" id="team">
             <div>
                 <h4>The team</h4>
             </div>
