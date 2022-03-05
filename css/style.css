@@ -134,9 +134,13 @@ h5 {
   padding: 2rem;
   width: 25%;
 }
+.features__content__item h5 {
+  color:#fff;
+  font-size:0.9rem;
+}
 .features__content__item p {
   color: #fff;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 1.1rem;
   padding-top: 1rem;
   text-align: center;
