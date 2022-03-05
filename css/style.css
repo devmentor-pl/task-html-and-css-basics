@@ -169,6 +169,12 @@ footer {
     outline: none;
     border: none;
     font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s linear
+}
+
+.hero__button:hover {
+    background-color: #4cd137;
 }
 
 .hero__screen {
@@ -274,7 +280,7 @@ footer {
 }
 
 .ads__img--img {
-    /* width: 37px; */
+    height: 37px;
 }
 
 
@@ -285,19 +291,44 @@ footer {
 
 .apple {
     display: flex;
-    background-color: rgb(236, 28, 28);
+    background-color: white;
+    justify-content: space-between;
 }
 
 .apple__img {
-    width: 50%;
+    width: 49%;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 .apple__img--size {
     width: 100%;
 }
 
+.apple__header {
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding-bottom: 4.4rem;
+    padding-top: 50px;
+    color: #333;
+}
+
 .apple__desc {
-    width: 50%;
+    width: 49%;
+}
+
+.apple__desc--width {
+    max-width: 600px;
+    padding-left: 45px;
+    padding-top: 60px;
+    color: #333;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+
+.apple__text {
+    line-height: 2rem;
+    font-size: 1.2rem;
 }
 
 
