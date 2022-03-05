@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project HTML CSS</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="logo-nav container">
+            <div class="logo">
+                <div class="logo__img">
+                    <img src="./images/logo.svg" alt="logo.svg" class="logo__img--size" />
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav__links">
+                    <a href="./#team" class="nav__link nav__link--active">
+                        <li class="nav___link-li">The Team</li>
+                    </a>
+                    <a href="./#pricing" class="nav__link">
+                        <li class="nav___link-li">Pricing</li>
+                    </a>
+                    <a href="./#features" class="nav__link">
+                        <li class="nav___link-li">Features</li>
+                    </a>
+                </ul>
+            </nav>
+        </nav>
+        <div class="hero container">
+            <div class="hero__text">
+                <h1 class="hero__header">Beaufiful Free Nova template</h1>
+                <p class="hero__paragraph">
+                    A top notch premium quality template for your next web project
+                </p>
+                <button class="hero__button">Download Free!</button>
+            </div>
+            <div class="hero__screen">
+                <div class="hero__screen_img">
+                    <img src="./images/screen.png" alt="screen" class="screen--width" />
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="features" id='features'>
+        <div class="container">
+            <h1 class="features__header">
+                FEATURES
+            </h1>
+            <div class="features__icons">
+                <div class="features__icon">
+                    <div class="features__icon--round">
+                        <img src="./images/responsive.svg" alt="responsive" class="features__img features__img--phone" />
+                    </div>
+                    <h4 class="features__title">FULLY RESPONSIVE</h4>
+                    <p class="features__text">Looks amazing on any device: smartphone, tablet, laptop and desktop</p>
+                </div>
+                <div class="features__icon">
+                    <div class="features__icon--round">
+                        <img src="./images/customizable.svg" alt="customizable" class="features__img" />
+                    </div>
+                    <h4 class="features__title">CUSTOMIZABLE</h4>
+                    <p class="features__text">Change the colors, pictures or any of the sections to suit your needs</p>
+                </div>
+                <div class="features__icon">
+                    <div class="features__icon--round">
+                        <img src="./images/design.svg" alt="design" class="features__img" />
+                    </div>
+                    <h4 class="features__title">SLIK AND BEAUTIFUL DESIGN</h4>
+                    <p class="features__text">Trendy and fresh design, fits any website</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ads">
+        <div class="ads__img container">
+            <img src="./images/logos.png" alt="logos.png" class="ads__img--img" />
+        </div>
+    </div>
+    <div class="apple">
+        <div class="apple__img">
+            <img src="./images/imac.png" alt="imac.png" class='apple__img--size' />
+        </div>
+        <div class="apple__desc">
+            <div class="apple__desc--width">
+                <h3 class="apple__header">SIMPLE AND BEAUTIFUL</h3>
+                <P class="apple__text">
+                    Use Nova theme for your next web project. It is completely customizable so you can change any of the section to fit you needs. Nova Theme is Free for amy kind of use, personal and commercial. Have fun and good luck!
+                </P>
+            </div>
+        </div>
+    </div>
+    <div class="pricing" id="pricing">
+        <div class="container">
+            <div class="pricing__header">
+                <h3 class="pricing__main">CHOOSE YOUR PRICING PLAN</h3>
+                <p class="pricing__submain">
+                    Pick any of our super affordable pricing plans
+                </p>
+            </div>
+            <div class="pricing__details">
+                <div class="pricing__detail">
+                    <h3 class="pricing__title">BASIC</h3>
+                    <p class="pricing__dollers">$15</p>
+                    <p class="pricing__month">per month</p>
+                    <p class="pricing_offer">Up to 7 Projects 2 Aditional Developers</p>
+                    <button class="pricing_buttom">Get Started</button>
+                </div>
+                <div class="pricing__detail">
+                    <h3 class="pricing__title">AGENCY</h3>
+                    <p class="pricing__dollers">$55</p>
+                    <p class="pricing__month">per month</p>
+                    <p class="pricing_offer">Up to 25 Projects 2 Aditional Developers Unlimited Support</p>
+                    <button class="pricing_buttom">Get Started</button>
+                </div>
+                <div class="pricing__detail">
+                    <h3 class="pricing__title">PRO</h3>
+                    <p class="pricing__dollers">$75</p>
+                    <p class="pricing__month">per month</p>
+                    <p class="pricing_offer">Up to 25 Projects 2 Aditional Developers Unlimited Support 1.5GB Disk Space</p>
+                    <button class="pricing_buttom">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="team" id="team">
+        <div class="container">
+            <div class="team__header">
+                THE TEAM
+            </div>
+            <div class="team__persons">
+                <div class="team__person">
+                    <img src="./images/cto.png" alt="team-cto" class="team__person-img" />
+                    <p class="team__paragraph team__paragraph--big">CTO</p>
+                    <p class="team__paragraph team__person--bold">Johnny B Good</p>
+                    <p class="team__paragraph">The brains behind the whole operation</p>
+                    <p class="team__paragraph team__person--icon">
+                        <img src="./images/twitter.svg" alt="twitter" />
+                        <img src="./images/facebook.svg" alt="facebook" />
+                    </p>
+                </div>
+                <div class="team__person">
+                    <img src="./images/ceo.png" alt="team-ceo" class="team__person-img" />
+                    <p class="team__paragraph team__paragraph--big">CEO</p>
+                    <p class="team__paragraph team__person--bold">Roll Over Beethoven</p>
+                    <p class="team__paragraph">The one that puts it all together</p>
+                    <p class="team__paragraph team__person--icon">
+                        <img src="./images/twitter.svg" alt="twitter" />
+                        <img src="./images/facebook.svg" alt="facebook" />
+                    </p>
+                </div>
+                <div class="team__person">
+                    <img src="./images/cfo.png" alt="team-cfo" class="team__person-img" />
+                    <p class="team__paragraph team__paragraph--big">CFO</p>
+                    <p class="team__paragraph team__person--bold">Chuck Berry</p>
+                    <p class="team__paragraph">The guy with his hand on the wallet</p>
+                    <p class="team__paragraph team__person--icon">
+                        <img src="./images/twitter.svg" alt="twitter" />
+                        <img src="./images/facebook.svg" alt="facebook" />
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="footer__text">
+            A free template by
+        </p>
+        <div class="footer__logo">
+            <img src="./images/webscope.svg" alt="webscope" class="footer__logo--size" />
+        </div>
+    </footer>
+</body>
+
+</html>
