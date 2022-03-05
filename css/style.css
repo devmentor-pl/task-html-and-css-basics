@@ -29,14 +29,14 @@ body {
 .pricing,
 .team,
 footer {
-    outline: 2px green solid;
+    /* outline: 2px green solid; */
     width: 100%;
 }
 
 .logo-nav,
 .hero,
-.features-title,
-.icons,
+.features__header,
+.features__icons,
 .ads>div,
 .pricing-plan,
 .pricing-details,
@@ -49,7 +49,7 @@ footer {
 .nav,
 .hero__text,
 .hero__screen,
-.icons>div,
+.features__icon,
 .apple__img,
 .apple__desc,
 .pricing-details>div,
@@ -148,11 +148,11 @@ footer {
     box-sizing: border-box;
 }
 
-.hero__text-header {
+.hero__header {
     font-size: 3rem;
 }
 
-.hero__text-paragraph {
+.hero__paragraph {
     font-size: 1.5rem;
     padding-top: 2rem;
     padding-right: 6rem;
@@ -160,7 +160,7 @@ footer {
     padding-bottom: 2rem;
 }
 
-.hero__text-button {
+.hero__button {
     background-color: #78e08f;
     color: white;
     width: 259px;
@@ -198,6 +198,61 @@ footer {
 .features {
     background-color: black;
 }
+
+.features__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-weight: 300;
+    font-size: 2.23rem;
+    ;
+}
+
+.features__icons {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 160px;
+}
+
+.features__icon {
+    text-align: center;
+    /* padding: 20px 40px 20px 40px; */
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    width: 360px;
+}
+
+.features__icon--round {
+    background-color: white;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 29px;
+    margin-bottom: 30px;
+}
+
+.features__img {
+    width: 30px;
+    height: 30px;
+}
+
+.features__img--phone {
+    width: 40px;
+    height: 40px;
+}
+
+.features__title {
+    margin-bottom: 12px;
+}
+
+.features__text {}
 
 
 /* END FEATURES */
