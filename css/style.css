@@ -38,8 +38,8 @@ footer {
 .features-title,
 .icons,
 .ads>div,
-.offer-plan,
-.dollers,
+.pricing-plan,
+.pricing-details,
 .team-header,
 .team-persons {
     outline: 2px solid blue;
@@ -52,7 +52,7 @@ footer {
 .icons>div,
 .apple__img,
 .apple__desc,
-.dollers>div,
+.pricing-details>div,
 .team-persons>div {
     outline: 2px orange solid;
 }
@@ -65,7 +65,8 @@ footer {
 
 .container {
     margin: 0 auto;
-    max-width: 1150px;
+    /* max-width: 1150px; */
+    max-width: 800px;
 }
 
 
@@ -73,6 +74,10 @@ footer {
 
 
 /* HEADER LOGO NAV */
+
+.header {
+    background-color: rgb(172, 63, 216);
+}
 
 .logo-nav {
     display: flex;
@@ -90,15 +95,15 @@ footer {
 }
 
 .hero__beauty {
-    /* width: 50%; */
+    width: 40%;
 }
 
 .hero_screen {
-    /* width: 50%; */
+    width: 60%;
 }
 
 .screen--width {
-    /* width: 100%; */
+    width: 100%;
 }
 
 
@@ -107,11 +112,19 @@ footer {
 
 /* FEATURES */
 
+.features {
+    background-color: black;
+}
+
 
 /* END FEATURES */
 
 
 /* ADS */
+
+.ads {
+    background-color: rgb(197, 182, 182);
+}
 
 
 /* END ADS */
@@ -119,11 +132,32 @@ footer {
 
 /* APPLE */
 
+.apple {
+    display: flex;
+    background-color: rgb(236, 28, 28);
+}
+
+.apple__img {
+    width: 50%;
+}
+
+.apple__img--size {
+    width: 100%;
+}
+
+.apple__desc {
+    width: 50%;
+}
+
 
 /* END APPLE */
 
 
 /* PRICING */
+
+.pricing-details {
+    display: flex;
+}
 
 
 /* END PRICING */
@@ -131,11 +165,38 @@ footer {
 
 /* TEAM */
 
+.team-persons {
+    display: flex;
+}
+
 
 /* END TEAM */
 
 
 /* FOOTER */
+
+.footer {
+    background-color: #353b48;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    color: white;
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer__logo {
+    width: 110px;
+}
+
+.footer__logo--size {
+    width: 100%;
+}
 
 
 /* END FOOTER */
