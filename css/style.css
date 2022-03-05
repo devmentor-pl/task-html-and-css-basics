@@ -261,7 +261,20 @@ footer {
 /* ADS */
 
 .ads {
-    background-color: rgb(197, 182, 182);
+    /* background-color: rgb(197, 182, 182); */
+    background-color: #f5f6fa;
+}
+
+.ads__img {
+    display: flex;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f5f6fa; */
+}
+
+.ads__img--img {
+    /* width: 37px; */
 }
 
 
@@ -292,6 +305,10 @@ footer {
 
 
 /* PRICING */
+
+.pricing {
+    background-color: #f5f6fa;
+}
 
 .pricing-details {
     display: flex;
