@@ -47,8 +47,8 @@ footer {
 
 .logo,
 .nav,
-.beauty,
-.screen,
+.hero__text,
+.hero__screen,
 .icons>div,
 .apple__img,
 .apple__desc,
@@ -77,7 +77,8 @@ footer {
 /* HEADER LOGO NAV */
 
 .header {
-    background-color: rgb(172, 63, 216);
+    /* background-color: rgb(172, 63, 216); */
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .logo-nav {
@@ -140,19 +141,52 @@ footer {
     display: flex;
 }
 
-.hero__beauty {
-    width: 40%;
+.hero__text {
+    width: 50%;
+    color: white;
+    padding: 10% 5% 0 5%;
+    box-sizing: border-box;
 }
 
-.hero_screen {
-    width: 60%;
+.hero__text-header {
+    font-size: 3rem;
+}
+
+.hero__text-paragraph {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-right: 6rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.hero__text-button {
+    background-color: #78e08f;
+    color: white;
+    width: 259px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.hero__screen {
+    padding: 83px;
+    width: 50%;
+}
+
+.hero__screen_img {
+    width: 107%;
+    background-color: white;
+    border-radius: 30px;
+    transform: rotate(352deg);
 }
 
 .screen--width {
-    /* width: 100%;
-    transform: rotate( 352deg);
-    border: 10px solid white;
-    border-radius: 10px; */
+    border: 20px solid white;
+    border-radius: 30px;
+    width: 95%;
 }
 
 
