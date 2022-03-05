@@ -7,7 +7,7 @@ body {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 .main__description {
-  display:flex;
+  display: flex;
 }
 .header__container,
 .header__content__container,
@@ -17,11 +17,11 @@ body {
 .pricing__title,
 .pricing__content,
 .team__title,
-.team__content {
+.team__content,
+.footer__content {
   max-width: 1150px;
   display: flex;
   margin: 0 auto;
-  /* border:5px solid #2a6aca; */
 }
 .description__container {
   max-width: 1400px;
@@ -32,11 +32,11 @@ body {
   background-color: #000;
 }
 .main__companies {
-  background-color: #F9FAFA;
+  background-color: #f9fafa;
 }
 .main__pricing {
-  background-color: #F8F9F9;
-  padding-bottom:6rem;
+  background-color: #f8f9f9;
+  padding-bottom: 6rem;
 }
 .header__container {
   justify-content: space-between;
@@ -117,8 +117,9 @@ h5 {
   text-align: center;
 }
 .features__content,
-.companies
- {
+.companies,
+.team__content,
+.footer__content {
   justify-content: center;
 }
 .features__title,
@@ -135,24 +136,25 @@ h5 {
   flex-direction: column;
 }
 .features__content__item p {
-    color:#fff;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1.1rem;
-    padding-top:1rem;
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.1rem;
+  padding-top: 1rem;
 }
 .features__title > h2 {
   color: #fff;
+  padding: 4rem 0;
 }
 .features__img {
-    background-color: white;
-    border-radius: 50%;
-    height: 5.625em;
-    width: 5.625em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto auto 1.5rem auto;
+  background-color: white;
+  border-radius: 50%;
+  height: 5.625em;
+  width: 5.625em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto 1.5rem auto;
 }
 .header__button {
   transition-duration: 0.6s;
@@ -179,50 +181,53 @@ h5 {
   box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
 }
 .logos {
-  padding:2rem;
+  padding: 2rem;
 }
-.description__left, .description__right {
-  width:50%;
+.description__left,
+.description__right {
+  width: 50%;
 }
 .description__left {
-  padding:3rem 1rem;
+  padding: 3rem 1rem;
 }
 .description__right {
-  padding:3rem 8rem;
+  padding: 3rem 8rem;
 }
 .description__right h2 {
   text-align: left;
 }
 .description__right p {
-    color:#333;
-    text-align: left;
-    font-weight: 300;
-    line-height: 2rem;
-    font-size: 1rem;
+  color: #333;
+  text-align: left;
+  font-weight: 300;
+  line-height: 2rem;
+  font-size: 1rem;
 }
 .pricing__title h4 {
-  color:#333;
+  color: #333;
   text-align: center;
 }
 .pricing__content {
-  padding-top:6rem;
+  padding-top: 6rem;
   justify-content: center;
 }
 .pricing__content__item {
-  width:calc(100% / 3 - 3rem);
-  padding: 1rem 0 ;
+  width: calc(100% / 3 - 3rem);
+  padding: 1rem 0;
   display: block;
   height: 28rem;
   text-align: center;
+  transition-duration: 0.6s;
+  margin: 1rem;
 }
 .item__content {
   height: 18rem;
 }
 .pricing__content__item button {
   transition-duration: 0.6s;
-  background-color: #58d5f7;
+  background-color: #0abceb;
   border-radius: 10px;
-  border: 1px solid #58d5f7;
+  border: 1px solid #0abceb;
   width: 180px;
   height: 51px;
   margin: 30px auto;
@@ -230,7 +235,6 @@ h5 {
   color: #fff;
   line-height: 1.9rem;
 }
-
 .pricing__content__item button:hover {
   background-color: #1ca6cc;
   border: 1px solid #1ca6cc;
@@ -241,11 +245,11 @@ h5 {
 .item__content h4 {
   font-size: 2.8rem;
   font-weight: bold;
-  color:#333;
+  color: #333;
 }
 .item__content h5 {
-  padding:1rem 0 2rem;
-  font-size:0.85rem;
+  padding: 1rem 0 2rem;
+  font-size: 0.75rem;
 }
 .item__content ul li {
   font-size: 0.9rem;
@@ -253,14 +257,57 @@ h5 {
   line-height: 1.5rem;
 }
 .item__content ul li::before {
-  content:'\2713';
-  font-size:0.8rem;
-  margin-right:0.5rem;
+  content: "\2713";
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
   color: #3aeb8c;
-  display:inline-block;
+  display: inline-block;
   transform: rotate(15deg);
 }
-.selected {
-  border-radius:1rem;
+.pricing__content__item:hover {
+  border-radius: 1rem;
   box-shadow: 0 0 2rem 0 rgb(206, 206, 206);
+  cursor: pointer;
+  background-color: #fff;
+}
+.selected {
+  border-radius: 1rem;
+  box-shadow: 0 0 2rem 0 rgb(206, 206, 206);
+}
+.team__title > h2 {
+  padding: 4rem 0;
+}
+.team__content__item {
+  width: calc(100% / 3 - 3rem);
+  padding: 1rem 0;
+  display: block;
+  height: 28rem;
+  text-align: center;
+  transition-duration: 0.6s;
+}
+.team__content__item h4 {
+  font-size: 1.1rem;
+  color: #333;
+  padding: 0.8rem 0 0;
+}
+.team__content__item h5 {
+  font-size: 0.75;
+  font-weight: 600;
+  color: #333;
+  padding: 0.8rem 0 0;
+}
+.team__content__item p {
+  font-weight: 300;
+  padding: 0.8rem 0;
+}
+.team__social_icon {
+  padding: 0.5rem;
+}
+.footer {
+  background-color: #464646;
+  padding: 1.5rem;
+}
+.footer__text {
+  color: #fff;
+  padding: 0.5rem;
 }
