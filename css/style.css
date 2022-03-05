@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700");
 body {
-  font-size: 0.9rem;
   font-family: "Montserrat";
+  font-size: 0.9rem;
 }
 .header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -19,14 +19,14 @@ body {
 .team__title,
 .team__content,
 .footer__content {
-  max-width: 1150px;
   display: flex;
   margin: 0 auto;
+  max-width: 1150px;
 }
 .description__container {
-  max-width: 1400px;
   display: flex;
   margin: 0 auto;
+  max-width: 1400px;
 }
 .main__features {
   background-color: #000;
@@ -39,10 +39,10 @@ body {
   padding-bottom: 6rem;
 }
 .header__container {
+  align-items: center;
+  height: 6.25rem;
   justify-content: space-between;
   padding-top: 1.5rem;
-  height: 6.25rem;
-  align-items: center;
 }
 .header__logo {
   max-width: 6.25rem;
@@ -57,57 +57,56 @@ body {
   padding: 0.625rem;
 }
 a {
-  text-decoration: none;
-  font-size: 1rem;
   color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
 }
 a:hover {
   color: #58d5f7;
 }
 .header__title {
-  /* padding-right:2rem; */
-  width: 45%;
   min-width: 500px;
+  width: 45%;
 }
 .header__title h4 {
   max-width: 18rem;
 }
 .header__image {
-  width: 55%;
-  min-width: 500px;
+  background: #fff;
+  border-radius: 25px;
+  height: 427px;
   margin: 3rem 0 6rem 0;
+  max-width: 45%;
+  min-width: 500px;
   padding: 1rem;
   transform: rotate(-6deg);
-  max-width: 45%;
-  height: 427px;
-  border-radius: 25px;
-  background: #fff;
+  width: 55%;
 }
 h1 {
-  font-size: 2.25rem;
   color: #fff;
+  font-size: 2.25rem;
   font-weight: 600;
   padding: 2.5em 0 1rem 0;
 }
 h2 {
-  font-size: 2rem;
   color: #333;
+  font-size: 2rem;
   font-weight: 300;
-  text-align: center;
   padding: 4rem 0 2rem 0;
+  text-align: center;
 }
 h3 {
-  font-size: 1.2rem;
   color: #333;
+  font-size: 1.2rem;
   font-weight: 300;
-  text-align: center;
   padding: 2.5rem 0 1.5rem;
+  text-align: center;
 }
 h4 {
-  font-size: 1.1rem;
   color: #fff;
-  line-height: 1.9rem;
+  font-size: 1.1rem;
   font-weight: 300;
+  line-height: 1.9rem;
 }
 h5 {
   display: block;
@@ -128,45 +127,45 @@ h5 {
   display: block;
 }
 .features__content__item {
-  width: 25%;
-  padding: 2rem;
-  margin: 1rem 1rem 3rem 1rem;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  margin: 1rem 1rem 3rem 1rem;
+  padding: 2rem;
+  width: 25%;
 }
 .features__content__item p {
   color: #fff;
-  text-align: center;
   font-weight: normal;
   line-height: 1.1rem;
   padding-top: 1rem;
+  text-align: center;
 }
 .features__title > h2 {
   color: #fff;
   padding: 4rem 0;
 }
 .features__img {
+  align-items: center;
   background-color: white;
   border-radius: 50%;
-  height: 5.625em;
-  width: 5.625em;
   display: flex;
+  height: 5.625em;
   justify-content: center;
-  align-items: center;
   margin: auto auto 1.5rem auto;
+  width: 5.625em;
 }
 .header__button {
-  transition-duration: 0.6s;
   background-color: #25f18b;
   border-radius: 10px;
   border: 1px solid #25f18b;
-  width: 210px;
-  height: 51px;
-  margin: 30px auto;
-  font-size: 1rem;
   color: #fff;
+  font-size: 1rem;
+  height: 51px;
   line-height: 1.9rem;
+  margin: 30px auto;
+  transition-duration: 0.6s;
+  width: 210px;
 }
 .button__container {
   display: flex;
@@ -175,10 +174,10 @@ h5 {
 }
 .header__button:hover {
   background-color: #18af64;
-  border: 1px solid #18af64;
   border-radius: 20px;
-  width: 180px;
+  border: 1px solid #18af64;
   box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+  width: 180px;
 }
 .logos {
   padding: 2rem;
@@ -198,58 +197,58 @@ h5 {
 }
 .description__right p {
   color: #333;
-  text-align: left;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 2rem;
-  font-size: 1rem;
+  text-align: left;
 }
 .pricing__title h4 {
   color: #333;
   text-align: center;
 }
 .pricing__content {
-  padding-top: 6rem;
   justify-content: center;
+  padding-top: 6rem;
 }
 .pricing__content__item {
-  width: calc(100% / 3 - 3rem);
-  padding: 1rem 0;
   display: block;
   height: 28rem;
+  margin: 1rem;
+  padding: 1rem 0;
   text-align: center;
   transition-duration: 0.6s;
-  margin: 1rem;
+  width: calc(100% / 3 - 3rem);
 }
 .item__content {
   height: 18rem;
 }
 .pricing__content__item button {
-  transition-duration: 0.6s;
   background-color: #0abceb;
   border-radius: 10px;
   border: 1px solid #0abceb;
-  width: 180px;
-  height: 51px;
-  margin: 30px auto;
-  font-size: 1rem;
   color: #fff;
+  font-size: 1rem;
+  height: 51px;
   line-height: 1.9rem;
+  margin: 30px auto;
+  transition-duration: 0.6s;
+  width: 180px;
 }
 .pricing__content__item button:hover {
   background-color: #1ca6cc;
-  border: 1px solid #1ca6cc;
   border-radius: 20px;
-  width: 180px;
+  border: 1px solid #1ca6cc;
   box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+  width: 180px;
 }
 .item__content h4 {
+  color: #333;
   font-size: 2.8rem;
   font-weight: bold;
-  color: #333;
 }
 .item__content h5 {
-  padding: 1rem 0 2rem;
   font-size: 0.75rem;
+  padding: 1rem 0 2rem;
 }
 .item__content ul li {
   font-size: 0.9rem;
@@ -257,18 +256,18 @@ h5 {
   line-height: 1.5rem;
 }
 .item__content ul li::before {
+  color: #3aeb8c;
   content: "\2713";
+  display: inline-block;
   font-size: 0.8rem;
   margin-right: 0.5rem;
-  color: #3aeb8c;
-  display: inline-block;
   transform: rotate(15deg);
 }
 .pricing__content__item:hover {
+  background-color: #fff;
   border-radius: 1rem;
   box-shadow: 0 0 2rem 0 rgb(206, 206, 206);
   cursor: pointer;
-  background-color: #fff;
 }
 .selected {
   border-radius: 1rem;
@@ -278,22 +277,22 @@ h5 {
   padding: 4rem 0;
 }
 .team__content__item {
-  width: calc(100% / 3 - 3rem);
-  padding: 1rem 0;
   display: block;
   height: 28rem;
+  padding: 1rem 0;
   text-align: center;
   transition-duration: 0.6s;
+  width: calc(100% / 3 - 3rem);
 }
 .team__content__item h4 {
-  font-size: 1.1rem;
   color: #333;
+  font-size: 1.1rem;
   padding: 0.8rem 0 0;
 }
 .team__content__item h5 {
+  color: #333;
   font-size: 0.75;
   font-weight: 600;
-  color: #333;
   padding: 0.8rem 0 0;
 }
 .team__content__item p {
