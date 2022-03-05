@@ -29,7 +29,7 @@ body {
 .pricing,
 .team,
 footer {
-    /* outline: 2px green solid; */
+    outline: 2px green solid;
     width: 100%;
 }
 
@@ -37,9 +37,9 @@ footer {
 .hero,
 .features__header,
 .features__icons,
-.ads>div,
-.pricing-plan,
-.pricing-details,
+.ads__img,
+.pricing__plan,
+.pricing__details,
 .team__header,
 .team__persons {
     outline: 2px solid blue;
@@ -52,8 +52,8 @@ footer {
 .features__icon,
 .apple__img,
 .apple__desc,
-.pricing-details>div,
-.team__persons>div {
+.pricing__detail,
+.team__person {
     outline: 2px orange solid;
 }
 
@@ -339,10 +339,89 @@ footer {
 
 .pricing {
     background-color: #f5f6fa;
+    color: #333
 }
 
-.pricing-details {
+.pricing__header {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px
+}
+
+.pricing__main {
+    font-weight: 100;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+.pricing__submain {
+    font-size: 1.4rem;
+}
+
+.pricing__details {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+
+.pricing__detail {
+    width: 300px;
+    height: 480px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 40px 20px 40px;
+    position: relative;
+}
+
+.pricing__detail:hover {
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pricing__title {
+    padding-top: 2.2rem;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.pricing__dollers {
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+
+.pricing__month {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pricing_offer {
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.pricing_buttom {
+    position: absolute;
+    bottom: 10px;
+    /* left: 0; */
+    transform: translate(-50%, -50%);
+    background-color: #0097e6;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s linear
+}
+
+.pricing_buttom:hover {
+    background-color: #00a8ff;
 }
 
 
