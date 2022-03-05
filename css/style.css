@@ -40,8 +40,8 @@ footer {
 .ads>div,
 .pricing-plan,
 .pricing-details,
-.team-header,
-.team-persons {
+.team__header,
+.team__persons {
     outline: 2px solid blue;
 }
 
@@ -53,7 +53,7 @@ footer {
 .apple__img,
 .apple__desc,
 .pricing-details>div,
-.team-persons>div {
+.team__persons>div {
     outline: 2px orange solid;
 }
 
@@ -351,8 +351,57 @@ footer {
 
 /* TEAM */
 
-.team-persons {
+.team {
+    color: #222f3e;
+}
+
+.team__header {
+    height: 220px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.team__persons {
+    display: flex;
+    justify-content: center;
+}
+
+.team__person {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 30px;
+    padding-bottom: 200px;
+    padding-top: 40px;
+}
+
+.team__person-img {
+    width: 160px;
+    padding-bottom: 40px;
+}
+
+.team__paragraph {
+    padding-top: 20px;
+    font-size: 1.1rem;
+    ;
+}
+
+.team__person--icon {
+    color: black;
+}
+
+.team__paragraph--big {
+    font-size: 1.4rem;
+    ;
+}
+
+.team__person--bold {
+    font-weight: bold;
 }
 
 
