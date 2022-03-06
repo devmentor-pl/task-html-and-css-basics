@@ -179,29 +179,34 @@ body {
 
 .info__container {
     display: flex;
-    width: 90vw;
+    width: 80vw;
     justify-content: space-between;
-    margin: 70px 0;
 
 }
 
-.info__monitor,
-.info__details {
+.info__monitor {
+    max-width: 600px;
     flex-basis: 50%;
 }
+
+.info__details {
+    flex-basis: 50%;
+    margin: 35px 0 0 50px;
+}
+
 
 .info__header {
     font-size: 30px;
     font-weight: 300;
-    margin: 20px 0 30px 30px;
+    margin-bottom: 40px;
+
 }
 
 .info__paragraph {
     font-size: 15px;
     font-weight: 300;
     line-height: 30px;
-    width: 60%;
-    margin: 20px 0 30px 30px;
+    width: 75%;
 }
 
 /*pricing*/
