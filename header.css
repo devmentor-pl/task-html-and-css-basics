@@ -18,15 +18,31 @@
     color: black;
 }
 
-.header__section div:first-child {
+.header__section__left {
     width: 30%;
     height: 400px;
     border: 2px solid black;
 
 }
 
-.header__section div:last-child {
+.header__section__right {
     width: 60%;
     height: 400px;
     border: 2px solid black;
+}
+
+.header__section__right-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+    height: 350px;
+    transform: rotate(-6deg);
+
+
+}
+
+.header__section__right-image>img {
+    border: 10px solid white;
+    border-radius: 20px;
 }
