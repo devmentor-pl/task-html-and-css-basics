@@ -141,7 +141,7 @@ h3 {
 
 .hero__image {    
     width: 59%;
-    padding-top: 24px;
+    padding: 20px 20px;
     text-align: center;
     border: 3px solid orange;
 }
@@ -182,7 +182,7 @@ h3 {
 
 .feature {
     min-height: 240px;
-    margin: 30px 5px 5px;
+    margin: 30px 5px;
     padding: 20px;
     flex-basis: 18%;    
     text-align: center;
@@ -192,12 +192,13 @@ h3 {
 .feature__icon {
     height: 70px;
     width: 70px;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    box-shadow: 4px 8px 15px 3px rgba(255, 255, 255, 0.25);
 }
 
 .feature__img {
@@ -214,6 +215,67 @@ h3 {
     font-size: 12px;
 }
 
-
-
 /* END OF FEATURES */
+
+/* MEDIA */
+
+.media {
+    max-height: 70px;
+    padding: 5px;
+    background-color: #fcfcfc;
+    border: 3px solid green;
+}
+
+.media__container {
+    max-height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.media__logos {
+    height: 25px;
+}
+
+/* END OF MEDIA */
+
+/* DESIGN */
+
+.design {
+    padding: 5px;
+    border: 3px solid green;
+}
+
+.design__container {    
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid blue;
+}
+
+.design__image-container,
+.design__text-container {
+    width: 45%;
+    border: 3px solid orange;
+}
+
+.design__image-container {
+    padding: 40px 50px;
+}
+
+.design__image {
+    height: 490px;
+}
+
+.design__text-container {
+    padding: 45px 55px;
+}
+
+.design__text {
+    max-width: 350px;
+    padding-top: 15px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+/* END OF DESIGN */
