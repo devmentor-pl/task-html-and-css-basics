@@ -4,18 +4,24 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.header__container,
+.footer__container,
+.hero__container {
+    max-width: 1150px;
+    display: flex;
+}
+
 /*header*/
-.header {
+
+
+
+/*hero*/
+.header-hero__wrapper {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     height: 70vh;
+    width: 100vw;
 }
 
-.header__container,
-.footer__container {
-    max-width: 1150px;
-}
-
-/*header - hero*/
 
 /*footer*/
 .footer {
@@ -31,7 +37,6 @@ body {
 }
 
 .footer__container {
-    display: flex;
     color: white;
     align-items: center;
 }
