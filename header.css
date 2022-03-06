@@ -1,0 +1,32 @@
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    padding-top: 30px;
+
+}
+
+
+
+
+
+.header__nav>ul>li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.header__nav>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.header__section div:first-child {
+    width: 30%;
+    height: 400px;
+    border: 2px solid black;
+
+}
+
+.header__section div:last-child {
+    width: 60%;
+    height: 400px;
+    border: 2px solid black;
+}
