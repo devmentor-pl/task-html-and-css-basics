@@ -181,6 +181,7 @@ body {
     display: flex;
     width: 80vw;
     justify-content: space-between;
+    margin: 60px 0;
 
 }
 
