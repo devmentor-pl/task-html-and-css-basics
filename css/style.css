@@ -42,12 +42,14 @@ h3 {
 }
 
 .cta-button--blue {
-    background-color: blue;
+    min-width: 145px;
+    margin-bottom: 61px;
+    background-color: #78daf4;
     font-size: 12px;
 }
 
 .cta-button--blue:hover {
-    background-color: lightblue;
+    background-color: #6abfd6;
 }
 
 /* END OF COMMON */
@@ -279,3 +281,69 @@ h3 {
 }
 
 /* END OF DESIGN */
+
+/* PRICING */
+
+.pricing {
+    height: 100vh;
+    padding: 5px;
+    background-color: #fbfcfc;
+    border: 3px solid green;
+}
+
+.pricing__text-container {
+    display: block;
+    text-align: center;    
+}
+
+.pricing__header {
+    margin: 20px auto 10px;
+    border: 3px solid orange
+}
+
+.pricing__text {
+    margin: 5px auto 20px;
+    border: 3px solid orange
+}
+
+.pricing__plans {
+    padding-bottom: 55px;
+    justify-content: center;
+}
+
+.pricing__plan {
+    width: 27%;
+    margin: 5px;    
+    text-align: center;
+    transition: background-color, border-radius, box-shadow .3s ease-in-out;
+    border: 3px solid orange;
+}
+
+.pricing__plan:hover {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+}
+
+.pricing__plan-type {
+    margin: 58px auto 0;
+    text-transform: uppercase;    
+}
+
+.pricing__plan-price {
+    margin: 11px auto 0;
+    font-size: 40px;
+    font-weight: bold;    
+}
+
+.pricing__plan-period {
+    margin: 0 auto 25px;
+    font-size: 12px;    
+}
+
+.pricing__plan-text {
+    min-height: 106px;
+    font-size: 14px;    
+}
+
+/* END OF PRICING */
