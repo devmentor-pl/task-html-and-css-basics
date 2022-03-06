@@ -27,15 +27,16 @@
     <header class="header">
         <div class="header__container">
 
-            <figure class="header__logo"><img
-                    src="./images/logo.svg"
-                    alt="Logo"
-                ></figure>
+            <img
+                class="header__logo"
+                src="./images/logo.svg"
+                alt="Logo"
+            >
             <nav class="header__nav">
                 <ul class="header__nav-menu">
-                    <li class="header__menu-item">The Team</li>
-                    <li class="header__menu-item">Pricing</li>
-                    <li class="header__menu-item">Features</li>
+                    <li class="header__menu-item"><a href="">The Team</a></li>
+                    <li class="header__menu-item"><a href="">Pricing</a></li>
+                    <li class="header__menu-item"><a href="">Features</a></li>
                 </ul>
             </nav>
         </div>
@@ -47,14 +48,17 @@
             <section class="hero__download">
                 <h2 class="hero__download-header">Beautiful Free Nova template</h2>
                 <p class="hero__download-paragraph">A top notch premium quality template to your next web
-                    project</p>
-                <button class="hero__download-btn">Download Free!</button>
+                    project.</p>
+                <button class="hero__download-btn">Download FREE!</button>
             </section>
+
             <section class="hero__screen">
-                <img
-                    src="./images/screen.png"
-                    alt=""
-                >
+                <div class="hero__img-wrapper">
+                    <img
+                        src="./images/screen.png"
+                        alt=""
+                    >
+                </div>
             </section>
 
         </div>
@@ -64,7 +68,15 @@
 
 
 <main class="main">
+    <section class="features">
+        <header class="features__header">FEATURES</header>
+        <div class="features__container">
+            <div class="features__responsive"></div>
+            <div class="features__customizable"></div>
+            <div class="features__design"></div>
 
+        </div>
+    </section>
 
 </main>
 

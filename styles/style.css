@@ -4,6 +4,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.header,
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
 .header__container,
 .footer__container,
 .hero__container {
@@ -11,15 +18,100 @@ body {
     display: flex;
 }
 
+/*header and hero wrap*/
+
+.header-hero__wrapper {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 78vh;
+    width: 100vw;
+}
+
 /*header*/
 
+.header__container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.header__nav-menu {
+    display: flex;
+}
+
+.header__menu-item {
+    padding: 0 10px;
+}
+
+.header__menu-item a,
+.header__menu-item a:visited {
+    text-decoration: none;
+    color: white;
+}
 
 
 /*hero*/
-.header-hero__wrapper {
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    height: 70vh;
-    width: 100vw;
+
+.hero__container {
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+}
+
+.hero__download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__download-header {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.hero__download-paragraph {
+    font-weight: 200;
+    font-size: 18px;
+    padding: 20px 40% 20px 0;
+}
+
+.hero__download-btn {
+    width: 200px;
+    color: white;
+    background-color: rgb(37, 241, 139);
+    font-size: 14px;
+    border: none;
+    padding: 15px 0;
+    border-radius: 10px;
+    transition: border-radius 0.2s linear;
+}
+
+.hero__download-btn:hover {
+    border-radius: 20px;
+}
+
+
+.hero__screen {
+    display: flex;
+    justify-content: right;
+    padding-right: 35px;
+}
+
+.hero__img-wrapper {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 110%;
+    margin: 40px 70px 0 0;
+    transform: rotate(-6deg);
+    width: 70%;
+}
+
+.hero__img-wrapper img {
+    padding: 15px;
+
+
+
 }
 
 
