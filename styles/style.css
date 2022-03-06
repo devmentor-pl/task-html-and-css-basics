@@ -50,6 +50,10 @@ body {
     color: white;
 }
 
+.header__menu-item a:hover {
+    color: #0ABCEB;
+}
+
 
 /*hero*/
 
@@ -89,6 +93,7 @@ body {
 
 .hero__download-btn:hover {
     border-radius: 20px;
+    background-color: rgb(106, 255, 180);
 }
 
 
