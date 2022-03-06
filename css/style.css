@@ -56,12 +56,12 @@ h3 {
 /* HEADER */
 
 .header {
-    height: 100vh;
+    min-height: 640px;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235)); 
 }
 
 .header__container {  
-    height: 10vh;  
+    height: 60px;  
     padding: 15px;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +111,7 @@ h3 {
 /* HERO */
 
 .hero {    
-    height: 80vh;
+    height: 500px;
     justify-content: space-between;
     color: white;    
 }
@@ -156,7 +156,7 @@ h3 {
 
 .features {
     height: 440px;
-    padding-top: 30px;
+    padding-top: 14px;
     background-color: black;
     color: white;
 }
@@ -182,7 +182,7 @@ h3 {
 .feature__icon {
     height: 70px;
     width: 70px;
-    margin: 10px auto;
+    margin: 12px auto;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -234,11 +234,12 @@ h3 {
     padding: 5px;
 }
 
-.design__container {    
+.design__container {
+    max-width: 1280px;    
     padding: 10px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .design__image-container,
@@ -270,7 +271,7 @@ h3 {
 /* PRICING */
 
 .pricing {
-    height: 100vh;
+    height: 640px;
     padding: 5px;
     background-color: #f6f8f8;
 }
@@ -281,7 +282,7 @@ h3 {
 }
 
 .pricing__header {
-    margin: 35px auto 15px;
+    margin: 36px auto 15px;
 }
 
 .pricing__text {
@@ -307,7 +308,7 @@ h3 {
 }
 
 .pricing__plan-type {
-    margin: 70px auto 0;
+    margin: 72px auto 0;
     text-transform: uppercase;    
 }
 
@@ -332,7 +333,7 @@ h3 {
 /* TEAM */
 
 .team {
-    height: 90vh;
+    height: 580px;
 }
 
 .team__header-container {
@@ -342,7 +343,7 @@ h3 {
 }
 
 .team__header {
-    margin: 75px auto 30px;
+    margin: 60px auto 30px;
 }
 
 .team__members {
@@ -361,7 +362,7 @@ h3 {
 }
 
 .team__member-position {
-    margin: 3px auto;
+    margin: 5px auto;
 }
 
 .team__member-name {
@@ -384,7 +385,7 @@ h3 {
 /* FOOTER */
 
 .footer {
-    height: 10vh;
+    height: 63px;
     background-color: #525252;
     color: white;
 }
