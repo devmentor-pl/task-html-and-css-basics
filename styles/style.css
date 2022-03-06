@@ -1,1 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 70vh;
+}
+
+.header__container,
+.footer__container {
+    max-width: 1150px;
+}
+
+/*header - hero*/
+
+/*footer*/
+.footer {
+    background-color: rgb(70, 70, 70);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__logo,
+.footer__img {
+    padding: 6px;
+}
+
+.footer__container {
+    display: flex;
+    color: white;
+    align-items: center;
+}
