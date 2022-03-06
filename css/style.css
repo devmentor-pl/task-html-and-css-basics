@@ -20,8 +20,7 @@ h3 {
     max-width: 1024px;
     padding: 10px;
     margin: 0 auto;
-    display: flex;
-    border: 3px solid blue;
+    display: flex;    
 }
 
 .cta-button {
@@ -58,8 +57,7 @@ h3 {
 
 .header {
     height: 100vh;
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    border: 3px solid green;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235)); 
 }
 
 .header__container {  
@@ -72,10 +70,6 @@ h3 {
 
 /* LOGO */
 
-.logo__header {
-    border: 3px solid orange;
-}
-
 .logo__image {
     width: 70%;
     padding: 5px;
@@ -87,7 +81,6 @@ h3 {
 
 .nav {
     padding-right: 30px;
-    border: 3px solid orange;
 }
 
 .nav__links {
@@ -126,7 +119,6 @@ h3 {
     width: 37%;
     padding-top: 36px;
     padding-left: 10px;
-    border: 3px solid orange;
 }
 
 .hero__header {
@@ -145,15 +137,12 @@ h3 {
     width: 59%;
     padding: 20px 20px;
     text-align: center;
-    border: 3px solid orange;
 }
 
 .hero__image-file {
     width: 72%;
     -ms-transform: rotate(354deg);
-    /* IE 9 */
     -webkit-transform: rotate(354deg);
-    /* Chrome, Safari, Opera */
     transform: rotate(354deg);
     border: 14px solid white;
     border-bottom: 74px solid white;
@@ -168,8 +157,7 @@ h3 {
     height: 440px;
     padding-top: 20px;
     background-color: black;
-    color: white;        
-    border: 3px solid green;
+    color: white;
 }
 
 .features__header-container {
@@ -188,7 +176,6 @@ h3 {
     padding: 20px;
     flex-basis: 18%;    
     text-align: center;
-    border: 3px solid orange;
 }
 
 .feature__icon {
@@ -224,8 +211,7 @@ h3 {
 .media {
     max-height: 70px;
     padding: 5px;
-    background-color: #fcfcfc;
-    border: 3px solid green;
+    background-color: #f6f8f8;
 }
 
 .media__container {
@@ -244,7 +230,6 @@ h3 {
 
 .design {
     padding: 5px;
-    border: 3px solid green;
 }
 
 .design__container {    
@@ -252,13 +237,11 @@ h3 {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 3px solid blue;
 }
 
 .design__image-container,
 .design__text-container {
     width: 45%;
-    border: 3px solid orange;
 }
 
 .design__image-container {
@@ -287,8 +270,7 @@ h3 {
 .pricing {
     height: 100vh;
     padding: 5px;
-    background-color: #fbfcfc;
-    border: 3px solid green;
+    background-color: #f6f8f8;
 }
 
 .pricing__text-container {
@@ -297,13 +279,10 @@ h3 {
 }
 
 .pricing__header {
-    margin: 20px auto 10px;
-    border: 3px solid orange
-}
+    margin: 20px auto 10px;}
 
 .pricing__text {
     margin: 5px auto 20px;
-    border: 3px solid orange
 }
 
 .pricing__plans {
@@ -316,7 +295,6 @@ h3 {
     margin: 5px;    
     text-align: center;
     transition: background-color, border-radius, box-shadow .3s ease-in-out;
-    border: 3px solid orange;
 }
 
 .pricing__plan:hover {
@@ -347,3 +325,78 @@ h3 {
 }
 
 /* END OF PRICING */
+
+/* TEAM */
+
+.team {
+    height: 90vh;
+}
+
+.team__header-container {
+    min-height: 120px;
+    display: block;
+    text-align: center;   
+}
+
+.team__header {
+    margin: 55px auto 30px;
+}
+
+.team__members {
+    justify-content: center;
+}
+
+.team__member {
+    width: 25%;
+    margin: 5px;        
+    text-align: center;
+}
+
+.team__member-avatar {
+    width: 110px;
+    margin: 20px auto;
+}
+
+.team__member-position {
+    margin: 3px auto;
+}
+
+.team__member-name {
+    margin: 5px auto;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.team__member-text {
+    font-size: 12px;
+}
+
+.team__member-twitter, 
+.team__member-fb {
+    margin: 0 5px 110px;
+}
+
+/* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    height: 10vh;
+    background-color: #525252;
+    color: white;
+}
+
+.footer__container {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 11px;
+}
+
+.footer__image {
+    margin: 0 10px;
+}
+
+/* END OF FOOTER */
