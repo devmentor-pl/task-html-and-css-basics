@@ -1,5 +1,4 @@
-
-.main__background-color{
+.main__background-color {
     background-color: black;
 }
 
@@ -46,3 +45,16 @@
     text-align: center;
 }
 
+.main__section4__container {
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__section4__container>div>img {
+    width: 65%;
+}
+
+.main__section4__container>div:last-child {
+    width: 30%;
+}
