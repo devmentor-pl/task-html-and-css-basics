@@ -19,14 +19,28 @@
 }
 
 .header__section__left {
-    width: 30%;
+    width: 40%;
     height: 400px;
     border: 2px solid black;
 
 }
 
+.header__section__left>p:first-child {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+.header__section__left>p:last-child {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
 .header__section__right {
-    width: 60%;
+    width: 55%;
     height: 400px;
     border: 2px solid black;
 }
