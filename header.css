@@ -7,6 +7,7 @@
 .header__container {
     justify-content: space-between;
     align-items: center;
+
 }
 
 .header__section {
@@ -28,7 +29,7 @@
 
 .header__section__left {
     width: 40%;
-    height: 450px;
+    height: 600px;
 
 
 }
@@ -49,7 +50,7 @@
 
 .header__section__right {
     width: 55%;
-    height: 450px;
+    height: 600px;
 
 }
 
