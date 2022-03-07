@@ -7,7 +7,7 @@
     color: white;
     justify-content: center;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 70px;
 
 }
 
@@ -77,11 +77,63 @@
 .main__section6__container {
     justify-content: space-around;
     align-items: center;
-    height: 500px;
+    height: 550px;
+    padding-top: 40px;
 }
 
 .main__section6__container div {
-    height: 400px;
+    height: 370px;
     width: 300px;
-    background-color: aqua;
+    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.main__section6__container>div:nth-child(2) {
+    box-shadow: 0 0 70px 1px grey;
+}
+
+.main__section6__container>div>p {
+    font-size: 70px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 110px;
+}
+
+.main__section6__container>div>button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: #0ABCEB;
+
+}
+
+.main__section6__container>div>button>a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.main__section7__container {
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.main__section8__container {
+    height: 500px;
+    justify-content: space-around;
+    
+    text-align: center;
+
+
+}
+
+.main__section8__container>div>h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
