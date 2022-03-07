@@ -1,0 +1,46 @@
+.team {
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.team__header {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 40px 0 60px;
+}
+
+.team__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.team__item {
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__item-photo figcaption {
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.team__item-name {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.team__item-details {
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 14px;
+}

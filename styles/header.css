@@ -1,0 +1,42 @@
+.header-hero__wrapper {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 80vh;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.header__container {
+    max-width: 1150px;
+    display: flex;
+}
+
+.header__container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.header__nav-menu {
+    display: flex;
+}
+
+.header__menu-item {
+    padding: 0 10px;
+}
+
+.header__menu-item a,
+.header__menu-item a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.header__menu-item a:hover {
+    color: #0ABCEB;
+}

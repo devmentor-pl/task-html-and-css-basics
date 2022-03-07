@@ -1,0 +1,12 @@
+.partners {
+    background-color: rgb(249, 250, 250);
+}
+
+.partners__img {
+    margin: 30px;
+}
+
+.partners {
+    display: flex;
+    justify-content: center;
+}
