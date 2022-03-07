@@ -45,6 +45,14 @@
     text-align: center;
 }
 
+.main__background-color2 {
+    background-color: whitesmoke;
+}
+
+.main__section3__container {
+    height: 100px;
+}
+
 .main__section4__container {
     padding-top: 20px;
     justify-content: space-between;
@@ -57,4 +65,23 @@
 
 .main__section4__container>div:last-child {
     width: 30%;
+}
+
+.main__section5__container {
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 70px;
+}
+
+.main__section6__container {
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.main__section6__container div {
+    height: 400px;
+    width: 300px;
+    background-color: aqua;
 }
