@@ -4,7 +4,15 @@
 
 }
 
+.header__container {
+    justify-content: space-between;
+    align-items: center;
+}
 
+.header__section {
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 
@@ -21,7 +29,7 @@
 .header__section__left {
     width: 40%;
     height: 450px;
-    border: 2px solid black;
+
 
 }
 
@@ -42,7 +50,7 @@
 .header__section__right {
     width: 55%;
     height: 450px;
-    border: 2px solid black;
+
 }
 
 .header__section__right-image {

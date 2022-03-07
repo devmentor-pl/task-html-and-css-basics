@@ -1,0 +1,48 @@
+
+.main__background-color{
+    background-color: black;
+}
+
+
+.main__section1__container {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+
+
+.main__section2__container {
+    height: 400px;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.main__section2__container>div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100px;
+
+}
+
+
+.main__section2__container>div>img {
+
+
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.main__section2__container>div>p {
+    margin-top: 60px;
+    text-align: center;
+}
+
