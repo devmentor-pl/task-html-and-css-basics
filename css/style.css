@@ -11,7 +11,8 @@ a {
 }
 
 h3 {
-    font-size: 26px;
+    margin-top: 20px;
+    font-size: 28px;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -25,6 +26,7 @@ h3 {
 
 .cta-button {
     min-width: 180px;
+    margin-top: 14px;
     padding: 14px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -73,7 +75,7 @@ h3 {
 
 .logo__image {
     width: 70%;
-    padding: 5px;
+    margin-top: 40px;
 }
 
 /* END OF LOGO */
@@ -81,7 +83,8 @@ h3 {
 /* NAV */
 
 .nav {
-    padding-right: 30px;
+    padding-right: 15px;
+    margin-top: 40px;
 }
 
 .nav__links {
@@ -118,30 +121,31 @@ h3 {
 
 .hero__info {
     width: 37%;
-    padding-top: 42px;
-    padding-left: 10px;
+    padding-top: 100px;
 }
 
 .hero__header {
     margin-bottom: 0;
     min-width: 400px;
     font-size: 30px;
+    font-weight: bold;
 }
 
 .hero__sub-header {
     max-width: 260px;
+    padding-top: 15px;
     font-size: 16px;
     line-height: 1.8em;
 }
 
 .hero__image {    
     width: 59%;
-    padding: 20px 20px;
+    padding: 50px 20px;
     text-align: center;
 }
 
 .hero__image-file {
-    width: 72%;
+    width: 80%;
     -ms-transform: rotate(354deg);
     -webkit-transform: rotate(354deg);
     transform: rotate(354deg);
@@ -173,9 +177,9 @@ h3 {
 
 .feature {
     min-height: 240px;
+    width: 23%;
     margin: 30px 5px;
-    padding: 40px 20px 20px;
-    flex-basis: 18%;    
+    padding: 65px 20px 20px;
     text-align: center;
 }
 
@@ -197,12 +201,14 @@ h3 {
 
 .feature__title {
     margin-bottom: 0;
+    padding: 10px;
     font-size: 12px;   
     text-transform: uppercase;
 }
 
 .feature__text {  
     font-size: 12px;
+    line-height: 1.8em;
 }
 
 /* END OF FEATURES */
@@ -248,22 +254,22 @@ h3 {
 }
 
 .design__image-container {
-    padding: 40px 50px;
+    padding: 75px 10px;
 }
 
 .design__image {
-    height: 490px;
+    
 }
 
 .design__text-container {
-    padding: 45px 65px;
+    padding: 75px 95px;
 }
 
 .design__text {
     max-width: 350px;
-    padding-top: 15px;
+    padding-top: 35px;
     font-size: 13px;
-    line-height: 25px;
+    line-height: 2em;
 }
 
 /* END OF DESIGN */
@@ -377,7 +383,7 @@ h3 {
 
 .team__member-twitter, 
 .team__member-fb {
-    margin: 0 5px 30px;
+    margin: 15px 5px 30px;
 }
 
 /* END OF TEAM */
