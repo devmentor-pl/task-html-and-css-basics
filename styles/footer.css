@@ -1,13 +1,16 @@
 .footer {
+}
+.footer__container {
     padding: 20px 0;
+    position: relative;
 }
 
-.footer__top-container {
+.footer__top {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer__top-container span {
+.footer__top span {
     color: #fff;
     font-size: 12px;
     padding-right: 7px;
@@ -16,10 +19,19 @@
 .footer__textLink {
 }
 
-.footer__bottom-container {
-    padding: 5px 15px 0;
+.footer__bottom {
+    padding: 5px 0;
     text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 0;
 }
-.footer__bottom-container a:not(:last-child){
+.footer__bottom a {
     margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__bottom {
+        position: static;
+    }
 }

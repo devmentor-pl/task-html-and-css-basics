@@ -62,6 +62,10 @@
     background-color: #25f18b;
     font-size: 0.875rem;
 }
+.hero__heading__description a,
+button {
+    cursor: pointer;
+}
 
 .hero__heading__container {
     width: 50%;
