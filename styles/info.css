@@ -10,17 +10,17 @@
 
 .info__container {
     justify-content: space-between;
-    margin: 60px 0;
     max-width: 1150px;
+    padding: 60px 30px;
 }
 
 .info__monitor {
-    max-width: 600px;
+    max-width: 550px;
 }
 
 .info__details {
-    flex-basis: 50%;
     margin: 35px 0 0 50px;
+    width: 50%;
 }
 
 .info__header,
