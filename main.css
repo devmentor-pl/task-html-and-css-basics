@@ -121,15 +121,17 @@
 
 .main__section7__container {
     height: 200px;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 
 }
 
 
 .main__section8__container {
-    height: 500px;
+    height: 400px;
     justify-content: space-around;
+
 
     text-align: center;
 
@@ -138,5 +140,13 @@
 
 .main__section8__container>div>h2 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.footer__background-color {
+    background-color: #464646;
+}
+
+.footer__section__container {
+    height: 100px;
 }
