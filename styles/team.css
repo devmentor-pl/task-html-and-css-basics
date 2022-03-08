@@ -2,7 +2,6 @@
 }
 .team__container {
     padding: 60px 0 130px;
-    /* width: 100%; */
 }
 .team__header {
     padding-bottom: 90px;
@@ -10,7 +9,7 @@
 }
 .team__header h2 {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "Montserrat";
     font-weight: 300;
     text-transform: uppercase;
@@ -38,16 +37,16 @@
     color: #747474;
     margin: 10px 0;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .team__item__text h5 {
     margin-bottom: 10px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .team__item__text p {
     margin: 0 0 10px 0;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #333;
     font-weight: 300;
     line-height: 1.4;
