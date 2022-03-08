@@ -1,0 +1,25 @@
+.footer {
+    padding: 20px 0;
+}
+
+.footer__top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__top-container span {
+    color: #fff;
+    font-size: 12px;
+    padding-right: 7px;
+}
+
+.footer__textLink {
+}
+
+.footer__bottom-container {
+    padding: 5px 15px 0;
+    text-align: right;
+}
+.footer__bottom-container a:not(:last-child){
+    margin-right: 15px;
+}
