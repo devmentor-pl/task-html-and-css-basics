@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
     list-style: none;
     text-decoration: none;
-    letter-spacing: 1px;
 }
 
 .span--block {
@@ -17,7 +17,7 @@
 
 .top {
     width: 100%;
-    height: 90vh;
+    height: 98vh;
     padding: 3vh;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
@@ -71,7 +71,7 @@
 
 .hero__info h1 {
     font-size: 2.3rem;
-    padding-top: 7.5rem;
+    padding-top: 5.5rem;
     padding-bottom: 2rem;
 }
 
@@ -90,7 +90,7 @@
     left: 20%;
     transform: rotate(352deg);
     background-color: white;
-    border: 20px white solid;
+    border: 20px solid white;
     border-radius: 4%;
     width: 32vw;
     height: 50vh;
@@ -112,12 +112,15 @@
     border: none;
 }
 
-/* ----------- MIDDLE ------------*/
+/* ---------------- MIDDLE -------------------*/
 
-.middle {
+/* MIDDLE ONE */
+
+.middle-one {
     width: 100%;
-    height: 65vh;
+    height: 75vh;
     background-color: black;
+    box-shadow: 1px 5px 16px 5px rgb(0, 0, 0);
 }
 
 .features__container {
@@ -128,7 +131,149 @@
 
 .features__title {
     font-size: 1.2rem;
-    padding-top: 2rem;
+    padding-top: 6rem;
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.features__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 40vh;
+}
+
+.features__option {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0 1rem;
+}
+
+.features__option--basis {
+    flex-basis: 26%;
+}
+
+.features__option h3 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.features__option h3,
+.features__option p {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.feature__image {
+    background-color: white;
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    background-position: 50%, 50%;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 2rem;
+    box-shadow: 5px 5px 25px -8px rgba(226, 226, 231, 1);
+}
+
+.feature__image--one {
+    background-image: url(../images/responsive.svg);
+}
+
+.feature__image--two {
+    background-image: url(../images/customizable.svg);
+
+}
+
+.feature__image--three {
+    background-image: url(../images/design.svg);
+}
+
+/* MIDDLE TWO */
+
+.middle-two {
+    width: 100%;
+    height: 10vh;
+    background-color: #f1f1e8;
+    opacity: 0.8;
+    box-shadow: 1px 5px 16px 0px rgb(255, 255, 255);
+}
+
+.middle-two__logos {
+    background-image: url(../images/logos.png);
+    height: 100%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* MIDDLE THREE */
+
+.middle-three {
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.middle-three__image {
+    background-image: url(../images/imac.png);
+    flex-basis: 48%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 7vw;
+}
+
+.middle_three__info {
+    flex-basis: 48%;
+    padding-top: 8vh;
+    padding-left: 5vw;
+    color: #97999c
+}
+
+.middle_three__info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.middle_three__info p {
+    padding: 0 17vw 0 0;
+    line-height: 1.5rem;
+}
+
+
+/* MIDDLE FOUR */
+
+.middle-four {
+    width: 100%;
+    height: 90vh;
+    background-color: #f1f1e8;
+}
+
+.pricing__container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-top: 8vh;
+    color: #97999c;
+}
+
+.pricing__title h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.3rem;
+    text-align: center;
+}
+
+.pricing__title p {
+    font-size: 0.9rem;
+    text-align: center;
 }
