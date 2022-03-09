@@ -1,0 +1,257 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.content {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* NAV */
+.nav {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    flex-basis: 20%;
+}
+
+.nav__links {
+    list-style: none;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    min-width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    height: 650px;
+    margin-bottom: 0;
+}
+
+.nav__description {
+    height: 100%;
+    color: white;
+    flex-basis: 45%;
+    font-size: 20px;
+    margin-top: 3rem;
+}
+
+.nav__image {
+    flex-basis: 55%;
+    display: flex;
+    justify-content: center;
+    height: 420px;
+    padding: 1rem;
+    padding-bottom: 6rem;
+    background-color: white;
+    position: relative;
+    margin: 2rem;
+    transform: rotate(-6deg);
+    border-radius: 15px;
+}
+
+.image {
+    position: absolute;
+}
+
+.download-button {
+    background-color: #25F18B;
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 200px;
+    color: white;
+    min-height: 50px;
+    margin-top: 1.5rem;
+    border: 0;
+}
+
+.nav__description-text {
+    margin-bottom: 1rem;
+}
+
+/* END OF NAV */
+
+/* FEATURE */
+
+.features {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.features__title {
+    text-align: center;
+}
+
+.features__title-header {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.features__icons {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.feature {
+    text-align: center;
+    flex-basis: 25%;
+    padding: 2.5rem;
+}
+
+.feature__icon {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+/* END OF FEATURE */
+
+/* LOGOS */
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos__logos {
+    width: 850px;
+    margin: 1.5rem;
+}
+
+/* END OF LOGOS */
+
+/* MAIN */
+
+.main__content {
+    display: flex;
+}
+
+.main__content-image {
+    flex-basis: 50%;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main__content-text {
+    flex-basis: 25%;
+    padding: 2.5rem;
+    line-height: 2;
+    margin-top: 0 auto;
+}
+
+/* END OF MAIN */
+
+/* PRICING */
+.pricing {
+    background-color: #F8F9F9;
+}
+
+.pricing__header, .pricing__text {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__header {
+    padding-top: 2rem;
+}
+
+.pricing__content {
+    display: flex;
+    justify-content: space-around;
+    min-height: 400px;
+    margin-top: 3rem;
+}
+
+.pricing__content-offer {
+    flex-basis: 30%;
+    text-align: center;
+
+    position: relative;
+}
+
+.pricing__content-offer:hover {
+    box-shadow: 3px 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.pricing__button-container {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+}
+
+.pricing__button {
+    background-color: #0ABCEB;
+    color: white;
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+/* END OF PRICING */
+
+/* TEAM */
+.team__header {
+    display: flex;
+    justify-content: center;
+}
+
+.team__people {
+    display: flex;
+    justify-content: space-around;
+    min-height: 400px;
+    margin-top: 1rem;
+}
+
+.team__person {
+    flex-basis: 30%;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+/* END OF TEAM */
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #464646;
+}
+
+/* END OF FOOTER */
