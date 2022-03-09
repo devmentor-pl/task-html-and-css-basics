@@ -124,3 +124,77 @@ a {
 }
 
 /* END OF HERO */
+
+/* FEATURES */
+
+.features-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.features-top__header {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 100;
+
+}
+
+.features-top {
+    padding: 1.5rem 0;
+}
+
+.features {
+    background-color: black;
+    height: 500px;
+}
+
+.feature__header {
+    color: white;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+.feature__text {
+    color: var(--medium-gray);
+    text-align: center;
+    margin: 0;
+}
+
+.feature {
+    flex-basis: 22%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+
+}
+
+.feature__header, .feature__text {
+    flex-basis: 100%;
+}
+
+.feature__icon-container {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 25px 0 rgba(255, 255, 255, 0.4);
+}
+
+.feature__icon {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.feature__icon--small {
+    width: 22px;
+    height: 22px;
+}
+
+
+/* END OF FEATURES */
