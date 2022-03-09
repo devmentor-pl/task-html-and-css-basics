@@ -351,3 +351,99 @@ a {
 
 
 /* END OF PRICING */
+
+
+
+/* THE TEAM */
+
+.team {
+    height: 650px;
+}
+
+.team__header {
+    text-align: center;
+    padding: 3rem;
+    color: var(--dark-gray);
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.team__persons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.team__person {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.75rem;
+    flex-basis: 30%;
+}
+
+
+.person__header, .person__name, .person__text, .person__socials {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.person__image {
+    height: 120px;
+    width: 120px;
+}
+
+.person__social {
+    filter: invert(0.8);
+    width: 15px;
+    height: 15px;
+    padding: 0.75rem;
+}
+
+.person__header {
+    margin-top: 2.25rem;
+    margin-bottom: 0;
+    font-weight: 100;
+    color: var(--medium-gray);
+}
+
+.person__name {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    color: var(--dark-gray);
+    font-weight: bold;
+
+}
+
+.person__text {
+    margin: 0.75rem 0;
+    color: var(--medium-gray);
+
+}
+
+
+
+/* END OF THE TEAM */
+
+/* FOOTER */
+
+.footer {
+    height: 50px;
+    background-color: #424242;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__made-by {
+    color: white;
+    padding: 0 0.75rem;
+    font-size: 0.75rem;
+}
+
+.footer__image {
+    height: 25px;
+    padding: 0 0.75rem;
+}
+
+/* END OF FOOTER */
