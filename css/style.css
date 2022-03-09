@@ -17,12 +17,12 @@
 
 .top {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     padding: 3vh;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
-.container {
+.top__container {
     max-width: 1150px;
     margin: 0 auto;
     padding: 2vh;
@@ -33,13 +33,12 @@
 
 .header__logo {
     background-image: url(../images/logo.svg);
-    background-position: center;
+    background-position: -2px;
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 65%;
     flex-basis: 15%;
     min-height: 60px;
     min-width: 100px;
-    /* filter: blur(1px); */
 }
 
 .header__nav {
@@ -65,21 +64,19 @@
 .hero__info {
     flex-basis: 35%;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     color: white;
     text-shadow: 1px 1px 1px #000000;
 }
 
-.hero__info h1{
+.hero__info h1 {
     font-size: 2.3rem;
     padding-top: 7.5rem;
     padding-bottom: 2rem;
 }
 
-.hero__info p{
+.hero__info p {
     padding-bottom: 2rem;
-
 }
 
 .hero__image {
@@ -103,7 +100,6 @@
     background-position: center;
     overflow: hidden;
     box-shadow: 0 0 0.5em rgb(255, 255, 255);
-
 }
 
 .hero__button {
@@ -114,5 +110,25 @@
     color: white;
     cursor: pointer;
     border: none;
-    /* padding: 2px 2px; */
+}
+
+/* ----------- MIDDLE ------------*/
+
+.middle {
+    width: 100%;
+    height: 65vh;
+    background-color: black;
+}
+
+.features__container {
+    max-width: 1150px;
+    margin: 0 auto;
+    color: white;
+}
+
+.features__title {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
