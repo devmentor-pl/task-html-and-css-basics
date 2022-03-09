@@ -15,8 +15,6 @@
     align-items: center;
 }
 
-
-
 .header__nav>ul>li {
     display: inline-block;
     padding: 5px;
@@ -30,8 +28,6 @@
 .header__section__left {
     width: 40%;
     height: 600px;
-
-
 }
 
 .header__section__left>p:first-child {
@@ -58,11 +54,8 @@
     display: flex;
     justify-content: center;
     padding-top: 50px;
-
     height: 350px;
     transform: rotate(-6deg);
-
-
 }
 
 .header__section__right-image>img {

@@ -3,24 +3,17 @@
     padding: 0;
 }
 
-
-
 @font-face {
     font-family: 'Montserrat';
     src: url(./Montserrat-VariableFont_wght.ttf) format('opentype');
-
-
 }
 
 html {
     font-family: 'Montserrat';
 }
 
-
 .container {
     display: flex;
-
     max-width: 1150px;
     margin: 0 auto;
-
 }

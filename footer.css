@@ -9,12 +9,6 @@
     color: #FFFFFF;
 }
 
-.footer__section__container>div {
-    display: flex;
-    align-items: center;
-
-}
-
-.footer__section__container>div>p{
+.footer__section__container>div>p {
     padding-right: 20px;
 }
