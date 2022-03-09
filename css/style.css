@@ -112,6 +112,10 @@
     border: none;
 }
 
+.hero__button:hover {
+    background: #89fcc2;
+}
+
 /* ---------------- MIDDLE -------------------*/
 
 /* MIDDLE ONE */
@@ -238,7 +242,7 @@
     flex-basis: 48%;
     padding-top: 8vh;
     padding-left: 5vw;
-    color: #97999c
+    color: #64666a
 }
 
 .middle_three__info h2 {
@@ -256,15 +260,15 @@
 
 .middle-four {
     width: 100%;
-    height: 90vh;
-    background-color: #f1f1e8;
+    height: 100vh;
+    background-color: #f8f9f9
 }
 
 .pricing__container {
     max-width: 1150px;
     margin: 0 auto;
     padding-top: 8vh;
-    color: #97999c;
+    color: #525252
 }
 
 .pricing__title h2 {
@@ -276,4 +280,69 @@
 .pricing__title p {
     font-size: 0.9rem;
     text-align: center;
+}
+
+.pricing__plans {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__plan {
+    flex-basis: 25%;
+}
+
+.plan__agenda {
+    text-align: center;
+    padding-top: 7vh;
+    padding-bottom: 3vh;
+}
+
+.plan__agenda p {
+    margin: 5px;
+}
+
+.plan__options p {
+    margin: 1px;
+}
+
+.agenda__plan-time {
+    font-size: 0.9rem;
+}
+
+.plan__options {
+    min-height: 20vh;
+    text-align: center;
+}
+
+.plan__button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7vh;
+}
+
+.plan-btn {
+    min-width: 10vw;
+    min-height: 6vh;
+    border-radius: 7px;
+    background: #0abceb;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.plan-btn:hover {
+    background: #7cdbf5;
+
+}
+
+.agenda__plan-price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.pricing__plan--second {
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    box-shadow: 10px 5px 28px 11px rgba(216, 216, 216, 1);
+
 }
