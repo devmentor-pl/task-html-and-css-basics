@@ -252,3 +252,102 @@ a {
 }
 
 /* END OF DESIGN */
+
+
+/* PRICING */
+.pricing {
+    height: 750px;
+    background-color: #f8f8f8;
+}
+
+
+.pricing__header, .pricing__text {
+    text-align: center;
+}
+
+.pricing__text {
+    color: var(--medium-gray);
+}
+
+
+.pricing__header {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #696969;
+}
+
+.pricing__cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card__price {
+    font-size: 3.25rem;
+    font-weight: 700;
+
+}
+
+
+.card {
+    padding-top: 3.75rem;
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+    margin: 0 1.25rem;
+
+}
+
+.card__header, .card__price, .card__month, .card__additives {
+    flex-basis: 100%;
+    text-align: center;
+
+}
+
+.card__additives {
+    margin: 0.2rem 0;
+    color: var(--dark-gray);
+    font-weight: bold;
+}
+
+.cta-btn-big {
+    margin: 4.25rem 0 2.5rem 0;
+    min-width: 180px;
+    align-self: center;
+    min-height: 50px;
+    background-color: #00b8e6;
+
+}
+
+.card__month {
+    margin: 0.5rem 0 1.5rem 0;
+    color: var(--dark-gray);
+}
+
+.card__header {
+    margin: 0 0 0.5rem 0;
+    font-weight: 100;
+    color: var(--medium-gray);
+
+}
+
+.pricing__content {
+    padding: 3rem;
+}
+
+
+.card:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card__additives--hidden {
+    visibility: hidden;
+}
+
+
+
+/* END OF PRICING */
