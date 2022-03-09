@@ -66,11 +66,12 @@
     display: flex;
     flex-direction: column;
     color: white;
-    text-shadow: 1px 1px 1px #000000;
+    text-shadow: 2px 2px 1px #000000;
 }
 
 .hero__info h1 {
     font-size: 2.3rem;
+    font-weight: 600;
     padding-top: 5.5rem;
     padding-bottom: 2rem;
 }
@@ -179,7 +180,6 @@
     border-radius: 50%;
     width: 5vw;
     height: 5vw;
-    background-position: 50%, 50%;
     background-size: 35%;
     background-repeat: no-repeat;
     background-position: center;
@@ -332,11 +332,11 @@
 
 .plan-btn:hover {
     background: #7cdbf5;
-
 }
 
 .agenda__plan-price {
     font-size: 3rem;
+    color: rgb(43, 42, 42);
     font-weight: bold;
 }
 
@@ -344,5 +344,63 @@
     border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     box-shadow: 10px 5px 28px 11px rgba(216, 216, 216, 1);
+}
 
+
+/* ---------- MIDDLE FIVE ------------- */
+
+
+.testimonial__container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding-top: 8vh;
+    color: #525252
+}
+
+.testimonial__plan {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial__avatar {
+    border-radius: 50%;
+    width: 7vw;
+    height: 8vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonial__avatar-first {
+    background-image: url(../images/cto.png);
+}
+
+.testimonial__avatar-second {
+    background-image: url(../images/ceo.png);
+}
+
+.testimonial__avatar-third {
+    background-image: url(../images/cfo.png);
+}
+
+.testimonial__description {
+    margin-top: 2vh;
+    min-height: 13vh;
+    text-align: center;
+}
+
+.testimonial__description p {
+    margin: 5px;
+}
+
+.description--name {
+    font-weight: bolder;
+}
+
+
+.testimonial__profiles img {
+    width: 20px;
+    height: 20px;
 }
