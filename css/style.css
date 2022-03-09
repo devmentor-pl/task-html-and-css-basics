@@ -198,3 +198,57 @@ a {
 
 
 /* END OF FEATURES */
+
+
+/* SPONSORS */
+
+.sponsors__cont {
+    height: 70px;
+    background-image: url(../images/logos.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sponsors {
+    background-color: #f8f8f8;
+}
+
+/* END OF SPONSORS */
+
+/* DESIGN */
+
+.design {
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+
+.design__image {
+    margin: 0 0 0 3rem;
+    background-image: url(../images/imac.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    flex-basis: 60%;
+    width: 100%;
+}
+
+.design__content {
+    margin: 6.25rem 8rem 0 4.25rem;
+    flex-basis: 40%;
+}
+
+.design__content__header {
+    margin-bottom: 2.5rem;
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--dark-gray);
+}
+
+.design__content__text {
+    color: var(--medium-gray);
+    line-height: 2rem;
+}
+
+/* END OF DESIGN */
