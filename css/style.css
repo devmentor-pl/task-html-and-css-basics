@@ -1,5 +1,126 @@
+:root {
+    --light-gray: rgb(168, 167, 167);
+    --medium-gray: rgb(179, 179, 179);
+    --dark-gray: rgb(105, 105, 105);
+}
+
 body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.row {
+    width: 100%;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-btn {
+    border: none;
+    background-color: #4ace97;
+    color: white;
+    min-width: 180px;
+    border-radius: 0.5rem;
+    padding: 0.75rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.5 ease-in;
+}
+
+.cta-btn:hover {
+    background-color: #2b805c;
+    cursor: pointer;
+}
+
+/* HEADER  */
+
+.row__header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav__links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.header__nav__link {
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    min-height: 4rem;
+}
+
+.header__logo__container {
+    padding-top: 1rem;
+}
+
+.header__logo {
+    width: 100px;
+}
+
+/* END OF HEADER */
+
+/* HERO */
+.hero__container {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero__header {
+    color: white;
+    padding-top: 4rem;
+    font-size: 2.5rem;
+}
+
+.hero__description {
+    color: var(--medium-gray);
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+
+.hero__content {
+    flex-basis: 30%;
+}
+
+.hero__image__container {
+    flex-basis: 40%;
+    margin-left: 5rem;
+    margin-right: 6rem;
+    min-width: 300px;
+}
+
+.hero__image {
+    margin-top: 3rem;
+    background-image: url(../images/screen.png);
+    border: 1rem solid white;
+    border-radius: 1.5rem;
+    border-bottom: 5rem solid white;
+    transform: rotate(-5deg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 2px 20px 0 rgba(37, 37, 37, 0.5);
+}
+
+/* END OF HERO */
