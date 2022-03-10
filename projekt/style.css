@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif;
+}
+body{
+    width: 100%;
+}
+.wrap{
+     margin: 0 auto;
+    max-width: 1150px;
+}
+.header{
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 600px;
+}
+.header__nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__nav___img{
+    font-size: 50px;
+    margin: 10px;
+    width: 10vw;
+    height: 5vh;
+}
+.header__nav__items{
+   display: flex;
+   list-style-type: none;
+   justify-content:center;align-items: center; 
+}
+.item{
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+}
+.header__div--second{
+    display: flex;
+    justify-content: space-between; 
+    height: 500px;
+}
+.header__text{
+    height: 100%;
+}
+.header__text h1, p{
+   color: white;
+   margin: 30px 0;
+}
+.header__text button{
+    background-color: rgb(168, 235, 168);
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header__img{
+    height:100%;
+    width: 100%;
+    position: relative;
+}
+.header__img--container{
+    width:60%;
+    height: 400px;
+    background-image: url(../images/screen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    box-shadow: 5px 5px white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.section{
+    background-color: black;
+    width: 100%;
+}
+.section h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding:20px ;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container__item {
+    flex-basis: 25%;
+    position: relative;
+    height: 350px;
+}
+.container__item-h3{
+    color:white;
+    margin-top: 50%;
+}
+.container__item--img{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container__item-p{
+    padding: 10px;
+}
+.logos{
+    padding: 20px;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+
+}
+.main__img, .main__text{
+    margin: 20px;
+    flex-shrink: 0;
+}
+.main__img{
+    flex-basis: 50%;
+}
+.main__img--container{
+    padding: 20px;
+    width:80%;
+    height: 500px;
+    background-image: url(../images/imac.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.main__text{
+    flex-basis: 40%;
+    color: grey;
+}
+.main__text h4{
+    font-size: 40px;
+    margin: 20px;
+}
+.main__text p{
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    margin-right: 20px;
+}
+.segment{
+    width: 100%;
+    background-color: rgb(216, 212, 212);
+}
+.plan{
+    text-align: center;
+}
+.plan__paragraph{
+    color: rgb(112, 107, 107);
+   }
+.plan h4{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.testimolians, .the__team--item{
+    display: flex;
+    justify-content: space-around;
+}
+.testimolians__item, .team__item{
+    flex-basis: 25%;
+    flex-shrink: 0;
+    text-align: center;
+
+}
+.testimolians__item h1{
+    color: black;
+    margin-top: 20px;
+}
+.testimolians__item button{
+    background-color: lightskyblue;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.team__item{
+    height: 400px;
+}
+.testimolians__item p{
+    color: black;
+}
+.the__team{
+    text-align: center;
+    padding: 40px;
+}
+.team__img{
+    margin-top: 20px;
+}
+.team__item p{
+    color: black;
+    padding: 1px;
+    margin: 15px;
+}
+.team__twitter{
+    color: black;
+    padding: 20px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: grey;
+    text-align: center;
+}
+.footer__paragraph{
+font-size: 30px;
+color: black;
+padding: 20px;
+}
