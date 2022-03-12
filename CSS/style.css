@@ -42,4 +42,10 @@ header{
     font-size: 2rem;
 }
 
+.hero {
+    display: flex;
+}
+
+
+
 /*END OF HEADER*/
