@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 auto;
+}
+
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header{
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    width: 100%;
+    
+}
+
+.nav {
+    padding: 1rem;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav__link-margin{
+    margin-left: auto;
+}
+.nav__link-item {
+    list-style-type: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
+/*END OF HEADER*/
