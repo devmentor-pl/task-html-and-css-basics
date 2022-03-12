@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    background: unset;
+}
+
+.container {
+    width: 100vw;
+}
+
+.section {
+    width: 72vw;
+}
+
+/* HEADER */
+.header__container {
+    height: 730px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: auto;
+}
+
+.logo {
+    width: 50vw;
+}
+
+.logo__img {
+    padding-top: 17px;
+    float: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50vw;
+    min-height: 50px;
+}
+
+.menu__links {
+    display: flex;
+}
+
+.menu__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 90px;
+    font-size: 1.1rem;
+}
+
+/* END OF HEADER */
