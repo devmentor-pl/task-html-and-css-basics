@@ -424,6 +424,75 @@ button {
     box-shadow: 8px 8px 50px #DEE2E6;
 }
 
-
-
 /* END OF PRICING */
+/* TEAM */
+
+.team__container {
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team__heading {
+    height: 30%;
+    padding-top: 95px;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 300;
+    letter-spacing: -0.9px;
+}
+
+.team__members {
+    height: 70%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.team__member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.team__member__avatar {
+    padding-top: 10px;
+    height: 165px;
+}
+
+.avatar {
+    height: 100%;
+}
+
+.team__member__position {
+    padding-top: 44px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.team__member__name {
+    padding-top: 7px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.team__member__description {
+    padding-top: 15px;
+    font-size: 1.1rem;
+    letter-spacing: -0.1px;
+}
+
+.team__member__social-media {
+    padding-top: 23px;
+}
+
+.social-media__logo {
+    height: 16px;
+    padding: 0 10px;
+}
+
+/* END OF TEAM */
