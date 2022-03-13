@@ -30,9 +30,18 @@
             </div>
             <div class="menu">
                 <ul class="menu__links">
-                    <li class="menu__link"><a href="">The Team</a></li>
-                    <li class="menu__link"><a href="">Pricing</a></li>
-                    <li class="menu__link"><a href="">Features</a></li>
+                    <li class="menu__link"><a
+                            class="a__hover"
+                            href="#team"
+                        >The Team</a></li>
+                    <li class="menu__link"><a
+                            class="a__hover"
+                            href="#pricing"
+                        >Pricing</a></li>
+                    <li class="menu__link"><a
+                            class="a__hover"
+                            href="#features"
+                        >Features</a></li>
                 </ul>
             </div>
         </nav>
@@ -40,7 +49,14 @@
             <div class="hero">
                 <h1 class="hero__heading">Beautiful Free Nova template</h1>
                 <p class="hero__paragraph">A top notch premium quality template for your next web project.</p>
-                <button class="hero__btn">Download FREE!</button>
+                <a
+                    class="hero__btn__a"
+                    href="https://themewagon.com/themes/project-app-showasing-onepage-bootstrap-template-free-nova/"
+                    target="_blank"
+                >
+                    <button class="hero__btn">Download FREE!</button>
+                </a>
+
             </div>
             <div class="hero__img">
                 <img
@@ -52,7 +68,10 @@
         </div>
     </header>
     <main>
-        <div class="container features__container">
+        <div
+            class="container features__container"
+            id="features"
+        >
             <div class="section features__section">
                 <div class="features__heading">
                     <h1 class="features__heading__content">FEATURES</h1>
@@ -116,7 +135,10 @@
                 </article>
             </div>
         </div>
-        <div class="container pricing__container">
+        <div
+            class="container pricing__container"
+            id="pricing"
+        >
             <div class="pricing__plan">
                 <h2 class="pricing__plan__heading">Choose your pricing plan</h2>
                 <p class="pricing__plan__paragraph">Pick any of our super affordable pricing plans</p>
@@ -130,7 +152,7 @@
                         <div class="benefit">Up to 7 Projects</div>
                         <div class="benefit">2 Additional Developers</div>
                     </div>
-                    <button class="pricing__btn">Get Started</button>
+                    <a href="#"><button class="pricing__btn">Get Started</button></a>
                 </div>
                 <div class="pricing__element">
                     <div class="highlighted__element">
@@ -142,7 +164,10 @@
                             <div class="benefit">2 Additional Developers</div>
                             <div class="benefit">Unlimited Support</div>
                         </div>
-                        <button class="pricing__btn">Get Started</button>
+                        <a
+                            class="pricing__btn-of-highlighted__element"
+                            href="#"
+                        ><button class="pricing__btn">Get Started</button></a>
                     </div>
                 </div>
                 <div class="pricing__element">
@@ -155,16 +180,20 @@
                         <div class="benefit">Unlimited Support</div>
                         <div class="benefit">1.5GB Disk Space</div>
                     </div>
-                    <button class="pricing__btn">Get Started</button>
+                    <a href="#"><button class="pricing__btn">Get Started</button></a>
                 </div>
             </div>
         </div>
-        <div class="container team__container">
+        <div
+            class="container team__container"
+            id="team"
+        >
             <h2 class="team__heading">The team</h2>
             <div class="team__members">
                 <div class="team__member">
                     <div class="team__member__avatar">
-                        <img class="avatar"
+                        <img
+                            class="avatar"
                             src="./images/cto.png"
                             alt="CTO avatar"
                         >
@@ -173,19 +202,32 @@
                     <div class="team__member__name">Johnny B Good</div>
                     <div class="team__member__description">The brains behind the whole operation</div>
                     <div class="team__member__social-media">
-                        <img class="social-media__logo"
-                            src="./images/team-twitter.svg"
-                            alt="Twitter-logo"
+                        <a
+                            href="https://twitter.com/"
+                            target="_blank"
                         >
-                        <img class="social-media__logo"
-                            src="./images/team-facebook.svg"
-                            alt="Facebook-logo"
+                            <img
+                                class="social-media__logo"
+                                src="./images/team-twitter.svg"
+                                alt="Twitter-logo"
+                            >
+                        </a>
+                        <a
+                            href="https://www.facebook.com/"
+                            target="_blank"
                         >
+                            <img
+                                class="social-media__logo"
+                                src="./images/team-facebook.svg"
+                                alt="Facebook-logo"
+                            >
+                        </a>
                     </div>
                 </div>
                 <div class="team__member">
                     <div class="team__member__avatar">
-                        <img class="avatar"
+                        <img
+                            class="avatar"
                             src="./images/ceo.png"
                             alt="CEO avatar"
                         >
@@ -194,19 +236,32 @@
                     <div class="team__member__name">Roll Over Beethoven</div>
                     <div class="team__member__description">The one that puts it all together</div>
                     <div class="team__member__social-media">
-                        <img class="social-media__logo"
-                            src="./images/team-twitter.svg"
-                            alt="Twitter-logo"
+                        <a
+                            href="https://twitter.com/"
+                            target="_blank"
                         >
-                        <img class="social-media__logo"
-                            src="./images/team-facebook.svg"
-                            alt="Facebook-logo"
+                            <img
+                                class="social-media__logo"
+                                src="./images/team-twitter.svg"
+                                alt="Twitter-logo"
+                            >
+                        </a>
+                        <a
+                            href="https://www.facebook.com/"
+                            target="_blank"
                         >
+                            <img
+                                class="social-media__logo"
+                                src="./images/team-facebook.svg"
+                                alt="Facebook-logo"
+                            >
+                        </a>
                     </div>
                 </div>
                 <div class="team__member">
                     <div class="team__member__avatar">
-                        <img class="avatar"
+                        <img
+                            class="avatar"
                             src="./images/cfo.png"
                             alt="CFO avatar"
                         >
@@ -215,20 +270,47 @@
                     <div class="team__member__name">Chuck Berry</div>
                     <div class="team__member__description">The guy with his hand on the wallet</div>
                     <div class="team__member__social-media">
-                        <img class="social-media__logo"
-                            src="./images/team-twitter.svg"
-                            alt="Twitter-logo"
+                        <a
+                            href="https://twitter.com/"
+                            target="_blank"
                         >
-                        <img class="social-media__logo"
-                            src="./images/team-facebook.svg"
-                            alt="Facebook-logo"
+                            <img
+                                class="social-media__logo"
+                                src="./images/team-twitter.svg"
+                                alt="Twitter-logo"
+                            >
+                        </a>
+                        <a
+                            href="https://www.facebook.com/"
+                            target="_blank"
                         >
+                            <img
+                                class="social-media__logo"
+                                src="./images/team-facebook.svg"
+                                alt="Facebook-logo"
+                            >
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="container"></footer>
+    <footer class="container footer__container">
+        <div class="footer">
+            <div class="footer__content">
+                <div>A free template by</div>
+                <a
+                    href="https://themewagon.com/author/webscopeapp/"
+                    target="_blank"
+                ><img
+                        class="footer__image"
+                        src="./images/webscope.svg"
+                        alt="Webscope"
+                    ></a>
+            </div>
+        </div>
+
+    </footer>
 </body>
 
 </html>
