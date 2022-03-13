@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -132,7 +132,7 @@ button {
     line-height: 36px;
 }
 
-.btn {
+.hero__btn {
     height: 61px;
     width: 260px;
     margin: 5px;
@@ -317,4 +317,113 @@ button {
 
 /* END OF WHITE SECTION */
 /* PRICING */
+
+.pricing__container {
+    height: 950px;
+    background-color: #F9FAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing__plan {
+    height: 250px;
+}
+
+.pricing__plan__heading {
+    padding-top: 92px;
+    padding-bottom: 21px;
+    font-size: 2.3rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.pricing__plan__paragraph {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    letter-spacing: -0.7px;
+}
+
+.pricing__section {
+    padding: 0 3%;
+    height: 700px;
+    width: 74%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing__element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.333333%;
+    height: 100%;
+    padding-bottom: 126px;
+    padding-top: 35px;
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+}
+
+.pricing__element__heading {
+    padding-top: 68px;
+    font-size: 1.5rem;
+    letter-spacing: -1.3px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.price {
+    padding-top: 12px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #333333;
+}
+
+.period {
+    padding-top: 8px;
+    padding-bottom: 36px;
+    letter-spacing: -0.6px;
+    color: #333333;
+}
+
+.benefit {
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.pricing__btn {
+    margin: 11px auto 0;
+    height: 65px;
+    width: 203px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    letter-spacing: 0.3px;
+    color: white;
+    background-color: #0ABCEB;
+    border-radius: 10px;
+}
+
+.highlighted__element {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 91%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 8px 8px 50px #DEE2E6;
+}
+
+
+
 /* END OF PRICING */
