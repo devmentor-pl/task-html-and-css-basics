@@ -69,15 +69,15 @@ button {
 
 .logo__img {
     float: left;
+    margin-left: 5px;
 }
 
 .menu {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     width: 50vw;
     min-height: 50px;
-    margin-right: 35px;
+    margin-right: 45px;
 }
 
 .menu__links {
@@ -90,7 +90,8 @@ button {
     align-items: center;
     min-width: 90px;
     font-size: 1.1rem;
-    padding-left: 35px;
+    margin-top: -20px;
+    padding-left: 29px;
 }
 
 /* ---END OF NAV */
@@ -115,7 +116,8 @@ button {
     line-height: 3rem;
     font-size: 2.9rem;
     margin-top: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
+    letter-spacing: -0.6px;
 }
 
 .hero__paragraph {
@@ -123,15 +125,20 @@ button {
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 2rem;
-    margin-bottom: 45px;
+    margin-bottom: 36px;
+    margin-left: 2px;
+    padding-right: 20px;
+    letter-spacing: -0.8px;
+    line-height: 36px;
 }
 
 .btn {
-    height: 60px;
+    height: 61px;
     width: 260px;
     margin: 5px;
     border-radius: 12px;
     font-size: 1.1rem;
+    letter-spacing: 1.1px;
     color: white;
     background-color: #25F18B;
 }
@@ -145,10 +152,11 @@ button {
     width: 660px;
     transform: translate(30px, 20px) rotate(-6deg);
     border: 20px solid white;
-    border-bottom: 100px solid white;
+    border-bottom: 98px solid white;
+    border-top: 25px solid white;
     border-radius: 30px;
     margin-top: 10px;
-    margin-left: 55px;
+    margin-left: 58px;
 }
 
 /* ---END OF HERO */
@@ -180,6 +188,7 @@ button {
 .features__heading__content {
     font-size: 2.4rem;
     font-weight: 300;
+    letter-spacing: -0.6px;
     color: white;
 }
 
@@ -211,23 +220,27 @@ button {
 }
 
 .features__image__img {
-    width: 25px;
+    width: 29px;
 }
 
 .features__element__heading {
     margin-top: 30px;
-    width: 80%;
+    width: 70%;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.1rem;
+    letter-spacing: -0.4px;
+    line-height: 19px;
     color: #F3F3F3;
 }
 
 .features__element__paragraph {
-    margin-top: 15px;
+    margin-top: 13px;
     width: 80%;
     text-align: center;
     font-size: 1.1rem;
+    letter-spacing: -0.2px;
+    line-height: 25px;
     color: #F3F3F3;
 }
 
@@ -252,7 +265,56 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 61%;
 }
 
 /* END OF LOGOS */
+/* WHITE SECTION */
+
+.white__container {
+    display: flex;
+    height: 850px;
+}
+
+.screen__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.imac_img {
+    width: 840px;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+
+.article_section {
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+.article {
+    margin: 100px 0;
+}
+
+.article__heading {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.4rem;
+    margin: 26px 143px;
+    letter-spacing: -0.6px;
+}
+
+.article__paragraph {
+    padding: 28px 330px 0 144px;
+    font-size: 1.2rem;
+    letter-spacing: -0.4px;
+    line-height: 37px;
+}
+
+/* END OF WHITE SECTION */
+/* PRICING */
+/* END OF PRICING */
