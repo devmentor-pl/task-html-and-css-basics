@@ -225,11 +225,34 @@ button {
 
 .features__element__paragraph {
     margin-top: 15px;
-    width: 85%;
+    width: 80%;
     text-align: center;
     font-size: 1.1rem;
     color: #F3F3F3;
 }
 
-
 /* END OF FEATURES */
+/* LOGOS */
+
+.logos__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background-color: #F9FAFA;
+}
+
+.logos__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+/* END OF LOGOS */
