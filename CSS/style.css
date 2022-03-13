@@ -43,7 +43,6 @@ header{
 
 .hero {
     display: flex;
-    
 }
 
 .hero__info {
@@ -52,9 +51,8 @@ header{
 
 .hero__photo {
     flex-basis: 50%;
-    height: 250px;
-    background-image: url('/images/screen.png');
-    
+    height: 500px; 
+    background-image: url('../images/screen.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
