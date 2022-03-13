@@ -187,3 +187,223 @@
     width: 250px;
 }
 /* END OF FEATURES */
+
+/* LOGOS */
+
+.logos__section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #f9fafa;
+}
+
+.logos__image{
+    margin: 20px 0;
+    
+}
+
+/* END OF LOGOS */
+
+/* ABOUT */
+
+.about__container{
+    display: flex;
+    width: 100%;
+    /* margin: 40px 40px 40px 20px; */
+}
+
+.about__image{
+    width: 50%;
+    margin: 50px 0 50px 20px ;
+}
+
+.about__text{
+    /* width: 50%; */
+    width: 400px;
+    margin: 60px 100px 0 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about__image--img{
+    height: 500px;
+    width: 600px;
+}
+
+.about__text--header{
+    /* text-align: left; */
+    font-size: 30px;
+    color: #333333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about__text--text{
+    color: #333333;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 15px;
+}
+/* END OF ABOUT */
+
+
+/* PRICES */
+
+.prices__container{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    flex-direction: column;
+    background-color: #f9fafa;
+}
+
+.prices__header{
+    margin: 70px 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.prices__header--header{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333333;
+}
+
+.prices__header--subheader{
+    text-align: center;
+    font-size: 18px;
+    color: #808080;
+}
+
+.prices__types{
+    display: flex;
+    max-width: 100%;
+    margin: 0 150px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+.prices__price{
+    flex-basis: 33.33333%;
+    align-items: center;
+    width: 33.3333%;
+    /* margin-top: 20px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.prices__price--middle{
+    flex-basis: 33.33333%;
+    align-items: center;
+    /* margin-top: 20px; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 33.3333%;
+    background-color: white;
+    box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
+}
+
+.prices__price--type{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.prices__price--cost{
+    font-size: 45px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.prices__price--per-month{
+    font-size: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.prices__price--benefits{
+    font-size: 14px;
+    text-align: center;
+    line-height: 22px;
+    height: 120px;
+}
+
+.prices__price--button{
+    margin-left: 95px;
+    height: 50px;
+    width: 160px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0abceb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.prices__price--button:hover{
+    text-decoration: underline;
+    background-color: #64cce8;
+    border-radius: 20px;
+}
+/* END OF PRICES */
+
+/* TEAM */
+
+.team__container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 500px;
+    /* margin: 0 50px; */
+}
+
+.team__header{
+    margin: 80px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #808080;
+    font-size: 30px;
+    text-align: center;
+}
+
+.team__members{
+    display: flex;
+    
+}
+
+.team__member{
+    width: 33.333333%;
+    flex-basis: 33.33333%;
+    /* margin: 0 85px; */
+    margin-left: 140px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team__member--image{
+    margin: 0 30px;
+}
+.team__member--position{
+    font-size: 18px;
+    color: #747474;
+    /* text-align: center; */
+    margin: 20px 0;
+    margin-left: 75px;
+}
+
+.team__member--name{
+    font-size: 14px;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team__member--about{
+    width: 300px;
+    font-size: 14px;
+    /* text-align: justify; */
+    margin-left: -25px;
+}
+/* END OF TEAM */
