@@ -216,7 +216,6 @@ header{
     flex-direction: column;
     padding: 20px;
     
-    background-color: aqua;
 }
 
 .pricingplan__type{
@@ -245,7 +244,64 @@ header{
 }
 
 .pricingplan button {
-    margin: 50px 0 50px 0;
+    
 }
 
 /*END OF PRICES*/
+
+/*TEAM*/
+.team{
+    width: 100%;
+}
+
+.team__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    padding: 20px;
+}
+
+.team__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.team__person{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+}
+
+.team__function{
+    padding: 1em;
+    
+}
+
+.team__data{
+    padding: 1em;
+    font-weight: 900;
+}
+
+.team__text {
+    padding: 1em;
+}
+/*END OF TEAM*/
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    color:white;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    padding: 5px;
+}
+/*END OF FOOTER*/
+
