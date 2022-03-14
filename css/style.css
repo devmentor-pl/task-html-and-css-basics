@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+} 
+
+.container--background {
+    background-image: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
