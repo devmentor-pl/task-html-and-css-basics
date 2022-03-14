@@ -97,23 +97,17 @@ header{
 .features{
     color: white;
     background-color: black;
-   
     
 }
 
 .features__header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
+   text-align: center;
+    padding: 2rem 0 2rem 0;
 }
 
 .feature{
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding: 2rem 2rem 2rem 2rem;
+    width: 100%;
 }
 
 
@@ -121,6 +115,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .feature__image{
@@ -130,7 +125,13 @@ header{
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: centergit;
+    align-items: center;
+}
+
+.feature__image-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .feature__text {
@@ -141,6 +142,10 @@ header{
 }
 
 .feature__header {
+    text-align: center;
+}
+
+.feature__description {
     text-align: center;
 }
 
