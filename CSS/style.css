@@ -101,7 +101,7 @@ header{
 }
 
 .features__header{
-   text-align: center;
+    text-align: center;
     padding: 2rem 0 2rem 0;
 }
 
@@ -164,3 +164,24 @@ header{
     padding: 20px;
 }
 /*END OF WEBSITES*/
+
+/*ADVERB*/
+.adverb{
+    display: flex;
+    color: grey;
+}
+
+.adverb__image-container {
+    flex-basis: 50%;
+    height: 500px;
+    background-image: url('../images/imac.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.adverb__text {
+    flex-basis: 50%;
+}
+
+/*END OF ADVERB*/
