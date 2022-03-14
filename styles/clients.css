@@ -1,0 +1,7 @@
+.clients__container {
+    text-align: center;
+}
+.clients__container img {
+    max-width: 100%;
+    padding: 30px;
+}

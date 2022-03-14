@@ -1,0 +1,69 @@
+.team {
+}
+.team__container {
+    padding: 60px 0 130px;
+}
+.team__header {
+    padding-bottom: 90px;
+    margin-bottom: 10px;
+}
+.team__header h2 {
+    margin-top: 20px;
+    font-size: 1.875rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.team__content__container {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.team__content__item {
+    padding: 0 15px 60px;
+    width: 33.33333333333333333333%;
+    text-align: center;
+    justify-content: center;
+}
+
+.team__item__text {
+    padding-top: 25px;
+}
+.team__item__text h4 {
+    color: #747474;
+    margin: 10px 0;
+    font-weight: 300;
+    font-size: 1.125rem;
+}
+.team__item__text h5 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+.team__item__text p {
+    margin: 0 0 10px 0;
+    font-size: 0.875rem;
+    color: #333;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.team__item__text img {
+    padding: 7px;
+}
+.team__item__text a {
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 768px) {
+    .team__content__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .team__content__item {
+        width: 100%;
+    }
+}

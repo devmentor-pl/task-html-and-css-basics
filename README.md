@@ -1,3 +1,7 @@
+# Nova Theme Website Clone (HTML & CSS):
+See demo: [Nova Theme](https://6227a645adad0400085e01dc--infallible-pasteur-6d20a3.netlify.app/)
+
+# Treść zadania:
 > ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
 > 
 > 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 

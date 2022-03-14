@@ -1,0 +1,100 @@
+.paper-elevation {
+    box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
+    border-radius: 7px;
+}
+
+.pricing.app-layout > :nth-child(n) {
+    max-width: 1050px;
+}
+
+.pricing {
+    padding: 75px 0 100px;
+}
+
+.pricing__header {
+    text-align: center;
+}
+
+.pricing__header h2 {
+    margin-bottom: 10px;
+    font-size: 1.875rem;
+    font-weight: 300;
+}
+.pricing__header h4 {
+    margin: 10px 0;
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: grey;
+}
+
+.pricing__content__container {
+    display: flex;
+    padding-top: 70px;
+}
+.pricing__content__container > .pricing__content {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 390px;
+}
+
+.pricing__content {
+    padding: 36px 30px 45px;
+    text-align: center;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing__content h3 {
+    margin: 20px 0 0;
+    padding-bottom: 5px;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+.pricing__content h4 {
+    margin: 10px 0;
+    font-size: 2.8125rem;
+    font-weight: 600;
+}
+.pricing__content h5 {
+    padding-bottom: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.pricing__content .pricing__content__list {
+    margin-bottom: 10px;
+}
+.pricing__content__list li {
+    font-size: 0.85rem;
+    line-height: 1.42857143;
+}
+
+.pricing__content__list li::before {
+    font-family: "Material Icons";
+    content: "\e5ca";
+    color: #3aeb8c;
+    margin-right: 10px;
+}
+
+.pricing__content-btn {
+    height: 100%;
+    display: flex;
+    align-items: end;
+}
+.pricing__content a {
+    background-color: #0abceb;
+    border-radius: 10px;
+    width: 164px;
+    height: 51px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .pricing__content__container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }
+}
