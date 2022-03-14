@@ -130,7 +130,7 @@ header{
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: centergit;
 }
 
 .feature__text {
@@ -144,5 +144,18 @@ header{
     text-align: center;
 }
 
-
 /*END OF FEATURES*/
+
+/*WEBSITES*/
+
+.websites__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.websites__photo {
+    flex-basis: 80%;
+    padding: 20px;
+}
+/*END OF WEBSITES*/
