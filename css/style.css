@@ -1,0 +1,87 @@
+html, body {
+      font-family: 'Montserrat', sans-serif;
+      color: black;
+}
+
+a {
+      text-decoration: none;
+}
+
+.hero__container {
+      border: solid 3px green;
+      width: 100%;
+      height: 700px;
+      background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav {
+      border: solid 3px blue;
+      max-width: 1024px;
+      height: 80%;
+      margin: 0 auto;
+      margin-top: 30px;
+}
+
+.nav--header{
+      display: flex;
+      justify-content: space-between;
+}
+
+.nav_logo {
+      border: solid 3px orange;
+      height: 50%;
+      width: 20%;
+      margin-top: 5px;
+}
+
+.logo {
+      margin-top: 10px;
+      width: 50%;
+}
+
+.nav_bar{
+      border: solid 3px orange;
+      height: 40px;
+      width: 30%;
+      
+}
+
+
+
+
+
+
+/* .first {
+      border: 6px solid green;
+      height: 800px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+}
+
+.first--header .second {
+      display: flex;
+      justify-content: space-between;
+}
+
+.second {
+      border: 6px solid blue;
+      max-width: 1024px;
+      margin: auto;
+      
+}
+
+.third {
+      background-color: orange;
+      min-height: 80px;
+      margin-top: 0;
+      
+}
+
+.third--item {
+      width: 260px;
+      margin-bottom: 0;
+}
+
+.third--nav {
+      width: 400px;
+} */
