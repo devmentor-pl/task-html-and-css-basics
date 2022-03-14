@@ -1,6 +1,8 @@
 html, body {
     margin: 0;
     padding: 0;
+
+    font-family: Montserrat; 
 }
 
 .container {
@@ -10,4 +12,37 @@ html, body {
 
 .container--background {
     background-image: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.container--font-color {
+    color: white;
+}
+
+.nav__container {
+    display: flex;
+}
+
+.nav__menu{
+    align-items: right;
+}
+
+.nav__logo {
+    align-items: left;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    min-width: 150px;
+}
+
+.nav__links {
+    display: flex;
+    margin: 0;
+    list-style: none;
+}
+
+#footer {
+    background-color: grey;
 }
