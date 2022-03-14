@@ -185,3 +185,67 @@ header{
 }
 
 /*END OF ADVERB*/
+
+/*PRICES*/
+.prices{
+    width: 100%;
+}
+
+.pricing__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+    padding: 20px;
+}
+
+.pricingplans__container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    color: grey;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.pricingplan{
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    
+    background-color: aqua;
+}
+
+.pricingplan__type{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.pricingplan__price{
+    font-size: 2rem;
+    color: black;
+}
+
+.pricingplan__info{
+    list-style-type: none;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pricingplan__info li:nth-child(1){
+    font-size: 0.8rem;
+    padding-bottom: 20px;
+}
+
+.pricingplan button {
+    margin: 50px 0 50px 0;
+}
+
+/*END OF PRICES*/
