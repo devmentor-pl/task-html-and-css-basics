@@ -3,6 +3,7 @@ html, body{
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    box-sizing: border-box;
 }
 
 .container {
@@ -32,6 +33,7 @@ header{
 }
 .nav__link-item {
     list-style-type: none;
+    font-size: 1.5rem;
 }
 
 .nav__link {
@@ -47,28 +49,45 @@ header{
 
 .hero__info {
     flex-basis: 50%;
+    padding: 100px 0px 100px 0px;
+    margin: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .hero__photo {
-    flex-basis: 80%;
-    height: 400px; 
+    flex-basis: 90%; 
+    height: 90%;
     background-image: url('../images/screen.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: rotate(-5deg);
-
 }
 
 .hero__photo-container {
+    margin: 20px;
     display: flex;
-    width: 100%;
-    height: 450px;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    height: 400px;
     background-color: white;
-    transform: rotate(-5deg);
+    transform: rotate(-10deg); 
+    margin-bottom: 80px;
+    border-radius: 5px;
 } 
+
+.hero__button{
+    font-size: 2rem;
+    background-color: rgb(37, 241, 139);
+    color: white;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
 
 /*END OF HEADER*/
