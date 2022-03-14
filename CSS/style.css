@@ -91,3 +91,58 @@ header{
 }
 
 /*END OF HEADER*/
+
+/*FEATURES*/
+
+.features{
+    color: white;
+    background-color: black;
+   
+    
+}
+
+.features__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.feature{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.features__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__image{
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature__header {
+    text-align: center;
+}
+
+
+/*END OF FEATURES*/
