@@ -52,14 +52,13 @@ html, body {
 
 .nav__link:hover {
     background-image: radial-gradient(rgb(195, 74, 126), rgb(106, 86, 235));
-    
 }
 
 /* END OF NAV */
 
 /* START OF HERO */
 
-.hero {
+.hero__container {
     display: flex;
 }
 
@@ -70,7 +69,7 @@ html, body {
 }
 
 .hero__img {
-    min-width: 60%;
+    max-width: 60%;
     padding: 5%;
 }
 
@@ -132,7 +131,6 @@ html, body {
     margin: auto;
 }
 
-
 .features__container-cards {
     display: flex;
     margin: 0 15%;
@@ -153,6 +151,40 @@ html, body {
 }
 
 /* END OF GROUP OF LOGOS */
+
+/* START OF EXAMPLE DIV */
+
+.example__container {
+    display: flex;
+}
+
+.example__article {
+    padding-top: 50px;
+    max-width: 50%;
+    
+}
+
+.example__img {
+    max-width: 50%;
+    padding: 5%;
+}
+
+.example__img--size {
+    max-width: 100%;
+}
+
+.example__article-h2 {
+    margin-bottom: 50px;
+}
+
+/* END OF EXAMPLE DIV */
+
+
+
+
+
+
+
 
 
 
