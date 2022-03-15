@@ -408,7 +408,6 @@ a {
       text-align: center;
       padding-top: 15px;
       font-size: 12px;
-
 }
 
 .pricing__header--details {
@@ -421,7 +420,6 @@ a {
       display: flex;
       justify-content: center;
       padding-top: 90px;
-
 }
 
 .pricing__button--center {
@@ -444,7 +442,6 @@ a {
       width: 165px;
       height: 50px;
       color: white;
-
 }
 
 .pricing__button--plan:hover {
@@ -456,7 +453,11 @@ a {
       color: white
 }
 
-
-
-
 /* END OF SECTION PRICING 
+
+/* SECTION TEAM */
+
+
+
+
+/*END SECTION TEAM */
