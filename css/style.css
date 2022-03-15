@@ -96,6 +96,8 @@ html, body {
 
 /* END OF HERO */
 
+/* START OF FEATURES */
+
 .features__container {
     background-color: black;
     color: white;
@@ -141,7 +143,16 @@ html, body {
     margin-left: 50px;
 }
 
+/* END OF FEATURES */
 
+/* START OF GROUP OF LOGOS */
+
+.group-of-logos__image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* END OF GROUP OF LOGOS */
 
 
 
