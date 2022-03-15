@@ -2,16 +2,17 @@ html, body {
     margin: 0;
     padding: 0;
 
-    font-family: Montserrat; 
+    font-family: Montserrat;
 }
 
 .container {
     margin: 0 auto;
     max-width: 1024px;
-} 
+}
 
 .container--background {
     background-image: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    padding-bottom: 100px;;
 }
 
 .container--font-color {
@@ -20,17 +21,14 @@ html, body {
 
 .nav__container {
     display: flex;
-}
-
-.nav__menu{
-    align-items: right;
-}
-
-.nav__logo {
-    align-items: left;
+    justify-content: space-between;
+    padding-top: 10px;
 }
 
 .nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     text-decoration: none;
     height: 50px;
@@ -39,9 +37,69 @@ html, body {
 
 .nav__links {
     display: flex;
+    justify-content: center;
     margin: 0;
     list-style: none;
 }
+
+.nav__link:hover {
+    background-image: radial-gradient(rgb(195, 74, 126), rgb(106, 86, 235));
+}
+
+.hero {
+    display: flex;
+}
+
+.hero__article {
+    padding-top: 100px;
+    min-width: 40%;
+    color: white;
+}
+
+.hero__img {
+    min-width: 60%;
+    padding: 5%;
+}
+
+.hero__img--rotate {
+    transform: rotate(355deg);
+
+}
+
+.hero__img--size {
+    max-width: 90%;
+}
+
+.hero__button {
+    color: white;
+    background-color: #4CAF50;
+    padding: 15px 32px;
+    width: 300px;
+    
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #footer {
     background-color: grey;
