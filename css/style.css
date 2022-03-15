@@ -11,16 +11,16 @@ a {
 /* HERO HEADER */
 
 .hero__container {
-      border: solid 3px green;
+      border: solid 3px transparent;
       width: 100%;
       height: 800px;
       background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .nav {
-      border: solid 3px blue;
+      border: solid 3px transparent;
       max-width: 1024px;
-      height: 80%;
+      height: 100%;
       margin: 0 auto;
       margin-top: 30px;
       padding-top: 7px;
@@ -32,7 +32,7 @@ a {
 }
 
 .nav_logo {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       height: 50%;
       width: 20%;
       margin-top: 5px;
@@ -49,7 +49,7 @@ a {
 /* HERO NAVBAR */
 
 .nav_bar {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       height: 40px;
       width: 32%;
 }
@@ -79,7 +79,7 @@ a {
 }
 
 .nav_article {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       margin: 0 auto;
       margin-top: 10px;
       max-width: 1024px;
@@ -89,7 +89,7 @@ a {
 /* LEFT SIDE */
 
 .nav__column--left {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       width: 48%;
       height: 97%;
       margin-top: 5px;
@@ -132,7 +132,7 @@ a {
 /*RIGHT SIDE */
 
 .nav__column--right {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       width: 50%;
       height: 97%;
       margin-top: 5px;
@@ -161,14 +161,14 @@ a {
 /* HEADER  */
 
 .features__container {
-      border: solid 3px green;
+      border: solid 3px transparent;
       background-color: black;
       width: 100%;
       height: 580px;
 }
 
 .features__header {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       max-width: 1024px;
       height: 150px;
       margin: 0 auto;
@@ -183,7 +183,7 @@ a {
 }
 
 .features__items {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       max-width: 1024px;
       height: 400px;
       margin: 0 auto;
@@ -202,7 +202,7 @@ a {
 .features__column--left,
 .features__column--center,
 .features__column--right {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       width: 25%;
       height: 380px;
       margin-top: 10px;
@@ -243,15 +243,14 @@ a {
 /* ASIDE ELEMENT */
 
 .aside__container {
-
-      border: solid 3px green;
+      /* border: solid 3px green; */
       background-color: white;
       width: 100%;
       height: 70px;
 }
 
 .aside__element {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       max-width: 1024px;
       height: 68px;
       margin: 0 auto;
@@ -270,7 +269,7 @@ a {
 /* SECTION VIEW */
 
 .view__container {
-      border: solid 3px green;
+      /* border: solid 3px green; */
       background-color: white;
       width: 100%;
       height: 75%;
@@ -279,7 +278,7 @@ a {
 }
 
 .view__form {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       margin: 0 auto;
       margin-top: 10px;
       max-width: 1024px;
@@ -290,7 +289,7 @@ a {
 }
 
 .view__element--left {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       width: 55%;
       height: 98%;
       margin-top: 5px;
@@ -302,7 +301,7 @@ a {
 }
 
 .view__element--right {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       width: 40%;
       margin-top: 5px;
       margin-right: 5px;
@@ -325,14 +324,14 @@ a {
 /* SECTION PRICING */
 
 .pricing__container {
-      border: solid 3px green;
+      /* border: solid 3px green; */
       background-color: whitesmoke;
       width: 100%;
       height: 580px;
 }
 
 .pricing__header--headline {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       max-width: 1024px;
       height: 130px;
       margin: 0 auto;
@@ -355,7 +354,7 @@ a {
 
 
 .pricing__items {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       max-width: 1024px;
       height: 420px;
       margin: 0 auto;
@@ -374,7 +373,7 @@ a {
 .pricing__column--left,
 .pricing__column--center,
 .pricing__column--right {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       width: 31%;
       height: 400px;
       margin-top: 10px;
@@ -458,14 +457,14 @@ a {
 /* SECTION TEAM */
 
 .team__container {
-      border: solid 3px green;
+      /* border: solid 3px green; */
       background-color: white;
       width: 100%;
       height: 580px;
 }
 
 .team__header {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       max-width: 1024px;
       height: 150px;
       margin: 0 auto;
@@ -480,7 +479,7 @@ a {
 }
 
 .team__items {
-      border: solid 3px blue;
+      /* border: solid 3px blue; */
       max-width: 1024px;
       height: 400px;
       margin: 0 auto;
@@ -499,7 +498,7 @@ a {
 .team__column--left,
 .team__column--center,
 .team__column--right {
-      border: solid 3px orange;
+      /* border: solid 3px orange; */
       width: 25%;
       height: 380px;
       margin-top: 10px;
@@ -526,7 +525,7 @@ a {
       font-size: 15px;
 }
 
-.team__header--person{
+.team__header--person {
       text-align: center;
       margin-top: 10px;
       font-size: 13px;
@@ -539,7 +538,7 @@ a {
       font-size: 12px;
 }
 
-.team__social--icons{
+.team__social--icons {
       display: flex;
       justify-content: center;
       justify-content: space-around;
@@ -553,10 +552,32 @@ a {
 /* SECTION FOOTER */
 
 
+.footer__container {
 
+      /* border: solid 3px green; */
+      background-color:#393939;
+      width: 100%;
+      height: 70px;
+}
 
+.footer__bar {
+      /* border: solid 3px blue; */
+      max-width: 1024px;
+      height: 68px;
+      margin: 0 auto;
+      background-color: #393939;
+      display: flex;
+      justify-content: space-between;
+}
 
+.footer__icons {
 
+      margin-left: 90%;
+      margin-top: 25px
+}
 
+.footer__item--twitt {
+      padding-right: 18px;
+}
 
 /* END SECTION FOOTER */
