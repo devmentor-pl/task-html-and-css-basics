@@ -457,7 +457,106 @@ a {
 
 /* SECTION TEAM */
 
+.team__container {
+      border: solid 3px green;
+      background-color: white;
+      width: 100%;
+      height: 580px;
+}
 
+.team__header {
+      border: solid 3px blue;
+      max-width: 1024px;
+      height: 150px;
+      margin: 0 auto;
+      margin-top: 5px;
+}
 
+.team__header--headline {
+      color: black;
+      font-size: 30px;
+      text-align: center;
+      padding-top: 50px;
+}
+
+.team__items {
+      border: solid 3px blue;
+      max-width: 1024px;
+      height: 400px;
+      margin: 0 auto;
+      margin-top: 5px;
+}
+
+/* ARTICLE SECTION */
+
+.team__items--columns {
+      display: flex;
+      flex-basis: 33%;
+      justify-content: center;
+
+}
+
+.team__column--left,
+.team__column--center,
+.team__column--right {
+      border: solid 3px orange;
+      width: 25%;
+      height: 380px;
+      margin-top: 10px;
+      color: black;
+}
+
+.team__logo--background {
+      width: 80px;
+      height: 80px;
+      background-color: white;
+      margin: 0 auto;
+      margin-top: 27%;
+}
+
+.team__logo--icon {
+      display: flex;
+      justify-content: center;
+      width: 110%;
+}
+
+.team__header--title {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 15px;
+}
+
+.team__header--person{
+      text-align: center;
+      margin-top: 10px;
+      font-size: 13px;
+      font-weight: bold;
+}
+
+.team__header--text {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 12px;
+}
+
+.team__social--icons{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      padding-left: 70px;
+      padding-right: 70px;
+      margin-top: 15px;
+}
 
 /*END SECTION TEAM */
+
+/* SECTION FOOTER */
+
+
+
+
+
+
+
+
+/* END SECTION FOOTER */
