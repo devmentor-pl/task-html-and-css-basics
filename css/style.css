@@ -179,15 +179,57 @@ html, body {
 
 /* END OF EXAMPLE DIV */
 
+.pricing__container-header,
+.pricing__container-card {
+    text-align: center;
+}
 
+.pricing__container-cards {
+    display: flex;
+}
 
+.pricing__container-card {
+    margin: 0 30px;
+    border: solid;
+    border-radius: 5%;
+    border-width: thin;
+    border-color: grey;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgb(167, 165, 165);
+}
 
+.pricing__container-card:hover {
+    background-color: azure;
+}
 
+.pricing__container-card--height {
+    min-height: 250px;
+}
 
+.pricing__container-card-price {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
 
+.pricing__container-card-period {
+    font-size: 0.7em;
+}
 
+.pricing__container-card-amount {
+    font-weight: 600;
+}
 
-
+.pricing__button {
+    color: white;
+    background-color: #11437c;
+    padding: 15px 32px;
+    width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
 
 #footer {
     background-color: grey;

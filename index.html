@@ -21,7 +21,16 @@
         crossorigin
     >
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap"
         rel="stylesheet"
     >
 
@@ -204,76 +213,87 @@
 
     </div>
 
+
     <div
         class="container"
         id="pricing"
     >
-        <div>
+        <div class="pricing__container-header">
             <h2>
-                CHOOSE YOU PRICING PLAN
+                CHOOSE YOUR PRICING PLAN
             </h2>
             <p>
                 Pick any of our super affordable pricing plans
             </p>
         </div>
-        <div>
-            <div>
-                <h3>
-                    BASIC
-                </h3>
-                <p class="price">
-                    $15
-                </p>
-                <p>
-                    per month
-                </p>
-                <p>
-                    Up to 7 Projects</br>
-                    2 Additional Developers
-                </p>
-                <button class="started">
+
+        <div class="pricing__container-cards">
+            <div class="pricing__container-card">
+                <div class="pricing__container-card--height">
+                    <h3 class="pricing__container-card-name">
+                        BASIC
+                    </h3>
+                    <p class="pricing__container-card-price">
+                        $15
+                    </p>
+                    <p class="pricing__container-card-period">
+                        per month
+                    </p>
+                    <p class="pricing__container-card-amount">
+                        Up to 7 Projects</br>
+                        2 Additional Developers
+                    </p>
+                </div>
+                <button class="pricing__button">
                     Get Started
                 </button>
             </div>
-            <div>
-                <h3>
-                    AGENCY
-                </h3>
-                <p class="price">
-                    $55
-                </p>
-                <p>
-                    per month
-                </p>
-                <p>
-                    Up to 25 Projects</br>
+
+            <div class="pricing__container-card">
+                <div class="pricing__container-card--height">
+                    <h3 class="pricing__container-card-name">
+                        AGENCY
+                    </h3>
+                    <p class="pricing__container-card-price">
+                        $55
+                    </p>
+                    <p class="pricing__container-card-period">
+                        per month
+                    </p>
+                    <p class="pricing__container-card-amount">
+                        Up to 25 Projects</br>
                     2 Additional Developers</br>
                     Unlimited Support
-                </p>
-                <button class="started">
+                    </p>
+                </div>
+                <button class="pricing__button">
                     Get Started
                 </button>
             </div>
-            <div>
-                <h3>
-                    PRO
-                </h3>
-                <p class="price">
-                    $75
-                </p>
-                <p>
-                    per month
-                </p>
-                <p>
-                    Up to 25 Projects</br>
+
+            <div class="pricing__container-card">
+                <div class="pricing__container-card--height">
+                    <h3 class="pricing__container-card-name">
+                        PRO
+                    </h3>
+                    <p class="pricing__container-card-price">
+                        $75
+                    </p>
+                    <p class="pricing__container-card-period">
+                        per month
+                    </p>
+                    <p class="pricing__container-card-amount">
+                        Up to 25 Projects</br>
                     2 Additional Developers</br>
                     Unlimited Support</br>
                     1.5GB Disk Space
-                </p>
-                <button class="started">
+                    </p>
+                </div>
+                <button class="pricing__button">
                     Get Started
                 </button>
             </div>
+
         </div>
 
     </div>
