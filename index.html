@@ -24,10 +24,10 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet"
     />
-    <!-- <link
+    <link
         rel="stylesheet"
         href="./css/reset.css"
-    /> -->
+    />
     <link
         rel="stylesheet"
         href="./css/style.css"
@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header container">
         <div
             class="nav"
             id="nav"
@@ -47,7 +47,7 @@
                     alt="logo"
                 >
             </div>
-            <div class="nav_menu">
+            <div class="nav__menu">
                 <ul class="nav__links">
                     <a
                         class="nav__link"
@@ -70,8 +70,6 @@
                 </ul>
             </div>
         </div>
-    </header>
-    <main>
         <section
             class="hero"
             id="hero"
@@ -83,19 +81,21 @@
                 <p class="hero__text-info">
                     A top notch premium quality template for your next web projekt
                 </p>
-                <button class="cta-button">Download FREE!</button>
+                <button class="hero__text-button">Download FREE!</button>
 
             </div>
             <div class="hero__image">
                 <img
+                    class="hero__image--screen"
                     src="./images/screen.png"
                     alt="screen"
                 >
             </div>
-
         </section>
+    </header>
+    <main>
         <section
-            class="features"
+            class="features container"
             id="features"
         >
             <div class="features__header">
@@ -108,7 +108,7 @@
                         src="./images/responsive.svg"
                         alt="responsive"
                     />
-                    <h3 class="features__option_header">FULLY RESPONSIVE</h3>
+                    <h3 class="features__option-header">FULLY RESPONSIVE</h3>
                     <p class="features__option-text">Looks amazing on any device: smartfone, tablet, laptop and deskop.
                     </p>
                 </div>
@@ -134,16 +134,17 @@
             </div>
         </section>
         <section
-            class="logos"
+            class="logos container"
             id="logos"
         >
             <img
+                class="logos__img"
                 src="./images/logos.png"
                 alt="logos"
             >
         </section>
         <section
-            class="description"
+            class="description container"
             id="description"
         >
             <div class="description__image">
@@ -164,7 +165,7 @@
 
         </section>
         <section
-            class="pricing"
+            class="pricing container"
             id="pricning"
         >
             <div class="pricing__header">
@@ -203,7 +204,7 @@
     </main>
     <footer>
         <div
-            class="team"
+            class="team container"
             id="team"
         >
             <div class="team__header">
@@ -280,9 +281,13 @@
             </div>
 
         </div>
-        <div class="signature">
-           <p class="signature__text"> A free template by</p> 
-           <img class="signature__logo" src="./images/webscope.svg" alt="webscope"/>
+        <div class="signature container">
+            <p class="signature__text"> A free template by</p>
+            <img
+                class="signature__logo"
+                src="./images/webscope.svg"
+                alt="webscope"
+            />
         </div>
     </footer>
 
