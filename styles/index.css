@@ -12,7 +12,6 @@
     .page-main {
         max-width: 1150px;
         margin: 0 auto;
-        border: 3px solid blue;
     }
     /* Section 1 */
     
@@ -59,10 +58,6 @@
         border-radius: 25px;
         position: relative;
         right: 50px;
-    }
-    
-    .first-section__description {
-        border: 2px solid yellow;
     }
     
     .first-section__description--box {
@@ -134,6 +129,10 @@
     }
     /*Section 3*/
     
+    .third-section__background {
+        background-color: rgb(245, 245, 245);
+    }
+    
     .third-section {
         display: flex;
         justify-content: center;
@@ -143,3 +142,114 @@
         padding: 10px 0px 10px 0px;
     }
     /*Section 4*/
+    
+    .forth-section {
+        display: flex;
+        color: grey;
+    }
+    
+    .forth-section__image {
+        height: 30em;
+        margin-right: 70px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    
+    .forth-section__text {
+        width: 40%;
+        margin-top: 50px;
+    }
+    
+    .forth-section__text__box {
+        width: 70%;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
+    /*Section 5*/
+    
+    .fifth-section__header {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 50px;
+        color: grey;
+    }
+    
+    .fifth-section__content {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .fifth-section__pricing {
+        text-align: center;
+        width: 30%;
+        margin-top: 20px;
+        padding-top: 30px;
+    }
+    
+    .fifth-section__pricing--agency {
+        background-color: white;
+        margin: 20px;
+        padding: 20px;
+        box-shadow: 5px 5px 5px 5px rgb(209, 205, 205);
+    }
+    
+    .fifth-section__pricing__amount {
+        font-weight: bolder;
+        color: black;
+        font-size: xx-large;
+        text-shadow: 0px 1px, 1px 0px, 1px 1px;
+        margin: 0;
+    }
+    
+    .fifth-section__pricing__payment {
+        font-size: x-small;
+    }
+    
+    .fifth-section__pricing__description {
+        font-size: smaller;
+        height: 15%;
+        font-weight: bold;
+    }
+    
+    .first-section__description--button--color {
+        background-color: rgb(65, 174, 238);
+    }
+    
+    .first-section__description--button--color:hover {
+        background-color: rgb(21, 98, 143);
+    }
+    /* Section 6*/
+    
+    .six-section__content_team {
+        font-weight: bolder;
+        margin: 0;
+        color: black;
+    }
+    
+    .six-section__content_position {
+        margin-bottom: 0;
+        margin-top: 30px;
+    }
+    
+    .six-section__content_description {
+        margin-top: 3px;
+    }
+    
+    .six-section__content__logo {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+        height: 15px;
+        margin: 10px;
+    }
+    /*Section 7*/
+    
+    .seventh-section {
+        margin-top: 100px;
+        background-color: rgb(65, 62, 62);
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .seventh-section__text {
+        margin-right: 10px;
+    }
