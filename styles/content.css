@@ -1,0 +1,32 @@
+.content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+.content__article {
+    min-height: 400px;
+    width: 45%;
+    margin-left: 0;
+    color: white;
+}
+.content__column {
+    min-height: 400px;
+    width: 55%;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p.intro {
+    font-weight: bold;
+    font-size: xx-large;
+}
+p.outro {
+    font-size: medium;
+    max-width: 300px;
+}
+img[src= "./images/screen.png"] {
+    border: 8px solid white;
+    border-radius: 8px;
+    background-color: white;
+}

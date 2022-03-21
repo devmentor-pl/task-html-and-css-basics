@@ -1,0 +1,27 @@
+.header__container {
+    display: flex;
+    justify-content: space-between;
+
+}
+.header__logo {
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__nav {
+    min-width: 500px;
+    margin-right: 0;
+}
+.nav__dropdown {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+}
+.nav__item {
+    margin-left: 25px;
+    position: relative;
+}
+
