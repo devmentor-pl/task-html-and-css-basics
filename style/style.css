@@ -1,19 +1,34 @@
 html, body {
     margin: 0;
     padding: 0%;
-    max-width: 100%;
 }
 /*background*/
 .background {
     background:radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    max-width: 100%;
 }
 /*end off background*/
 
 /*nav*/
-.nav{
+.navbar{
+    display: flex;
+    justify-content: space-between;
     max-width: 1150px;
+    height: 200px;
+    margin: auto;
+    padding-top: 65px;
 }
 
+.navbar__logo{
+width: 100px;
+height: 70px;
+font-size: 50px;
+}
+
+.navbar__menu{
+    width: 250px;
+    height: 100px;
+}
 
 
 /*end off nav*/
