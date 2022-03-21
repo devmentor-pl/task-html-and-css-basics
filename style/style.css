@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    padding: 0%;
+    max-width: 100%;
+}
+/*background*/
+.background {
+    background:radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+/*end off background*/
+
+/*nav*/
+.nav{
+    max-width: 1150px;
+}
+
+
+
+/*end off nav*/
