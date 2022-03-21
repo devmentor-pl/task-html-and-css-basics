@@ -1,0 +1,27 @@
+.example__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+.example__article {
+    height: 350px;
+    width: 55%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example__column {
+    height: 350px;
+    width: 45%;
+    margin-right: 0;}
+
+p.intro2 {
+    font-size: x-large;
+    color: gray;
+}
+p.outro2 {
+    font-size: small;
+    max-width: 350px;
+    color: gray;
+}

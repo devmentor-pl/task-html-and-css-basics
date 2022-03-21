@@ -1,0 +1,15 @@
+.footer__container {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(60, 61, 61)
+}
+.footer__logo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p.template {
+    color: white;
+    font-size: small;
+}
