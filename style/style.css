@@ -1,20 +1,24 @@
 html, body {
     margin: 0;
     padding: 0%;
+    font-family: 'Montserrat', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 /*background*/
 .background {
-    background:radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     max-width: 100%;
     height: 650px
 }
+
 /*end off background*/
 
 /*nav*/
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     max-width: 1150px;
@@ -23,25 +27,28 @@ a{
     padding-top: 40px;
 }
 
-.navbar__logo{
-width: 100px;
-height: 70px;
-font-size: 50px;
-margin-bottom: 20px;
+.navbar__logo {
+    width: 100px;
+    height: 70px;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
-.navbar__menu{
+.navbar__menu {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     width: 450px;
     height: 100px;
 }
 
-.nav__menu--item{
+.nav__menu--item {
+    font-weight: 400;
+    font-size: 14px;
     color: white;
 }
 
-.button{
+.button-blue {
     background-color: #0ABCEB;
     border-radius: 10px;
     border: #0ABCEB;
@@ -55,3 +62,35 @@ margin-bottom: 20px;
 }
 
 /*end off nav*/
+
+/*hero*/
+
+.hero {}
+
+.hero__menu {
+    display: grid;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.hero__menu--item {
+    color: white;
+    margin-top: 30px;
+}
+
+
+.button-green {
+    background-color: #6affb4;
+    border-radius: 10px;
+    border: #6affb4;
+    float: right;
+    width: 195px;
+    height: 51px;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-top: 45px;
+}
+
+
+/*end off hero*/
