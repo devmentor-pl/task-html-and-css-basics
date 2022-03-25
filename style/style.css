@@ -68,7 +68,7 @@ a {
 .hero {}
 
 .hero__menu {
-    display: grid;
+    display: flex;
     max-width: 1150px;
     margin: auto;
 }
@@ -78,12 +78,10 @@ a {
     margin-top: 30px;
 }
 
-
 .button-green {
     background-color: #6affb4;
     border-radius: 10px;
     border: #6affb4;
-    float: right;
     width: 195px;
     height: 51px;
     color: white;
@@ -92,5 +90,21 @@ a {
     margin-top: 45px;
 }
 
+.hero__menu--image {
+    width: 500px;
+    height: 400px;
+    margin-left: 75px;
+    z-index: 1;
+    transform: rotate(-6deg);
+    max-width: 45%;
+    border-radius: 25px;
+    background: #fff;
+    box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgb(173 186 204 / 25%), 0 0px 33px rgb(0 21 64 / 14%), 0 10px 20px rgb(0 21 64 / 5%);
+
+}
 
 /*end off hero*/
+
+/*features/
+
+/*end off features/
