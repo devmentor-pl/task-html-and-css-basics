@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<HEADER>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.header {
+    width: 100%;
+    height: 600px;
+    border: 1px solid green;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* -------------------------HEADING------------------------------- */
+.heading {
+    width: 1150px;
+    height: 80px;
+    border: 1px solid yellow;
+    display: flex;
+}
+.heading__logos {
+    width: 50%;
+    height: 80px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+.heading__logo {
+    width: 80px;
+    height: 80px;
+}
+.heading__navs {
+    padding-top: 12px;
+    width: 50%;
+    height: 80px;
+    border: 1px solid yellowgreen;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    
+}
+nav {
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    position: relative;
+    top: -10%;
+
+}
+
+/* -------------------------HEADING--END-------------------------- */
+
+/* ----------------------------HERO-----------------------------*/
+.hero {
+    width: 1150px;
+    height: 520px;
+    border: 1px solid orange;
+    display: flex;
+}
+.hero__text {
+    width: 50%;
+    height: 520px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid lightblue;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    right: -15%;
+
+}
+.hero__fat {
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+.hero__slim {
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.hero__button {
+         color: white;
+        pointer-events: auto;
+        cursor: pointer;
+        background: #6FEC8C;
+        border-radius: 10px;
+        padding: 1.5rem 3rem;
+        margin: 0;
+}
+
+.hero__image {
+    width: 50%;
+    height: 520px;
+    border: 1px solid lightpink;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+
+}
+.hero__image img {
+    width: 90%;
+    height: 65%;
+    transform: rotate(-5deg);
+    border: 10px solid  white;
+    border-radius: 20px;
+
+}
+
+/*----------------------------HERO-END---------------------------*/
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<HEADER-END>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
