@@ -237,7 +237,7 @@ li::before {
     text-align: center;
     max-width: 390px;
     margin: auto;
-    height: 430px;
+    height: 340px;
     padding: 36px 15px 45px;
 }
 
@@ -245,7 +245,7 @@ li::before {
     text-align: center;
     max-width: 390px;
     margin: auto;
-    height: 430px;
+    height: 403px;
     padding: 36px 15px 45px;
     box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
     border-radius: 7px;
@@ -253,9 +253,9 @@ li::before {
 
 .sales__menu--item_3 {
     text-align: center;
-    max-width: 390px;
+    max-width: 466px;
     margin: auto;
-    height: 430px;
+    height: 466px;
     padding: 36px 15px 45px;
 }
 
@@ -268,7 +268,6 @@ li::before {
     background-color: #0ABCEB;
     border-radius: 10px;
     border: #0ABCEB;
-    float: right;
     width: 195px;
     height: 51px;
     color: white;
@@ -284,6 +283,27 @@ li::before {
 .team {
     background-color: white;
     height: 600px;
+    max-width: 100%;
+    margin: auto;
 }
 
+.team__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.team__container{
+    max-width: 1150px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    text-align: center;
+    line-height: 30px;
+}
 /*wnd off team*/
