@@ -177,7 +177,7 @@ a {
     padding-bottom: 80px;
 }
 
-.imac__text{
+.imac__text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -189,9 +189,101 @@ a {
 /*end off imac*/
 
 /*sales*/
-.sales{
-    background-color:#F9FAFA;
-    height: 600px;
+
+li::before {
+    font-family: Material Icons;
+    content: "check";
+    color: #3aeb8c;
+    position: absolute;
+    left: -10px;
+    position: relative;
+}
+
+.sales {
+    background-color: #F9FAFA;
+    height: 700px;
+    max-width: 100%;
     margin: auto;
 }
+
+.sales__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+    font-size: 16px;
+}
+
+.sales__header--item{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sales__menu {
+    max-width: 1150px;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.sales__menu--item {
+    text-align: center;
+    max-width: 390px;
+    margin: auto;
+    height: 430px;
+    padding: 36px 15px 45px;
+}
+
+.sales__menu--item_2 {
+    text-align: center;
+    max-width: 390px;
+    margin: auto;
+    height: 430px;
+    padding: 36px 15px 45px;
+    box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
+    border-radius: 7px;
+}
+
+.sales__menu--item_3 {
+    text-align: center;
+    max-width: 390px;
+    margin: auto;
+    height: 430px;
+    padding: 36px 15px 45px;
+}
+
+.sales__menu--money{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.button-get_started{
+    background-color: #0ABCEB;
+    border-radius: 10px;
+    border: #0ABCEB;
+    float: right;
+    width: 195px;
+    height: 51px;
+    color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+}
+
 /*end off sales*/
+
+/*team*/
+
+.team {
+    background-color: white;
+    height: 600px;
+}
+
+/*wnd off team*/
