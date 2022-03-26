@@ -158,4 +158,40 @@ a {
     text-align: center;
     padding: 20px;
 }
+
 /*end off logos*/
+
+/*imac*/
+
+.imac {
+    display: flex;
+    justify-content: center;
+    max-width: 1150px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.imac__images {
+    width: 3000px;
+    padding-right: 100px;
+    padding-bottom: 80px;
+}
+
+.imac__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    height: 300px;
+    line-height: 30px;
+}
+
+/*end off imac*/
+
+/*sales*/
+.sales{
+    background-color:#F9FAFA;
+    height: 600px;
+    margin: auto;
+}
+/*end off sales*/
