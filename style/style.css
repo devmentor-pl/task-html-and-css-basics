@@ -107,15 +107,35 @@ a {
 
 /*features*/
 
-.features{
+.features {
     color: white;
     background-color: black;
     height: 450px;
 }
 
-.features__item{
-    color: white;
-    
+.features__top {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
+
+.features__bottom {
+    display: flex;
+    padding-top: 70px;
+    margin-left: 31%;
+    width: 800px;
+}
+
+.features__item {
+    text-align: center;
+    padding-right: 25px;
+    font-size: 14px;
+}
+
+.features__item--text{
+    padding-top: 15px;
+    width: 223px;
+}
+
 
 /*end off features*/
