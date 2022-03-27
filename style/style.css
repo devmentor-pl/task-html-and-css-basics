@@ -55,8 +55,6 @@ a {
     width: 195px;
     height: 51px;
     color: white;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
     margin-top: -10px;
 }
 
@@ -215,7 +213,7 @@ li::before {
     font-size: 16px;
 }
 
-.sales__header--item{
+.sales__header--item {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -259,20 +257,18 @@ li::before {
     padding: 36px 15px 45px;
 }
 
-.sales__menu--money{
+.sales__menu--money {
     font-size: larger;
     font-weight: bold;
 }
 
-.button-get_started{
+.button-get_started {
     background-color: #0ABCEB;
     border-radius: 10px;
     border: #0ABCEB;
     width: 195px;
     height: 51px;
     color: white;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
     margin-top: 20px;
 }
 
@@ -287,7 +283,7 @@ li::before {
     margin: auto;
 }
 
-.team__header{
+.team__header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -297,7 +293,7 @@ li::before {
     font-weight: bold;
 }
 
-.team__container{
+.team__container {
     max-width: 1150px;
     display: flex;
     margin: auto;
@@ -306,7 +302,70 @@ li::before {
     text-align: center;
     line-height: 30px;
 }
-.team__members{
+
+.team__members {
     font-weight: bold;
 }
-/*wnd off team*/
+
+/*end off team*/
+
+/*download*/
+
+.download__container {
+    background-color: #0abceb;
+    height: 250px;
+    width: 100%;
+
+}
+
+.download__header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    line-height: 30px;
+}
+
+.download__header--item-first {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.download__header--item-second {
+    width: 280px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.download__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.download__form--email {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    width: 210px;
+    height: 51px;
+    color: #808080;
+    margin-top: 20px;
+    border: none;
+    padding-left: 10px;
+}
+
+.download__form--button {
+    background-color: #25F18B;
+    border-radius: 10px;
+    color: #fff;
+    height: 51px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 3px;
+    border: 0;
+}
+
+/*end off download*/
