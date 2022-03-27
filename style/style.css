@@ -68,8 +68,15 @@ a {
     margin: auto;
 }
 
-.hero__menu--item {
-    font-size: 18px;
+.hero__menu--item_first {
+    font-size: xxx-large;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+}
+
+.hero__menu--item_second {
+    font-size: smaller;
     color: white;
     margin-top: 30px;
 }
@@ -87,7 +94,7 @@ a {
 }
 
 .hero__menu--image {
-    width: 500px;
+    width: 600px;
     height: 400px;
     margin-left: 75px;
     z-index: 1;
@@ -96,7 +103,7 @@ a {
     border-radius: 25px;
     background: #fff;
     box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgb(173 186 204 / 25%), 0 0px 33px rgb(0 21 64 / 14%), 0 10px 20px rgb(0 21 64 / 5%);
-
+    padding: 15px;
 }
 
 /*end off hero*/
@@ -113,11 +120,13 @@ a {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+    font-size: xx-large;
+    font-weight: 400;
 }
 
 .features__bottom {
     display: flex;
-    padding-top: 70px;
+    padding-top: 80px;
     margin-left: 31%;
     width: 800px;
 }
@@ -135,15 +144,15 @@ a {
 
 .features__item--icon {
     background-color: white;
-    border-radius: 17%;
-    height: 5.625em;
-    width: 5.625em;
+    border-radius: 45%;
+    height: 5.2rem;
+    width: 5.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     box-shadow: 4px 14px 28px #393939;
-    font-size: 10px;
+    padding: 25px;
 }
 
 /*end off features*/
@@ -175,6 +184,10 @@ a {
     padding-bottom: 80px;
 }
 
+.imac__images--item {
+    padding-right: 55px;
+}
+
 .imac__text {
     display: flex;
     flex-direction: column;
@@ -182,6 +195,11 @@ a {
     text-align: left;
     height: 300px;
     line-height: 30px;
+}
+
+.imac__text--item_first {
+    font-size: x-large;
+    font-weight: bold;
 }
 
 /*end off imac*/
@@ -215,7 +233,7 @@ li::before {
 
 .sales__header--item {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -258,8 +276,17 @@ li::before {
 }
 
 .sales__menu--money {
-    font-size: larger;
+    font-size: xx-large;
     font-weight: bold;
+}
+
+.sales__menu--month {
+    font-size: 12px;
+}
+
+.sales__menu--text {
+    font-size: 16px;
+    line-height: 1.5rem;
 }
 
 .button-get_started {
@@ -290,7 +317,7 @@ li::before {
     align-items: center;
     padding-top: 50px;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .team__container {
@@ -307,13 +334,23 @@ li::before {
     font-weight: bold;
 }
 
+.team__members__description {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.team__facebook {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 /*end off team*/
 
 /*download*/
 
 .download__container {
     background-color: #0abceb;
-    height: 250px;
+    height: 260px;
     width: 100%;
 
 }
@@ -369,3 +406,39 @@ li::before {
 }
 
 /*end off download*/
+
+/*footer*/
+
+.footer {
+    background-color: #464646;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.footer__header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.download__header--item-second {
+    font-weight: 300;
+}
+
+.footer__header--image {
+    padding-left: 5px;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20%;
+}
+
+.footer__bottom--item {
+    padding-right: 15px;
+}
+
+/*end off footer*/
