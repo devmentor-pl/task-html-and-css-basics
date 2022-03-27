@@ -306,4 +306,7 @@ li::before {
     text-align: center;
     line-height: 30px;
 }
+.team__members{
+    font-weight: bold;
+}
 /*wnd off team*/
