@@ -38,32 +38,40 @@ html {
 	text-transform: uppercase;
 }
 
+.wrapper {
+	margin: 0 auto;
+	max-width: 1050px;
+	padding: 4rem 1rem 0;
+	width: 100%;
+}
+
 /* header */
 
 .header {
-	padding: 0.5rem;
+	padding-top: 2rem;
+	padding-bottom: 7rem;
 	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 	color: #fff;
 }
 
 .header__content {
 	display: flex;
-	flex-direction: column-reverse;
-	justify-content: center;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .header__left {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
+	text-align: left;
+	max-width: 400px;
 	margin: 1rem 0;
-	text-align: center;
 }
 
 .header__right {
-	width: 70%;
+	width: 60%;
 	height: auto;
 	margin: 3rem 0;
 	background-color: #fff;
@@ -74,27 +82,28 @@ html {
 
 .header__right-img {
 	padding: 1rem;
-	/* width: 100%; */
+	width: 100%;
 }
 
 .header__heading {
 	padding: 0.5rem 0;
-	font-size: 2rem;
+	font-size: 3.5rem;
 	font-weight: bold;
 }
 
 .header__desc {
-	padding: 0.5rem 0;
-	font-size: 1.2rem;
+	width: 60%;
+	/* padding: 0.5rem 0; */
+	margin: 1rem 0 3rem;
+	font-size: 1.6rem;
 	font-weight: 300;
-	line-height: 2rem;
+	line-height: 2.5rem;
 }
 
 .header__btn,
 .header__btn:link,
 .header__btn:visited {
 	width: 150px;
-	margin: 1.5rem 2rem;
 	font-weight: 600;
 	background-color: #21bd6f;
 	box-shadow: 12px 12px 24px -1px rgba(0, 0, 0, 0.3);
@@ -106,18 +115,20 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem 2rem;
+	padding: 3rem 3rem;
 }
 
 .nav__logo {
-	width: 8rem;
+	width: 9rem;
 	height: auto;
 }
 
 .nav__item {
 	display: flex;
-	width: 200px;
+	width: 20rem;
 	justify-content: space-evenly;
+	font-size: 1.2rem;
+	font-weight: bold;
 }
 
 .nav__link {
@@ -377,4 +388,3 @@ html {
 .footer__img {
 	margin-left: 0.5rem;
 }
-
