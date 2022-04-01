@@ -32,8 +32,9 @@ html {
 }
 
 .sections-heading {
+	margin-top: 5rem;
 	padding: 1rem;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -159,8 +160,11 @@ html {
 
 .features__content-wrapper {
 	display: flex;
-	flex-direction: column;
-	margin: 1.5rem 0;
+	align-items: center;
+	/* flex-direction: column; */
+	justify-content: space-between;
+	padding-bottom: 4rem;
+	margin: 8rem auto;
 }
 
 .features__feature {
