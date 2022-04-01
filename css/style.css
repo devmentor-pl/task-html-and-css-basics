@@ -74,6 +74,7 @@ html {
 
 .header__right-img {
 	padding: 1rem;
+	/* width: 100%; */
 }
 
 .header__heading {
@@ -201,5 +202,34 @@ html {
 	justify-content: center;
 	padding: 2rem;
 	background-color: #f8f9f9;
+}
+
+/* section about */
+
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.about__img {
+	width: 60rem;
+	height: auto;
+	padding: 2rem;
+	margin-top: 2rem;
+}
+
+.about__text {
+	padding: 1rem 3rem;
+	text-align: center;
+}
+
+.about__desc {
+	padding: 1rem;
+	font-size: 1.1rem;
+	line-height: 2rem;
+	font-weight: 300;
 }
 
