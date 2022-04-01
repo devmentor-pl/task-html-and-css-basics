@@ -358,3 +358,23 @@ html {
 .team-member__media-icon:first-child {
 	margin-right: 1rem;
 }
+
+/* footer */
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	background-color: #464646;
+}
+
+.footer-text {
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+.footer__img {
+	margin-left: 0.5rem;
+}
+
