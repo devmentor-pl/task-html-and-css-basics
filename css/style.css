@@ -301,3 +301,60 @@ html {
 	background-color: #06bceb;
 }
 
+/* section team */
+
+.team {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.team__heading {
+	width: 100%;
+	margin-top: 3.5rem;
+	text-align: center;
+}
+
+.team__team-member {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2.5rem;
+	margin: 1rem;
+}
+
+.team-member__img {
+	width: 9rem;
+}
+
+.team-member__role {
+	margin: 2rem 0 0.5rem 0;
+	font-size: 1.5rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.team-member__name {
+	margin-bottom: 0.5rem;
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.team-member__about {
+	font-weight: 300;
+}
+
+.team-member__media {
+	margin: 1.5rem;
+}
+
+.team-member__media-icon {
+	height: 1.5rem;
+	filter: invert(70%) sepia(0%) saturate(19%) hue-rotate(347deg) brightness(90%) contrast(104%);
+}
+
+.team-member__media-icon:first-child {
+	margin-right: 1rem;
+}
