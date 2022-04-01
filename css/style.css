@@ -194,3 +194,12 @@ html {
 	color: #f8f9f9;
 }
 
+/* section logo */
+
+.logos {
+	display: flex;
+	justify-content: center;
+	padding: 2rem;
+	background-color: #f8f9f9;
+}
+
