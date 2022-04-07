@@ -5,7 +5,7 @@
 	--header-btn-bg: #21bd6f;
 	--features-bg: #000000;
 	--feature-desc: #f8f9f9;
-	--pricing-bg: #cbd6d6;
+	--pricing-bg: #e1e9e9;
 	--card-btn: #06bceb;
 }
 
@@ -68,7 +68,7 @@ html {
 	justify-content: space-between;
 }
 
-.header__left {
+.header__left-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -78,7 +78,7 @@ html {
 	margin: 1rem 0;
 }
 
-.header__right {
+.header__image {
 	width: 60%;
 	height: auto;
 	margin: 3rem 0;
@@ -186,7 +186,7 @@ html {
 	width: 6rem;
 	height: 6rem;
 	margin: 1.8rem;
-	background-color: var(--main-text-color);
+	background: var(--main-text-color);
 	border-radius: 10rem;
 	background-position: center;
 	background-repeat: no-repeat;
