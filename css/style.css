@@ -1,0 +1,125 @@
+/* COMMON */
+
+html, body{
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;  
+}
+
+.cta-button{
+    margin-top: 25px;
+    width: 210px; 
+    height: 51px;
+    border: none;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: #25f18b;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #6affb4;
+}
+
+/* END OF COMMON */
+
+/* HEADER */
+
+.header{
+    min-height: 640px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: white;
+}
+
+.header__container {
+    height: 60px;  
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    max-width: 100px;
+    margin-top: 50px;
+}
+
+.nav{
+    padding-right: 15px;
+    margin-top: 40px;
+}
+
+.nav__items{
+    display: flex;
+    justify-content: center;
+    list-style: none;   
+}
+
+.nav__item{
+    min-width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-size: 14px;
+    transition: font-weight .5s ease-in-out;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    color: #58d5f7;
+}
+
+.hero {    
+    height: 500px;
+    justify-content: space-between;  
+}
+
+.hero__info {
+    width: 37%;
+    padding-top: 100px;
+}
+
+.hero__header {
+    margin: 20px 0 10px;
+    min-width: 400px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero__sub-header {
+    max-width: 287px;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.hero__image {    
+    width: 59%;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero__image-file {
+    width: 85%;
+    margin-top: 25px;
+    -ms-transform: rotate(354deg);
+    -webkit-transform: rotate(354deg);
+    transform: rotate(354deg);
+    border: 14px solid white;
+    border-bottom: 74px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* END OF HEADER */
