@@ -186,3 +186,24 @@ h2{
 }
 
 /* END OF FEATURES */
+
+/* MEDIA */
+
+.media {
+    height: 90px;
+    padding: 5px;
+    background-color: #f6f8f8;
+}
+
+.media__container {
+    height: 60px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.media__logos {
+    height: 30px;
+}
+
+/* END OF MEDIA */
