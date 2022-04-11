@@ -2,6 +2,7 @@
 
 html, body{
     font-family: Montserrat, sans-serif;
+    font-size: 14px;
 }
 
 .container {
@@ -18,7 +19,6 @@ html, body{
     border: none;
     border-radius: 10px;
     font-family: Montserrat, sans-serif;
-    font-size: 14px;
     color: white;
     background-color: #25f18b;
     cursor: pointer;
@@ -73,7 +73,6 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;    
-    font-size: 14px;
     transition: font-weight .5s ease-in-out;
 }
 
@@ -176,7 +175,6 @@ h2{
 .feature__title {
     margin-bottom: 0;
     padding: 10px;
-    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -304,7 +302,6 @@ h2{
 
 .pricing__plan-text {
     min-height: 106px;
-    font-size: 14px;
     line-height: 1.5em;
 }
 
@@ -359,12 +356,7 @@ h2{
 
 .member__name {
     margin: 10px auto;
-    font-size: 14px;
     font-weight: bold;
-}
-
-.member__text {
-    font-size: 14px;
 }
 
 .member__twitter, 
@@ -373,3 +365,27 @@ h2{
 }
 
 /* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    height: 70px;
+    background-color: #525252;
+    color: white;
+}
+
+.footer__container {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer__text {
+    font-size: 12px;
+}
+
+.footer__image {
+    margin: 0 10px;
+}
+
+/* END OF FOOTER */
