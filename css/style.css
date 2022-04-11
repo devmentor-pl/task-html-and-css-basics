@@ -319,3 +319,57 @@ h2{
 }
 
 /* END OF PRICING */
+
+/* TEAM */
+
+.team {
+    height: 580px;
+    color: #333;
+}
+
+.team__header-container {
+    min-height: 150px;
+    display: block;
+    text-align: center;   
+}
+
+.team__header {
+    margin: 60px auto 40px;
+}
+
+.team__members {
+    justify-content: center;
+}
+
+.team__member {
+    width: 25%;
+    margin: 15px;        
+    text-align: center;
+}
+
+.member__avatar {
+    width: 126px;
+    margin: 20px auto;
+}
+
+.member__position {
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.member__name {
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.member__text {
+    font-size: 14px;
+}
+
+.member__twitter, 
+.member__fb {
+    margin: 15px 5px 30px;
+}
+
+/* END OF TEAM */
