@@ -207,3 +207,39 @@ h2{
 }
 
 /* END OF MEDIA */
+
+/* ABOUT */
+
+.about {
+    padding: 5px;
+}
+
+.about__container {
+    max-width: 1280px;    
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about__image,
+.about__text-container {
+    width: 45%;
+}
+
+.about__image {
+    padding: 75px 10px;
+}
+
+.about__text-container {
+    padding: 80px 80px;
+}
+
+.about__text {
+    max-width: 400px;
+    padding-top: 45px;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+/* END OF ABOUT */
