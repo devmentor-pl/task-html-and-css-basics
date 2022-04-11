@@ -22,11 +22,13 @@ html, body{
     color: white;
     background-color: #25f18b;
     cursor: pointer;
-    transition: background-color 0.5s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 
 .cta-button:hover {
     background-color: #6affb4;
+    border-radius: 20px;
+    box-shadow: -1px 9px 46px -17px rgb(43 43 43);
 }
 
 h2{
@@ -212,6 +214,7 @@ h2{
 
 .about {
     padding: 5px;
+    color: #333;
 }
 
 .about__container {
@@ -243,3 +246,76 @@ h2{
 }
 
 /* END OF ABOUT */
+
+/* PRICING */
+
+.pricing {
+    height: 740px;
+    padding: 5px;
+    background-color: #f6f8f8;
+    color: #333;
+}
+
+.pricing__text-container {
+    display: block;
+    text-align: center;    
+}
+
+.pricing__header {
+    margin: 36px auto 15px;
+}
+
+.pricing__text {
+    margin: 15px auto 20px;
+    font-size: 18px;
+}
+
+.pricing__plans {
+    padding: 45px;
+    justify-content: center;
+}
+
+.pricing__plan {
+    width: 32%;
+    margin: 5px;    
+    text-align: center;
+}
+
+.pricing__plan--middle {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
+}
+
+.pricing__plan-type {
+    margin: 60px auto 0;   
+}
+
+.pricing__plan-price {
+    margin: 11px auto 0;
+    font-size: 45px;
+    font-weight: bold;    
+}
+
+.pricing__plan-period {
+    margin: 5px auto 25px;
+    font-size: 12px;    
+}
+
+.pricing__plan-text {
+    min-height: 106px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.cta-button--pricing {
+    width: 164px;
+    margin-bottom: 61px;
+    background-color: #0abceb;
+}
+
+.cta-button--pricing:hover {
+    background-color: #58d5f7;
+}
+
+/* END OF PRICING */
