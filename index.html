@@ -32,13 +32,13 @@
         rel="stylesheet"
         href="./css/style.css"
     />
-    <title>Document</title>
+    <title>Nova</title>
 </head>
 
 <body>
-    <header class="header container">
+    <header class="header">
         <div
-            class="nav"
+            class="nav container"
             id="nav"
         >
             <div class="nav__logo">
@@ -71,10 +71,10 @@
             </div>
         </div>
         <section
-            class="hero"
+            class="hero container"
             id="hero"
         >
-            <div class="hero__text">
+            <article class="hero__text">
                 <h1 class="hero__text-header">
                     Beautifull Free Nova template
                 </h1>
@@ -83,214 +83,239 @@
                 </p>
                 <button class="hero__text-button">Download FREE!</button>
 
-            </div>
-            <div class="hero__image">
+            </article>
+            <figure class="hero__image">
                 <img
                     class="hero__image--screen"
                     src="./images/screen.png"
                     alt="screen"
                 >
-            </div>
+            </figure>
         </section>
     </header>
     <main>
-        <section
-            class="features container"
-            id="features"
-        >
-            <div class="features__header">
-                <h1>FEATURES</h1>
-            </div>
-            <div class="features__options">
-                <div class="features__option">
-                    <img
-                        class="features__option-img"
-                        src="./images/responsive.svg"
-                        alt="responsive"
-                    />
-                    <h3 class="features__option-header">FULLY RESPONSIVE</h3>
-                    <p class="features__option-text">Looks amazing on any device: smartfone, tablet, laptop and deskop.
-                    </p>
-                </div>
-                <div class="features__option">
-                    <img
-                        class="features__option-img"
-                        src="./images/customizable.svg"
-                        alt="customizable"
-                    />
-                    <h3 class="features__option-header">CUSTOMIZABLE</h3>
-                    <p class="features__option-text">Change the color, picture or any of the sections to suit your
-                        needs.</p>
-                </div>
-                <div class="features__option">
-                    <img
-                        class="features__option-img"
-                        src="./images/design.svg"
-                        alt="design"
-                    />
-                    <h3 class="features__option-header">SLICK AND BEAUTIFULL DESIGN</h3>
-                    <p class="features__option-text">Trendy and fresh design, fits any website</p>
-                </div>
-            </div>
-        </section>
-        <section
-            class="logos container"
-            id="logos"
-        >
-            <img
-                class="logos__img"
-                src="./images/logos.png"
-                alt="logos"
+        <section class="features">
+            <div
+                class="container"
+                id="features"
             >
+                <header class="features__header">
+                    <h1>FEATURES</h1>
+                </header>
+                <div class="features__options">
+                    <div class="features__option">
+                        <figure class="features__option-logo">
+                            <img
+                                class="features__option-img"
+                                src="./images/responsive.svg"
+                                alt="responsive"
+                            />
+                        </figure>
+                        <h3 class="features__option-header">FULLY RESPONSIVE</h3>
+                        <p class="features__option-text">Looks amazing on any device: smartfone, tablet, laptop and
+                            deskop.
+                        </p>
+                    </div>
+                    <div class="features__option">
+                        <figure class="features__option-logo">
+                            <img
+                                class="features__option-img"
+                                src="./images/customizable.svg"
+                                alt="customizable"
+                            />
+                        </figure>
+                        <h3 class="features__option-header">CUSTOMIZABLE</h3>
+                        <p class="features__option-text">Change the color, picture or any of the sections to suit your
+                            needs.</p>
+                    </div>
+                    <div class="features__option">
+                        <figure class="features__option-logo">
+                            <img
+                                class="features__option-img"
+                                src="./images/design.svg"
+                                alt="design"
+                            />
+                        </figure>
+                        <h3 class="features__option-header">SLICK AND BEAUTIFULL DESIGN</h3>
+                        <p class="features__option-text">Trendy and fresh design, fits any website</p>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section
-            class="description container"
-            id="description"
-        >
-            <div class="description__image">
+        <aside class="logos">
+            <figure
+                class="container"
+                id="logos"
+            >
                 <img
-                    src="./images/imac.png"
-                    alt="mac"
+                    class="logos__img"
+                    src="./images/logos.png"
+                    alt="logos"
                 >
-            </div>
+            </figure>
+        </aside>
+        <section class="description">
+            <div
+                class="container"
+                id="description"
+            >
+                <figure class="description__image">
+                    <img
+                        src="./images/imac.png"
+                        alt="mac"
+                    >
+                </figure>
 
-            <div class="description__text">
-                <h1 class="description__text-header">
-                    SIMPLE AND BEAUTIFULL
-                </h1>
-                <p class="description__text-text">Use Nova theme for your next web project. It is completely
-                    customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any
-                    kind of use, personal and commercial. Have fun and good luck</p>
-            </div>
+                <article class="description__text">
+                    <h1 class="description__text-header">
+                        SIMPLE AND BEAUTIFULL
+                    </h1>
+                    <p class="description__text-text">Use Nova theme for your next web project. It is completely
+                        customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any
+                        kind of use, personal and commercial. Have fun and good luck</p>
+                </article>
 
+            </div>
         </section>
-        <section
-            class="pricing container"
-            id="pricning"
-        >
-            <div class="pricing__header">
-                <h2 class="pricing__header--big">CHOOSE YOUR PRICING PLAN</h2>
-                <p class="pricing__header--small">Pick any of our super affordable pricing plans</p>
+        <section class="pricing">
+            <div
+                class="container"
+                id="pricning"
+            >
+                <header class="pricing__header">
+                    <h2 class="pricing__header--big">CHOOSE YOUR PRICING PLAN</h2>
+                    <p class="pricing__header--small">Pick any of our super affordable pricing plans</p>
+
+                </header>
+                <div class="pricing__offer">
+                    <ul class="pricing__offer--first">
+                        <li class="offer__name">BASIC</li>
+                        <li class="offer__price">$15</li>
+                        <li class="offer__time">per month</li>
+                        <li class="offer__text">Up to 7 Projects 2 Additional Developers</li>
+                        <li>
+                            <button class="offer__button">Get Started</button>
+                        </li>
+                    </ul>
+                    <ul class="pricing__offer--second">
+                        <li class="offer__name">AGNECY</li>
+                        <li class="offer__price">$55</li>
+                        <li class="offer__time">per month</li>
+                        <li class="offer__text">Up to 25 Projects 2 Additional Developers Unlimited Support</li>
+                        <li>
+                            <button class="offer__button">Get Started</button>
+                        </li>
+                    </ul>
+                    <ul class="pricing__offer--third">
+                        <li class="offer__name">PRO</li>
+                        <li class="offer__price">$75</li>
+                        <li class="offer__time">per month</li>
+                        <li class="offer__text">Up to 7 Projects 2 Additional Developers Unlimited Support 1.5GB Disk
+                            Space
+                        </li>
+                        <li>
+                            <button class="offer__button">Get Started</button>
+                        </li>
+                    </ul>
+
+                </div>
 
             </div>
-            <div class="pricing__offer">
-                <div class="pricing__offer--first">
-                    <p class="offer__name">BASIC</p>
-                    <p class="offer__price">$15</p>
-                    <p class="offer__time">per month</p>
-                    <p class="offer__text">Up to 7 Projects 2 Additional Developers</p>
-                    <button class="offer__button">Get Started</button>
-                </div>
-                <div class="pricing__offer--second">
-                    <p class="offer__name">AGNECY</p>
-                    <p class="offer__price">$55</p>
-                    <p class="offer__time">per month</p>
-                    <p class="offer__text">Up to 25 Projects 2 Additional Developers Unlimited Support</p>
-                    <button class="offer__button">Get Started</button>
-                </div>
-                <div class="pricing__offer--third">
-                    <p class="offer__name">PRO</p>
-                    <p class="offer__price">$75</p>
-                    <p class="offer__time">per month</p>
-                    <p class="offer__text">Up to 7 Projects 2 Additional Developers Unlimited Support 1.5GB Disk Space
-                    </p>
-                    <button class="offer__button">Get Started</button>
-                </div>
-
-            </div>
-
         </section>
 
     </main>
     <footer>
-        <div
-            class="team container"
-            id="team"
-        >
-            <div class="team__header">
-                <h1>THE TEAM</h1>
+        <section class="team">
+            <div
+                class="container"
+                id="team"
+            >
+                <div class="team__header">
+                    <h1>THE TEAM</h1>
+                </div>
+                <div class="team__list">
+                    <div class="team__list--cto">
+                        <img
+                            class="team__img"
+                            src="./images/cto.png"
+                            alt="CTO"
+                        >
+                        <p class="team__job">CTO</p>
+                        <p class="team__name">Johnny B Good</p>
+                        <p class="team__text">The brains behind the whole operation</p>
+                        <img
+                            class="team_twitter"
+                            src="./images/team-twitter.svg"
+                            alt="twitterr"
+                        >
+                        <img
+                            class="team__facebook"
+                            src="./images/team-facebook.svg"
+                            alt=""
+                            facebook
+                        >
+                    </div>
+                    <div class="team__list--ceo">
+                        <img
+                            class="team__img"
+                            src="./images/ceo.png"
+                            alt="CTO"
+                        >
+                        <p class="team__job">CEO</p>
+                        <p class="team__name">Roll Over Beethoven</p>
+                        <p class="team__text">The one that puts it all together</p>
+                        <img
+                            class="team_twitter"
+                            src="./images/team-twitter.svg"
+                            alt="twitterr"
+                        >
+                        <img
+                            class="team__facebook"
+                            src="./images/team-facebook.svg"
+                            alt=""
+                            facebook
+                        >
+
+                    </div>
+                    <div class="team__list--cfo">
+                        <img
+                            class="team__img"
+                            src="./images/cfo.png"
+                            alt="CFO"
+                        >
+                        <p class="team__job">CFO</p>
+                        <p class="team__name">Chuck Berry</p>
+                        <p class="team__text">The guy with his hand on the wallet</p>
+                        <img
+                            class="team_twitter"
+                            src="./images/team-twitter.svg"
+                            alt="twitterr"
+                        >
+                        <img
+                            class="team__facebook"
+                            src="./images/team-facebook.svg"
+                            alt=""
+                            facebook
+                        >
+
+                    </div>
+                </div>
             </div>
-            <div class="team__list">
-                <div class="team__list--cto">
+        </section>
+        <section class="signature">
+            <div class="container">
+                <footer class="signature__text"> A free template by
                     <img
-                        class="team__img"
-                        src="./images/cto.png"
-                        alt="CTO"
-                    >
-                    <p class="team__job">CTO</p>
-                    <p class="team__name">Johnny B Good</p>
-                    <p class="team__text">The brains behind the whole operation</p>
-                    <img
-                        class="team_twitter"
-                        src="./images/team-twitter.svg"
-                        alt="twitterr"
-                    >
-                    <img
-                        class="team__facebook"
-                        src="./images/team-facebook.svg"
-                        alt=""
-                        facebook
-                    >
-                </div>
-                <div class="team__list--ceo">
-                    <img
-                        class="team__img"
-                        src="./images/ceo.png"
-                        alt="CTO"
-                    >
-                    <p class="team__job">CEO</p>
-                    <p class="team__name">Roll Over Beethoven</p>
-                    <p class="team__text">The one that puts it all together</p>
-                    <img
-                        class="team_twitter"
-                        src="./images/team-twitter.svg"
-                        alt="twitterr"
-                    >
-                    <img
-                        class="team__facebook"
-                        src="./images/team-facebook.svg"
-                        alt=""
-                        facebook
-                    >
-
-                </div>
-                <div class="team__list--cfo">
-                    <img
-                        class="team__img"
-                        src="./images/cfo.png"
-                        alt="CFO"
-                    >
-                    <p class="team__job">CFO</p>
-                    <p class="team__name">Chuck Berry</p>
-                    <p class="team__text">The guy with his hand on the wallet</p>
-                    <img
-                        class="team_twitter"
-                        src="./images/team-twitter.svg"
-                        alt="twitterr"
-                    >
-                    <img
-                        class="team__facebook"
-                        src="./images/team-facebook.svg"
-                        alt=""
-                        facebook
-                    >
-
-                </div>
+                        class="signature__logo"
+                        src="./images/webscope.svg"
+                        alt="webscope"
+                    />
+                </footer>
 
 
             </div>
+        </section>
 
-        </div>
-        <div class="signature container">
-            <p class="signature__text"> A free template by 
-                <img
-                    class="signature__logo"
-                    src="./images/webscope.svg"
-                    alt="webscope"
-                />
-
-            </p>
-        </div>
     </footer>
 
 </body>
