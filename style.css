@@ -3,8 +3,13 @@ body {
     margin: 0px;
 }
 
-.header {
+.header  {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .header__row {
@@ -71,9 +76,12 @@ article {
 }
 
 .welcome__img {
-    max-height: 40%;
-    max-width: 40%;
+    height: 350px;
+    width: 500px;
     transform: rotate(-7deg);
+    padding: 20px;
+    background: white;
+    border-radius: 25px;
 }
 
 .features {
@@ -104,8 +112,8 @@ article {
    text-align: center;
    max-height: 200px;
    max-width: 250px;
-   margin: 20px;
-   margin-left: 30px;
+   margin-left: 25px;
+   margin-right: 25px;
 }
 
 .element--1__title, .element--2__title, .element--3__title {
@@ -120,7 +128,7 @@ article {
     border-radius: 45%;
 }
 
-h1 {
+.plan__title__h1 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -158,6 +166,8 @@ h1 {
 
 .main__title {
     font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .main__body {
@@ -217,7 +227,16 @@ h1 {
 .price {
     font-size: 30px;
     font-weight: bold;
-    margin: 5px;
+    margin: 15px;
+}
+
+.month {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.benefit {
+    margin-bottom: 10px;
 }
 
 .plan__button {
@@ -235,18 +254,33 @@ h1 {
 }
 
 .team__title {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: black;
     font-size: 30px;
     padding-top: 35px;
     padding-bottom: 35px;
 }
 
-.team__persons {
+.persons {
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
+}
+
+.position {
+    margin-top: 15px;
+}
+
+.name {
+    margin-top: 15px;
+}
+
+.quote {
+    margin-top: 15px;
+}
+
+.social-media {
+    margin-top: 15px;
 }
 
 .person--1, .person--2, .person--3 {
