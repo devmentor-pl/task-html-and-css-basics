@@ -1,0 +1,24 @@
+h2 {
+    text-align: center;
+}
+
+.features_content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__article_left,
+.content__article_middle,
+.content__article_right {
+    width: 28%;
+    min-height: 220px;
+}
+
+.content__article_left {
+    margin-left: 15%;
+}
+
+.content__article_right {
+    margin-right: 15%;
+}
