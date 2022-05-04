@@ -8,11 +8,12 @@
 
 .row {
     outline-color: #0ED145;
+    width: 100%;
 }
 
 .container {
     margin: 5px auto;
-    max-width: 1000px;
+    max-width: 1150px;
     outline-color: #00A8F3;
 }
 

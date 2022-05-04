@@ -18,6 +18,9 @@
     /* background-color: #FFCA18; */
 }
 
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
 
 .menu_list {
     display: flex;
@@ -30,7 +33,7 @@
 
 .nav__link {
     text-decoration: none;
-    color: rgb(239, 37, 182);
+    color: white;
 }
 
 .screen__container {
@@ -42,13 +45,13 @@
 .content__left_article {
     margin-left: 0.5%;
     min-height: 300px;
-    width: 49%;
+    width: 39%;
 }
 
 .content__right_screen_article {
     margin-right: 0.5%;
     min-height: 300px;
-    width: 49%;
+    width: 59%;
 }
 
 .screen__image {
