@@ -1,0 +1,13 @@
+.imac_content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imac_content__left_article {
+    width: 54%;
+}
+
+.imac_content__right_article {
+    width: 44%;
+}
