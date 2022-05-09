@@ -176,3 +176,40 @@ html, body {
   }
   
   /* END OF LOGOS */
+
+  /*PRODUCT */
+
+.product {
+    display: flex;
+    height: 600px;
+    padding: 3rem 0;
+    color: rgb(89, 85, 85);
+  }
+  
+  .item--product {
+    flex-basis: 50%;  
+  }
+  
+  .img__product--desktop {
+    display: block;
+    height: 550px;
+    margin: 0 auto;
+  }
+  
+  .product__text--title {
+    margin: 40px 0  40px 70px;
+  }
+  
+  .product__header {
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  
+  .product__text {
+    padding-top: 20px;
+    line-height: 30px;
+  }
+  
+  /* END OF PRODUCT */
+
+  
