@@ -295,4 +295,23 @@ html, body {
   
   /* END OF PRICING */
 
+  /* THE TEAM */
+
+.theTeam {
+    background-color: white;
+  }
+  
+  .theTeam-item {
+    flex-basis: 27%;
+    min-height: 350px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  
+  .icon-marketing {
+    padding: 0 5px;
+  }
+  
+  /* END OF THE TEAM */
+
   
