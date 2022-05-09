@@ -167,4 +167,12 @@ html, body {
   }
   /* END OF FEATURES */
 
+  /* LOGOS */
+
+.logos--img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+  }
   
+  /* END OF LOGOS */
