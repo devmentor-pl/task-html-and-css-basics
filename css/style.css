@@ -314,4 +314,20 @@ html, body {
   
   /* END OF THE TEAM */
 
+  /* FOOTER*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    background-color: #464646;
+  }
   
+  .footer__text {
+    font-weight: bold;
+    margin: 0 15px;
+  }
+  
+  /* END OF FOOTER */
