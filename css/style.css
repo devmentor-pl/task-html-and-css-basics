@@ -212,4 +212,87 @@ html, body {
   
   /* END OF PRODUCT */
 
+  /*PRICING */
+
+.pricing, .theTeam {
+    min-height: 400px;
+    color: #333333;
+    padding-top: 40px;
+  }
+  
+  .pricing {
+    background-color: #F8F9F9;
+  }
+  
+  .pricing--container, .theTeam--container{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 70px;
+  }
+  
+  .pricing-item {
+    display: flex;
+    flex-basis: 27%;
+    flex-direction: column;
+    min-height: 400px;
+    padding: 1.5rem;
+    margin-top: auto;
+    margin-bottom: 60px;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .title--items {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 10px;
+    text-transform: uppercase;
+  }
+  
+  .pricing--dollars {
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .periodicity {
+    font-size: 0.8rem;
+  }
+  
+  .name__package {
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+  }
+  
+  .cta-button--pricing {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: 40px;
+    width: 150px;
+    font-size: 0.8rem;
+    font-weight: normal;
+    padding: 15px;
+    color: white;
+    background-color: #0ABCEB;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out; 
+  }
+  
+  .cta-button--pricing:hover {
+    background-color: #13a7d0;
+  }
+  
+  .pricing-item--shadow {
+    background-color: #F8F9F9;
+    border-radius: 15px;
+    box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* END OF PRICING */
+
   
