@@ -123,3 +123,48 @@ html, body {
   }
   
   /* END OF HERO */
+
+  /* FEATURES */
+
+.features {
+    color: white;
+    background-color: black;
+  }
+  
+  .section--container-info {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .feature__info {
+    text-transform: uppercase;
+  }
+  
+  .features--container {
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+  }
+  
+  .feature {
+    width: 27%;
+    min-height: 300px;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .feature__icon {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 10px 10px 25px 3px rgba(255, 255, 255, 0.14);
+  }
+  
+  .feature__text {
+    line-height: 20px;
+  }
+  /* END OF FEATURES */
+
+  
