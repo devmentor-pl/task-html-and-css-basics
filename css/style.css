@@ -67,3 +67,59 @@ html, body {
   }
   
   /* END OF NAV */
+
+  /* HERO */
+
+.hero--container {
+    display: flex;
+    height: 600px;
+  }
+  
+  .item {
+    min-height: 50px;
+    flex-basis: 50%;
+  }
+  
+  .hero__header {
+    font-size: 40px;
+  }
+  
+  .hero__sub-header {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero__info {
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  .cta-button {
+    min-width: 250px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top: 20px;
+    color: white;
+    background-color: #25F18B;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out; 
+  }
+  
+  .cta-button:hover {
+    background-color: #1fc974;
+  }
+  
+  .image__phone {
+    height: 330px;
+    margin-top: 30px;
+    margin-right: 60px;
+    background:white;
+    border: 20px solid white;
+    border-bottom: 80px solid white;
+    border-radius: 30px;
+    transform:rotate(-5deg);
+  }
+  
+  /* END OF HERO */
