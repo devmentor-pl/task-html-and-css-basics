@@ -24,3 +24,46 @@ html, body {
   }
   
   /* END OF COMMON */
+
+  /* NAV */
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: white;
+  }
+  
+  .nav--container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+  }
+  
+  .nav__logo {
+    width: 100px;
+  }
+  
+  .nav__links {
+    margin: 0;
+    list-style: none; 
+  }
+  
+  .nav__link-item {
+    display: inline-block;   
+  }
+  
+  .nav__link {
+    height: 100px;
+    min-width: 300px;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color .3s; 
+  }
+  
+  .nav__link:hover {
+    background-color: rgb(104, 89, 197);
+  }
+  
+  /* END OF NAV */
