@@ -11,3 +11,19 @@
 .imac_content__right_article {
     width: 44%;
 }
+
+.h5_design_title {
+    font-size: larger;
+    margin: 10% 5%;
+    color: gray;
+}
+
+.div_imac_desc {
+    color: gray;
+    margin: 0 10%;
+}
+
+.imac_image {
+    max-width: 70%;
+    margin: 0 15%;
+}

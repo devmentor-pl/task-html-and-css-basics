@@ -3,12 +3,17 @@
     justify-content: space-between;
 }
 
+img {
+    width: auto;
+    min-height: 70px;
+}
 
 .header__logo {
     margin-left: 0;
     margin-top: 5px;
-    min-width: 200px;
+    /* min-width: 200px; */
     /* background-color: #FFCA18; */
+    /* size: 200%; */
 }
 
 .header__nav {
@@ -57,4 +62,18 @@
 .screen__image {
     max-width: 300px;
     /* resize, rotate image */
+}
+
+.screen__desc {
+    color: white;
+}
+
+.screen__image_item {
+    max-width: 350px;
+    /* border-color: white; */
+    border-radius: 25px;
+    border: 20px solid white;
+    /* background-color: white; */
+    transform: rotate(-5deg);
+    margin: 0 5%;
 }

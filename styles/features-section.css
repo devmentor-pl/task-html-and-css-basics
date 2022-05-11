@@ -1,11 +1,18 @@
-h2 {
+.features_logo__content {
     text-align: center;
+    color: white;
+}
+
+.features_content {
+    background: black;
 }
 
 .features_content__container {
     align-items: flex-start;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    color: white;
 }
 
 .content__article_left,
@@ -21,4 +28,30 @@ h2 {
 
 .content__article_right {
     margin-right: 15%;
+}
+
+.div_customizable_image,
+.div_responsive_image,
+.div_design_image {
+    position: relative;
+    left: 50%;
+    /* -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); */
+    background: white;
+    /* background-size: 50px 50px; */
+    /* clip-path: circle(); */
+}
+
+.button__download {
+    background-color: #25F18B;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px;   */
 }
