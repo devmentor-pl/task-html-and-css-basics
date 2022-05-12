@@ -1,16 +1,77 @@
+.pricing_content {
+    background-color: #F8F9F9;
+}
+
 .pricing_content__container {
     align-items: flex-start;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
+    margin-top: 4%;
+    margin-bottom: 8%;
+}
+
+.pricing_title {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #464646;
+    padding: 25px 0 0;
+    margin: 20px 0 10px;
+}
+
+.pricing_subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    color: #464646;
+    padding-top: 10px;
+}
+
+.pricing__article_left,
+.pricing__article_middle,
+.pricing__article_right {
+    min-height: 300px;
+    margin: 3%;
+    padding: 5%;
+}
+
+.pricing__article_middle {
+    box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+
+}
+
+.price_plan_title {
+    font-size: 18px;
+    font-weight: 300;
+    color: #464646;
+}
+
+.bold {
+    font-size: 45px;
+    font-weight: 600;
+    color: #464646;
+}
+
+.per_month {
+    font-size: 12px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.plan-desc {
+    font-size: 14px;
+    color: #464646;
+    margin-top: 20%;
+    margin-bottom: 45%;
 }
 
 .button__get_started {
     background-color: #0ABCEB;
-    border-radius: 8px;
+    border-radius: 10px;
     border: none;
     color: white;
-    padding: 15px 30px;
+    padding: 15px 35px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

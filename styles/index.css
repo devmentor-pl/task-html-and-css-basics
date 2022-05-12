@@ -1,9 +1,9 @@
 .row,
 .cell,
 .container {
-    margin: 15px;
+    /* margin: 15px; */
     padding: 5px;
-    outline: 5px solid;
+    /* outline: 5px solid; */
 }
 
 .row {
@@ -29,4 +29,3 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
-

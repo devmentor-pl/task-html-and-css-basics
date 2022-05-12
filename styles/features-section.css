@@ -18,7 +18,7 @@
 .content__article_left,
 .content__article_middle,
 .content__article_right {
-    width: 48%;
+    width: 33%;
     min-height: 340px;
 }
 
@@ -32,6 +32,7 @@
 
 .features_header_title {
     font-size: 30px;
+    margin-top: 3%;
 }
 
 .div_customizable_image,
@@ -59,14 +60,15 @@
 }
 
 
-/* LOGOS SECTION */
+/* logos-section */
 
 .logos_content {
     background-color: #F9FAFA;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .features_logos__content {
     padding: 30;
 }
-
-.logos_image {}

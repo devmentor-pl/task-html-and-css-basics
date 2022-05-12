@@ -1,12 +1,46 @@
 .team_content__container {
     align-items: flex-start;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
+    margin-bottom: 10%;
+}
+
+.team_title {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color: #414344;
+    margin-top: 3%;
+}
+
+.image_cto,
+.image_ceo,
+.image_cfo {
+    margin-top: 5%;
+    margin-bottom: 12%;
+}
+
+.team_role {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 4%;
 }
 
 .team_names {
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+
+.team_mate_desc {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 4%;
+}
+
+.icons {
+    margin-top: 5%;
 }
 
 /* footer */
