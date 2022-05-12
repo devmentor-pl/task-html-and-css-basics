@@ -1,0 +1,21 @@
+.team_content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.team_names {
+    font-weight: bold;
+}
+
+/* footer */
+
+.footer_content {
+    display: flex;
+    background-color: #464646;
+    color: white;
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;
+}

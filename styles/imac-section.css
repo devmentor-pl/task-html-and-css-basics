@@ -13,17 +13,18 @@
 }
 
 .h5_design_title {
-    font-size: larger;
-    margin: 10% 5%;
+    font-size: 30px;
+    margin: 10% 0px;
     color: gray;
 }
 
 .div_imac_desc {
     color: gray;
-    margin: 0 10%;
+    font-size: 15px;
+    margin: 0 30px;
 }
 
 .imac_image {
     max-width: 70%;
-    margin: 0 15%;
+    margin: 2% 13%;
 }

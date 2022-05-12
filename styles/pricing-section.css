@@ -1,0 +1,20 @@
+.pricing_content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.button__get_started {
+    background-color: #0ABCEB;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    max-width: 100%;
+    max-height: 100%;
+}

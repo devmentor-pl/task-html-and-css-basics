@@ -49,13 +49,13 @@ img {
 
 .content__left_article {
     margin-left: 0.5%;
-    min-height: 300px;
+    min-height: 330px;
     width: 39%;
 }
 
 .content__right_screen_article {
     margin-right: 0.5%;
-    min-height: 300px;
+    min-height: 330px;
     width: 59%;
 }
 
@@ -69,6 +69,7 @@ img {
 }
 
 .screen__image_item {
+    border: 0;
     max-width: 350px;
     /* border-color: white; */
     border-radius: 25px;
@@ -76,4 +77,29 @@ img {
     /* background-color: white; */
     transform: rotate(-5deg);
     margin: 0 5%;
+}
+
+.h1__imac {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+.p__imac {
+    margin: 25px 0px;
+}
+
+.button__download {
+    background-color: #25F18B;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    max-width: 100%;
+    max-height: 100%;
+    /* margin: 4px 2px;   */
 }
