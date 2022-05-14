@@ -7,16 +7,16 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 h3 {
-	margin-top: 20px;
-	font-size: 28px;
-	font-weight: normal;
+	margin-top: 28px;
+	font-size: 30px;
+	font-weight: 300;
 	text-transform: uppercase;
 }
 .container {
 	display: flex;
 	margin: 0 auto;
 	padding: 10px;
-	max-width: 1150px;
+	max-width: 1280px;
 }
 
 .cta-button {
@@ -88,7 +88,7 @@ h3 {
 
 /* HERO */
 .hero {
-	min-height: 650px;
+	min-height: 680px;
 	justify-content: space-between;
 	color: white;
 }
@@ -128,7 +128,7 @@ h3 {
 /* FEATURES */
 .features {
 	height: 440px;
-	padding-top: 14px;
+	padding-top: 20px;
 	background-color: black;
 	color: white;
 }
@@ -145,7 +145,7 @@ h3 {
 
 .feature {
 	min-height: 300px;
-	width: 23%;
+	width: 20%;
 	margin: 30px 5px;
 	padding: 65px 20px 20px;
 	text-align: center;
@@ -160,17 +160,18 @@ h3 {
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
-	box-shadow: 4px 8px 15px 3px rgba(255, 255, 255, 0.25);
+	box-shadow: 4px 14px 28px rgba(255, 255, 255, 0.25);
 }
 
 .feature__img {
-	height: 28px;
+	height: 30px;
 }
 
 .feature__title {
 	margin-bottom: 0;
 	padding: 10px;
 	font-size: 14px;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 
@@ -179,3 +180,24 @@ h3 {
 	line-height: 1.8em;
 }
 /* END FEATURES */
+
+/* MEDIA */
+
+.media {
+	min-height: 90px;
+	padding: 5px;
+	background-color: #f6f8f8;
+}
+
+.media__container {
+	max-height: 60px;
+	margin-top: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.media__logos {
+	height: 28px;
+}
+
+/* END MEDIA */
