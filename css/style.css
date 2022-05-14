@@ -5,10 +5,11 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	color: #333333;
+	font-size: 16px;
 }
 h3 {
 	margin-top: 28px;
-	font-size: 30px;
+	font-size: 1.875rem;
 	font-weight: 300;
 	text-transform: uppercase;
 }
@@ -118,15 +119,15 @@ h3 {
 .hero__header {
 	margin-bottom: 0;
 	min-width: 400px;
-	font-size: 38px;
-	font-weight: bold;
+	font-size: 2.375rem;
+	font-weight: 700;
 }
 
 .hero__sub-header {
 	max-width: 300px;
 	padding-top: 15px;
-	font-size: 18px;
-	line-height: 1.8em;
+	font-size: 1.125rem;
+	line-height: 1.8rem;
 }
 
 .hero__image {
@@ -187,15 +188,15 @@ h3 {
 .feature__title {
 	margin-bottom: 0;
 	padding: 10px;
-	font-size: 15px;
+	font-size: 1rem;
 	font-weight: 500;
 	text-transform: uppercase;
 }
 
 .feature__text {
-	font-size: 14px;
+	font-size: 0.875rem;
 	font-weight: 300;
-	line-height: 1.8em;
+	line-height: 1.8rem;
 }
 /* END FEATURES */
 
@@ -254,7 +255,7 @@ h3 {
 .design__text {
 	max-width: 400px;
 	padding-top: 35px;
-	font-size: 15px;
+	font-size: 0.9375rem;
 	font-weight: 300;
 	line-height: 30px;
 }
@@ -281,7 +282,7 @@ h3 {
 .pricing__text {
 	margin: 15px auto 20px;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 1.125rem;
 	color: grey;
 }
 
@@ -319,13 +320,13 @@ h3 {
 
 .pricing__plan-period {
 	margin: 0 auto 25px;
-	font-size: 12px;
+	font-size: 0.75rem;
 	font-weight: 300;
 }
 
 .pricing__plan-text {
 	min-height: 80px;
-	font-size: 14px;
+	font-size: 0.875rem;
 	font-weight: 400;
 }
 
@@ -334,7 +335,7 @@ h3 {
 /* TEAM */
 
 .team {
-	height: 580px;
+	height: 600px;
 }
 
 .team__header-container {
@@ -365,17 +366,17 @@ h3 {
 .team__member-position {
 	margin: 5px auto;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 .team__member-name {
 	margin: 5px auto;
-	font-size: 14px;
+	font-size: 0.875rem;
 	font-weight: 600;
 }
 
 .team__member-text {
-	font-size: 13px;
+	font-size: 0.8125rem;
 	font-weight: 300;
 }
 
@@ -402,7 +403,7 @@ h3 {
 }
 
 .footer__text {
-	font-size: 12px;
+	font-size: 0.75rem;
 }
 
 .footer__image {
