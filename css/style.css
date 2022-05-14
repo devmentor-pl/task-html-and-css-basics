@@ -1,6 +1,5 @@
 /* font */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
-/* font-family: 'Montserrat', sans-serif; */
 /* end font */
 /* COMMON */
 body {
@@ -383,6 +382,31 @@ h3 {
 .team__member-twitter,
 .team__member-fb {
 	margin: 15px 5px 30px;
+	cursor: pointer;
 }
 
 /* END TEAM */
+
+/* FOOTER */
+
+.footer {
+	background-color: #464646;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+.footer__container {
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__text {
+	font-size: 12px;
+}
+
+.footer__image {
+	margin: 0 16px;
+}
+
+/* END FOOTER */
