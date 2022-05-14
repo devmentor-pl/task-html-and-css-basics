@@ -5,6 +5,7 @@
 /* COMMON */
 body {
 	font-family: "Montserrat", sans-serif;
+	color: #333333;
 }
 h3 {
 	margin-top: 28px;
@@ -39,6 +40,23 @@ h3 {
 	border: 1px solid #18af64;
 	box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
 	width: 180px;
+}
+.cta-button--blue {
+	min-width: 145px;
+	margin-bottom: 61px;
+	background-color: #78daf4;
+	border: 1px solid #78daf4;
+	font-size: 12px;
+}
+
+.cta-button--blue:hover {
+	background-color: #6abfd6;
+	border: 1px solid #6abfd6;
+}
+.active {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
 }
 /* COMMON END */
 
@@ -243,3 +261,73 @@ h3 {
 }
 
 /* END DESIGN */
+
+/* PRICING */
+
+.pricing {
+	height: 700px;
+	padding: 5px;
+	background-color: #f8f9f9;
+}
+
+.pricing__text-container {
+	display: block;
+	text-align: center;
+}
+
+.pricing__header {
+	margin: 36px auto 15px;
+}
+
+.pricing__text {
+	margin: 15px auto 20px;
+	font-weight: 300;
+	font-size: 18px;
+	color: grey;
+}
+
+.pricing__plans {
+	padding-bottom: 55px;
+	justify-content: center;
+}
+
+.pricing__plan {
+	width: 320px;
+	height: 420px;
+	margin: 5px;
+	text-align: center;
+	transition: background-color, border-radius, box-shadow 0.3s ease-in-out;
+}
+
+.pricing__plan:hover {
+	background-color: white;
+	border-radius: 7px;
+	box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
+}
+
+.pricing__plan-type {
+	margin: 72px auto 0;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.pricing__plan-price {
+	margin: 11px auto 0;
+	font-size: 45px;
+	font-weight: 600;
+	line-height: 1.1;
+}
+
+.pricing__plan-period {
+	margin: 0 auto 25px;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.pricing__plan-text {
+	min-height: 80px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* END PRICING */
