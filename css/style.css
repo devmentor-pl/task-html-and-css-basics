@@ -170,13 +170,14 @@ h3 {
 .feature__title {
 	margin-bottom: 0;
 	padding: 10px;
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 500;
 	text-transform: uppercase;
 }
 
 .feature__text {
-	font-size: 12px;
+	font-size: 14px;
+	font-weight: 300;
 	line-height: 1.8em;
 }
 /* END FEATURES */
@@ -201,3 +202,44 @@ h3 {
 }
 
 /* END MEDIA */
+
+/* DESIGN */
+
+.design {
+	padding: 5px;
+}
+
+.design__container {
+	max-width: 1450px;
+	padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.design__image-container,
+.design__text-container {
+	width: 70%;
+	height: auto;
+}
+
+.design__image-container {
+	padding: 75px 10px;
+}
+
+.design__text-container {
+	padding: 75px 95px;
+}
+
+.design__image {
+	max-width: 100%;
+}
+.design__text {
+	max-width: 400px;
+	padding-top: 35px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+/* END DESIGN */
