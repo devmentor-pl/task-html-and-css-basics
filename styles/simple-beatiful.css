@@ -1,0 +1,24 @@
+.simple__section {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+.simple__image {
+	width: 50%;
+	padding-right: 50px;
+}
+.simple__content {
+	width: 50%;
+	padding-right: 250px;
+	padding-left: 50px;
+}
+.title-text {
+	text-align: left;
+	margin: 25px 25px 60px 25px;
+	padding: 0;
+}
+.description-text {
+	margin-left: 25px;
+	line-height: 2;
+	font-weight: 100;
+}

@@ -8,7 +8,6 @@ body {
 .row {
 	margin: 5px;
 	padding: 5px;
-	outline: 3px solid;
 }
 .container {
 	outline-color: green;
@@ -33,7 +32,7 @@ body {
 	align-items: center;
 }
 
-.title-text {
+.heading {
 	font-size: 35px;
 	font-weight: 100;
 	text-transform: uppercase;
