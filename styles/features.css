@@ -1,0 +1,31 @@
+.features__section {
+	padding: 0;
+	margin: 0;
+	background: #000;
+	color: #fff;
+}
+
+.features__icons-list {
+	display: flex;
+	justify-content: center;
+}
+.features__box {
+	text-align: center;
+	margin: 0 30px 100px 30px;
+	width: 20%;
+}
+.box__icon {
+	width: fit-content;
+	margin: 0 auto;
+	padding: 25px 30px;
+	background: white;
+	border-radius: 50%;
+}
+.box__title {
+	margin: 15px 0;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.box__description {
+	font-size: 12px;
+}
