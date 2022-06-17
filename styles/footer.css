@@ -1,0 +1,16 @@
+.footer {
+	padding: 20px;
+	margin: 0;
+	background: #464646;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer__text {
+	font-weight: bold;
+	font-size: 10px;
+}
+.footer__text a {
+	margin-left: 7px;
+}

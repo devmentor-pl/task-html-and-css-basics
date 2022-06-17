@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/_colors.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/header.css">
@@ -26,13 +27,13 @@
             <nav class="header__nav--list flex-center cell">
                 <ul class="header__nav--list-items">
                     <li class="nav__item">
-                        <a class="nav__link" href="#"> The Team</a>
+                        <a class="nav__link" href="#team"> The Team</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#"> Pricing</a>
+                        <a class="nav__link" href="#pricing"> Pricing</a>
                     </li>
                     <li class="nav__item">
-                        <a class="nav__link" href="#"> Features</a>
+                        <a class="nav__link" href="#features"> Features</a>
                     </li>
 
                 </ul>
@@ -50,7 +51,7 @@
         </div>
     </header>
     <!-- /////////////////////////////////// -->
-    <section class="features__section container">
+    <section class="features__section container" id="features">
         <div class="features__title row heading">
             <!-- reusable class for all titles on site-->
             <h2 class="heading">features</h2>
@@ -101,7 +102,7 @@
         </div>
     </section>
     <!-- /////////////////////////////////// -->
-    <section class="pricing__section container">
+    <section class="pricing__section container" id="pricing">
         <div class="pricing__title row heading">
             <h2 class="title">choose your pricing plan</h2>
             <p class="desc">Pick any of our super affordable pricing plans.</p>
@@ -120,7 +121,7 @@
                 <p class="card__description">Up to 25 Projects<br>2 Additional Developers<br>Unlimited Support</p>
                 <button class="card__button button">Get Started</button>
             </div>
-            
+
             <div class="card">
                 <h3 class="card__name">pro</h3>
                 <p class="card__price">$75<br> <span class="price__span">per month</span></p>
@@ -131,24 +132,46 @@
         </div>
     </section>
     <!-- /////////////////////////////////// -->
-    <section class="team__section container">
+    <section class="team__section container" id="team">
         <div class="team__title row heading">
             <!-- reusable class for all titles on site-->
-            <h2 class="title-text"></h2>
+            <h2 class="title">the team</h2>
         </div>
-        <div class="team__boxes">
-            <div class="box row">
-                <img src="" alt="" class="box__icon">
-                <p class="box__position"></p>
-                <p class="box__name"></p>
-                <p class="box__role"></p>
-                <p class="box__contact"></p>
+        <div class="team__boxes flex-center row">
+            <div class="team__box cell">
+                <img src="./images/cto.png" alt="Worker photo (Johnny B Good)" class="box__icon">
+                <p class="box__position">cto</p>
+                <p class="box__name">Johnny B Good</p>
+                <p class="box__role">The brains behind the whole operation</p>
+                <p class="box__contact">
+                    <a href="https://twitter.com/"><img src="./images/team-twitter.svg" alt=""></a>
+                    <a href="https://www.facebook.com/"><img src="./images/team-facebook.svg" alt=""></a>
+                </p>
+            </div>
+            <div class="team__box cell">
+                <img src="./images/ceo.png" alt="Worker photo (Roll Over Beethoven)" class="box__icon">
+                <p class="box__position">ceo</p>
+                <p class="box__name">Roll Over Beethoven</p>
+                <p class="box__role">The one that puts it all together</p>
+                <p class="box__contact"> <a href="https://twitter.com/"><img src="./images/team-twitter.svg" alt=""></a>
+                    <a href="https://www.facebook.com/"><img src="./images/team-facebook.svg" alt=""></a>
+                </p>
+            </div>
+            <div class="team__box cell">
+                <img src="./images/cfo.png" alt="Worker photo (Chuck Berry)" class="box__icon">
+                <p class="box__position">cfo</p>
+                <p class="box__name">Chuck Berry</p>
+                <p class="box__role">The guy with his hand on the wallet</p>
+                <p class="box__contact"> <a href="https://twitter.com/"><img src="./images/team-twitter.svg" alt=""></a>
+                    <a href="https://www.facebook.com/"><img src="./images/team-facebook.svg" alt=""></a>
+                </p>
             </div>
         </div>
     </section>
     <!-- /////////////////////////////////// -->
-    <footer class="container">
-        <p class="footer__text"><span class="footer__icon"></span></p>
+    <footer class="footer container">
+        <p class="footer__text flex-center">A free template by<a href="https://www.webscope.io/"><img
+                    src="./images/webscope.svg" alt="Webscope icon"></a></p>
     </footer>
 
 

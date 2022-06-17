@@ -3,12 +3,16 @@
 body {
 	font-family: "Montserrat", sans-serif;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 .container,
 .row {
 	margin: 5px;
 	padding: 5px;
 }
+
 .container {
 	outline-color: green;
 	max-width: 100%;
