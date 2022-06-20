@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.container,
+.row {
+	margin: 5px;
+	padding: 5px;
+}
+
+.container {
+	outline-color: green;
+	max-width: 100%;
+}
+
+.row {
+	margin: 0 auto;
+	max-width: 1150px;
+	outline-color: blue;
+}
+
+.cell {
+	min-height: 50px;
+}
+
+/* Reusable clasess for titles and descriptions on site */
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.heading {
+	font-size: 35px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 40px;
+}
+
+/* Button common styles */
+
+.button {
+	padding: 15px 35px;
+	border-radius: 10px;
+	border: none;
+	transition: filter 0.2s;
+}
+.button:hover {
+	filter: brightness(85%);
+}

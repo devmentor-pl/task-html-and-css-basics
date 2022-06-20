@@ -1,0 +1,60 @@
+.pricing__section {
+	padding: 0;
+	margin: 0;
+	background: #f8f9f9;
+}
+.title {
+	font-weight: 100;
+}
+.desc {
+	margin-top: 20px;
+	font-size: 12px;
+	opacity: 0.7;
+}
+.pricing__cards {
+	align-items: stretch;
+}
+
+.card {
+	position: relative;
+	min-height: 350px;
+	text-align: center;
+	margin: 30px;
+	padding: 70px 40px 40px 40px;
+	transition: 0.2s;
+	border-radius: 5px;
+	color: var(--box-text-color);
+}
+.card:hover {
+	background: #fff;
+	box-shadow: 0 0 0.5em black;
+	transform: scale(1.02);
+	cursor: default;
+}
+.card__name {
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+.card__price {
+	margin: 15px 0;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 0.8;
+}
+.price__span {
+	font-size: 12px;
+}
+.card__description {
+	font-size: 10px;
+	font-weight: bold;
+}
+.card__button {
+	position: absolute;
+	top: 83%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	background: #0abceb;
+	min-width: 150px;
+	min-height: 30px;
+}
