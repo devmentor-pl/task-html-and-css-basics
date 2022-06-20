@@ -11,8 +11,13 @@
 	font-size: 12px;
 	opacity: 0.7;
 }
+.pricing__cards {
+	align-items: stretch;
+}
 
 .card {
+	position: relative;
+	min-height: 350px;
 	text-align: center;
 	margin: 30px;
 	padding: 70px 40px 40px 40px;
@@ -44,7 +49,12 @@
 	font-weight: bold;
 }
 .card__button {
-	margin-top: 50px;
+	position: absolute;
+	top: 83%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	color: #fff;
 	background: #0abceb;
+	min-width: 150px;
+	min-height: 30px;
 }
