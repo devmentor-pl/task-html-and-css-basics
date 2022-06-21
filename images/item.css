@@ -1,0 +1,78 @@
+/* item */
+.container__item {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    width: 100%;
+    background-color: #ecf0f1;
+}
+.pricing__info {
+    margin: 0 auto;
+}
+.pricing__header {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.pricing__header-text {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    color: #95a5a6;
+    /* nie działa wyśrodkowanie tekstu i zmiana koloru... */
+}
+.plan__option {
+    height: 520px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 360px;
+    position: relative
+}
+.plan__option--active {
+    border-radius: 35px;
+    box-shadow: 15px -15px 45px #bdc3c7;
+    background-color: white;
+}
+.plan__title {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.plan__cost {
+    font-size: 36px;
+    font-weight: bold;
+}
+.plan__monthly {
+    margin-bottom: 15px;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.plan__advantage {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    list-style: none;
+}
+.plan__button {
+    border-style: none;
+    margin-top: 40px;
+    min-width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #58d5f7;
+    color: white;
+    font-size: 16px;
+    bottom: 90px;
+    right: 90px;
+    transition: .3s;
+}
+.plan__button:hover {
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+
+

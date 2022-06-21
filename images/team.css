@@ -1,0 +1,61 @@
+/* team */
+.team {
+    width: 100%;
+    background-color: #ecf0f1;
+}
+.team__header {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.team__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.team__people {
+    height: 500px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    width: 360px;
+    position: relative
+}
+.team__workstand {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 35px;
+    font-size: 18px;
+    color: #95a5a6
+}
+.team__name {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+.team__image-one {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url(cto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.team__image-two {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url(ceo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.team__image-three {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-image: url(cfo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.team__media

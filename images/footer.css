@@ -1,0 +1,17 @@
+/* footer */
+.footer {
+    background-color: darkgrey;
+}
+.footer__info {
+    height: 50px;
+    background-image: url(webscope.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+.footer__info h2 {
+    position: relative;
+    left: -100px;
+    font-size: medium;
+    padding-top: 10px;
+}
