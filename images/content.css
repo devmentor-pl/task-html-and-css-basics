@@ -1,6 +1,6 @@
 /* content */
 .content {
-    background-color: green
+    background-color: black
 }   
 .content__container {
     display: flex;
@@ -37,8 +37,8 @@
     height: 50px;
     background-image: url(responsive.svg);
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;    
+    background-position: center;
+    /* display: flex; */
 }
 .logo__box-two {
 
@@ -46,6 +46,7 @@
     height: 50px;
     background-image: url(customizable.svg);
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;    
 }
@@ -55,6 +56,7 @@
     height: 50px;
     background-image: url(design.svg);
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;    
 }
@@ -69,13 +71,24 @@
     text-align: center;
     color: white;
 }
-.content__footer-logo {
-    
-    left: 100px;
-    width: 420px;
-    background-image: url(logos.png);
+.footer__container-features {
+    display: block;
+   
+
+}
+.footer__box {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.logos {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 50px;
+    background: url(logos.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    /* padding-top: 30px; ??? */
-
+    background-position: center;
+    
 }

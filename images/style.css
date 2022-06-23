@@ -3,11 +3,16 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
 }
 .row, .cell, .container {
     margin: 5px;
     padding: 5px;
-    outline: 3px solid;
+    /* outline: 3px solid; */
 }
 .row {
     outline-color: green;
@@ -21,5 +26,5 @@
 }
 .cell {
     min-height: 50px;
-    outline-color: orange;
-}
+    /* outline-color: orange; */
+} 

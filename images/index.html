@@ -29,7 +29,7 @@
 			<article class="content__article cell">
                 <h2>Beautiful Free Nova<br>template</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing <br>elit. Veritatis, obcaecati. Lorem, lorem tra ta ta ta.</p>
-                <button-main>Downlad FREE!</button-main>
+                <button class="button-main">Downlad FREE!</button>
             </article>
 			<aside class="content__ads cell"></aside>
 	
@@ -37,37 +37,39 @@
 	</header>
 
 	<section class="content row">
-		<div class="content__container container">
-			<header class="content__header cell">
+		<div class="content__container">
+			<header class="content__header">
                 <h2>FEATURES</h2>
             </header>
 		</div>
 		<div class="container__container container">
-			<div class="content__logo cell">
+			<div class="content__logo ">
 				<div class="logo__box">
 					<div class="logo__box-one">
 					</div>
 				</div>
 				<div class="title__box">full reponsive</div>
-				<div class="box__desctription">Looks amazing on any devices: smartfon, tablet, laptop and any desktop.</div>
+				<div class="box__description">Looks amazing on any devices: smartfon, tablet, laptop and any desktop.</div>
             </div>
 			<div class="content__settings cell">
 				<div class="logo__box">
-					<div class="logo__two"></div>
+					<div class="logo__box-two"></div>
 				</div>
 				<div class="title__box">customizable</div>
-				<div class="box__desctription">Looks amazing on any devices: smartfon, tablet, laptop and any desktop.</div>
+				<div class="box__description">Looks amazing on any devices: smartfon, tablet, laptop and any desktop.</div>
 			</div>
 			<div class="content__design cell">
 				<div class="logo__box">
-					<div class="logo__three"></div>
+					<div class="logo__box-three"></div>
 				</div>
 				<div class="title__box">slick and beautiful design</div>
-				<div class="box__desctription">Looks amazing on any devices: smartfon, tablet, laptop and any desktop.</div>
+				<div class="box__description">Looks amazing on any devices: smartfon, tablet, laptop and any desktop.</div>
 			</div>
 		</div>
-		<div class="footer-logo container">
-			<nav class="content__footer-logo cell"></nav>
+		<div class="footer__container-features">
+			<div class="footer__box">
+				<div class="logos"></div>
+			</div>
 		</div>
 	</section>
 
@@ -83,13 +85,13 @@
 		<div class="container__item">
 			<div class="pricing__info">
 				<h2 class="pricing__header">choose your pricing plan</h2>
-				<p class="pricing__plan-text">Pick any of our super afforable pricing plans</p>
+				<p class="pricing__header-text">Pick any of our super afforable pricing plans</p>
 			</div>
 		</div>
 		<div class="container__item">
 			<section class="plan__option">
-				<p class="plan__title">basic</p><br>
-				<p class="plan__cost">$15</p><br>
+				<p class="plan__title">basic</p>
+				<p class="plan__cost">$15</p>
 				<p class="plan__monthly">per month</p>
 				<ul class="plan__advantage">
 					<li>Up to 7 projects</li>
@@ -98,8 +100,8 @@
 				<button class="plan__button">Get started</button>
 			</section>
 			<section class="plan__option plan__option--active">
-				<p class="plan__title">agency</p><br>
-				<p class="plan__cost">$55</p><br>
+				<p class="plan__title">agency</p>
+				<p class="plan__cost">$55</p>
 				<p class="plan__monthly">per month</p>
 				<ul class="plan__advantage">
 					<li>Up to 25 projects</li>
@@ -109,8 +111,8 @@
 				<button class="plan__button">Get started</button>
 			</section>
 			<section class="plan__option">
-				<p class="plan__title">pro</p><br>
-				<p class="plan__cost">$75</p><br>
+				<p class="plan__title">pro</p>
+				<p class="plan__cost">$75</p>
 				<p class="plan__monthly">per month</p>
 				<ul class="plan__advantage">
 					<li>Up to 25 projects</li>
@@ -135,9 +137,20 @@
 				<p class="team__workstand">CTO</p><br>
 				<p class="team__name">Johnny B Good</p><br>
 				<p class="team__description">The brains behind whole operation</p>
-				<p class="team__media-one">
-					<div class="media__facebook"></div>
-					<div class="media__twitter"></div>
+				<div class="media__box">
+					<div class="box1">
+						<img src="facebook.svg" alt="">
+					</div>
+					<div class="box2">
+						<img src="twitter.svg" alt="">
+				</div>
+				<!-- <p class="team__media-container">
+					<div class="facebook__box">
+						<div class="facebook__icon"></div>
+					</div>
+					<div class="twitter__box">
+						<div class="twitter__icon"></div>
+					</div> -->
 				</p>
 			</section>
 			<section class="team__people">
@@ -145,34 +158,57 @@
 				<p class="team__workstand">CEO</p><br>
 				<p class="team__name">Roll Over Beethoven</p><br>
 				<p class="team__description">The one that puts it all together</p>
-				<p class="team__media-two">
-					<div class="media__facebook"></div>
-					<div class="media__twitter"></div>
-				</p>
+				<div class="media__box">
+					<div class="box1">
+						<img src="facebook.svg" alt="">
+					</div>
+					<div class="box2">
+						<img src="twitter.svg" alt="">
+				</div>
+				<!-- <p class="team__media-container">
+					<div class="facebook__box">
+						<div class="facebook__icon"></div>
+					</div>
+					<div class="twitter__box">
+						<div class="twitter__icon"></div>
+					</div>
+				</p> -->
 			</section>
 			<section class="team__people">
 				<p class="team__image-three"></p><br>
 				<p class="team__workstand">CFO</p><br>
 				<p class="team__name">Chuck Berry</p><br>
 				<p class="team__description">The guy with his hand on the wallet</p>
-				<p class="team__media-three">
-					<div class="media__facebook"></div>
-					<div class="media__twitter"></div>
-				</p>
+				<div class="media__box">
+					<div class="box1">
+						<img src="facebook.svg" alt="">
+					</div>
+					<div class="box2">
+						<img src="twitter.svg" alt="">
+				</div>
+				<!-- <p class="team__media-container">
+					<div class="facebook__box">
+						<div class="facebook__icon"></div>
+					</div>
+					<div class="twitter__box">
+						<div class="twitter__icon"></div>
+					</div>
+				</p> -->
 			</section>
 		</div>
-		<!-- <div class="team__people container">
-			<nav class="section__cto cell"></nav>
-			<nav class="section__ceo cell"></nav>
-			<nav class="section__cfo cell"></nav>
-		</div> -->
 	   </div>
 	</section>
 
 	<footer class="footer row">
-		<div class="footer__info container">
-        <h2>A free template by</h2>
-        </div>
+		<div class="footer__container">
+			<div class="footer__text">
+				<div class="text">A free template by</div>
+			</div>
+			<div class="footer__logo">
+				<div class="image"></div>
+				
+			</div>
+		</div>
 	</footer>
 </body>
 </html>

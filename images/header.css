@@ -1,5 +1,5 @@
 /* header */
-p {
+.header p {
     display: inline-block;
 }
 .header {
@@ -11,7 +11,7 @@ p {
     
 }
 .header__logo {
-    width: 350px;
+    width: 500px;
     margin: 0;
     background-image: url(logo.svg);
     background-size: auto 90%;
@@ -20,6 +20,7 @@ p {
 }
 .header__nav {
     width: 400px;
+    height: 150px;
     margin-right: 0;
 }
 .header__nav ul {
@@ -59,20 +60,22 @@ p {
     color: white;
     padding-bottom: 30px;
 }
-button-main {
-    display: inline-flex;
-    align-items: center;
+.button-main {
+    border-style: none;
+    margin-top: 40px;
+    min-width: 180px;
     height: 50px;
-    padding: 15px;
+    border-radius: 15px;
+    background-color: #58d5f7;
     color: white;
-    border: 3px solid greenyellow;
-    background-color: greenyellow;
-    border-radius: 10%;
-    /* box-shadow: 2px 2px 0 0 rgb (0, 0, 0, 1); ?? */
+    font-size: 16px;
+    bottom: 90px;
+    right: 90px;
+    transition: .3s;
 }
-button-main:hover {
-    background-color: orange;
-    box-shadow: -40px 20px 50px 0px gray;
+.button-main:hover {
+    font-size: 20px;
+    border-radius: 50px;
     
 
 }

@@ -58,4 +58,49 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.team__media
+.media__box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    background-color: gray;
+    width: 40px;
+    height: 40px; 
+    
+}
+
+/* .team__media-container {
+    display: flex;
+
+}
+.facebook__box {
+    width: 50%;
+    height: 30px;
+    background-color: lightgray;
+}
+.twitter__box {
+    width: 50%;
+    height: 30px;
+    background-color: gray;
+}
+.facebook__icon {
+    width: 20px;
+    height: 30px;
+    background-image: url(facebook.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: gray;
+    margin-left: 70%;
+
+
+}
+.twitter__icon {
+    width: 30px;
+    height: 30px;
+    background-image: url(twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: gray;
+    margin-left: 20px;
+} */

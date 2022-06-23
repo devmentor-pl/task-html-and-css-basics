@@ -1,17 +1,37 @@
 /* footer */
-.footer {
-    background-color: darkgrey;
+.footer__container {
+    display: flex;
+    
 }
-.footer__info {
+.footer__text {
+    width: 50%;
+    height: 80px;
+    background-color: darkgray;
+}
+.text {
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    justify-content: end;
+    margin-right: 5px;
+
+}
+.footer__logo {
+    width: 50%;
+    height: 80px;
+    background-color: darkgray;
+
+}
+.image {
+    width: 110px;
     height: 50px;
     background-image: url(webscope.svg);
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
+    background-size: 100%;
+    position: absolute;
+    transform: translate(10px,25px);
+    
+    
+
 }
-.footer__info h2 {
-    position: relative;
-    left: -100px;
-    font-size: medium;
-    padding-top: 10px;
-}
+
