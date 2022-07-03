@@ -1,13 +1,20 @@
 /* COMMON */
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+:root {
+    --btn: #25f18b;
+    --btn-hover: #1cc26f;
+    --btn-blue: #78daf4;
+    --btn-blue-hover: #6abfd6;
+    --bg-light: #f6f8f8;
+    --bg-footer: #525252;
 }
 
-a {
-    text-decoration: none;
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -30,8 +37,8 @@ h3 {
     padding: 14px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: white;
-    background-color: #25F18B;
+    color: #ffffff;
+    background-color: var(--btn);
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -39,18 +46,18 @@ h3 {
 }
 
 .cta-button:hover {
-    background-color: #1cc26f;
+    background-color: var(--btn-hover);
 }
 
 .cta-button--blue {
     min-width: 145px;
     margin-bottom: 61px;
-    background-color: #78daf4;
+    background-color: var(--btn-blue);
     font-size: 12px;
 }
 
 .cta-button--blue:hover {
-    background-color: #6abfd6;
+    background-color: var(--btn-blue-hover);
 }
 
 /* END OF COMMON */
@@ -59,7 +66,7 @@ h3 {
 
 .header {
     min-height: 640px;
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235)); 
+    background: radial-gradient(#c24a7e, #6956eb); 
 }
 
 .header__container {  
@@ -98,9 +105,8 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;    
-    color: white;
+    color: #ffffff;
     font-size: 12px;
-    line
     text-decoration: none;
     transition: font-weight .5s ease-in-out;
 }
@@ -116,7 +122,7 @@ h3 {
 .hero {    
     height: 500px;
     justify-content: space-between;
-    color: white;    
+    color: #ffffff;    
 }
 
 .hero__info {
@@ -146,11 +152,12 @@ h3 {
 
 .hero__image-file {
     width: 80%;
+    background-color: #ffffff;
     -ms-transform: rotate(354deg);
     -webkit-transform: rotate(354deg);
     transform: rotate(354deg);
-    border: 14px solid white;
-    border-bottom: 74px solid white;
+    border: 14px solid #ffffff;
+    border-bottom: 74px solid #ffffff;
     border-radius: 20px;
 }
 
@@ -161,8 +168,8 @@ h3 {
 .features {
     height: 440px;
     padding-top: 14px;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .features__header-container {
@@ -187,7 +194,7 @@ h3 {
     height: 70px;
     width: 70px;
     margin: 12px auto;
-    background-color: white;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,7 +225,7 @@ h3 {
 .media {
     min-height: 70px;
     padding: 5px;
-    background-color: #f6f8f8;
+    background-color: var(--bg-light);
 }
 
 .media__container {
@@ -257,10 +264,6 @@ h3 {
     padding: 75px 10px;
 }
 
-.design__image {
-    
-}
-
 .design__text-container {
     padding: 75px 95px;
 }
@@ -279,7 +282,7 @@ h3 {
 .pricing {
     height: 640px;
     padding: 5px;
-    background-color: #f6f8f8;
+    background-color: var(--bg-light);
 }
 
 .pricing__text-container {
@@ -303,13 +306,14 @@ h3 {
 .pricing__plan {
     width: 27%;
     margin: 5px;    
-    text-align: center;
-    transition: background-color, border-radius, box-shadow .3s ease-in-out;
+    text-align: center;    
+    border-radius: 10px;
+    transition: background-color, box-shadow .3s ease-in-out;
 }
 
+.pricing__plan--main,
 .pricing__plan:hover {
-    background-color: white;
-    border-radius: 10px;
+    background-color: #ffffff;
     box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -362,27 +366,27 @@ h3 {
     text-align: center;
 }
 
-.team__member-avatar {
+.member__avatar {
     width: 110px;
     margin: 20px auto;
 }
 
-.team__member-position {
+.member__position {
     margin: 5px auto;
 }
 
-.team__member-name {
+.member__name {
     margin: 5px auto;
     font-size: 13px;
     font-weight: bold;
 }
 
-.team__member-text {
+.member__text {
     font-size: 12px;
 }
 
-.team__member-twitter, 
-.team__member-fb {
+.member__twitter, 
+.member__fb {
     margin: 15px 5px 30px;
 }
 
@@ -392,8 +396,8 @@ h3 {
 
 .footer {
     height: 63px;
-    background-color: #525252;
-    color: white;
+    background-color: var(--bg-footer);
+    color: #ffffff;
 }
 
 .footer__container {
