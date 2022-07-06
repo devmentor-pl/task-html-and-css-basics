@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,4 +12,40 @@ body {
 .main__top {
     height:500px;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+} */
+
+.green {
+    outline:2px solid green;
 }
+
+.blue {
+    outline:2px solid blue;
+    width: 1150px;
+    margin:0 auto;
+}
+
+.yellow {
+    outline:2px solid yellow;
+    
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding:50px 0;
+}
+
+.nav__items {
+    display:flex;
+}
+
+.main {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.main__content {
+    display:flex;
+    justify-content: space-between;
+}
+
