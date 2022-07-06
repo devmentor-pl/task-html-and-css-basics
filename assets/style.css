@@ -1,0 +1,15 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav__item {
+    float:right;
+    list-style: none;
+    width:200px;
+    color:#fff;
+}
+
+.main__top {
+    height:500px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
