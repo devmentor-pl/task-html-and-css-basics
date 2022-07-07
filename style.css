@@ -43,7 +43,8 @@
 }
 
 .nav__image {
-    padding:80px;
+    padding-bottom:60px;
+    padding-right:40px;
     transform:rotate(-10deg);
 }
 
@@ -56,10 +57,12 @@
 .main__article h1 {
     color:#fff;
     font-size: 30px;
+    padding:5px;
 }
 
 .main__article p {
-    padding:30px;
+    padding:5px;
+   
 }
 
 .btn__nav{
@@ -68,21 +71,30 @@
     border: 10px solid #59ad60;
     border-radius:8px;
     font-size: 20px;
+    margin:20px;
     padding:10px;
 }
+
 
 .features__text {
     color:#fff;
     font-size: 40px;
     background-color: black;
     
+    
 }
 
-.features__items {
-    height: 200px;
-    display: flex;
+.features__responsive {
+    display:flex;
+    background-color: black;
+    height:300px;
 }
 
-.features_text {
-   text-align: center;
+
+.text {
+    color:#fff;
+    padding:30px;
 }
+
+
+
