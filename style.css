@@ -2,6 +2,21 @@
     font-family: 'Montserrat', sans-serif;
  }
 
+ .green {
+    outline:2px solid green;
+}
+
+.blue {
+    outline:2px solid blue;
+    width: 1150px;
+    margin:0 auto;
+}
+
+.yellow {
+    outline:2px solid yellow;
+}
+
+
 
 .nav {
     display: flex;
@@ -56,3 +71,18 @@
     padding:10px;
 }
 
+.features__text {
+    color:#fff;
+    font-size: 40px;
+    background-color: black;
+    
+}
+
+.features__items {
+    height: 200px;
+    display: flex;
+}
+
+.features_text {
+   text-align: center;
+}
