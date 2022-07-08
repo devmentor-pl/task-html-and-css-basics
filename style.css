@@ -43,9 +43,10 @@
 }
 
 .nav__image {
-    padding-bottom:60px;
-    padding-right:40px;
+    padding-bottom:80px;
+    padding-right:80px;
     transform:rotate(-10deg);
+    
 }
 
 .main__article {
@@ -75,25 +76,29 @@
     padding:10px;
 }
 
+.features.green {
+    padding-top: 60px;
+}
+
 
 .features__text {
     color:#fff;
     font-size: 40px;
     background-color: black;
-    
-    
+    text-align: center;
 }
 
 .features__responsive {
     display:flex;
     background-color: black;
-    height:300px;
+    max-width: 200px;
 }
 
 
 .text {
     color:#fff;
     padding:30px;
+    display: flex;
 }
 
 
