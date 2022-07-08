@@ -91,14 +91,24 @@
 .features__responsive {
     display:flex;
     background-color: black;
-    max-width: 200px;
+    
 }
 
 
 .text {
     color:#fff;
-    padding:30px;
+    padding:40px;
     display: flex;
+    font-size: small;
+}
+
+.images {
+    padding:20px;
+}
+
+.feat__image {
+    padding:50px;
+    
 }
 
 
