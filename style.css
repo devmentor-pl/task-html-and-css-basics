@@ -2,7 +2,7 @@
     font-family: 'Montserrat', sans-serif;
  }
 
- /* .green {
+  .green {
     outline:2px solid green;
 }
 
@@ -13,9 +13,8 @@
 }
 
 .yellow {
-    outline:2px solid yellow; */
-
-
+    outline:2px solid yellow; 
+}
 
 
 .nav {
@@ -122,6 +121,32 @@
 .imac content  {
     display: flex;
 }
+
+.choose {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.pircing  {
+    padding:20px;
+    font-size: 30px;
+}
+
+.description {
+    padding:20px;
+    color:#a59a9a
+}
+
+.logoss {
+    text-align: center;
+    padding:20px;
+}
+
+
+
 
 
 
