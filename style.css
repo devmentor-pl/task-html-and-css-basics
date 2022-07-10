@@ -145,6 +145,15 @@
     padding:20px;
 }
 
+.squad {
+    text-align: center;
+}
+
+
+
+.content {
+    display: flex;
+}
 
 
 
