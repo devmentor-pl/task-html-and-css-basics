@@ -1,5 +1,6 @@
  body {
     font-family: 'Montserrat', sans-serif;
+    
  }
 
   .green {
@@ -20,7 +21,6 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    padding:50px 0;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
@@ -35,16 +35,17 @@
 
 
 
-.main__content {
+.main__cont {
     display:flex;
     justify-content: space-between;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .nav__image {
-    padding-bottom:80px;
-    padding-right:80px;
+    padding:60px;
     transform:rotate(-10deg);
+    position:relative;
+    right:40px;
     
 }
 
@@ -154,6 +155,39 @@
 .content {
     display: flex;
 }
+
+.apple {
+    width:550px;
+    
+}
+
+.simple {
+    text-align: center;
+    color:black;
+    font-size: 40px;
+    padding:20px;
+}
+
+.simple p {
+    padding:60px;
+    font-size: 20px;
+}
+
+.content {
+    padding:20px;
+}
+    
+
+.content {
+    padding:40px;
+    justify-content: space-between;
+}
+
+
+
+
+
+
 
 
 
