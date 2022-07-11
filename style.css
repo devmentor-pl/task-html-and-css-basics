@@ -179,10 +179,38 @@
     
 
 .content {
-    padding:40px;
+    padding:20px;
     justify-content: space-between;
 }
 
+.typeplan {
+    font-size: 40px;
+    text-align: center;
+}
+
+.price ,.monthly  {
+    padding:20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.btn_start {
+    text-align: center;
+    padding:20px;
+    margin:20px;
+    width:200px;
+    background-color: #498fb8;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    font-size:20px;
+    border-radius: none;
+}
+
+.conditions {
+    font-style: italic;
+    text-align: center;
+}
 
 
 
