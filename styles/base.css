@@ -1,0 +1,14 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.cointainer {
+  width: 100%;
+}
+.row {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 40px;
+}
+a {
+  text-decoration: none;
+}
