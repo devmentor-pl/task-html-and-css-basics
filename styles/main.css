@@ -59,3 +59,84 @@
   max-width: 350px;
   line-height: 30px;
 }
+.pricing__cointainer {
+  min-height: 550px;
+}
+.pricing {
+  text-align: center;
+}
+.pricing__heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px;
+}
+.pricing__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pricing__listitems {
+  min-height: 380px;
+  text-align: center;
+  padding: 30px;
+  transition: padding 0.5s;
+  position: relative;
+}
+.pricing__listitems:hover {
+  -webkit-box-shadow: 0px 0px 22px 3px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 22px 3px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 22px 3px rgba(66, 68, 90, 1);
+  padding: 35px;
+}
+.pricing__listitems--heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+.pricing__listitems--price {
+  font-size: 36px;
+  font-weight: 900;
+  padding: 10px;
+}
+.pricing__listitems--time {
+  font-size: 12px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+.pricing__listitems--p {
+  font-weight: bold;
+  font-size: 14px;
+}
+.pricing__listitems--button {
+  margin-top: 60px;
+  padding: 10px 30px;
+  background-color: rgb(153, 186, 221);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 20px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.team__heading {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.team__list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team__listitem {
+  text-align: center;
+}
+.listitem__p:nth-child(3) {
+  font-weight: bold;
+}
+.listitem__p {
+  margin: 15px;
+}
+.bgc--black {
+  filter: brightness(0) saturate(100%);
+  padding: 10px;
+  margin-bottom: 100px;
+}
