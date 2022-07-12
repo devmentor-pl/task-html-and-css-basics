@@ -188,29 +188,61 @@
     text-align: center;
 }
 
-.price ,.monthly  {
-    padding:20px;
-    font-size: 20px;
+.monthly  {
+    padding:60px;
+    font-size: 19px;
     text-align: center;
+}
+
+.price {
+    padding:30px;
+    text-align: center;
+    font-size: 38px;
 }
 
 
 .btn_start {
-    text-align: center;
-    padding:20px;
-    margin:20px;
-    width:200px;
-    background-color: #498fb8;
+    display:flex;
+    padding:16px;
+    margin-top: 120px;
+    background-color: #3b97cc;
     font-family: 'Montserrat', sans-serif;
     color:#fff;
-    font-size:20px;
-    border-radius: none;
+    font-size: 16px;
+    border-color: #3b97cc;
+    border-radius: 8px;
 }
 
 .conditions {
     font-style: italic;
     text-align: center;
 }
+
+.team {
+    text-align: center;
+    font-size: 40px;
+    padding:150px;
+}
+
+.group__teammates {
+    padding:60px;
+}
+
+.position {
+    padding:40px;
+}
+
+.theteam {
+    display:flex;
+}
+
+.face {
+    justify-content: space-between;
+}
+
+
+
+
 
 
 
