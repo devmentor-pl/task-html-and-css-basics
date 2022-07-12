@@ -221,24 +221,49 @@
 .team {
     text-align: center;
     font-size: 40px;
-    padding:150px;
+    padding:120px;
 }
 
-.group__teammates {
-    padding:60px;
+
+.name {
+    font-size:20px;
+    position: absolute;
+    
+    
 }
 
-.position {
-    padding:40px;
+.role {
+    font-size: 10px;
+    font-weight: lighter;
+    text-align: center;
+    position: absolute;
+    
 }
 
-.theteam {
-    display:flex;
+.stand {
+ font-family:'Times New Roman', Times, serif;
+ padding:60px;
+ font-size: 40px;
+ 
 }
 
 .face {
-    justify-content: space-between;
+    padding:30px;
 }
+
+.theteam {
+    display: flex;
+}
+
+.position {
+    display:flex;
+}
+
+.socials {
+    position: absolute;
+}
+
+
 
 
 
