@@ -1,11 +1,13 @@
- body {
+body {
     font-family: 'Montserrat', sans-serif;
-    
- }
+}
+
 
   .green {
     outline:2px solid green;
 }
+
+
 
 .blue {
     outline:2px solid blue;
@@ -13,9 +15,13 @@
     margin:0 auto;
 }
 
+
+
 .yellow {
     outline:2px solid yellow; 
 }
+
+
 
 
 .nav {
@@ -24,10 +30,14 @@
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
+
+
 .nav__items {
     display:flex;
     color:#fff;
 }
+
+
 
 .nav__item {
     width:100px;
@@ -41,13 +51,16 @@
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
+
+
 .nav__image {
     padding:60px;
     transform:rotate(-10deg);
     position:relative;
     right:40px;
-    
 }
+
+
 
 .main__article {
     color:#fff;
@@ -55,18 +68,23 @@
     padding:40px;
 }
 
+
+
 .main__article h1 {
     color:#fff;
     font-size: 30px;
     padding:5px;
 }
 
+
+
 .main__article p {
     padding:5px;
-   
 }
 
-.btn__nav{
+
+
+.btn__template{
     color:#fff;
     background-color: #59af60;
     border: 10px solid #59ad60;
@@ -76,11 +94,14 @@
     padding:10px;
 }
 
+
+
 .features.green {
     color:black;
     padding-top: 60px;
-   
 }
+
+
 
 
 .features__text {
@@ -88,15 +109,16 @@
     font-size: 40px;
     background-color: black;
     text-align: center;
-    
-    
 }
 
-.features__responsive {
+
+
+.features__items {
     display:flex;
     background-color: black;
-    
 }
+
+
 
 
 .text {
@@ -106,45 +128,67 @@
     font-size: small;
 }
 
+
+
 .images {
     padding:30px;
 }
 
+
+
 .feat__image {
     padding:50px;
-    
+    background-color: #e9f0ee;
+    border-radius:60%;
 }
+
+
 
 .beutiful text {
     color:black;
 }
 
+
+
 .imac content  {
     display: flex;
 }
+
+
+
 
 .choose {
     text-align: center;
 }
 
+
+
 .description {
     text-align: center;
 }
+
+
 
 .pircing  {
     padding:20px;
     font-size: 30px;
 }
 
+
+
 .description {
     padding:20px;
     color:#a59a9a
 }
 
+
+
 .logoss {
     text-align: center;
     padding:20px;
 }
+
+
 
 .squad {
     text-align: center;
@@ -152,14 +196,17 @@
 
 
 
+
 .content {
     display: flex;
 }
 
+
 .apple {
     width:550px;
-    
 }
+
+
 
 .simple {
     text-align: center;
@@ -168,14 +215,20 @@
     padding:20px;
 }
 
+
+
 .simple p {
     padding:60px;
     font-size: 20px;
 }
 
+
+
 .content {
     padding:20px;
 }
+
+
     
 
 .content {
@@ -183,10 +236,14 @@
     justify-content: space-between;
 }
 
+
+
 .typeplan {
     font-size: 40px;
     text-align: center;
 }
+
+
 
 .monthly  {
     padding:60px;
@@ -194,11 +251,15 @@
     text-align: center;
 }
 
+
+
 .price {
     padding:30px;
     text-align: center;
     font-size: 38px;
 }
+
+
 
 
 .btn_start {
@@ -213,55 +274,43 @@
     border-radius: 8px;
 }
 
+
+
 .conditions {
     font-style: italic;
     text-align: center;
 }
 
-.team {
-    text-align: center;
-    font-size: 40px;
-    padding:120px;
-}
-
-
-.name {
-    font-size:20px;
-    position: absolute;
-    
-    
-}
-
-.role {
-    font-size: 10px;
-    font-weight: lighter;
-    text-align: center;
-    position: absolute;
-    
-}
-
-.stand {
- font-family:'Times New Roman', Times, serif;
- padding:60px;
- font-size: 40px;
- 
-}
-
-.face {
-    padding:30px;
-}
-
 .theteam {
-    display: flex;
-}
-
-.position {
     display:flex;
 }
 
-.socials {
-    position: absolute;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
