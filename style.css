@@ -30,11 +30,20 @@ body {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
+.main__nav {
+    padding:50px 0;
+}
+
+.nav__logo {
+    padding-left: 40px;
+}
+
 
 
 .nav__items {
     display:flex;
     color:#fff;
+    padding-right: 80px;
 }
 
 
