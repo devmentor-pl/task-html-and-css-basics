@@ -2,6 +2,15 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.center {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.main {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
 
   .green {
     outline:2px solid green;
@@ -27,7 +36,6 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .main__nav {
@@ -57,7 +65,7 @@ body {
 .main__cont {
     display:flex;
     justify-content: space-between;
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    
 }
 
 
@@ -105,8 +113,8 @@ body {
 
 
 
-.features.green {
-    color:black;
+.features {
+    background-color: black;
     padding-top: 60px;
 }
 
@@ -116,7 +124,6 @@ body {
 .features__text {
     color:#fff;
     font-size: 40px;
-    background-color: black;
     text-align: center;
 }
 
@@ -146,9 +153,10 @@ body {
 
 
 .feat__image {
-    padding:50px;
-    background-color: #e9f0ee;
-    border-radius:60%;
+    padding:40px;
+    background-color: #ffffff;
+    border-radius:70%;
+    
 }
 
 
@@ -297,17 +305,24 @@ body {
 .team>p {
     text-align: center;
     font-size: 40px;
-    padding-top: 40px;
-}
-
-.face {
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 80px 0px;
 }
 
 
+.position {
+    text-align: center;
+}
+
+.theteam {
+    display:flex;
+    justify-content: center;
+    padding:60px;
+}
 
 
+.stand,.name,.role,.socials {
+    padding:20px;
+}
 
 
 
