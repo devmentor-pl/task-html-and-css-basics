@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.green {
+    border: 5px solid green;
+}
+
+.blue {
+    border: 5px solid blue;
+}
+
+.orange {
+    border: 5px solid orange;
+}
