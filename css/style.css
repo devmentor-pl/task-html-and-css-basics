@@ -102,6 +102,8 @@ body {
 .features__info {
     display: flex;
     min-height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 .features__header {
@@ -144,6 +146,8 @@ body {
 .pricing__info {
     display: flex;
     min-height: 400px;
+    justify-content: center;
+    align-items: center;
 }
 
 
