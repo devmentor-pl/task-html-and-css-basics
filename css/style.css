@@ -64,6 +64,12 @@ body {
     color: #58D5F7
 }
 
+.nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero__container {
     display: flex;
 }
@@ -95,4 +101,22 @@ body {
     color: white;
     text-align: center;
 
+}
+
+/* .features__container2 .feature {
+    width: 20%;
+} */
+.logos-section-background {
+    background-color: #F9FAFA;
+    
+}
+
+.logos-section__container {
+    display: flex;
+    justify-content: center;
+}
+
+.logos-section {
+    /* background-color: #F9FAFA;     */
+    background-color: #58D5F7;
 }
