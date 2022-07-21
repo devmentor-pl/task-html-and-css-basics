@@ -12,10 +12,10 @@
         content="width=device-width, initial-scale=1.0"
     />
 
-    <link
+    <!-- <link
         rel="stylesheet"
         href="./css/reset.css"
-    >
+    > -->
 
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
@@ -31,44 +31,89 @@
 
 <body>
 
-    <div class="green background">
+    <div class="green nav-hero-background">
 
-        <div class="container" id="nav">
-            <a href="#"><img src="./images/logo.svg" alt="logo"></a>
-            <ul >
-                <li><a href="./#team">Team</a></li>
-                <li><a href="./#pricing">Pricing</a></li>
-                <li><a href="./#features">Features</a></li>
-            </ul>
+        <div
+            class="nav"
+            id="nav"
+        >
+
+            <div class="nav__container container">
+
+                <a
+                    href="#"
+                    class="logo"
+                ><img
+                        src="./images/logo.svg"
+                        alt="logo"
+                    />
+                </a>
+                <ul class="nav__links">
+                    <a
+                        class="nav__link"
+                        href="./#team"
+                    >
+                        <li>The Team</li>
+                    </a>
+                    <a
+                        class="nav__link"
+                        href="./#pricing"
+                    >
+                        <li>Pricing</li>
+                    </a>
+                    <a
+                        class="nav__link"
+                        href="./#features"
+                    >
+                        <li>Features</li>
+                    </a>
+                </ul>
+            </div>
+
         </div>
 
-        <div class="container hero" id="hero">
-            <div>
-                <h1>Beautiful Free Nova template</h1>
-                <p>A top notch premium quality template for your next web project.</p>
-                <button>Download FREE</button>
-            </div>
-            <div>
-                <img
-                    src="./images/screen.png"
-                    alt=""
-                />
+        <div
+            class="container hero"
+            id="hero"
+        >
+
+            <div class="hero__container">
+
+                <div class="hero__info">
+                    <h1 class="hero__header">Beautiful Free Nova template</h1>
+                    <p class="hero__subheader">A top notch premium quality template for your next web project.</p>
+                    <button class="cta-button">Download FREE</button>
+                </div>
+
+                <div class="hero__image">
+                    <img
+                        src="./images/screen.png"
+                        alt=""
+                    />
+                </div>
+
             </div>
         </div>
 
     </div>
 
-    <div class="green">
+    <div class="green features-background">
 
-        <div class="container" id="features">
+        <div
+            class="features container"
+            id="features"
+        >
 
-            <div class="blue">
-                <h1>FEATURES</h1>
+
+        <div class="features__container">
+
+            <div class="features__header blue">
+                <h3>FEATURES</h3>
             </div>
 
-            <div class="blue">
+            <div class="features__container2 blue">
 
-                <div class="orange">
+                <div class="feature orange">
                     <img
                         src="./images/responsive.svg"
                         alt="device icon"
@@ -76,7 +121,7 @@
                     <h4>FULLY RESPONSIVE</h4>
                     <p>Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
                 </div>
-                <div class="orange">
+                <div class="feature orange">
                     <img
                         src="./images/customizable.svg"
                         alt="tools icon"
@@ -84,7 +129,7 @@
                     <h4>CUSTOMIZABLE</h4>
                     <p>Change the colors, pictures or any of the sections to suit your needs.</p>
                 </div>
-                <div class="orange">
+                <div class="feature orange">
                     <img
                         src="./images/design.svg"
                         alt="design icon"
@@ -94,13 +139,17 @@
                 </div>
 
             </div>
+        </div>
 
         </div>
 
 
     </div>
 
-    <div class="container" id="logos">
+    <div
+        class="container"
+        id="logos"
+    >
 
         <img
             src="./images/logos.png"
@@ -109,7 +158,10 @@
 
     </div>
 
-    <div class="container" id="simple-section">
+    <div
+        class="container"
+        id="simple-section"
+    >
 
         <img
             src="./images/imac.png"
@@ -126,7 +178,10 @@
 
     </div>
 
-    <div class="container" id="pricing">
+    <div
+        class="container"
+        id="pricing"
+    >
 
         <div>
             <h1>CHOOSE YOUR PRICING PLAN</h1>
@@ -176,7 +231,10 @@
 
     </div>
 
-    <div class="container" id="team">
+    <div
+        class="container"
+        id="team"
+    >
 
         <div>
             <h1>The Team</h1>
@@ -237,7 +295,10 @@
 
     </div>
 
-    <div class="container" id="footer">
+    <div
+        class="container"
+        id="footer"
+    >
 
         <span>
             A free template by
