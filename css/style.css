@@ -89,6 +89,14 @@ body {
     color: white;
 }
 
+.hero__image {
+    transform: rotate(-8deg) scale(0.7, 0.7);
+}
+
+.hero__image-item {
+    border-radius: 35px;
+
+}
 /* END OF HERO */
 
 
@@ -128,13 +136,7 @@ body {
 .feature {
     color: white;
     text-align: center;
-
 }
-
-
-/* .features__container2 .feature {
-    width: 20%;
-} */
 
 /* END OF FEATURE  */
 
@@ -160,6 +162,7 @@ body {
 
 .simple-section__container {
     display: flex;
+    justify-content: center;
 }
 
 .simple-section__header {
@@ -167,6 +170,7 @@ body {
     font-weight: 300;
     margin-left: 100px;
     margin-top: 100px;
+    margin-bottom: 60px;
 }
 
 .simple-section__info {
