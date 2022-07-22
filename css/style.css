@@ -162,6 +162,18 @@ body {
     display: flex;
 }
 
+.simple-section__header {
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.simple-section__info {
+    max-width: 400px;
+    margin-left: 100px;
+}
+
 .simple-section__text {}
 
 /* END OF SIMPLE-SECTION  */
