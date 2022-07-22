@@ -233,7 +233,7 @@ body {
 
 .plan {
     display: flex;
-    flex-basis: 31%;
+    flex-basis: 28%;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
@@ -243,21 +243,29 @@ body {
     font-weight: 300;
     font-size: 18px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .plan__price {
     font-size: 45px;
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .plan__per-month {
     font-weight: 300;
     font-size: 12px;
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 10px;
+}
+
+.plan__highlighted {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 18px 3px rgb(0 0 0 / 10%);
 }
 
 .plan__button {
