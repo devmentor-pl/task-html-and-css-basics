@@ -141,7 +141,7 @@ body {
 
 .logos-section-background {
     background-color: #b8bdbd;
-    
+
 }
 
 .logos-section__container {
@@ -187,5 +187,22 @@ body {
 
 /* TEAM */
 
+.team__container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1150px;
+    flex-direction: column;
+}
+
+.team__info {
+    display: flex;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__header-item {
+    text-align: center;
+}
 
 /* END OF TEAM */
