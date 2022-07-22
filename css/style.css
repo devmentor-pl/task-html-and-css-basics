@@ -156,6 +156,10 @@ body {
     display: flex;
 }
 
+.simple-section__text {
+   
+}
+
 /* END OF SIMPLE-SECTION  */
 
 
@@ -164,7 +168,7 @@ body {
 /* PRICING */
 
 .pricing-background {
-    background-color: #b8bdbd;
+    background-color: #eef3f3;
 
 }
 
@@ -200,11 +204,15 @@ body {
     flex-direction: column;
 }
 
-.team__info {
+.team__members {
     display: flex;
     min-height: 400px;
     justify-content: center;
     align-items: center;
+}
+
+.team__member {
+    text-align: center;
 }
 
 .team__header-item {
