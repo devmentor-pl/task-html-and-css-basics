@@ -249,6 +249,7 @@ body {
 
 .team__member {
     text-align: center;
+    margin: 30px;
 }
 
 .team__member-social {
