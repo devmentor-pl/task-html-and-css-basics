@@ -117,6 +117,13 @@ body {
 .features__header {
     color: white;
     text-align: center;
+
+}
+
+.features__header-item {
+    font-size: 30px;
+    font-weight: 300;
+
 }
 
 .feature {
@@ -156,9 +163,7 @@ body {
     display: flex;
 }
 
-.simple-section__text {
-   
-}
+.simple-section__text {}
 
 /* END OF SIMPLE-SECTION  */
 
@@ -190,6 +195,14 @@ body {
 
 .pricing__header-item {
     text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.pricing__subheader-item {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 /* END OF PRICING */
@@ -215,8 +228,15 @@ body {
     text-align: center;
 }
 
+.team__member-social {
+    color: #464646;
+}
+
 .team__header-item {
     text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+
 }
 
 /* END OF TEAM */
