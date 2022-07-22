@@ -150,12 +150,14 @@ body {
 
 .logos-section-background {
     background-color: #F9FAFA;
-
+    
 }
 
 .logos-section__container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 70px;
 }
 
 /* END OF LOGOS-SECTION  */
