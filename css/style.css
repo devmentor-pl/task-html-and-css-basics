@@ -1,4 +1,4 @@
-.green {
+/* .green {
     border: 5px solid green;
 }
 
@@ -8,7 +8,7 @@
 
 .orange {
     border: 5px solid orange;
-}
+} */
 
 html,
 body {
@@ -172,17 +172,19 @@ body {
 .simple-section__header {
     font-size: 30px;
     font-weight: 300;
-    margin-left: 100px;
     margin-top: 100px;
     margin-bottom: 60px;
 }
 
 .simple-section__info {
     max-width: 400px;
-    margin-left: 100px;
+    line-height: 40px;
 }
 
-.simple-section__text {}
+.simple-section__image {
+    transform: scale(0.8, 0.8);
+
+}
 
 /* END OF SIMPLE-SECTION  */
 
