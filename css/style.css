@@ -16,6 +16,7 @@ body {
     padding: 0;
 
     font-family: 'Montserrat', sans-serif;
+    color: #333333;
 }
 
 .nav__container {
@@ -212,7 +213,7 @@ body {
 .pricing__info {
     display: flex;
     min-height: 400px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -228,6 +229,35 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 300;
+}
+
+.plan {
+    display: flex;
+    flex-basis: 31%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plan__name {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.plan__price {
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.plan__per-month {
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .plan__button {
@@ -246,6 +276,10 @@ body {
     background-color: #36c7ef;
     border-radius: 12px;
     box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+.plan__features {
+    list-style: none;
 }
 
 
