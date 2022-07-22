@@ -252,6 +252,10 @@ body {
     margin: 30px;
 }
 
+.team__member-position {
+    font-weight: 300;
+}
+
 .team__member-social {
     color: #464646;
 }
@@ -260,6 +264,7 @@ body {
     text-align: center;
     font-size: 30px;
     font-weight: 300;
+    margin-top: 50px;
 
 }
 
