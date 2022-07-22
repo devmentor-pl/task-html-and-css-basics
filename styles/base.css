@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.row,
+.footer{
+    width: 100%;
+    /* outline: 3px solid green; */
+
+    padding: 0 60px;
+}
+
+.container {
+    max-width: 1150px;
+    /* outline: 3px solid blue; */
+    padding: 10px 0;
+    display: flex;
+    margin-top: 20px;
+    /* justify-content: space-between; */
+}
+.container:first-child {
+    margin: 0;
+}
+.cell{
+    /* outline: 3px solid orange; */
+    padding: 0 40px;
+    
+}
