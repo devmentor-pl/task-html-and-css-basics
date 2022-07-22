@@ -25,13 +25,6 @@ body {
     justify-content: space-between;
 }
 
-/* .container {
-    margin: 0 auto;
-    max-width: 1150px;
-    display: flex;
-    justify-content: space-between;
-} */
-
 .nav-hero-background {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
@@ -149,11 +142,6 @@ body {
     justify-content: center;
 }
 
-.logos-section {
-    /* background-color: #F9FAFA;     */
-    background-color: #58D5F7;
-}
-
 
 /* PRICING */
 
@@ -206,3 +194,21 @@ body {
 }
 
 /* END OF TEAM */
+
+
+/* FOOTER */
+
+.footer-background {
+    background-color: #464646;
+}
+
+.footer__text {
+    color: white;
+}
+
+.footer__container {
+    text-align: center;
+    min-height: 50px;
+}
+
+/* END OF FOOTER */
