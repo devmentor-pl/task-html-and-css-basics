@@ -89,6 +89,10 @@ body {
     color: white;
 }
 
+.hero__header {
+    margin-top: 100px;
+}
+
 .hero__image {
     transform: rotate(-8deg) scale(0.7, 0.7);
 }
