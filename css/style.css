@@ -288,6 +288,11 @@ body {
 
 .plan__features {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 0px;
+    
 }
 
 
