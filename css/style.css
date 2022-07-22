@@ -132,6 +132,10 @@ body {
 
 /* END OF FEATURE  */
 
+
+
+/* LOGOS-SECTION  */
+
 .logos-section-background {
     background-color: #b8bdbd;
 
@@ -141,6 +145,20 @@ body {
     display: flex;
     justify-content: center;
 }
+
+/* END OF LOGOS-SECTION  */
+
+
+
+/* SIMPLE-SECTION  */
+
+.simple-section__container {
+    display: flex;
+}
+
+/* END OF SIMPLE-SECTION  */
+
+
 
 
 /* PRICING */
