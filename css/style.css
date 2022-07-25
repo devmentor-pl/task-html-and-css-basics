@@ -149,13 +149,14 @@ body {
 
 .feature__image-background {
     background-color: white;
-    border-radius: 50%;
-    border-radius: 50%;
-    height: 5.625em;
-    width: 5.625em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+        border-radius: 50%;
+        border-radius: 50%;
+        height: 5.625em;
+        width: 5.625em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
 }
 
 /* END OF FEATURE  */
