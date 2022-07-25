@@ -125,7 +125,7 @@ body {
 .features__info {
     display: flex;
     min-height: 400px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -146,6 +146,7 @@ body {
     color: white;
     text-align: center;
     flex-basis: 33.333%;
+    max-width: 200px;
 }
 
 .feature__image-background {
