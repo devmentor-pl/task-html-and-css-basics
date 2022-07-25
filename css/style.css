@@ -1,20 +1,9 @@
-/* .green {
-    border: 5px solid green;
-}
-
-.blue {
-    border: 5px solid blue;
-}
-
-.orange {
-    border: 5px solid orange;
-} */
+/* COMMON */
 
 html,
 body {
     margin: 0;
     padding: 0;
-
     font-family: 'Montserrat', sans-serif;
     color: #333333;
 }
@@ -101,7 +90,6 @@ body {
 
 .hero__image-item {
     border-radius: 35px;
-
 }
 
 /* END OF HERO */
@@ -138,7 +126,6 @@ body {
     font-size: 30px;
     font-weight: 300;
     margin-top: 50px;
-
 }
 
 .feature {
@@ -204,21 +191,15 @@ body {
 
 .simple-section__image {
     transform: scale(0.8, 0.8);
-
 }
 
-.simple-section__text {}
-
 /* END OF SIMPLE-SECTION  */
-
-
 
 
 /* PRICING */
 
 .pricing-background {
     background-color: #F9FAFA;
-
 }
 
 .pricing__container {
@@ -243,7 +224,6 @@ body {
     font-size: 30px;
     font-weight: 300;
     margin-top: 50px;
-
 }
 
 .pricing__subheader-item {
@@ -313,7 +293,6 @@ body {
     flex-direction: column;
     align-items: center;
     padding-inline-start: 0px;
-
 }
 
 
