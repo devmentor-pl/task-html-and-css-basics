@@ -145,6 +145,7 @@ body {
 .feature {
     color: white;
     text-align: center;
+    flex-basis: 33.333%;
 }
 
 .feature__image-background {
