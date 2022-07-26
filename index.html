@@ -4,115 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nova template</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/header.css">
-
+    <link rel="stylesheet" href="./styles/features.css">
+    <link rel="stylesheet" href="./styles/tools.css">
+    <link rel="stylesheet" href="./styles/usage.css">
+    <link rel="stylesheet" href="./styles/pricing.css">
+    <link rel="stylesheet" href="./styles/team.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
     <header class="header row">
         <div class="header__container container">
             <h1 class="header__logo cell">
-                <a href="">
-                    <img 
-                    src="./images/logo.svg"
-                    alt="logo"
-                    width="60px"
-                    height="50px">
+                <a href="#">
+                    <img src="./images/logo.svg"
+                         alt="logo"
+                         class="logo">
                 </a>
             </h1>
             <nav class="header__nav cell">
                 <ul class="nav">
-                    <li class="nav__item">The Team</li>
-                    <li class="nav__item">Pricing</li>
-                    <li class="nav__item">Features</li>
+                    <li><a href="#" class="nav__item">The Team</a></li>
+                    <li><a href="#" class="nav__item">Pricing</a></li>
+                    <li><a href="#" class="nav__item">Features</a></li>
                 </ul>
             </nav>
         </div>
         <div class="add__container container">
             <div class="add cell">
-                <h2 class="add__header">Beautiful Free Nova<br>template</h2>
+                <h2 class="add__header">Beautiful Free Nova template</h2>
                 <p class="add__description">A top notch premium quality<br>template for your next web<br>project.</p>
-                <button class="add__button">Download FREE!</button>
+                <button class="add__button button">Download FREE!</button>
             </div>  
-            <div class="cell">
+            <div class="image__cell cell">
                 <img class="add__image"
                     src="./images/screen.png"
                     alt="screen"
-                    width="350px"
-                    >
+                    width="350px">
             </div>
         </div>
     </header>
     <main>
-        <section class="content row">
+        <section class="features__content row">
             <div class="headline__container container">
                 <h3 class="headline cell">features</h3>
             </div>
             <div class="features__container container">
                 <div class="feature cell">
-                    <img class="feature__logo">
-                    <h3 class="feature__headline">fully responsive</h3>
-                    <p class="feature__description">looks amazing on any device: smartphone, tablet, laptop and desctop.</p>
+                    <img class="feature__logo"
+                    src="./images/responsive.svg"
+                    alt="responsiveicon">
+                    <h3 class="feature__headline headline">fully responsive</h3>
+                    <p class="feature__description description">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
                 </div>
                 <div class="feature cell">
-                    <img class="feature__logo">
-                    <h3 class="feature__headline">customizable</h3>
-                    <p class="feature__description">change the colors, pictures or any of the sections to suit your needs.</p>
+                    <img class="feature__logo"
+                    src="./images/customizable.svg"
+                    alt="toolsicon">
+                    <h3 class="feature__headline headline">customizable</h3>
+                    <p class="feature__description description">Change the colors, pictures or any of the sections to suit your needs.</p>
                 </div>
                 <div class="feature cell">
-                    <img class="feature__logo">
-                    <h3 class="feature__headline">slick and beautifyl design</h3>
-                    <p class="feature__description">trendy and fresh design, fits any website.</p>
+                    <img class="feature__logo"
+                    src="./images/design.svg"
+                    alt="designicon">
+                    <h3 class="feature__headline headline">slick and beautiful design</h3>
+                    <p class="feature__description description">Trendy and fresh design, fits any website.</p>
                 </div>
             </div>
         </section>
-        <section class="content row">
+        <section class="tools__content row">
             <div class="tools__container container">
-                <img class="tools__logo">
+                <img class="tools__logo"
+                src="./images/logos.png"
+                alt="tools"
+                width="460px" >
             </div>
         </section>
-        <section class="content row">
-            <div class="container">
-                <div class="cell">
-                    <img>
-                </div>
-                <div class="cell">
-                    <h2>simple and beautiful</h2>
-                    <p>Use Nova theme for your next web project: it is completely customizable so you can change any of the sections to fit your needs. Nowa Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</p>
-                </div>
+        <section class="usage__container clearfix row">
+            <div class="usage__image">
+                <img class="image"
+                src="./images/imac.png"
+                alt="imac"
+                >
+            </div>
+            <div class="usage__content">
+                <h2 class="usage__headline">simple and beautiful</h2>
+                <p class="usage__description">Use Nova theme for your next web project: it is completely customizable so you can change any of the sections to fit your needs. Nowa Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</p>
             </div>
         </section>
-        <section class="content row">
+        <section class="pricing__content row">
             <div class="headline__container container">
-                <h3 class="headline cell">choose your pricing plan</h3>
-                <p class="headline__description cell">Pick any of our super affortable pricing plans</p>
+                <h3 class="headline cell ">choose your pricing plan</h3>
+                <p class="description cell">Pick any of our super affortable pricing plans</p>
             </div>
             <div class="pricing__container container">
                 <div class="pricing__option cell">
-                    <h4 class="conent__headline">basic</h4>
+                    <h4 class="pricing__headline headline">basic</h4>
                     <p class="price">$15</p>
-                    <p>per month</p>
-                    <p class="pricing__specs">Up to 7 projects 2 additional deveopers</p>
-                    <button>Get started</button>
+                    <p class="sub-time">per month</p>
+                    <p class="pricing__specs">Up to 7 Projects<br>2 Additional Deveopers</p>
+                    <div class="button-wrapper">
+                        <button class="pricing__button button">Get started</button>
+                    </div>
                 </div>
                 <div class="pricing__option cell">
-                    <h4 class="conent__headline">agency</h4>
+                    <h4 class="pricing__headline headline">agency</h4>
                     <p class="price">$55</p>
-                    <p>per month</p>
-                    <p class="pricing__specs">Up to 25 projects 2 additional developers unimited support</p>
-                    <button>Get started</button>
+                    <p class="sub-time">per month</p>
+                    <p class="pricing__specs">Up to 25 Projects<br>2 Additional Developers<br>Unimited Support</p>
+                    <div class="button-wrapper">
+                        <button class="pricing__button button">Get started</button>
+                    </div>
                 </div>
                 <div class="pricing__option cell">
-                    <h4 class="conent__headline">pro</h4>
+                    <h4 class="pricing__headline headline">pro</h4>
                     <p class="price">$75</p>
-                    <p>per month</p>
-                    <p class="pricing__specs">Up to 25 projects 2 additional deveopers unlimited support 1.5GB disck space</p>
-                    <button>Get started</button>
+                    <p class="sub-time">per month</p>
+                    <p class="pricing__specs">Up to 25 Projects<br>2 Additional Deveopers<br>Unlimited Support<br>1.5GB Disk Space</p>
+                    <div class="button-wrapper">
+                        <button class="pricing__button button">Get started</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -120,42 +138,53 @@
             <div class="headline__container container">
                 <h3 class="headline cell">the team</h3>
             </div>
-            <div class="container">
-                <div class="cell">
-                    <img class="team__logo">
-                    <h4 class="conent__headline">cto</h4>
-                    <p class="team__member">Johnny B Good</p>
-                    <p class="member__description">The brains behind the whole operation</p>
-                    <ul>
-                        <li><a href="#" class=""></a></li>
-                        <li><a href="#" class=""></a></li>
-                    </ul>
-                </div>
-                <div class="cell">
-                    <img class="team__logo">
-                    <h4 class="conent__headline">ceo</h4>
-                    <p class="team__member">Roll Over Beethoven </p>
-                    <p class="member__description">The one that puts it all together</p>
-                    <ul>
-                        <li><a href="#" class=""></a></li>
-                        <li><a href="#" class=""></a></li>
-                    </ul>
-                </div>
-                <div class="cell">
-                    <img class="team__logo">
-                    <h4 class="conent__headline">cfo</h4>
-                    <p class="team__member">Chuck Berry</p>
-                    <p class="member__description">The guy with his hand on the wallet</p>
-                    <ul>
-                        <li><a href="#" class=""></a></li>
-                        <li><a href="#" class=""></a></li>
-                    </ul>
+            <div class="team__content row">
+                <div class="team__container container">
+                    <div class="team__member cell">
+                        <img class="team__logo"
+                        src="./images/cto.png" 
+                        width="80px"
+                        alt="CTO">
+                        <h4 class="member__headline headline">cto</h4>
+                        <p class="member__name">Johnny B Good</p>
+                        <p class="member__description">The brains behind the whole operation</p>
+                        <ul class="icons__socialmedia">
+                            <li class="icon"><a href="#"><img src="./images/team-twitter.svg" class="icon__twitter"></a></li>
+                            <li class="icon"><a href="#"><img src="./images/team-facebook.svg" class="icon__fb"></a></li>
+                        </ul>
+                    </div>
+                    <div class="team__member cell">
+                        <img class="team__logo"
+                        src="./images/ceo.png" 
+                        width="80px"
+                        alt="CEO">
+                        <h4 class="member__headline headline">ceo</h4>
+                        <p class="member__name">Roll Over Beethoven</p>
+                        <p class="member__description">The one that puts it all together</p>
+                        <ul class="icons__socialmedia">
+                            <li class="icon"><a href="#"><img src="./images/team-twitter.svg" class="icon__twitter"></a></li>
+                            <li class="icon"><a href="#"><img src="./images/team-facebook.svg" class="icon__fb"></a></li>
+                        </ul>
+                    </div>
+                    <div class="team__member cell">
+                        <img class="team__logo"
+                        src="./images/cfo.png" 
+                        width="80px"
+                        alt="CFO">
+                        <h4 class="member__headline headline">cfo</h4>
+                        <p class="member__name">Chuck Berry</p>
+                        <p class="member__description">The guy with his hand on the wallet</p>
+                        <ul class="icons__socialmedia">
+                            <li class="icon"><a href="#"><img src="./images/team-twitter.svg" class="icon__twitter"></a></li>
+                            <li class="icon"><a href="#"><img src="./images/team-facebook.svg" class="icon__fb"></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     <footer class="footer">
-        A free template by <img class="footer__image">
+        <span class="footer__content">A free template by</span><img class="footer__image" src="./images/webscope.svg" width="55px">
     </footer>
 </body>
 </html>
