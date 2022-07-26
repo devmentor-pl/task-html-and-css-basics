@@ -1,0 +1,7 @@
+.tools__content{
+    padding: 20px;
+    background-color: var(--color-epsilon);
+}
+.tools__container{
+    justify-content: center;
+}
