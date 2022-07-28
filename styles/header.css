@@ -3,7 +3,7 @@
     padding: 0 80px 110px;
     color: var(--color-alfa);
 }
-.add__image{
+.image{
     border: 15px solid var(--color-alfa);
     background: var(--color-alfa);
     border-radius: 6%;
@@ -61,7 +61,7 @@
         justify-content: center;
         padding: 60px 0;
     }
-    .add__image{
+    .image{
         width: 500px
     }
   
