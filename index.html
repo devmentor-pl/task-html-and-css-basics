@@ -36,50 +36,53 @@
                 </ul>
             </nav>
         </div>
-        <div class="add__container container">
-            <div class="add cell">
+        <article class="add container">
+            <div class="add__section cell">
                 <h2 class="add__header">Beautiful Free Nova template</h2>
                 <p class="add__description">A top notch premium quality<br>template for your next web<br>project.</p>
                 <button class="add__button button">Download FREE!</button>
             </div>  
-            <div class="image__cell cell">
-                <img class="add__image"
+            <div class="imageWrapper cell">
+                <!-- shoul be image -->
+                <img class="add__image" 
                     src="./images/screen.png"
                     alt="screen"
                     width="350px">
             </div>
-        </div>
+        </article>
     </header>
     <main>
-        <section class="features__content row">
-            <div class="headline__container container">
+        <header class="features row">
+            <div class="features__container container">
                 <h3 class="headline cell">features</h3>
             </div>
-            <div class="features__container container">
-                <div class="feature cell">
-                    <img class="feature__logo"
-                    src="./images/responsive.svg"
-                    alt="responsiveicon">
-                    <h3 class="feature__headline headline">fully responsive</h3>
-                    <p class="feature__description description">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
-                </div>
-                <div class="feature cell">
-                    <img class="feature__logo"
-                    src="./images/customizable.svg"
-                    alt="toolsicon">
-                    <h3 class="feature__headline headline">customizable</h3>
-                    <p class="feature__description description">Change the colors, pictures or any of the sections to suit your needs.</p>
-                </div>
-                <div class="feature cell">
-                    <img class="feature__logo"
-                    src="./images/design.svg"
-                    alt="designicon">
-                    <h3 class="feature__headline headline">slick and beautiful design</h3>
-                    <p class="feature__description description">Trendy and fresh design, fits any website.</p>
-                </div>
+            <div class="features__wrapper">
+                <ul class="features__container container">
+                    <li class="features__cell cell">
+                        <img class="features__logo"
+                        src="./images/responsive.svg"
+                        alt="responsiveicon">
+                        <h3 class="features__headline headline">fully responsive</h3>
+                        <p class="features__description description">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
+                    </li>
+                    <li class="features__cell cell">
+                        <img class="features__logo"
+                        src="./images/customizable.svg"
+                        alt="toolsicon">
+                        <h3 class="features__headline headline">customizable</h3>
+                        <p class="features__description description">Change the colors, pictures or any of the sections to suit your needs.</p>
+                    </li>
+                    <li class="features__cell cell">
+                        <img class="features__logo"
+                        src="./images/design.svg"
+                        alt="designicon">
+                        <h3 class="features__headline headline">slick and beautiful design</h3>
+                        <p class="features__description description">Trendy and fresh design, fits any website.</p>
+                    </li>
+                </ul>
             </div>
-        </section>
-        <section class="tools__content row">
+        </header>
+        <section class="tools row">
             <div class="tools__container container">
                 <img class="tools__logo"
                 src="./images/logos.png"
@@ -88,59 +91,67 @@
             </div>
         </section>
         <section class="usage__container clearfix row">
-            <div class="usage__image">
+            <article class="usage__image">
                 <img class="image"
                 src="./images/imac.png"
                 alt="imac"
                 >
-            </div>
-            <div class="usage__content">
+            </article>
+            <article class="usage">
                 <h2 class="usage__headline">simple and beautiful</h2>
                 <p class="usage__description">Use Nova theme for your next web project: it is completely customizable so you can change any of the sections to fit your needs. Nowa Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</p>
-            </div>
+            </article>
         </section>
-        <section class="pricing__content row">
-            <div class="headline__container container">
+        <section class="pricing row">
+            <div class="pricing__headline container">
                 <h3 class="headline cell ">choose your pricing plan</h3>
                 <p class="description cell">Pick any of our super affortable pricing plans</p>
             </div>
-            <div class="pricing__container container">
-                <div class="pricing__option cell">
-                    <h4 class="pricing__headline headline">basic</h4>
-                    <p class="price">$15</p>
-                    <p class="sub-time">per month</p>
-                    <p class="pricing__specs">Up to 7 Projects<br>2 Additional Deveopers</p>
-                    <div class="button-wrapper">
-                        <button class="pricing__button button">Get started</button>
-                    </div>
-                </div>
-                <div class="pricing__option cell">
-                    <h4 class="pricing__headline headline">agency</h4>
-                    <p class="price">$55</p>
-                    <p class="sub-time">per month</p>
-                    <p class="pricing__specs">Up to 25 Projects<br>2 Additional Developers<br>Unimited Support</p>
-                    <div class="button-wrapper">
-                        <button class="pricing__button button">Get started</button>
-                    </div>
-                </div>
-                <div class="pricing__option cell">
-                    <h4 class="pricing__headline headline">pro</h4>
-                    <p class="price">$75</p>
-                    <p class="sub-time">per month</p>
-                    <p class="pricing__specs">Up to 25 Projects<br>2 Additional Deveopers<br>Unlimited Support<br>1.5GB Disk Space</p>
-                    <div class="button-wrapper">
-                        <button class="pricing__button button">Get started</button>
-                    </div>
-                </div>
+            <div class="pricing__wrapper">
+                <ul class="pricing__container container">
+                    <li class="pricing__option cell">
+                        <ul>
+                            <li><h4 class="pricing__headline headline">basic</h4></li>
+                            <li><p class="price">$15</p></li>
+                            <li><p class="sub-time">per month</p></li>
+                            <li><p class="pricing__specs">Up to 7 Projects<br>2 Additional Deveopers</p></li>
+                        </ul>
+                        <footer class="button-wrapper">
+                            <button class="pricing__button button">Get started</button>
+                        </footer>
+                    </li>
+                    <li class="pricing__option cell">
+                        <ul>
+                            <li><h4 class="pricing__headline headline">agency</h4></li>
+                            <li><p class="price">$55</p></li>
+                            <li><p class="sub-time">per month</p></li>
+                            <li><p class="pricing__specs">Up to 25 Projects<br>2 Additional Developers<br>Unimited Support</p></li>
+                        </ul>
+                        <footer class="button-wrapper">
+                            <button class="pricing__button button">Get started</button>
+                        </footer>
+                    </li>
+                    <li class="pricing__option cell">
+                        <ul>
+                            <li><h4 class="pricing__headline headline">pr</h4></li>
+                            <li><p class="price">$75</p></li>
+                            <li><p class="sub-time">per month</p></li>
+                            <li><p class="pricing__specs">Up to 25 Projects<br>2 Additional Deveopers<br>Unlimited Support<br>1.5GB Disk Space</p></li>
+                        </ul>
+                        <footer class="button-wrapper">
+                            <button class="pricing__button button">Get started</button>
+                        </footer>
+                    </li>
+                </ul>
             </div>
         </section>
-        <section class="content row">
-            <div class="headline__container container">
+        <section class="team row">
+            <div class="team__headline container">
                 <h3 class="headline cell">the team</h3>
             </div>
-            <div class="team__content row">
-                <div class="team__container container">
-                    <div class="team__member cell">
+            <div class="team__section row">
+                <ul class="team__container container">
+                    <li class="team__member cell">
                         <img class="team__logo"
                         src="./images/cto.png" 
                         width="80px"
@@ -148,12 +159,12 @@
                         <h4 class="member__headline headline">cto</h4>
                         <p class="member__name">Johnny B Good</p>
                         <p class="member__description">The brains behind the whole operation</p>
-                        <ul class="icons__socialmedia">
+                        <ul class="icons__container">
                             <li class="icon"><a href="#"><img src="./images/team-twitter.svg" class="icon__twitter"></a></li>
                             <li class="icon"><a href="#"><img src="./images/team-facebook.svg" class="icon__fb"></a></li>
                         </ul>
-                    </div>
-                    <div class="team__member cell">
+                    </li>
+                    <li class="team__member cell">
                         <img class="team__logo"
                         src="./images/ceo.png" 
                         width="80px"
@@ -161,12 +172,12 @@
                         <h4 class="member__headline headline">ceo</h4>
                         <p class="member__name">Roll Over Beethoven</p>
                         <p class="member__description">The one that puts it all together</p>
-                        <ul class="icons__socialmedia">
+                        <ul class="icons__container">
                             <li class="icon"><a href="#"><img src="./images/team-twitter.svg" class="icon__twitter"></a></li>
                             <li class="icon"><a href="#"><img src="./images/team-facebook.svg" class="icon__fb"></a></li>
                         </ul>
-                    </div>
-                    <div class="team__member cell">
+                    </li>
+                    <li class="team__member cell">
                         <img class="team__logo"
                         src="./images/cfo.png" 
                         width="80px"
@@ -174,12 +185,12 @@
                         <h4 class="member__headline headline">cfo</h4>
                         <p class="member__name">Chuck Berry</p>
                         <p class="member__description">The guy with his hand on the wallet</p>
-                        <ul class="icons__socialmedia">
+                        <ul class="icons__container">
                             <li class="icon"><a href="#"><img src="./images/team-twitter.svg" class="icon__twitter"></a></li>
                             <li class="icon"><a href="#"><img src="./images/team-facebook.svg" class="icon__fb"></a></li>
                         </ul>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>

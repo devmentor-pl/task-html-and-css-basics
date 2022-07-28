@@ -1,7 +1,12 @@
-.pricing__content{
+.pricing{
     background-color: #F8F9F9;
 }
-.pricing__content .headline__container{
+.pricing__headline{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing .features__container{
     flex-direction: column;
     align-items: center;
 }
@@ -45,7 +50,7 @@
         flex-direction: column;
     }
     .pricing__option,
-    .headline__container{
+    .features__container{
         font-size: 1.2em;
         text-align: center;
     }

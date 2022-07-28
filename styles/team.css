@@ -1,6 +1,9 @@
 .team__container{
     justify-content: center;
 }
+.team__headline .headline{
+    margin: 0 auto;
+}
 .team__member{
     margin: 10px 0;
     display: flex;
@@ -24,7 +27,7 @@
     font-weight: 100;
     padding: 0 10px 5px;
 }
-.icons__socialmedia{
+.icons__container{
     display: flex;
 }
 .icon{

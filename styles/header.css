@@ -10,7 +10,7 @@
     transform: rotate(-8deg); 
     margin-left: 50px;
 }
-.add {
+.add__section{
     display: flex;
     flex-direction: column;
     padding: 30px 30px 30px 60px
@@ -47,7 +47,7 @@
     text-decoration: none ;
     color: var(--color-alfa); 
 }
-.image__cell{
+.imageWrapper{
     padding-left: 0;
 }
 @media screen and (min-width: 1200px) {
@@ -57,7 +57,7 @@
     .logo{
         margin-left: 0;
     }
-    .add__container{
+    .add{
         justify-content: center;
         padding: 60px 0;
     }
@@ -65,7 +65,7 @@
         width: 500px
     }
   
-    .add{
+    .add__section{
         font-size: 1.5em;
     }
 
@@ -92,10 +92,10 @@
     }
   }
   @media screen and (max-width: 770px) {
-    .image__cell{
+    .imageWrapper{
         display: none;   
     }
-    .add{
+    .add__section{
         text-align: center;
         margin: 0 auto;
     }
