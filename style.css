@@ -5,6 +5,8 @@ body {
 .container {
   min-width: 960px;
   margin: 0 auto;
+  box-sizing: border-box;
+  justify-content: center;
 }
 .gradient {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -16,41 +18,40 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding-left: 20px;
-  padding-right: 60px;
 }
 .nav-main--logo {
-  margin-left: 30px;
   margin-top: 20px;
 }
-a {
-  text-decoration: none;
-  color: white;
-  font-size: large;
-}
+
 .nav-main--links {
   display: flex;
   justify-content: space-between;
   align-items: center;
   align-self: center;
   width: 25%;
-  padding-left: 7px;
+}
+.nav-main--li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
 }
 
 /*HERO*/
 .hero {
   display: flex;
   height: 80vh;
+  justify-content: center;
 }
 .hero-text {
   margin-top: 80px;
-  margin-left: 40px;
   color: white;
   font-weight: 500;
   font-size: 18px;
-  text-align: justify;
 }
-h1 {
+.hero-subtitle {
   font-weight: 800;
   font-size: xx-large;
   padding-bottom: 20px;
@@ -67,7 +68,7 @@ h1 {
   font-weight: 500;
   border: rgb(74, 238, 33);
 }
-.hero-picture--img {
+.hero-picture_img {
   background-color: white;
   width: 410px;
   border: solid 15px white;
@@ -114,7 +115,7 @@ h1 {
   padding-right: 20px;
   position: relative;
 }
-h4 {
+.features-subtitle {
   text-transform: uppercase;
   text-align: center;
   margin-top: 80px;
@@ -157,7 +158,9 @@ h4 {
   padding-bottom: 140px;
   text-align: justify;
 }
-
+.features-description-h3 {
+  padding-bottom: 15px;
+}
 /*PRICING*/
 .pricing {
   height: 320px;
@@ -165,38 +168,53 @@ h4 {
 .pricing-header {
   width: auto;
   text-align: center;
+  padding-bottom: 30px;
+}
+.pricing-header-h3 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .boxes-pricing {
   display: flex;
   justify-content: center;
+  text-align: center;
   gap: 30px;
 }
 .boxes-pricing--first,
 .boxes-pricing--second,
-.boxes-pricing--trird {
+.boxes-pricing--third {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 199px;
+  width: 210px;
 }
-
 .boxes-pricing--first:hover,
 .boxes-pricing--second:hover,
-.boxes-pricing--trird:hover {
+.boxes-pricing--third:hover {
   background-color: rgb(243, 224, 224);
 }
 .price-type {
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 .price-USD {
   font-weight: bold;
-  margin: -3%;
+  padding-bottom: 10px;
+}
+.price-description {
+  padding-top: 15px;
 }
 .btn {
-  align-items: baseline;
+  display: flex;
+  width: 100px;
+  height: 50px;
+  position: relative;
 }
 .pricing-btn {
+  position: absolute;
+  top: 20px;
+  right: 15%;
   width: 90px;
   height: 30px;
   border-radius: 12px;
@@ -234,17 +252,22 @@ h4 {
   border-radius: 50%;
   display: flex;
   position: absolute;
-  top: -10%;
+  top: -30%;
   left: 35%;
   margin: 12px 0 0 -12px;
 }
 .job-title {
-  padding-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 15px;
   font-weight: 200px;
   font-size: 12px;
 }
 .names {
   font-weight: bold;
+  padding-bottom: 15px;
+}
+.social-media {
+  padding-top: 20px;
 }
 
 /*FOOTER*/
