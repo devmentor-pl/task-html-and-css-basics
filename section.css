@@ -1,0 +1,76 @@
+/* features */
+.features {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+}
+
+.features__container > h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.features__container:nth-child(2n) {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features__one > img,
+.features__two > img,
+.features__three > img {
+    background-color: white;
+}
+
+
+h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 10px;
+} 
+
+h3 + p {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* logos */
+.logos__container > img {
+    display: block;
+    margin: 0 auto;
+} 
+
+/* details */
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .details__pic > img {
+    
+} */
+
+.details__article > h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.details__article > p {
+    font-size: 10px;
+}
+
+/* offer */
+
+/* people */
+

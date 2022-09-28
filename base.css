@@ -1,0 +1,16 @@
+.row {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.container {
+    max-width: 1150px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.header__pic > img {
+    width: 75%;
+    transform: rotate(-6deg);
+}
+
