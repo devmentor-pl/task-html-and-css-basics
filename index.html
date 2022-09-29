@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,16 +16,17 @@
     <link rel="stylesheet" href="./section.css">
     <link rel="stylesheet" href="./footer.css">
 </head>
+
 <body>
-    
+
     <header class="header row">
         <div class="header__container container">
             <div class="header__logo cell"><img src="./images/logo.svg" alt="logo"></div>
             <nav class="header__nav cell">
                 <ul class="nav">
-                    <li class="nav__item">The Team</li>
-                    <li class="nav__item">Pricing</li>
-                    <li class="nav__item">Features</li>
+                    <li class="nav__item nav__item--active"><a href="#">The Team</a></li>
+                    <li class="nav__item nav__item--active"><a href="#">Pricing</a></li>
+                    <li class="nav__item nav__item--active"><a href="#">Features</a></li>
                 </ul>
             </nav>
         </div>
@@ -46,16 +48,23 @@
         </div>
         <div class="features__container container">
             <div class="features__one cell">
-                <img src="./images/responsive.svg" alt="responsive">
+                <div class="svg-picture">
+                    <img src="./images/responsive.svg">
+                </div>
                 <h3>fully responsive</h3>
                 <p>Looks amazing on any device: smartphone, tablet, laptop and desktop</p>
             </div>
             <div class="features__two cell">
-                <img src="./images/customizable.svg" alt="customizable">
+                <div class="svg-picture">
+                    <img src="./images/customizable.svg">
+                </div>
                 <h3>customizable</h3>
-                <p>Change colors, pictures or any of the sections to suit your needs</p></div>
+                <p>Change colors, pictures or any of the sections to suit your needs</p>
+            </div>
             <div class="features__three cell">
-                <img src="./images/design.svg" alt="design">
+                <div class="svg-picture">
+                    <img src="./images/design.svg">
+                </div>
                 <h3>slick and beautiful design</h3>
                 <p>Trendy and fresh design, fits any website</p>
             </div>
@@ -74,7 +83,9 @@
         </div>
         <article class="details__article cell">
             <h2>simple and beautiful</h2>
-            <p>Use Nova theme for your next web project. It is<br>completely customizable so you can change any of<br> the sections to fit your needs. Nova Theme is Free for<br>any kind of use, personal and commercial. Have fun<br> and good luck!</p>
+            <p>Use Nova theme for your next web project. It is<br>completely customizable so you can change any of<br>
+                the sections to fit your needs. Nova Theme is Free for<br>any kind of use, personal and commercial. Have
+                fun<br> and good luck!</p>
         </article>
     </section>
 
@@ -84,26 +95,38 @@
             <p>Pick any of our super affordable pricing plans</p>
         </div>
         <div class="offer__container container">
-            <div class="offer__pricing cell">
+            <div class="offer__pricing offer__pricing--active cell">
                 <h3>basic</h3>
-                <p>$15</p>
-                <p>per month</p>
-                <p>Up to 7 Projects 2 Additional Developers</p>
+                <p class="offer__cost">$15</p>
+                <p class="offer__monthly">per month</p>
+                <ul class="offer__plan">
+                    <li>p to 7 Projects</li>
+                    <li>2 Additional Developers</li>
+                </ul>
                 <button type="button" class="button2">Get Started</button>
             </div>
-            <div class="offer__pricing cell">
+            <div class="offer__pricing offer__pricing--active cell">
                 <h3>agency</h3>
-                <p>$55</p>
-                <p>per month</p>
-                <p>Up to 25 Projects 2 Additional Developers Unlimited Support</p>
+                <p class="offer__cost">$55</p>
+                <p class="offer__monthly">per month</p>
+                <ul class="offer__plan">
+                    <li>Up to 25 Projects</li>
+                    <li>2 Additional Developers</li>
+                    <li>Unlimited Support</li>
+                </ul>
                 <button type="button" class="button2">Get Started</button>
             </div>
-            <div class="offer__pricing cell">
+            <div class="offer__pricing offer__pricing--active cell">
                 <h3>pro</h3>
-                <p>$75</p>
-                <p>per month</p>
-                <p>Up to 25 Projects 2 Additional Developers Unlimited Support 1.5GB Disk Space</p>
-                <button type="button" class="button3">Get Started</button>
+                <p class="offer__cost">$75</p>
+                <p class="offer__monthly">per month</p>
+                <ul class="offer__plan">
+                    <li>Up to 25 Projects</li>
+                    <li>2 Additional Developers</li>
+                    <li>Unlimited Support</li>
+                    <li>1.5GB Disk Space</li>
+                </ul>
+                <button type="button" class="button2">Get Started</button>
             </div>
         </div>
     </section>
@@ -116,8 +139,8 @@
             <div class="people__one cell">
                 <img src="./images/cto.png" alt="cto">
                 <h3>cto</h3>
-                <p>Johnny B Good</p>
-                <p>The brains behind the whole operation</p>
+                <p class="people__name">Johnny B Good</p>
+                <p class="people__description">The brains behind the whole operation</p>
                 <div class="socials">
                     <img src="./images/twitter.svg" alt="twitter">
                     <img src="./images/facebook.svg" alt="facebook">
@@ -126,8 +149,8 @@
             <div class="people__two cell">
                 <img src="./images/ceo.png" alt="ceo">
                 <h3>ceo</h3>
-                <p>Roll Over Beethoven</p>
-                <p>The one that puts it all together</p>
+                <p class="people__name">Roll Over Beethoven</p>
+                <p class="people__description">The one that puts it all together</p>
                 <div class="socials">
                     <img src="./images/twitter.svg" alt="twitter">
                     <img src="./images/facebook.svg" alt="facebook">
@@ -136,8 +159,8 @@
             <div class="people__three cell">
                 <img src="./images/cfo.png" alt="cfo">
                 <h3>cfo</h3>
-                <p>Chuck Berry</p>
-                <p>The guy with his hands on the wallet</p>
+                <p class="people__name">Chuck Berry</p>
+                <p class="people__description">The guy with his hands on the wallet</p>
                 <div class="socials">
                     <img src="./images/twitter.svg" alt="twitter">
                     <img src="./images/facebook.svg" alt="facebook">
@@ -151,4 +174,5 @@
     </footer>
 
 </body>
+
 </html>

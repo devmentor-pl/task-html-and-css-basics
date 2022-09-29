@@ -1,11 +1,12 @@
 /* footer */
 .footer {
-    background-color: rgb(107, 97, 97);}
-    
-.footer > p {
+    background-color: rgb(107, 97, 97);
+}
+
+.footer>p {
     color: white;
     text-align: center;
-    font-size: 8px;
+    font-size: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
