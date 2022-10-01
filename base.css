@@ -5,6 +5,5 @@
 
 .container {
     max-width: 1150px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 auto;
 }

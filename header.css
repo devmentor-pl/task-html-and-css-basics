@@ -4,11 +4,13 @@
     flex-direction: column;
     gap: 30px;
     justify-content: space-between;
+    height: 700px;
 }
 
 .header__container {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 /* menu */
@@ -76,16 +78,16 @@ h1+p {
     transition: .4s
 }
 
-.button1:hover { 
+.button1:hover {
     text-decoration: underline;
     border-radius: 20px;
     box-shadow: -5px 10px 45px -20px rgb(45 45 45);
     cursor: pointer;
 }
 
-.header__pic > img{
+.header__pic>img {
     background-color: white;
-    max-width: 500px; 
+    max-width: 500px;
     border: solid 15px white;
     border-radius: 12px;
     margin: 80px;

@@ -3,6 +3,7 @@
     background-color: black;
     display: flex;
     flex-direction: column;
+    align-content: center;
     min-height: 300px;
 }
 
@@ -19,11 +20,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    align-content: center;
-    gap: 20px;
+    gap: 60px;
     height: 250px;
-    margin-left: 180px;
-    margin-right: 180px;
+    width: 100%;
 }
 
 h3 {
@@ -63,7 +62,7 @@ h3+p {
     margin: 0 auto;
 }
 
-.svg-picture > img {
+.svg-picture>img {
     padding-top: 7px;
     padding-left: 4px;
 }
@@ -81,13 +80,13 @@ h3+p {
     gap: 60px;
     max-width: 1150px;
     padding-top: 40px;
-    margin: 140px;
+    margin: auto;
 }
 
-.details__pic > img {
+.details__pic>img {
     width: 475px;
     height: 400px;
-} 
+}
 
 .details__article {
     width: 475px;
@@ -104,13 +103,13 @@ h3+p {
 }
 
 .details__article>p {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 20px;
     text-align: left;
 }
 
 /* offer */
-.offer__container > h2 {
+.offer__container>h2 {
     color: black;
     text-transform: uppercase;
     font-size: 18px;
@@ -120,7 +119,7 @@ h3+p {
     margin-bottom: 20px;
 }
 
-h2 + p{
+h2+p {
     font-size: 14px;
     text-align: center;
 }
@@ -147,7 +146,7 @@ h2 + p{
     background-color: #F3F2F2;
 }
 
-.offer__pricing > h3 {
+.offer__pricing>h3 {
     color: black;
     margin-top: 35px;
     margin-bottom: 15px;
@@ -160,7 +159,7 @@ h2 + p{
     padding-top: 20px;
 }
 
-.offer__monthly{
+.offer__monthly {
     margin-top: 5px;
     margin-bottom: 25px;
     font-size: 12px;
@@ -193,6 +192,7 @@ h2 + p{
     box-shadow: -5px 10px 45px -20px rgb(45 45 45);
     cursor: pointer;
 }
+
 /* people */
 
 .people {
@@ -200,7 +200,7 @@ h2 + p{
     flex-direction: column;
 }
 
-.people__container > h2 {
+.people__container>h2 {
     color: black;
     text-transform: uppercase;
     font-size: 18px;
@@ -222,20 +222,20 @@ h2 + p{
 }
 
 .people__one,
-.people__two, 
+.people__two,
 .people__three {
     padding-top: 30px;
     height: 350px;
 }
 
-.people__one > img,
-.people__two > img, 
-.people__three > img {
+.people__one>img,
+.people__two>img,
+.people__three>img {
     margin-left: 15%;
     margin-right: 15%;
 }
 
-img + h3 {
+img+h3 {
     color: black;
     margin-top: 20px;
     margin-bottom: 15px;
@@ -252,7 +252,8 @@ img + h3 {
     font-size: 12px;
 }
 
-.socials > img {
+.socials>img {
     padding-top: 10px;
     padding-left: 40px;
+    filter: invert(0%) sepia(57%) saturate(0%) hue-rotate(270deg) brightness(81%) contrast(66%);
 }
