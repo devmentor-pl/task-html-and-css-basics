@@ -1,5 +1,6 @@
 **Webpage Demo**</br></br>
 This is my first webpage ever created.  
+It is a summary of my skills acquired after completing one of the units of my fronted developer course.  
 It is a project of webpage offering ready-made templates.    
 It consists of six parts: *a header, fours sections and a footer.*</br>
 
