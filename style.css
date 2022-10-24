@@ -1,6 +1,10 @@
 body {
-    background-color: #444;
+    background-color: #fff;
     margin: 0;
+}
+
+.container--header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .container--header .container {
@@ -9,29 +13,55 @@ body {
     align-items: center;
 }
 
-.container--main .orange {
+.container--main {
     min-height: 200px;
 }
+
+.header--logo {
+    background-image: url(./images/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 129px;
+    height: 38px;
+}
+
 
 .container {
     border: 3px solid blue;
     max-width: 1150px;
     margin: 0 auto;
-    padding: 5px 0;
+    padding: 15px;
 }
 
-.orange {
-    background-color: orange;
-    min-height: 50px;
-}
-
-.orange--logo {
-    width: 200px;
-}
-
-.orange--nav {
+.header--nav {
     width: 300px;
     height: 50px;
+}
+
+
+/*HERO*/
+
+.container--hero {
+    display: flex;
+}
+
+.hero__headline {
+    color: #fff;
+    flex-basis: 50%;
+    padding-right: 3.5rem;
+}
+
+.hero__picture {
+    flex-basis: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: 50%;
+    margin: 2rem;
+    border: 15px solid white;
+    border-radius: 20px;
+    transform: rotate(-10deg);
 }
 
 .container--main .container {
@@ -61,11 +91,6 @@ body {
     justify-content: center;
 }
 
-.fullwidth__container--section {
-    width: 100%;
-    display: flex;
-}
-
 .container__left {
     flex-basis: 50%;
 }
@@ -86,9 +111,31 @@ body {
     justify-content: center;
 }
 
+/*PRICE*/
+
+.price {
+    background-color: #f8f9f9;
+}
+
 .price__box, .member {
     text-align: center;
+    padding: 2rem 1rem;
 }
+
+.price__box--2 {
+    background: #fff;
+    box-shadow: 8px 8px 24px 0px rgba(220, 220, 220, 1);
+}
+
+.price__button {
+    background-color:#0abceb;
+    padding: .75rem 2.75rem;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+/*END PRICE*/
 
 .container--team .container {
     display: flex;
@@ -97,10 +144,62 @@ body {
 }
 
 
+
+/*FEATURES*/
+
+.container__features--section {
+    background-color: #000;
+    color: #fff;
+}
+
+.features__box {
+    width: 33%;
+    text-align: center;
+}
+
+.features__icon {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*END FEATURES*/
+
+
+/*IMAC*/
+
+.fullwidth__container--section {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3rem;
+}
+
+.imac {
+    width: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container__right {
+    flex-basis: 50%;
+}
+
+.container__left {
+    flex-basis: 50%;
+}
+
+
+/*FOOTER*/
+
 .fullwidth__footer--section {
     width: 100%;
     height: 40px;
-    background-color: black;
+    background-color: #464646;
     color: #fff;
     text-align: center;
     padding: 0.25rem;
