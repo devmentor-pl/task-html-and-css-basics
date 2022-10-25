@@ -9,6 +9,30 @@ h2 {
     font-size: 1.75rem;
 }
 
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+
+.container--section .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.container__center--section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*HEADER*/
+
 .container--header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
@@ -24,6 +48,15 @@ h2 {
     min-height: 200px;
 }
 
+.container--main .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container--main {
+    width: 45%;
+}
+
 .header--logo {
     background-image: url(./images/logo.svg);
     background-repeat: no-repeat;
@@ -33,19 +66,14 @@ h2 {
     height: 38px;
 }
 
-
-.container {
-    border: 3px solid blue;
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 15px;
-    flex-wrap: wrap;
-}
-
 .header--nav {
     width: 300px;
     height: 50px;
 }
+
+
+/*END HEADER*/
+
 
 
 /*HERO*/
@@ -78,51 +106,6 @@ h2 {
     padding-bottom: 1.5rem;
 }
 
-.container--main .container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.container--main {
-    width: 45%;
-}
-
-.container--section .container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-
-.container--footer {
-    width: 150px;
-}
-
-.container--footer .container {
-    display: flex;
-    justify-content: center;
-}
-
-.container__left {
-    flex-basis: 50%;
-}
-
-.container__right {
-    flex-basis: 50%;
-}
-
-.container__center--section .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container--price .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .hero__button {
     background-color:#25f18b;
     padding: .75rem 3rem;
@@ -133,7 +116,18 @@ h2 {
     font-size: 1.15rem;
 }
 
+/*END HERO*/
+
+
+
 /*PRICE*/
+
+.container--price .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
 
 .price {
     background-color: #f8f9f9;
@@ -182,14 +176,6 @@ h2 {
 
 /*END PRICE*/
 
-.container--team .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    min-height: 400px;
-    align-items: center;
-}
-
 
 
 /*FEATURES*/
@@ -204,17 +190,46 @@ h2 {
     width: 25%;
     text-align: center;
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.features__icon {
+.features__icon--1, .features__icon--2, .features__icon--3 {
     background-color: #fff;
     border-radius: 50%;
-    padding: 30px;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    position: relative
 }
 
+.features__icon--1::before {
+    content: url(./images/responsive.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 20px;
+}
+
+.features__icon--2::before {
+    content: url(./images/customizable.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 20px;
+}
+
+.features__icon--3::before {
+    content: url(./images/design.svg);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 20px;
+}
 
 /*END FEATURES*/
 
@@ -229,7 +244,7 @@ h2 {
 }
 
 .imac {
-    width: 400px;
+    width: 550px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -242,6 +257,10 @@ h2 {
 .container__left {
     flex-basis: 50%;
 }
+
+
+/*END IMAC*/
+
 
 
 /*FOOTER*/
@@ -263,6 +282,17 @@ h2 {
     padding-left: 1rem;
 }
 
+.container--footer {
+    width: 150px;
+}
+
+.container--footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+/*END FOOTER*/
+
 /*TEAM*/
 
 .member {
@@ -280,3 +310,14 @@ h2 {
 .avatar__name {
     margin-top: 5px;
 }
+
+
+.container--team .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+}
+
+/*END TEAM*/
