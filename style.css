@@ -2,6 +2,7 @@ body {
     background-color: #fff;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 h2 {
@@ -33,15 +34,16 @@ h2 {
 
 /*HEADER*/
 
+
 .container--header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .container--header .container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
 }
 
 .container--main {
@@ -78,21 +80,24 @@ h2 {
 
 /*HERO*/
 
+.flex {
+    display: flex;
+}
+
 .container--hero {
     display: flex;
 }
 
 .hero__headline {
     color: #fff;
-    flex-basis: 60%;
+    flex-basis: 40%;
 }
 
 .hero__picture {
-    flex-basis: 40%;
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
-    width: 50%;
+    width: 35%;
     margin: 4rem;
     border: 15px solid white;
     border-radius: 20px;
@@ -135,7 +140,7 @@ h2 {
 
 .price__box {
     padding: 2rem 1.5rem;
-    margin: 0 2rem;
+    margin: 0 4rem;
     min-height: 280px;
     display: flex;
     flex-direction: column;
@@ -238,13 +243,13 @@ h2 {
 
 .fullwidth__container--section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 3rem;
     flex-wrap: wrap;
 }
 
 .imac {
-    width: 550px;
+    height: 400px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -252,10 +257,12 @@ h2 {
 
 .container__right {
     flex-basis: 50%;
+    flex-grow: 1;
 }
 
 .container__left {
     flex-basis: 50%;
+    flex-shrink: 1;
 }
 
 
