@@ -68,10 +68,29 @@ h2 {
     height: 38px;
 }
 
+/*NAV*/
+
 .header--nav {
-    width: 300px;
+    width: 450px;
     height: 50px;
 }
+
+.menu {
+    display: flex;
+}
+
+.menu__item {
+    width: 150px;
+    list-style: none;
+}
+
+a.menu__link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
+
+/*END NAV*/
 
 
 /*END HEADER*/
