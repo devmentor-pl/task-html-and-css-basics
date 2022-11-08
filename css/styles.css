@@ -133,6 +133,21 @@ body {
 .features__text {
 	font-size: 1.4rem;
 }
+
+/* LOGOS-SECTION */
+
+.logos-section {
+	padding: 3em 0;
+	background-color: #f9fafa;
+}
+
+.logos-img {
+	display: block;
+	max-width: 830px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 3em;
+}
 /* ------ */
 /* MEDIA */
 /* ------ */
