@@ -148,6 +148,28 @@ body {
 	margin: 0 auto;
 	padding: 0 3em;
 }
+
+/* WHITE SECTION */
+
+.white-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 3em;
+	padding: 5em 3em;
+	color: #333;
+}
+
+.white-section-img img {
+	width: 100%;
+}
+
+.section-text {
+	max-width: 400px;
+	font-size: 2.4rem;
+	text-align: center;
+}
+
 /* ------ */
 /* MEDIA */
 /* ------ */
@@ -197,5 +219,29 @@ body {
 
 	.features__box {
 		flex-basis: 33.33%;
+	}
+
+	.white-section {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.white-section-img,
+	.container {
+		flex-basis: 50%;
+	}
+
+	.container {
+		margin-top: 3em;
+		margin-left: 2em;
+	}
+
+	.white-section .section-heading,
+	.section-text {
+		text-align: left;
+	}
+
+	.section-text {
+		font-size: 1.5rem;
 	}
 }
