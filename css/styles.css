@@ -7,7 +7,7 @@
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
-	scroll-padding: 8em;
+	scroll-padding-top: 8em;
 }
 
 body {
@@ -21,15 +21,30 @@ body {
 	margin: 0 auto;
 }
 
+.section {
+	padding: 10em 3em;
+}
+
+.section-heading {
+	margin-bottom: 2em;
+	font-size: 3rem;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.section-text {
+	font-size: 1.6rem;
+	text-align: center;
+}
+
 /* HEADER */
 
 .header {
 	position: relative;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	min-height: 50vh;
-	padding-bottom: 4em;
+	flex-direction: column;
 	background-image: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
@@ -46,11 +61,11 @@ body {
 	display: none;
 }
 
-.heading {
+.header__heading {
 	padding: 8em 3em;
 }
 
-.heading-container {
+.header__heading-text {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -58,33 +73,32 @@ body {
 	text-align: center;
 }
 
-.heading__title {
+.header__title {
 	font-size: 3.6rem;
 }
 
-.heading__text {
+.header__text {
 	font-size: 1.6rem;
 }
 
-.heading__img img {
+.header__img img {
 	display: none;
-	width: 100%;
-	object-fit: cover;
 }
 
-.heading__btn-download {
+.header__btn-download {
 	padding: 1em 3em;
 	font-size: 1.6rem;
 	color: #fff;
 	border-radius: 10px;
 	border: 1px solid #25f18b;
 	background-color: #25f18b;
-	transition: background-color 0.3s, box-shadow 0.3s;
+	transition: background-color 0.3s, box-shadow 0.3s, color 0.3s;
 	cursor: pointer;
 }
 
-.heading__btn-download:hover {
-	background-color: #6affb4;
+.header__btn-download:hover {
+	color: #404040;
+	background-color: #69fcb2;
 	box-shadow: -1px 9px 46px -17px rgb(43 43 43);
 }
 
@@ -92,16 +106,7 @@ body {
 /* FEATURES */
 
 .features {
-	padding: 5em 0;
 	background-color: #000;
-}
-
-.section-heading {
-	margin-bottom: 2em;
-	font-size: 3rem;
-	font-weight: 400;
-	text-transform: uppercase;
-	text-align: center;
 }
 
 .features__boxes {
@@ -133,14 +138,14 @@ body {
 	box-shadow: 4px 10px 25px #393939;
 }
 
-.features__title {
-	margin-bottom: 0.8em;
-	font-size: 1.4rem;
-	text-transform: uppercase;
-}
-
+.features__title,
 .features__text {
 	font-size: 1.4rem;
+}
+
+.features__title {
+	margin-bottom: 0.8em;
+	text-transform: uppercase;
 }
 
 /* LOGOS-SECTION */
@@ -165,30 +170,18 @@ body {
 	align-items: center;
 	flex-direction: column;
 	gap: 3em;
-	padding: 5em 3em;
 	color: #333;
 }
 
-.white-section-img img {
+.white-section__img img {
 	width: 100%;
-}
-
-.section-text {
-	max-width: 400px;
-	font-size: 2.4rem;
-	text-align: center;
 }
 
 /* PRICES */
 
 .prices {
-	padding: 5em 3em;
 	background-color: #f8f9f9;
 	color: #333;
-}
-
-.prices .section-text {
-	max-width: none;
 }
 
 .prices__boxes {
@@ -209,7 +202,7 @@ body {
 }
 
 .price__box:nth-child(2) {
-	box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
+	box-shadow: 5px 8.7px 40px rgb(57, 57, 57, 0.3);
 	border-radius: 7px;
 }
 
@@ -262,7 +255,6 @@ body {
 
 /* TEAM */
 .team {
-	padding: 5em 3em;
 	color: #333;
 }
 
@@ -321,11 +313,12 @@ body {
 .footer__text {
 	font-size: 1.4rem;
 }
+
 /* ------ */
 /* MEDIA */
 /* ------ */
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 	.nav__list {
 		display: flex;
 		align-items: center;
@@ -342,30 +335,27 @@ body {
 	.nav__item-link:hover {
 		color: #58d5f7;
 	}
-}
 
-@media (min-width: 768px) {
-	.heading {
+	.header__heading {
 		display: flex;
 		align-items: center;
 		flex-direction: row;
 		gap: 3em;
 	}
 
-	.heading-container {
+	.header__heading-text {
 		align-items: flex-start;
 		text-align: left;
 	}
 
-	.heading__img {
+	.header__img {
 		margin: 3em;
 		transform: rotate(-5deg);
 	}
 
-	.heading__img img {
+	.header__img img {
 		display: block;
 		width: 100%;
-		object-fit: cover;
 	}
 
 	.features__boxes {
@@ -377,27 +367,27 @@ body {
 	}
 
 	.white-section {
-		flex-direction: row;
 		align-items: flex-start;
+		flex-direction: row;
 	}
 
-	.white-section-img,
-	.container {
-		flex-basis: 50%;
-	}
-
-	.container {
+	.white-section__description {
 		margin-top: 3em;
 		margin-left: 2em;
 	}
 
-	.white-section .section-heading,
-	.white-section .section-text {
+	.white-section__img,
+	.white-section__description {
+		flex-basis: 50%;
+	}
+
+	.white-section__title,
+	.white-section__text {
 		text-align: left;
 	}
 
-	.section-text {
-		font-size: 1.5rem;
+	.white-section__text {
+		width: 400px;
 	}
 
 	.prices__boxes {
@@ -406,7 +396,7 @@ body {
 	}
 
 	.team__boxes {
-		flex-direction: row;
 		justify-content: center;
+		flex-direction: row;
 	}
 }
