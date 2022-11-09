@@ -1,0 +1,9 @@
+.row {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}

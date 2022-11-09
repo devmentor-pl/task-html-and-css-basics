@@ -1,0 +1,259 @@
+/* features */
+.features {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    min-height: 300px;
+}
+
+.features__container>h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.features__container:nth-child(2n) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 60px;
+    height: 250px;
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3+p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+.features__one,
+.features__two,
+.features__three {
+    width: 200px;
+    height: 220px;
+    align-content: center;
+    align-self: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.svg-picture {
+    background-color: white;
+    border-radius: 50%;
+    background-size: cover;
+    width: 51px;
+    height: 51px;
+    justify-content: center;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+.svg-picture>img {
+    padding-top: 7px;
+    padding-left: 4px;
+}
+
+/* logos */
+.logos__container>img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* details */
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+    max-width: 1150px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.details__pic>img {
+    width: 475px;
+    height: 400px;
+}
+
+.details__article {
+    width: 475px;
+}
+
+.details__article>h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 550;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.details__article>p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+}
+
+/* offer */
+.offer__container>h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+h2+p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.offer__container:nth-child(2n) {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.offer__pricing {
+    height: 450px;
+    width: 320px;
+    text-align: center;
+    position: relative;
+}
+
+.offer__pricing--active:hover {
+    border-radius: 20px;
+    box-shadow: 10px -10px 40px lightgrey;
+    background-color: #F3F2F2;
+}
+
+.offer__pricing>h3 {
+    color: black;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.offer__cost {
+    font-size: 36px;
+    font-weight: 900;
+    color: black;
+    padding-top: 20px;
+}
+
+.offer__monthly {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 12px;
+}
+
+.offer__plan {
+    list-style: none;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.button2 {
+    background-color: #58d5f7;
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    border: 0;
+    border-radius: 6px;
+    height: 50px;
+    min-width: 140px;
+    transition: .4s;
+    position: absolute;
+    bottom: 90px;
+    right: 90px;
+}
+
+.button2:hover {
+    text-decoration: underline;
+    border-radius: 20px;
+    box-shadow: -5px 10px 45px -20px rgb(45 45 45);
+    cursor: pointer;
+}
+
+/* people */
+
+.people {
+    display: flex;
+    flex-direction: column;
+}
+
+.people__container>h2 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.people__container:nth-child(2n) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    height: 400px;
+    width: 1150px;
+}
+
+.people__one,
+.people__two,
+.people__three {
+    padding-top: 30px;
+    height: 350px;
+}
+
+.people__one>img,
+.people__two>img,
+.people__three>img {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+img+h3 {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.people__name {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.people__description {
+    font-size: 12px;
+}
+
+.socials>img {
+    padding-top: 10px;
+    padding-left: 40px;
+    filter: invert(0%) sepia(57%) saturate(0%) hue-rotate(270deg) brightness(81%) contrast(66%);
+}
