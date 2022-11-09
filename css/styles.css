@@ -295,6 +295,23 @@ body {
 	padding: 0.5em;
 }
 
+/* FOOTER */
+
+.footer {
+	padding: 5em 3em;
+	background-color: #464646;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5em;
+}
+
+.footer__text {
+	font-size: 1.4rem;
+}
 /* ------ */
 /* MEDIA */
 /* ------ */
