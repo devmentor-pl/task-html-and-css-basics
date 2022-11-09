@@ -251,6 +251,50 @@ body {
 	box-shadow: -1px 9px 46px -17px #2b2b2b;
 }
 
+/* TEAM */
+.team {
+	padding: 5em 3em;
+	color: #333;
+}
+
+.team__boxes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5em;
+}
+
+.team__box {
+	text-align: center;
+}
+
+.team__box-img {
+	margin-bottom: 2em;
+}
+
+.team__box-text {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5em;
+	font-size: 1.4rem;
+}
+
+.team__title {
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.team__name {
+	font-weight: 700;
+}
+
+.team__social-icon {
+	width: 30px;
+	height: 30px;
+	padding: 0.5em;
+}
+
 /* ------ */
 /* MEDIA */
 /* ------ */
@@ -329,5 +373,10 @@ body {
 	.prices__boxes {
 		justify-content: center;
 		flex-direction: row;
+	}
+
+	.team__boxes {
+		flex-direction: row;
+		justify-content: center;
 	}
 }
