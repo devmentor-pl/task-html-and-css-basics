@@ -179,12 +179,12 @@ body {
 
 /* PRICES */
 
-.prices {
+.pricing {
 	background-color: #f8f9f9;
 	color: #333;
 }
 
-.prices__boxes {
+.pricing__list {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -193,36 +193,36 @@ body {
 	text-align: center;
 }
 
-.price__box {
+.price__list-item {
 	display: flex;
 	flex-direction: column;
-	width: 330px;
+	width: 300px;
 	height: 420px;
 	padding: 3em 0;
 }
 
-.price__box--active {
+.price__list-item--active {
 	box-shadow: 5px 8.7px 40px rgb(57, 57, 57, 0.3);
 	border-radius: 7px;
 }
 
-.price__box-title {
+.price__list-item-title {
 	font-size: 1.8rem;
 	font-weight: 400;
 	text-transform: uppercase;
 }
 
-.price__box-tag {
+.price__list-item-tag {
 	margin: 0.2em 0;
 	font-size: 4.5rem;
 	font-weight: 700;
 }
 
-.price__box-period {
+.price__list-item-period {
 	font-size: 1.2rem;
 }
 
-.price__box-list {
+.price__detail {
 	margin-top: 1em;
 	font-size: 1.4rem;
 	font-weight: 700;
@@ -238,7 +238,7 @@ body {
 	flex-grow: 1;
 }
 
-.prices__boxes-btn {
+.pricing__list-btn {
 	padding: 1em 3em;
 	background-color: #0abcde;
 	color: #fff;
@@ -248,7 +248,7 @@ body {
 	cursor: pointer;
 }
 
-.prices__boxes-btn:hover {
+.pricing__list-btn:hover {
 	background-color: #58d5f7;
 	box-shadow: -1px 9px 46px -17px #2b2b2b;
 }
@@ -390,7 +390,7 @@ body {
 		width: 400px;
 	}
 
-	.prices__boxes {
+	.pricing__list {
 		justify-content: center;
 		flex-direction: row;
 	}
