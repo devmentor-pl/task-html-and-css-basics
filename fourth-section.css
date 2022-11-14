@@ -1,5 +1,5 @@
 .section {
-    padding-top: 5%;
+    padding 5% 0;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -42,6 +42,10 @@
 .section-article__h2,
 .section-article__p {
     text-align: center;
+    margin: 3% 0;
+}
+.section-article__p {
+  font-weight: lighter;
 }
 .section-article__h3 {
     text-transform: uppercase;

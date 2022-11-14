@@ -8,6 +8,9 @@
     justify-content: center;
     color: white;
 }
+.section-header h2 {
+    font-weight: lighter;
+}
 .footer--semi {
     display: flex;
     justify-content: center;
