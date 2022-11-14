@@ -1,0 +1,26 @@
+.third-section {
+    padding: 5%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.third-section__article {
+    width: 40%;
+    margin-top: 3%;
+}
+.img-container {
+    width: 50%;
+}
+.img-container img {
+    width: 100%;
+}
+.third-section__article p {
+    color: #695d5c;
+    width: 50%;
+}
+.third-section__article h2 {
+    text-transform: uppercase;
+    color: #695d5c;
+    margin-bottom: 5%;
+}
