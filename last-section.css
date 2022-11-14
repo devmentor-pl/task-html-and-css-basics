@@ -1,0 +1,33 @@
+.section--team {
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+
+}
+.cto, .cfo, .ceo {
+    width: 40%;
+    margin: 5% auto;
+}
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.img-wrapper__twitter, .img-wrapper__facebook {
+    padding: 10% 5%;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #464646;
+    color: white;
+    width: 100%;
+    padding: 1%;
+}
+.footer__img {
+    margin: 0 1%;
+}
