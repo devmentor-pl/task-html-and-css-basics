@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Webscope template project</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
+
 <body>
-    
+
+    <header class="header row">
+        <div class="header__navbar container">
+
+            <a href="#" class="navbar__logo cell"><img src="./images/logo.svg" alt="Brand logo"
+                    class="logo navbar--img" /></a>
+
+            <nav class="navbar__nav cell">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#">The Team</a></li>
+                    <li class="nav__item"><a href="#">Pricing</a></li>
+                    <li class="nav__item"><a href="#">Features</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header__teaser container">
+            <div class="teaser__title-box cell">
+                <h1 class="title-box__title">Beautiful Free Nova template</h1>
+                <p class="title-box__content">A top notch premium quality template for your next web project.</p>
+                <button class="title-box__btn btn">Download <span class="uppercase">free</span></button>
+            </div>
+            <div class="teaser__img-box cell"><img src="./images/screen.png" alt="A tablet displaying a website."
+                    class="img-box__image" /></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="content row">
+            <div class="content__title-box container">
+                <h2 class="title-box__title uppercase cell">Features</h2>
+            </div>
+            <div class="content__features-box container">
+                <article class="features-box__feature cell">
+                    <img src="./images/responsive.svg" alt="Responsive feature icon" class="feature__img">
+                    <h3 class="feature__title uppercase">Fully responsive</h3>
+                    <p class="feature__content">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
+                </article>
+                <article class="features-box__feature cell">
+                    <img src="./images/customizable.svg" alt="Customizable feature icon" class="feature__img">
+                    <h3 class="feature__title uppercase">Customizable</h3>
+                    <p class="feature__content">Change the colors, pictures or any of the section to suit your needs.
+                    </p>
+                </article>
+                <article class="features-box__feature cell">
+                    <img src="./images/design.svg" alt="Design feature icon" class="feature__img">
+                    <h3 class="feature__title uppercase">Slick and beautiful design</h3>
+                    <p class="feature__content">Trendy and fresh design, fits any website.</p>
+                </article>
+            </div>
+        </section>
+        <section class="content row">
+            <div class="content__partners container">
+                <img src="./images/logos.png" alt="" class="partner-img" />
+            </div>
+        </section>
+        <section class="content row"></section>
+        <section class="content row"></section>
+        <section class="content row"></section>
+
+    </main>
+    <footer class="footer row">
+
+    </footer>
 </body>
+
 </html>
