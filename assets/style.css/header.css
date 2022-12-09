@@ -16,13 +16,10 @@
 
 .nav__list__item {
 	list-style: none;
-	padding: 5px;
-	margin: 5px;
 }
 
 .nav__list__item a {
 	font-weight: 700;
-	color: white;
 	font-size: 14px;
 }
 
@@ -31,8 +28,8 @@
 	justify-content: space-between;
 }
 
-.ad__article--first,
-.ad__article--second {
+.ad__container,
+.nav__list__item a {
 	color: white;
 }
 
@@ -65,7 +62,6 @@
 	margin-bottom: 100px;
 	margin-top: 50px;
 	margin-right: 40px;
-	border-radius: 5px;
 }
 
 .ad__img {
