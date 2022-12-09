@@ -2,3 +2,56 @@
     font-family: "Montserrat";
     src: url(../fonts/Montserrat-Regular.ttf), url(../fonts/Montserrat-Light.ttf), url(../fonts/Montserrat-Bold.ttf);
 }
+
+:root {
+    /* fonts */
+    font-family: "Montserrat";
+    /* colors */
+    --headerBg: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    --featuresBg: #000;
+    --footerBg: #464646;
+
+    --headerBtnBg: #25F18B;
+    --pricingBtnBg: #0ABCEB;
+
+    --fontDark: #333;
+    --fontLight: #fff
+}
+
+html {
+    font-size: 10px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    color: var(--fontLight);
+    padding: 10px 30px;
+    transition: .3s ease-in-out;
+}
+
+.row, .container, .cell {
+    border: 3px solid;
+}
+
+.row {
+    border-color: green;
+}
+
+.container {
+    border-color: blue;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.footer .container {
+    max-width: 100%;
+}
+
+.cell {
+    border-color: orange;
+}
