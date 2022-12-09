@@ -1,11 +1,8 @@
-@font-face {
-    font-family: "Montserrat";
-    src: url(../fonts/Montserrat-Regular.ttf), url(../fonts/Montserrat-Light.ttf), url(../fonts/Montserrat-Bold.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
 
 :root {
     /* fonts */
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     /* colors */
     --headerBg: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     --featuresBg: #000;
@@ -22,6 +19,10 @@ html {
     font-size: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -30,16 +31,17 @@ html {
     border: none;
     border-radius: 5px;
     color: var(--fontLight);
-    padding: 10px 30px;
+    padding: 1em 3em;
     transition: .3s ease-in-out;
 }
 
 .row, .container, .cell {
-    border: 3px solid;
+    /* border: 3px solid; */
 }
 
 .row {
     border-color: green;
+    padding: 4em;
 }
 
 .container {

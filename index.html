@@ -16,35 +16,40 @@
 <body>
 
     <header class="header row">
+
         <div class="header__navbar navbar container">
 
-            <a href="#" class="navbar__logo cell"><img src="./images/logo.svg" alt="Brand logo"
-                    class="logo navbar--img"></a>
+            <nav class="navbar__nav nav">
+                <a href="#" class="nav__logo cell"><img src="./images/logo.svg" alt="Brand logo"
+                        class="logo navbar--img"></a>
 
-            <nav class="navbar__nav nav cell">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#">The Team</a></li>
-                    <li class="nav__item"><a href="#">Pricing</a></li>
-                    <li class="nav__item"><a href="#">Features</a></li>
+
+                <ul class="nav__list cell">
+                    <li class="nav__item"><a href="#" class="nav__link">The Team</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
                 </ul>
             </nav>
+
         </div>
 
         <div class="header__teaser container">
-            <div class="teaser__title-box cell">
+            <div class="teaser__title-box title-box cell">
                 <h1 class="title-box__title">Beautiful Free Nova template</h1>
                 <p class="title-box__content">A top notch premium quality template for your next web project.</p>
                 <button class="title-box__btn btn">Download <span class="uppercase">free</span></button>
             </div>
-            <div class="teaser__img-box cell"><img src="./images/screen.png" alt="A tablet displaying a website."
-                    class="img-box__image"></div>
+            <div class="teaser__img-box img-box cell">
+                <figure class="img-box__device-image"><img src="./images/screen.png"
+                        alt="A tablet displaying a website." class="img-box__device-screen"></figure>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="content row">
-            <div class="content__title-box container">
-                <h2 class="title-box__title uppercase cell">Features</h2>
+            <div class="content__section-header section-header container">
+                <h2 class="section-header__title uppercase cell">Features</h2>
             </div>
             <div class="content__features-box container">
                 <article class="features-box__feature cell">
