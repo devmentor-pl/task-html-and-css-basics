@@ -28,10 +28,7 @@
 
 .ad__container {
 	display: flex;
-}
-
-.ad__article--first {
-	width: 40%;
+	justify-content: space-between;
 }
 
 .ad__article--first,
@@ -42,10 +39,13 @@
 .ad__article--first h2 {
 	font-size: 40px;
 	font-weight: 900;
+	margin-top: 60px;
 }
 
 .ad__article--first p {
 	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .button {
@@ -58,4 +58,25 @@
 .button__nav {
 	background-color: rgba(37, 241, 139);
 	margin-top: 10px;
+}
+
+.ad__img__container {
+	max-width: 70%;
+	margin-bottom: 100px;
+	margin-top: 50px;
+	margin-right: 40px;
+	border-radius: 5px;
+}
+
+.ad__img {
+	object-fit: contain;
+	border: 20px solid white;
+	border-radius: 5px;
+	rotate: -5deg;
+}
+
+.ad__article--second {
+	display: flex;
+	justify-content: end;
+	align-items: center;
 }
