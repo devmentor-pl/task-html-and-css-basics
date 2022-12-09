@@ -16,12 +16,12 @@
 <body>
 
     <header class="header row">
-        <div class="header__navbar container">
+        <div class="header__navbar navbar container">
 
             <a href="#" class="navbar__logo cell"><img src="./images/logo.svg" alt="Brand logo"
-                    class="logo navbar--img" /></a>
+                    class="logo navbar--img"></a>
 
-            <nav class="navbar__nav cell">
+            <nav class="navbar__nav nav cell">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#">The Team</a></li>
                     <li class="nav__item"><a href="#">Pricing</a></li>
@@ -37,7 +37,7 @@
                 <button class="title-box__btn btn">Download <span class="uppercase">free</span></button>
             </div>
             <div class="teaser__img-box cell"><img src="./images/screen.png" alt="A tablet displaying a website."
-                    class="img-box__image" /></div>
+                    class="img-box__image"></div>
         </div>
     </header>
 
@@ -66,17 +66,145 @@
             </div>
         </section>
         <section class="content row">
-            <div class="content__partners container">
-                <img src="./images/logos.png" alt="" class="partner-img" />
+            <figure class="content__partners partners container">
+                <img src="./images/logos.png" alt="Partners logos" class="partners__img">
+            </figure>
+        </section>
+        <section class="content row">
+            <div class="content__description description container">
+                <img src="" alt="" class="description__img cell">
+                <article class="description__content-box">
+                    <h2 class="description__title uppercase">Simple and beautiful</h2>
+                    <p class="description__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+                        facilis, ut ratione vel optio omnis. Quae perferendis aut voluptas sapiente natus dicta nihil,
+                        harum corporis asperiores, non ducimus in magni veritatis expedita numquam aperiam cumque iure
+                        suscipit hic nisi fuga nobis a facere reprehenderit? Assumenda fuga delectus odio. Aliquam,
+                        inventore.</p>
+                </article>
+
             </div>
         </section>
-        <section class="content row"></section>
-        <section class="content row"></section>
-        <section class="content row"></section>
+
+        <section class="content row">
+
+            <article class="content__pricing pricing container">
+
+                <div class="pricing__header container">
+                    <h2 class="pricing__title uppercase">Choose your pricing plan</h2>
+                    <p class="pricing__description">Pick any of our super affordable pricing plans.</p>
+                </div>
+
+                <div class="pricing__cards-box cards-box container">
+
+                    <div class="cards-box__card cell">
+                        <h3 class="cards-box__title uppercase">Basic</h3>
+                        <p class="cards-box__price price">$15<span class="price__small">per month</span></p>
+                        <ul class="cards-box__plan-features plan-features">
+                            <li class="plan-feautres__feature">Up to 7 Projects</li>
+                            <li class="plan-feautres__feature">2 Additional Developers</li>
+                        </ul>
+                    </div>
+
+                    <div class="cards-box__card cell">
+                        <h3 class="cards-box__title uppercase">Agency</h3>
+                        <p class="cards-box__price price">$55<span class="price__small">per month</span></p>
+                        <ul class="cards-box__plan-features plan-features">
+                            <li class="plan-feautres__feature">Up to 25 Projects</li>
+                            <li class="plan-feautres__feature">2 Additional Developers</li>
+                            <li class="plan-feautres__feature">Unlimited Support</li>
+                        </ul>
+                    </div>
+
+                    <div class="cards-box__card cell">
+                        <h3 class="cards-box__title uppercase">Pro</h3>
+                        <p class="cards-box__price price">$75<span class="price__small">per month</span></p>
+                        <ul class="cards-box__plan-features plan-features">
+                            <li class="plan-feautres__feature">Up to 25 Projects</li>
+                            <li class="plan-feautres__feature">2 Additional Developers</li>
+                            <li class="plan-feautres__feature">Unlimited Support</li>
+                            <li class="plan-feautres__feature">1.5GB Disk Space</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+        <section class="content row">
+
+            <article class="content__team team container">
+
+                <div class="team__header container">
+                    <h2 class="team__title uppercase">Choose your pricing plan</h2>
+                </div>
+
+                <div class="team__cards-box cards-box container">
+
+                    <div class="cards-box__card cell">
+                        <img src="./images/cto.png" alt="CTO avatar" class="cards-box__avatar">
+                        <h3 class="cards-box__title uppercase">Cto</h3>
+                        <address class="cards-box__person price">Johny B Good</address>
+                        <p class="cards-box__person-description">
+                            The brains behind the whole operation
+                        </p>
+                        <ul class="cards-box__icons-list icons-list">
+                            <li class="icons-list__item">
+                                <img src="./images/team-twitter.svg" alt="Twitter icon" class="icons-list__icon">
+                            </li>
+                            <li class="icons-list__item">
+                                <img src="./images/team-facebook.svg" alt="Facebook icon" class="icons-list__icon">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cards-box__card cell">
+                        <img src="./images/ceo.png" alt="CEO avatar" class="cards-box__avatar">
+                        <h3 class="cards-box__title uppercase">Ceo</h3>
+                        <address class="cards-box__person price">Roll Over Beethoven</address>
+                        <p class="cards-box__person-description">
+                            The one that puts it all together
+                        </p>
+                        <ul class="cards-box__icons-list icons-list">
+                            <li class="icons-list__item">
+                                <img src="./images/team-twitter.svg" alt="Twitter icon" class="icons-list__icon">
+                            </li>
+                            <li class="icons-list__item">
+                                <img src="./images/team-facebook.svg" alt="Facebook icon" class="icons-list__icon">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="cards-box__card cell">
+                        <img src="./images/cfo.png" alt="CFO avatar" class="cards-box__avatar">
+                        <h3 class="cards-box__title uppercase">Cfo</h3>
+                        <address class="cards-box__person price">Chuck Berry</address>
+                        <p class="cards-box__person-description">
+                            The guy with his hand on the wallet
+                        </p>
+                        <ul class="cards-box__icons-list icons-list">
+                            <li class="icons-list__item">
+                                <img src="./images/team-twitter.svg" alt="Twitter icon" class="icons-list__icon">
+                            </li>
+                            <li class="icons-list__item">
+                                <img src="./images/team-facebook.svg" alt="Facebook icon" class="icons-list__icon">
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
 
     </main>
     <footer class="footer row">
-
+        <div class="footer__container container">
+            <p class="footer__description">A free template by</p>
+            <img src="./images/webscope.svg" alt="Webscope logo" class="footer__logo">
+        </div>
     </footer>
 </body>
 
