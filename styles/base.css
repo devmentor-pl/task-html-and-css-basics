@@ -41,7 +41,11 @@ a {
 
 .row {
     border-color: green;
-    padding: 4em;
+    padding: 0 4em;
+}
+
+.row:nth-of-type(1) {
+    background-color: var(--featuresBg);
 }
 
 .container {
@@ -49,6 +53,8 @@ a {
     margin: 0 auto;
     max-width: 1150px;
 }
+
+
 
 .footer .container {
     max-width: 100%;
