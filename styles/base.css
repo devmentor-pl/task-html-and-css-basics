@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 1.6rem;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -41,7 +45,7 @@ a {
 
 .row {
     border-color: green;
-    padding: 0 4em;
+    padding: 4em 4em;
 }
 
 .row:nth-of-type(1) {
@@ -54,12 +58,25 @@ a {
     max-width: 1150px;
 }
 
-
-
 .footer .container {
     max-width: 100%;
 }
 
 .cell {
     border-color: orange;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+}
+
+.content__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__header h2, .description__title {
+    font-size: 3rem;
 }
