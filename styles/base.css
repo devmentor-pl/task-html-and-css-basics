@@ -33,7 +33,7 @@ p {
 
 .btn {
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: var(--fontLight);
     padding: 1em 3em;
     transition: .3s ease-in-out;
@@ -77,6 +77,6 @@ p {
     flex-direction: column;
 }
 
-.content__header h2, .description__title {
+.content__header h2, .description__title, .team__title {
     font-size: 3rem;
 }

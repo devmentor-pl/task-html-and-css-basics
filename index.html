@@ -49,9 +49,9 @@
     <main>
         <section class="content row">
 
-            <div class="content__header features-header container">
+            <header class="content__header features-header container">
                 <h2 class="features-header__title uppercase">Features</h2>
-            </div>
+            </header>
             <div class="content__features-box container">
                 <article class="features-box__feature cell">
                     <figure class="feature__img"></figure>
@@ -95,66 +95,76 @@
 
         <section class="content row">
 
-            <div class="content__header pricing-header container">
+            <header class="content__header pricing-header container">
                 <h2 class="pricing-header__title uppercase">Choose your pricing plan</h2>
                 <p class="pricing-header__description">Pick any of our super affordable pricing plans.</p>
-            </div>
+            </header>
 
-            <div class="pricing__cards-box cards-box container">
+            <article class="pricing__cards-box cards-box container">
 
                 <div class="cards-box__card cell">
-                    <h3 class="cards-box__title uppercase">Basic</h3>
-                    <p class="cards-box__price price">$15<span class="price__small">per month</span></p>
-                    <ul class="cards-box__plan-features plan-features">
+                    <header class="card__header">
+                        <h3 class="card__title uppercase">Basic</h3>
+                        <p class="card__price">$15</p>
+                        <p class="card__price-small">per month</p>
+                    </header>
+
+                    <ul class="card__plan-features plan-features">
                         <li class="plan-features__feature">Up to 7 Projects</li>
                         <li class="plan-features__feature">2 Additional Developers</li>
                     </ul>
-                    <button class="cards-box__cta-btn btn">Get Started</button>
+                    <button class="card__cta-btn btn">Get Started</button>
                 </div>
 
                 <div class="cards-box__card cell">
-                    <h3 class="cards-box__title uppercase">Agency</h3>
-                    <p class="cards-box__price price">$55<span class="price__small">per month</span></p>
-                    <ul class="cards-box__plan-features plan-features">
+                    <header class="card__header">
+                        <h3 class="card__title uppercase">Agency</h3>
+                        <p class="card__price">$55</p>
+                        <p class="card__price-small">per month</p>
+                    </header>
+                    <ul class="card__plan-features plan-features">
                         <li class="plan-features__feature">Up to 25 Projects</li>
                         <li class="plan-features__feature">2 Additional Developers</li>
                         <li class="plan-features__feature">Unlimited Support</li>
                     </ul>
-                    <button class="cards-box__cta-btn btn">Get Started</button>
+                    <button class="card__cta-btn btn">Get Started</button>
                 </div>
 
                 <div class="cards-box__card cell">
-                    <h3 class="cards-box__title uppercase">Pro</h3>
-                    <p class="cards-box__price price">$75<span class="price__small">per month</span></p>
-                    <ul class="cards-box__plan-features plan-features">
+                    <header class="card__header">
+                        <h3 class="card__title uppercase">Pro</h3>
+                        <p class="card__price">$75</p>
+                        <p class="card__price-small">per month</p>
+                    </header>
+                    <ul class="card__plan-features plan-features">
                         <li class="plan-features__feature">Up to 25 Projects</li>
                         <li class="plan-features__feature">2 Additional Developers</li>
                         <li class="plan-features__feature">Unlimited Support</li>
                         <li class="plan-features__feature">1.5GB Disk Space</li>
                     </ul>
-                    <button class="cards-box__cta-btn btn">Get Started</button>
+                    <button class="card__cta-btn btn">Get Started</button>
                 </div>
 
-            </div>
+            </article>
 
         </section>
 
         <section class="content row">
 
             <div class="team__header container">
-                <h2 class="team__title uppercase">Choose your pricing plan</h2>
+                <h2 class="team__title uppercase">The team</h2>
             </div>
 
-            <div class="team__cards-box cards-box container">
+            <article class="team__cards-box cards-box container">
 
                 <div class="cards-box__card cell">
-                    <img src="./images/cto.png" alt="CTO avatar" class="cards-box__avatar">
-                    <h3 class="cards-box__title uppercase">Cto</h3>
-                    <address class="cards-box__person price">Johny B Good</address>
-                    <p class="cards-box__person-description">
+                    <img src="./images/cto.png" alt="CTO avatar" class="card__avatar">
+                    <h3 class="card__title uppercase">Cto</h3>
+                    <address class="card__person price">Johny B Good</address>
+                    <p class="card__person-description">
                         The brains behind the whole operation
                     </p>
-                    <ul class="cards-box__icons-list icons-list">
+                    <ul class="card__icons-list icons-list">
                         <li class="icons-list__item">
                             <img src="./images/team-twitter.svg" alt="Twitter icon" class="icons-list__icon">
                         </li>
@@ -165,13 +175,13 @@
                 </div>
 
                 <div class="cards-box__card cell">
-                    <img src="./images/ceo.png" alt="CEO avatar" class="cards-box__avatar">
-                    <h3 class="cards-box__title uppercase">Ceo</h3>
-                    <address class="cards-box__person price">Roll Over Beethoven</address>
-                    <p class="cards-box__person-description">
+                    <img src="./images/ceo.png" alt="CEO avatar" class="card__avatar">
+                    <h3 class="card__title uppercase">Ceo</h3>
+                    <address class="card__person price">Roll Over Beethoven</address>
+                    <p class="card__person-description">
                         The one that puts it all together
                     </p>
-                    <ul class="cards-box__icons-list icons-list">
+                    <ul class="card__icons-list icons-list">
                         <li class="icons-list__item">
                             <img src="./images/team-twitter.svg" alt="Twitter icon" class="icons-list__icon">
                         </li>
@@ -182,13 +192,13 @@
                 </div>
 
                 <div class="cards-box__card cell">
-                    <img src="./images/cfo.png" alt="CFO avatar" class="cards-box__avatar">
-                    <h3 class="cards-box__title uppercase">Cfo</h3>
-                    <address class="cards-box__person price">Chuck Berry</address>
-                    <p class="cards-box__person-description">
+                    <img src="./images/cfo.png" alt="CFO avatar" class="card__avatar">
+                    <h3 class="card__title uppercase">Cfo</h3>
+                    <address class="card__person price">Chuck Berry</address>
+                    <p class="card__person-description">
                         The guy with his hand on the wallet
                     </p>
-                    <ul class="cards-box__icons-list icons-list">
+                    <ul class="card__icons-list icons-list">
                         <li class="icons-list__item">
                             <img src="./images/team-twitter.svg" alt="Twitter icon" class="icons-list__icon">
                         </li>
@@ -198,7 +208,7 @@
                     </ul>
                 </div>
 
-            </div>
+            </article>
 
         </section>
 

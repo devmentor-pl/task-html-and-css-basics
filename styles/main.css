@@ -68,3 +68,68 @@
 .description__body {
     font-weight: 100;
 }
+
+/* Pricing section */
+.content .pricing-header {
+    flex-direction: column;
+}
+
+.pricing-header__description {
+    font-weight: 100;
+}
+
+.pricing__cards-box {
+    gap: 2em;
+    margin: 8em auto;
+}
+
+.cards-box__card {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;    
+    padding: 5em;
+}
+
+.pricing__cards-box .cards-box__card:nth-of-type(2) {
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.2);
+}
+
+.card__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+
+.card__price {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.card__price-small {
+    font-size: 1.2rem;
+    margin-top: .5em;
+}
+
+.card__plan-features {
+    flex-grow: 1;
+    font-size: 1.4rem;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.plan-features__feature {
+    font-weight: 700;
+    margin: .5em;
+}
+
+.card__cta-btn {
+    background-color: var(--pricingBtnBg);
+    margin-top: 3em;
+}
