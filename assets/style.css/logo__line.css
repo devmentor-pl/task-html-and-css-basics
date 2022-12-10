@@ -1,0 +1,10 @@
+.logo__line__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo__line__icon {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
