@@ -17,6 +17,7 @@
     --fontDark: #333;
     --fontLight: #eee;
 
+    /* transitions */
     --transitionFast: .2s ease-in-out;
     --transitionSlow: .3s ease-in-out
 }
@@ -47,10 +48,6 @@ p {
 
 .btn:hover {
     transform: scale(1.1);
-}
-
-.row, .container, .cell {
-    /* border: 3px solid; */
 }
 
 .row {
