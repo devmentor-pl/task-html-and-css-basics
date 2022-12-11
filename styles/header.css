@@ -87,14 +87,14 @@
 }
 
 .img-box__device-image {
+    animation: deviceAppear 1s ease-in-out .3s both;
     background-color: #fff;
     border-radius: 20px;
     margin: 6em auto;
     padding: 20px 20px 50px 20px;
-    transform: translateX(200%) rotate(0deg) scale(1);
+    transform: translateX(300%) rotate(0deg) scale(1);
     width: 90%;
-    /* transition: var(--transitionSlow); */
-    animation: deviceAppear 1s ease-in-out .3s both;
+    
 
 }
 
