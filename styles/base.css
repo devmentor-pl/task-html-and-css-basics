@@ -6,6 +6,7 @@
     /* colors */
     --headerBg: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     --featuresBg: #000;
+    --pricingBg: #F8F9F9;
     --footerBg: #464646;
 
     --headerBtnBg: #25F18B;
@@ -48,8 +49,14 @@ p {
     padding: 4em 4em;
 }
 
+/* Features section */
 .row:nth-of-type(1) {
     background-color: var(--featuresBg);
+}
+
+/* Pricing section */
+.row:nth-of-type(4) {
+    background-color: var(--pricingBg);
 }
 
 .container {
@@ -78,5 +85,6 @@ p {
 }
 
 .content__header h2, .description__title, .team__title {
+    color: var(--fontDark);
     font-size: 3rem;
 }
