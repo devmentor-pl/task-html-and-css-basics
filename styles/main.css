@@ -12,10 +12,16 @@
 .features-box__feature {
     align-items: center;
     display: flex;
-    flex-basis: 15%;
+    flex-basis: 25%;
     flex-direction: column;
     gap: 2em;
     text-align: center;
+    padding: 2.5em;
+    transition: var(--transitionFast);
+}
+
+.features-box__feature:hover {
+    transform: scale(1.1);
 }
 
 .feature__img {
@@ -91,9 +97,12 @@
 }
 /*  */
 
-.pricing__cards-box .cards-box__card:nth-of-type(2) {
+.pricing__cards-box .cards-box__card {
+    transition: var(--transitionFast);
+}
+
+.pricing__cards-box .cards-box__card:hover{
     box-shadow: 0 0 40px 0 rgba(0,0,0,.2);
-    /* flex-grow: 1; */
     flex-basis: 30%;
 }
 
@@ -137,6 +146,10 @@
     width: 150px;
 }
 
+.card__cta-btn:hover {
+    background-color: var(--pricingBtnBgHover);
+}
+
 /* Team section */
 .team__cards-box .cards-box__card {
     align-items: center;
@@ -174,3 +187,10 @@
     margin-top: 1em;
 }
 
+.icons-list__icon{
+    transition: var(--transitionFast);
+}
+
+.icons-list__link:hover .icons-list__icon {
+    transform: scale(1.4);
+}

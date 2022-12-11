@@ -9,11 +9,16 @@
     --pricingBg: #F8F9F9;
     --footerBg: #464646;
 
-    --headerBtnBg: #25F18B;
+    --headerBtnBg: #08d36d;
+    --headerBtnBgHover: #02e674;
     --pricingBtnBg: #0ABCEB;
+    --pricingBtnBgHover: #16cbfd;
 
     --fontDark: #333;
-    --fontLight: #ddd;
+    --fontLight: #eee;
+
+    --transitionFast: .2s ease-in-out;
+    --transitionSlow: .3s ease-in-out
 }
 
 html {
@@ -37,7 +42,11 @@ p {
     border-radius: 10px;
     color: var(--fontLight);
     padding: 1em 3em;
-    transition: .3s ease-in-out;
+    transition: var(--transitionSlow);
+}
+
+.btn:hover {
+    transform: scale(1.1);
 }
 
 .row, .container, .cell {
