@@ -1,8 +1,5 @@
-
-
-
 /* Features section */
-.features-header__title {
+.content .features-header__title {
     color: var(--fontLight);
 }
 
@@ -141,17 +138,12 @@
 }
 
 /* Team section */
-.team__cards-box {
-    /* gap: 2em; */
-}
-
 .team__cards-box .cards-box__card {
     align-items: center;
     flex-basis: 33.33%;
     gap: 1em;
     padding: 1em 1em 10em 1em;
 }
-
 
 .card__avatar {
     width: 50%;

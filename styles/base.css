@@ -13,7 +13,7 @@
     --pricingBtnBg: #0ABCEB;
 
     --fontDark: #333;
-    --fontLight: #fff
+    --fontLight: #ddd;
 }
 
 html {
@@ -54,8 +54,8 @@ p {
     background-color: var(--featuresBg);
 }
 
-/* Pricing section */
-.row:nth-of-type(4) {
+/* Partners and pricing section */
+.row:nth-of-type(2), .row:nth-of-type(4) {
     background-color: var(--pricingBg);
 }
 
@@ -66,7 +66,7 @@ p {
 }
 
 .footer .container {
-    max-width: 100%;
+    width: 100%;
 }
 
 .cell {
