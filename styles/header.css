@@ -46,6 +46,7 @@
 .header__teaser {
     color: var(--fontLight);
     display: flex;
+    justify-content: space-around;
     gap: 3em;
     height: 55vh;
     position: relative;
@@ -85,17 +86,19 @@
 }
 
 .teaser__img-box {
-    flex-basis: 65%;
+    flex-basis: 50%;
 }
 
 .img-box__device-image {
     animation: deviceAppear 1s ease-in-out .3s both;
-    background-color: #fff;
+    background: top / contain no-repeat url('../images/screen.png'), #fff;
+    border: 20px solid #fff;
     border-radius: 20px;
+    height: 0;
     margin: 6em auto;
-    padding: 20px 20px 50px 20px;
+    padding-bottom: calc(4 / 6 * 100%);
     transform: translateX(300%) rotate(0deg) scale(1);
-    width: 90%;
+
 }
 
 @keyframes deviceAppear {
