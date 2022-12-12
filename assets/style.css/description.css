@@ -1,0 +1,27 @@
+.description {
+	display: flex;
+	justify-content: center;
+}
+
+.description__picture {
+	max-width: 45%;
+	display: flex;
+	justify-content: center;
+}
+
+.description__article {
+	max-width: 55%;
+}
+
+.description__img {
+	max-width: 90%;
+}
+
+.description__article h1 {
+	margin-top: 25px;
+	font-size: 26px;
+}
+
+.description__text {
+	margin-top: 25px;
+}

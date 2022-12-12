@@ -38,6 +38,22 @@
         rel="stylesheet"
         href="./assets/style.css/features.css"
     >
+    <link
+        rel="stylesheet"
+        href="./assets/style.css/description.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./assets/style.css/pricing.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./assets/style.css/team.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./assets/style.css/footer.css"
+    >
 </head>
 
 <body>
@@ -83,10 +99,10 @@
 
     <section class="features row">
         <div class="container">
-            <h3 class="feature__title">FEATURES</h3>
+            <h1 class="feature__title">FEATURES</h1>
         </div>
-        <article class="features__examples__container container">
-            <div class=" features__box cell">
+        <div class="features__examples__container container">
+            <article class=" features__box cell">
                 <div class="features__icon__container">
                     <img
                         class="features__icon"
@@ -96,8 +112,8 @@
                 </div>
                 <h5>FULLY RESPONSIVE</h5>
                 <p>Looks amazing on any device: smartphone, tablet, laptop, and desktop</p>
-            </div>
-            <div class="features__box cell">
+            </article>
+            <article class="features__box cell">
                 <div class="features__icon__container">
                     <img
                         class="features__icon"
@@ -106,9 +122,9 @@
                     >
                 </div>
                 <h5>CUSTOMIZABLE</h5>
-                <p>Change the colors, pictures or any of the sections to suit your needs</p>
-            </div>
-            <div class="features__box cell">
+                <p>Change the colors, pictures or any of the sections to suit your <br> needs</p>
+            </article>
+            <article class="features__box cell">
                 <div class="features__icon__container">
                     <img
                         class="features__icon"
@@ -118,8 +134,8 @@
                 </div>
                 <h5>SLICK AND BEAUTIFUL DESIGN</h5>
                 <p>Trendy and fresh design, fits any website.</p>
-            </div>
-        </article>
+            </article>
+            </>
     </section>
 
     <section class="logo__line row">
@@ -129,10 +145,154 @@
                 src="./images/logos.png"
                 alt="logos"
             >
-
         </div>
-
     </section>
+
+    <section class="description row">
+        <div class="description__picture cell">
+            <img
+                class="description__img"
+                src="./images/imac.png"
+                alt="computer"
+            >
+        </div>
+        <article class="description__article cell">
+            <h1>SIMPLE AND BEAUTIFUL</h1>
+            <p class="description__text">Use Nova theme for your next web project. It is <br> completely customizable,
+                so you can change any of <br> the
+                sections to fit your needs. Nova Theme is free for <br> any kind of use, personal and commercial. Have
+                fun <br>
+                and good luck!</p>
+        </article>
+    </section>
+
+    <section class="pricing row">
+        <div class="pricing__container container">
+            <h1 class="pricing__title">CHOOSE YOUR PRICING PLAN</h1>
+            <p class="pricing__subtitle">Pick any of our super affordable pricing plans.</p>
+        </div>
+        <div class="price__container container">
+            <article class="price__box box cell">
+                <h2>BASIC</h2>
+                <p>$15</p>
+                <p>per month</p>
+                <p class="price__description">Up to 7 Projects <br>
+                    7 Additional Developers
+                </p>
+                <button class="button button__price">Get started!</button>
+            </article>
+            <article class="price__box box--big cell">
+                <h2>AGENCY</h2>
+                <p>$55</p>
+                <p>per month</p>
+                <p class="price__description">Up to 25 Projects <br>
+                    2 Additional Developers <br>
+                    Unlimited support</p>
+                <button class="button button__price">Get started!</button>
+            </article>
+            <article class="price__box box cell">
+                <h2>PRO</h2>
+                <p>$75</p>
+                <p>per month</p>
+                <p class="price__description">Up to 25 Projects <br>
+                    2 Additional Developers <br>
+                    Unlimited support <br>
+                    1.5 GB Disk Space</p>
+                <button class="button button__price">Get started!</button>
+            </article>
+        </div>
+    </section>
+
+    <section class="team row">
+        <div class="container">
+            <h1 class="team__title">THE TEAM</h1>
+        </div>
+        <div class="team__container container">
+            <article class="team__box team__box--1 cell">
+                <div class="icon__container">
+                    <img
+                        class="team__icon"
+                        src="./images/cto.png"
+                        alt="cto"
+                    >
+                </div>
+                <h3>CTO</h3>
+                <p class="team__name">Johnny B Good</p>
+                <p class="team__function">The brains behind the whole operation</p>
+                <div class="social-media__container">
+                    <img
+                        class="social-media__icon"
+                        src="./images/twitter.svg"
+                        alt="twitter"
+                    >
+                    <img
+                        class="social-media__icon"
+                        src="./images/facebook.svg"
+                        alt="fb"
+                    >
+                </div>
+            </article>
+            <article class="team__box team__box--2 cell">
+                <div class="icon__container">
+                    <img
+                        class="team__icon"
+                        src="./images/ceo.png"
+                        alt="ceo"
+                    >
+                </div>
+                <h3>CEO</h3>
+                <p class="team__name">Roll Over Beethoven</p>
+                <p class="team__function">The one that puts it all together</p>
+                <div class="social-media__container">
+                    <img
+                        class="social-media__icon"
+                        src="./images/twitter.svg"
+                        alt="twitter"
+                    >
+                    <img
+                        class="social-media__icon"
+                        src="./images/facebook.svg"
+                        alt="fb"
+                    >
+                </div>
+            </article>
+            <article class="team__box team__box--3 cell">
+                <div class="icon__container">
+                    <img
+                        class="team__icon"
+                        src="./images/cfo.png"
+                        alt="cfo"
+                    >
+                </div>
+                <h3>CFO</h3>
+                <p class="team__name">Chuck Berry</p>
+                <p class="team__function">The guy with his hand on the wallet</p>
+                <div class="social-media__container">
+                    <img
+                        class="social-media__icon"
+                        src="./images/twitter.svg"
+                        alt="twitter"
+                    >
+                    <img
+                        class="social-media__icon"
+                        src="./images/facebook.svg"
+                        alt="fb"
+                    >
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer class="footer__row row">
+        <p>A free template by</p>
+        <div class="webscope__container">
+            <img
+                class="webscope__icon"
+                src="./images/webscope.svg"
+                alt="webscope"
+            >
+            <div>
+    </footer>
 
 </body>
 
