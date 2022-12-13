@@ -86,19 +86,15 @@
 }
 
 .teaser__img-box {
-    flex-basis: 50%;
-}
-
-.img-box__device-image {
     animation: deviceAppear 1s ease-in-out .3s both;
-    background: top / contain no-repeat url('../images/screen.png'), #fff;
+    background-color: #fff;
     border: 20px solid #fff;
     border-radius: 20px;
+    flex-basis: 50%;
     height: 0;
     margin: 6em auto;
-    padding-bottom: calc(4 / 6 * 100%);
+    padding-bottom: calc(550 / 830 * 50%);
     transform: translateX(300%) rotate(0deg) scale(1);
-
 }
 
 @keyframes deviceAppear {
