@@ -21,7 +21,8 @@
 	flex: 1;
 }
 
-.cell {
+.box,
+.box--big {
 	margin: 25 10;
 	min-height: 400px;
 }

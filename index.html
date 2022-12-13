@@ -23,7 +23,7 @@
     >
     <link
         rel="stylesheet"
-        href="./assets/style.css/logo__line.css"
+        href="./assets/style.css/logo-line.css"
     >
     <link
         rel="stylesheet"
@@ -59,22 +59,31 @@
 <body>
     <header class="header row">
         <div class="header__container container">
-            <div class="cell">
+            <div class="header__logo cell">
                 <img
                     src="./images/logo.svg"
                     alt="logo"
                 >
             </div>
-            <nav class="nav cell">
+            <nav class="cell">
                 <ul class="nav__list">
-                    <li class="nav__list__item cell">
-                        <a href="#">The Team</a>
+                    <li class="nav__item cell">
+                        <a
+                            class="nav__link"
+                            href="#"
+                        >The Team</a>
                     </li>
-                    <li class="nav__list__item cell">
-                        <a href="#">Pricing</a>
+                    <li class="nav__item cell">
+                        <a
+                            class="nav__link"
+                            href="#"
+                        >Pricing</a>
                     </li>
-                    <li class="nav__list__item cell">
-                        <a href="#">Features</a>
+                    <li class="nav__item cell">
+                        <a
+                            class="nav__link"
+                            href="#"
+                        >Features</a>
                     </li>
                 </ul>
             </nav>
@@ -86,7 +95,7 @@
                 <button class="button button__nav">Download FREE!</button>
             </article>
             <article class="ad__article--second">
-                <div class="ad__img__container">
+                <div class="img__container">
                     <img
                         class="ad__img"
                         src="./images/screen.png"
@@ -99,11 +108,11 @@
 
     <section class="features row">
         <div class="container">
-            <h1 class="feature__title">FEATURES</h1>
+            <h1 class="features__title">FEATURES</h1>
         </div>
-        <div class="features__examples__container container">
+        <div class="features__container container">
             <article class=" features__box cell">
-                <div class="features__icon__container">
+                <div class="icon__container">
                     <img
                         class="features__icon"
                         src="./images/responsive.svg"
@@ -114,7 +123,7 @@
                 <p>Looks amazing on any device: smartphone, tablet, laptop, and desktop</p>
             </article>
             <article class="features__box cell">
-                <div class="features__icon__container">
+                <div class="icon__container">
                     <img
                         class="features__icon"
                         src="./images/customizable.svg"
@@ -125,7 +134,7 @@
                 <p>Change the colors, pictures or any of the sections to suit your <br> needs</p>
             </article>
             <article class="features__box cell">
-                <div class="features__icon__container">
+                <div class="icon__container">
                     <img
                         class="features__icon"
                         src="./images/design.svg"
@@ -138,24 +147,20 @@
             </>
     </section>
 
-    <section class="logo__line row">
-        <div class="logo__line__container container">
-            <img
-                class="logo__line__icon"
-                src="./images/logos.png"
-                alt="logos"
-            >
-        </div>
+    <section class="logo row">
+        <img
+            class="logo__icon"
+            src="./images/logos.png"
+            alt="logos"
+        >
     </section>
 
     <section class="description row">
-        <div class="description__picture cell">
-            <img
-                class="description__img"
-                src="./images/imac.png"
-                alt="computer"
-            >
-        </div>
+        <img
+            class="description__img"
+            src="./images/imac.png"
+            alt="computer"
+        >
         <article class="description__article cell">
             <h1>SIMPLE AND BEAUTIFUL</h1>
             <p class="description__text">Use Nova theme for your next web project. It is <br> completely customizable,
@@ -203,7 +208,7 @@
         </div>
     </section>
 
-    <section class="team row">
+    <section class="row">
         <div class="container">
             <h1 class="team__title">THE TEAM</h1>
         </div>

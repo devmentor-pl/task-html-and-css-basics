@@ -3,33 +3,28 @@
 	color: white;
 }
 
-.feature__title {
+.features__title {
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 50px;
 	font-size: 26px;
 }
 
-.features__examples__container {
+.features__container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.features__box p {
-	font-size: 12px;
-	text-align: center;
-}
-
 .features__box {
-	flex-basis: 22%;
+	max-width: 22%;
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
 }
 
-.features__icon__container {
+.icon__container {
 	min-width: 60px;
 	min-height: 60px;
 	position: relative;
@@ -56,4 +51,6 @@
 
 .features__box p {
 	margin-bottom: 80px;
+	font-size: 12px;
+	text-align: center;
 }

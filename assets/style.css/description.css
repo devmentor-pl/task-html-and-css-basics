@@ -1,12 +1,7 @@
 .description {
 	display: flex;
 	justify-content: center;
-}
-
-.description__picture {
-	max-width: 45%;
-	display: flex;
-	justify-content: center;
+	column-gap: 150px;
 }
 
 .description__article {
@@ -14,7 +9,7 @@
 }
 
 .description__img {
-	max-width: 90%;
+	max-width: 35%;
 }
 
 .description__article h1 {
