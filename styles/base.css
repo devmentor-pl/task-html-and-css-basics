@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+:root {
+    /* fonts */
+    font-family: "Montserrat", sans-serif;
+    /* colors */
+    --headerBg: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    --featuresBg: #000;
+    --pricingBg: #F8F9F9;
+    --footerBg: #464646;
+
+    --headerBtnBg: #08d36d;
+    --headerBtnBgHover: #02e674;
+    --pricingBtnBg: #0ABCEB;
+    --pricingBtnBgHover: #16cbfd;
+
+    --fontDark: #333;
+    --fontLight: #eee;
+
+    /* transitions */
+    --transitionFast: .2s ease-in-out;
+    --transitionSlow: .3s ease-in-out
+}
+
+html {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    color: var(--fontLight);
+    padding: 1em 3em;
+    transition: var(--transitionSlow);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.row {
+    border-color: green;
+    padding: 4em 4em;
+}
+
+/* Features section */
+.row:nth-of-type(1) {
+    background-color: var(--featuresBg);
+}
+
+/* Partners and pricing section */
+.row:nth-of-type(2), .row:nth-of-type(4) {
+    background-color: var(--pricingBg);
+}
+
+.container {
+    border-color: blue;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.footer .container {
+    width: 100%;
+}
+
+.cell {
+    border-color: orange;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+}
+
+.content__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__header h2, .description__title, .team__title {
+    color: var(--fontDark);
+    font-size: 3rem;
+}
