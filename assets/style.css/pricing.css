@@ -1,3 +1,7 @@
+.pricing {
+	margin-bottom: 30px;
+}
+
 .pricing__container {
 	text-align: center;
 }
@@ -27,19 +31,29 @@
 	min-height: 400px;
 }
 
-h2 {
+.box__list {
+	margin-bottom: 60px;
+}
+
+.box__title {
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
 
-h2 + p {
+.box__item--bold {
 	font-weight: 900;
-	font-size: xx-large;
+	font-size: 55px;
 	margin-bottom: 20px;
 }
 
-.price__description {
+.box__item.description--1 {
 	margin-top: 50px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+.box__item.description--2 {
 	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 700;
@@ -47,7 +61,7 @@ h2 + p {
 
 .button__price {
 	margin-top: auto;
-	background-color: rgba(10, 188, 235);
+	background-color: var(--color--button-blue);
 	margin-bottom: 20px;
 }
 

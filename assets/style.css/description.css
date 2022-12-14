@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: center;
 	column-gap: 150px;
+	margin-top: 30px;
 }
 
 .description__article {
@@ -12,7 +13,7 @@
 	max-width: 35%;
 }
 
-.description__article h1 {
+.description__article .description__title {
 	margin-top: 25px;
 	font-size: 26px;
 }

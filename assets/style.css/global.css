@@ -2,10 +2,23 @@ body {
 	font-family: "Montserrat", sans-serif;
 }
 
-.row,
+:root {
+	--color-dark-background: rgba(0 0 0);
+	--color-light-background: rgba(250, 250, 250);
+	--color-footer-background: rgba(70, 70, 70);
+	--color--radiant-1: rgb(194, 74, 126);
+	--color--radiant-2: rgb(105, 86, 235);
+	--color--button-green: rgba(37, 241, 139);
+	--color--button-blue: rgba(10, 188, 235);
+}
+
 .container,
 .cell {
 	margin: 5px;
+	padding: 5px;
+}
+
+.row {
 	padding: 5px;
 }
 

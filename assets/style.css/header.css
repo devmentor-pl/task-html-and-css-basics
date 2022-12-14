@@ -1,5 +1,5 @@
 .header {
-	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+	background: radial-gradient(var(--color--radiant-1), var(--color--radiant-2));
 }
 
 .header__container {
@@ -39,31 +39,31 @@
 
 .ad__container,
 .nav__item .nav__link {
-	color: white;
+	color: var(--color-light-background);
 }
 
-.ad__article--first {
+.ad__article--text {
 	padding-left: 15px;
 }
 
-.ad__article--first h2 {
+.ad__article--text h2 {
 	font-size: 40px;
 	font-weight: 900;
 	margin-top: 60px;
 }
 
-.ad__article--first p {
+.ad__article--text p {
 	font-size: 16px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 .button__nav {
-	background-color: rgba(37, 241, 139);
+	background-color: var(--color--button-green);
 	margin-top: 10px;
 }
 
-.ad__article--second {
+.ad__article--img {
 	display: flex;
 	justify-content: end;
 	align-items: center;
@@ -78,7 +78,8 @@
 
 .ad__img {
 	object-fit: contain;
-	border: 20px solid white;
+	border: 20px solid var(--color-light-background);
 	border-radius: 5px;
 	rotate: -5deg;
+	background-color: var(--color-light-background);
 }

@@ -33,7 +33,6 @@
         rel="stylesheet"
         href="./assets/style.css/header.css"
     >
-    >
     <link
         rel="stylesheet"
         href="./assets/style.css/features.css"
@@ -65,7 +64,7 @@
                     alt="logo"
                 >
             </div>
-            <nav class="cell">
+            <nav class="nav cell">
                 <ul class="nav__list">
                     <li class="nav__item cell">
                         <a
@@ -89,29 +88,29 @@
             </nav>
         </div>
         <section class="ad__container container">
-            <article class="ad__article--first">
+            <article class="ad__article--text">
                 <h2>Beautiful Free Nova <br> Template</h2>
                 <p>A top notch premium quality <br> template for your next web <br> project</p>
                 <button class="button button__nav">Download FREE!</button>
             </article>
-            <article class="ad__article--second">
-                <div class="img__container">
+            <article class="ad__article--img">
+                <figure class="img__container">
                     <img
                         class="ad__img"
                         src="./images/screen.png"
                         alt="screen"
                     >
-                </div>
+                </figure>
             </article>
         </section>
     </header>
 
     <section class="features row">
-        <div class="container">
+        <header class="container">
             <h1 class="features__title">FEATURES</h1>
-        </div>
-        <div class="features__container container">
-            <article class=" features__box cell">
+        </header>
+        <ul class="features__container container">
+            <li class=" features__box cell">
                 <div class="icon__container">
                     <img
                         class="features__icon"
@@ -119,10 +118,10 @@
                         alt="responsive"
                     >
                 </div>
-                <h5>FULLY RESPONSIVE</h5>
-                <p>Looks amazing on any device: smartphone, tablet, laptop, and desktop</p>
-            </article>
-            <article class="features__box cell">
+                <h5 class="features__box--title">FULLY RESPONSIVE</h5>
+                <p class="features__box--text">Looks amazing on any device: smartphone, tablet, laptop, and desktop</p>
+            </li>
+            <li class="features__box cell">
                 <div class="icon__container">
                     <img
                         class="features__icon"
@@ -130,10 +129,11 @@
                         alt="customizable"
                     >
                 </div>
-                <h5>CUSTOMIZABLE</h5>
-                <p>Change the colors, pictures or any of the sections to suit your <br> needs</p>
-            </article>
-            <article class="features__box cell">
+                <h5 class="features__box--title">CUSTOMIZABLE</h5>
+                <p class="features__box--text">Change the colors, pictures or any of the sections to suit your <br>
+                    needs</p>
+            </li>
+            <li class="features__box cell">
                 <div class="icon__container">
                     <img
                         class="features__icon"
@@ -141,19 +141,19 @@
                         alt="customizable"
                     >
                 </div>
-                <h5>SLICK AND BEAUTIFUL DESIGN</h5>
-                <p>Trendy and fresh design, fits any website.</p>
-            </article>
-            </>
+                <h5 class="features__box--title">SLICK AND BEAUTIFUL DESIGN</h5>
+                <p class="features__box--text">Trendy and fresh design, fits any website.</p>
+            </li>
+        </ul>
     </section>
 
-    <section class="logo row">
+    <aside class="logo row">
         <img
             class="logo__icon"
             src="./images/logos.png"
             alt="logos"
         >
-    </section>
+    </aside>
 
     <section class="description row">
         <img
@@ -162,7 +162,7 @@
             alt="computer"
         >
         <article class="description__article cell">
-            <h1>SIMPLE AND BEAUTIFUL</h1>
+            <h1 class="description__title">SIMPLE AND BEAUTIFUL</h1>
             <p class="description__text">Use Nova theme for your next web project. It is <br> completely customizable,
                 so you can change any of <br> the
                 sections to fit your needs. Nova Theme is free for <br> any kind of use, personal and commercial. Have
@@ -172,48 +172,54 @@
     </section>
 
     <section class="pricing row">
-        <div class="pricing__container container">
+        <header class="pricing__container container">
             <h1 class="pricing__title">CHOOSE YOUR PRICING PLAN</h1>
             <p class="pricing__subtitle">Pick any of our super affordable pricing plans.</p>
-        </div>
-        <div class="price__container container">
-            <article class="price__box box cell">
-                <h2>BASIC</h2>
-                <p>$15</p>
-                <p>per month</p>
-                <p class="price__description">Up to 7 Projects <br>
-                    7 Additional Developers
-                </p>
+        </header>
+        <ul class="price__container container">
+            <li class="price__box box cell">
+                <h2 class="box__title">BASIC</h2>
+                <ul class="box__list">
+                    <li class="box__item box__item--bold">$15</li>
+                    <li class="box__item">per month</li>
+                    <li class="box__item description--1">Up to 7 Projects</li>
+                    <li class="box__item description--2">7 Additional Developers</li>
+                </ul>
                 <button class="button button__price">Get started!</button>
-            </article>
-            <article class="price__box box--big cell">
-                <h2>AGENCY</h2>
-                <p>$55</p>
-                <p>per month</p>
-                <p class="price__description">Up to 25 Projects <br>
-                    2 Additional Developers <br>
-                    Unlimited support</p>
+            </li>
+            <li class="price__box box cell">
+                <h2 class="box__title">AGENCY</h2>
+                <ul class="box__list">
+                    <li class="box__item box__item--bold">$55</li>
+                    <li class="box__item">per month</li>
+                    <li class="box__item description--1">Up to 25 Projects</li>
+                    <li class="box__item description--2">2 Additional Developers</li>
+                    <li class="box__item description--2">Ulimited support</li>
+                </ul>
                 <button class="button button__price">Get started!</button>
-            </article>
-            <article class="price__box box cell">
-                <h2>PRO</h2>
-                <p>$75</p>
-                <p>per month</p>
-                <p class="price__description">Up to 25 Projects <br>
-                    2 Additional Developers <br>
-                    Unlimited support <br>
-                    1.5 GB Disk Space</p>
+            </li>
+            <li class="price__box box cell">
+                <h2 class="box__title">PRO</h2>
+                <ul class="box__list">
+                    <li class="box__item box__item--bold">$75</li>
+                    <li class="box__item">per month</li>
+                    <li class="box__item description--1">Up to 25 Project</li>
+                    <li class="box__item description--2">2 Additional Developers</li>
+
+                    <li class="box__item description--2">Unlimited support</li>
+                    <li class="box__item description--2">1.5 GB Disk Space</li>
+                </ul>
                 <button class="button button__price">Get started!</button>
-            </article>
-        </div>
+            </li>
+        </ul>
     </section>
 
     <section class="row">
-        <div class="container">
+        <header class="container">
             <h1 class="team__title">THE TEAM</h1>
-        </div>
-        <div class="team__container container">
-            <article class="team__box team__box--1 cell">
+        </header>
+        <ul class="team__container container">
+            <li class="team__box team__box--1 cell">
                 <div class="icon__container">
                     <img
                         class="team__icon"
@@ -236,8 +242,8 @@
                         alt="fb"
                     >
                 </div>
-            </article>
-            <article class="team__box team__box--2 cell">
+            </li>
+            <li class="team__box team__box--2 cell">
                 <div class="icon__container">
                     <img
                         class="team__icon"
@@ -260,8 +266,8 @@
                         alt="fb"
                     >
                 </div>
-            </article>
-            <article class="team__box team__box--3 cell">
+            </li>
+            <li class="team__box team__box--3 cell">
                 <div class="icon__container">
                     <img
                         class="team__icon"
@@ -284,12 +290,12 @@
                         alt="fb"
                     >
                 </div>
-            </article>
-        </div>
+            </li>
+        </ul>
     </section>
 
     <footer class="footer__row row">
-        <p>A free template by</p>
+        <p class="footer__text">A free template by</p>
         <div class="webscope__container">
             <img
                 class="webscope__icon"

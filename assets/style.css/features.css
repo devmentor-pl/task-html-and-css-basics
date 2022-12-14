@@ -1,6 +1,6 @@
 .features {
-	background-color: black;
-	color: white;
+	background-color: var(--color-dark-background);
+	color: var(--color-light-background);
 }
 
 .features__title {
@@ -28,9 +28,9 @@
 	min-width: 60px;
 	min-height: 60px;
 	position: relative;
-	border: 1px solid white;
+	border: 1px solid var(--color-light-background);
 	margin-bottom: 20px;
-	background-color: white;
+	background-color: var(--color-light-background);
 	border-radius: 50%;
 }
 
@@ -42,14 +42,14 @@
 	max-width: 30%;
 }
 
-.features__box h5 {
+.features__box .features__box--title {
 	font-weight: 700;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	text-align: center;
 }
 
-.features__box p {
+.features__box .features__box--text {
 	margin-bottom: 80px;
 	font-size: 12px;
 	text-align: center;
