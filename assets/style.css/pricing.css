@@ -46,14 +46,16 @@
 	margin-bottom: 20px;
 }
 
-.box__item.description--1 {
+.box__item.description--projects {
 	margin-top: 50px;
 	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 700;
 }
 
-.box__item.description--2 {
+.box__item.description--developers,
+.box__item.description--support,
+.box__item.description--disk {
 	font-size: 16px;
 	line-height: 1.5;
 	font-weight: 700;
