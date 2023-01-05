@@ -2,6 +2,7 @@
 	min-height: 800px;
 	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
+
 .header__container {
 	height: 100px;
 	display: flex;
@@ -38,8 +39,9 @@
 	width: 40%;
 	color: var(--color-primary);
 }
-.content__picture {
-	width: 60%;
+
+.content__title {
+	font-size: 2em;
 }
 
 .content__title,
@@ -60,6 +62,10 @@
 
 .content__btn:hover {
 	background-color: #1cac64;
+}
+
+.content__picture {
+	width: 60%;
 }
 
 .content__hero {
