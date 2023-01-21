@@ -17,7 +17,7 @@
     width: 100%;
     /* max-width: 1300px; */
     margin: 0 auto;
-    height: 100vh;
+    height: 90vh;
     /* border: 2px solid blue; */
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
@@ -49,7 +49,7 @@
 .nav__li {
     flex-basis: 25%;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     /* border: 2px solid blue; */
     color: white;
