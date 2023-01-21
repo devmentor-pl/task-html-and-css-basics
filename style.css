@@ -159,6 +159,7 @@
     flex-direction: column;
     /* border: 2px solid yellow; */
     flex-basis: 20%;
+    margin-bottom: 100px;
     text-align: center;
     color: white;
 }
@@ -167,7 +168,6 @@
     font-size: 17px;
     /* border: 1px solid yellow; */
 }
-.features__describe{}
 
 .features__icons{
     margin: 10px auto 30px auto;
@@ -185,5 +185,19 @@
     position: absolute;
     color: black;
     font-size: 32px;
-
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 80px;
+    border: 2px solid red;
+}
+.banner__img {
+    /* display: block; */
+    /* width: 50%; */
+    border: 1px solid green;
 }
