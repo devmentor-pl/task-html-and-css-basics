@@ -191,13 +191,13 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1300px;
+    
     margin: 0 auto;
     height: 80px;
-    border: 2px solid red;
+    background-color: #F9FAFA;
+
 }
 .banner__img {
-    /* display: block; */
-    /* width: 50%; */
-    border: 1px solid green;
+    max-width: 1300px;
+    /* border: 1px solid green; */
 }
