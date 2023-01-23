@@ -259,3 +259,114 @@
     color: #333333;
     font-weight: 200;
 }
+
+                    /* PRICE SECTION */
+
+.plan-section {
+    display: flex;
+    /* position: relative; */
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 60px;
+    background-color: #F8F9F9;
+    /* border: 1px solid blueviolet; */
+}         
+.plan-section__title{
+    font-size: 30px;
+    width: 82.5%;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    /* border: 2px solid red; */
+    color: #333333;
+    font-weight: 200;
+}
+.plan-section__description{
+    font-size: 18px;
+    width: 82.5%;
+    margin: 0 auto;
+    text-align: center;
+    color: #808080;
+    font-weight: 200;
+    /* border: 2px solid green; */
+}
+.plan-section__container{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 80px; */
+    width: 82.5%;
+    margin: 80px auto 0 auto;
+}
+.plan-section__part {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-basis: 25%;
+    /* wysokosc elementu */
+    height: 380px;
+    padding-top: 36px;
+    /* border: 2px solid #25F18B; */
+    /* position: relative; */
+    /* align-self: flex-end; */
+}
+.plan-section__program{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333333;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+.plan-section__price{
+    font-size: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.plan-section__month{
+    margin-top: 6px;
+    margin-bottom: 35px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+}
+.plan-section__ul{
+    
+    text-align: center;
+    list-style: none;
+    /* border: 2px solid red; */
+    margin-bottom: 30px;
+}
+
+.plan-section__li{
+    font-size: 14px;
+    font-weight: 200px;
+}
+.plan-section__icons{
+    font-size: 14px;
+    margin-right: 20px;
+    color: #3aeb8c;
+    font-weight: 200;
+    
+}
+.plan-section__start{
+    /* display: flex; */
+    position: absolute;
+    align-items: flex-end;
+    font-size: 15px;
+    padding: 18px;
+    margin: 0 auto;
+    width: 50%;
+    color: white;
+    background-color: #0ABCEB;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    display: block;
+    align-self: center;
+    bottom: 10%;
+    cursor: pointer;
+}
+
+.plan-section__part---box-shadow {
+    box-shadow: 0px 8.7px 40px rgb(99 117 138)
+}
+
