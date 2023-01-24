@@ -389,7 +389,6 @@
 }
 .team-section__container{
     display: flex;
-    /* box-sizing: border-box; */
     justify-content: center;
     align-self: center;
     margin: 80px 0;
@@ -426,17 +425,15 @@
     font-size: 14px;
     font-weight: 200;
 }
-.team-section__icons{
-    /* border: 2px solid red; */
-}
+
 .team-section__icon {
     margin: 19px 7px 0 7px;
     font-size: 14px;
     cursor: pointer;
     color: #444444;
-    
-    /* border: 1px solid blue; */
-    /* display: block */
 }
+
+                                        /* FOOTER */
+
 
 
