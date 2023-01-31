@@ -10,7 +10,7 @@
     margin: 0 auto;
     width: 100%;
     /* height: 200vh; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 
 }
 .header {
@@ -41,16 +41,18 @@
 }
 .nav__ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
     flex-basis: 32%;
-    /* border: 2px solid yellowgreen ; */
+    margin-right: 80px;
+    /* border: 2px solid yellowgreen; */
 }
 .nav__li {
     flex-basis: 25%;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 18px;
     text-align: center;
+    margin: 0 12px;
     /* border: 2px solid blue; */
     color: white;
     list-style: none;
@@ -131,13 +133,14 @@
     flex-direction: column;   
     width: 100%;
     background-color: black;
-    border: 2px solid black;
+    /* border: 2px solid yellow; */
 }
 .features-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    /* zmiana  */
+    justify-content: center;
     margin: 0 auto;
     width: 82.5%;
     max-width: 1300px;
@@ -149,10 +152,11 @@
     justify-content: center;
     /* border: 1px solid orange; */
     width: 100%;
-    margin: 70px auto 120px auto;
+    margin: 60px auto 110px auto;
     border: 2px solid black;
     font-weight: 200;
     letter-spacing: 2px;
+    font-size: 30px;
     color: white;
 }
 .features__section {
@@ -160,7 +164,9 @@
     flex-direction: column;
     /* border: 2px solid yellow; */
     flex-basis: 20%;
-    margin-bottom: 100px;
+    /* dodalem margines */
+    margin: 0 25px;
+    margin-bottom: 120px;
     text-align: center;
     color: white;
 }
@@ -169,19 +175,21 @@
     font-size: 14px;
     color: #ffffff;
     width: 100%;
+    font-weight: 600;
     /* border: 1px solid yellow; */
 }
 .features__describe{
     font-size: 14px;
+    font-weight: 200;
     color: #ffffff;
 
 }
 
 .features__icons{
     margin: 10px auto 30px auto;
-    width: 80px;
+    width: 75px;
     position: relative;
-    height: 80px;
+    height: 75px;
     border: 2px solid white;
     border-radius: 50%;
     background-color: white;
