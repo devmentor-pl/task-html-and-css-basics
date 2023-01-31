@@ -41,7 +41,7 @@
 }
 .nav__ul {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     width: 100%;
     flex-basis: 32%;
     margin-right: 80px;
@@ -82,27 +82,38 @@
 
 .header__container--img {
     position: relative;
-    width: 77%;
-    height: 65%;
-    left: 14%;
+    width: 67%;
+    height: 75%;
+    left: 12%;
     top: 5%;
     transform: rotate(-6deg);
-    border-radius: 5%;
-    background-image: url(images/screen.png);
+    border-radius: 25px;
+    /* background-image: url(images/screen.png);
     background-position:top;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: white; */
     /* border: 4px solid green; */
+    background-color: white;
+}
+.header__container--picture {
+    width: 95%;
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    transform: rotate(-0.2deg);
+    border-radius: 15px;
 }
 
 .header__container1 {
     display: flex;
     flex-direction: column;
     margin-top: 90px;
+    margin-left: 60px;
+    /* border: 2px solid red; */
 }
 .header__title {
-    font-size: 44px;
+    font-size: 40px;
     color: white;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -111,21 +122,23 @@
 .header__describe {
     margin-top: 27px;
     width: 65%;
-    font-size: 24px;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 200;
     /* border: 2px solid red; */
     color: white;
 }
 .header__button-download {
-    margin-top: 60px;
-    width: 47%;
-    padding: 20px 35px;
-    font-size: 16px;
+    margin-top: 35px;
+    width: 42%;
+    padding: 22px 30px;
+    font-size: 14px;
     border-radius: 10px;
     color: white;
     background-color: #25F18B;
     border: 1px solid #25F18B;
     letter-spacing: 1px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
 }
 .features {
