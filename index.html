@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coderoad_task01</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c09818cd34.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- header nav + hero  -->
+
+    <header id="header" class="header">
+        <div class="header-background">
+            <img src="./images/strips.png" class="strips" alt="strips background">
+        </div>
+
+        <nav class="nav container" id="nav">
+            <a href="#" class="nav__logo">
+                <img src="./images/logo.svg" alt="logo" class="nav__logo-img">
+            </a>
+            <div class="nav__menu" id="navMenu">
+                <i class="fa-solid fa-xmark nav__icon-close" onclick="hideMenu()"></i>
+                <ul class="nav__items">
+                    <li class="nav__item"><a href="#team" class="nav__link">The team </a></li>
+                    <li class="nav__item"><a href="#pricing" class="nav__link">Pricing</a></li>
+                    <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars nav__icon-open" onclick="showMenu()"></i>
+
+        </nav>
+
+        <section id="hero" class="hero container ">
+            <div class="hero__content">
+                <h1 class="hero__header">Beautiful Free Nova template </h1>
+                <p class="hero__text">A top notch premium quality template for your next web project.</p>
+                <button class="btn">Download FREE</button>
+            </div>
+
+            <div class="hero__box">
+                <img src="./images/screen.png" alt="hero image" class="hero__img">
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+
+        <!-- features -->
+
+        <section class="features " id="features">
+            <div class="container">
+                <h2 class="features__header">Features</h2>
+                <ul class="features__items">
+                    <li class="features__item">
+                        <div class="features__icon-box">
+                            <img src="./images/responsive.svg" alt="responsive" class="features__icon"></div>
+
+                        <h5 class="features__title">
+                            Fully responsive
+                        </h5>
+                        <p class="features__text">Looks amazing on any device: smartphone, tablet, laptop and
+                            desktop</p>
+
+
+                    </li>
+                    <li class="features__item">
+                        <div class="features__icon-box">
+                            <img src="./images/customizable.svg" alt="customizable" class="features__icon"></div>
+                        <h5 class="features__title">
+                            Customizable
+                        </h5>
+                        <p class="features__text">Change the colors, pictures or any of the sections to suit your
+                            needs.</p>
+
+
+                    </li>
+                    <li class="features__item">
+                        <div class="features__icon-box">
+                            <img src="./images/design.svg" alt="design" class="features__icon"></div>
+                        <h5 class="features__title">
+                            Slick and beautiful design
+                        </h5>
+                        <p class="features__text">Trendy and fresh design, fits any website.</p>
+
+
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- logos -->
+
+        <section class="logos" id="logos">
+            <div class="container logos-container">
+                <img src="./images/logos.png" alt="" class="logos__img">
+            </div>
+        </section>
+
+        <!-- aside -->
+        <aside class="media" id="media">
+            <div class="container media-container">
+                <div class="media__box">
+                    <img src="./images/imac.png" alt="media" class="media__img"></div>
+
+                <div class="media__content">
+                    <h2 class="media__title">Simple and beautiful</h2>
+                    <p class="media__text">Use Nova theme for your next web project. It is completely customizable so
+                        you
+                        can
+                        change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal
+                        and
+                        commercial. Have fun and good luck!</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- pricing -->
+        <section class="pricelist" id="pricing">
+            <div class="container">
+                <h2 class="pricelist__heading">Choose your pricing</h2>
+                <h4 class="pricelist__subheading">Pick any of our super affordable pricing plans</h4>
+
+                <ul class="pricelist__items">
+                    <ul class="pricelist__item">
+                        <div class="pricelist-box">
+                            <h3 class="pricelist__title">Basic</h3>
+                            <h4 class="pricelist__price">$15</h4>
+                            <h5 class="pricelist__subtitle">per month</h5>
+                            <ul class="pricelist__features">
+                                <li class="pricelist__feature">Up to 7 Projects</li>
+                                <li class="pricelist__feature">2 Additional Developers</li>
+
+                            </ul>
+                        </div>
+                        <button class="btn btn--pricelist">Get started</button>
+                    </ul>
+
+                    <ul class="pricelist__item">
+                        <div class="pricelist-box">
+                            <h3 class="pricelist__title">Agency</h3>
+                            <h4 class="pricelist__price">$55</h4>
+                            <h5 class="pricelist__subtitle">per month</h5>
+                            <ul class="pricelist__features">
+                                <li class="pricelist__feature">Up to 25 Projects</li>
+                                <li class="pricelist__feature">2 Additional Developers</li>
+                                <li class="pricelist__feature">Unlimited Support</li>
+
+                            </ul>
+                        </div>
+                        <button class="btn btn--pricelist">Get started</button>
+                    </ul>
+
+                    <ul class="pricelist__item">
+                        <div class="pricelist-box">
+                            <h3 class="pricelist__title">Pro</h3>
+                            <h4 class="pricelist__price">$75</h4>
+                            <h5 class="pricelist__subtitle">per month</h5>
+                            <ul class="pricelist__features">
+                                <li class="pricelist__feature">Up to 25 Projects</li>
+                                <li class="pricelist__feature">2 Additional Developers</li>
+                                <li class="pricelist__feature">Unlimited Support</li>
+                                <li class="pricelist__feature">1.5GB Disk Space</li>
+                            </ul>
+                        </div>
+                        <button class="btn btn--pricelist">Get started</button>
+                    </ul>
+                </ul>
+
+
+            </div>
+        </section>
+
+        <!-- team  -->
+        <section class="team" id="team">
+            <div class="container">
+                <h2 class="team__header">The Team</h2>
+                <ul class="team__items">
+                    <li class="team__item">
+                        <img src="./images/cto.png" alt="dto" class="team__avatar">
+                        <h4 class="taam__role">CTO</h4>
+                        <h5 class="team__name">Johnny B Good</h5>
+                        <p class="team__desc">The brains behind the whole operation</p>
+                        <ul class="team__socials">
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-twitter.svg" alt="social twitter"
+                                        class="team__social-img"></a>
+                            </li>
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-facebook.svg" alt="facebook social"
+                                        class="team__social-img"></a>
+                            </li>
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-google.svg" alt="social google"
+                                        class="team__social-img"></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/ceo.png" alt="ceo" class="team__avatar">
+                        <h4 class="taam__role">CEO</h4>
+                        <h5 class="team__name">Roll Over Beethoven</h5>
+                        <p class="team__desc">The one that puts it all together</p>
+                        <ul class="team__socials">
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-twitter.svg" alt="social twitter"
+                                        class="team__social-img"></a>
+                            </li>
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-facebook.svg" alt="facebook social"
+                                        class="team__social-img"></a>
+                            </li>
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-google.svg" alt="social google"
+                                        class="team__social-img"></a>
+                            </li>
+                        </ul>
+
+                    </li>
+                    <li class="team__item">
+                        <img src="./images/cfo.png" alt="cfo" class="team__avatar">
+                        <h4 class="taam__role">CFO</h4>
+                        <h5 class="team__name">Chuck Berry</h5>
+                        <p class="team__desc">The guy with his hand on the walle</p>
+                        <ul class="team__socials">
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-twitter.svg" alt="social twitter"
+                                        class="team__social-img"></a>
+                            </li>
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-facebook.svg" alt="facebook social"
+                                        class="team__social-img"></a>
+                            </li>
+                            <li class="team__social">
+                                <a href="#" class="team__link">
+                                    <img src="./images/team-google.svg" alt="social google"
+                                        class="team__social-img"></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- form  -->
+        <section class="form" id="form">
+            <div class="container">
+                <h3 class="form__title">Download FREE!</h3>
+                <h4 class="form__subtitle">Take it for a ride for any of your projects!</h4>
+
+                <form action="" class="form__group">
+                    <input type="email" class="form__email email " name="email" id="email"
+                        placeholder="Enter your email">
+                    <button type="submit" class="btn btn--submit">Download</button>
+                </form>
+
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="footer" id="footer">
+            <div class="container footer-container">
+
+                <span class="footer__note">A free template by </span>
+                <img src="./images/webscope.svg" alt="webscope">
+
+                <div class="footer__socials">
+                    <a href="#" class="footer__social"><img src="./images/twitter.svg" alt="twitter"></a>
+                    <a href="#" class="footer__social"><img src="./images/facebook.svg" alt="facebook"></a>
+                </div>
+
+            </div>
+        </footer>
+    </main>
+
+    <!-- ----- toggle menu ------ -->
+    <script>
+        var navMenu = document.getElementById('navMenu');
+
+        function showMenu() {
+            navMenu.style.right = "0";
+        }
+
+        function hideMenu() {
+            navMenu.style.right = "-300px";
+        }
+    </script>
+
+</body>
+
+</html>
