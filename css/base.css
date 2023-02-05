@@ -77,3 +77,59 @@ a:hover {
 }
 
 /* END OF NAV */
+
+/* HERO */
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+.hero__text {
+    min-height: 10rem;
+    color: white;
+    flex-basis: 40%;
+    padding: 3rem 3rem 0 0;
+}
+
+.hero__header {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+}
+
+.hero__paragraph {
+    padding-bottom: 3rem;
+}
+
+.hero__graphic {
+    padding: 1.5rem;
+    flex-basis: 55%;
+}
+
+.hero-img {
+    border: 13px solid white;
+    border-radius: 30px;
+    background-color: white;
+    transform: rotate(-5deg);
+}
+
+.button {
+    min-width: 150px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #45da83;
+}
+
+/* END OF HERO */
