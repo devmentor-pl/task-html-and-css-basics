@@ -346,3 +346,17 @@ a:hover {
 }
 
 /* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    background-color: #464646;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* END OF FOOTER */
