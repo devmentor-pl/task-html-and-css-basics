@@ -133,3 +133,63 @@ a:hover {
 }
 
 /* END OF HERO */
+
+/* FEATURES */
+
+.features {
+    min-height: 28rem;
+    background-color: black;
+}
+
+.features__heading {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.features__content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.features__text {
+    color: white;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.features__icon {
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
+    border-radius: 50%;
+}
+
+.feature {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.feature__description {
+    padding-bottom: 5rem;
+}
+
+/* END OF FEATURES */
+
+/* ICONS */
+
+.icons {
+    background-color: white;
+    display: flex;
+}
+
+/* END OF ICONS */
