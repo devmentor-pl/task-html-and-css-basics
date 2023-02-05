@@ -37,3 +37,43 @@ a:hover {
 }
 
 /* END OF COMMON */
+
+.front {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    min-height: 45rem;
+}
+
+/* NAV */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.nav__logo {
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__menu {
+    min-width: 30%;
+}
+
+.nav__list {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list__item {
+    font-weight: bold;
+}
+
+/* END OF NAV */
