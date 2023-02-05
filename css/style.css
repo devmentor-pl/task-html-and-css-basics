@@ -1,0 +1,362 @@
+/* COMMON */
+
+html, body {
+    font-family: Montserrat, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.row {
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+.container {
+    max-width: 1150px;
+    /* border: 3px solid blue; */
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* .cell {
+    border: 1px solid orange;
+} */
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(226, 226, 226);
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* END OF COMMON */
+
+.front {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    min-height: 45rem;
+}
+
+/* NAV */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.nav__logo {
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__menu {
+    min-width: 30%;
+}
+
+.nav__list {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list__item {
+    font-weight: bold;
+}
+
+/* END OF NAV */
+
+/* HERO */
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+.hero__text {
+    min-height: 10rem;
+    color: white;
+    flex-basis: 40%;
+    padding: 3rem 3rem 0 0;
+}
+
+.hero__header {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    font-weight: bold;
+}
+
+.hero__paragraph {
+    padding-bottom: 3rem;
+}
+
+.hero__graphic {
+    padding: 1.5rem;
+    flex-basis: 55%;
+}
+
+.hero-img {
+    border: 13px solid white;
+    border-radius: 30px;
+    background-color: white;
+    transform: rotate(-5deg);
+}
+
+.button {
+    min-width: 150px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #45da83;
+}
+
+/* END OF HERO */
+
+/* FEATURES */
+
+.features {
+    min-height: 28rem;
+    background-color: black;
+}
+
+.features__heading {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.features__content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.features__text {
+    color: white;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.features__icon {
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
+    border-radius: 50%;
+}
+
+.feature {
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.feature__description {
+    padding-bottom: 5rem;
+}
+
+/* END OF FEATURES */
+
+/* ICONS */
+
+.icons {
+    background-color: white;
+    display: flex;
+}
+
+/* END OF ICONS */
+
+/* DESCRIPTION */
+
+.description__content {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.description__image {
+    flex-basis: 60%;
+    max-width: 700px;
+}
+
+.description__text {
+    flex-basis: 35%;
+}
+
+.description__title {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.description__paragraph {
+    padding: 1rem;
+}
+
+/* END OF DESCRIPTION */
+
+/* PRICING */
+
+.pricing {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.pricing__heading {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.pricing__heading-caption {
+    font-size: 1rem;
+    padding-top: 2rem;
+}
+
+.pricing__options {
+    display: flex;
+    justify-content: space-around;
+    min-height: 28rem;
+}
+
+.pricing__option:hover {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 1px 15px 5px rgb(0 0 0 / 20%);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pricing__option--white {
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    box-shadow: 0px 1px 5px 5px rgb(0 0 0 / 20%);
+}
+
+.pricing__option--grey,
+.pricing__option--white {
+    flex-basis: 25%;
+}
+
+.pricing__title {
+    padding-top: 2rem;
+}
+
+.pricing__price {
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 0.7rem
+}
+
+.pricing__caption {
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+}
+
+.pricing__details {
+    font-weight: bold;
+    padding: 0.4rem;
+}
+
+.pricing__details--basic {
+    padding-bottom: 3rem
+}
+
+.pricing__details--agency {
+    padding-bottom: 1.8rem
+}
+
+.pricing__button {
+    max-width: 150px;
+    min-width: 150px;
+    background-color: #0ABCEB;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    margin-top: 4rem;
+    border-radius: 4px;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pricing__button:hover {
+    background-color: #39cef7;
+}
+
+/* END OF PRICING */
+
+/* TEAM */
+
+.team__header {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.team__people {
+    display: flex;
+    justify-content: space-around;
+    min-height: 28rem;
+}
+
+.team__member {
+    text-align: center;
+    padding: 1rem;
+}
+
+.member__title {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.member__name {
+    font-weight: bold;
+    padding: 0.8rem;
+}
+
+.member__social {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    background-color: #464646;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* END OF FOOTER */
