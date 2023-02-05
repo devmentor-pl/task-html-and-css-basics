@@ -311,3 +311,38 @@ a:hover {
 }
 
 /* END OF PRICING */
+
+/* TEAM */
+
+.team__header {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.team__people {
+    display: flex;
+    justify-content: space-around;
+    min-height: 28rem;
+}
+
+.team__member {
+    text-align: center;
+    padding: 1rem;
+}
+
+.member__title {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.member__name {
+    font-weight: bold;
+    padding: 0.8rem;
+}
+
+.member__social {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* END OF TEAM */
