@@ -1,0 +1,39 @@
+/* COMMON */
+
+html, body {
+    font-family: Montserrat, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.row {
+    width: 100%;
+    /* border: 2px solid green; */
+}
+
+.container {
+    max-width: 1150px;
+    /* border: 3px solid blue; */
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+/* .cell {
+    border: 1px solid orange;
+} */
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(226, 226, 226);
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* END OF COMMON */
