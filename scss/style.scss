@@ -1,0 +1,645 @@
+@import 'mixins';
+@import 'variable';
+
+//basic
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth
+}
+
+body {
+    font-family: $fontbase;
+    font-size: $p;
+    line-height: $line-height;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: $fontbase;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+h1 {
+    font-size: $h1;
+}
+
+h2 {
+    font-size: $h2;
+}
+
+h3 {
+    font-size: $h3;
+}
+
+h4 {
+    font-size: $h4;
+}
+
+h5 {
+    font-size: $h5;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+// HEADER SECTION
+
+.header {
+    width: 100%;
+    height: 90vh;
+    background: $gradient;
+    position: relative;
+    overflow: hidden;
+
+
+    @include mq(s) {
+
+        height: 70vh;
+    }
+
+}
+
+.strips {
+    position: absolute;
+    max-width: 100%;
+    height: 100vh;
+
+}
+
+.container {
+    max-width: 115rem;
+    margin: 0 auto;
+    padding: 6rem 2rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+
+
+    &__items {
+        display: flex;
+        justify-content: flex-end;
+
+        @include mq(s) {
+            display: flex;
+            flex-direction: column;
+            margin-top: 4rem;
+        }
+
+
+    }
+
+    &__item {
+        padding: 1rem;
+
+    }
+
+    &__link {
+        color: $bgcolor;
+        font-size: $h5;
+        padding: 1rem;
+
+        @include mq(s) {
+            font-size: $h3;
+            color: $basetext;
+            font-weight: 600;
+        }
+
+
+        &:hover {
+            color: $primary;
+            @include mq(s) {
+                color: $primary2;
+
+            }
+        }
+
+    }
+
+    &__logo {
+        max-width: 10rem;
+
+    }
+
+    &__icon-close,
+    &__icon-open {
+        display: none;
+    }
+
+    @include mq(s) {
+
+        &__icon-close,
+        &__icon-open {
+            display: block;
+            color: $bgcolor;
+            font-size: 2rem;
+            cursor: pointer;
+            margin: 1rem 0 0 1rem;
+        }
+
+        &__icon-close {
+            margin: 2rem 0 0 2rem;
+            color: $primary2;
+            font-weight: 600;
+            font-size: 3rem;
+            position: absolute;
+            top:1rem;
+            right: 2rem;
+        }
+
+    }
+
+    &__menu {
+        @include mq(s) {
+            position: fixed;
+            background: $primary;
+            height: 100vh;
+            width: 50%;
+            top: 0;
+            right: -300px;
+            text-align: left;
+            z-index: 2;
+            transition: all .8s ease-in-out;
+        }
+    }
+
+
+}
+
+.btn {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    width: 19.5rem;
+    height: 5rem;
+    background-color: $primary2;
+    border: 1px solid $primary2;
+    border-radius: 1rem;
+    font-size: $h5;
+    color: $bgcolor;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease-in-out;
+
+    &:hover {
+        background-color: $secondary2;
+        border: 1px solid $secondary2;
+
+    }
+
+
+    &--pricelist {
+        background-color: $primary;
+        border: 1px solid $primary;
+        width: 17rem;
+        &:hover {
+            background-color: $secondary;
+            border: 1px solid $secondary;
+
+        }
+    }
+
+    &--submit {
+        width: 12.5rem;
+        height: 5.1rem;
+
+    }
+
+}
+
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem 3rem 3rem;
+    position: relative;
+
+
+
+    &__content {
+        flex-basis: 49%;
+        box-sizing: border-box;
+        padding-right: 3rem;
+
+        @include mq(s) {
+            flex-basis: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding-right: 0;
+
+        }
+    }
+
+    &__box {
+        flex-basis: 45%;
+        position: absolute;
+        right: 9rem;
+        z-index: 1;
+        height: 43rem;
+        margin-top: 10rem;
+        padding: 0 2rem;
+        transform: rotate(-6deg);
+        max-width: 38%;
+        border-radius: 2.5rem;
+        background: #fff;
+
+        @include mq(s) {
+            display: none;
+        }
+    }
+
+
+
+    &__img {
+        display: block;
+        padding-bottom: 4rem;
+        margin-top: 2rem;
+        border-radius: 2.5rem;
+    }
+
+    &__header {
+        font-weight: 600;
+        color: $bgcolor;
+        margin: 2rem 0;
+        max-width: 38rem;
+        line-height: 1.2;
+
+
+
+    }
+
+    &__text {
+        color: $bgcolor;
+        padding: 2rem 0;
+        max-width: 30rem;
+        font-size: 1.8rem;
+    }
+}
+
+// features
+
+.features {
+    background-color: $bgcolor2;
+    color: $bgcolor;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__item {
+        flex-basis: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        box-sizing: border-box;
+
+        @include mq(s) {
+            flex-basis: 100%;
+        }
+    }
+
+
+    &__header {
+        text-transform: uppercase;
+        padding-bottom: 7rem;
+
+    }
+
+    &__icon-box {
+        background-color: $bgcolor;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__icon {
+        max-width: 3rem;
+
+    }
+
+    &__title {
+        text-transform: uppercase;
+    }
+
+
+
+}
+
+
+// logos
+.logos {
+    background-color: $bgcolor3;
+
+    &-container {
+        max-width: 77rem;
+        padding: 3rem;
+    }
+}
+
+//aside
+
+.media {
+    &-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+
+    }
+
+    &__box,
+    &__content {
+        flex-basis: 49%;
+
+        @include mq(s) {
+            flex-basis: 100%;
+        }
+
+
+    }
+
+    &__content {
+        box-sizing: border-box;
+        padding-left: 10rem;
+
+        @include mq(s) {
+            padding-left: 0;
+        }
+
+    }
+
+    &__title {
+        text-transform: uppercase;
+        padding-bottom: 3rem;
+
+        @include mq(s) {
+            text-align: center;
+        }
+
+    }
+
+    &__text {
+        line-height: 3rem;
+
+        @include mq(s) {
+            text-align: center;
+        }
+    }
+
+
+}
+
+
+//pricing
+.pricelist {
+    background-color: $bgcolor3;
+    text-align: center;
+
+
+    &__heading {
+        text-transform: uppercase;
+    }
+
+    &__subheading {
+        font-weight: 300;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        padding-top: 7rem;
+        padding-bottom: 10rem;
+
+        @include mq(s) {
+            padding-bottom: 3rem;
+        }
+
+    }
+
+    &__item {
+        flex-basis: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 38rem;
+        padding: 3.5rem 0 4.5rem;
+
+        @include mq(s) {
+            flex-basis: 100%;
+            margin-bottom: 3rem;
+        }
+
+    }
+
+    &__item:nth-child(2) {
+        box-shadow: $box-shadow;
+        border-radius: 0.7rem;
+    }
+
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__price {
+        font-weight: 600;
+        font-size: 4.5rem;
+        margin-bottom: 0;
+
+    }
+
+    &__subtitle {
+        font-size: 1.2rem;
+        margin-top: 0;
+        padding-bottom: 2rem;
+
+    }
+
+
+    &__feature {
+        position: relative;
+
+        &::before {
+            content: "✓";
+            color: #3aeb8c;
+            position: relative;
+            left: -1rem;
+        }
+    }
+}
+
+//team
+
+.team {
+    text-align: center;
+
+    &__header {
+        text-transform: uppercase;
+    }
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 7rem;
+    }
+
+    &__item {
+        flex-basis: 30%;
+
+
+        @include mq(s) {
+            flex-basis: 100%;
+            margin-bottom: 3rem;
+        }
+
+    }
+
+    &__name {
+        margin-top: 0;
+        font-weight: 600;
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    &__link {
+        padding: .5rem;
+
+    }
+
+}
+
+//form
+.form {
+    background-color: $primary;
+    color: $bgcolor;
+    text-align: center;
+
+    &__title {
+        font-weight: 600;
+    }
+
+    &__subtitle {
+        max-width: 25rem;
+        margin: auto;
+        font-size: 1.5rem;
+        padding-bottom: 3rem;
+    }
+
+    &__group {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+
+
+    }
+
+    &__email {
+        background-color: $bgcolor;
+        border-radius: 1rem;
+        border: .1px solid $bgcolor;
+        width: 21rem;
+        height: 5.1rem;
+        margin-top: 2rem;
+        border: none;
+
+        &::placeholder {
+            padding-left: 1rem;
+        }
+    }
+
+
+}
+
+//footer
+.footer {
+    background-color: $bgcolor4;
+    color: $bgcolor;
+
+    @include mq(s) {
+        min-height: 11rem;
+        position: relative;
+    }
+
+
+    &-container {
+        padding: 2rem 3rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        @include mq(s) {
+            position: static;
+        }
+
+    }
+
+    &__note {
+        margin-right: 1.5rem;
+    }
+
+    &__socials {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+
+        @include mq(s) {
+            bottom: 1.3rem;
+            right: 45%;
+
+
+        }
+
+    }
+
+    &__social {
+        margin-left: 2rem;
+    }
+}
