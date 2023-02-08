@@ -4,6 +4,9 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Plus+Jakarta+Sans:wght@400;500;700&family=Poppins:wght@200;300;400;800&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="styles/style.css">
    <title>Document</title>
 </head>
@@ -12,131 +15,137 @@
       <nav id="main-nav">
          <div class="container">
          <a href="#">
-            <img src="" alt="Nova Logo">
+            <img src="images/logo.svg" alt="Nova Logo">
             <ul id="main-menu">
-               <li class="menu-item"><a href="">The team</a></li>
-               <li class="menu-item"><a href="">Pricing</a></li>
-               <li class="menu-item"><a href="">Features</a></li>
+               <li class="menu-item"><a href="#">The team</a></li>
+               <li class="menu-item"><a href="#">Pricing</a></li>
+               <li class="menu-item"><a href="#">Features</a></li>
             </ul>
          </a>
       </div>
       </nav>
-      <section id="banner">
-         <h1>Beautiful Free Nova template</h1>
-         <p>A top notch premium quality template for your next web project.</p>
-         <a href="#">Download FREE!</a>
-
-         <img src="images/screen.png" alt="Image of template on tablet device.">
-
-      </section>
+   <!-- section>.banner.container>.__left>h1.__title+p.__description+a[href="#"].__button^.__right>img[src="images/screen.png" alt="Image of template on tablet device."]|bem -->
+   <section>
+      <div class="banner container">
+         <div class="banner banner_left">
+            <h1 class="banner banner_title"></h1>
+            <p class="banner banner_description"></p>
+            <a href="#" class="banner banner_button"></a>
+         </div>
+         <div class="banner banner_right"><img src="images/screen.png" alt="Image of template on tablet device."></div>
+      </div>
+   </section>
    </header>
-section.feature.black>.feature.container>h2.section-title+.__features-wrap>.__single-wrap*3>figure>img+figcaption>p.__title+p.__description|bem
+<!-- section.feature.black>.feature.container>h2.section-title+.__features-wrap>.__single-wrap*3>figure>img+figcaption>p.__title+p.__description|bem -->
 
 <section class="feature black">
    <div class="feature container">
-      <h2 class="section-title"></h2>
+      <h2 class="section-title">Features</h2>
       <div class="feature feature_features-wrap">
          <div class="feature feature_single-wrap">
-            <figure>
-               <img src="" alt="">
-               <figcaption>
-                  <p class="feature feature_title"></p>
-                  <p class="feature feature_description"></p>
-               </figcaption>
-            </figure>
+            <figure><img src="images/responsive.svg" alt=""></figure>
+            <figcaption>
+               <p class="feature feature_title">Fully Responsive</p>
+               <p class="feature feature_description">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
+            </figcaption>
          </div>
          <div class="feature feature_single-wrap">
-            <figure>
-               <img src="" alt="">
-               <figcaption>
-                  <p class="feature feature_title"></p>
-                  <p class="feature feature_description"></p>
-               </figcaption>
-            </figure>
+            <figure><img src="images/customizable.svg" alt=""></figure>
+            <figcaption>
+               <p class="feature feature_title">Customizable</p>
+               <p class="feature feature_description">Change the colors, pictures or any of the sections to suit your needs.</p>
+            </figcaption>
          </div>
          <div class="feature feature_single-wrap">
-            <figure>
-               <img src="" alt="">
-               <figcaption>
-                  <p class="feature feature_title"></p>
-                  <p class="feature feature_description"></p>
-               </figcaption>
-            </figure>
+            <figure><img src="images/design.svg" alt=""></figure>
+            <figcaption>
+               <p class="feature feature_title">Slick and beautiful design</p>
+               <p class="feature feature_description">Trendy and fresh design, fits any website.</p>
+            </figcaption>
          </div>
       </div>
    </div>
 </section>
 
-section.white>.container.logos>a[href="#"].partner-logo*5>img[src=images/.svg]
+<!-- section.white>.container.logos>a[href="#"].partner-logo*5>img[src=images/.svg] -->
 
 <section class="white">
-   <div class="container logos"><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a></div>
+   <div class="container logos"><a href="#" class="partner-logo"><img src="images/logos.png" alt="">
+   <!-- </a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a></div> -->
 </section>
 
-section.white>.container.wide>.left-wrap>img[src=images/.png]^.right-wrap>h2.section-title+p.description
+<!-- section.white>.promo.container.wide>.__left>img^.__right>h2.section-title+p.description|bem -->
 <section class="white">
-   <div class="container wide">
-      <div class="left-wrap"><img src="images/" alt=""></div>
-      <div class="right-wrap">
+   <div class="promo container wide">
+      <div class="promo promo_left"><img src="" alt=""></div>
+      <div class="promo promo_right">
          <h2 class="section-title"></h2>
          <p class="description"></p>
       </div>
    </div>
 </section>
 
-section.white>.pricing-plan.container>h2.section-title+p.description+.plan-wrap>.single-plan*3>p>span.upper-small^p.price+p.small+p.plan-desc+a[href=#].cta-button
+<!-- section>.pricing-plan.container>.__plan-wrap>.__single*3>p>span.upper.small^p.price+p.small+p.plan-desc+a[href="#"].__cta-button|bem -->
 
-<section class="white">
+<section>
    <div class="pricing-plan container">
-      <h2 class="section-title"></h2>
-      <p class="description"></p>
-      <div class="plan-wrap">
-         <div class="single-plan">
-            <p><span class="upper-small"></span></p>
-            <p class="price"></p>
-            <p class="small"></p>
-            <p class="plan-desc"></p>
-            <a href="#" class="cta-button"></a>
+      <h2 class="section-title">Choose Your Pricing Plan</h2>
+      <p class="description">Pick any of super affordable pricing plans</p>
+      <div class="pricing-plan pricing-plan_plan-wrap">
+         <div class="pricing-plan pricing-plan_single">
+            <p><span class="upper small">basic</span></p>
+            <p class="price">$15</p>
+            <p class="small">per month</p>
+            <p class="plan-desc">Up to 7 Projects 2 Additional Developers</p>
+            <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
          </div>
-         <div class="single-plan promoted">
-            <p><span class="upper-small"></span></p>
-            <p class="price"></p>
-            <p class="small"></p>
-            <p class="plan-desc"></p>
-            <a href="#" class="cta-button"></a>
+         <div class="pricing-plan pricing-plan_single">
+            <p><span class="upper small">Agency</span></p>
+            <p class="price">$55</p>
+            <p class="small">per month</p>
+            <p class="plan-desc">Up to 25 projects 2 additional developers unlimited support</p>
+            <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
          </div>
-         <div class="single-plan">
-            <p><span class="upper-small"></span></p>
-            <p class="price"></p>
-            <p class="small"></p>
-            <p class="plan-desc"></p>
-            <a href="#" class="cta-button"></a>
+         <div class="pricing-plan pricing-plan_single">
+            <p><span class="upper small">pro</span></p>
+            <p class="price">$75</p>
+            <p class="small">per month</p>
+            <p class="plan-desc">Up to 25 projects 2 additional developers Unlimited support 1.5GB disk space</p>
+            <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
          </div>
       </div>
    </div>
 </section>
-section.white>.container.team>.team-single*3>img+p.position+p.name+p.about+a[href=#].social*2
+
+<!-- section.white>.container.team>figure.team-single*3>img+figcaption>p.position+p.name+p.about+a[href=#].social*2 -->
 
 <section class="white">
-   <div class="container team">
-      <div class="team-single">
-         <img src="" alt="">
-         <p class="position"></p>
-         <p class="name"></p>
-         <p class="about"></p>
-         <a href="#" class="social"></a><a href="#" class="social"></a></div>
-      <div class="team-single">
-         <img src="" alt="">
-         <p class="position"></p>
-         <p class="name"></p>
-         <p class="about"></p>
-         <a href="#" class="social"></a><a href="#" class="social"></a></div>
-      <div class="team-single">
-         <img src="" alt="">
-         <p class="position"></p>
-         <p class="name"></p>
-         <p class="about"></p>
-         <a href="#" class="social"></a><a href="#" class="social"></a></div>
+   <h2 class="section-title">The Team</h2>
+   <div class="team container">
+      <figure class="team-single">
+         <img src="images/cto.png" alt="">
+         <figcaption>
+            <p class="position">CTO</p>
+            <p class="name">Johnny B Good</p>
+            <p class="about">The brains behind the whole operation</p>
+            <a href="#" class="socials"><img src="images/twitter.svg" alt=""></a><a href="#" class="socials"><img src="images/facebook.svg" alt=""></a>
+         </figure>
+      <figure class="team-single">
+         <img src="images/ceo.png" alt="">
+         <figcaption>
+            <p class="position">CEO</p>
+            <p class="name">Roll Over Beethoven</p>
+            <p class="about">The one that puts it all together</p>
+            <a href="#" class="socials"><img src="images/twitter.svg" alt=""></a><a href="#" class="socials"><img src="images/facebook.svg" alt=""></a>
+         </figure>
+      <figure class="team-single">
+         <img src="images/cfo.png" alt="">
+         <figcaption>
+            <p class="position">CFO</p>
+            <p class="name">Chuck Berry</p>
+            <p class="about">The guy with his hand on the wallet</p>
+            <a href="#" class="socials"><img src="images/twitter.svg" alt=""></a><a href="#" class="socials"><img src="images/facebook.svg" alt=""></a>
+         </figure>
    </div>
 </section>
 
