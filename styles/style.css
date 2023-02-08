@@ -1,0 +1,40 @@
+
+body{
+margin: 0;
+box-sizing: border-box;   
+}
+header{
+   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+.container{
+  margin: 0 auto;
+  max-width: 1200px; 
+  border: 1px solid black;
+}
+/* less than 1280 desktop */
+/* less than 1200? small desktop */
+/* less than 768 tablet */
+/* less than 480 mobile */
+@media (max-width: 1280px) {
+   body {
+     background-color: pink;
+   }
+ }
+
+@media (max-width: 1200px) {
+   body {
+     background-color: green;
+   }
+ }
+
+@media (max-width: 768px) {
+   body {
+     background-color: orange;
+   }
+ }
+
+@media (max-width: 480px) {
+   body {
+     background-color: yellow;
+   }
+ }
