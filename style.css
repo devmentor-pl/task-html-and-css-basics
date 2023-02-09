@@ -1,7 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Montserrat', sans-serif;
 }
 .wrapper {
@@ -43,14 +45,14 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    flex-basis: 32%;
+    flex-basis: 40%;
     margin-right: 80px;
     /* border: 2px solid yellowgreen; */
 }
 .nav__li {
-    flex-basis: 25%;
-    font-weight: 200;
-    font-size: 18px;
+    flex-basis: 30%;
+    font-weight: 600;
+    font-size: 16px;
     text-align: center;
     margin: 0 12px;
     /* border: 2px solid blue; */
@@ -108,15 +110,15 @@
 .header__container1 {
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-left: 60px;
     /* border: 2px solid red; */
 }
 .header__title {
-    font-size: 40px;
+    font-size: 36px;
     color: white;
     font-weight: bold;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     font-weight: 600;
 }
 .header__describe {
@@ -130,9 +132,9 @@
 }
 .header__button-download {
     margin-top: 35px;
-    width: 42%;
+    width: 50%;
     padding: 22px 30px;
-    font-size: 14px;
+    font-size: 12px;
     border-radius: 10px;
     color: white;
     background-color: #25F18B;
@@ -165,7 +167,7 @@
     justify-content: center;
     /* border: 1px solid orange; */
     width: 100%;
-    margin: 60px auto 110px auto;
+    margin: 60px auto 100px auto;
     border: 2px solid black;
     font-weight: 200;
     letter-spacing: 2px;
@@ -395,14 +397,14 @@
     display: flex;
     flex-direction: column;
     width: 82.5%;
-    margin: 100px auto 0 auto;
-    /* border: 2px solid red; */
+    margin: 80px auto 0 auto;
+    border: 2px solid red;
 }
 .team-section__title{
     width: 100%;
     font-size: 30px;
     letter-spacing: 1px;
-    /* border: 2px solid green; */
+    border: 2px solid green;
     text-align: center;
     padding: 20px 0;
     font-weight: 200;
@@ -411,16 +413,16 @@
     display: flex;
     justify-content: center;
     align-self: center;
-    margin: 30px 0 80px 0;
-    width: 83%;
-    /* border: 2px solid blue; */
+    /* margin: 30px 0 80px 0; */
+    width: 100%;
+    border: 2px solid blue;
 }
 .team-section__info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-basis: 25%;
-    /* border: 2px solid salmon; */
+    flex-basis: 35%;
+    border: 2px solid salmon;
     padding: 40px 0;
     margin: 0 20px;
 }
@@ -444,6 +446,7 @@
 .team-section__describe{
     font-size: 14px;
     font-weight: 200;
+    text-align: center;
 }
 
 .team-section__icon {
