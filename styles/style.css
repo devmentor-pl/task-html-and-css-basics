@@ -286,7 +286,29 @@ a.pricing-plan_cta-button:hover{
 .team-single a.socials{
    padding: 10px;
 }
+/* footer */
+footer{
+   background-color: #464646;
+   padding: 20px 0;
 
+}
+footer .container.flex-row{
+justify-content: center;
+align-items: center;
+}
+footer p{
+   color: #fff;
+   font-size: 12px;
+   line-height: 31px;
+   display: inline-block;
+   margin-right: 8px;
+   font-weight: 500;
+}
+footer p a{
+   padding: 10px 0;
+   display: inline-block;
+
+}
 /* figure img{
  
 } */
