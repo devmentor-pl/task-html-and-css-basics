@@ -114,6 +114,7 @@ a{
 }
 section{
    padding: 70px 0 70px;
+   max-width: 100%;
 }
 section.black{
    background-color: #000;
@@ -164,10 +165,12 @@ p.feature{
 p.feature_title{
    text-transform: uppercase;
    font-weight: 500;
+   margin-top: 30px;
 }
 p.feature_description{
-   font-size: 14px;
+   font-size: 12px;
    line-height: 1.5em;
+   margin-top: 15px;
 }
 /* logos */
 section.gray.logos{
@@ -176,7 +179,7 @@ section.gray.logos{
 section.gray>.container.logos{
    text-align: center;
 }
-section.white>.container.logos>img{
+section.gray .container.logos a.partner-logo img{
    max-width: 95%;
 }
 /* promo section */
@@ -191,13 +194,14 @@ section.white>.container.logos>img{
    max-width: 90%;
 }
 .promo_right{
-  padding: 40px 0 0 60px;
+padding: 40px 0 0 60px;
 
 }
 .promo_right>h2.section-title{
    text-align: left;
 }
 .promo_right>p.description{
+   margin-top: 40px;
    max-width: 400px;
 }
 /* pricing */
@@ -239,7 +243,7 @@ margin: 0 20px;
 }
 .pricing-plan_single>p.price{
    font-size: 40px;
-   font-weight: 800;
+   font-weight: 700;
 }
 .pricing-plan_single>p.small{
    font-size: 10px;
@@ -286,11 +290,13 @@ a.pricing-plan_cta-button:hover{
 .team-single a.socials{
    padding: 10px;
 }
+.team-section{
+   padding-bottom: 200px;
+}
 /* footer */
 footer{
    background-color: #464646;
    padding: 20px 0;
-
 }
 footer .container.flex-row{
 justify-content: center;
@@ -316,26 +322,46 @@ footer p a{
 /* less than 1200? small desktop */
 /* less than 768 tablet */
 /* less than 480 mobile */
-@media (max-width: 1280px) {
-   body {
-     background-color: pink;
-   }
- }
+
 
 @media (max-width: 1200px) {
-   body {
-     background-color: green;
-   }
+   .container{
+      max-width: 1000px; 
+    }
  }
-
-@media (max-width: 768px) {
-   body {
-     background-color: orange;
+ @media (max-width: 1000px) {
+   .container{
+      max-width: 800px; 
    }
+
+ }
+@media (max-width: 768px) {
+   .container{
+      max-width: 90vw; 
+   }
+   .flex-row{
+      flex-direction: column;
+      align-items: center;
+         }
+   .banner.flex-row,      
+   .promo.container.wide.flex-row{
+align-items: center;
+         }
+         .banner_right div.wrap{
+           transform: rotate(0deg); 
+         }
+         .banner_left,
+         .banner_right {
+            width: 50%;
+        }
+        .feature_single-wrap:last-child,
+        .feature_single-wrap{
+         margin: 30px 0;
+        }     
  }
 
 @media (max-width: 480px) {
-   body {
-     background-color: yellow;
+   .container{
+      max-width: 90vw; 
    }
  }
