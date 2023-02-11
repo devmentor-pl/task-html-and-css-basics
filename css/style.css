@@ -1,15 +1,19 @@
 @import url('./header.css');
-
-:root {
-	--header-bgc: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-}
-
+@import url('./colors.css');
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	text-decoration: none;
 }
 html {
 	font-size: 62.5%;
 	font-family: 'Montserrat', sans-serif;
+	color: var(--text-color);
+}
+a {
+	color: var(--text-color);
+}
+button {
+	color: var(--text-color);
 }

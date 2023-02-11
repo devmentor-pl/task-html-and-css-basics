@@ -1,0 +1,6 @@
+:root {
+	--header-bgc: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+	--text-color: rgba(255, 255, 255);
+	--btn-color: #25f18b;
+	--hamburger-icon: #333;
+}

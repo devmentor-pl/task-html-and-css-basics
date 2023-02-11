@@ -1,6 +1,7 @@
 header {
 	background: var(--header-bgc);
 	padding: 3rem 0;
+	overflow: hidden;
 }
 nav {
 	display: flex;
@@ -8,10 +9,10 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 }
-img {
+/* img {
 	padding: 0 3rem;
-}
-.nav {
+} */
+.nav--desktop {
 	display: none;
 }
 .nav__burger-icon {
@@ -23,9 +24,10 @@ img {
 	display: inline-block;
 	width: 4rem;
 	height: 0.3rem;
-	background-color: #333;
+	background-color: var(--hamburger-icon);
 	border-radius: 2px;
 }
+
 .line::after,
 .line::before {
 	content: '';
@@ -33,7 +35,7 @@ img {
 	display: inline-block;
 	width: 4rem;
 	height: 0.3rem;
-	background-color: #333;
+	background-color: var(--hamburger-icon);
 	border-radius: 2px;
 }
 .line::after {
@@ -42,8 +44,7 @@ img {
 .line::before {
 	bottom: 15px;
 }
-.logo-img {
-	cursor: pointer;
+.logo {
 	padding: 0 3rem;
 }
 .header__content {
@@ -58,7 +59,6 @@ img {
 .header__title {
 	padding-top: 4rem;
 	width: 80%;
-	text-transform: uppercase;
 }
 .header__text {
 	width: 80%;
@@ -66,13 +66,81 @@ img {
 }
 .header__button--call-to-action {
 	padding: 1rem 2rem;
-	background: #25f18b;
+	background: var(--btn-color);
 	border: transparent;
 	border-radius: 5px;
+	font-size: 1.5rem;
 	cursor: pointer;
 }
-.header__content + img {
+.img-border {
 	margin-top: 3rem;
-	width: 100%;
-	height: 20%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.img-border img {
+	width: 90%;
+	border: 15px solid white;
+	border-radius: 15px;
+	background: white;
+}
+
+@media (min-width: 768px) {
+	.logo {
+		width: 20%;
+	}
+	.header__contener {
+		display: flex;
+		flex-direction: row;
+	}
+	.nav__burger-icon {
+		display: none;
+	}
+	.nav--desktop {
+		display: inline-block;
+		font-size: 1.5rem;
+		margin-right: 2rem;
+	}
+	.nav a {
+		padding: 1rem 1rem;
+	}
+	.header__title {
+		font-size: 3rem;
+	}
+	.header__text {
+		font-size: 1.5rem;
+	}
+	.img-border {
+		margin-top: 5rem;
+		transform: rotate(350deg);
+	}
+	.img-border img {
+		width: 80%;
+		height: 80%;
+		box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+	}
+}
+@media (min-width: 1024px) {
+	.wrapper {
+		margin: 0 auto;
+		width: 80%;
+	}
+	header {
+		height: 50vh;
+	}
+	.header__content {
+		align-items: flex-start;
+	}
+	.img-border {
+		width: 80%;
+	}
+}
+@media (min-width: 1224px) {
+	.wrapper {
+		width: 60%;
+	}
+	.img-border {
+		width: 60%;
+	}
 }
