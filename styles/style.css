@@ -346,18 +346,61 @@ footer p a{
    .banner.flex-row,      
    .promo.container.wide.flex-row{
 align-items: center;
+text-align: center;
          }
          .banner_right div.wrap{
            transform: rotate(0deg); 
+           margin: 0 auto;
          }
          .banner_left,
          .banner_right {
-            width: 50%;
+            width: 100%;
         }
         .feature_single-wrap:last-child,
         .feature_single-wrap{
          margin: 30px 0;
-        }     
+        } 
+        .feature_features-wrap.flex-row{
+         padding-top: 0px;
+        }
+        .promo_right{
+         padding: 20px 0 40px 0;
+         text-align: center;
+        }
+        .promo_left, .promo_right{
+         width: 90%;
+        }
+        .promo_right > h2.section-title{
+         text-align: center;
+        }
+        
+        h1.banner_title{
+         text-align: center;
+         margin-top: 0px;
+       }    
+        h1.banner_title,
+        p.banner_description{
+         text-align: center;
+         max-width: 100%;
+        }
+        .promo_right > p.description{
+         max-width: 100%;
+        }
+        a.banner_button{
+         margin: 20px auto;
+        }
+        section{
+         padding:40px 0 0 0;
+        }
+        .team-section {
+         padding-bottom: 40px;
+       }
+       .team.flex-row {
+         margin-top: 20px;
+       }
+       .team-single{
+         margin-bottom: 30px;
+       }
  }
 
 @media (max-width: 480px) {
