@@ -1,154 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800;900&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="styles/style.css">
    <title>Document</title>
 </head>
+
 <body>
    <header>
       <nav id="main-nav">
          <div class="container flex-row">
-         <a href="#"> 
-            <img src="images/logo.svg" alt="Nova Logo">
-         </a>
+            <a href="#">
+               <img src="images/logo.svg" alt="Nova Logo">
+            </a>
             <ul id="main-menu">
                <li class="menu-item"><a href="#">The team</a></li>
                <li class="menu-item"><a href="#">Pricing</a></li>
                <li class="menu-item"><a href="#">Features</a></li>
-            </ul> 
-      </div>
-      </nav>
-   <!-- section>.banner.container>.__left>h1.__title+p.__description+a[href="#"].__button^.__right>img[src="images/screen.png" alt="Image of template on tablet device."]|bem -->
-   <section id="first">
-      <div class="banner container flex-row">
-         <div class="banner banner_left">
-            <h1 class="banner banner_title">Beautiful Free Nova template</h1>
-            <p class="banner banner_description">A top notch quality template for your next web project.</p>
-            <a href="#" class="banner banner_button">Download <span>free!</span></a>
+            </ul>
          </div>
-         <div class="banner banner_right">
-            <div class="wrap">
-               <img src="images/screen.png" alt="Image of template on tablet device.">
+      </nav>
+      <!-- section>.banner.container>.__left>h1.__title+p.__description+a[href="#"].__button^.__right>img[src="images/screen.png" alt="Image of template on tablet device."]|bem -->
+      <section id="first">
+         <div class="banner container flex-row">
+            <div class="banner banner_left">
+               <h1 class="banner banner_title">Beautiful Free Nova template</h1>
+               <p class="banner banner_description">A top notch quality template for your next web project.</p>
+               <a href="#" class="banner banner_button">Download <span>free!</span></a>
+            </div>
+            <div class="banner banner_right">
+               <div class="wrap">
+                  <img src="images/screen.png" alt="Image of template on tablet device.">
+               </div>
+            </div>
+         </div>
+      </section>
+   </header>
+   <!-- section.feature.black>.feature.container>h2.section-title+.__features-wrap>.__single-wrap*3>figure>img+figcaption>p.__title+p.__description|bem -->
+   <section class="feature black">
+      <div class="feature container">
+         <h2 class="section-title">Features</h2>
+         <div class="feature feature_features-wrap flex-row">
+            <div class="feature feature_single-wrap">
+               <figure><img src="images/responsive.svg" alt=""></figure>
+               <figcaption>
+                  <p class="feature feature_title">Fully Responsive</p>
+                  <p class="feature feature_description">Looks amazing on any device: smartphone, tablet, laptop and
+                     desktop.</p>
+               </figcaption>
+            </div>
+            <div class="feature feature_single-wrap">
+               <figure><img src="images/customizable.svg" alt=""></figure>
+               <figcaption>
+                  <p class="feature feature_title">Customizable</p>
+                  <p class="feature feature_description">Change the colors, pictures or any of the sections to suit your
+                     needs.</p>
+               </figcaption>
+            </div>
+            <div class="feature feature_single-wrap">
+               <figure><img src="images/design.svg" alt=""></figure>
+               <figcaption>
+                  <p class="feature feature_title">Slick and beautiful design</p>
+                  <p class="feature feature_description">Trendy and fresh design, fits any website.</p>
+               </figcaption>
             </div>
          </div>
       </div>
    </section>
-   </header>
-<!-- section.feature.black>.feature.container>h2.section-title+.__features-wrap>.__single-wrap*3>figure>img+figcaption>p.__title+p.__description|bem -->
-<section class="feature black">
-   <div class="feature container">
-      <h2 class="section-title">Features</h2>
-      <div class="feature feature_features-wrap flex-row">
-         <div class="feature feature_single-wrap">
-            <figure><img src="images/responsive.svg" alt=""></figure>
-            <figcaption>
-               <p class="feature feature_title">Fully Responsive</p>
-               <p class="feature feature_description">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
-            </figcaption>
-         </div>
-         <div class="feature feature_single-wrap">
-            <figure><img src="images/customizable.svg" alt=""></figure>
-            <figcaption>
-               <p class="feature feature_title">Customizable</p>
-               <p class="feature feature_description">Change the colors, pictures or any of the sections to suit your needs.</p>
-            </figcaption>
-         </div>
-         <div class="feature feature_single-wrap">
-            <figure><img src="images/design.svg" alt=""></figure>
-            <figcaption>
-               <p class="feature feature_title">Slick and beautiful design</p>
-               <p class="feature feature_description">Trendy and fresh design, fits any website.</p>
-            </figcaption>
+   <!-- section.white>.container.logos>a[href="#"].partner-logo*5>img[src=images/.svg] -->
+   <section class="gray logos">
+      <div class="container logos"><a href="#" class="partner-logo"><img src="images/logos.png" alt=""></a>
+         <!-- <a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a></div> -->
+   </section>
+   <!-- section.white>.promo.container.wide>.__left>img^.__right>h2.section-title+p.description|bem -->
+   <section class="white">
+      <div class="promo container wide flex-row">
+         <div class="promo promo_left"><img src="images/imac.png" alt=""></div>
+         <div class="promo promo_right">
+            <h2 class="section-title">Simple and Beautiful</h2>
+            <p class="description">Use Nova theme for your next web project. It is completely customizable so you can
+               change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal and
+               commercial. Have fun and good luck!</p>
          </div>
       </div>
+   </section>
+   <!-- section>.pricing-plan.container>.__plan-wrap>.__single*3>p>span.upper.small^p.price+p.small+p.plan-desc+a[href="#"].__cta-button|bem -->
+   <section class="gray">
+      <div class="pricing-plan container">
+         <h2 class="section-title">Choose Your Pricing Plan</h2>
+         <p class="description center-align">Pick any of super affordable pricing plans</p>
+         <div class="pricing-plan pricing-plan_plan-wrap flex-row">
+            <div class="pricing-plan pricing-plan_single">
+               <p><span class="upper small">basic</span></p>
+               <p class="price">$15</p>
+               <p class="small">per month</p>
+               <p class="plan-desc">Up to 7 Projects 2 Additional Developers</p>
+               <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
+            </div>
+            <div class="pricing-plan pricing-plan_single middle-shadow">
+               <p><span class="upper small">Agency</span></p>
+               <p class="price">$55</p>
+               <p class="small">per month</p>
+               <p class="plan-desc">Up to 25 projects 2 additional developers unlimited support</p>
+               <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
+            </div>
+            <div class="pricing-plan pricing-plan_single">
+               <p><span class="upper small">pro</span></p>
+               <p class="price">$75</p>
+               <p class="small">per month</p>
+               <p class="plan-desc">Up to 25 projects 2 additional developers Unlimited support 1.5GB disk space</p>
+               <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- section.white>.container.team>figure.team-single*3>img+figcaption>p.position+p.name+p.about+a[href=#].social*2 -->
+   <section class="white team-section">
+      <div class="container">
+         <h2 class="section-title">The Team</h2>
+         <div class="team flex-row">
+            <figure class="team-single">
+               <img src="images/cto.png" alt="">
+               <figcaption>
+                  <p class="position">CTO</p>
+                  <p class="name">Johnny B Good</p>
+                  <p class="about">The brains behind the whole operation</p>
+                  <a href="#" class="socials"><img src="images/team-twitter.svg" alt=""></a><a href="#"
+                     class="socials"><img src="images/team-facebook.svg" alt=""></a>
+            </figure>
+            <figure class="team-single">
+               <img src="images/ceo.png" alt="">
+               <figcaption>
+                  <p class="position">CEO</p>
+                  <p class="name">Roll Over Beethoven</p>
+                  <p class="about">The one that puts it all together</p>
+                  <a href="#" class="socials"><img src="images/team-twitter.svg" alt=""></a><a href="#"
+                     class="socials"><img src="images/team-facebook.svg" alt=""></a>
+            </figure>
+
+            <figure class="team-single">
+               <img src="images/cfo.png" alt="">
+               <figcaption>
+                  <p class="position">CFO</p>
+                  <p class="name">Chuck Berry</p>
+                  <p class="about">The guy with his hand on the wallet</p>
+                  <figcaption>
+                     <a href="#" class="socials"><img src="images/team-twitter.svg" alt=""></a><a href="#"
+                        class="socials"><img src="images/team-facebook.svg" alt=""></a>
+            </figure>
+         </div>
+      </div>
+   </section>
+   <footer>
+      <div class="container flex-row">
+         <p>A Free template by</p><a href="#"><img src="images/webscope.svg" alt="Webscope"></a>
+   </footer>
    </div>
-</section>
-<!-- section.white>.container.logos>a[href="#"].partner-logo*5>img[src=images/.svg] -->
-<section class="gray logos">
-   <div class="container logos"><a href="#" class="partner-logo"><img src="images/logos.png" alt=""></a>
-   <!-- <a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a><a href="#" class="partner-logo"><img src="images/.svg" alt=""></a></div> -->
-</section>
-<!-- section.white>.promo.container.wide>.__left>img^.__right>h2.section-title+p.description|bem -->
-<section class="white">
-   <div class="promo container wide flex-row">
-      <div class="promo promo_left"><img src="images/imac.png" alt=""></div>
-      <div class="promo promo_right">
-         <h2 class="section-title">Simple and Beautiful</h2>
-         <p class="description">Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</p>
-      </div>
-   </div>
-</section>
-<!-- section>.pricing-plan.container>.__plan-wrap>.__single*3>p>span.upper.small^p.price+p.small+p.plan-desc+a[href="#"].__cta-button|bem -->
-<section class="gray">
-   <div class="pricing-plan container">
-      <h2 class="section-title">Choose Your Pricing Plan</h2>
-      <p class="description center-align">Pick any of super affordable pricing plans</p>
-      <div class="pricing-plan pricing-plan_plan-wrap flex-row">
-         <div class="pricing-plan pricing-plan_single">
-            <p><span class="upper small">basic</span></p>
-            <p class="price">$15</p>
-            <p class="small">per month</p>
-            <p class="plan-desc">Up to 7 Projects 2 Additional Developers</p>
-            <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
-         </div>
-         <div class="pricing-plan pricing-plan_single middle-shadow">
-            <p><span class="upper small">Agency</span></p>
-            <p class="price">$55</p>
-            <p class="small">per month</p>
-            <p class="plan-desc">Up to 25 projects 2 additional developers unlimited support</p>
-            <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
-         </div>
-         <div class="pricing-plan pricing-plan_single">
-            <p><span class="upper small">pro</span></p>
-            <p class="price">$75</p>
-            <p class="small">per month</p>
-            <p class="plan-desc">Up to 25 projects 2 additional developers Unlimited support 1.5GB disk space</p>
-            <a href="#" class="pricing-plan pricing-plan_cta-button">Get Started</a>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- section.white>.container.team>figure.team-single*3>img+figcaption>p.position+p.name+p.about+a[href=#].social*2 -->
-<section class="white team-section">
-<div class="container">
-   <h2 class="section-title">The Team</h2>
-      <div class="team flex-row">
-         <figure class="team-single">
-         <img src="images/cto.png" alt="">
-         <figcaption>
-            <p class="position">CTO</p>
-            <p class="name">Johnny B Good</p>
-            <p class="about">The brains behind the whole operation</p>
-            <a href="#" class="socials"><img src="images/team-twitter.svg" alt=""></a><a href="#" class="socials"><img src="images/team-facebook.svg" alt=""></a>
-         </figure>
-      <figure class="team-single">
-         <img src="images/ceo.png" alt="">
-         <figcaption>
-            <p class="position">CEO</p>
-            <p class="name">Roll Over Beethoven</p>
-            <p class="about">The one that puts it all together</p>
-            <a href="#" class="socials"><img src="images/team-twitter.svg" alt=""></a><a href="#" class="socials"><img src="images/team-facebook.svg" alt=""></a>
-         </figure>
-        
-      <figure class="team-single">
-         <img src="images/cfo.png" alt="">
-         <figcaption>
-            <p class="position">CFO</p>
-            <p class="name">Chuck Berry</p>
-            <p class="about">The guy with his hand on the wallet</p><figcaption>
-            <a href="#" class="socials"><img src="images/team-twitter.svg" alt=""></a><a href="#" class="socials"><img src="images/team-facebook.svg" alt=""></a>
-         </figure>
-      </div>
-</div>
-</section>
-<footer>
-   <div class="container flex-row">
-   <p>A Free template by</p><a href="#"><img src="images/webscope.svg" alt="Webscope"></a></footer>
-</div>
 </body>
+
 </html>
