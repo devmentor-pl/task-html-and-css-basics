@@ -105,3 +105,15 @@ body {
 	border-radius: 2.5rem;
 	height: 42rem;
 }
+
+/* main */
+/* featured */
+.featured-in {
+	background-color: #f8f9f9;
+}
+.featured-in__box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 9rem;
+}
