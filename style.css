@@ -1,0 +1,107 @@
+/* reset css used;
+font-size - 62.5% = 10px = 1 rem - easier to count the right rem value 
+button-green color #25f18b 
+button-green hover color #6AFFB4
+grey-background  #F8F9F9
+button-blue color #06BCEB */
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	width: 100%;
+}
+.header-background {
+	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+	height: 75rem;
+}
+.container {
+	max-width: 115rem;
+	margin: 0 auto;
+}
+
+/* header section */
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10rem;
+}
+.header__logo {
+	width: 10rem;
+}
+.nav__items {
+	display: flex;
+}
+.nav__link {
+	font-size: 1.4rem;
+	padding: 0 2rem;
+	color: #fff;
+	transition: color 0.3s ease-in-out;
+}
+.nav__link:hover {
+	color: #06bceb;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 3rem;
+}
+.hero__text-box {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 40%;
+	margin-bottom: 12rem;
+}
+.hero__heading {
+	font-size: 3.6rem;
+	font-weight: 700;
+	color: white;
+	padding: 7rem 0 1.5rem;
+	margin: 1rem 0 1rem;
+}
+.hero__description {
+	font-size: 1.8rem;
+	font-weight: 300;
+	color: white;
+	width: 28rem;
+}
+
+.hero__btn {
+	width: 21rem;
+	height: 5.1rem;
+	line-height: 5.1rem;
+	margin: 3rem 0;
+	padding: 0.2rem 0.8rem;
+	background-color: #25f18b;
+	border: 0.1rem solid #25f18b;
+	border-radius: 1rem;
+	color: #fff;
+	text-align: center;
+	font-size: 1.4rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.hero__btn:hover {
+	border-radius: 2rem;
+	background-color: #6affb4;
+}
+.hero__btn span {
+	text-transform: uppercase;
+}
+.hero__img-box {
+	flex-basis: 50%;
+}
+.hero__img {
+	transform: rotate(-6deg);
+	padding-bottom: 4rem;
+	background: #fff;
+	border: 1.5rem solid #fff;
+	border-radius: 2.5rem;
+	height: 42rem;
+}
