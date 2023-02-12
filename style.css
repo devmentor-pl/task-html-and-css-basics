@@ -3,6 +3,7 @@ font-size - 62.5% = 10px = 1 rem - easier to count the right rem value
 button-green color #25f18b 
 button-green hover color #6AFFB4
 grey-background  #F8F9F9
+dark-grey color #464646
 button-blue color #06BCEB */
 
 html {
@@ -116,4 +117,16 @@ body {
 	align-items: center;
 	justify-content: center;
 	height: 9rem;
+}
+.footer__box {
+	height: 9rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #464646;
+}
+.footer__text {
+	color: #fff;
+	font-size: 1.2rem;
+	padding-right: 1rem;
 }
