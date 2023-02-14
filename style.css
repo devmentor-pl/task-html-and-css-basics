@@ -22,11 +22,16 @@
     justify-content: space-between;
 }
 
-a {
+.nav-btn {
     color: white;
     font-size: 1.2rem;
     text-decoration: none;
     padding: 10px;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    color: rgb(70, 27, 225);
 }
 
 .header-encourage {
@@ -221,6 +226,7 @@ a {
 .variant__btn {
     color: white;
     text-align: center;
+    text-decoration: none;
     font-size: 1.1rem;
     background-color: rgb(24, 74, 239);
     border-radius: 6px;
