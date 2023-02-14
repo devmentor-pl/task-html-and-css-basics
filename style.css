@@ -1,0 +1,304 @@
+.container {
+    width: 100%;
+}
+
+.header, .header-description, .features-head, .features-properties, .logos, .subscription-head, .subscription-variant, .team-head, .teammates {
+    max-width: 1150px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header--bgc {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    padding-bottom: 3%;
+}
+
+.header {
+    padding-top: 2%;
+}
+
+.header, .header-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-btn {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.nav-btn:hover {
+    color: rgb(70, 27, 225);
+}
+
+.header-encourage {
+    color: white;
+    left: 45%;
+    padding: 5% 0;
+}
+
+.header-encourage__h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.header-encourage__p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding-right: 40%;
+}
+
+.header-btn {
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(76, 187, 66);
+    border-radius: 6px;
+    border-width: 0;
+    padding: 15px 30px;
+    transition: 0.3s;
+}
+
+.header-btn:hover {
+    background-color: rgba(76, 187, 66, 0.6);
+}
+
+.header-img {
+    padding: 5%;
+    transform: rotate(-8deg);
+}
+
+.features--bgc {
+    background-color: black;
+    padding: 3% 0;
+}
+
+.features-head, .features-properties {
+    color: white;
+}
+
+.features-head__p {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.8rem;
+    padding: 8%;
+    text-transform: uppercase;
+}
+
+.features-properties {
+    display: flex;
+    justify-content: space-around;
+}
+
+.property__header {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 5% 0;
+}
+
+.property__text {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 25%;
+}
+
+.property1, .property2, .property3 {
+    width: 28%;
+    }
+
+.property-img--bgc {
+    margin: 0 auto;
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos--bgc {
+    background-color: white;
+}
+
+.logos {
+    padding: 2% 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.description--bgc {
+    max-width: 1440px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.description-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.description-img {
+    flex-basis: 100%;
+}
+
+.description-img--resize {
+    padding: 3%;
+}
+
+.description-text {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description-text__h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 5%;
+}
+
+.description-text__p {
+    font-size: 1.3rem;
+    padding: 5%;
+    /* padding-right: 25%; */
+    line-height: 2.5rem;
+}
+
+.subscription--bgc {
+    background-color: white;
+    color: black;
+}
+
+.subscription-head__h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2% 0;
+}
+
+.subscription-head__p {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.subscription-variant {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.variant__name {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 7% 0 5% 0;
+}
+
+.variant__price {
+    font-size: 5rem;
+    text-align: center;
+    padding: 5% 0;
+}
+
+.variant__period {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.variant__description {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 10% 0 40% 0;
+}
+
+.variant1, .variant2, .variant3 {
+    position: relative;
+    padding: 5%;
+}
+
+.variant__btn {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    background-color: rgb(24, 74, 239);
+    border-radius: 6px;
+    border-width: 0;
+    padding: 10px 20px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    right: 15%;
+}
+
+.variant__btn:hover {
+    background-color: rgb(75, 114, 241);
+    font-size: 1.2rem;
+}
+
+.variant2 {
+    -webkit-box-shadow: 5px 5px 30px -15px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 5px 5px 30px -15px rgba(66, 68, 90, 1);
+    box-shadow: 5px 5px 30px -15px rgba(66, 68, 90, 1);
+    border-radius: 5px;
+}
+
+.team-head__h2 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    padding: 6% 0;
+}
+
+.teammates {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.teammate1, .teammate2, .teammate3 {
+    text-align: center;
+}
+
+.team-function {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+.team-member {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2% 0;
+}
+
+.team-description {
+    font-size: 1rem;
+    padding: 4% 0;
+}
+
+.team-icons {
+    padding: 3% 3%;
+}
+
+.copyright {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-img, .footer-p {
+    display: inline-block;
+}
