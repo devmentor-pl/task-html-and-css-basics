@@ -37,18 +37,6 @@ html, body {
     align-items: center;
 }
 
-/* .nav__logo {
-    height: 38px;
-    width: 129px;
-
-    background-image: url(../images/logo.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-
-    transform: scale(0.75);
-} */
-
 .nav__logo {
     transform: scale(0.75);
 }
@@ -95,17 +83,10 @@ html, body {
 }
 
 .hero__img-container {
-    height: 550px;
-    width: 110%;
-    background-image: url(../images/screen.png);
-    background-repeat: no-repeat;
-    background-size: 47rem;
-    background-position: center;
+    transform: rotate(-6deg) scale(0.8);
     border: 1.8rem solid white;
     border-radius: 1.8rem;
-    transform: rotate(-6deg) scale(0.7);
-    margin-top: -3rem;
-    margin-left: -3rem;
+    background-position: center;
 }
 
 /* END OF HEADER */
