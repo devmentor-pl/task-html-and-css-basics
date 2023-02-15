@@ -325,6 +325,60 @@ html, body {
     border-radius: 0.7rem;
 }
 
-
-
 /* END OF PRICING */
+
+/* TEAM */
+
+.team {
+    min-height: 725px;
+}
+
+.team__header-main {
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.members__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.team__member {
+    margin: 1rem;
+    flex-basis: 25%;
+    height: 25rem;
+    text-align: center;
+}
+
+.team__member-cto {
+    flex-basis: 30%;
+}
+
+.team__member-img {
+    margin-top: 2.2rem;
+}
+
+.team__member-position {
+    margin-top: 2rem;
+}
+
+.team__member-name {
+    padding: 0.7rem;
+    font-weight: 800;
+}
+
+.team__member-twitter {
+    padding: 0.4rem;
+}
+
+.team__member-facebook {
+    padding: 0.4rem;
+}
+
+
+
+/* END OF TEAM */
