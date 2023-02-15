@@ -9,6 +9,7 @@ button-blue color #06BCEB */
 html {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 62.5%;
+	color: #333333;
 	scroll-behavior: smooth;
 }
 body {
@@ -109,10 +110,113 @@ body {
 
 /* main */
 /* featured */
-
+/* about */
+.about {
+	max-width: 140rem;
+	height: 80rem;
+}
+/* pricing */
+.pricing {
+	background-color: #f8f9f9;
+}
+.pricing__headers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 18rem;
+}
+.pricing__header {
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin: 1rem 0;
+	padding-top: 4rem;
+}
+.pricing__subheader {
+	font-size: 1.8rem;
+	font-weight: 300;
+	padding: 1rem 0;
+	color: #5e5d5d;
+}
+.pricing-box {
+	display: flex;
+	align-items: center;
+	margin-top: 4rem;
+}
+.pricing-box__item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem 0 9rem;
+	max-width: 39rem;
+	height: 43rem;
+	padding: 3.6rem 0;
+	flex-basis: 40%;
+}
+.pricing-box__item--best {
+	background-color: #fff;
+	box-shadow: 0.5rem 1rem 4rem rgba(99, 117, 138, 0.3);
+	border-radius: 1rem;
+}
+.pricing-box__name {
+	font-size: 1.8rem;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-bottom: 0.5rem;
+	margin-top: 2.5rem;
+}
+.pricing-box__value {
+	font-size: 4.5rem;
+	font-weight: 700;
+}
+.pricing-box__value::before {
+	content: '$';
+}
+.pricing-box__time {
+	font-size: 1.2rem;
+	padding-bottom: 2rem;
+}
+.pricing-box__features {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+}
+.pricing-box__feature {
+	text-align: center;
+	font-size: 1.4rem;
+}
+.pricing-box__ico {
+	font-size: 1.4rem;
+	color: #25f18b;
+	padding-right: 1rem;
+}
+.pricing-box__btn {
+	position: absolute;
+	width: 16.4rem;
+	height: 5.1rem;
+	line-height: 5.1rem;
+	margin: 3rem 0;
+	padding: 0.2rem 0.8rem;
+	background-color: #06bceb;
+	border-radius: 1rem;
+	color: #fff;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 300;
+	transition: all 0.3s ease-in-out;
+	bottom: 2rem;
+}
+.pricing-box__btn:hover {
+	background-color: #58d5f7;
+	color: fff;
+	border-radius: 2rem;
+}
 /* the team */
 
-.team-header {
+.team__header {
 	margin: 2rem auto;
 	text-align: center;
 	height: 12rem;
