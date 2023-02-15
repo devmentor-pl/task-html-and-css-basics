@@ -80,6 +80,9 @@ html, body {
 
 .hero__img {
     flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero__img-container {
