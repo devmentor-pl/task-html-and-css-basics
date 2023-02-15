@@ -37,7 +37,7 @@ html, body {
     align-items: center;
 }
 
-.nav__logo {
+/* .nav__logo {
     height: 38px;
     width: 129px;
 
@@ -46,6 +46,10 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
 
+    transform: scale(0.75);
+} */
+
+.nav__logo {
     transform: scale(0.75);
 }
 
