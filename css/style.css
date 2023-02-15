@@ -28,10 +28,12 @@ img {
 /* END OF SIMPLE RESETING CSS */
 
 .header{
-    position: fixed;
-    width: 100%;
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-    border: 5px solid green;
+  position: fixed;
+  width: 100%;
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  border: 5px solid green;
+  height: 900px;
+  
 }
 .container{
   display:flex;
@@ -58,18 +60,67 @@ img {
   justify-content: space-between;
   color: white;
   font-size: 1.2rem;
-  
+
 }
 .nav__item{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hero{
+.hero__container{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
+  align-items: center;
+  
 }
 
+.hero__image-container{
+ 
+
+  /* border-radius: 1%; */
+  /* outline: 20px solid white; */
+  
+  border: 5px solid yellow;
+  display: flex;
+  justify-content:space-between;
+  flex-basis: 45%;
+}
 .hero__image{
-  border: 10px solid white;
+  background-image: url(../images/screen.png);
+  background-position: center;
+  height: 550px;
+  flex-basis: 100%;
+  /* flex-basis: 45%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  rotate: -5deg;
+  background-color: white;
+  margin-top: 50px;
+  border-bottom: 100px solid white;
+  /* border: 10px solid white; */
+  outline: 20px solid white;
+  border-radius: 1%;
+}
+.hero__text{
+  text-align: left;
+  color: white;
+  border: 5px solid yellow;
+  height: 450px;
+  /* padding-top: 100px; */
+  flex-basis: 40%;
+  
+}
+.hero__header{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.paragraph__container{
+  max-width: 300px;
+}
+.hero__paragraph{
+  font-size: 1.5rem;
+  font-weight:100;
+}
+.hero__button{
+  margin: 20px 0;
 }
