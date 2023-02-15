@@ -379,6 +379,30 @@ html, body {
     padding: 0.4rem;
 }
 
-
-
 /* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    background-color: #626262;
+}
+
+.footer__container {
+    min-height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer__logo {
+    padding: 0 1rem;
+}
+
+
+
+/* END OF FOOTER */
