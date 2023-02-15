@@ -3,6 +3,10 @@ html, body {
     font-family: Montserrat, sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1150px;
     margin: 0 auto;
