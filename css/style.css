@@ -100,7 +100,6 @@ img {
   /* border: 10px solid white; */
   /* outline: 20px solid white; */
   border-radius: 5%;
-  background-color: white;
 }
 .hero__text{
   text-align: left;
@@ -206,3 +205,49 @@ button:hover{
   font-weight: lighter;
   line-height: 1.5rem;
 }  
+/* END OF FEATURES */
+
+
+
+/* START FOOTER - LOGOS */
+
+.footer__container{
+  justify-content: center;
+}
+
+/* .footer__logo{
+  display: flex;
+  justify-content: center;
+} 
+
+.footer__logos--set{
+  margin: 20 auto;
+  text-align: center;
+  display: block;
+  align-content: center;
+} */
+
+/* END OF FOOTER - LOGOS */
+
+/* START THEME SECTION*/
+
+.theme{
+  display: flex;
+  justify-content: center;
+}
+.theme__image{
+  background-image: url(../images/imac.png);
+  background-position: center;
+  height: 500px;
+  /* flex-basis: 100%; */
+  /* flex-basis: 45%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 50px; */
+
+
+  background-color: white;
+}
+
+
+
