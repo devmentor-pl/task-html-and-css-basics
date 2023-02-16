@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px; 
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
 }
 
 *, *:before, *:after {
@@ -30,22 +30,19 @@ img {
 /* START HEADER */
 .header{
   /* position: fixed; */
+  /* border: 5px solid green; */
   width: 100%;
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-  /* border: 5px solid green; */
   min-height: 800px;
 }
 .container{
   display:flex;
   justify-content: space-between;
-  /* border: 5px solid blue; */
+  border: 5px solid blue;
   max-width: 1280px;
   margin: 0px auto;
   align-items: center;
   padding-top: 10px;;
-}
-.hero{
-
 }
 .logo{
   display: flex;
@@ -63,32 +60,24 @@ img {
   display: flex;
   justify-content: space-between;
   color: white;
-  font-size: 1.2rem;
 }
 .nav__item{
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* .hero__container{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-} */
 .hero__image-container{
-   /* border-radius: 1%; */
-  /* outline: 20px solid white; */
-  /* border: 5px solid yellow; */
+ 
   display: flex;
   justify-content:space-between;
   flex-basis: 50%;
 }
 .hero__image{
+  /* border: 10px solid white; */
   background-image: url(../images/screen.png);
   background-position: center;
   height: 500px;
   flex-basis: 100%;
-  /* flex-basis: 45%; */
   background-repeat: no-repeat;
   background-size: cover;
   rotate: -5deg;
@@ -96,17 +85,14 @@ img {
   margin-top: 50px;
   border: 20px solid white;
   border-bottom: 100px solid white;
-  
-  /* border: 10px solid white; */
-  /* outline: 20px solid white; */
   border-radius: 5%;
+   /* outline: 20px solid white; */
 }
 .hero__text{
+  /* border: 5px solid yellow; */
   text-align: left;
   color: white;
-  /* border: 5px solid yellow; */
   height: 450px;
-  /* padding-top: 100px; */
   flex-basis: 40%;
   margin-top: 50px;
 }
@@ -133,7 +119,6 @@ img {
   border-radius: 10px;
   font-size: 1.2rem;
   transition: background-color 0.3s ease-in-out;
-  
 }
 button:hover{
   background-color: #06e85de9;
@@ -144,20 +129,18 @@ button:hover{
 
 /* START FEATURES */
 .features{
-  /* position: relative;
-  bottom:100%; */
+  /* position: relative; */
+  /* bottom:100%; */
+  /* border: 5px solid green; */
   width: 100%;
   background-color: black;
   color: white;
-  /* border: 5px solid green; */
   height: 450px;
 }
 .feature__container{
   display: flex;
   justify-content: center; 
-  align-items: center;
-  max-width: 1280px;;
-  
+  align-items: center; 
 } 
 .features__header{
   align-items: center;
@@ -168,16 +151,14 @@ button:hover{
 .features__heading{
   font-size: 2rem;
   font-weight: lighter;
-
 }
 .feature{
+    /* margin: 0 10px; */
+  /* border: 5px solid yellow; */
   flex-basis: 25%;
   padding: 0 50px;
-  /* margin: 0 10px; */
-  /* border: 5px solid yellow; */
   min-height: 270px;
 }
-
 .feature__icon-container{
   margin: 10px auto;
   height: 80px;
@@ -188,23 +169,18 @@ button:hover{
   align-items: center;
   justify-content: center;  
   box-shadow: 5px 15px 40px #45294d;
-
-  
 }
-/* .feature__section{
-  margin: 20px auto;
-} */
 .feature__heading{
   margin: 20px auto;
   text-align: center;
 }
 .feature__paragraph{
-  
   margin: 20px auto;
   text-align: center;
   font-weight: lighter;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }  
+
 /* END OF FEATURES */
 
 
@@ -212,42 +188,68 @@ button:hover{
 /* START FOOTER - LOGOS */
 
 .footer__container{
+   /* border: 5px solid blue; */
   justify-content: center;
+  background-color: #f9fafa;
+  display:flex;
+  padding-top: 10px;
+  /* align-items: center; */
 }
-
-/* .footer__logo{
-  display: flex;
-  justify-content: center;
-} 
-
-.footer__logos--set{
-  margin: 20 auto;
-  text-align: center;
-  display: block;
-  align-content: center;
-} */
 
 /* END OF FOOTER - LOGOS */
 
+
 /* START THEME SECTION*/
 
-.theme{
+.theme__container{
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
+  width: 100%;
 }
 .theme__image{
   background-image: url(../images/imac.png);
   background-position: center;
   height: 500px;
-  /* flex-basis: 100%; */
-  /* flex-basis: 45%; */
   background-repeat: no-repeat;
-  background-size: cover;
-  /* margin-top: 50px; */
-
-
+  background-size:contain;
+  margin: 50px auto;
   background-color: white;
+}
+.theme__image-container{
+  /* border: 5px solid yellow; */
+  flex-basis: 55%;
+}
+.theme__article{
+  /* border: 5px solid yellow; */
+  font-weight: lighter;
+  flex-basis: 40%;
+  padding-right: 300px;
+  line-height: 2rem;
+}
+.article__header-head{
+  margin-top: 80px;
+  margin-bottom: 1.5rem;
+}
+
+/* END OF THEME SECTION*/
+
+
+/* START PRICING SECTION*/
+
+.pricing__container{
+  border: 5px solid green;
+}
+.pricing__header{
+  border: 5px solid blue;
+  max-width: 1280px;
+  margin: 0px auto;
+  padding-top: 10px;;
+}
+.pricing__plans{
+  border: 5px solid yellow;
 }
 
 
+
+/* END OF PRICING SECTION*/
 
