@@ -191,9 +191,9 @@ img {
 
 
 
-/* START FOOTER - LOGOS */
+/* START ASIDE - LOGOS */
 
-.footer__container{
+.aside__container{
    /* border: 5px solid blue; */
   justify-content: center;
   background-color: #ecf0f1;
@@ -202,7 +202,7 @@ img {
   /* align-items: center; */
 }
 
-/* END OF FOOTER - LOGOS */
+/* END OF ASIDE - LOGOS */
 
 
 /* START THEME SECTION*/
@@ -229,7 +229,7 @@ img {
   /* border: 5px solid yellow; */
   font-weight: lighter;
   flex-basis: 40%;
-  padding-right: 300px;
+  padding-right: 200px;
   line-height: 2rem;
 }
 .article__header-head{
@@ -245,9 +245,6 @@ img {
 .pricing__container{
   /* border: 5px solid green; */
   background-color: #F7F9F9
-}
-.pricing__plans{
-
 }
 .pricing__header{
   /* border: 5px solid blue; */
