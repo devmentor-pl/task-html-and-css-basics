@@ -1,5 +1,6 @@
 /* COMMON */
 html, body {
+    scroll-behavior: smooth;
     font-family: Montserrat, sans-serif;
 }
 
@@ -94,6 +95,7 @@ a {
     border: 1.8rem solid white;
     border-radius: 1.8rem;
     background-position: center;
+    background-color: white;
 }
 
 /* END OF HEADER */
@@ -191,33 +193,44 @@ a {
 /* ADVERTISE */
 
 .advertise {
-    display: flex;
+    width: 100%;
+    height: 675px;
 }
 
-.advertise__img, .advertise__text-container {
+.advertise__container {
+    display: flex;
+    height: inherit;
+}
+
+.container__img, .container__text {
     flex-basis: 50%;
 }
 
+.container__img {
+    display: flex;
+    align-items: center;
+}
+
 .advertise__text-container {
-    padding-top: 2rem;
+
 }
 
 .advertise__img {
-    height: 50rem;
-    transform: scale(0.8);
+
 }
 
 .advertise__header {
     display: flex;
     justify-content: flex-start;
-    padding: 5rem;
+    padding: 6.5rem 6.5rem 3rem 6.5rem;
     font-size: 1.8rem;
 }
 
 .advertise__text {
-    padding: 0 22rem 0 5rem;
-    word-spacing: 0.3rem;
-    line-height: 2rem;
+    padding: 0 5.0rem 0 6.5rem;
+    word-spacing: 0.2rem;
+    line-height: 1.8rem;
+    font-size: 0.9rem;
 }
 
 /* END OF ADVERTISE */
