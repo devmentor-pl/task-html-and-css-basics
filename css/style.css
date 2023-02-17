@@ -38,7 +38,7 @@ img {
 .container{
   display:flex;
   justify-content: space-between;
-  border: 5px solid blue;
+  /* border: 5px solid blue; */
   max-width: 1280px;
   margin: 0px auto;
   align-items: center;
@@ -110,8 +110,7 @@ img {
 .button{
   display: block;
   cursor: pointer;
-  margin: 20px 0;
-  min-width: 250px;
+  max-width: 300px;
   padding: 20px 50px;
   background-color: #25F18B;
   color: white;
@@ -119,10 +118,17 @@ img {
   border-radius: 10px;
   font-size: 1.2rem;
   transition: background-color 0.3s ease-in-out;
+  
 }
-button:hover{
+.button--green{
+  margin: 20px 0;
+}
+.button:hover{
+  border-radius: 15px;
+  box-shadow: -1px 0px 14px -7px rgba(66, 68, 90, 1);
+}
+.button--green:hover{
   background-color: #06e85de9;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
 }
 /* END OF HEADER */
 
@@ -155,7 +161,7 @@ button:hover{
 .feature{
     /* margin: 0 10px; */
   /* border: 5px solid yellow; */
-  flex-basis: 25%;
+  flex-basis: 33%;
   padding: 0 50px;
   min-height: 270px;
 }
@@ -190,7 +196,7 @@ button:hover{
 .footer__container{
    /* border: 5px solid blue; */
   justify-content: center;
-  background-color: #f9fafa;
+  background-color: #ecf0f1;
   display:flex;
   padding-top: 10px;
   /* align-items: center; */
@@ -237,19 +243,77 @@ button:hover{
 /* START PRICING SECTION*/
 
 .pricing__container{
-  border: 5px solid green;
-}
-.pricing__header{
-  border: 5px solid blue;
-  max-width: 1280px;
-  margin: 0px auto;
-  padding-top: 10px;;
+  /* border: 5px solid green; */
+  background-color: #F7F9F9
 }
 .pricing__plans{
-  border: 5px solid yellow;
+
 }
+.pricing__header{
+  /* border: 5px solid blue; */
+  max-width: 1280px;
+  margin: 0px auto;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: lighter;
+}
+.pricing__header--main{
+  font-size: 1.8rem;
+}
+.pricing__header--sub{
+  color: #909292;
+  padding-bottom: 10px;
+}
+.pricing__plans{
+  /* border: 5px solid blue; */
+  background-color: #F7F9F9;
+  padding: 50px 20px;
+  padding-bottom: 100px;
+}
+.pricing__plans-type{
+  /* border: 5px solid yellow; */
+  /* background-color: white; */
+  background-color: #F7F9F9;
+  padding: 10px 20px;
+  flex-basis: 25%;
+}
+.pricing__plans-text{
+  text-align: center;
+  line-height: 3rem;
+}
+.pricing__plans--mainhead{
+  margin-top: 50px;
+}
+.pricing__plans--subhead{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.pricing__plans--paragraph{
+  font-size: 0.8rem;
+}
+.pricing__plans-list{
+  font-weight: bold;
+  line-height: 1rem;
+  padding-bottom: 140px;
+}
+.button--blue{
+  margin: 20px auto;
+  padding: 15px 40px;
+  font-size: 1rem;
+  background-color: #0abceb;
+  font-weight: lighter;
+  margin-bottom: 50px;
 
+}
+.button--blue:hover{
+  background-color: #2980b9;
 
+}
+.plan-type--agency{
+  background-color: white;
+  border-radius: 3%;
+  box-shadow: 0px 0px 20px -7px rgba(66, 68, 90, 1);
 
+}
 /* END OF PRICING SECTION*/
 
