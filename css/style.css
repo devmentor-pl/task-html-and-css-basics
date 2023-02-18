@@ -334,6 +334,7 @@ img {
 }
 .team-text{
 text-align: center;  
+padding-bottom: 200px;
 }
 .team__avatar{
   text-align: center;
@@ -347,4 +348,21 @@ text-align: center;
 .team__heading--name{
   font-weight: bold;
   margin: 1rem auto;
+}
+/* END OF TEAM SECTION*/
+
+
+.footer__container{
+  /* border: 5px solid blue; */
+ background-color: #464646;
+ text-align: center;
+ padding-top: 20px;
+ 
+}
+
+.footer__text{
+  color: white;
+  font-size: 0.8rem;
+  line-height: 35px;
+  vertical-align: top;
 }
