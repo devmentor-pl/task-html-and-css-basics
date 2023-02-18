@@ -234,7 +234,9 @@ img {
 }
 .article__header-head{
   margin-top: 80px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 
 /* END OF THEME SECTION*/
@@ -255,7 +257,8 @@ img {
   font-weight: lighter;
 }
 .pricing__header--main{
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 .pricing__header--sub{
   color: #909292;
@@ -314,3 +317,34 @@ img {
 }
 /* END OF PRICING SECTION*/
 
+
+/* START TEAM SECTION*/
+
+.team__header{
+  /* border: 5px solid blue; */
+  max-width: 1280px;
+  margin: 80px auto;
+  /* padding-top: 10px; */
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+.team__member{
+  /* border: 5px solid yellow; */
+}
+.team-text{
+text-align: center;  
+}
+.team__avatar{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.team__heading--position{
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+.team__heading--name{
+  font-weight: bold;
+  margin: 1rem auto;
+}
