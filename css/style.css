@@ -25,6 +25,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
 
 /* END OF SIMPLE RESET CSS */
 
@@ -43,7 +48,10 @@ img {
   max-width: 1280px;
   margin: 0px auto;
   align-items: center;
-  padding-top: 10px;;
+  /* padding-top: 10px; */
+}
+.nav__container{
+  padding-top: 20px;
 }
 .logo{
   display: flex;
@@ -53,22 +61,18 @@ img {
   /* border: 5px solid yellow; */
 }
 .nav{
-  padding: 0 10px;
+  padding: 0 20px;
 }
 .nav__main{
   min-width: 300px;
   height: 70px;
   display: flex;
   justify-content: space-between;
+}
+.nav__link{
   color: white;
 }
-.nav__item{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .hero__image-container{
- 
   display: flex;
   justify-content:space-between;
   flex-basis: 50%;
@@ -342,8 +346,8 @@ img {
 }
 .team-text{
 text-align: center;  
-padding-bottom: 200px;
 padding: 0 100px;
+padding-bottom: 200px;
 }
 .team__avatar{
   text-align: center;
@@ -361,6 +365,8 @@ padding: 0 100px;
 /* END OF TEAM SECTION*/
 
 
+
+/* START FOOTER SECTION*/
 .footer__container{
   /* border: 5px solid blue; */
  background-color: #464646;
@@ -375,3 +381,4 @@ padding: 0 100px;
   line-height: 35px;
   vertical-align: top;
 }
+/* END OF FOOTER SECTION*/
