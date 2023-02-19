@@ -20,9 +20,9 @@
             <img class="header__logo" src="./images/logo.svg" alt="nova logo">
             <nav class="nav">
                 <ul class="nav__items">
-                    <li class="nav__item"> <a class="nav__link" href="#">The Team</a></li>
-                    <li class="nav__item"> <a class="nav__link" href="#">Pricing</a> </li>
-                    <li class="nav__item"> <a class="nav__link" href="#">Features</a> </li>
+                    <li class="nav__item"> <a class="nav__link" href="#team">The Team</a></li>
+                    <li class="nav__item"> <a class="nav__link" href="#pricing">Pricing</a> </li>
+                    <li class="nav__item"> <a class="nav__link" href="#features">Features</a> </li>
                 </ul>
             </nav>
         </section>
@@ -30,29 +30,58 @@
             <div class="hero__text-box">
                 <h1 class="hero__heading">Beautiful Free Nova template</h1>
                 <p class="hero__description">A top notch premium quality template for your next web project.</p>
-                <a href="#" class="hero__btn">Download <span>free</span>! </a>
+                <a href="#" class="hero__btn">Download <span>free</span>!</a>
             </div>
             <div class="hero__img-box">
                 <img class="hero__img" src="./images/screen.png" alt="hero image">
             </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="features" id="features">
+            <h2 class="features__header container">Features</h2>
+            <div class="features-box container">
+                <ul class="feature__item">
+                    <li class="feature__icon"><img src="./images/responsive.svg" alt="mobile phone logo"></li>
+                    <li class="feature__name">fully responsive</li>
+                    <li class="feature__description">Looks amazing on any device: smartphone, tablet, laptop and
+                        desktop.</li>
+                </ul>
+                <ul class="feature__item">
+                    <li class="feature__icon"><img src="./images/customizable.svg" alt="tools logo"></li>
+                    <li class="feature__name">customizable</li>
+                    <li class="feature__description">Change the colors, pictures or any of the sections to suit your
+                        needs.</li>
+                </ul>
+                <ul class="feature__item">
+                    <li class="feature__icon"><img src="./images/design.svg" alt="prize medal logo"></li>
+                    <li class="feature__name">slick and beautiful design</li>
+                    <li class="feature__description">Trendy and fresh design, fits any website.</li>
+                </ul>
+            </div>
 
         </section>
 
-    </header>
-    <main>
-        <section class="features"></section>
         <section class="featured-in">
             <div class="featured-in__box container">
                 <img class="featured-in__logos" src="./images/logos.png" alt="logos of companies we work with">
-
             </div>
-
-
         </section>
+
         <section class="about">
-
+            <img class="about__photo" src="./images/imac.png" alt="picture of imac monitor">
+            <article class="about-box">
+                <h2 class="about__header">Simple and beautiful</h2>
+                <p class="about__text">Use Nova theme for your next web project. It is completely customizable so you
+                    can change any of the
+                    sections to fit
+                    your needs. Nova Theme is Free for any kind of use, personal and commercial. Have fun and good luck!
+                </p>
+            </article>
         </section>
-        <section class="pricing">
+
+        <section class="pricing" id="pricing">
             <div class="pricing__headers container">
                 <h2 class="pricing__header">Choose your pricing plan</h2>
                 <h3 class="pricing__subheader">Pick any of our super affordable pricing plans</h3>
@@ -71,7 +100,6 @@
                         </li>
                     </ul>
                     <a class="pricing-box__btn " href="">Get Started</a>
-
                 </div>
                 <div class="pricing-box__item pricing-box__item--best">
                     <h2 class="pricing-box__name">agency
@@ -112,7 +140,8 @@
                 </div>
             </div>
         </section>
-        <section class="team">
+
+        <section class="team" id="team">
             <h2 class="team__header container">The team</h2>
             <ul class="team-box container">
                 <li class="team-box__item">
@@ -122,8 +151,10 @@
                     <h3 class="team__name">Johnny B Good</h3>
                     <p class="team__description">The brains behind the whole operation</p>
                     <div class="team__social-icons">
-                        <img class="team__social-icon" src="./images/team-twitter.svg" alt="twitter icon">
-                        <img class="team__social-icon" src="./images/team-facebook.svg" alt="facebook icon">
+                        <a class="team__social-link" href="#"><img class="team__social-icon"
+                                src="./images/team-twitter.svg" alt="twitter icon"></a>
+                        <a class="team__social-link" href="#"><img class="team__social-icon"
+                                src="./images/team-facebook.svg" alt="facebook icon"></a>
                     </div>
                 </li>
                 <li class="team-box__item">
@@ -133,8 +164,10 @@
                     <h3 class="team__name">Roll Over Beethoven</h3>
                     <p class="team__description">The one that puts it all together</p>
                     <div class="team__social-icons">
-                        <img class="team__social-icon" src="./images/team-twitter.svg" alt="twitter icon">
-                        <img class="team__social-icon" src="./images/team-facebook.svg" alt="facebook icon">
+                        <a class="team__social-link" href="#">
+                            <img class="team__social-icon" src="./images/team-twitter.svg" alt="twitter icon"></a>
+                        <a class="team__social-link" href="#"><img class="team__social-icon"
+                                src="./images/team-facebook.svg" alt="facebook icon"></a>
                     </div>
                 </li>
                 <li class="team-box__item">
@@ -144,24 +177,22 @@
                     <h3 class="team__name">Chuck Berry</h3>
                     <p class="team__description">The guy with his hand on the wallet</p>
                     <div class="team__social-icons">
-                        <img class="team__social-icon" src="./images/team-twitter.svg" alt="twitter icon">
-                        <img class="team__social-icon" src="./images/team-facebook.svg" alt="facebook icon">
+                        <a class="team__social-link" href="#"><img class="team__social-icon"
+                                src="./images/team-twitter.svg" alt="twitter icon"></a>
+                        <a class="team__social-link" href="#"><img class="team__social-icon"
+                                src="./images/team-facebook.svg" alt="facebook icon"></a>
                     </div>
                 </li>
             </ul>
-
         </section>
     </main>
+
     <footer>
         <div class="footer__box ">
             <p class="footer__text">A free template by</p>
             <img class="footer__logo" src="./images/webscope.svg" alt="webscope logo">
         </div>
     </footer>
-
-
-
-
 </body>
 
 </html>
