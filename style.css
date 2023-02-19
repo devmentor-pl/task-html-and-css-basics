@@ -184,9 +184,9 @@ body {
 	margin: 0 auto;
 }
 .about__photo {
-	margin: auto 0;
-	padding: 6rem 0;
+	padding: 6rem 3rem;
 	height: auto;
+	align-self: center;
 }
 .about-box {
 	margin: 8rem 3rem 4rem;
@@ -231,7 +231,8 @@ body {
 	color: #5e5d5d;
 }
 .pricing-box {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	align-items: center;
 	margin-top: 4rem;
 }
@@ -250,6 +251,7 @@ body {
 	background-color: #fff;
 	box-shadow: 0.5rem 1rem 4rem rgba(99, 117, 138, 0.3);
 	border-radius: 1rem;
+	min-width: 30rem;
 }
 .pricing-box__name {
 	font-size: 1.8rem;
@@ -328,7 +330,7 @@ body {
 	align-items: center;
 	margin-top: 1rem;
 	flex-basis: 30%;
-	min-height: 50rem;
+	padding-bottom: 20rem;
 }
 .team__photo {
 	padding-top: 2rem;
@@ -366,4 +368,53 @@ body {
 	color: #fff;
 	font-size: 1.2rem;
 	padding-right: 1rem;
+}
+
+@media (max-width: 768px) {
+	.hero {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin-top: 10rem;
+	}
+	.hero__btn {
+		margin: 5rem auto;
+	}
+
+	.hero__img-box {
+		display: none;
+	}
+	.features-box {
+		flex-direction: column;
+	}
+	.about {
+		display: flex;
+		flex-direction: column;
+	}
+	.about-box {
+		padding: 0;
+		flex-direction: column;
+		margin: 8rem auto;
+	}
+	.about__header,
+	.about__text {
+		text-align: center;
+	}
+	.pricing__header {
+		text-align: center;
+	}
+	.pricing-box {
+		grid-template-columns: 1fr;
+	}
+	.pricing-box__item {
+		margin: 0 auto;
+	}
+
+	.team-box {
+		flex-direction: column;
+	}
+	.team-box__item {
+		padding-bottom: 5rem;
+	}
 }
