@@ -248,4 +248,38 @@
 
 /* pricing */
 
+.pricing {
+  height: 100vh;
+}
+
 /* end of pricing  */
+
+/* team */
+
+.team {
+  height: 85vh;
+}
+
+/* end of team */
+
+/* footer */
+
+.footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #464646;
+}
+
+.footer__paragraph {
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.footer__img-box {
+  padding-left: 15px;
+}
+
+/* end of footer */
