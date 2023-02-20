@@ -42,6 +42,7 @@
   background-size: contain;
   height: 30px;
   flex-basis: 20%;
+  margin-left: 15px;
 }
 
 .header__nav {
@@ -112,3 +113,31 @@
 }
 
 /* end of header  */
+
+/* features */
+
+.features {
+  height: 73vh;
+}
+
+/* end of features  */
+
+/* recommendations */
+
+.recommendations {
+  height: 90px;
+  background-color: #f9fafa;
+  padding-left: 15px;
+}
+
+.recommendations__container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recommendations__img {
+}
+
+/* end of recommendations */
