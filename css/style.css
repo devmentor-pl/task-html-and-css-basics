@@ -185,6 +185,7 @@
 .features__text {
   font-weight: 200;
   font-size: 0.9rem;
+  line-height: 1.4;
 }
 
 /* end of features  */
@@ -208,3 +209,43 @@
 }
 
 /* end of recommendations */
+
+/* preview */
+.preview {
+  position: relative;
+  height: 90vh;
+  display: flex;
+}
+
+.preview__img-box,
+.preview__text {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.preview__img {
+  position: absolute;
+  left: 80px;
+  top: 60px;
+  width: 88%;
+}
+
+.preview__text {
+  padding-left: 120px;
+}
+
+.preview__header {
+  font-size: 1.9rem;
+  font-weight: 400;
+  padding: 100px 0 40px 0;
+}
+.preview__paragraph {
+  font-weight: 200;
+  line-height: 1.9;
+}
+
+/* end of preview  */
+
+/* pricing */
+
+/* end of pricing  */
