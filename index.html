@@ -20,9 +20,9 @@
         <nav class="nav">
             <div class="nav__logo"></div>
             <ul class="nav__ul">
-                <li class="nav__li">The Team</li>
-                <li class="nav__li">Pricing</li>
-                <li class="nav__li">Features</li>
+                <li class="nav__li"><a class="header__anchor" href="#team-section__info"> The Team</a></li>
+                <li class="nav__li"><a class="header__anchor" href="#plan-section"> Pricing</a></li>
+                <li class="nav__li"><a class="header__anchor" href="#features-container"> Features</a></li>
             </ul>
         </nav>
         <div class="header__slogan">
@@ -39,27 +39,26 @@
             </div>
             </div>
         </div>
-    
     </header>   
         <div class="features">
-            <div class="features-container">
+            <div id="features-container" class="features-container">
             <h1 class="features__title">FEATURES</h1>
             <div class="features__section">
-                <div class="features__icons"></i><i class="features__icon fa-solid fa-mobile-screen"></i></div>
+                <div class="features__icons"><img class="features__icon" src="images/responsive.svg" alt="">   </div>
                 <h4 class="features__header">FULLY RESPONSIVE</h4>
                 <p class="features__describe">
                     Looks amazing on any device: smartphone, tablet, laptop and desktop.
                 </p>
             </div>
             <div class="features__section">
-                <div class="features__icons"><i class="features__icon fa-solid fa-screwdriver-wrench"></i></div>
+                <div class="features__icons"><img class="features__icon" src="images/customizable.svg" alt=""></div>
                 <h4 class="features__header">CUSTOMIZABLE</h4>
                 <p class="features__describe">
                     Change the colors, pictures or any of the sections to suit your needs.
                 </p>
             </div>
             <div class="features__section">
-                <div class="features__icons"></i><i class="features__icon fa-solid fa-award"></i></div>
+                <div class="features__icons"><img class="features__icon" src="images/design.svg" alt=""></div>
                 <h4 class="features__header">SLICK AND BEAUTIFUL DESIGN</h4>
                 <p class="features__describe">
                     Trendy and fresh design, fits any website.
@@ -84,7 +83,7 @@
             </p>
         </div>
     </div>
-    <div class="plan-section">
+    <div id="plan-section" class="plan-section">
         <h1 class="plan-section__title">CHOOSE YOUR PRICING PLAN</h1>
         <h4 class="plan-section__description">Pick any of our super affordable pricing plans</h4>
         <div class="plan-section__container">
@@ -152,7 +151,11 @@
                 <i class="team-section__icon fa-brands fa-google"></i>
             </div>
         </div>
-        <div class="team-section__info">
+
+
+
+
+        <div id="team-section__info" class="team-section__info">
             <div class="team-section__picture__container">
                 <img class="team-section__picture__img" src="images/cfo.png" alt="">
             </div>
@@ -168,11 +171,10 @@
     </div>
     </div>
     <footer class="footer">
-        <h3 class="footer__title"></h3>
-        <div class="footer__picture-container">
-            <span class="footer__describe">A free template by</span>
-            <img src="images/webscope.svg" alt="" class="footer__img">  
-        </div>
+        <div class="footer__container">
+            <h3 class="footer__describe">A free template by</h3>
+            <img class="footer__img" src="images/webscope.svg">  
+    </div>
     </footer>
     </div>
 </body>
