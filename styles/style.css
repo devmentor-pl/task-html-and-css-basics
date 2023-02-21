@@ -36,6 +36,14 @@ html, body {
     border-radius: 1.3rem;
 }
 
+.cta-button--pricing {
+    width: 165px;
+}
+
+.cta-button--pricing:hover {
+    text-decoration: underline;
+}
+
 /* END OF COMMON */
 
 /* HEADER */
@@ -257,16 +265,110 @@ html, body {
 
 .content-header {
     margin: 20px 0 10px;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
     font-size: 30px;
     font-weight: 300;
     text-transform: uppercase;
 }
 
 .content-text {
+    font-size: 15px;
     font-weight: 300;
-    line-height: 1.5em;
-    padding-right: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    margin-right: 50px;
+    text-align: left;
 }
 
 /* END OF CONTENT */
+
+/* PRICING */
+.pricing {
+    background-color: #F9FAFA;
+    text-align: center;
+    width: 100%;
+}
+
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pricing__header {
+    min-width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px auto 10px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.pricing__header-sub {
+    font-size: 18px;
+    color: grey;
+    min-width: 100%;
+    padding-top: 10px;
+    margin: 10px auto;
+}
+
+.pricing__table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.pricing__plan {
+    flex-basis: 29%;
+    margin: 0;
+    padding: 30px 15px 45px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.pricing-title {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+    padding-bottom: 5px;
+}
+
+.pricing-cost {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.pricing-time {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding-bottom: 20px;
+}
+
+.pricing-pros {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.fa-check {
+    font-size: 14px;
+    color: #25F18B;
+    padding-right: 12px;
+}
+
+.pricing__plan--best {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 6px 40px 3px rgba(100, 100, 100, 0.25);
+    border-radius: 8px;
+}
+
+/* END OF PRICING */
