@@ -1,5 +1,9 @@
-.header, .main, .footer {
+body {
     width: 100%;
+    color: rgb(20, 20, 20);
+}
+
+.header, .main, .footer {
     background-color: greenyellow;
     color: rgb(13, 13, 13);
 }
