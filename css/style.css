@@ -1,6 +1,7 @@
 .header, .main {
     width: 100%;
     background-color: greenyellow;
+    color: rgb(13, 13, 13);
 }
 
 .header-top, .header-hero {
@@ -64,6 +65,46 @@
 .c-description__header {
     font-size: 1.5rem;
     padding-bottom: 30px;
+}
+
+.plans {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: rgb(223, 255, 176);
+    box-sizing: border-box;
+}
+
+.plans__p-container-1 {
+    text-align: center;
+    padding: 50px 30px 30px 30px;
+    box-sizing: border-box;
+}
+
+.plans__p-container-2 {
+    display: flex;
+    margin: 0px 75px;
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.p-container-2__p-item {
+    flex-basis: 33.33333%;
+    min-height: 300px;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.p-container-2__p-item--margin {
+    margin: 0 30px;
+    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.p-container-1__header {
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
 }
 
 .features__header {
