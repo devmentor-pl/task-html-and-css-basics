@@ -17,6 +17,14 @@
   width: 210px;
   font-weight: bold;
   border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  text-decoration: underline;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
 }
 
 /* end of global  */
@@ -250,6 +258,82 @@
 
 .pricing {
   height: 100vh;
+  background-color: #f8f9f9;
+}
+
+.pricing__container--small-section {
+  padding-left: 20px;
+  height: 30vh;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.pricing__header {
+  font-size: 1.8rem;
+  letter-spacing: 0.7px;
+  font-weight: 300;
+}
+
+.pricing__paragraph {
+  padding-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.pricing__container--big-section {
+  background-color: #f8f9f9;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing__item {
+  position: relative;
+
+  padding-left: 20px;
+  color: #333333;
+  height: 90%;
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pricing__item--active {
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+.pricing__cost {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.pricing__type {
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding: 70px 0 10px;
+}
+
+.pricing__description {
+  font-size: 0.9rem;
+  padding: 30px 0 40px;
+}
+
+.pricing__button {
+  position: absolute;
+  bottom: 60px;
+
+  width: 160px;
+  font-weight: 400;
+}
+
+.cta-button--blue {
+  background-color: #58d5f7;
 }
 
 /* end of pricing  */
@@ -257,7 +341,27 @@
 /* team */
 
 .team {
+  margin-top: 100vh;
   height: 85vh;
+}
+
+.team__img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.team__img--cto {
+  background-image: url(../images/cto.png);
+}
+.team__img--ceo {
+  background-image: url(../images/ceo.png);
+}
+.team__img--cfo {
+  background-image: url(../images/cfo.png);
 }
 
 /* end of team */

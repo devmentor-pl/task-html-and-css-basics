@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
@@ -115,11 +115,17 @@
         </div>
       </section>
       <section class="pricing">
-        <div class="pricing__container container">
-          <h2 class="pricing__header"></h2>
-          <p class="pricing__paragraph"></p>
+        <div
+          class="pricing__container pricing__container--small-section container"
+        >
+          <h2 class="pricing__header">CHOOSE YOUR PRICING PLAN</h2>
+          <p class="pricing__paragraph">
+            Pick any of our super affordable pricing plans
+          </p>
         </div>
-        <div class="pricing__container container">
+        <div
+          class="pricing__container pricing__container--big-section container"
+        >
           <div class="pricing__item">
             <p class="pricing__type">BASIC</p>
             <p class="pricing__cost">&#x24;15</p>
@@ -128,9 +134,11 @@
               Up to 7 Projects <br />
               2 Additional Developers
             </p>
-            <button class="pricing__button cta-button">Get Started</button>
+            <button class="pricing__button cta-button cta-button--blue">
+              Get Started
+            </button>
           </div>
-          <div class="pricing__item">
+          <div class="pricing__item pricing__item--active">
             <p class="pricing__type">AGENCY</p>
             <p class="pricing__cost">&#x24;55</p>
             <p class="pricing__per-month">per month</p>
@@ -138,7 +146,9 @@
               Up to 25 Projects <br />
               2 Additional Developers <br />Unlimited Support
             </p>
-            <button class="pricing__button cta-button">Get Started</button>
+            <button class="pricing__button cta-button cta-button--blue">
+              Get Started
+            </button>
           </div>
           <div class="pricing__item">
             <p class="pricing__type">PRO</p>
@@ -150,7 +160,9 @@
               Unlimited Support <br />
               1.5GB Disk Space
             </p>
-            <button class="pricing__button cta-button">Get Started</button>
+            <button class="pricing__button cta-button cta-button--blue">
+              Get Started
+            </button>
           </div>
         </div>
       </section>
@@ -160,7 +172,7 @@
         </div>
         <div class="team__container container">
           <div class="team__item">
-            <div class="team__img"></div>
+            <div class="team__img team__img--cto"></div>
             <p class="team__position">CTO</p>
             <p class="team__member-name">Johnny B Good</p>
             <p class="team__member-description">
@@ -172,7 +184,7 @@
             </div>
           </div>
           <div class="team__item">
-            <div class="team__img"></div>
+            <div class="team__img team__img--ceo"></div>
             <p class="team__position">CEO</p>
             <p class="team__member-name">Roll Over Beethoven</p>
             <p class="team__member-description">
@@ -184,7 +196,7 @@
             </div>
           </div>
           <div class="team__item">
-            <div class="team__img"></div>
+            <div class="team__img team__img--cfo"></div>
             <p class="team__position">CFO</p>
             <p class="team__member-name">Chuck Berry</p>
             <p class="team__member-description">
