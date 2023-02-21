@@ -1,0 +1,151 @@
+/* COMMON */
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    width: 210px;
+    border: none;
+    border-radius: 0.7rem;
+    color: white;
+    background-color: #0ABCEB;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color, border-radius 0.5s;
+}
+
+.cta-button:hover {
+    background-color: #58d5f7;
+    border-radius: 1.3rem;
+}
+
+.cta-button--hero {
+    background-color: #25F18B;
+    margin: 30px 0;
+}
+
+.cta-button--hero:hover {
+    background-color: #6affb4;
+    border-radius: 1.3rem;
+}
+
+/* END OF COMMON */
+
+/* HEADER */
+.header {
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 100px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 35px;
+}
+
+.nav__link-logotype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    height: 30px;
+    min-width: 80px;
+    padding: 10px;
+}
+
+.nav__link:hover {
+    color: #58d5f7;
+}
+
+.nav__link:active {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 485px;
+    color: white;
+    padding: 0 15px;
+}
+
+.hero-header {
+    text-align: left;
+    max-width: 380px;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+    padding: 70px 0 15px;
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    text-align: left;
+    font-weight: 300;
+    max-width: 290px;
+}
+
+.hero__imagebox {
+    height: 420px;
+    transform: rotate(-6deg);
+    max-width: 45%;
+    border-radius: 25px;
+    margin-top: 45px;
+    margin-right: 100px;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.hero__image {
+  margin-top: 19px;
+  padding-bottom: 40px;
+}
+
+/* END HEADER */
+
+/* FEATURES */
+
+/* END OF FEATURES */
