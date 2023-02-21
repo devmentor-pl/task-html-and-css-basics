@@ -14,17 +14,23 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="header__container header__container--small-section container">
-        <div class="header__logo"></div>
+        <!-- <div class="header__logo"> -->
+        <a class="header__link-logo" href="#header"
+          ><div class="header__logo"></div
+        ></a>
+        <!-- </div> -->
         <nav class="header__nav nav">
           <ul class="nav__items">
             <li class="nav__item">
-              <a href="#" class="nav__link">The Team</a>
+              <a href="#team" class="nav__link">The Team</a>
             </li>
-            <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
             <li class="nav__item">
-              <a href="#" class="nav__link">Features</a>
+              <a href="#pricing" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__item">
+              <a href="#features" class="nav__link">Features</a>
             </li>
           </ul>
         </nav>
@@ -51,7 +57,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="features">
+      <section class="features" id="features">
         <div
           class="features__container features__container--small-section container"
         >
@@ -114,7 +120,7 @@
           </p>
         </div>
       </section>
-      <section class="pricing">
+      <section class="pricing" id="pricing">
         <div
           class="pricing__container pricing__container--small-section container"
         >
@@ -166,45 +172,81 @@
           </div>
         </div>
       </section>
-      <section class="team">
-        <div class="team__container container">
-          <h2 class="team__header"></h2>
+      <section class="team" id="team">
+        <div class="team__container team__container--small-section container">
+          <h2 class="team__header">THE TEAM</h2>
         </div>
-        <div class="team__container container">
+        <div class="team__container team__container--big-section container">
           <div class="team__item">
             <div class="team__img team__img--cto"></div>
-            <p class="team__position">CTO</p>
-            <p class="team__member-name">Johnny B Good</p>
-            <p class="team__member-description">
-              The brains behind the whole operation
-            </p>
+            <div class="team__member-text">
+              <p class="team__position">CTO</p>
+              <p class="team__member-name">Johnny B Good</p>
+              <p class="team__member-description">
+                The brains behind the whole operation
+              </p>
+            </div>
             <div class="team__socials">
-              <div class="team__twitter"></div>
-              <div class="team__facebook"></div>
+              <a href="https://twitter.com/" class="team__social-link"
+                ><img
+                  class="team__social-img"
+                  src="./images/team-twitter.svg"
+                  alt="twitter-icon"
+              /></a>
+              <a href="https://www.facebook.com/" class="team__social-link"
+                ><img
+                  class="team__social-img"
+                  src="./images/team-facebook.svg"
+                  alt="twitter-icon"
+              /></a>
             </div>
           </div>
           <div class="team__item">
             <div class="team__img team__img--ceo"></div>
-            <p class="team__position">CEO</p>
-            <p class="team__member-name">Roll Over Beethoven</p>
-            <p class="team__member-description">
-              The one that puts it all together
-            </p>
+            <div class="team__member-text">
+              <p class="team__position">CEO</p>
+              <p class="team__member-name">Roll Over Beethoven</p>
+              <p class="team__member-description">
+                The one that puts it all together
+              </p>
+            </div>
             <div class="team__socials">
-              <div class="team__twitter"></div>
-              <div class="team__facebook"></div>
+              <a href="https://twitter.com/" class="team__social-link"
+                ><img
+                  class="team__social-img"
+                  src="./images/team-twitter.svg"
+                  alt="twitter-icon"
+              /></a>
+              <a href="https://www.facebook.com/" class="team__social-link"
+                ><img
+                  class="team__social-img"
+                  src="./images/team-facebook.svg"
+                  alt="twitter-icon"
+              /></a>
             </div>
           </div>
           <div class="team__item">
             <div class="team__img team__img--cfo"></div>
-            <p class="team__position">CFO</p>
-            <p class="team__member-name">Chuck Berry</p>
-            <p class="team__member-description">
-              The guy with his hand on the wallet
-            </p>
+            <div class="team__member-text">
+              <p class="team__position">CFO</p>
+              <p class="team__member-name">Chuck Berry</p>
+              <p class="team__member-description">
+                The guy with his hand on the wallet
+              </p>
+            </div>
             <div class="team__socials">
-              <div class="team__twitter"></div>
-              <div class="team__facebook"></div>
+              <a href="https://twitter.com/" class="team__social-link"
+                ><img
+                  class="team__social-img"
+                  src="./images/team-twitter.svg"
+                  alt="twitter-icon"
+              /></a>
+              <a href="https://www.facebook.com/" class="team__social-link"
+                ><img
+                  class="team__social-img"
+                  src="./images/team-facebook.svg"
+                  alt="twitter-icon"
+              /></a>
             </div>
           </div>
         </div>

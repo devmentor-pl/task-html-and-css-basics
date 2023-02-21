@@ -49,8 +49,13 @@
   background-repeat: no-repeat;
   background-size: contain;
   height: 30px;
-  flex-basis: 20%;
   margin-left: 15px;
+  /* cursor: pointer; */
+}
+
+.header__link-logo {
+  /* display: block; */
+  flex-basis: 20%;
 }
 
 .header__nav {
@@ -60,11 +65,12 @@
 .nav__items {
   display: flex;
   list-style: none;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.9rem;
 }
 
 .nav__item {
+  min-width: 100px;
   flex-basis: 33.333%;
 }
 .nav__link {
@@ -221,7 +227,7 @@
 /* preview */
 .preview {
   position: relative;
-  height: 90vh;
+  height: 95vh;
   display: flex;
 }
 
@@ -263,8 +269,8 @@
 
 .pricing__container--small-section {
   padding-left: 20px;
-  height: 30vh;
-  padding-top: 60px;
+  padding-top: 30px;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -341,8 +347,49 @@
 /* team */
 
 .team {
-  margin-top: 100vh;
-  height: 85vh;
+  /* margin-top: 100vh; */
+  height: 95vh;
+}
+
+.team__container--small-section {
+  text-align: center;
+}
+
+.team__header {
+  font-size: 2rem;
+  padding-top: 105px;
+  font-weight: 300;
+}
+
+.features__item {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 75%;
+  flex-basis: 24%;
+  text-align: center;
+}
+
+.team__container--big-section {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team__item {
+  padding-top: 40px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-basis: 27%;
+  text-align: center;
+  font-weight: 300;
 }
 
 .team__img {
@@ -362,6 +409,34 @@
 }
 .team__img--cfo {
   background-image: url(../images/cfo.png);
+}
+
+.team__member-text {
+  margin-top: 20px;
+}
+
+.team__position {
+  font-size: 1.1rem;
+  padding-top: 20px;
+}
+
+.team__member-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.team__member-description {
+  padding-top: 10px;
+  font-size: 0.9rem;
+}
+
+.team__socials {
+  padding-top: 15px;
+}
+
+.team__social-link {
+  padding: 0 7px;
 }
 
 /* end of team */
