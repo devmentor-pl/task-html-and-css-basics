@@ -140,12 +140,79 @@ html, body {
 }
 
 .hero__image {
-  margin-top: 19px;
-  padding-bottom: 40px;
+    margin-top: 19px;
+    padding-bottom: 40px;
 }
 
 /* END HEADER */
 
 /* FEATURES */
+
+.features {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.features-container {
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.feature__headline {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px auto 10px;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.feature__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    margin: 0;
+}
+
+.feature__item {
+    flex-basis: 33.333%;
+    padding: 30px;
+}
+
+.feature__icon {
+    background-color: white;
+    border-radius: 50%;
+    height: 5em;
+    width: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.feature__img {
+    max-width: 25px;
+    vertical-align: middle;
+}
+
+.feature__name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 15px;
+    margin: 10px 0;
+}
+
+.feature__text {
+    font-size: 14px;
+    font-weight: 300px;
+    margin-bottom: 10px;
+}
+
 
 /* END OF FEATURES */
