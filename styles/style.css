@@ -204,6 +204,7 @@ html, body {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
+    line-height: 1.1em;
     padding-top: 15px;
     margin: 10px 0;
 }
@@ -211,6 +212,7 @@ html, body {
 .feature__text {
     font-size: 14px;
     font-weight: 300px;
+    line-height: 1.5em;
     margin-bottom: 10px;
 }
 
@@ -221,6 +223,7 @@ html, body {
 .logos {
     background-color: #F9FAFA;
     text-align: center;
+    width: 100%;
 }
 
 .logos__img {
@@ -229,3 +232,41 @@ html, body {
 }
 
 /* END OF LOGOS */
+
+/* CONTENT */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.content__box {
+    flex-basis: 50%;
+    padding: 0 15px;
+}
+
+.content__image {
+    padding: 60px 0 40px;
+}
+
+.content__textbox {
+    padding-left: 100px;
+    padding-top: 80px;
+    width: 100%;
+}
+
+.content-header {
+    margin: 20px 0 10px;
+    padding-bottom: 35px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.content-text {
+    font-weight: 300;
+    line-height: 1.5em;
+    padding-right: 20px;
+}
+
+/* END OF CONTENT */
