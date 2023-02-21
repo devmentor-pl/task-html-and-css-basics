@@ -117,30 +117,33 @@ html {
 /* FEATURES */
 
 .features {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.features__header, .features__f-boxes {
     max-width: 1150px;
     margin: 0 auto;
-    background-color: rgb(0, 47, 47);
-    color: white;
-    box-sizing: border-box;
 }
 
 .features__header {
-    padding: 30px;
+    padding: 100px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    font-weight: 300;
 }
 
 .features__f-boxes {
     display: flex;
-    margin: 0px 150px;
-    padding: 0 0 20px 0;
+    justify-content: center;
+    padding: 0 120px 20px 120px;
     box-sizing: border-box;
 }
 
 .f-boxes__f-description {
     flex-basis: 33.33333%;
     min-height: 300px;
-    background-color: orange;
+    max-width: 250px;
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
@@ -150,15 +153,29 @@ html {
     margin: 0 20px;
 }
 
+.f-description__image-box{
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
 .f-description__image {
-    min-width: 100px;
-    min-height: 100px;
-    background-color: blue;
+    background-color: white;
 }
 
 .f-description__header {
-    font-weight: bold;
+    font-weight: 500;
     padding: 15px;
+}
+
+.f-description__text {
+    font-weight: 300;
 }
 
 /* END OF FEATURES */
@@ -168,7 +185,7 @@ html {
 .logos {
     max-width: 1150px;
     margin: 0 auto;
-    background-color: rgb(223, 255, 176);
+    background-color: #F9FAFA;
     box-sizing: border-box;
 }
 
@@ -181,7 +198,6 @@ html {
 .logos__item {
     margin: 20px 40px;
     padding: 5px;
-    background-color: blueviolet;
 }
 
 /* END OF LOGOS */
