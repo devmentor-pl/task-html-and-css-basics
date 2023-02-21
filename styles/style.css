@@ -214,5 +214,18 @@ html, body {
     margin-bottom: 10px;
 }
 
-
 /* END OF FEATURES */
+
+/* LOGOS */
+
+.logos {
+    background-color: #F9FAFA;
+    text-align: center;
+}
+
+.logos__img {
+    padding: 30px;
+    max-width: 100%;
+}
+
+/* END OF LOGOS */
