@@ -1,6 +1,7 @@
-body {
+html {
     width: 100%;
     color: rgb(20, 20, 20);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header, .main, .footer {
