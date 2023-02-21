@@ -6,47 +6,109 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.item {
-    background-color: orange;
-    margin: 20px;
+.header, .main, .footer {
+    background-color: greenyellow;
 }
 
 /* END OF COMMON */
 
 /* HEADER */
 
-.header, .main, .footer {
-    background-color: greenyellow;
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+
 }
 
 .header-top, .header-hero {
     max-width: 1150px;
     margin: 0 auto;
-    background-color: aqua;
     display: flex;
+}
+
+/* NAV */
+
+.header {
+    color: white;
 }
 
 .header-top {
     justify-content: space-between;
+
 }
 
-.header-hero {
-    justify-content: center;
+.header-top__logo {
+    margin: 0px 20px;
 }
 
-.header-hero__container {
-    flex-basis: 50%;
-    min-height: 500px;
-}
-
-.header-hero__header {
-    font-size: 3rem;
+.header-top__nav {
+    margin: 30px 0;
 }
 
 .nav__nav-list {
     display: flex;
 }
 
+.nav-list_item {
+    flex-basis: 33.33333%;
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* END OF NAV */
+
+.header-hero {
+    display: flex;
+    padding: 30px 0;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.header-hero__container {
+    margin: 20px;
+}
+
+.header-hero__container--small {
+    flex-basis: 40%;
+}
+
+.header-hero__container--large {
+    display: flex;
+    justify-content: center;
+    flex-basis: 60%;
+}
+
+.header-hero__header {
+    padding: 40px 0;
+    box-sizing: border-box;
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.header-hero__text {
+    padding: 8px 0;
+    box-sizing: border-box;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
+
+.header-hero__button {
+    margin: 20px 40px 40px 0;
+    width: 200px;
+    height: 50px;
+    background-color: #25F18B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.header-hero__image {
+    background-color: white;
+    border: 18px solid white;
+    border-bottom:  100px solid white;
+    border-radius: 30px;
+    transform: rotate(-8deg);
+}
 
 /* END OF HEADER */
 
