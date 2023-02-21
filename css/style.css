@@ -18,6 +18,25 @@
     box-sizing: border-box;
 }
 
+.logos {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: rgb(223, 255, 176);
+    box-sizing: border-box;
+}
+
+.logos__container {
+    display: flex;
+    margin: 0 200px;
+    justify-content: center;
+}
+
+.logos__item {
+    margin: 20px 40px;
+    padding: 5px;
+    background-color: blueviolet;
+}
+
 .features__header {
     padding: 30px;
     text-align: center;
