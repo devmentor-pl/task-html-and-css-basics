@@ -1,4 +1,4 @@
-.header, .main {
+.header, .main, .footer {
     width: 100%;
     background-color: greenyellow;
     color: rgb(13, 13, 13);
@@ -223,4 +223,22 @@
 
 .header-hero__header {
     font-size: 3rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.footer__text {
+    font-size: 0.7rem;
+    padding: 5px
+}
+
+.footer__text {
+    padding: 5px;
 }
