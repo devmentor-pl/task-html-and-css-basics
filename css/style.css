@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    background-color: greenyellow;
+}
+
+.header-top, .header-hero {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.header-top, .header-hero {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: aqua;
+    display: flex;
+}
+
+.item {
+    background-color: orange;
+    margin: 20px;
+}
+
+.header-top {
+    justify-content: space-between;
+}
+
+.header-hero {
+    justify-content: center;
+}
+
+.nav__nav-list {
+    display: flex;
+}
+
+.header-hero__container {
+    flex-basis: 50%;
+    min-height: 300px;
+}
