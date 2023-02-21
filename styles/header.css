@@ -1,0 +1,35 @@
+
+.header {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__list__item {
+  padding: 10px 20px;
+}
+
+.nav__list__link {
+  color: #fff;
+  font-family: var(--ff-primary);
+  font-weight: var(--fw-semibold);
+  text-decoration: none;
+}
+
+.nav__list__link:hover {
+ color: rgb(146, 136, 255); 
+}
+
+.logo {
+  margin-right: auto;
+  align-self: end;
+}
+
+.logo__img {
+  width: 60%;
+}
