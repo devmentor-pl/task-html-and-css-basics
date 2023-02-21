@@ -183,20 +183,20 @@ html {
 /* LOGOS */
 
 .logos {
-    max-width: 1150px;
     margin: 0 auto;
     background-color: #F9FAFA;
     box-sizing: border-box;
 }
 
 .logos__container {
+    max-width: 1150px;
     display: flex;
     margin: 0 200px;
     justify-content: center;
 }
 
 .logos__item {
-    margin: 20px 40px;
+    margin: 20px auto;
     padding: 5px;
 }
 
@@ -205,32 +205,31 @@ html {
 /* COMPUTER */
 
 .computer {
-    max-width: 1150px;
-    margin: 0 auto;
-    background-color: rgb(124, 149, 87);
-    box-sizing: border-box;
     display: flex;
 }
 
 .computer__computer-image {
     flex-basis: 50%;
-    padding: 40px;
+    padding: 80px 30px 80px 80px;
     box-sizing: border-box;
 }
 
 .computer__c-description {
     flex-basis: 50%;
-    padding: 40px 150px 40px 40px;
+    padding: 120px 270px 50px 100px;
     box-sizing: border-box;
 }
 
-.computer-image__img {
-    background-color: blue;
+.c-description__header {
+    font-size: 1.9rem;
+    font-weight: 300;
+    padding-bottom: 30px;
 }
 
-.c-description__header {
-    font-size: 1.5rem;
-    padding-bottom: 30px;
+.c-description__text {
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 2rem;
 }
 
 /* END OF COMPUTER */
