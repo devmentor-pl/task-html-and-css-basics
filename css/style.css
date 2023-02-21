@@ -1,12 +1,22 @@
+/* COMMON */
+
 html {
     width: 100%;
     color: rgb(20, 20, 20);
     font-family: 'Montserrat', sans-serif;
 }
 
+.item {
+    background-color: orange;
+    margin: 20px;
+}
+
+/* END OF COMMON */
+
+/* HEADER */
+
 .header, .main, .footer {
     background-color: greenyellow;
-    color: rgb(13, 13, 13);
 }
 
 .header-top, .header-hero {
@@ -16,6 +26,34 @@ html {
     display: flex;
 }
 
+.header-top {
+    justify-content: space-between;
+}
+
+.header-hero {
+    justify-content: center;
+}
+
+.header-hero__container {
+    flex-basis: 50%;
+    min-height: 500px;
+}
+
+.header-hero__header {
+    font-size: 3rem;
+}
+
+.nav__nav-list {
+    display: flex;
+}
+
+
+/* END OF HEADER */
+
+/* MAIN */
+
+/* FEATURES */
+
 .features {
     max-width: 1150px;
     margin: 0 auto;
@@ -23,6 +61,47 @@ html {
     color: white;
     box-sizing: border-box;
 }
+
+.features__header {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.features__f-boxes {
+    display: flex;
+    margin: 0px 150px;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+.f-boxes__f-description {
+    flex-basis: 33.33333%;
+    min-height: 300px;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.f-boxes__f-description--margin {
+    margin: 0 20px;
+}
+
+.f-description__image {
+    min-width: 100px;
+    min-height: 100px;
+    background-color: blue;
+}
+
+.f-description__header {
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* END OF FEATURES */
+
+/* LOGOS */
 
 .logos {
     max-width: 1150px;
@@ -42,6 +121,10 @@ html {
     padding: 5px;
     background-color: blueviolet;
 }
+
+/* END OF LOGOS */
+
+/* COMPUTER */
 
 .computer {
     max-width: 1150px;
@@ -71,6 +154,10 @@ html {
     font-size: 1.5rem;
     padding-bottom: 30px;
 }
+
+/* END OF COMPUTER */
+
+/* PLANS */
 
 .plans {
     max-width: 1150px;
@@ -112,6 +199,10 @@ html {
     font-size: 1.5rem;
 }
 
+/* END OF PLANS */
+
+/* TEAM */
+
 .team {
     max-width: 1150px;
     margin: 0 auto;
@@ -150,38 +241,6 @@ html {
     background-color: blueviolet;
 }
 
-.features__header {
-    padding: 30px;
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.features__f-boxes {
-    display: flex;
-    margin: 0px 150px;
-    padding: 0 0 20px 0;
-    box-sizing: border-box;
-}
-
-.f-boxes__f-description {
-    flex-basis: 33.33333%;
-    min-height: 300px;
-    background-color: orange;
-    text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.f-boxes__f-description--margin {
-    margin: 0 20px;
-}
-
-.f-description__image {
-    min-width: 100px;
-    min-height: 100px;
-    background-color: blue;
-}
-
 .t-box__header {
     padding: 20px;
     font-size: 1.3rem;
@@ -199,36 +258,9 @@ html {
     padding-bottom: 30px;
 }
 
-.f-description__header {
-    font-weight: bold;
-    padding: 15px;
-}
+/* END OF TEAM */
 
-.item {
-    background-color: orange;
-    margin: 20px;
-}
-
-.header-top {
-    justify-content: space-between;
-}
-
-.header-hero {
-    justify-content: center;
-}
-
-.nav__nav-list {
-    display: flex;
-}
-
-.header-hero__container {
-    flex-basis: 50%;
-    min-height: 500px;
-}
-
-.header-hero__header {
-    font-size: 3rem;
-}
+/* FOOTER */
 
 .footer {
     display: flex;
@@ -247,3 +279,10 @@ html {
 .footer__text {
     padding: 5px;
 }
+
+/* END OF FOOTER */
+
+
+
+
+
