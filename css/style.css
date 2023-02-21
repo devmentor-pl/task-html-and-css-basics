@@ -107,6 +107,44 @@
     font-size: 1.5rem;
 }
 
+.team {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: rgb(123, 171, 210);
+    box-sizing: border-box;
+}
+
+.team__header {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.team__t-container {
+    display: flex;
+    justify-content: center;
+    margin: 0px 75px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.t-container__t-box {
+    background-color: orange;
+    min-width: 300px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.t-container__t-box--margin {
+    margin: 0 30px;
+}
+
+.t-box__image {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
 .features__header {
     padding: 30px;
     text-align: center;
@@ -137,6 +175,23 @@
     min-width: 100px;
     min-height: 100px;
     background-color: blue;
+}
+
+.t-box__header {
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.t-box__text {
+    padding: 10px;
+}
+
+.t-box__text--bold {
+    font-weight: bold;
+}
+
+.t-box__text--padding {
+    padding-bottom: 30px;
 }
 
 .f-description__header {
