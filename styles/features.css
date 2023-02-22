@@ -2,15 +2,19 @@
 .features {
   background-color: black;
   color: var(--clr-light);
+  padding-bottom: 30px;
 }
 
-.featues__header {
-  padding: 30px 0;
-  font-size: var(--fs-600);
+.header-lvl2 {
+  font-size: var(--fs-500);
   font-weight: var(--fw-regular);
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.features__header {
+  padding: 30px 0;
 }
 
 .features__box {
@@ -20,7 +24,7 @@
 }
 
 .feature {
-  padding: 20px 40px;
+  padding: 1% 2%;
   width: 20%;
 }
 
@@ -42,13 +46,13 @@
 .feature__header {
   font-size: var(--fs-300);
   font-weight: var(--fw-regular);
-  margin-top: 15px;
+  margin-top: 20px;
   text-align: center;
   text-transform: uppercase;
 }
 
 .feature__text {
-  margin-top: 15px;
+  margin-top: 10px;
   text-align: center;
 }
 
