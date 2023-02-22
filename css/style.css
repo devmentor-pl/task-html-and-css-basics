@@ -398,21 +398,26 @@ html {
 /* FOOTER */
 
 .footer {
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50px;
-    background-color: rgb(31, 31, 31);
+    background-color: #464646;
     color: white;
+}
+
+.footer__text, .footer__link {
+    margin: 0 10px 0 10px;
 }
 
 .footer__text {
     font-size: 0.7rem;
-    padding: 5px
+    font-weight: 300;
 }
 
-.footer__text {
-    padding: 5px;
+.footer__link {
+    min-height: 30px;
 }
 
 /* END OF FOOTER */
