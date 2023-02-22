@@ -203,6 +203,7 @@ html {
 .computer {
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .computer__computer-image {
@@ -358,6 +359,7 @@ html {
     margin: 0 auto;
     padding: 0px 100px 40px 100px;
     display: flex;
+    justify-content: center;
     box-sizing: border-box;
 }
 
