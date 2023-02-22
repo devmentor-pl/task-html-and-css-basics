@@ -10,7 +10,7 @@ html, body {
 }
 
 .cta-button {
-    width: 210px;
+    width: 190px;
     border: none;
     border-radius: 0.7rem;
     color: white;
@@ -27,6 +27,7 @@ html, body {
 }
 
 .cta-button--hero {
+    width: 210px;
     background-color: #25F18B;
     margin: 30px 0;
 }
@@ -59,7 +60,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 35px;
+    padding: 35px 15px;
 }
 
 .nav__link-logotype {
@@ -372,3 +373,77 @@ html, body {
 }
 
 /* END OF PRICING */
+
+/* TEAM */
+
+.team {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.team__header {
+    min-width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px auto 10px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.team__table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.team__member {
+    flex-basis: 26%;
+    margin: 0;
+    padding: 0 15px 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team__member-text {
+    padding-top: 20px;
+}
+
+.team-title {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.team-name {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.team-text {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.team-social-link {
+    font-size: 14px;
+    padding: 6px;
+    text-decoration: none;
+}
+
+/* END OF TEAM */
