@@ -73,6 +73,13 @@
   margin-top: 10px;
   outline: none;
   padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: var(--clr-light);
+  color: #55ec80;
+  cursor: pointer;
 }
 
 .button > span {
