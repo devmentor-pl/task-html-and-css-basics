@@ -237,10 +237,13 @@ html {
 /* PLANS */
 
 .plans {
+    background-color: #F9FAFA;
+}
+
+
+.plans__p-container-1, .plans__p-container-2 {
     max-width: 1150px;
     margin: 0 auto;
-    background-color: rgb(223, 255, 176);
-    box-sizing: border-box;
 }
 
 .plans__p-container-1 {
@@ -249,17 +252,30 @@ html {
     box-sizing: border-box;
 }
 
+.p-container-1__header {
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.p-container-1__text {
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
 .plans__p-container-2 {
     display: flex;
-    margin: 0px 75px;
-    padding: 20px 20px 20px 20px;
+    justify-content: center;
+    padding: 20px 100px 80px 100px;
     box-sizing: border-box;
 }
 
 .p-container-2__p-item {
     flex-basis: 33.33333%;
-    min-height: 300px;
-    background-color: orange;
+    min-height: 400px;
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
@@ -267,13 +283,52 @@ html {
 
 .p-container-2__p-item--margin {
     margin: 0 30px;
-    box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 30px 5px rgba(0, 0, 0, 0.3);
 }
 
-.p-container-1__header {
-    padding-bottom: 15px;
+.p-item__header {
+    padding: 30px;
     box-sizing: border-box;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.p-item__fee {
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.p-item__month {
+    padding: 0 10px 30px 10px;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.p-item__text {
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.p-item__icon {
+    padding: 0  10px;
+    color: #25F18B;
+}
+
+.p-item__button {
+    margin: 80px 40px 20px 40px;
+    width: 150px;
+    height: 50px;
+    background-color: #0ABCEB;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
 
 /* END OF PLANS */
