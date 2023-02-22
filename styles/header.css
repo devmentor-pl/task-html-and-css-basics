@@ -1,22 +1,24 @@
 
 .header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  min-height: 70vh;
 }
 
 .nav__list {
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .nav__list__item {
   padding: 10px 20px;
+
 }
 
 .nav__list__link {
   color: #fff;
-  font-family: var(--ff-primary);
+  font-size: var(--fs-300);
   font-weight: var(--fw-semibold);
   text-decoration: none;
 }
@@ -32,4 +34,69 @@
 
 .logo__img {
   width: 60%;
+}
+
+.hero {
+  padding: 20px 0;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__content {
+  min-height: 300px;
+  padding-top: 40px;
+  width: 30%;
+  color: var(--clr-light);
+}
+
+.hero__content__header {
+  font-size: var(--fs-600);
+}
+
+.hero__content__text {
+  font-size: var(--fs-200);
+  line-height: 1.5;
+  margin-top: 15px;
+  width: 70%;
+}
+
+.button {
+  background-color: #55ec80;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.142);
+  color: var(--clr-light);
+  font-size: var(--fs-200);
+  margin-top: 10px;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.button > span {
+  text-transform: uppercase;
+}
+
+.hero__box {
+  width: 60%;
+  position: relative;
+}
+
+.hero__box__card {
+ background-color: #fff;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.142);
+ width: 70%;
+ position: absolute;
+ top: 0%;
+ left: 20%;
+ transform: rotate(-7deg);
+}
+
+.hero__img {
+  width: 100%;
+
 }
