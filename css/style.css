@@ -335,31 +335,27 @@ html {
 
 /* TEAM */
 
-.team {
+.team__header {
     max-width: 1150px;
     margin: 0 auto;
-    background-color: rgb(123, 171, 210);
-    box-sizing: border-box;
-}
-
-.team__header {
     padding: 30px;
+    box-sizing: border-box;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    font-weight: 300;
 }
 
 .team__t-container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0px 100px 40px 100px;
     display: flex;
-    justify-content: center;
-    margin: 0px 75px;
-    padding: 20px;
     box-sizing: border-box;
 }
 
 .t-container__t-box {
-    background-color: orange;
-    min-width: 300px;
-    min-height: 300px;
+    padding: 20px;
+    flex-basis: 33.3333%;
     text-align: center;
 }
 
@@ -367,19 +363,16 @@ html {
     margin: 0 30px;
 }
 
-.t-box__image {
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-}
-
 .t-box__header {
-    padding: 20px;
-    font-size: 1.3rem;
+    padding: 40px 20px 20px 20px;
+    font-size: 1.15rem;
+    font-weight: 300;
 }
 
 .t-box__text {
     padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 300;
 }
 
 .t-box__text--bold {
@@ -387,7 +380,17 @@ html {
 }
 
 .t-box__text--padding {
-    padding-bottom: 30px;
+    min-height: 50px;
+}
+
+.t-box__social-container {
+    margin: 0 103px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-container__item {
+    padding: 0 5px 0 5px;
 }
 
 /* END OF TEAM */
