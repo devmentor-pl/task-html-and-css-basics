@@ -31,11 +31,13 @@ html {
 
 }
 
-.header-top__logo {
-    margin: 0px 20px;
+.header-top__logo, .header-top__logo-item {
+    margin: 30px 20px;
 }
 
 .header-top__nav {
+    display: flex;
+    align-items: center;
     margin: 30px 0;
 }
 
@@ -95,7 +97,7 @@ html {
 }
 
 .header-hero__button {
-    margin: 20px 40px 40px 0;
+    margin: 20px 0 40px 0;
     width: 200px;
     height: 50px;
     background-color: #25F18B;
@@ -105,7 +107,7 @@ html {
 }
 
 .header-hero__button:hover {
-    margin: 20px 40px 40px 0;
+    margin: 20px 0 40px 0;
     width: 200px;
     height: 50px;
     background-color: #6affb4;
@@ -250,7 +252,6 @@ html {
 }
 
 .c-description__text {
-    min-width: 370px;
     font-size: 0.9rem;
     font-weight: 300;
     line-height: 2rem;
