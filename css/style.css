@@ -41,7 +41,7 @@ html {
     margin: 30px 0;
 }
 
-.nav__nav-list {
+.nav-list {
     display: flex;
 }
 
@@ -113,10 +113,9 @@ html {
     background-color: #6affb4;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 1px 1px 20px 3px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    transition: background-color 0.6s ease-in-out;
     transition: border-radius 0.3s ease-in-out;
 }
 
@@ -151,14 +150,14 @@ html {
     font-weight: 300;
 }
 
-.features__f-boxes {
+.features__boxes {
     display: flex;
     justify-content: center;
     padding: 0 120px 20px 120px;
     box-sizing: border-box;
 }
 
-.f-boxes__f-description {
+.f-description {
     flex-basis: 33.33333%;
     min-height: 300px;
     max-width: 250px;
@@ -167,7 +166,7 @@ html {
     box-sizing: border-box;
 }
 
-.f-boxes__f-description--margin {
+.f-description--margin {
     margin: 0 20px;
 }
 
@@ -228,7 +227,7 @@ html {
     justify-content: center;
 }
 
-.computer__computer-image {
+.computer-image {
     flex-basis: 50%;
     padding: 80px 30px 80px 80px;
     box-sizing: border-box;
@@ -239,7 +238,7 @@ html {
     min-width: 650px;
 }
 
-.computer__c-description {
+.c-description {
     flex-basis: 50%;
     padding: 120px 270px 50px 100px;
     box-sizing: border-box;
@@ -266,12 +265,12 @@ html {
 }
 
 
-.plans__p-container-1, .plans__p-container-2 {
+.p-container-1, .p-container-2 {
     max-width: 1150px;
     margin: 0 auto;
 }
 
-.plans__p-container-1 {
+.p-container-1 {
     text-align: center;
     padding: 50px 30px 30px 30px;
     box-sizing: border-box;
@@ -291,14 +290,14 @@ html {
     font-weight: 300;
 }
 
-.plans__p-container-2 {
+.p-container-2 {
     display: flex;
     justify-content: center;
     padding: 20px 100px 80px 100px;
     box-sizing: border-box;
 }
 
-.p-container-2__p-item {
+.p-item {
     flex-basis: 33.33333%;
     min-height: 400px;
     text-align: center;
@@ -306,7 +305,7 @@ html {
     box-sizing: border-box;
 }
 
-.p-container-2__p-item--margin {
+.p-item--margin {
     margin: 0 30px;
     background-color: white;
     border-radius: 10px;
@@ -334,7 +333,7 @@ html {
     font-weight: 500;
 }
 
-.p-item__p-features {
+.p-features {
     min-height: 140px;
 
 }
@@ -372,7 +371,6 @@ html {
     border-radius: 20px;
     box-shadow: 1px 1px 30px 3px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    transition: background-color 0.6s ease-in-out;
     transition: border-radius 0.3s ease-in-out;
 }
 
@@ -399,13 +397,13 @@ html {
     box-sizing: border-box;
 }
 
-.t-container__t-box {
+.t-box {
     padding: 20px;
     flex-basis: 33.3333%;
     text-align: center;
 }
 
-.t-container__t-box--margin {
+.t-box--margin {
     margin: 0 30px;
 }
 
@@ -429,7 +427,7 @@ html {
     min-height: 50px;
 }
 
-.t-box__social-container {
+.social-container {
     margin: 0 103px;
     display: flex;
     justify-content: space-between;
