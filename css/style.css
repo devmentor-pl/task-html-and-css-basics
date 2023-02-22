@@ -6,10 +6,6 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header, .main, .footer {
-    background-color: greenyellow;
-}
-
 /* END OF COMMON */
 
 /* HEADER */
@@ -205,6 +201,7 @@ html {
 /* COMPUTER */
 
 .computer {
+    width: 100%;
     display: flex;
 }
 
@@ -212,6 +209,11 @@ html {
     flex-basis: 50%;
     padding: 80px 30px 80px 80px;
     box-sizing: border-box;
+}
+
+.computer-image__img {
+    min-height: 540px;
+    min-width: 650px;
 }
 
 .computer__c-description {
@@ -227,6 +229,7 @@ html {
 }
 
 .c-description__text {
+    min-width: 370px;
     font-size: 0.9rem;
     font-weight: 300;
     line-height: 2rem;
