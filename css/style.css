@@ -309,7 +309,12 @@ html {
     font-weight: 500;
 }
 
-.p-item__text {
+.p-item__p-features {
+    min-height: 140px;
+
+}
+
+.p-features__text {
     padding: 0 10px 10px 10px;
     box-sizing: border-box;
     font-size: 0.9rem;
@@ -322,7 +327,7 @@ html {
 }
 
 .p-item__button {
-    margin: 80px 40px 20px 40px;
+    margin: 0 40px;
     width: 150px;
     height: 50px;
     background-color: #0ABCEB;
