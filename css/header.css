@@ -1,7 +1,7 @@
 .nav-and-hero {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     color: white;
-    min-height: 80vh;
+    min-height: 90vh;
 }
 
 /* NAV */
@@ -52,7 +52,13 @@ a.header__nav-link:hover {
 .hero__info {
     box-sizing: border-box;
     flex-basis: 40%;
-    padding-left: 0.5rem;
+    padding: 4rem;
+    margin: 0 auto;
+}
+
+.hero__header {
+    font-size: 2rem;
+    margin: 0;
 }
 
 p.hero-text {
@@ -87,6 +93,5 @@ img.apply-img {
     margin: 0 auto;
     transform: rotate(-4deg);
 }
-
 
 /* END OF HERO */
