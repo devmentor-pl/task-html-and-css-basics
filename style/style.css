@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/* header */
 .header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
   width: 100%;
@@ -16,4 +20,63 @@ html {
   max-width: 1150px;
   margin: 0 auto;
   outline: 2px solid yellow;
+}
+
+.header__list {
+  list-style: none;
+  display: flex;
+}
+.header__menu-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  padding: 25px;
+}
+
+/* header__section */
+
+.header__section {
+  display: flex;
+}
+
+.header__article {
+  margin-top: 50px;
+  color: #fff;
+}
+
+.header__button {
+  background-color: #84f384;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  border-style: none;
+}
+
+.header__button:hover {
+  background-color: #3acd3a;
+  border-style: none;
+}
+
+.header__image {
+  width: 90%;
+  border: 10px solid #fff;
+  border-radius: 40px;
+  transform: rotate(-5deg);
+  background-color: #fff;
+  margin-left: 50px;
+}
+
+.footer {
+  background-color: #464646;
 }
