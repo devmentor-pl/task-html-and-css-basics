@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.header {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  width: 100%;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  outline: 2px solid yellow;
+}
