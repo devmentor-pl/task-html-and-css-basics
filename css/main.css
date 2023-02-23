@@ -60,3 +60,15 @@ margin: 0 auto;
 }
 
 /* END OF FEATURES */
+
+/* LOGOS */
+
+.logos__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+}
+
+/* END OF LOGOS */
+
