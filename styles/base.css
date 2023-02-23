@@ -16,3 +16,13 @@
 .cell {
     outline: 3px solid orange;
 }
+
+.footer__space {
+    display: flex;
+    justify-content: center;
+    background: #464646;
+}
+
+.footer__logo {
+    margin-top: 10px;
+}

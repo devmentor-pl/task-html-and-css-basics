@@ -1,0 +1,20 @@
+.section__3rd {
+    height: 400px;
+    padding: 20px;
+    
+}
+
+.header__3rd {
+    height: 20%;
+}
+
+.container__3rd {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.features__3rd {
+    width: 20%;
+    margin: 10px;
+}
