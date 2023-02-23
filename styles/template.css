@@ -13,11 +13,14 @@
     min-width: 350px;
 }
 
+
 .header__menu > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 10px;
+    font: bold 20px Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .section__1st {
@@ -46,4 +49,30 @@
     border-radius: 10px;
     margin-top: 10%;
     margin-left: 10%;
+}
+
+.title__1st {
+    font: bold 40px Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 30%;
+}
+
+.title__describe {
+    font: 15px Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.button {
+    width: 160px;
+    height: 50px;
+    background-color: #25F18B;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.button > p {
+    font: bold 17px Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
 }
