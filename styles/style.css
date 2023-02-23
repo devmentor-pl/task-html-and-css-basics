@@ -1,7 +1,23 @@
 /* COMMON */
 html, body {
     font-family: 'Montserrat', sans-serif;
-    color: #2c3e50;
+    font-size: 14px;
+    color: var(--main-color);
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #2c3e50;
+    --color-white: #fff;
+    --color-gray: #808080;
+    --btn-bc: #0ABCEB;
+    --btn-hover-bc: #58d5f7;
+    --btn-hero-bc: #25F18B;
+    --btn-hero-hover-bc: #6affb4;
+    --bc-black: #000;
+    --bc-white: #fff;
+    --bc-gray-white: #F9FAFA;
+    --bc-dark-gray: #464646;
 }
 
 .container {
@@ -12,29 +28,28 @@ html, body {
 .cta-button {
     width: 190px;
     border: none;
-    border-radius: 0.7rem;
-    color: white;
-    background-color: #0ABCEB;
-    font-size: 1rem;
-    padding: 1rem;
+    border-radius: 12px;
+    color: var(--color-white);
+    background-color: var(--btn-bc);
+    padding: 16px;
     cursor: pointer;
     transition: background-color, border-radius 0.5s;
 }
 
 .cta-button:hover {
-    background-color: #58d5f7;
-    border-radius: 1.3rem;
+    background-color: var(--btn-hover-bc);
+    border-radius: 20px;
 }
 
 .cta-button--hero {
     width: 210px;
-    background-color: #25F18B;
+    background-color: var(--btn-hero-bc);
     margin: 30px 0;
 }
 
 .cta-button--hero:hover {
-    background-color: #6affb4;
-    border-radius: 1.3rem;
+    background-color: var(--btn-hero-hover-bc);
+    border-radius: 20px;
 }
 
 .cta-button--pricing {
@@ -52,7 +67,7 @@ html, body {
     width: 100%;
     min-height: 100%;
     padding-bottom: 100px;
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .nav {
@@ -89,7 +104,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--color-white);
     text-decoration: none;
     height: 30px;
     min-width: 80px;
@@ -97,12 +112,7 @@ html, body {
 }
 
 .nav__link:hover {
-    color: #58d5f7;
-}
-
-.nav__link:active {
-    color: #23527c;
-    text-decoration: underline;
+    color: var(--btn-hover-bc);
 }
 
 .hero {
@@ -115,12 +125,12 @@ html, body {
     flex-direction: column;
     width: 450px;
     height: 485px;
-    color: white;
+    color: var(--color-white);
     padding: 0 15px;
+    text-align: left;
 }
 
 .hero-header {
-    text-align: left;
     max-width: 380px;
     font-size: 36px;
     font-weight: 700;
@@ -132,7 +142,6 @@ html, body {
     font-size: 18px;
     line-height: 30px;
     margin: 0;
-    text-align: left;
     font-weight: 300;
     max-width: 290px;
 }
@@ -145,7 +154,7 @@ html, body {
     margin-top: 45px;
     margin-right: 100px;
     padding: 0 15px;
-    background-color: #fff;
+    background-color: var(--bc-white);
 }
 
 .hero__image {
@@ -158,11 +167,12 @@ html, body {
 /* FEATURES */
 
 .features {
+    width: 100%;
     padding-top: 40px;
     padding-bottom: 90px;
-    background-color: black;
+    background-color: var(--bc-black);
     text-align: center;
-    color: white;
+    color: var(--color-white);
 }
 
 .features-container {
@@ -171,7 +181,6 @@ html, body {
 }
 
 .feature__headline {
-    display: block;
     width: 100%;
     font-size: 30px;
     font-weight: 300;
@@ -182,6 +191,7 @@ html, body {
 
 .feature__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     min-width: 100%;
@@ -194,10 +204,10 @@ html, body {
 }
 
 .feature__icon {
-    background-color: white;
+    background-color: var(--bc-white);
     border-radius: 50%;
-    height: 5em;
-    width: 5em;
+    height: 70px;
+    width: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,15 +223,15 @@ html, body {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.1em;
+    line-height: 15px;
     padding-top: 15px;
     margin: 10px 0;
 }
 
 .feature__text {
-    font-size: 14px;
+font-size: 14px;
     font-weight: 300px;
-    line-height: 1.5em;
+    line-height: 21px;
     margin-bottom: 10px;
 }
 
@@ -230,7 +240,7 @@ html, body {
 /* LOGOS */
 
 .logos {
-    background-color: #F9FAFA;
+    background-color: var(--bc-gray-white);
     text-align: center;
     width: 100%;
 }
@@ -243,8 +253,15 @@ html, body {
 /* END OF LOGOS */
 
 /* CONTENT */
+
+.content {
+    width: 100%;
+    background-color: var(--bc-white);
+}
+
 .content-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
 }
@@ -262,6 +279,7 @@ html, body {
     padding-left: 100px;
     padding-top: 80px;
     width: 100%;
+    text-align: left;
 }
 
 .content__textbox-header {
@@ -278,14 +296,13 @@ html, body {
     line-height: 30px;
     padding-bottom: 20px;
     margin-right: 50px;
-    text-align: left;
 }
 
 /* END OF CONTENT */
 
 /* PRICING */
 .pricing {
-    background-color: #F9FAFA;
+    background-color: var(--bc-gray-white);
     text-align: center;
     width: 100%;
 }
@@ -301,7 +318,7 @@ html, body {
 
 .pricing__header-sub {
     font-size: 18px;
-    color: grey;
+    color: var(--color-gray);
     min-width: 100%;
     padding-top: 10px;
     margin: 10px auto;
@@ -309,6 +326,7 @@ html, body {
 
 .pricing__table {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     padding: 60px 0;
@@ -348,13 +366,13 @@ html, body {
 }
 
 .pricing-pros {
-    font-size: 14px;
+font-size: 14px;
     line-height: 25px;
 }
 
 .fa-check {
     font-size: 14px;
-    color: #25F18B;
+    color: var(--btn-hero-bc);
     padding-right: 12px;
 }
 
@@ -403,6 +421,7 @@ html, body {
 
 .team__member-text {
     padding-top: 20px;
+    font-size: 14px;
 }
 
 .team-title {
@@ -413,19 +432,16 @@ html, body {
 }
 
 .team-name {
-    font-size: 14px;
     font-weight: 700;
     margin: 10px 0;
 }
 
 .team-text {
-    font-size: 14px;
     font-weight: 300;
     margin-bottom: 10px;
 }
 
 .team-social-link {
-    font-size: 14px;
     padding: 6px;
     text-decoration: none;
 }
@@ -436,9 +452,9 @@ html, body {
 
 .footer {
     width: 100%;
-    background-color: #464646;
+    background-color: var(--bc-dark-gray);
     padding: 20px 0;
-    color: white;
+    color: var(--color-white);
     font-size: 12px;
     font-weight: 300;
 }
