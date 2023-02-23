@@ -69,14 +69,60 @@ body {
 }
 
 .header__image {
+  /* 
+  padding-bottom: 4rem;
+  background: #fff;
+  border: 1.5rem solid #fff;
+  border-radius: 2.5rem;
+  max-width: 90%;
+  height: auto; */
+
   width: 90%;
   border: 10px solid #fff;
   border-radius: 40px;
   transform: rotate(-5deg);
-  background-color: #fff;
-  margin-left: 50px;
+  background: #fff;
 }
 
+/* features */
+
+.features {
+  background-color: #000;
+  color: #fff;
+}
+
+.features__title {
+  margin: 0;
+  text-align: center;
+  padding: 50px;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.features__items {
+  display: flex;
+}
+
+.features__icon {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 13px;
+}
+/* advertisement */
+.advertisement {
+  padding: 20px;
+  text-align: center;
+}
+
+/* footer */
 .footer {
   background-color: #464646;
+}
+.footer__text {
+  color: #fff;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
 }
