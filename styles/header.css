@@ -1,0 +1,126 @@
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    padding: 0 80px 110px;
+    color: var(--color-alfa);
+}
+.image{
+    border: 15px solid var(--color-alfa);
+    background: var(--color-alfa);
+    border-radius: 6%;
+    transform: rotate(-8deg); 
+    margin-left: 50px;
+}
+.add__section{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 30px 60px
+}
+
+.add__header{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.add__description{
+    padding: 20px 0;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+.add__button{
+    background-color: var(--color-beta);
+    max-width: 100px;
+}
+.header__container {
+    justify-content: space-between;
+}
+.logo{
+   width: 100px;
+}
+.nav {
+    display: flex;
+    margin: auto 0;
+    padding: 10px;
+}
+.nav__item {
+    padding: 10px;
+    font-size: 0.6em;
+    margin-left: 10px;
+    text-decoration: none ;
+    color: var(--color-alfa); 
+}
+.imageWrapper{
+    padding-left: 0;
+}
+@media screen and (min-width: 1200px) {
+    .header{
+        height: 75vh;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    .add{
+        justify-content: center;
+        padding: 60px 0;
+    }
+    .image{
+        width: 500px
+    }
+  
+    .add__section{
+        font-size: 1.5em;
+    }
+
+    .add__description{
+        font-size: 1em;
+    }
+    .nav__item {
+        font-size: 1em;
+
+    }
+    .header__nav{
+        padding: 20px;
+    }
+  }
+  @media screen and (min-width: 770px) {
+    .nav__item {
+        font-size: 1em;
+    }
+    .header__nav{
+        padding: 30px;
+    }
+    .header__logo{
+        padding: 30px 20px 0 60px;
+    }
+  }
+  @media screen and (max-width: 770px) {
+    .imageWrapper{
+        display: none;   
+    }
+    .add__section{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .add__button{
+        margin: 0 auto;
+    }
+    .header__logo {
+        padding: 10px;
+        margin-left: 0;
+    }
+    .nav{
+        align-content: center;
+    }
+    .header{
+        padding: 0 80px 70px;
+    }
+    .header__container{
+        padding-top: 20px;
+    }
+    .header__nav{
+        padding-right: 0;
+    }
+  }
+  @media screen and (max-width: 570px){
+    .nav{
+        display: none;
+    }
+  }

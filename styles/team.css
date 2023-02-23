@@ -1,0 +1,45 @@
+.team__container{
+    justify-content: center;
+}
+.team__headline .headline{
+    margin: 0 auto;
+}
+.team__member{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 10px;
+    text-align: center;
+    flex: 1 1 0px;
+}
+.member__name{
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.member__headline{
+    font-size: 1em;
+    padding: 10px 0 10px;
+}
+.member__description{
+    font-size: 0.8em;
+    font-weight: 100;
+    padding: 0 10px 5px;
+}
+.icons__container{
+    display: flex;
+}
+.icon{
+    padding: 0 5px;
+}
+.icon__twitter,
+.icon__fb{
+    width: 9px;
+    height: 9px;
+}
+@media screen and (max-width: 760px) {
+    .team__container{
+        flex-direction: column;
+    }
+}
