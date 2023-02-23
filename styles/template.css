@@ -1,0 +1,42 @@
+.header__container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.header__logo {
+    width: 200px;
+}
+
+.header__menu {
+    min-width: 350px;
+}
+
+.section__1st {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));;
+}
+
+.main__container {
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.main__text {
+    width: 35%;
+    margin-right: 10px;
+}
+
+.main__rest {
+    width: 65%;
+}
+
+.rest__image {
+    outline: 15px solid white;
+    background: white;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 10%;
+}

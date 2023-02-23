@@ -1,0 +1,25 @@
+.section__3rd {
+    height: 60px;
+}
+
+.logo__space {   
+    display: flex;
+    justify-content: center;    
+}
+
+.header__logos {
+    margin-top: 10px;
+}
+
+.apple__all {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.apple__text {
+    width: 50%;
+}
+
+
+

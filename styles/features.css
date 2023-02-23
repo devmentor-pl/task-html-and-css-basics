@@ -1,0 +1,21 @@
+.section__2nd {
+    height: 400px;
+    padding: 20px;
+    background: black;
+}
+
+.header__2nd {
+    height: 20%;
+}
+
+.container__2nd {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.features {
+    width: 20%;
+    margin: 10px;
+}
+
