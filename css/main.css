@@ -46,18 +46,12 @@ box-shadow: 4px 8px 20px rgba(255, 255, 255, 0.445);
 margin: 0 auto;
 }
 
-.feature__ikon-svg {
-    
-}
 
 .feature__info, .feature__text {
     text-align: center;
     font-size: 0.8rem;
 }
 
-.feature__text {
-    /* padding: 0 1rem; */
-}
 
 /* END OF FEATURES */
 
@@ -83,16 +77,19 @@ margin: 0 auto;
 
 .about {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about__info {
     flex-basis: 50%;
-    padding: 4rem 8rem 0 0;
+    padding: 4rem 8rem 0 1rem;
+    flex-grow: 1;
     
 }
 
 .about__img-container {
     flex-basis: 50%;
+    flex-grow: 1;
 }
 
 .about__img {
@@ -102,4 +99,98 @@ margin: 0 auto;
 }
 
 /* END OF ABOUT */
+
+/* PRICING */
+
+.pricing__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+.pricing__choose-header {
+justify-self: center;
+font-weight: lighter;
+font-size: 1.7rem;
+}
+
+.pricing__choose-text {
+    justify-self: flex-end;
+    margin: 0;
+}
+
+.pricing__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 25%;
+    height: 80%;
+    margin: 0 1rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+
+.option__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option__agency {
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.288) 0px 0px 30px;
+}
+
+.option__header {
+    font-weight: lighter;
+    margin-bottom: 0.6rem;
+}
+
+.option__price {
+    font-weight: 900;
+    font-size: 2.3rem;
+    margin: 0;
+}
+
+.option__per-month {
+    font-size: 0.7rem;
+}
+
+.option__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+}
+
+.option__button {
+    color:white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0ABCEB;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.option__button:hover {
+    background-color: #37c5ec;
+}
+
+
+/* END OF PRICING */
 
