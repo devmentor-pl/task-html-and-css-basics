@@ -191,6 +191,78 @@ font-size: 1.7rem;
     background-color: #37c5ec;
 }
 
-
 /* END OF PRICING */
+
+/* TEAM */
+
+.team__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+    
+.team__header-text {
+    font-weight: lighter;
+}
+
+.team__members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.member {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+}
+
+.member__cto {
+    flex-basis: 30%;
+}
+
+.member__avatar-container {
+    height: 30%;
+}
+
+.member__avatar {
+    height: 100%;
+}
+
+.member__position {
+    font-weight: lighter;
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.member__name {
+    margin: 0.4rem auto;
+}
+
+.member__description {
+    margin: 0.4rem auto;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.member__contact {
+    display: flex;
+}
+
+.member__contact-twitter, .member__contact-facebook {
+    padding: 0.5rem;
+}
+
+.contact-href {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* END OF TEAM */
+
 
