@@ -30,7 +30,7 @@ Jeśli chcesz dokładnie odwzorować położenie poszczególnych elementów, mo�
 
 Strona nie musi być wykonana zgodnie z pierwowzorem 1:1. Ważne, aby na pierwszy rzut oka było widać, że jest to ten sam projekt. 
 
-Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinien dobrze wyglądać w różnych rozdzielczościach / na różnej wielkości monitorach. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Miej to na uwadze podczas kodowania tej strony.
+Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinien dobrze wyglądać w różnych rozdzielczościach / na różnej wielkości monitorach. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Na razie jednak skup się na odwzorowaniu zamieszczonego w zadaniu widoku. Innymi rozdzielczościami zajmiemy się w kolejnym module.
 
 ## Propozycja podziału
 
