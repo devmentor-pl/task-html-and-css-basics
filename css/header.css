@@ -82,17 +82,19 @@ button.hero__button:hover {
 }
 
 .hero__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-basis: 60%;
     flex-grow: 1;
 }
 
 img.apply-img {
     min-width: 20rem;
-    width: 100%;
-    padding-right: 0.5rem;
-    padding-bottom: 2rem;
+    width: 90%;
     box-sizing: border-box;
     margin: 0 auto;
+    padding-top: 2rem;
     transform: rotate(-4deg);
 }
 
