@@ -19,7 +19,6 @@ body {
 .container {
   max-width: 1150px;
   margin: 0 auto;
-  outline: 2px solid yellow;
 }
 
 .header__list {
@@ -31,6 +30,10 @@ body {
   text-decoration: none;
   margin-right: 25px;
   cursor: pointer;
+}
+
+.header__menu-link:hover {
+  color: #21505c;
 }
 
 .header__nav {
@@ -69,17 +72,10 @@ body {
 }
 
 .header__image {
-  /* 
-  padding-bottom: 4rem;
-  background: #fff;
-  border: 1.5rem solid #fff;
-  border-radius: 2.5rem;
-  max-width: 90%;
-  height: auto; */
-
   width: 90%;
   border: 10px solid #fff;
   border-radius: 40px;
+  padding-bottom: 32px;
   transform: rotate(-5deg);
   background: #fff;
 }
@@ -94,26 +90,198 @@ body {
 .features__title {
   margin: 0;
   text-align: center;
-  padding: 50px;
-  font-size: 32px;
+  padding: 40px;
+  font-size: 2rem;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 .features__items {
   display: flex;
+  justify-content: center;
+}
+
+.features__item {
+  text-align: center;
+  justify-content: space-around;
+  padding: 40px;
+  margin: 10px;
+  width: 300px;
 }
 
 .features__icon {
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: white;
-  padding: 13px;
+  padding: 10px;
 }
+
+.features__subtitle {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.features__description {
+  text-align: center;
+}
+
 /* advertisement */
 .advertisement {
   padding: 20px;
   text-align: center;
+}
+
+/* promo */
+
+.promo__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.promo__image {
+  max-width: 90%;
+  padding: 10px;
+}
+
+.promo__title {
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-top: 25px;
+}
+
+.promo__description {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+/* pricing */
+
+.pricing__title {
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+}
+
+.pricing__subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+/* pricing__article */
+
+.pricing {
+  background-color: #f8f9f9;
+}
+
+.pricing__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing__item-wrapper {
+  text-align: center;
+}
+.pricing__item-title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.pricing__item-price {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.pricing__item-period {
+  font-size: 0.6rem;
+}
+
+.pricing__item-feature,
+.pricing__item-feature {
+  font-size: 1rem;
+}
+
+.pricing__item-button {
+  /* position: absolute; */
+  width: 180px;
+  height: 50px;
+  background-color: #06bceb;
+  border-radius: 16px;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+  border-style: none;
+}
+
+.pricing__item-button:hover {
+  background-color: #58d5f7;
+  color: fff;
+  border-radius: 2rem;
+  text-decoration: none;
+  border-style: none;
+}
+
+.pricing-box__item {
+  padding: 25px;
+  background-color: #fff;
+  box-shadow: 0.5rem 1rem 4rem rgb(99 117 138 / 30%);
+  border-radius: 11px;
+  min-width: 307px;
+}
+
+.pricing-box__item--best {
+  box-shadow: 8px 8px 31px -7px rgba(66, 68, 90, 1);
+}
+
+/* team */
+
+.team__heading {
+  font-size: 2rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px;
+}
+
+.team__wraper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 150px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member__role {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.team-member__name {
+  font-weight: bold;
+}
+
+.member__description {
+  font-size: 0.2rem;
+  font-weight: 100;
+}
+
+.team-member__social-icon {
+  padding: 5px;
 }
 
 /* footer */
@@ -126,3 +294,31 @@ body {
   padding: 15px;
   text-align: center;
 }
+
+/* .pricing-box__item--best {
+	background-color: #fff;
+	box-shadow: 0.5rem 1rem 4rem rgba(99, 117, 138, 0.3);
+	border-radius: 1rem;
+	min-width: 30rem; */
+
+/* .pricing-box__btn {
+	position: absolute;
+	width: 16.4rem;
+	height: 5.1rem;
+	line-height: 5.1rem;
+	margin: 3rem 0;
+	padding: 0.2rem 0.8rem;
+	background-color: #06bceb;
+	border-radius: 1rem;
+	color: #fff;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 300;
+	transition: all 0.3s ease-in-out;
+	bottom: 2rem;
+}
+.pricing-box__btn:hover {
+	background-color: #58d5f7;
+	color: fff;
+	border-radius: 2rem;
+} */
