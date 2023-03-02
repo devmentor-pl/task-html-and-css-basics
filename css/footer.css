@@ -1,0 +1,22 @@
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	height: 50px;
+	background-color: #333;
+	overflow: hidden;
+}
+footer img {
+	width: 20%;
+}
+@media (min-width: 768px) {
+	footer img {
+		width: 10%;
+	}
+}
+@media (min-width: 1024px) {
+	footer img {
+		width: 5%;
+	}
+}

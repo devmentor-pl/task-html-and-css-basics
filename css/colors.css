@@ -2,5 +2,8 @@
 	--header-bgc: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 	--text-color: rgba(255, 255, 255);
 	--btn-color: #25f18b;
+	--second-btn-color: royalblue;
 	--hamburger-icon: #333;
+	--white: #fff;
+	--light-background: #f9fafa;
 }
