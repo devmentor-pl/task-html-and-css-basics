@@ -88,10 +88,12 @@ body {
   background-color: rgb(4, 201, 43);
   color: white;
   border: none;
+  border-radius: 10%/ 50%;
   font-size: 1 5rem;
   padding: 0.5rem;
   cursor: pointer;
   transition: background-color 0.5s ease-in-out;
+  text-align: center;
 }
 
 .hero__button:hover {
@@ -108,7 +110,7 @@ body {
   background-size: cover;
   border-color: white;
   border: 10px solid;
-  border-radius: 10%;
+  border-radius: 10%/ 50%;
   transform: rotate(-0.02turn);
 }
 
@@ -167,21 +169,208 @@ body {
 .about__img,
 .about__text {
   flex-basis: 50%;
-  padding: 3rem 0;
 }
 
-about__img--container {
+.about__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__img--container {
   width: 100%;
-  height: 20rem;
+  height: 400px;
   background-image: url(../task-html-and-css-basics/images/imac.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 20rem;
+  padding-top: 40rem;
 }
 
 .about__header {
-  margin-top: 0;
+  margin-top: 100px;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+.about__description {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  margin-left: 10px;
 }
 
 /* END OF ABOUT */
+
+/* PRICING */
+
+.pricing {
+  background-color: aliceblue;
+  color: black;
+  padding-bottom: 3rem;
+}
+
+.pricing__header {
+  margin: 0;
+  text-align: center;
+  justify-content: center;
+  padding: 2.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pricing__header--big-padding {
+  padding-bottom: 2rem;
+}
+
+.pricing__container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pricing__basic {
+  margin: 0px;
+  padding: 30px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.pricing__offer {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.484);
+  padding-bottom: 10px;
+}
+
+.pricing__value {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.pricing__per-month {
+  font-size: 0.7rem;
+  padding-bottom: 3rem;
+}
+
+.pricing__contains {
+  font-size: 20px;
+  padding-bottom: 1.2rem;
+}
+
+.pricing__basic--padding {
+  padding-bottom: 10rem;
+}
+
+.pricing__agency--padding {
+  padding-bottom: 7rem;
+}
+
+.pricing__pro--padding {
+  padding-bottom: 4rem;
+}
+
+.pricing__agency {
+  margin: 2px;
+  padding: 30px;
+  box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.pricing__pro {
+  margin: 6px;
+  padding: 30px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.pricing__button {
+  min-width: 150px;
+  min-height: 50px;
+  background-color: rgb(4, 148, 201);
+  color: white;
+  border: none;
+  border-radius: 10%/ 20%;
+  font-size: 1 5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* END OF PRICING */
+
+/* TEAM */
+
+.team {
+  color: black;
+  padding-bottom: 8rem;
+}
+
+.team__header {
+  text-align: center;
+
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.team__leader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team__foto {
+  padding-bottom: 2rem;
+}
+
+.team__cto {
+  text-align: center;
+}
+
+.team__role {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 1.5rem;
+}
+
+.team__name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif, "Trebuchet MS",
+    "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 1.2rem;
+  padding-bottom: 1.3rem;
+}
+
+.team__function {
+  font-size: 1.1rem;
+  padding-bottom: 1.5rem;
+}
+
+.team__ceo {
+  text-align: center;
+}
+
+.team__cfo {
+  text-align: center;
+}
+
+.team__icon {
+  padding: 0 5px;
+}
+
+/* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.footer__text,
+.footer__img {
+  padding: 0 4px;
+}
+
+/* END OF FOOTER */
