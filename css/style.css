@@ -8,11 +8,17 @@
 html {
 	font-size: 62.5%;
 	font-family: 'Montserrat', sans-serif;
-	color: var(--text-color);
+	color: var(--white-color);
+	width: 100%;
 }
+
 a {
-	color: var(--text-color);
+	color: var(--white-color);
 }
 button {
-	color: var(--text-color);
+	color: var(--white-color);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
 }

@@ -7,102 +7,85 @@
 		<title>Nova - beautiful free Nova template</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
-			rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
 		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
+		<nav>
+			<div class="wrapper">
+				<img src="./images/logo.svg" alt="Page logo" class="logo" />
+				<button class="nav__burger-icon"><span class="line"></span></button>
+				<div class="nav nav--desktop">
+					<ul class="nav__menu">
+						<li class="menu__item"><a href="#" class="item__references">The Team</a></li>
+						<li class="menu__item"><a href="#" class="item__references">Pricing</a></li>
+						<li class="menu__item"><a href="#" class="item__references">Features</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<header>
-			<div class="wrapper__header">
-				<nav>
-					<img src="./images/logo.svg" alt="Page logo" class="logo" />
-					<div class="nav__burger-icon"><span class="line"></span></div>
-					<div class="nav nav--desktop">
-						<a href="#" class="nav__references">The Team</a>
-						<a href="#" class="nav__references">Pricing</a>
-						<a href="#" class="nav__references">Features</a>
-					</div>
-				</nav>
-				<div class="header__contener">
-					<div class="header__content">
-						<h1 class="header__title">Beautiful Free Nova template</h1>
-						<p class="header__text">
-							A top notch premium quality template for your nex web project
-						</p>
-						<button class="header__button--call-to-action">
-							Download FREE!
-						</button>
-					</div>
-					<div class="img-border">
-						<img src="./images/screen.png" alt="Image screen showcase" />
-					</div>
+			<div class="wrapper">
+				<article class="header__content">
+					<h1 class="header__title">Beautiful Free Nova template</h1>
+					<p class="header__text">A top notch premium quality template for your nex web project</p>
+					<button class="header__button--call-to-action">Download FREE!</button>
+				</article>
+				<div class="img-border">
+					<img src="./images/screen.png" alt="Image screen showcase" />
 				</div>
 			</div>
 		</header>
 		<main>
 			<section class="features">
-				<div class="wrapper__features">
+				<div class="wrapper">
 					<h2 class="features__title">Features</h2>
 					<div class="features__box">
-						<div class="features__element">
+						<article class="features__element">
 							<div class="element__img element__img--responsive"></div>
 							<h3 class="element__title">Fully responsive</h3>
-							<p class="element__text">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-								Perferendis, voluptates.
-							</p>
-						</div>
-						<div class="features__element">
+							<p class="element__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, voluptates.</p>
+						</article>
+						<article class="features__element">
 							<div class="element__img element__img--tools"></div>
 							<h3 class="element__title">Customizable</h3>
-							<p class="element__text">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Voluptate, consequuntur.
-							</p>
-						</div>
-						<div class="features__element">
+							<p class="element__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consequuntur.</p>
+						</article>
+						<article class="features__element">
 							<div class="element__img element__img--order"></div>
 							<h3 class="element__title">Slick and beautiful design</h3>
-							<p class="element__text">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-								explicabo!
-							</p>
-						</div>
+							<p class="element__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, explicabo!</p>
+						</article>
 					</div>
 				</div>
 			</section>
-			<section class="companies none">
-				<div class="wrapper__companies">
+			<section class="companies-section none">
+				<figure class="companies">
 					<img src="./images/logos.png" alt="Companies logos" />
-				</div>
+				</figure>
 			</section>
 			<section class="imac-section">
-				<div class="wrapper__imac-section">
-					<img src="./images/imac.png" alt="Example picture of the imac" />
-					<div class="text-section">
+				<div class="wrapper">
+					<figure class="imac-section__img">
+						<img src="./images/imac.png" alt="Example picture of the imac" />
+					</figure>
+					<article class="text-section">
 						<h3 class="text-section__title">Simple and beautiful</h3>
 						<p class="text-section__text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae,
-							modi necessitatibus. Officiis nam ipsum, incidunt earum assumenda
-							maxime quasi natus doloribus est aperiam sit culpa odit vero,
-							neque voluptate repellendus.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, modi necessitatibus. Officiis nam ipsum, incidunt earum assumenda maxime quasi
+							natus doloribus est aperiam sit culpa odit vero, neque voluptate repellendus.
 						</p>
-					</div>
+					</article>
 				</div>
 			</section>
 			<section class="pricing-section">
-				<div class="wrapper__pricing-section">
-					<div class="pricing-section-text">
-						<h3 class="pricing-section-text__title">
-							choose your pricing plan
-						</h3>
-						<p class="pricing-section-text__text">
-							Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-						</p>
+				<div class="wrapper">
+					<div class="pricing-section__text">
+						<h3 class="pricing-section__text__title">choose your pricing plan</h3>
+						<p class="pricing-section__text__info">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
 					</div>
 					<div class="pricing-section__box">
-						<div class="box__pricing-item">
+						<article class="box__pricing-item">
 							<p class="pricing-item__pricing-plan">basic</p>
 							<p class="pricing-item__pricing-value">$15</p>
 							<p class="pricing-item__pricing-amount-of-time">per month</p>
@@ -111,8 +94,8 @@
 								<li>2 Additional Developers</li>
 							</ul>
 							<button class="pricing-item__button">Get Started</button>
-						</div>
-						<div class="box__pricing-item">
+						</article>
+						<article class="box__pricing-item box__pricing-item--agency">
 							<p class="pricing-item__pricing-plan">agency</p>
 							<p class="pricing-item__pricing-value">$55</p>
 							<p class="pricing-item__pricing-amount-of-time">per month</p>
@@ -122,8 +105,8 @@
 								<li>Unlimited support</li>
 							</ul>
 							<button class="pricing-item__button">Get Started</button>
-						</div>
-						<div class="box__pricing-item">
+						</article>
+						<article class="box__pricing-item">
 							<p class="pricing-item__pricing-plan">pro</p>
 							<p class="pricing-item__pricing-value">$75</p>
 							<p class="pricing-item__pricing-amount-of-time">per month</p>
@@ -134,50 +117,44 @@
 								<li>1.5GB Disk space</li>
 							</ul>
 							<button class="pricing-item__button">Get Started</button>
-						</div>
+						</article>
 					</div>
 				</div>
 			</section>
 			<section class="team-section">
-				<div class="wrapper__team-section">
+				<div class="wrapper">
 					<h3 class="team-section__title">the team</h3>
 					<div class="team-section__team-members-box">
-						<div class="team-members-box__item">
+						<figure class="team-members-box__item">
 							<img src="./images/cto.png" alt="Team member imgae" />
 							<p class="team-members-box__member-job">CTO</p>
 							<p class="team-members-box__member-name">Johnny B Good</p>
-							<p class="team-members-box__member-description">
-								Lorem ipsum dolor sit amet consectetur.
-							</p>
+							<p class="team-members-box__member-description">Lorem ipsum dolor sit amet consectetur.</p>
 							<div class="team-members-box__social-media">
-								<a href="#"></a>
-								<a href="#"></a>
+								<a href="#" class="social-media--twitter"></a>
+								<a href="#" class="social-media--facebook"></a>
 							</div>
-						</div>
-						<div class="team-members-box__item">
+						</figure>
+						<figure class="team-members-box__item">
 							<img src="./images/ceo.png" alt="Team member imgae" />
 							<p class="team-members-box__member-job">CEO</p>
 							<p class="team-members-box__member-name">Roll Over Beethoven</p>
-							<p class="team-members-box__member-description">
-								Lorem ipsum dolor sit amet consectetur.
-							</p>
+							<p class="team-members-box__member-description">Lorem ipsum dolor sit amet consectetur.</p>
 							<div class="team-members-box__social-media">
-								<a href="#"></a>
-								<a href="#"></a>
+								<a href="#" class="social-media--twitter"></a>
+								<a href="#" class="social-media--facebook"></a>
 							</div>
-						</div>
-						<div class="team-members-box__item">
+						</figure>
+						<figure class="team-members-box__item">
 							<img src="./images/cfo.png" alt="Team member imgae" />
 							<p class="team-members-box__member-job">CFO</p>
 							<p class="team-members-box__member-name">Chuck Berry</p>
-							<p class="team-members-box__member-description">
-								Lorem ipsum dolor sit amet consectetur.
-							</p>
+							<p class="team-members-box__member-description">Lorem ipsum dolor sit amet consectetur.</p>
 							<div class="team-members-box__social-media">
-								<a href="#"></a>
-								<a href="#"></a>
+								<a href="#" class="social-media--twitter"></a>
+								<a href="#" class="social-media--facebook"></a>
 							</div>
-						</div>
+						</figure>
 					</div>
 				</div>
 			</section>

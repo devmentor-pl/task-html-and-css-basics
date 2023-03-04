@@ -6,22 +6,26 @@
 	.none {
 		display: block;
 	}
-	.companies {
+	.companies-section {
 		background: var(--light-background);
 		padding: 2rem 0;
 		display: flex;
 		justify-content: center;
 	}
-	.wrapper__companies {
-		text-align: center;
-		width: 80%;
+	.companies {
+		display: flex;
+		align-items: center;
 	}
-	.wrapper__companies img {
+	.companies img {
+		margin: 0 auto;
+
 		width: 80%;
+
+		text-align: center;
 	}
 }
 @media (min-width: 1440px) {
-	.wrapper__companies img {
-		width: 60%;
+	.companies img {
+		width: 100%;
 	}
 }

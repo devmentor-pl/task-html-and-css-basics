@@ -2,23 +2,27 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: black;
-	text-align: center;
+
 	padding: 4rem 0;
+
+	color: var(--black-color);
+	text-align: center;
 	background: var(--light-background);
 }
-.wrapper__pricing-section {
-	width: 80%;
-}
 
-.pricing-section-text__title {
-	text-transform: uppercase;
-	font-weight: 400;
-	padding-bottom: 1rem;
-	font-size: 1.9rem;
+.pricing-section__text {
+	padding: 0 0 4rem 0;
 }
-.pricing-section-text__text {
-	padding-bottom: 2rem;
+.pricing-section__text__title {
+	padding-bottom: 1rem;
+
+	text-transform: uppercase;
+
+	font-size: 1.9rem;
+	font-weight: 400;
+}
+.pricing-section__text__info {
+	font-weight: lighter;
 	font-size: 1.4rem;
 }
 .pricing-section__box {
@@ -30,9 +34,10 @@
 	display: flex;
 	flex-direction: column;
 	gap: 7px;
+
 	padding: 5rem 2rem;
 }
-.box__pricing-item:nth-of-type(2) {
+.box__pricing-item--agency {
 	order: -1;
 	box-shadow: 1px 1px 10px 5px rgba(50, 50, 50, 0.1);
 	border-radius: 5px;
@@ -51,16 +56,20 @@
 }
 .pricing-item__pricing-list {
 	margin-bottom: 5rem;
-	font-size: 1.5rem;
+
 	list-style: none;
+
+	font-size: 1.5rem;
 }
 .pricing-item__button {
 	margin: 0 auto;
 	padding: 1.5rem 2rem;
+
 	width: 60%;
 	border: none;
 	border-radius: 10px;
-	background: var(--second-btn-color);
+	background: var(--pricing-color-btn);
+
 	cursor: pointer;
 }
 

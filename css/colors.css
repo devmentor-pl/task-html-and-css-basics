@@ -1,9 +1,10 @@
 :root {
 	--header-bgc: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-	--text-color: rgba(255, 255, 255);
-	--btn-color: #25f18b;
-	--second-btn-color: royalblue;
+	--call-to-action-btn: #25f18b;
+	--pricing-color-btn: #0abceb;
 	--hamburger-icon: #333;
-	--white: #fff;
 	--light-background: #f9fafa;
+	--nav-color: rgba(0, 0, 0, 0.7);
+	--white-color: rgba(255, 255, 255);
+	--black-color: rgba(0, 0, 0);
 }
