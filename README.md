@@ -24,32 +24,9 @@ You don't need to install any packages for this project. Just copy repo and run 
 
 - I created here my own burger icon for mobile layout ot page
 
-two:
-some example code
 
-more code :)
-
-three
-Issue Solution
-one short code example
-two short code example
-thre short code example
-
-four - some shortcut Ctrl + C
-
-five - example with a screenshot
-what it is
-
-💭 Conclusions for future projects
-I would like to improve...
-
-This is the first issue:
-and this is a code example
-This is the second issue:
-and this is a code example
 
 🙋‍♂️ Feel free to contact me
-Write sth nice ;) Find me on...
 
 👏 Thanks / Special thanks / Credits
 Thanks to my Mentor - devmentor.pl – for providing me with this task and for code review.
