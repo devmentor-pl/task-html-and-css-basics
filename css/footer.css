@@ -1,4 +1,4 @@
-footer {
+.footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -7,16 +7,16 @@ footer {
 	background-color: #333;
 	overflow: hidden;
 }
-footer img {
+.footer__img {
 	width: 20%;
 }
 @media (min-width: 768px) {
-	footer img {
+	.footer__img {
 		width: 10%;
 	}
 }
 @media (min-width: 1024px) {
-	footer img {
+	.footer__img {
 		width: 5%;
 	}
 }

@@ -52,7 +52,7 @@ nav .wrapper {
 	width: 4rem;
 	height: 0.3rem;
 
-	background-color: var(--hamburger-icon);
+	background-color: var(--white-color);
 	border-radius: 2px;
 }
 
@@ -63,11 +63,11 @@ nav .wrapper {
 	position: absolute;
 	transform: translate(-50%);
 
-	width: 4rem;
-	height: 0.3rem;
+	width: inherit;
+	height: inherit;
 
-	background-color: var(--hamburger-icon);
-	border-radius: 2px;
+	background-color: inherit;
+	border-radius: inherit;
 }
 .line::after {
 	left: 50%;
@@ -121,7 +121,7 @@ nav .wrapper {
 	border-radius: 10px;
 }
 
-.img-border img {
+.img-border .img-border__site-screen {
 	width: 90%;
 
 	background: var(--white-color);
