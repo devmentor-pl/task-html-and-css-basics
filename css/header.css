@@ -1,4 +1,4 @@
-header {
+.header {
 	padding: 3rem 0;
 	background: var(--header-bgc);
 }
@@ -8,7 +8,7 @@ header {
 .nav-transparent {
 	background-color: transparent;
 }
-nav {
+.nav {
 	position: fixed;
 	z-index: 10;
 
@@ -19,7 +19,7 @@ nav {
 	height: 80px;
 	width: 100%;
 }
-nav .wrapper {
+.nav .wrapper {
 	display: flex;
 	justify-content: space-between;
 }
@@ -134,7 +134,7 @@ nav .wrapper {
 	}
 }
 @media (min-width: 768px) {
-	nav .wrapper {
+	.nav .wrapper {
 		align-items: center;
 	}
 	.nav__burger-icon {
@@ -180,11 +180,11 @@ nav .wrapper {
 	}
 }
 @media (min-width: 1024px) {
-	nav {
+	.nav {
 		justify-content: space-between;
 		margin: 0 auto;
 	}
-	nav .wrapper {
+	.nav .wrapper {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -192,13 +192,13 @@ nav .wrapper {
 		width: 65%;
 	}
 
-	header .wrapper {
+	.header .wrapper {
 		margin: 0 auto;
 		width: 90%;
 	}
 }
 @media (min-width: 1224px) {
-	header .wrapper {
+	.header .wrapper {
 		width: 60%;
 	}
 	.img-border {
