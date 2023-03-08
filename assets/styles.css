@@ -2,6 +2,7 @@
   --hero-text: #fff;
   --hero-content: #e9e9e9;
   --btn-hero: #11d045;
+  --features-bg: #000;
 }
 
 * {
@@ -103,4 +104,67 @@ section {
 .btn--hero {
   background-color: var(--btn-hero);
   color: var(--hero-text);
+}
+
+.features {
+  background-color: var(--features-bg);
+  color: var(--hero-text);
+  border: 1px solid orange;
+}
+
+.features__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  padding: 60px 0;
+}
+
+.features .wrapper:last-child {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  padding-top: 20px;
+  outline: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+}
+
+.card:not(:nth-child(3)) {
+  margin-right: 10px;
+}
+
+.card__circle {
+  background-color: var(--hero-text);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.card__title {
+  margin-bottom: 10px;
+}
+
+.card__content {
+  padding-bottom: 150px;
+  color: var(--hero-content);
+  font-size: 14px;
+}
+
+.features__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logos .wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
 }
