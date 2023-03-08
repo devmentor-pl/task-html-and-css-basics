@@ -168,3 +168,34 @@ section {
   justify-content: center;
   padding: 10px 0;
 }
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.image-container,
+.content-container {
+  width: 50%;
+}
+
+.content-container {
+  padding-left: 50px;
+}
+
+.image-container {
+  padding-top: 25px;
+}
+
+.about__title {
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 40px 0;
+}
+
+.about__content {
+  line-height: 30px;
+  font-size: 12px;
+  width: 60%;
+}
