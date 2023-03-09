@@ -26,8 +26,8 @@
             <nav class="header__nav cell">
                 <ul class="nav__links">
 
-                    <a class="nav__link" href="./#team"></a>
-                    <li class="nav__link--item">The Team</li>
+                    <a class="nav__link" href="./#team">
+                        <li class="nav__link--item">The Team</li>
                     </a>
 
                     <a class="nav__link" href="./#pricing">
@@ -42,84 +42,156 @@
 
         </div>
 
-        <div class="header2__container container">
-            <div class="header2__text cell">
-                <h1 class="header2__title">Beautiful Free Nova template</h1>
+        <div class="hero__container container">
+            <article class="hero__text cell">
+                <h1 class="hero__title">Beautiful Free Nova template</h1>
 
-                <p class="header2__content">A top notch premium quality template for your next web project.</p>
+                <p class="hero__content">A top notch premium quality template for your next web project.</p>
                 <button class="download__button">Download FREE!</button>
 
 
-            </div>
+            </article>
 
-            <div class="header2__image cell">
-                <img class="header2__image--file" src="./images/screen.png">
-            </div>
+            <figure class="hero__image cell">
+                <img class="hero__image--file" src="./images/screen.png">
+            </figure>
         </div>
     </header>
 
 
     <main>
-        <section class="features row">
-            <div class="features__container container">
-                <h1 class="features__title cell">Features</h1>
-            </div>
+        <section id="features" class="features-list row">
+            <header class="features-header__container container">
+                <h2 class="features__header cell">Features</h2>
+            </header>
 
-            <div class="features__container container">
-                <div class="feature cell">column1</div>
-                <div class="feature cell">column2</div>
-                <div class="feature cell">column3</div>
-            </div>
+            <ul class="features-list__container container">
+
+                <li class="feature cell">
+                    <div class="feature__image">
+                        <img class="feature__image--file " src="./images/responsive.svg">
+                    </div>
+                    <h3 class="feature__title">Fully responsive</h3>
+                    <p class="feature__content">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
+                </li>
+
+                <li class="feature cell">
+                    <div class="feature__image">
+                        <img class="feature__image--file " src="./images/customizable.svg">
+                    </div>
+                    <h3 class="feature__title">Customizable</h3>
+                    <p class="feature__content">Change the colors, pictures or any of the sections to suit your needs
+                    </p>
+                </li>
+
+                <li class="feature cell">
+                    <div class="feature__image">
+                        <img class="feature__image--file " src="./images/design.svg">
+                    </div>
+                    <h3 class="feature__title">Slick and Beautiful design</h3>
+                    <p class="feature__content">Trendy and fresh design, fits any website.
+                    </p>
+                </li>
+            </ul>
         </section>
 
-        <section class="sponsors row">
+        <aside class="sponsors row">
             <div class="sponsors__container container">
-                <h1 class="sponsors__logos cell">sponsors</h1>
+                <img class="sponsors__logos cell" src="./images/logos.png" alt="logos">
             </div>
-        </section>
+        </aside>
 
-        <section class="hero row">
-            <div class="hero__container container">
-                <div class="hero__image cell">
-                    <img>
+        <section class="design row">
+            <figure class="design__container container">
+                <div class="design__image cell">
+                    <img class="design__image--file " src="./images/imac.png">
                 </div>
 
-                <div class="hero__article cell">
-                    <h1>Title</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officiis dolore ab eos totam
-                        voluptas nostrum nobis hic, perspiciatis, iure nemo facilis deserunt quo ducimus aliquam! Nobis
-                        quaerat nulla reprehenderit!</p>
-                </div>
-            </div>
+                <article class="design__article cell">
+                    <h2 class="design__title cell">Simple and Beautiful</h2>
+                    <p class="design__content">Use Nova theme for your next web project. It is completely customizable
+                        so
+                        you can change any of
+                        the sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial.
+                        Have fun and good luck!</p>
+                </article>
+            </figure>
         </section>
 
-        <section class="pricing row">
-            <div class="pricing__container container">
-                <h1 class="pricing__title cell">Features</h1>
-            </div>
+        <section id="pricing" class="pricing row">
+            <header class="pricing__header container">
+                <h2 class="pricing__title cell">Choose your pricing Plan</h2>
+                <h3 class="pricing__subtitle cell">Pick any of the super affordable pricing plans</h3>
+            </header>
 
-            <div class="pricing__container container">
-                <div class="pricing-plan cell">column1</div>
-                <div class="pricing-plan cell">column2</div>
-                <div class="pricing-plan cell">column3</div>
-            </div>
+            <ul class="pricing__container container">
+                <li class="pricing-plan cell">
+                    <h4 class="pricing-plan--item">Basic</h4>
+                    <p class="pricing-plan--price">$15</p>
+                    <p class="pricing-plan--time">per month</p>
+                    <p class="pricing-plan--content">Up to 7 Projects <br>2 Additional Developers</p>
+                    <button class="button--start">Get Started</button>
+                </li>
+
+                <li class="pricing-plan1 cell">
+                    <h4 class="pricing-plan--item">Agency</h4>
+                    <p class="pricing-plan--price">$55</p>
+                    <p class="pricing-plan--time">per month</p>
+                    <p class="pricing-plan--content">Up to 25 Projects <br>2 Additional Developers<br>Unlimited Support
+                    </p>
+                    <button class="button--start">Get Started</button>
+                </li>
+
+                <li class="pricing-plan cell">
+                    <h4 class="pricing-plan--item">PRO</h4>
+                    <p class="pricing-plan--price">$75</p>
+                    <p class="pricing-plan--time">per month</p>
+                    <p class="pricing-plan--content">Up to 25 Projects<br>2 Additional Developers<br>Unlimited
+                        Support<br>1.5GB Disk Space</p>
+                    <button class="button--start">Get Started</button>
+                </li>
+            </ul>
         </section>
 
-        <section class="team row">
-            <div class="team__container container">
-                <h1 class="team__title cell">Features</h1>
-            </div>
+        <section id="team" class="team row">
+            <header class="team__header container">
+                <h2 class="team__title cell">The Team</h2>
+            </header>
 
-            <div class="team__container container">
-                <div class="team-member cell">column1</div>
-                <div class="team-member cell">column2</div>
-                <div class="team-member cell">column3</div>
-            </div>
+            <ul class="team__container container">
+                <li class="team-member cell">
+                    <img class="team-member--photo" src="./images/cto.png" alt="CTO">
+                    <h3 class="team-member--position">CTO</h3>
+                    <p class="team-member--name">Johnny B Good</p>
+                    <p class="team-member--description">The brains behind the whole operation</p>
+                    <img class="team-member--icon" src="./images/team-twitter.svg">
+                    <img class="team-member--icon" src="./images/team-facebook.svg">
+                </li>
+
+                <li class="team-member cell">
+                    <img class="team-member--photo" src="./images/ceo.png" alt="CEO">
+                    <h3 class="team-member--position">CEO</h3>
+                    <p class="team-member--name">Roll Over Beethoven</p>
+                    <p class="team-member--description">The one that puts it all together</p>
+                    <img class="team-member--icon" src="./images/team-twitter.svg">
+                    <img class="team-member--icon" src="./images/team-facebook.svg">
+                </li>
+
+                <li class="team-member cell">
+                    <img class="team-member--photo" src="./images/cfo.png" alt="CFO">
+                    <h3 class="team-member--position">CFO</h3>
+                    <p class="team-member--name">Chuck Berry</p>
+                    <p class="team-member--description">The guy with his hand on the wallet</p>
+                    <img class="team-member--icon" src="./images/team-twitter.svg">
+                    <img class="team-member--icon" src="./images/team-facebook.svg">
+                </li>
+            </ul>
         </section>
 
         <footer class="footer row">
             <div class="footer__container container">
-                <div class="footer__content cell">.</div>
+                <p class="footer__text">A free template by</p>
+                <img class="footer__content cell" src="./images/webscope.svg" alt="logo">
             </div>
         </footer>
 
