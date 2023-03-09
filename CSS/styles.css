@@ -101,6 +101,87 @@ html, body {
     border: solid 15px white;
     border-bottom: solid white 50px;
     border-radius: 5%;
-    transform: rotate(-4deg)
-
+    transform: rotate(-4deg);
 }
+
+/* END OF HERO */
+/* FEATURES */
+.features {
+    display: flex;
+    flex-direction: column;
+    padding-top: rem;
+    background-color: black;
+    color: white;
+}
+
+.features__header-container {
+    min-width: 300px;
+    font-size: 25px;
+}
+
+.feature {
+    flex-basis: 33.333333%;
+    text-align: center;
+    margin-bottom: 6rem;
+    padding: 1rem;
+}
+
+.feature > p {
+    max-width: 210px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.feature__icon {
+    min-width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    color: white;
+    background-color: #fff;
+    border: solid 20px white;
+    border-radius: 50%;
+}
+
+/* END OF FEATURES */
+/* LOGOS */
+
+.logos__img {
+    margin: 1rem;
+}
+
+/* END OF LOGOS */
+/* NOVA */
+
+.nova {
+    padding: 2rem 0;
+    color: black;
+    background-color: white; 
+}
+
+.nova__container {
+    display: flex;
+}
+
+.nova__text, .nova__image {
+    flex-basis: 50%;
+    padding: 0 2rem;
+}
+
+.nova__header {
+    margin-top: 0;
+}
+
+.nova__image-container {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/imac.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nova__description {
+    max-width: 400px;
+    line-height: 2;
+}
+
