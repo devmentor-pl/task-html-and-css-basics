@@ -12,7 +12,6 @@ html, body {
     max-width: 1150px;
     display: flex;
     justify-content: space-around;
-    border: solid red;
 }
 
 .container__hero {
@@ -289,3 +288,35 @@ html, body {
     min-width: 50px;
 }
 
+/* END OF TEAM */
+/* FOOTER */
+
+.footer {
+    background-color: #494848;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.hooter {
+    display: flex;
+    flex-basis: 10%;
+    justify-content: flex-end;
+}
+
+.footer__image {
+    display: flex;
+    flex-basis: 10%;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    background-image: url(../images/webscope.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* END OF FOOTER */
