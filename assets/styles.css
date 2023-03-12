@@ -133,8 +133,8 @@ section {
   width: 250px;
 }
 
-.card:not(:nth-child(3)) {
-  margin-right: 10px;
+.card--free-space {
+  margin-right: 0;
 }
 
 .card__circle {
