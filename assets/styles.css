@@ -70,9 +70,11 @@ section {
 .hero__image img {
   width: 80%;
   height: auto;
-  padding: 20px;
   display: inline-block;
   rotate: -7deg;
+  border: 8px solid var(--hero-text);
+  border-radius: 9px;
+  background-color: var(--hero-text);
 }
 
 .hero__logo {
