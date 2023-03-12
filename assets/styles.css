@@ -230,6 +230,7 @@ section {
 
 .subscription:nth-of-type(2) {
   flex-basis: 40%;
+  box-shadow: 2px 3px 5px #999;
 }
 
 .subscription__title {
