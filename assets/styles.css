@@ -48,11 +48,11 @@ section {
   font-weight: 600;
 }
 
-.hero__image {
+.hero__image-container {
   object-fit: contain;
   overflow: hidden;
   text-align: center;
-  padding: 10px 0 70px 0;
+  padding: 50px 0 70px 0;
 }
 
 .hero__wrapper {
@@ -67,7 +67,7 @@ section {
   display: flex;
 }
 
-.hero__image img {
+.hero__image {
   width: 80%;
   height: auto;
   display: inline-block;
