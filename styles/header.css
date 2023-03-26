@@ -2,12 +2,15 @@
 .header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
   min-height: 500px;
+  padding-bottom: 10rem;
 }
 
 .nav__list {
   list-style: none;
   display: flex;
   justify-content: flex-end;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
   /* align-items: center; */
 }
 
@@ -38,6 +41,7 @@
 
 .hero {
   padding: 20px 0;
+  padding-left: 5rem;
   display: flex;
 }
 
