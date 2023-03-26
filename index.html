@@ -8,10 +8,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/reset.css"> 
   <link rel="stylesheet" href="styles/global.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/features.css">
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/pricing.css">
 </head>
 <body>
   
@@ -96,25 +98,44 @@
 </main>
 
 <section class="pricing row">
-  <div class="container">
-    <div class="h2 header-lvl2">Choose your pricing plan</div>
-    <p>Pick any of our super affordable pricing plans</p>
-  </div>
-  <div class="container">
-    <div class="pricing__grid">
-      <div class="plan">
-          <h3 class="plan__header">Basic</h3>
-          <h4 class="plan__price">$15</h4>
-          <span>per month</span>
-          <ul class="plan__features">
-            <li class="plan__features__item">Up to projects</li>
-            <li class="plan__features__item">2 Additional Developers</li>
-          </ul>
-          <button class="button button--plan">Get Started</button>
-      </div>
-      <div class="pricing__box__item"></div>
-      <div class="pricing__box__item"></div>
-    </div>
+  <header class="pricing__headers container">
+    <h2 class="pricing__header">Choose your pricing plan</h2>
+    <h3 class="pricing__subheader">Pick any of our super affordable pricing plans</h3>
+  </header>
+  <div class="pricing-box container">
+    <article class="pricing-box__item">
+      <h2 class="pricing-box__name">basic</h2>
+      <p class="pricing-box__value">15</p>
+      <p class="pricing-box__time">per month</p>
+      <ul class="pricing-box__features">
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> Up to 7 projects</li>
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> 2 Additional Developers</li>
+      </ul>
+      <a href="#" class="pricing-box__btn">Get Started</a>
+    </article>
+    <article class="pricing-box__item pricing-box__item--best">
+      <h2 class="pricing-box__name">agency</h2>
+      <p class="pricing-box__value">55</p>
+      <p class="pricing-box__time">per month</p>
+      <ul class="pricing-box__features">
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> Up to 25 projects</li>
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> 2 Additional Developers</li>
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> Unlimited support</li>
+      </ul>
+      <a href="#" class="pricing-box__btn">Get Started</a>
+    </article>
+    <article class="pricing-box__item">
+      <h2 class="pricing-box__name">pro</h2>
+      <p class="pricing-box__value">75</p>
+      <p class="pricing-box__time">per month</p>
+      <ul class="pricing-box__features">
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> Up to 25 projects</li>
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> 2 Additional Developers</li>
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> Unlimited support</li>
+        <li class="pricing-box__feature"><i class=' pricing-box__ico fa-regular fa-check '></i> 1.5GB Disk Space</li>
+      </ul>
+      <a href="#" class="pricing-box__btn">Get Started</a>
+    </article>
   </div>
 </section>
 

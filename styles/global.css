@@ -26,18 +26,20 @@
   :root {
 
     --ff-primary: 'Montserrat', sans-serif;
-
+    
+    --fw-light: 300;
     --fw-regular: 400;
     --fw-semibold: 600;
     --fw-bold: 700;
 
+    --fs-100: 0.8rem;
     --fs-200: 1.2rem;
     --fs-300: 1.4rem;
     --fs-400: 1.6rem;
     --fs-500: 2rem;
     --fs-600: 2.4rem;
 
-    --clr-light: #fff;
+    --clr-light: #F8F9F9;
 
   }
 

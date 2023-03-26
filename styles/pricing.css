@@ -1,0 +1,118 @@
+
+.pricing {
+  background-color: var(--clr-light);
+}
+
+.pricing__headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10rem;
+}
+
+.pricing__header {
+  font-size: var(--fs-500);
+  text-transform: uppercase;
+  font-weight: var(--fw-light);
+  margin: 1rem auto;
+  padding-top: 2rem;
+}
+
+.pricing__subheader {
+  font-size: var(--fs-200);
+  font-weight: var(--fw-light);
+  padding: 0.5rem 0;
+  color: #5e5d5d;;
+}
+
+.pricing-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.pricing-box__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 9rem;
+  max-width: 30rem;
+  height: 33rem;
+  padding: 3.6rem 4.6rem ;
+  flex-basis: 40%;
+  justify-self: center;
+}
+
+.pricing-box__item--best {
+  background-color: #fff;
+  box-shadow: 0.5rem 1rem 4rem rgba(99, 117, 138, 0.3);
+  border-radius: 1rem;
+  min-width: 20rem;
+}
+
+.pricing-box__name {
+  font-size: var(--fs-300);
+  font-weight: var(--fw-light);
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+
+.pricing-box__value {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-bold);
+}
+
+.pricing-box__value::before {
+  content: "$";
+}
+
+.pricing-box__time {
+  font-size: var(--fs-100);
+  padding-bottom: 2rem;
+}
+
+.pricing-box__features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.pricing-box__feature {
+  text-align: center;
+  font-size: var(--fs-200);
+  font-weight: var(--fw-semibold);
+}
+.pricing-box__ico {
+  font-size: var(--fs-200);
+  color: #25f18b;
+	padding-right: 1rem;
+}
+
+.pricing-box__btn {
+  position: absolute;
+  width: 16rem;
+  height: 5rem;
+  line-height: 5rem;
+  margin: 3rem 0;
+  padding: 0.2rem 0.8rem;
+  background-color:#06bceb;
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  font-size: var(--fs-200);
+  font-weight: var(--fw-light);
+  transition: all 0.3s ease-in-out;
+  bottom: 2rem;
+}
+
+.pricing-box__btn:hover {
+  background-color: #58d5f7;
+  color: #fff;
+  border-radius: 2rem;
+}
