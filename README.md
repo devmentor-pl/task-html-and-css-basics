@@ -93,7 +93,7 @@ more code :)
  &nbsp;
 
  
-- five - example with a screenshot
+- three - example with a screenshot
 [screen](./assets/screencapture-mike161pl-github-io-task-html-and-css-basics-2023-04-19-19_48_53.png)
 
 
