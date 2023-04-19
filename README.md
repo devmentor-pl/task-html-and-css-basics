@@ -109,7 +109,7 @@ While building this project I had a chance to test my HTML and CSS skills and bu
 ## 🙋‍♂️ Feel free to contact me
 Find me on...
 
-Github - [@Mike161pl] (https://github.com/Mike161pl)
+Github - Mike161pl (https://github.com/Mike161pl)
 LinkedIn - [@Michał Plaszczak](https://www.linkedin.com/in/michal-plaszczak/)
 &nbsp;
 
