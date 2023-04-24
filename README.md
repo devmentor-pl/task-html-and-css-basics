@@ -39,55 +39,42 @@ View the optimal layout for the site depending on their device's screen size
 - SASS:
 ```
 some example code
-	&__item {
+	.team {
+	display: flex;
+	&__title {
 		display: flex;
-		&--one {
-			margin-right: 3rem;
-		}
-		&--two {
-			box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-			border-radius: 10px;
-		}
-		&--three {
-			margin-left: 3rem;
-		}
-		&--title {
-			font-size: 2.5rem;
-			font-weight: 300;
-			text-transform: uppercase;
-		}
-		&--price {
-			display: flex;
-			flex-direction: column;
-			padding: 2rem;
-			&-show {
-				padding-bottom: 2rem;
-				font-size: 6rem;
-				font-weight: 600;
-			}
-		}
-		&--info {
-			list-style: none;
-			text-align: center;
-			& li {
-				padding: 0.5rem 0;
-			}
-		}
-		&--btn {
-			position: absolute;
-			bottom: 30px;
-			padding: 2rem 6rem;
-			border: none;
-			border-radius: 10px;
-			color: var(--light-color);
-			background-color: var(--blue);
-			cursor: pointer;
-			transition: border-radius 0.5s;
-		}
-		&--btn:hover {
-			border-radius: 40px;
-		}
+		justify-content: center;
+		text-transform: uppercase;
+		padding: 2rem 4rem;
+		font-size: 4rem;
+		font-weight: 400;
 	}
+	&__cards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 4rem;
+	}
+	&__card {
+		padding: 2rem;
+	}
+	padding: 2rem;
+	&__role {
+		font-weight: 400;
+	}
+	&__name {
+		padding: 1rem;
+		font-weight: 700;
+	}
+	&__contact {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		width: 50%;
+		padding: 2rem;
+	}
+}
 more code :)
 ```
  &nbsp;

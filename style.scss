@@ -41,19 +41,19 @@ body {
 			font-size: 2rem;
 			list-style: none;
 		}
-		&--item {
-			display: inline-block;
-			padding: 0 2rem;
-			a {
-				font-weight: 600;
-				color: var(--light-color);
-				text-decoration: none;
-				transition: color 0.5s;
-			}
-			a:hover {
-				color: var(--dark-color);
-			}
-		}
+	}
+	&__item {
+		display: inline-block;
+		padding: 0 2rem;
+	}
+	&__link {
+		font-weight: 600;
+		color: var(--light-color);
+		text-decoration: none;
+		transition: color 0.5s;
+	}
+	&__link:hover {
+		color: var(--dark-color);
 	}
 }
 .header {
@@ -65,27 +65,27 @@ body {
 		width: 40%;
 		color: var(--light-color);
 		padding: 4rem 1rem;
-		&--title {
-			font-size: 4rem;
-			font-weight: 600;
-		}
-		&--info {
-			font-size: 2rem;
-			padding: 4rem 0;
-		}
-		&--btn {
-			padding: 2rem 6rem;
-			border-radius: 10px;
-			font-size: 1.5rem;
-			color: var(--light-color);
-			background-color: var(--green);
-			border: none;
-			cursor: pointer;
-			transition: border-radius 0.5s;
-		}
-		&--btn:hover {
-			border-radius: 40px;
-		}
+	}
+	&__title {
+		font-size: 4rem;
+		font-weight: 600;
+	}
+	&__info {
+		font-size: 2rem;
+		padding: 4rem 0;
+	}
+	&__btn {
+		padding: 2rem 6rem;
+		border-radius: 10px;
+		font-size: 1.5rem;
+		color: var(--light-color);
+		background-color: var(--green);
+		border: none;
+		cursor: pointer;
+		transition: border-radius 0.5s;
+	}
+	&__btn:hover {
+		border-radius: 40px;
 	}
 	&__img {
 		width: 60%;
@@ -162,6 +162,8 @@ body {
 			}
 		}
 		&--description {
+			display: flex;
+			flex-direction: column;
 			width: 50%;
 			padding: 2rem 8rem;
 			&-title {
@@ -185,21 +187,20 @@ body {
 	padding: 8rem;
 	&__text {
 		text-align: center;
-
-		&--title {
-			padding: 2rem;
-			font-size: 4rem;
-			font-weight: 400;
-			text-transform: uppercase;
-		}
-		&--text {
-			font-size: 2rem;
-			padding: 2rem;
-		}
+	}
+	&__title {
+		padding: 2rem;
+		font-size: 4rem;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+	&__text {
+		font-size: 2rem;
+		padding: 2rem;
 	}
 	&__items {
 		display: flex;
-		align-items: baseline;
+		align-items: stretch;
 		padding: 4rem 0;
 		width: 100%;
 	}
@@ -241,11 +242,10 @@ body {
 			}
 		}
 		&--info {
+			display: flex;
+			flex-direction: column;
 			list-style: none;
 			text-align: center;
-			& li {
-				padding: 0.5rem 0;
-			}
 		}
 		&--btn {
 			position: absolute;
@@ -272,29 +272,31 @@ body {
 		padding: 2rem 4rem;
 		font-size: 4rem;
 		font-weight: 400;
-		&--card {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			text-align: center;
-			padding: 4rem;
-		}
 	}
-}
-.card {
+	&__cards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 4rem;
+	}
+	&__card {
+		padding: 2rem;
+	}
 	padding: 2rem;
 	&__role {
 		font-weight: 400;
-		&--name {
-			padding: 1rem;
-			font-weight: 700;
-		}
-		&--contact {
-			padding: 2rem;
-			& img {
-				padding: 1rem;
-			}
-		}
+	}
+	&__name {
+		padding: 1rem;
+		font-weight: 700;
+	}
+	&__contact {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		width: 50%;
+		padding: 2rem;
 	}
 }
 .footer {
@@ -304,9 +306,9 @@ body {
 		justify-content: center;
 		align-items: center;
 		height: 10rem;
-		&--info {
-			color: var(--light-color);
-			padding: 1rem;
-		}
+	}
+	&__info {
+		color: var(--light-color);
+		padding: 1rem;
 	}
 }
