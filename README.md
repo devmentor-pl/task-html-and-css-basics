@@ -80,7 +80,7 @@ more code :)
  &nbsp;
 
  
-- five - example with a screenshot
+- three - example with a screenshot
 [screen](./assets/screencapture-mike161pl-github-io-task-html-and-css-basics-2023-04-19-19_48_53.png)
 
 
@@ -94,10 +94,10 @@ While building this project I had a chance to test my HTML and CSS skills and bu
 &nbsp;
 
 ## 🙋‍♂️ Feel free to contact me
-Write sth nice ;) Find me on...
+Find me on...
 
 Github - Mike161pl (https://github.com/Mike161pl)
-LinkedIn - @Michał Plaszczak(https://www.linkedin.com/in/michal-plaszczak/)
+LinkedIn - [@Michał Plaszczak](https://www.linkedin.com/in/michal-plaszczak/)
 &nbsp;
 
 ## 👏 Thanks / Special thanks / Credits
