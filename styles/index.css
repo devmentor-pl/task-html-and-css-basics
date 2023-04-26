@@ -117,18 +117,39 @@ body {
   cursor: pointer;
 }
 
-.menu__item--hover:hover {
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* POPRZEDNIO: */
+/* .menu__item--hover:hover {
+  color: #f89234;
+} */
+
+/* POPRAWIONO NA: */
+.menu__item:hover {
   color: #f89234;
 }
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 /* ===========================SECTION 1============================ */
-.section-1 {
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* POPRZEDNIO: */
+/* .section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 616px;
+  color: #ffffff;
+} */
+
+/* POPRAWIONO NA: */
+.title-section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: 616px;
   color: #ffffff;
 }
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 .title-container-left {
   min-width: 40%;
@@ -176,7 +197,9 @@ body {
   padding-top: 1%;
 }
 
-.ad-next-gen__background {
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* POPRAWIONO Z: */
+/* .ad-next-gen__background {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -185,23 +208,47 @@ body {
   padding-top: 2%;
   background-color: #ffffff;
   border-radius: 4%;
-}
+} */
 
+/* NA: */
 .ad-next-gen__image {
-  max-width: 95%;
-  border-radius: 1%;
+  max-width: 88%;
+  border-radius: 5%;
+  background-color: #ffffff;
+  border: 20px solid #ffffff;
+  padding: 0 0 63px 0;
 }
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 /* ===========================SECTION 2============================ */
-.section-2__background {
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* POPRAWIONO Z: */
+/* .section-2__background {
+  background-color: black;
+} */
+
+/* NA: */
+.features-section__background {
   background-color: black;
 }
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
-.section-2 {
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* POPRAWIONO Z: */
+/* .section-2 {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+} */
+
+/* NA: */
+.features-section {
   display: flex;
   flex-direction: column;
   color: #ffffff;
 }
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 .nova-features-header {
   display: flex;
@@ -269,16 +316,42 @@ body {
 }
 
 /* ===========================SECTION 3============================ */
-.section-3 {
+
+/* ^^^^^^^^^^^^^^^^^^^ */
+/* POPRAWIONO Z: */
+/* .section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafa;
+  max-width: 100%;
+} */
+
+/* NA: */
+.recommendation-section {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f9fafa;
   max-width: 100%;
 }
+/* ^^^^^^^^^^^^^^^^^^^^ */
 
 /* ===========================SECTION 4============================ */
-.section-4 {
+
+/* ^^^^^^^^^^^^^^^^^^^^ */
+/* POPRAWIONO Z: */
+/* .section-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 670px;
+  margin-bottom: 10px;
+  padding: 6px 3px 6px 3px;
+} */
+
+/* NA: */
+.simple-and-beautiful-section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -286,6 +359,7 @@ body {
   margin-bottom: 10px;
   padding: 6px 3px 6px 3px;
 }
+/* ^^^^^^^^^^^^^^^^^^^^ */
 
 .imac-monitor {
   display: flex;
@@ -323,13 +397,26 @@ body {
 }
 
 /* ===========================SECTION 5============================ */
-.section-5 {
+
+/* ^^^^^^^^^^^^^^^^^^^^ */
+/* POPRAWIONO Z: */
+/* .section-5 {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9f9;
+  color: #333333;
+  max-width: 100%;
+} */
+
+/* NA: */
+.pricing-plan-section {
   display: flex;
   flex-direction: column;
   background-color: #f8f9f9;
   color: #333333;
   max-width: 100%;
 }
+/* ^^^^^^^^^^^^^^^^^^^^ */
 
 .prices-header {
   display: flex;
@@ -410,12 +497,15 @@ body {
 
 .price-offer__benefits {
   font-size: 14px;
-  font-weight: 600;
   text-align: center;
   display: block;
   width: 100%;
   margin: 31px 0 0 0;
   line-height: 18px;
+}
+
+.price-offer__benefits-li {
+  font-weight: 600;
 }
 
 .price-offer__button {
@@ -447,16 +537,37 @@ body {
 }
 
 /* ===========================SECTION 6============================ */
-.section-6__background {
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* POPRAWIONO Z: */
+/* .section-6__background {
+  margin: 3px 0 0 0;
+} */
+
+/* NA: */
+.team-section__background {
   margin: 3px 0 0 0;
 }
-.section-6 {
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* POPRAWIONO Z: */
+/* .section-6 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: #333333;
+} */
+
+/* NA: */
+.team-section {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   color: #333333;
 }
 
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 .team-header {
   display: flex;
   align-items: center;
