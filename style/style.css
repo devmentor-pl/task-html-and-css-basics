@@ -7,7 +7,6 @@ html, body {
 
 .container {
     max-width: 1150px;
-    /* 1150 */
     margin: 0 auto
 }
 
@@ -32,6 +31,7 @@ html, body {
 
 /* END OF COMMON */
 
+
 /* START OF HEADER SECTION */
 
 .header {
@@ -43,11 +43,12 @@ html, body {
     display: flex;
     justify-content: space-between;
     padding: 30px 0
-        /* background-color: rgb(65, 54, 170); */
 }
 
 .header__logo {
     /* position: relative; */
+    display: flex;
+    align-items: center;
 }
 
 .header__img {
@@ -56,8 +57,10 @@ html, body {
     top:0;
     left:0; */
     height: 30px;
-    margin-top: 15px;
+
 }
+
+/* początkowo chciałam wycentrować img w header__logo za pomocą position relative i absolute i właściwości trasform:translate. (wiem, że łatwiej flexem ;) ale nie rozumiem, dlaczego po ustawieniach position w tych elementach obrazek znika...zakomentowałam te właściwości przy których tak się dzieje. */
 
 .header__nav {
     flex-basis: 50%;
@@ -69,12 +72,12 @@ html, body {
 }
 
 .header__item {
-    padding: 20px 10px
+    padding: 20px 10px;
 }
 
 .header__link {
     text-decoration: none;
-    color: white
+    color: white;
 }
 
 .header__intro {
@@ -121,6 +124,7 @@ html, body {
 
 /* END OF HEADER SECTION */
 
+
 /* START OF FEATURES */
 
 .features {
@@ -151,8 +155,8 @@ html, body {
     flex-direction: column;
     align-items: center;
     flex-basis: 280px;
-    padding: 0 30px;
     height: 220px;
+    padding: 0 30px;
 }
 
 .feature__img-container {
@@ -178,16 +182,18 @@ html, body {
 
 /* END OF FEATURES */
 
+
 /* START OF LOGOS */
 
 .logos {
     display: flex;
     align-items: center;
-    height: 70px;
+    height: 80px;
     background-color: #F9FAFA;
 }
 
 /* END OF LOGOS */
+
 
 /* START OF DESCRIPTION */
 
@@ -200,9 +206,9 @@ html, body {
 
 .description__photo {
     display: flex;
-    flex-basis: 50%;
     justify-content: end;
     align-items: center;
+    flex-basis: 50%;
 }
 
 .description__img {
@@ -246,7 +252,6 @@ html, body {
 .prices__offers {
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .prices__offer {
@@ -266,7 +271,8 @@ html, body {
 }
 
 .offer--middle {
-    box-shadow: 0 0 40px 3px #cccccc
+    box-shadow: 0 0 40px 3px #cccccc;
+    border-radius: 7px;
 }
 
 .offer__heading {
@@ -287,21 +293,74 @@ html, body {
 
 .offer__detail {
     line-height: 1.5rem;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .offer__button {
     background-color: #0ABCEB;
 }
 
+.offer__button:hover {
+    background-color: #69ddfd;
+}
+
 /* END OF PRICES */
 
 /* START OF TEAM */
 
+.team {
+    height: 700px;
+    background-color: white;
+    color: #333333
+}
 
+.team__header {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.team__people {
+    display: flex;
+    justify-content: center;
+}
+
+.team__person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+}
+
+.person__job {
+    padding: 30px 0 10px 0;
+    font-size: 1.4em;
+}
+
+.person__name {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.person__media {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px
+}
 
 /* END OF TEAM */
 
 
 /* START OF FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 70px;
+    background-color: #333333;
+    color: white;
+    font-size: 0.9rem
+}
+
 /* END OF FOOTER */
