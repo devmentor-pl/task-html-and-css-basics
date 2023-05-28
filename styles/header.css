@@ -19,7 +19,7 @@
 .nav {
     display: flex;
     justify-content: space-between;
-        padding: 6px 20px;
+    padding: 6px 20px;
 }
 
 .nav__item {
