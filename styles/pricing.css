@@ -6,7 +6,7 @@
 
 .pricing__header {
     font-size: 30px;
-    padding-top: 40px;
+    padding-top: 70px;
     text-transform: uppercase;
 }
 
@@ -19,7 +19,7 @@
 .pricing__container--content {
     display: flex;
     justify-content: center;
-    padding: 70px 40px 40px 40px;
+    padding: 70px 40px;
 }
 
 .pricing__container--content .cell {

@@ -4,8 +4,10 @@
 }
 
 .header__container {
+    align-items: center;
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .header__logo {

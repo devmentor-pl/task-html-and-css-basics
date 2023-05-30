@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/pricing.css">
     <link rel="stylesheet" href="./styles/team.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
@@ -25,9 +26,9 @@
             <h1 class="header__logo cell"><img class="logo" src="./images/logo.svg" alt="logo Nova"></h1>
             <nav class="header__nav cell">
                 <ul class="nav">
-                    <li class="nav__item"><a class="nav__item" href="#">The Team</a></li>
-                    <li class="nav__item"><a class="nav__item" href="#">Pricing</a></li>
-                    <li class="nav__item"><a class="nav__item" href="#">Features</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#team">The Team</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#pricing">Pricing</a></li>
+                    <li class="nav__item"><a class="nav__item" href="#features">Features</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,7 +44,7 @@
         </section>
     </header>
     <main>
-        <section class="features row">
+        <section id="features" class="features row">
             <div class="features__container--heading container">
                 <h2 class="features__title">Features</h2>
             </div>
@@ -92,7 +93,7 @@
                     and commercial. Have fun and good luck!</p>
             </div>
         </section>
-        <section class="pricing row">
+        <section id="pricing" class="pricing row">
             <div class="pricing__container--header container">
                 <h2 class="pricing__header">Choose your pricing plan</h2>
                 <h3 class="pricing__subtext">Pick any of our super affordable pricing plans</h3>
@@ -133,7 +134,7 @@
                 </ul>
             </div>
         </section>
-        <section class="team row">
+        <section id="team" class="team row">
             <div class="team__container--header container">
                 <h2 class="team__title">The team</h2>
             </div>
@@ -172,10 +173,8 @@
         </section>
     </main>
     <footer class="footer row">
-        <div class="footer__container container">
-            <section class="footer__copyrights cell"></section>
-            <section class="footer__logo cell"></section>
-        </div>
+        <p class="footer__copyrights">A free template by</p>
+        <img class="footer__logo" src="./images/webscope.svg" alt="webscope logo">
     </footer>
 </body>
 

@@ -1,23 +1,13 @@
 .row, .cell, .container {
-    margin: 5px;
-    padding: 5px;
-    outline: 3px solid;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
 
 .row {
-    outline-color: green;
     width: 100%;
     }
 
 .container {
     margin: 0 auto;
     max-width: 1150px;
-    outline-color: blue;
 }
-
-.cell {
-    outline-color: orange;
-}
-

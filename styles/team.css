@@ -1,20 +1,22 @@
 .team {
+    color: #333;
     text-align: center;
 }
 
 .team__container--content {
     display: flex;
     justify-content: center;
+    padding: 10px 40px 40px;
 }
 
 .team__title {
     font-size: 30px;
-    padding: 40px 0;
+    padding: 70px 0 40px;
     text-transform: uppercase;
 }
 
 .team__person--list {
-    height: 420px;
+    height: 380px;
     width: 28%;
 }
 
