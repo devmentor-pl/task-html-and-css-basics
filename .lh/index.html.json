@@ -1,0 +1,250 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 58,
+            "patches": [
+                {
+                    "date": 1686413068844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686413083988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-    <title>Document</title>\n+    <title>Nova</title>\n </head>\n <body>\n     \n </body>\n"
+                },
+                {
+                    "date": 1686413089495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,8 +4,9 @@\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Nova</title>\n+    <link rel=\"stylesheet\" href=\"./\">\n </head>\n <body>\n     \n </body>\n"
+                },
+                {
+                    "date": 1686413095382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Nova</title>\n-    <link rel=\"stylesheet\" href=\"./\">\n+    <link rel=\"stylesheet\" href=\"./styles/reset.css\">\n+    \n </head>\n <body>\n     \n </body>\n"
+                },
+                {
+                    "date": 1686413101403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\">\n-    \n+    <link rel=\"stylesheet\" href=\"./\">\n </head>\n <body>\n     \n </body>\n"
+                },
+                {
+                    "date": 1686413108050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\">\n+    <link rel=\"stylesheet\" href=\"./styles/base.css\">\n     <link rel=\"stylesheet\" href=\"./\">\n </head>\n <body>\n     \n"
+                },
+                {
+                    "date": 1686413142349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,10 +6,12 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\">\n     <link rel=\"stylesheet\" href=\"./styles/base.css\">\n-    <link rel=\"stylesheet\" href=\"./\">\n+    <link rel=\"stylesheet\" href=\"./styles/\">\n </head>\n <body>\n+   <header>\n     \n+   </header> \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686413173873,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,18 @@\n     <link rel=\"stylesheet\" href=\"./styles/\">\n </head>\n <body>\n    <header>\n-    \n+    <div class=\"header__container container row\">\n+        <h2 class=\"header__logo\">form.</h2>\n+        <nav class=\"nav header__nav\">\n+          <ul class=\"nav__links row\">\n+            <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n+            <li class=\"nav__link\"><a href=\"#portfolio\">work</a></li>\n+            <li class=\"nav__link\"><a href=\"#about\">about</a></li>\n+            <li class=\"nav__link\"><a href=\"#contact\">contact</a></li>\n+          </ul>\n+        </nav>\n+      </div>\n    </header> \n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686413184046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,19 @@\n <!DOCTYPE html>\n <html lang=\"en\">\n-<head>\n-    <meta charset=\"UTF-8\">\n-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Nova</title>\n-    <link rel=\"stylesheet\" href=\"./styles/reset.css\">\n-    <link rel=\"stylesheet\" href=\"./styles/base.css\">\n-    <link rel=\"stylesheet\" href=\"./styles/\">\n-</head>\n-<body>\n-   <header>\n-    <div class=\"header__container container row\">\n+    <link rel=\"stylesheet\" href=\"./styles/reset.css\" />\n+    <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n+    <link rel=\"stylesheet\" href=\"./styles/\" />\n+  </head>\n+  <body>\n+    <header>\n+      <div class=\"header__container container row\">\n+        \n         <h2 class=\"header__logo\">form.</h2>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n@@ -21,7 +22,7 @@\n             <li class=\"nav__link\"><a href=\"#contact\">contact</a></li>\n           </ul>\n         </nav>\n       </div>\n-   </header> \n-</body>\n-</html>\n\\ No newline at end of file\n+    </header>\n+  </body>\n+</html>\n"
+                },
+                {
+                    "date": 1686413190915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,12 @@\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n-        \n-        <h2 class=\"header__logo\">form.</h2>\n+        <div>\n+\n+            <h2 class=\"header__logo\">form.</h2>\n+        </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n             <li class=\"nav__link\"><a href=\"#portfolio\">work</a></li>\n"
+                },
+                {
+                    "date": 1686413196741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n-        <div>\n+        <div class=\"logo\">\n \n             <h2 class=\"header__logo\">form.</h2>\n         </div>\n         <nav class=\"nav header__nav\">\n"
+                },
+                {
+                    "date": 1686413203751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n-        <div class=\"logo\">\n+        <div class=\"logo logo__container\">\n \n             <h2 class=\"header__logo\">form.</h2>\n         </div>\n         <nav class=\"nav header__nav\">\n"
+                },
+                {
+                    "date": 1686413212277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,8 @@\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo logo__container\">\n-\n             <h2 class=\"header__logo\">form.</h2>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n"
+                },
+                {
+                    "date": 1686413221167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo logo__container\">\n-            <h2 class=\"header__logo\">form.</h2>\n+            <img class=\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n"
+                },
+                {
+                    "date": 1686413227134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo logo__container\">\n-            <img class=\"/>\n+            <img class=\"logo__image\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n"
+                },
+                {
+                    "date": 1686413238012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo logo__container\">\n-            <img class=\"logo__image\"/>\n+            <img class=\"logo__image\" alt=\"vo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n"
+                },
+                {
+                    "date": 1686413264450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo logo__container\">\n-            <img class=\"logo__image\" alt=\"vo\"/>\n+            <img class=\"logo__image\" src=\"\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n"
+                },
+                {
+                    "date": 1686413272025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo logo__container\">\n-            <img class=\"logo__image\" src=\"\" alt=\"nova logo\"/>\n+            <img class=\"logo__image\" src=\"./\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n"
+                },
+                {
+                    "date": 1686413279372,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo logo__container\">\n-            <img class=\"logo__image\" src=\"./\" alt=\"nova logo\"/>\n+            <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n"
+                },
+                {
+                    "date": 1686413306880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n-        <div class=\"logo logo__container\">\n+        <div class=\"logo header__logo\">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n"
+                },
+                {
+                    "date": 1686413315832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n-        <div class=\"logo header__logo\">\n+        <div class=\"logo header__logo__container\">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n"
+                },
+                {
+                    "date": 1686413321887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n-        <div class=\"logo header__logo__container\">\n+        <div class=\"logo \">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n"
+                },
+                {
+                    "date": 1686413343000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n-        <div class=\"logo \">\n+        <div class=\"logo header__log\">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n"
+                },
+                {
+                    "date": 1686483828572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n-            <li class=\"nav__link\"><a href=\"#home\">home</a></li>\n+            <li class=\"nav__link\"><a href=\"#team\">home</a></li>\n             <li class=\"nav__link\"><a href=\"#portfolio\">work</a></li>\n             <li class=\"nav__link\"><a href=\"#about\">about</a></li>\n             <li class=\"nav__link\"><a href=\"#contact\">contact</a></li>\n           </ul>\n"
+                },
+                {
+                    "date": 1686483840562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,10 +16,10 @@\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\"/>\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n-            <li class=\"nav__link\"><a href=\"#team\">home</a></li>\n-            <li class=\"nav__link\"><a href=\"#portfolio\">work</a></li>\n+            <li class=\"nav__link\"><a href=\"#team\">the team</a></li>\n+            <li class=\"nav__link\"><a href=\"#pricing\">work</a></li>\n             <li class=\"nav__link\"><a href=\"#about\">about</a></li>\n             <li class=\"nav__link\"><a href=\"#contact\">contact</a></li>\n           </ul>\n         </nav>\n"
+                },
+                {
+                    "date": 1686483849228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#team\">the team</a></li>\n-            <li class=\"nav__link\"><a href=\"#pricing\">work</a></li>\n+            <li class=\"nav__link\"><a href=\"#pricing\">pricing</a></li>\n             <li class=\"nav__link\"><a href=\"#about\">about</a></li>\n             <li class=\"nav__link\"><a href=\"#contact\">contact</a></li>\n           </ul>\n         </nav>\n"
+                },
+                {
+                    "date": 1686483855374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#team\">the team</a></li>\n             <li class=\"nav__link\"><a href=\"#pricing\">pricing</a></li>\n-            <li class=\"nav__link\"><a href=\"#about\">about</a></li>\n+            <li class=\"nav__link\"><a href=\"#features\">about</a></li>\n             <li class=\"nav__link\"><a href=\"#contact\">contact</a></li>\n           </ul>\n         </nav>\n       </div>\n"
+                },
+                {
+                    "date": 1686483863688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,10 @@\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#team\">the team</a></li>\n             <li class=\"nav__link\"><a href=\"#pricing\">pricing</a></li>\n-            <li class=\"nav__link\"><a href=\"#features\">about</a></li>\n-            <li class=\"nav__link\"><a href=\"#contact\">contact</a></li>\n+            <li class=\"nav__link\"><a href=\"#features\">features</a></li>\n+            <li class=\"nav__link\"><a href=\"#\">contact</a></li>\n           </ul>\n         </nav>\n       </div>\n     </header>\n"
+                },
+                {
+                    "date": 1686483884609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,8 @@\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#team\">the team</a></li>\n             <li class=\"nav__link\"><a href=\"#pricing\">pricing</a></li>\n             <li class=\"nav__link\"><a href=\"#features\">features</a></li>\n-            <li class=\"nav__link\"><a href=\"#\">contact</a></li>\n           </ul>\n         </nav>\n       </div>\n     </header>\n"
+                },
+                {
+                    "date": 1686483891132,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,10 +11,10 @@\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n-        <div class=\"logo header__log\">\n-            <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\"/>\n+        <div class=\"logo header__logo\">\n+          <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n         </div>\n         <nav class=\"nav header__nav\">\n           <ul class=\"nav__links row\">\n             <li class=\"nav__link\"><a href=\"#team\">the team</a></li>\n"
+                },
+                {
+                    "date": 1686485338570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n-    <link rel=\"stylesheet\" href=\"./styles/\" />\n+    <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n   </head>\n   <body>\n     <header>\n       <div class=\"header__container container row\">\n"
+                },
+                {
+                    "date": 1686485866703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,8 +9,9 @@\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n   </head>\n   <body>\n+    \n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo header__logo\">\n           <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n"
+                },
+                {
+                    "date": 1686485872296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n   </head>\n   <body>\n-    \n+    <div></div>\n     <header>\n       <div class=\"header__container container row\">\n         <div class=\"logo header__logo\">\n           <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n"
+                },
+                {
+                    "date": 1686485877698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,21 +9,23 @@\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n   </head>\n   <body>\n-    <div></div>\n-    <header>\n-      <div class=\"header__container container row\">\n-        <div class=\"logo header__logo\">\n-          <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n+    <div>\n+\n+      <header>\n+        <div class=\"header__container container row\">\n+          <div class=\"logo header__logo\">\n+            <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n+          </div>\n+          <nav class=\"nav header__nav\">\n+            <ul class=\"nav__links row\">\n+              <li class=\"nav__link\"><a href=\"#team\">the team</a></li>\n+              <li class=\"nav__link\"><a href=\"#pricing\">pricing</a></li>\n+              <li class=\"nav__link\"><a href=\"#features\">features</a></li>\n+            </ul>\n+          </nav>\n         </div>\n-        <nav class=\"nav header__nav\">\n-          <ul class=\"nav__links row\">\n-            <li class=\"nav__link\"><a href=\"#team\">the team</a></li>\n-            <li class=\"nav__link\"><a href=\"#pricing\">pricing</a></li>\n-            <li class=\"nav__link\"><a href=\"#features\">features</a></li>\n-          </ul>\n-        </nav>\n-      </div>\n-    </header>\n+      </header>\n+    </div>\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1686485885993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n   </head>\n   <body>\n-    <div>\n+    <div class=\"\">\n \n       <header>\n         <div class=\"header__container container row\">\n           <div class=\"logo header__logo\">\n"
+                },
+                {
+                    "date": 1686485892148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n   </head>\n   <body>\n-    <div class=\"\">\n+    <div class=\"hero--background\">\n \n       <header>\n         <div class=\"header__container container row\">\n           <div class=\"logo header__logo\">\n"
+                },
+                {
+                    "date": 1686485953225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,12 +7,12 @@\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n+    \n   </head>\n   <body>\n     <div class=\"hero--background\">\n-\n       <header>\n         <div class=\"header__container container row\">\n           <div class=\"logo header__logo\">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n"
+                },
+                {
+                    "date": 1686485960239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n-    \n+    <link rel=\"stylesheet\" href=\"style.css\">\n   </head>\n   <body>\n     <div class=\"hero--background\">\n       <header>\n"
+                },
+                {
+                    "date": 1686485967730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n-    <link rel=\"stylesheet\" href=\"style.css\">\n+    <link rel=\"stylesheet\" href=\"./\">\n   </head>\n   <body>\n     <div class=\"hero--background\">\n       <header>\n"
+                },
+                {
+                    "date": 1686485974340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n-    <link rel=\"stylesheet\" href=\"./\">\n+    <link rel=\"stylesheet\" href=\"./styles/hero.css\">\n   </head>\n   <body>\n     <div class=\"hero--background\">\n       <header>\n"
+                },
+                {
+                    "date": 1686486009918,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,7 +25,37 @@\n             </ul>\n           </nav>\n         </div>\n       </header>\n+\n+      <section class=\"hero section\">\n+        <div class=\"hero__container container row\">\n+          <div class=\"hero__info\">\n+            <h1>form.</h1>\n+            <h3>design and build websites</h3>\n+            <p class=\"hero__content-info\">\n+              Highly skilled at progressive enhancement, <br />\n+              design systems & Ul Engineering.\n+            </p>\n+          </div>\n+          <ul class=\"hero__imgs row\">\n+            <li class=\"imgs__photo\">\n+              <img src=\"./assests/images/forkman.jpeg\" alt=\"man with a fork\" />\n+            </li>\n+            <li class=\"imgs__photo\">\n+              <img src=\"./assests/images/scalesmen.jpeg\" alt=\"men on a scale\" />\n+            </li>\n+            <li class=\"imgs__photo\">\n+              <img\n+                src=\"./assests/images/umbrella-man-1.jpeg\"\n+                alt=\"man with an umrella\"\n+              />\n+            </li>\n+            <li class=\"imgs__photo\">\n+              <img src=\"./assests/images/poleman.jpeg\" alt=\"man on a pole\" />\n+            </li>\n+          </ul>\n+        </div>\n+      </section>\n     </div>\n   </body>\n </html>\n"
+                },
+                {
+                    "date": 1686486038699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,25 +36,9 @@\n               Highly skilled at progressive enhancement, <br />\n               design systems & Ul Engineering.\n             </p>\n           </div>\n-          <ul class=\"hero__imgs row\">\n-            <li class=\"imgs__photo\">\n-              <img src=\"./assests/images/forkman.jpeg\" alt=\"man with a fork\" />\n-            </li>\n-            <li class=\"imgs__photo\">\n-              <img src=\"./assests/images/scalesmen.jpeg\" alt=\"men on a scale\" />\n-            </li>\n-            <li class=\"imgs__photo\">\n-              <img\n-                src=\"./assests/images/umbrella-man-1.jpeg\"\n-                alt=\"man with an umrella\"\n-              />\n-            </li>\n-            <li class=\"imgs__photo\">\n-              <img src=\"./assests/images/poleman.jpeg\" alt=\"man on a pole\" />\n-            </li>\n-          </ul>\n+          d\n         </div>\n       </section>\n     </div>\n   </body>\n"
+                },
+                {
+                    "date": 1686486044089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,11 @@\n               Highly skilled at progressive enhancement, <br />\n               design systems & Ul Engineering.\n             </p>\n           </div>\n-          d\n+          <div>\n+            <img src=\"./\" alt=\"\">\n+          </div>\n         </div>\n       </section>\n     </div>\n   </body>\n"
+                },
+                {
+                    "date": 1686486051164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n               design systems & Ul Engineering.\n             </p>\n           </div>\n           <div>\n-            <img src=\"./\" alt=\"\">\n+            <img src=\"./images/screen.png\" alt=\"\">\n           </div>\n         </div>\n       </section>\n     </div>\n"
+                },
+                {
+                    "date": 1686486093086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n               design systems & Ul Engineering.\n             </p>\n           </div>\n           <div>\n-            <img src=\"./images/screen.png\" alt=\"\">\n+            <img src=\"./images/screen.png\" alt=\"website \">\n           </div>\n         </div>\n       </section>\n     </div>\n"
+                },
+                {
+                    "date": 1686486155737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/hero.css\">\n   </head>\n   <body>\n-    <div class=\"hero--background\">\n+    <div class=\"hero--background container\">\n       <header>\n-        <div class=\"header__container container row\">\n+        <div class=\"header__container  row\">\n           <div class=\"logo header__logo\">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n           </div>\n           <nav class=\"nav header__nav\">\n"
+                },
+                {
+                    "date": 1686486165395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/hero.css\">\n   </head>\n   <body>\n-    <div class=\"hero--background container\">\n+    <div class=\"hero--background section\">\n       <header>\n-        <div class=\"header__container  row\">\n+        <div class=\"header__container container row\">\n           <div class=\"logo header__logo\">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n           </div>\n           <nav class=\"nav header__nav\">\n@@ -37,9 +37,9 @@\n               design systems & Ul Engineering.\n             </p>\n           </div>\n           <div>\n-            <img src=\"./images/screen.png\" alt=\"website \">\n+            <img src=\"./images/screen.png\" alt=\"website advert\">\n           </div>\n         </div>\n       </section>\n     </div>\n"
+                },
+                {
+                    "date": 1686486172571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n           </nav>\n         </div>\n       </header>\n \n-      <section class=\"hero section\">\n+      <section class=\"hero\">\n         <div class=\"hero__container container row\">\n           <div class=\"hero__info\">\n             <h1>form.</h1>\n             <h3>design and build websites</h3>\n"
+                },
+                {
+                    "date": 1686486194855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/hero.css\">\n   </head>\n   <body>\n-    <div class=\"hero--background section\">\n+    <div class=\"hero--background\">\n       <header>\n         <div class=\"header__container container row\">\n           <div class=\"logo header__logo\">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n"
+                },
+                {
+                    "date": 1686486204670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <link rel=\"stylesheet\" href=\"./styles/hero.css\">\n   </head>\n   <body>\n     <div class=\"hero--background\">\n-      <header>\n+      <header class=\"section\">\n         <div class=\"header__container container row\">\n           <div class=\"logo header__logo\">\n             <img class=\"logo__image\" src=\"./images/logo.svg\" alt=\"nova logo\" />\n           </div>\n@@ -26,9 +26,9 @@\n           </nav>\n         </div>\n       </header>\n \n-      <section class=\"hero\">\n+      <section class=\"hero section\">\n         <div class=\"hero__container container row\">\n           <div class=\"hero__info\">\n             <h1>form.</h1>\n             <h3>design and build websites</h3>\n"
+                },
+                {
+                    "date": 1686486284060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,9 +26,9 @@\n           </nav>\n         </div>\n       </header>\n \n-      <section class=\"hero section\">\n+      <section class=\"section\">\n         <div class=\"hero__container container row\">\n           <div class=\"hero__info\">\n             <h1>form.</h1>\n             <h3>design and build websites</h3>\n"
+                },
+                {
+                    "date": 1686486296040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n         </div>\n       </header>\n \n       <section class=\"section\">\n-        <div class=\"hero__container container row\">\n+        <div class=\" hero hero__container container row\">\n           <div class=\"hero__info\">\n             <h1>form.</h1>\n             <h3>design and build websites</h3>\n             <p class=\"hero__content-info\">\n"
+                },
+                {
+                    "date": 1686486305406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n     <title>Nova</title>\n     <link rel=\"stylesheet\" href=\"./styles/reset.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/base.css\" />\n     <link rel=\"stylesheet\" href=\"./styles/header.css\" />\n-    <link rel=\"stylesheet\" href=\"./styles/hero.css\">\n+    <link rel=\"stylesheet\" href=\"./styles/hero.css\" />\n   </head>\n   <body>\n     <div class=\"hero--background\">\n       <header class=\"section\">\n@@ -27,9 +27,9 @@\n         </div>\n       </header>\n \n       <section class=\"section\">\n-        <div class=\" hero hero__container container row\">\n+        <div class=\"hero hero__container container row\">\n           <div class=\"hero__info\">\n             <h1>form.</h1>\n             <h3>design and build websites</h3>\n             <p class=\"hero__content-info\">\n@@ -37,9 +37,9 @@\n               design systems & Ul Engineering.\n             </p>\n           </div>\n           <div>\n-            <img src=\"./images/screen.png\" alt=\"website advert\">\n+            <img src=\"./images/screen.png\" alt=\"website advert\" />\n           </div>\n         </div>\n       </section>\n     </div>\n"
+                },
+                {
+                    "date": 1686486367985,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n \n       <section class=\"section\">\n         <div class=\"hero hero__container container row\">\n           <div class=\"hero__info\">\n-            <h1>form.</h1>\n+            <h1 class=\"he\">form.</h1>\n             <h3>design and build websites</h3>\n             <p class=\"hero__content-info\">\n               Highly skilled at progressive enhancement, <br />\n               design systems & Ul Engineering.\n"
+                },
+                {
+                    "date": 1686486374877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n \n       <section class=\"section\">\n         <div class=\"hero hero__container container row\">\n           <div class=\"hero__info\">\n-            <h1 class=\"he\">form.</h1>\n+            <h1 class=\"hero__info__title\">form.</h1>\n             <h3>design and build websites</h3>\n             <p class=\"hero__content-info\">\n               Highly skilled at progressive enhancement, <br />\n               design systems & Ul Engineering.\n"
+                },
+                {
+                    "date": 1686486381836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n       <section class=\"section\">\n         <div class=\"hero hero__container container row\">\n           <div class=\"hero__info\">\n             <h1 class=\"hero__info__title\">form.</h1>\n-            <h3>design and build websites</h3>\n+            <h3 >design and build websites</h3>\n             <p class=\"hero__content-info\">\n               Highly skilled at progressive enhancement, <br />\n               design systems & Ul Engineering.\n             </p>\n"
+                },
+                {
+                    "date": 1686486387130,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n       <section class=\"section\">\n         <div class=\"hero hero__container container row\">\n           <div class=\"hero__info\">\n             <h1 class=\"hero__info__title\">form.</h1>\n-            <h3 >design and build websites</h3>\n+            <h3 class=\"hero__info__title>design and build websites</h3>\n             <p class=\"hero__content-info\">\n               Highly skilled at progressive enhancement, <br />\n               design systems & Ul Engineering.\n             </p>\n"
+                },
+                {
+                    "date": 1686486433510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n       <section class=\"section\">\n         <div class=\"hero hero__container container row\">\n           <div class=\"hero__info\">\n             <h1 class=\"hero__info__title\">form.</h1>\n-            <h3 class=\"hero__info__title\">design and build websites</h3>\n+            <h3 class=\"hero__info__running-text\">design and build websites</h3>\n             <p class=\"hero__content-info\">\n               Highly skilled at progressive enhancement, <br />\n               design systems & Ul Engineering.\n             </p>\n"
+                },
+                {
+                    "date": 1686486488620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n \n       <section class=\"section\">\n         <div class=\"hero hero__container container row\">\n           <div class=\"hero__info\">\n-            <h1 class=\"hero__info__title\">form.</h1>\n+            <h1 class=\"hero__info__title\">Beautiful Free Nova template</h1>\n             <h4 class=\"hero__info__running-text\">A top notch premium quality template for your next web project.</h4>\n           </div>\n           <div>\n             <img src=\"./images/screen.png\" alt=\"website advert\" />\n"
+                }
+            ],
+            "date": 1686413068844,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n    \n</body>\n</html>"
+        }
+    ]
+}

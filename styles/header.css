@@ -1,0 +1,18 @@
+.header__container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 100px;
+}
+
+.nav__link {
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 0.875rem;
+}
+
+.nav__link:hover {
+    color: var(--clr-accent-1)
+}
