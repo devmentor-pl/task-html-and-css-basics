@@ -62,3 +62,41 @@ header {
   background-color: #77e077;
   margin-top: 30px;
 }
+.features {
+  background-color: #000000;
+  color: #ffffff;
+}
+.features__container {
+  margin: 0 auto;
+}
+.features__cards {
+  display: flex;
+  padding-bottom: 100px;
+}
+.features__card {
+  flex-basis: 33.333%;
+  padding: 30px;
+  text-align: center;
+}
+.features__card-img {
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.features__heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-block: 50px;
+}
+.features__card-heading {
+  text-transform: uppercase;
+  padding-block: 20px;
+}
+.features__card-description {
+  line-height: 2;
+  padding: 10px;
+}
