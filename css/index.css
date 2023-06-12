@@ -72,10 +72,11 @@ header {
 .features__cards {
   display: flex;
   padding-bottom: 100px;
+  justify-content: center;
 }
 .features__card {
-  flex-basis: 33.333%;
-  padding: 30px;
+  flex-basis: 25%;
+  padding: 20px;
   text-align: center;
 }
 .features__card-img {
@@ -99,4 +100,11 @@ header {
 .features__card-description {
   line-height: 2;
   padding: 10px;
+}
+.partners {
+  background-color: #faf8f8;
+  text-align: center;
+  padding-block: 40px;
+}
+.partners__img {
 }
