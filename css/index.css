@@ -106,5 +106,20 @@ header {
   text-align: center;
   padding-block: 40px;
 }
-.partners__img {
+.advantages__container {
+  display: flex;
+  margin: 0 auto;
+}
+.advantages__image-container,
+.advantages__text-container {
+  flex-basis: 50%;
+  padding: 30px;
+}
+.advantages__heading {
+  font-size: 26px;
+  text-transform: uppercase;
+  padding-block: 20px;
+}
+.advantages__text {
+  line-height: 2;
 }
