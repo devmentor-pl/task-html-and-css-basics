@@ -15,11 +15,14 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: var(--clr-primary-1);
+  line-height: 1.4;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   margin-top: 20px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -31,9 +34,41 @@ h1 {
   padding-top: 75px;
 }
 
+h2 {
+  font-size: 1.875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 h4 {
   font-size: 1.125rem;
   font-weight: 300;
+}
+
+h5 {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+button {
+  border-radius: var(--btn-radius);
+  padding: 15px;
+  background-color: var(--clr-accent-1);
+  color: var(--clr-primary-1);
+  width: 165px;
+  height: 50px;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  border-radius: var(--btn-radius-hover);
+  box-shadow: var(--box-shadow);
+  text-decoration: underline;
 }
 
 .section {

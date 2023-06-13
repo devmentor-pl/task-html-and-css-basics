@@ -1,0 +1,90 @@
+{
+    "sourceFile": "styles/section-white.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1686582848644,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686582856050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-.section\n\\ No newline at end of file\n+.section-white {\n+    color: var()\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686582867340,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .section-white {\n-    color: var()\n+    color: var(--clr-primary-2)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686582881615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-.section-white {\n+.section-white__text {\n     color: var(--clr-primary-2)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686582896692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-.section-white__text {\n+.section-white__text > * {\n     color: var(--clr-primary-2)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686582928621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-.section-white__text > * {\n+.section-white {\n     color: var(--clr-primary-2)\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686582962365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n .section-white {\n-    color: var(--clr-primary-2)\n-}\n\\ No newline at end of file\n+  color: var(--clr-primary-2);\n+}\n+\n+.section-white__container\n"
+                },
+                {
+                    "date": 1686582996129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,11 @@\n .section-white {\n   color: var(--clr-primary-2);\n }\n \n-.section-white__container\n+.section-white__container > * {\n+  flex: 1;\n+}\n+\n+.section-white__text {\n+    padding: ;\n+}\n"
+                },
+                {
+                    "date": 1686583003419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n   flex: 1;\n }\n \n .section-white__text {\n-    padding: ;\n+    padding: 80px 100px;\n }\n"
+                },
+                {
+                    "date": 1686583078667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,4 +8,6 @@\n \n .section-white__text {\n     padding: 80px 100px;\n }\n+\n+\n"
+                },
+                {
+                    "date": 1686583086219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n .section-white__container > * {\n   flex: 1;\n }\n \n+.section-white\n+\n .section-white__text {\n     padding: 80px 100px;\n }\n-\n-\n"
+                },
+                {
+                    "date": 1686583099056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,12 @@\n .section-white__container > * {\n   flex: 1;\n }\n \n-.section-white\n+.section-white__img-container {\n+    padding-top: 60px;\n+    padding-bottom: 40px;\n+}\n \n .section-white__text {\n     padding: 80px 100px;\n }\n"
+                },
+                {
+                    "date": 1686583144512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,11 +6,12 @@\n   flex: 1;\n }\n \n .section-white__img-container {\n-    padding-top: 60px;\n-    padding-bottom: 40px;\n+  padding-top: 60px;\n+  padding-bottom: 40px;\n }\n \n .section-white__text {\n-    padding: 80px 100px;\n+  padding: 80px 100px;\n }\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686583151348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,8 @@\n \n .section-white__text {\n   padding: 80px 100px;\n }\n-.\n\\ No newline at end of file\n+\n+.section-white__info {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686583156962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,6 +15,6 @@\n   padding: 80px 100px;\n }\n \n .section-white__info {\n-    \n+    line-height: 30px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686583170313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,6 +15,6 @@\n   padding: 80px 100px;\n }\n \n .section-white__info {\n-    line-height: 30px;\n+    line-height: \t1.875rem;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686583207062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,7 +14,11 @@\n .section-white__text {\n   padding: 80px 100px;\n }\n \n+.section-white__headline {\n+    margin\n+}\n\\ No newline at end of file\n+\n .section-white__info {\n-    line-height: \t1.875rem;\n-}\n+  line-height: 1.875rem;\n+}\n"
+                },
+                {
+                    "date": 1686583221847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n   padding: 80px 100px;\n }\n \n .section-white__headline {\n-    margin\n+    margin-bottom: 35px;\n }\n \n .section-white__info {\n   line-height: 1.875rem;\n\\ No newline at end of file\n-}\n+}\n"
+                },
+                {
+                    "date": 1686583244862,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,7 +18,7 @@\n .section-white__headline {\n     margin-bottom: 35px;\n }\n \n-.section-white__info {\n+.section-white__info { \n   line-height: 1.875rem;\n\\ No newline at end of file\n-}\n+}\n"
+                }
+            ],
+            "date": 1686582848644,
+            "name": "Commit-0",
+            "content": ".section"
+        }
+    ]
+}

@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="./styles/base.css" />
     <link rel="stylesheet" href="./styles/header.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/features.css" />
+    <link rel="stylesheet" href="./styles/section-white.css" />
+    <link rel="stylesheet" href="./styles/pricing.css" />
+    <script
+      src="https://kit.fontawesome.com/050cb77415.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="hero--background">
@@ -43,46 +50,114 @@
           <img src="./images/mouse.svg" alt="computer mouse icon" />
         </div>
       </section>
+    </div>
 
-      <section id="features" class="section section-features">
-        <div class="container row">
-          <h2 class="features__headline">features</h2>
-          <div class="features__container row">
-            <div class="features__feature feature">
-              <div class="feature__img">
-                <img src="./images/responsive.svg" alt="mobile phone icon" />
-              </div>
-              <h2>fully responsive</h2>
-              <p>
-                Looks amazing on any device: smartphone, tablet, laptop and
-                desktop.
-              </p>
+    <section id="features" class="section section-features features">
+      <div class="container row">
+        <h2 class="features__headline">features</h2>
+        <div class="features__container row">
+          <div class="features__feature feature">
+            <div class="feature__icon row">
+              <img src="./images/responsive.svg" alt="mobile phone icon" />
             </div>
+            <h5 class="feature__headline">fully responsive</h5>
+            <p class="feature__content">
+              Looks amazing on any device: smartphone, tablet, laptop and
+              desktop.
+            </p>
+          </div>
 
-            <div class="features__feature feature">
-              <div class="feature__img">
-                <img src="./images/customizable.svg" alt="tools icon" />
-              </div>
-              <h2>fully responsive</h2>
-              <p>
-                Looks amazing on any device: smartphone, tablet, laptop and
-                desktop.
-              </p>
+          <div class="features__feature feature">
+            <div class="feature__icon row">
+              <img src="./images/customizable.svg" alt="tools icon" />
             </div>
+            <h5 class="feature__headline">customisable</h5>
+            <p class="feature__content">
+              Change the colors, pictures or any of the sections to suit your
+              needs.
+            </p>
+          </div>
 
-            <div class="features__feature feature">
-              <div class="feature__img">
-                <img src="./images/design.svg" alt=" icon" />
-              </div>
-              <h2>fully responsive</h2>
-              <p>
-                Looks amazing on any device: smartphone, tablet, laptop and
-                desktop.
-              </p>
+          <div class="features__feature feature">
+            <div class="feature__icon row">
+              <img src="./images/design.svg" alt=" icon" />
             </div>
+            <h5 class="feature__headline">slick and beautiful design</h5>
+            <p class="feature__content">
+              Trendy and fresh design, fits any website.
+            </p>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
+    <section class="section section-logos logos">
+      <div class="container logos-container">
+        <img src="./images/logos.png" alt="companies logos" />
+      </div>
+    </section>
+
+    <section class="section section-white">
+      <div class="container section-white__container row">
+        <div class="section-white__img-container">
+          <img src="./images/imac.png" alt="imac computer" />
+        </div>
+        <div class="section-white__text">
+          <h2 class="section-white__headline">simple and beautiful</h2>
+          <p class="section-white__info">
+            Use Nova theme for your next web project. It is completely
+            customizable so you can change any of the sections to fit your
+            needs. Nova Theme is Free for any kind of use, personal and
+            commercial. Have fun and good luck!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="#pricing" class="section pricing">
+      <div class="container pricing__container">
+        <h2 class="pricing__headline">choose your pricing plan</h2>
+        <h4 class="pricing__sub-headline">
+          Pick any of our super affordable pricing plans
+        </h4>
+        <div class="pricing__plans row">
+          <div class="pricing__plans__plan plan row">
+            <h3 class="plan__headline">basic</h3>
+            <h4 class="plan__cost">&dollar;15</h4>
+            <h5 class="plan__subscription">per month</h5>
+            <ul class="plan__features">
+              <li><i class="fas fa-check"></i> Up to 7 Projects</li>
+              <li><i class="fas fa-check"></i> 2 Additional Developers</li>
+            </ul>
+            <button class="plan__btn"><a href="">Get Started</a></button>
+          </div>
+
+          <div class="pricing__plans__plan plan row">
+            <h3 class="plan__headline">basic</h3>
+            <h4 class="plan__cost">&dollar;15</h4>
+            <h5 class="plan__subscription">per month</h5>
+            <ul class="plan__features">
+              <li><i class="fas fa-check"></i> Up to 25 Projects</li>
+              <li><i class="fas fa-check"></i> 2 Additional Developers</li>
+              <li><i class="fas fa-check"></i> Unlimited Support</li>
+            </ul>
+            <button class="plan__btn"><a href="">Get Started</a></button>
+          </div>
+
+          <div class="pricing__plans__plan plan row">
+            <h3 class="plan__headline">basic</h3>
+            <h4 class="plan__cost">&dollar;15</h4>
+            <h5 class="plan__subscription">per month</h5>
+            <ul class="plan__features">
+              <li><i class="fas fa-check"></i> Up to 25 Projects</li>
+              <li><i class="fas fa-check"></i> 2 Additional Developers</li>
+              <li><i class="fas fa-check"></i> Unlimited Support</li>
+              <li><i class="fas fa-check"></i> 1.5GB Disk Space</li>
+            </ul>
+            <button class="plan__btn"><a href="">Get Started</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -1,0 +1,154 @@
+{
+    "sourceFile": "styles/features.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 34,
+            "patches": [
+                {
+                    "date": 1686578715156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686578724584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-.section-features\n\\ No newline at end of file\n+.section-features .container {\n+    flex-direction: column;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686578744887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-.section-features .container {\n+#features .container {\n     flex-direction: column;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686578766233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-#features .container {\n+#features > .container {\n     flex-direction: column;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686578821915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n-#features > .container {\n+#features .container {\n     flex-direction: column;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686578880703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n-#features .container {\n-    flex-direction: column;\n-}\n\\ No newline at end of file\n+#features > .container {\n+  flex-direction: column;\n+  text-align: center;\n+}\n"
+                },
+                {
+                    "date": 1686578909243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n+#features {\n+    background-color: ;\n+}\n+\n #features > .container {\n   flex-direction: column;\n   text-align: center;\n }\n"
+                },
+                {
+                    "date": 1686578921420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n #features {\n-    background-color: ;\n+    background-color: var(----clr-primary-2);\n }\n \n #features > .container {\n   flex-direction: column;\n"
+                },
+                {
+                    "date": 1686579095847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n #features {\n-    background-color: var(----clr-primary-2);\n+  background-color: var(--clr-primary-2);\n }\n \n #features > .container {\n   flex-direction: column;\n   text-align: center;\n }\n+\n"
+                },
+                {
+                    "date": 1686579157565,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-#features {\n+.features {\n   background-color: var(--clr-primary-2);\n }\n \n #features > .container {\n"
+                },
+                {
+                    "date": 1686579163405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n .features {\n   background-color: var(--clr-primary-2);\n }\n \n-#features > .container {\n+.features > .container {\n   flex-direction: column;\n   text-align: center;\n }\n \n"
+                },
+                {
+                    "date": 1686579501053,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,7 @@\n   flex-direction: column;\n   text-align: center;\n }\n \n+.features__headline {\n+    padding: ;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579513359,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n   text-align: center;\n }\n \n .features__headline {\n-    padding: ;\n+    padding-bottom: ;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579590707,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,7 @@\n   text-align: center;\n }\n \n .features__headline {\n-    padding-bottom: ;\n-}\n\\ No newline at end of file\n+    padding-bottom: 70px;\n+}\n+\n"
+                },
+                {
+                    "date": 1686579600240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,4 +10,5 @@\n .features__headline {\n     padding-bottom: 70px;\n }\n \n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579612126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n .features__headline {\n     padding-bottom: 70px;\n }\n \n-.\n\\ No newline at end of file\n+.feature .feature\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579620277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,7 @@\n .features__headline {\n     padding-bottom: 70px;\n }\n \n-.feature .feature\n\\ No newline at end of file\n+.feature .feature_icon {\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579631363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,6 @@\n     padding-bottom: 70px;\n }\n \n .feature .feature_icon {\n-    \n+    background-color: var();\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579649001,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,7 @@\n .features__headline {\n     padding-bottom: 70px;\n }\n \n-.feature .feature_icon {\n-    background-color: var();\n+.feature_icon {\n+    background-color: var(--clr-primary-1);\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579656801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,8 @@\n .features__headline {\n     padding-bottom: 70px;\n }\n \n-.feature_icon {\n+.feature .feature_icon {\n     background-color: var(--clr-primary-1);\n+    width: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579668473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n .features__headline {\n     padding-bottom: 70px;\n }\n \n-.feature .feature_icon {\n+.feature .feature__icon {\n     background-color: var(--clr-primary-1);\n     width: 100px;\n+    height: 100px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579700872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,6 @@\n .feature .feature__icon {\n     background-color: var(--clr-primary-1);\n     width: 100px;\n     height: 100px;\n+    display: fle;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579725062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,7 @@\n \n .feature .feature__icon {\n     background-color: var(--clr-primary-1);\n     width: 100px;\n-    height: 100px;\n-    display: fle;\n+    height: 100px;]\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579732261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,7 +13,8 @@\n \n .feature .feature__icon {\n     background-color: var(--clr-primary-1);\n     width: 100px;\n-    height: 100px;]\n-    \n+    height: 100px;\n+    align-items: center;\n+    justify-content: center;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579741365,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,5 +16,6 @@\n     width: 100px;\n     height: 100px;\n     align-items: center;\n     justify-content: center;\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579747227,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,6 @@\n     width: 100px;\n     height: 100px;\n     align-items: center;\n     justify-content: center;\n-    \n+    ma\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686579758080,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,15 +7,15 @@\n   text-align: center;\n }\n \n .features__headline {\n-    padding-bottom: 70px;\n+  padding-bottom: 70px;\n }\n \n .feature .feature__icon {\n-    background-color: var(--clr-primary-1);\n-    width: 100px;\n-    height: 100px;\n-    align-items: center;\n-    justify-content: center;\n-    ma\n\\ No newline at end of file\n-}\n+  background-color: var(--clr-primary-1);\n+  width: 60px;\n+  height: 100px;\n+  align-items: center;\n+  justify-content: center;\n+  margin: 0 auto;\n+}\n"
+                },
+                {
+                    "date": 1686579770556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n \n .feature .feature__icon {\n   background-color: var(--clr-primary-1);\n   width: 60px;\n-  height: 100px;\n+  height: 60px;\n   align-items: center;\n   justify-content: center;\n-  margin: 0 auto;\n+  margin:  auto;\n }\n"
+                },
+                {
+                    "date": 1686579779021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,6 +16,7 @@\n   width: 60px;\n   height: 60px;\n   align-items: center;\n   justify-content: center;\n-  margin:  auto;\n+  margin: 20px auto;\n+  \n }\n"
+                },
+                {
+                    "date": 1686579804459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,6 +17,10 @@\n   height: 60px;\n   align-items: center;\n   justify-content: center;\n   margin: 20px auto;\n-  \n+  border-radius: 50%;\n }\n+\n+.feature__icon img {\n+    tra\n+}\n"
+                },
+                {
+                    "date": 1686579811153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,6 +21,6 @@\n   border-radius: 50%;\n }\n \n .feature__icon img {\n-    tra\n+    transform: scale(0.7);\n }\n"
+                },
+                {
+                    "date": 1686579816655,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,6 +21,6 @@\n   border-radius: 50%;\n }\n \n .feature__icon img {\n-    transform: scale(0.7);\n+    transform: scale(0.8);\n }\n"
+                },
+                {
+                    "date": 1686579847904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,9 @@\n }\n \n .feature .feature__icon {\n   background-color: var(--clr-primary-1);\n+  box-shadow: 4px 14px 28px #393939;\n   width: 60px;\n   height: 60px;\n   align-items: center;\n   justify-content: center;\n"
+                },
+                {
+                    "date": 1686579968012,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,5 +25,5 @@\n .feature__icon img {\n   transform: scale(0.8);\n }\n \n-\n+h\n"
+                },
+                {
+                    "date": 1686580120756,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   text-align: center;\n }\n \n .features__container > * {\n-\n+    flex: 1;\n }\n \n .features__headline {\n   padding-bottom: 70px;\n"
+                }
+            ],
+            "date": 1686578715156,
+            "name": "Commit-0",
+            "content": ".section-features"
+        }
+    ]
+}
