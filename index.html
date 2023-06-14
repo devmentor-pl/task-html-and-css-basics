@@ -20,8 +20,8 @@
     ></script>
   </head>
   <body>
-    <div class="hero--background">
-      <header class="section">
+    <div class="hero hero--background">
+      <header class="section header">
         <div class="header__container container row">
           <div class="logo header__logo">
             <img class="logo__image" src="./images/logo.svg" alt="nova logo" />
@@ -37,7 +37,7 @@
       </header>
 
       <section class="section section-hero">
-        <div class="hero container row">
+        <div class="container hero__container row">
           <div class="hero__info">
             <h1 class="hero__title">Beautiful Free Nova template</h1>
             <h4 class="hero__running-text">
@@ -57,8 +57,8 @@
     <section id="features" class="section section-features features">
       <div class="container row">
         <h2 class="features__headline">features</h2>
-        <div class="features__container row">
-          <div class="features__feature feature">
+        <ul class="features__container row">
+          <li class="features__feature feature">
             <div class="feature__icon row">
               <img src="./images/responsive.svg" alt="mobile phone icon" />
             </div>
@@ -67,9 +67,9 @@
               Looks amazing on any device: smartphone, tablet, laptop and
               desktop.
             </p>
-          </div>
+          </li>
 
-          <div class="features__feature feature">
+          <li class="features__feature feature">
             <div class="feature__icon row">
               <img src="./images/customizable.svg" alt="tools icon" />
             </div>
@@ -78,26 +78,26 @@
               Change the colors, pictures or any of the sections to suit your
               needs.
             </p>
-          </div>
+          </li>
 
-          <div class="features__feature feature">
-            <div class="feature__icon row">
-              <img src="./images/design.svg" alt=" icon" />
+          <li class="features__feature feature">
+            <div class="feature__icon-container row">
+              <img class="feature__icon" src="./images/design.svg" alt=" icon" />
             </div>
             <h5 class="feature__headline">slick and beautiful design</h5>
             <p class="feature__content">
               Trendy and fresh design, fits any website.
             </p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
 
-    <section class="section section-logos logos">
+    <aside class="section section-logos logos">
       <div class="container logos-container">
         <img src="./images/logos.png" alt="companies logos" />
       </div>
-    </section>
+    </aside>
 
     <section class="section section-white">
       <div class="container section-white__container row">
@@ -122,8 +122,8 @@
         <h4 class="pricing__sub-headline">
           Pick any of our super affordable pricing plans
         </h4>
-        <div class="pricing__plans row">
-          <div class="pricing__plans__plan plan row">
+        <ul class="pricing__plans plan row">
+          <li class="plan__item row">
             <h3 class="plan__headline">basic</h3>
             <h4 class="plan__cost">&dollar;15</h4>
             <h5 class="plan__subscription">per month</h5>
@@ -132,9 +132,9 @@
               <li><i class="fas fa-check"></i> 2 Additional Developers</li>
             </ul>
             <button class="plan__btn"><a href="">Get Started</a></button>
-          </div>
+          </li>
 
-          <div class="pricing__plans__plan plan row">
+          <li class="plan__item row">
             <h3 class="plan__headline">basic</h3>
             <h4 class="plan__cost">&dollar;15</h4>
             <h5 class="plan__subscription">per month</h5>
@@ -144,9 +144,9 @@
               <li><i class="fas fa-check"></i> Unlimited Support</li>
             </ul>
             <button class="plan__btn"><a href="">Get Started</a></button>
-          </div>
+          </li>
 
-          <div class="pricing__plans__plan plan row">
+          <li class="plan__item row">
             <h3 class="plan__headline">basic</h3>
             <h4 class="plan__cost">&dollar;15</h4>
             <h5 class="plan__subscription">per month</h5>
@@ -157,16 +157,16 @@
               <li><i class="fas fa-check"></i> 1.5GB Disk Space</li>
             </ul>
             <button class="plan__btn"><a href="">Get Started</a></button>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
 
     <section id="team" class="section team">
       <div class="container team__container">
         <h2 class="team__headline">the team</h2>
-        <div class="team__members members row">
-          <div class="members__member member">
+        <ul class="team__members members row">
+          <li class="members__member member">
             <div class="member__img-container">
               <img src="./images/cto.png" alt="cto profile picture" />
             </div>
@@ -194,9 +194,9 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </li>
 
-          <div class="members__member member">
+          <li class="members__member member">
             <div class="member__img-container">
               <img src="./images/ceo.png" alt="cto profile picture" />
             </div>
@@ -224,9 +224,9 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </li>
 
-          <div class="members__member member">
+          <li class="members__member member">
             <div class="member__img-container">
               <img src="./images/cfo.png" alt="cto profile picture" />
             </div>
@@ -255,8 +255,8 @@
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
 

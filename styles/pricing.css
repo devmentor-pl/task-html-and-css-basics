@@ -16,7 +16,7 @@
   flex-basis: 290px;
 }
 
-.pricing__plans__plan {
+.plan__item {
   padding: 36px 15px 45px;
   height: 430px;
   flex-direction: column;
@@ -24,7 +24,7 @@
   justify-content: start;
 }
 
-.pricing__plans__plan:nth-child(2) {
+.plan__item:nth-child(2) {
   box-shadow: var(--box-shadow);
 }
 

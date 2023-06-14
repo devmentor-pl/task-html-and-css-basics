@@ -24,7 +24,7 @@
   padding-bottom: 70px;
 }
 
-.feature .feature__icon {
+.feature .feature__icon-container {
   background-color: var(--clr-primary-1);
   box-shadow: 4px 14px 28px #393939;
   border-radius: 50%;
@@ -35,7 +35,7 @@
   margin: 20px auto;
 }
 
-.feature__icon img {
+.feature__icon-container .feature__icon {
   transform: scale(0.8);
 }
 

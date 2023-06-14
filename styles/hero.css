@@ -3,12 +3,12 @@
   background-repeat: no-repeat;
 }
 
-.hero {
+.hero__container {
   justify-content: space-between;
   padding-bottom: 50px;
 }
 
-.hero > * {
+.hero__container > * {
   flex: 1;
 }
 
