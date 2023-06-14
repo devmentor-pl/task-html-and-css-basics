@@ -1,4 +1,4 @@
-header {
+.header {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
   color: #ffffff;
   display: flex;
@@ -177,4 +177,40 @@ header {
   color: #ffffff;
   padding: 20px 50px;
   border-radius: 3px;
+}
+.team__header {
+  padding-block: 30px;
+}
+.team__heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+}
+.team__members-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.team__member-item {
+  text-align: center;
+  padding: 20px;
+}
+.team__member-avatar {
+  padding-top: 20px;
+}
+.team__member-position {
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+.team__member-name {
+  font-weight: 700;
+  padding-top: 20px;
+}
+.team__member-text {
+  font-size: 14px;
+  padding-top: 20px;
+}
+.team__member-sm {
+  padding: 20px;
 }
