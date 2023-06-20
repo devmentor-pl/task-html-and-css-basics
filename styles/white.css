@@ -1,0 +1,21 @@
+.white {
+    padding: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.white__imac {
+    width: 45%;
+}
+.white__imac--image {
+    max-width: 100%;
+}
+.white__content {
+    width: 35%;
+    padding-top: 4rem;
+    padding-right: 3rem;
+}
+.white__text {
+    margin-top: 5rem;
+    margin-right: 10rem;
+    line-height: 2.5;
+}
