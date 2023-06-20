@@ -27,3 +27,7 @@ body {
 p {
     line-height: 1.5;
 }
+.heading {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
