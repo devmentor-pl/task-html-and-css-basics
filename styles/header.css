@@ -1,6 +1,6 @@
 .hero {
     min-height: 100vh;
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 .hero__header {
     height: 80px;

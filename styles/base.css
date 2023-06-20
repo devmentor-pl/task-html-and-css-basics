@@ -24,3 +24,6 @@ body {
 .cell {
     border: 2px solid orange;
 }
+p {
+    line-height: 1.5;
+}
