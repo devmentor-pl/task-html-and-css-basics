@@ -2,6 +2,7 @@
     padding: 6rem 0;
     display: flex;
     justify-content: space-around;
+    color: var(--text-color);
 }
 .white__imac {
     width: 45%;

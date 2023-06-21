@@ -4,6 +4,8 @@
     --logos-bck: #F9FAFA;
     --pricing-bck: #F8F9F9;
     --pricing-btn: #0ABCEB;
+    --footer-color: #464646;
+    --text-color: #5D617C;
 }
 html {
     font-size: 62.5%;
@@ -16,13 +18,11 @@ body {
 body {
     font-size: 1.6rem;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
 }
 .container {
     max-width: 1150px;
     margin: 0 auto;
-}
-.cell {
-    border: 2px solid orange;
 }
 p {
     line-height: 1.5;

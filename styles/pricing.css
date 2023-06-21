@@ -10,6 +10,7 @@
     max-width: 65%;
     display: flex;
     margin-top: 8rem;
+    margin-bottom: 4rem;
 }
 .pricing__card {
     flex: 1;

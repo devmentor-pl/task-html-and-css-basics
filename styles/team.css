@@ -1,0 +1,39 @@
+.team-members {
+   padding: 6rem 0;
+}
+.team-members__header {
+    text-align: center;
+    margin-top: 3rem;
+}
+.team-members__cards {
+    max-width: 65%;
+    display: flex;
+    padding: 10rem 0;
+}
+.team-members__card {
+    flex: 1;
+    text-align: center;
+}
+.team-members__job {
+    margin-top: 4rem;
+}
+.team-members__name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.team-members__text {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.team-members__social {
+    margin-top: 1rem;
+}
+.social__link  {
+    text-decoration: none;
+    padding: 1rem;
+   
+}
+.social__link--logo {
+    width: 1.5rem;
+    height: 1.5rem;
+}
