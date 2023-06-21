@@ -1,0 +1,51 @@
+.pricing {
+    background-color: var(--pricing-bck);
+    padding: 6rem 0;
+}
+.pricing__header {
+    text-align: center;
+    line-height: 2.5;
+}
+.pricing__cards {
+    max-width: 65%;
+    display: flex;
+    margin-top: 8rem;
+}
+.pricing__card {
+    flex: 1;
+    text-align: center;
+    padding: 4rem;
+}
+.pricing__card .heading__small {
+    margin-top: 3rem;
+}
+.pricing__price {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.pricing__month {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+.pricing__list {
+    margin-top: 3rem; 
+    min-height: 100px;
+}
+.list__item {
+    font-size: 1.3rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.pricing__card:nth-child(2) {
+    box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+    border-radius: 10px;
+}
+.pricing__button {
+    background-color: var(--pricing-btn);
+    padding: 1.5rem 4.5rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5rem;
+    color: #fff;
+}
