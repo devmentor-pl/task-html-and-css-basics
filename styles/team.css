@@ -10,12 +10,12 @@
     display: flex;
     padding: 10rem 0;
 }
-.team-members__card {
+.team-members__list {
     flex: 1;
     text-align: center;
 }
-.team-members__job {
-    margin-top: 4rem;
+.team-members__item.heading__small {
+    margin-top: 3rem;
 }
 .team-members__name {
     font-size: 1.5rem;
