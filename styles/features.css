@@ -12,7 +12,7 @@
     width: 55%;
     padding: 6rem 0;
 }
-.features__card {
+.features__list {
     flex: 1;
     text-align: center;
     display: flex;
@@ -27,8 +27,8 @@
     border-radius: 50%;
     line-height: 80px;
 }
-.features__card .heading {
-    font-size: 1.4rem;
+.features__item.heading {
+    font-size: 1.6rem;
     margin-top: 3rem;
 }
 .features__text {
