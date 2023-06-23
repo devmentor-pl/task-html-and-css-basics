@@ -1,0 +1,30 @@
+.hero {
+    min-height: 100vh;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+.hero__header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__logo {
+    max-width: 100px;
+}
+.hero__logo .logo {
+    width: 100%;
+    object-fit: cover;
+}
+.hero__nav .nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav__item {
+    padding: 0px 15px;
+}
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
