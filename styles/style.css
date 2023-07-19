@@ -192,6 +192,7 @@ body {
 /* section fourth - pricing */
 .pricing {
 	height: 95vh;
+	background-color: var(--hero-bacground);
 }
 .piricing__header--under {
 	padding-top: 2rem;
