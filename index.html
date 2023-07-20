@@ -17,169 +17,188 @@
     <header class="header" id="home">
         <div class="wrapper">
             <nav class="header__nav">
-                <div class="header__nav--logo">
-                    <img src="images/logo.svg" alt="">
+                <div class="header__logo">
+                    <img src="images/logo.svg" alt="logo firmy nova">
                 </div>
-                <div class="header__nav--links">
+                <div class="header__links">
                     <a href="#team">The Team</a>
                     <a href="#pricing">Pricing</a>
                     <a href="#features">Features</a>
                 </div>
             </nav>
             <div class="header__content">
-                <div class="header__content--left">
-                    <h1 class="header__content--left-title">Beautiful Free Nova template</h1>
-                    <p class="header__content--left-txt">A top notch premium quality template for your next web project.
+                <div class="header__left-side">
+                    <h1 class="header__title">Beautiful Free Nova template</h1>
+                    <p class="header__txt">A top notch premium quality template for your next web project.
                     </p>
-                    <button class="header__content--left-btn">Download FREE!</button>
+                    <button class="header__btn">Download FREE!</button>
                 </div>
-                <div class="header__content--right">
-                    <img class="header__content--right-img" src="images/screen.png" alt="website layout">
+                <div class="header__right-side">
+                    <img class="header__img" src="images/screen.png" alt="website layout">
                 </div>
             </div>
         </div>
     </header>
 
     <section class="features" id="features">
-        <h2 class="section_header features__header">features</h2>
+        <h2 class="features__header section-header">features</h2>
         <div class="wrapper">
-            <div class="features__content">
-                <div class="features__content--card">
-                    <div class="features__content--card-circle"><img src="./images/responsive.svg" alt=""></div>
-                    <span class="features__content--card-title">fully responsive</span>
-                    <p class="features__content--card-txt">looks amazing on any device:
+            <ul class="features__cards">
+                <li class="features__card">
+                    <figure class="features__circle"><img src="./images/responsive.svg" alt=""></figure>
+                    <span class="features__title">fully responsive</span>
+                    <p class="features__txt">looks amazing on any device:
                         smarphone, tablet, laptop and desktop.
                     </p>
-                </div>
-                <div class="features__content--card">
-                    <div class="features__content--card-circle"><img src="./images/customizable.svg" alt=""></div>
-                    <span class="features__content--card-title">customizable</span>
-                    <p class="features__content--card-txt">Change the colors, pictures or any of the sections to suit
+                </li>
+                <li class="features__card">
+                    <figure class="features__circle"><img src="./images/customizable.svg" alt=""></figure>
+                    <span class="features__title">customizable</span>
+                    <p class="features__txt">Change the colors, pictures or any of the sections to suit
                         your needs.
                     </p>
-                </div>
-                <div class="features__content--card">
-                    <div class="features__content--card-circle"><img src="./images/design.svg" alt=""></div>
-                    <span class="features__content--card-title">slick and beautiful design</span>
-                    <p class="features__content--card-txt">Trendy and fresh design, fits any website
+                </li>
+                <li class="features__card">
+                    <figure class="features__circle"><img src="./images/design.svg" alt=""></figure>
+                    <span class="features__title">slick and beautiful design</span>
+                    <p class="features__txt">Trendy and fresh design, fits any website
                     </p>
-                </div>
-            </div>
+                </li>
+            </ul>
         </div>
     </section>
 
     <section class="hero-img">
-        <div class="hero-img-bg"></div>
+        <figure class="hero-img__bg"></figure>
     </section>
 
     <section id="offer" class="offer">
         <div class="wrapper">
             <div class="offer__content">
-                <div class="offer__content--left"><img class="offer__content--left-img" src="./images/imac.png"
-                        alt="imac m2 hiper pro ultra"></div>
-                <div class="offer__content--right">
-                    <h2 class="offer__content--right-title">simple and beautiful</h2>
-                    <p class="offer__content--right-txt">Use nova theme for your next web project. It is completely
+                <figure class="offer__left">
+                    <img class="offer__img" src="./images/imac.png" alt="imac m2 hiper pro ultra">
+                </figure>
+                <article class="offer__right">
+                    <h2 class="offer__title">simple and beautiful</h2>
+                    <p class="offer__txt">Use nova theme for your next web project. It is completely
                         customizable so you can change of any section to fit your needs. Nobba Theme is Free for any
                         kind of use, personal and commercial. Have fun and good luck!</p>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
+
     <section class="pricing" id="pricing">
-        <h2 class="section_header">choose your pricing plan</h2>
-        <p class="piricing__header--under">Pick any of our supper affordable pricing plans</p>
+        <h2 class="section-header">choose your pricing plan</h2>
+        <p class="piricing__header-under">Pick any of our supper affordable pricing plans</p>
         <div class="wrapper">
-            <div class="pricing__content--cards">
-                <div class="pricing__content--card">
-                    <p class="pricing__content--card-pTOP">basic</p>
-                    <div class="pricing__content--card-div-price">
-                        <span class="pricing__content--card-price">$15</span>
-                        <p class="pricing__content--card-p">per month</p>
+            <ul class="pricing__cards">
+                <li class="pricing__card">
+                    <p class="pricing__card-header">basic</p>
+                    <div class="pricing__price-info">
+                        <span class="pricing__price">$15</span>
+                        <p>per month</p>
                     </div>
-                    <div class="pircing--text-algin">
-                        <p>Up to 7 Projects</p>
-                        <p>2 Additional Developers</p>
+                    <ul class="pircing__services">
+                        <li>
+                            <p>Up to 7 Projects</p>
+                        </li>
+                        <li>
+                            <p>2 Additional Developers</p>
+                        </li>
+                    </ul>
+                    <button class="pricing__btn">Get Started</button>
+                </li>
+                <li class="pricing__card">
+                    <p class="pricing__card-header">agency</p>
+                    <div class="pricing__price-info">
+                        <span class="pricing__price">$55</span>
+                        <p>per month</p>
                     </div>
-                    <button class="pricing__content--card-btn">Get Started</button>
-                </div>
-                <div class="pricing__content--card">
-                    <p class="pricing__content--card-pTOP">agency</p>
-                    <div class="pricing__content--card-div-price">
-                        <span class="pricing__content--card-price">$55</span>
-                        <p class="pricing__content--card-p">per month</p>
+                    <ul class="pircing__services">
+                        <li>
+                            <p>Up to 7 Projects</p>
+                        </li>
+                        <li>
+                            <p>2 Additional Developers</p>
+                        </li>
+                        <li>
+                            <p>Unlimited Support</p>
+                        </li>
+                    </ul>
+                    <button class="pricing__btn">Get Started</button>
+                </li>
+                <li class="pricing__card">
+                    <p class="pricing__card-header">pro</p>
+                    <div class="pricing__price-info">
+                        <span class="pricing__price">$75</span>
+                        <p>per month</p>
                     </div>
-                    <div class="pircing--text-algin">
-                        <p>Up to 7 Projects</p>
-                        <p>2 Additional Developers</p>
-                        <p>Unlimited Support</p>
-                    </div>
-                    <button class="pricing__content--card-btn">Get Started</button>
-                </div>
-                <div class="pricing__content--card">
-                    <p class="pricing__content--card-pTOP">pro</p>
-                    <div class="pricing__content--card-div-price">
-                        <span class="pricing__content--card-price">$75</span>
-                        <p class="pricing__content--card-p">per month</p>
-                    </div>
-                    <div class="pircing--text-algin">
-                        <p>Up to 7 Projects</p>
-                        <p>2 Additional Developers</p>
-                        <p>Unlimited Support</p>
-                        <p>1.5GB Disk Space xDx</p>
-                    </div>
-                    <button class="pricing__content--card-btn">Get Started</button>
-                </div>
-            </div>
+                    <ul class="pircing__services">
+                        <li>
+                            <p>Up to 7 Projects</p>
+                        </li>
+                        <li>
+                            <p>2 Additional Developers</p>
+                        </li>
+                        <li>
+                            <p>Unlimited Support</p>
+                        </li>
+                        <li>
+                            <p>1.5GB Disk Space xDx</p>
+                        </li>
+                    </ul>
+                    <button class="pricing__btn">Get Started</button>
+                </li>
+            </ul>
         </div>
     </section>
 
     <section class="team" id="team">
-        <h2 class="section_header">the team</h2>
+        <h2 class="section-header">the team</h2>
         <div class="wrapper">
-            <div class="team__content">
-                <div class="team__content--card">
-                    <div class="team__content--card-imgDiv"><img src="./images/cto.png" alt=""></div>
-                    <p class="team__content--card-position">CTO</p>
-                    <span class="team__content--card-name">Johny B Good</span>
-                    <p class="team__content--card-describe">The brains behind the whole operation</p>
-                    <div class="team__content--card-socials">
+            <ul class="team__cards">
+                <li class="team__card">
+                    <figure class="team__picture"><img src="./images/cto.png" alt=""></figure>
+                    <p class="team__job-position">CTO</p>
+                    <span class="team__name">Johny B Good</span>
+                    <p class="team__presentation">The brains behind the whole operation</p>
+                    <figure class="team__socials">
                         <img src="./images/team-twitter.svg" alt="twitter logo">
                         <img src="./images/team-facebook.svg" alt="fb logo">
-                    </div>
-                </div>
-                <div class="team__content--card">
-                    <div class="team__content--card-imgDiv"><img src="./images/ceo.png" alt=""></div>
-                    <p class="team__content--card-position">CEO</p>
-                    <span class="team__content--card-name">Roll Over Beethoven</span>
-                    <p class="team__content--card-describe">The one that puts it all together</p>
-                    <div class="team__content--card-socials">
+                    </figure>
+                </li>
+                <li class="team__card">
+                    <figure class="team__picture"><img src="./images/ceo.png" alt=""></figure>
+                    <p class="team__job-position">CEO</p>
+                    <span class="team__name">Roll Over Beethoven</span>
+                    <p class="team__presentation">The one that puts it all together</p>
+                    <figure class="team__socials">
                         <img src="./images/team-twitter.svg" alt="twitter logo">
                         <img src="./images/team-facebook.svg" alt="fb logo">
-                    </div>
-                </div>
-                <div class="team__content--card">
-                    <div class="team__content--card-imgDiv"><img src="./images/cfo.png" alt=""></div>
-                    <p class="team__content--card-position">CFO</p>
-                    <span class="team__content--card-name">Chuck Berry</span>
-                    <p class="team__content--card-describe">The guy with his hand on the wallet</p>
-                    <div class="team__content--card-socials">
+                    </figure>
+                </li>
+                <li class="team__card">
+                    <figure class="team__picture"><img src="./images/cfo.png" alt=""></figure>
+                    <p class="team__job-position">CFO</p>
+                    <span class="team__name">Chuck Berry</span>
+                    <p class="team__presentation">The guy with his hand on the wallet</p>
+                    <figure class="team__socials">
                         <img src="./images/team-twitter.svg" alt="twitter logo">
                         <img src="./images/team-facebook.svg" alt="fb logo">
-                    </div>
-                </div>
-            </div>
+                    </figure>
+                </li>
+            </ul>
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <div class="footer__content">
             <p>A free template by</p>
             <img src="./images/webscope.svg" alt="">
         </div>
     </footer>
-
 
 </body>
 
