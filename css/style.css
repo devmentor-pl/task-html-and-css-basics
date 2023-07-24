@@ -1,1 +1,11 @@
+.nav,
+.hero__text {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
 
+.hero__header {
+    margin: 0;
+}
+.nav__list {
+    margin: 0;
+}
