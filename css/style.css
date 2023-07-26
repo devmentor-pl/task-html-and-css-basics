@@ -1,18 +1,121 @@
 html,
 .body {
     margin: 0;
+    width: 100%;
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
 
-.nav,
-.hero__text {
+.header {
+    border: 2px solid green;
+    width: 100%;
+    height: 500px;
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
+.nav {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid blue;
+}
 
-.hero__header {
-    margin: 0;
+.nav__logo,
+.nav__list {
+    border: 2px solid yellow;
 }
 .nav__list {
+    display: flex;
+    list-style: none;
     margin: 0;
+    padding: 10px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+
+    color: white;
+}
+.hero__screen {
+    display: flex;
+    flex-basis: 100px;
+    margin-top: 85px;
+    margin-right: 0px;
+    padding-right: 100px;
+
+    transform: rotate(-8deg);
+    block-size: 250px;
+}
+.hero__header {
+    margin-top: 100px;
+    width: 250px;
+}
+.hero__paragraf {
+    width: 250px;
+}
+
+.hero__button {
+    min-width: 200px;
+    border: none;
+    color: white;
+    background-color: #1abc9c;
+    font-size: 1rem; /*ustalamy wielkość przycisku*/
+    padding: 0.5rem; /*ustalamy wielkość przycisku*/
+    cursor: pointer; /*dodajemy kursor po najechaniu na przycisk*/
+    transition: background-color 0.5s ease-in-out; /*ustawiamy przejście dla podświetlenia przycisku*/
+    border-radius: 3cm;
+}
+.features {
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+    width: 100%;
+}
+
+.features__header {
+    display: flex;
+}
+
+.features__header,
+.features__container {
+    border: 2px solid blue;
+}
+
+.features__container {
+    display: flex;
+    justify-content: center;
+}
+.features__container-list {
+    border: 2px solid yellow;
+    flex-basis: 33.333%;
+    text-align: center;
+}
+
+.features__header-list {
+}
+.features__item,
+.features__header-list {
+    text-align: center;
+}
+
+.fa-solid {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    font-size: 2rem;
+    border-radius: 2cm;
+}
+.logo {
+    background-color: rgb(236, 245, 245);
+    border: 2px solid green;
+    display: flex;
+    justify-content: center;
 }
