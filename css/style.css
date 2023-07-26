@@ -111,11 +111,93 @@ html,
     color: black;
     margin-top: 10px;
     font-size: 2rem;
-    border-radius: 2cm;
+    border-radius: ;
 }
 .logo {
     background-color: rgb(236, 245, 245);
+    padding: 15px;
     border: 2px solid green;
     display: flex;
     justify-content: center;
+}
+.simple {
+    display: flex;
+
+    border: 2px solid green;
+}
+
+.simple__picture {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/imac.png);
+    background-position: center; /*centruje*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    size: 300px;
+}
+.simple__text {
+    text-align: center;
+}
+
+.simple__picture,
+.simple__text {
+    border: 2px solid yellow;
+}
+
+.container__pricing {
+    text-align: center;
+    border: 2px solid green;
+}
+
+.pricing__header,
+.pricing__header-items {
+    border: 2px solid blue;
+}
+
+.pricing__header-items {
+    display: flex;
+}
+
+.pricing__item {
+    flex-basis: 33.3333%; /*ustawia zawsze po 1/3 szerokości kolumny*/
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.pricing__buton {
+    background-color: rgb(14, 100, 230);
+    color: white;
+    margin-top: 10px;
+    font-size: 1, 5rem;
+    border-radius: ;
+}
+.contact {
+    border: 2px solid green;
+
+    .contact__header {
+        text-align: center;
+        padding: 10px;
+    }
+}
+.contact__header,
+.contact__container {
+    border: 2px solid blue;
+}
+
+.contact__container-items {
+    border: 2px solid yellow;
+    flex-basis: 33.3333%; /*ustawia zawsze po 1/3 szerokości kolumny*/
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.contact__container {
+    display: flex;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
