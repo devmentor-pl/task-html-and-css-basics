@@ -18,9 +18,7 @@
     <body>
         <header class="header" id="header">
             <nav class="header__nav nav">
-                <div class="nav__logo">
-                    <img src="./images/logo.svg" alt="img" />
-                </div>
+                <div class="nav__logo"></div>
                 <ul class="nav__list">
                     <!--<a class="nav__link nav__link--active" href="#"><li class="nav__item">Home</li> </a>-->
                     <a class="nav__link" href="#contact"
@@ -35,7 +33,7 @@
                 </ul>
             </nav>
             <section class="hero" id="hero">
-                <div>
+                <div class="hero__container">
                     <h1 class="hero__header">Beautiful Free Nova template</h1>
                     <p class="hero__paragraf">
                         A top notch premium quality template for your next web
@@ -45,13 +43,8 @@
                         <button class="hero__button">Download FREE!</button>
                     </p>
                 </div>
-                <div>
-                    <img
-                        class="hero__screen"
-                        src="./images/screen.png"
-                        alt="Phone picture"
-                    />
-                </div>
+
+                <div class="hero__screen"></div>
             </section>
         </header>
         <main id="main">
@@ -61,7 +54,9 @@
                 </div>
                 <div class="features__container">
                     <div class="features__container-list">
-                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <span class="features__container-span">
+                            <i class="fa-solid fa-mobile-screen-button"></i
+                        ></span>
                         <h4 class="features__header-list">FULLY RESPONSIVE</h4>
                         <p class="features__item">
                             Looks amazing on any device: smartphone, tablet,
@@ -69,7 +64,9 @@
                         </p>
                     </div>
                     <div class="features__container-list">
-                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span class="features__container-span">
+                            <i class="fa-solid fa-screwdriver-wrench"></i
+                        ></span>
                         <h4 class="features__header-list">CUSTOMIZABLE</h4>
                         <p class="features__item">
                             Change the colors, pictures or any of the sections
@@ -77,7 +74,9 @@
                         </p>
                     </div>
                     <div class="features__container-list">
-                        <i class="fa-solid fa-award"></i>
+                        <span class="features__container-span"
+                            ><i class="fa-solid fa-award"></i
+                        ></span>
                         <h4 class="features__header-list">
                             SLICK AND BEAUTIFUL DESIGN
                         </h4>
@@ -109,14 +108,14 @@
                     <p>Pick any of our super affordable pricing plans</p>
                 </div>
                 <div class="pricing__header-items">
-                    <div class="pricing__item">
+                    <div class="pricing__item-first">
                         <h3>BASIC</h3>
                         <h2>$15</h2>
                         <p>per month</p>
                         <p>Up to 7 Project 2 Additional Developers</p>
                         <button class="pricing__buton">Get Started</button>
                     </div>
-                    <div class="pricing__item">
+                    <div class="pricing__item-second">
                         <h3>AGENCY</h3>
                         <h2>$55</h2>
                         <p>per month</p>
@@ -126,7 +125,7 @@
                         </p>
                         <button class="pricing__buton">Get Started</button>
                     </div>
-                    <div class="pricing__item">
+                    <div class="pricing__item-third">
                         <h3>PRO</h3>
                         <h2>$75</h2>
                         <p>per month</p>
@@ -139,7 +138,9 @@
                 </div>
             </section>
             <section class="contact" id="contact">
-                <h2 class="contact__header">THE TEAM</h2>
+                <div class="contact__container-header">
+                    <h2 class="contact__header">THE TEAM</h2>
+                </div>
                 <div class="contact__container">
                     <div class="contact__container-items">
                         <figure>
