@@ -87,7 +87,7 @@ html,
     padding: 0.5rem; /*ustalamy wielkość przycisku*/
     cursor: pointer; /*dodajemy kursor po najechaniu na przycisk*/
     transition: background-color 0.5s ease-in-out; /*ustawiamy przejście dla podświetlenia przycisku*/
-    border-radius: 3cm;
+    border-radius: 8px;
 }
 
 .features {
@@ -144,7 +144,7 @@ html,
 }
 
 .logo {
-    background-color: rgb(236, 245, 245);
+    background-color: #ecf0f1;
     padding: 15px;
     border: 2px solid green;
     display: flex;
@@ -176,6 +176,7 @@ html,
 }
 
 .container__pricing {
+    background-color: #ecf0f1;
     width: 100%;
     text-align: center;
     border: 2px solid green;
@@ -195,21 +196,43 @@ html,
 .pricing__item-first,
 .pricing__item-second,
 .pricing__item-third {
+    border: 2px solid yellow;
     flex-basis: 33.3333%; /*ustawia zawsze po 1/3 szerokości kolumny*/
     padding: 1.5rem;
     text-align: center;
 }
 
 .pricing__item-second {
+    position: relative;
+    top: 19px;
 }
 
-.pricing__buton {
-    background-color: rgb(14, 100, 230);
+.pricing__item-second {
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 44px -27px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 44px -27px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 44px -27px rgba(66, 68, 90, 1);
+}
+
+.pricing__buton-first,
+.pricing__buton-second,
+.pricing__buton-third {
+    background-color: rgb(60, 146, 218);
     color: white;
     margin-top: 10px;
-    font-size: 1, 5rem;
-    border-radius: ;
+    font-size: 1rem;
+    border-radius: 5px;
 }
+
+.pricing__buton-first {
+    position: relative;
+    top: 18px;
+}
+.pricing__buton-second {
+    position: relative;
+    bottom: 18px;
+}
+
 .contact {
     width: 100%;
     border: 2px solid green;
@@ -235,9 +258,46 @@ html,
 .contact__container {
     display: flex;
 }
+.contact__picture-firs {
+    height: 100px;
+    background-image: url(../images/cto.png);
+    background-position: center; /*centruje*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+}
 
+.pricing__header-price {
+    -webkit-text-stroke-width: medium;
+}
+
+.contact__picture-second {
+    height: 100px;
+    background-image: url(../images/ceo.png);
+    background-position: center; /*centruje*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+
+.contact__picture-third {
+    height: 100px;
+    background-image: url(../images/cfo.png);
+    background-position: center; /*centruje*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+
+.contact__paragraph {
+    -webkit-text-stroke-width: medium;
+}
 .footer {
-    background-color: black;
+    background-color: rgb(61, 60, 60);
     color: white;
     padding: 10px;
+}
+
+.footer {
+    text-align: center;
 }
