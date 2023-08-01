@@ -1,5 +1,5 @@
 html,
-.body {
+body {
     margin: 0;
     width: 100%;
     padding: 0;
@@ -7,7 +7,6 @@ html,
 }
 
 .header {
-    border: 2px solid green;
     width: 100%;
 
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -17,20 +16,8 @@ html,
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 2px solid blue;
 }
 
-.nav__logo {
-    width: 200px;
-    background-repeat: no-repeat;
-
-    align-items: center;
-    background-image: url(../images/logo.svg);
-}
-.nav__logo,
-.nav__list {
-    border: 2px solid yellow;
-}
 .nav__list {
     display: flex;
     list-style: none;
@@ -45,8 +32,8 @@ html,
     font-weight: bold;
 }
 .hero {
+    padding-bottom: 80px;
     margin: 0 auto;
-    border: 2px solid blue;
     max-width: 1150px;
     display: flex;
     justify-content: space-around;
@@ -56,22 +43,23 @@ html,
 }
 
 .hero__container {
+    margin-top: 10px;
+    flex-basis: 70%;
+}
+.hero__img {
+    margin-left: 40%;
 }
 
 .hero__screen {
-    width: 100%;
-    height: 500px;
-    background-position: center; /*centruje*/
-    background-repeat: no-repeat;
-    background-size: 400px;
-    align-items: center;
-    background-image: url(../images/screen.png);
+    background-color: white;
+    width: 80%;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 10px;
+
     transform: rotate(-8deg);
-    position: relative;
-    left: 200px;
 }
 .hero__header {
-    margin-top: 100px;
     width: 250px;
 }
 .hero__paragraf {
@@ -93,7 +81,6 @@ html,
 .features {
     background-color: black;
     color: white;
-    border: 2px solid green;
     width: 100%;
 }
 
@@ -106,17 +93,17 @@ html,
 .features__container {
     max-width: 1150px;
     margin: 0 auto;
-    border: 2px solid blue;
 }
 
 .features__container {
     display: flex;
-    justify-content: center;
+    padding-left: 0;
+    list-style: none;
 }
 .features__container-list {
-    border: 2px solid yellow;
     flex-basis: 33.333%;
     text-align: center;
+    list-style: none;
 }
 
 .features__header-list {
@@ -146,14 +133,11 @@ html,
 .logo {
     background-color: #ecf0f1;
     padding: 15px;
-    border: 2px solid green;
     display: flex;
     justify-content: center;
 }
 .simple {
     display: flex;
-
-    border: 2px solid green;
 }
 
 .simple__picture {
@@ -167,48 +151,47 @@ html,
     size: 300px;
 }
 .simple__text {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 70px;
     text-align: center;
-}
-
-.simple__picture,
-.simple__text {
-    border: 2px solid yellow;
 }
 
 .container__pricing {
     background-color: #ecf0f1;
     width: 100%;
+    padding-top: 20px;
     text-align: center;
-    border: 2px solid green;
 }
 
+.pricing__header-month {
+    margin-left: -35px;
+}
+
+.pricing__list {
+    list-style: none;
+}
 .pricing__header,
 .pricing__header-items {
+    width: 70%;
     max-width: 1150px;
     margin: 0 auto;
-    border: 2px solid blue;
 }
 
 .pricing__header-items {
+    padding-bottom: 20px;
     display: flex;
 }
 
-.pricing__item-first,
-.pricing__item-second,
-.pricing__item-third {
-    border: 2px solid yellow;
+.pricing__item {
     flex-basis: 33.3333%; /*ustawia zawsze po 1/3 szerokości kolumny*/
     padding: 1.5rem;
     text-align: center;
 }
 
-.pricing__item-second {
-    position: relative;
-    top: 19px;
-}
-
-.pricing__item-second {
+.pricing__item--active {
     background-color: white;
+    padding: 25px;
     -webkit-box-shadow: 0px 0px 44px -27px rgba(66, 68, 90, 1);
     -moz-box-shadow: 0px 0px 44px -27px rgba(66, 68, 90, 1);
     box-shadow: 0px 0px 44px -27px rgba(66, 68, 90, 1);
@@ -230,12 +213,10 @@ html,
 }
 .pricing__buton-second {
     position: relative;
-    bottom: 18px;
 }
 
 .contact {
     width: 100%;
-    border: 2px solid green;
 }
 
 .contact__header {
@@ -244,18 +225,18 @@ html,
 }
 .contact__container-header,
 .contact__container {
+    width: 70%;
     margin: 0 auto;
-    border: 2px solid blue;
 }
 
 .contact__container-items {
-    border: 2px solid yellow;
     flex-basis: 33.3333%; /*ustawia zawsze po 1/3 szerokości kolumny*/
     padding: 1.5rem;
     text-align: center;
 }
 
 .contact__container {
+    width: 70%;
     display: flex;
 }
 .contact__picture-firs {
