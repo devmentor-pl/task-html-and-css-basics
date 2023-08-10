@@ -1,0 +1,268 @@
+/* FEATURES */
+
+.features__row {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    min-height: 450px;
+}
+
+.feature__header {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-basis: 30%;
+flex-grow: 1;
+}
+
+.feature__header-text {
+    margin: 0;
+    font-weight: lighter;
+}
+
+.features__container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-basis: 70%;
+    flex-grow: 1;
+}
+
+.feature {
+    flex-basis: 20%;
+    margin: 0 1rem;
+}
+
+.feature__ikon {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 5rem;
+height: 5rem;
+background-color: white;
+border-radius: 50%;
+box-shadow: 4px 8px 20px rgba(255, 255, 255, 0.445);
+margin: 0 auto;
+}
+
+
+.feature__info, .feature__text {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+/* END OF FEATURES */
+
+/* LOGOS */
+
+.logos__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+}
+
+.logos-img {
+    /* box-sizing: border-box; */
+    flex-shrink: 1;
+    min-width: 100%;
+    padding: 0 10%;
+}
+
+/* END OF LOGOS */
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about__info {
+    flex-basis: 50%;
+    padding: 4rem 8rem 0 1rem;
+    flex-grow: 1;
+    
+}
+
+.about__img-container {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.about__img {
+    /* box-sizing: border-box; */
+    width: 100%;
+    padding: 2rem;
+}
+
+/* END OF ABOUT */
+
+/* PRICING */
+
+.pricing__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+
+.pricing__choose-header {
+justify-self: center;
+font-weight: lighter;
+font-size: 1.7rem;
+}
+
+.pricing__choose-text {
+    justify-self: flex-end;
+    margin: 0;
+}
+
+.pricing__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 25%;
+    height: 80%;
+    margin: 0 1rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+
+.option__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option__agency {
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.288) 0px 0px 30px;
+}
+
+.option__header {
+    font-weight: lighter;
+    margin-bottom: 0.6rem;
+}
+
+.option__price {
+    font-weight: 900;
+    font-size: 2.3rem;
+    margin: 0;
+}
+
+.option__per-month {
+    font-size: 0.7rem;
+}
+
+.option__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+}
+
+.option__button {
+    color:white;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #0ABCEB;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.option__button:hover {
+    background-color: #37c5ec;
+}
+
+/* END OF PRICING */
+
+/* TEAM */
+
+.team__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+}
+    
+.team__header-text {
+    font-weight: lighter;
+}
+
+.team__members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.member {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+}
+
+.member__cto {
+    flex-basis: 30%;
+}
+
+.member__avatar-container {
+    height: 30%;
+}
+
+.member__avatar {
+    height: 100%;
+}
+
+.member__position {
+    font-weight: lighter;
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.member__name {
+    margin: 0.4rem auto;
+}
+
+.member__description {
+    margin: 0.4rem auto;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.member__contact {
+    display: flex;
+}
+
+.member__contact-twitter, .member__contact-facebook {
+    padding: 0.5rem;
+}
+
+.contact-href {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* END OF TEAM */
+
+

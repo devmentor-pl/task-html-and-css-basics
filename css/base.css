@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    /* box-sizing: border-box; */
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+    /* background-color: rgb(79, 185, 79); */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+    /* background-color: aqua; */
+}
