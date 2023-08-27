@@ -1,0 +1,34 @@
+.section__3rd {
+    height: 60px;
+    
+}
+
+.logo__space {   
+    display: flex;
+    justify-content: center;    
+}
+
+.header__logos {
+    margin-top: 10px;
+}
+
+.apple__all {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.apple__text {
+    width: 50%;
+    padding: 40px;
+}
+
+.apple__text h1 {
+    font: bold 33px Arial, Helvetica, sans-serif;   
+}
+
+.apple__text p {
+    font: 17px Arial, Helvetica, sans-serif;
+    max-width: 400px;
+}
+

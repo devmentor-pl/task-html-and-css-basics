@@ -1,0 +1,71 @@
+.section__3rd {
+    height: 500px;
+    padding: 20px;
+    
+}
+
+.header__3rd {
+    height: 25%;
+    padding: 10px;
+}
+
+.container__3rd {
+    height: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.features__3rd {
+    width: 20%;
+    margin: 10px;
+}
+
+.header__3rd h1 {
+    font: 33px Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.header__3rd p {
+    font: 15px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.plan-name {
+    font: 22px Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.price {
+    font: bold 45px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.month {
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.what-you-get {
+    font: 15px Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.get-started {
+    width: 120px;
+    height: 30px;
+    background: #0ABCEB;
+    border-radius: 5px;
+    margin:auto;
+    margin-top: 40px;
+}
+
+.get-started p {
+    font: 12px Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
