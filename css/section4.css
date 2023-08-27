@@ -1,0 +1,51 @@
+.section4 {
+    background-color: #F8F9F9;
+}
+.section4__container--first4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4__container--second4 {
+    display: flex;
+    justify-content: space-around;  
+}
+.container__second4 {
+    min-height: 300px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container__second4:hover {
+    box-shadow: 7px 10px 12px 0 rgba(0, 0, 0, 0.35);
+    background-color: white;
+}
+.plan__name {
+    padding: 10px;
+}
+.plan__price {
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.per-month {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+}
+.description {
+font-size: 15px;
+padding: 10px;
+text-align: center;
+}
+.get-started {
+    background-color: rgb(8, 139, 254);
+    color: white;
+    font-size: 20px;
+    min-height: 45px;
+    width: 150px;
+    border-radius: 10px;
+
+}

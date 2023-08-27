@@ -1,0 +1,18 @@
+.footer {
+    background-color: #464646;
+    display: flex;
+    justify-content: center;
+}
+.footer__content1 {
+    height: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+}
+.footer__content2 {
+    display: flex;
+    align-items: center;
+}
