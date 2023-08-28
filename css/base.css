@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+    font-style: normal;
+}
+.row, .container, .cell {
+    margin: 0px;
+    padding: 0px;
+    /* outline: 3px solid; */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+}
+.row {
+    outline-color: transparent;
+    min-height: 50px;
+    width: 100%;
+    
+}
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+    outline-color: transparent;
+}
+.cell {
+    min-height: 50px;
+    outline-color: transparent;
+}
