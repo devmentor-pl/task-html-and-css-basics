@@ -2,7 +2,7 @@
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 
 }
-.header__container--first {
+.header__container1 {
     display:flex;
     justify-content: space-between;
 }
@@ -20,7 +20,7 @@
 .nav__item {
     padding: 10px;
 }
-.header__container--second {
+.header__container2 {
     display:flex;
     justify-content: space-between;
 }
@@ -60,6 +60,7 @@
     padding-bottom: 30px;
 }
 .screen {
-    height: 400px;
-    width:  600px;
+    height: 297px;
+    width:  420px;
+    transform: rotate( 0.02turn);
 }

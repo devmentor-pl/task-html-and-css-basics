@@ -1,12 +1,12 @@
 .section4 {
     background-color: #F8F9F9;
 }
-.section4__container--first4 {
+.section4__container1-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.section4__container--second4 {
+.section4__container2-4 {
     display: flex;
     justify-content: space-around;  
 }

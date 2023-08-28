@@ -2,7 +2,7 @@
     background-color: black;
     min-height: 350px;
 }
-.section1__container--first {
+.section1__container1 {
     min-height: 50px;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
     color: white;
     font-size: 20px;
 }
-.section1__container--second {
+.section1__container2 {
     min-height: 300px;
     display: flex;
     justify-content: center;  

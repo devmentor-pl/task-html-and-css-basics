@@ -1,9 +1,9 @@
-.section5__container--first {
+.section5__container1 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section5__container--second {
+.section5__container2 {
     display: flex;
     justify-content: space-around;
 }
