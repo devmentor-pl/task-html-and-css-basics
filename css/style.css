@@ -42,6 +42,11 @@ body {
   height: 30px;
 }
 
+.nav__container {
+  list-style: none;
+  display: flex;
+}
+
 .nav--links {
   font-size: 1.4rem;
   text-decoration: none;
@@ -109,7 +114,7 @@ body {
   padding-top: 50px;
 }
 
-.section--items {
+.section__items {
   max-width: 1150px;
   margin: auto;
   display: flex;
@@ -117,7 +122,8 @@ body {
   padding: 50px 0;
 }
 
-.items--single {
+.items__single {
+  list-style: none;
   width: calc(25% - 30px);
 }
 
@@ -255,47 +261,55 @@ body {
 }
 
 .tables--single {
+  list-style: none;
   margin: 0 10px;
   width: calc(30% - 10px);
   position: relative;
-  padding: 50px 0;
+  padding: 0 0 150px 0;
   height: 350px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
+/* * {
+  border: 1px solid red;
+} */
 
 .tables--heading {
-  text-align: center;
   font-weight: 300;
   font-size: 18px;
   text-transform: uppercase;
+  margin-bottom: -50px;
 }
 
 .tables--price {
-  text-align: center;
   font-weight: bold;
   font-size: 36px;
-  margin: 0;
+  margin-bottom: -75px;
 }
 
 .price--period {
-  text-align: center;
-  margin: 0;
   font-size: 12px;
   color: #333;
+  font-weight: 300;
 }
 
-.tables--list {
-  padding-left: 0;
-  margin-bottom: 100px;
-  text-align: center;
-  font-size: 14px;
+.profit__container {
   list-style: none;
-  line-height: 1.5;
+  padding: 0;
+  margin-top: -50px;
 }
 
-/* Zabij, uduś, ale nie wiem jak to inaczej ustawic na jednej wysokości :D  */
+.price--profit {
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 0 0 0;
+}
+
 .tables--btn--container {
   position: absolute;
-  top: 80%;
+  bottom: 5%;
   left: 50%;
   transform: translate(-50%, 0);
 }

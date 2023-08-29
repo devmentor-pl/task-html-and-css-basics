@@ -15,13 +15,19 @@
     <header class="header__container">
       <nav class="header__nav">
         <img class="header--logo" src="./images/logo.svg" alt="logo img" />
-        <div>
-          <a class="nav--links" href="#">The Team</a>
-          <a class="nav--links" href="#">Pricing</a>
-          <a class="nav--links" href="#">Features</a>
-        </div>
+        <ul class="nav__container">
+          <li>
+            <a class="nav--links" href="#">The Team</a>
+          </li>
+          <li>
+            <a class="nav--links" href="#">Pricing</a>
+          </li>
+          <li>
+            <a class="nav--links" href="#">Features</a>
+          </li>
+        </ul>
       </nav>
-      <section class="header__section">
+      <article class="header__section">
         <div class="section--text">
           <h1 class="section--title">Beautiful Free Nova template</h1>
           <p class="section-spec">
@@ -34,7 +40,7 @@
           src="./images/screen.png"
           alt="screen with features"
         />
-      </section>
+      </article>
     </header>
     <!-- End of header section -->
     <!-- Main section -->
@@ -42,50 +48,50 @@
       <!-- Features section -->
       <section class="features__section">
         <h1 class="section--heading">Features</h1>
-        <div class="section--items">
+        <div class="section__items">
           <!-- Single item div -->
-          <div class="items--single">
-            <div class="icon--container">
+          <ul class="items__single">
+            <li class="icon--container">
               <span>
                 <img src="./images/responsive.svg" alt="Phone icon image" />
               </span>
-            </div>
-            <h1 class="items--title">Fully responsive</h1>
-            <p class="items--spec">
+            </li>
+            <li class="items--title">Fully responsive</li>
+            <li class="items--spec">
               Looks amazing on any device smartphone, tablet, laptop and
               desktop.
-            </p>
-          </div>
+            </li>
+          </ul>
           <!-- End of single item div -->
           <!-- Single item div -->
-          <div class="items--single">
-            <div class="icon--container">
+          <ul class="items__single">
+            <li class="icon--container">
               <span>
                 <img
                   src="./images/customizable.svg"
                   alt="customizable icon image"
                 />
               </span>
-            </div>
-            <h1 class="items--title">Customizable</h1>
-            <p class="items--spec">
+            </li>
+            <li class="items--title">Customizable</li>
+            <li class="items--spec">
               Change the colors, pictures or any of the sections to suit your
               needs.
-            </p>
-          </div>
+            </li>
+          </ul>
           <!-- End of single item div -->
           <!-- Single item div -->
-          <div class="items--single">
-            <div class="icon--container">
+          <ul class="items__single">
+            <li class="icon--container">
               <span>
                 <img src="./images/design.svg" alt="Desing icon image" />
               </span>
-            </div>
-            <h1 class="items--title">Slick and beautiful design</h1>
-            <p class="items--spec">
+            </li>
+            <li class="items--title">Slick and beautiful design</li>
+            <li class="items--spec">
               Trendy and fresh design, fits any website.
-            </p>
-          </div>
+            </li>
+          </ul>
           <!-- End of single item div -->
         </div>
       </section>
@@ -109,7 +115,7 @@
             src="./images/imac.png"
             alt="Imac screen image"
           />
-          <div class="description--text">
+          <article class="description--text">
             <h1 class="description--title">Simple and beautiful</h1>
             <p class="description--spec">
               Use Nova theme for your next web project. It is completely
@@ -117,12 +123,12 @@
               needs. Nova Theme is Free for any kind of use, personal and
               commercial. Have fun and good luck!
             </p>
-          </div>
+          </article>
         </div>
       </section>
       <!-- End of description section -->
       <!-- Pricing plan section -->
-      <section class="pricing">
+      <header class="pricing">
         <div class="pricing--heading">
           <h1 class="heading--title">Choose your pricing plan</h1>
           <p class="heading--spec">
@@ -131,60 +137,60 @@
         </div>
         <div class="pricing__tables">
           <!-- Single pricing table -->
-          <div class="tables--single">
-            <h1 class="tables--heading">Basic</h1>
-            <p class="tables--price">$15</p>
-            <p class="price--period">per month</p>
-            <ul class="tables--list">
-              <li>Up to 7 Projects</li>
-              <li>2 Additional Developers</li>
+          <ul class="tables--single">
+            <li class="tables--heading">Basic</li>
+            <li class="tables--price">$15</li>
+            <li class="price--period">per month</li>
+            <ul class="profit__container">
+              <li class="price--profit">Up to 7 Projects</li>
+              <li class="price--profit">2 Additional Developers</li>
             </ul>
-            <div class="tables--btn--container">
+            <li class="tables--btn--container">
               <button class="pricing--btn">Get Started</button>
-            </div>
-          </div>
+            </li>
+          </ul>
           <!-- End of single pricing table -->
           <!-- Single pricing table -->
-          <div class="tables--single pricing--selected">
-            <h1 class="tables--heading">Agency</h1>
-            <p class="tables--price">$55</p>
-            <p class="price--period">per month</p>
-            <ul class="tables--list">
-              <li>Up to 25 Projects</li>
-              <li>2 Additional Developers</li>
-              <li>Unlimited Support</li>
+          <ul class="tables--single pricing--selected">
+            <li class="tables--heading">Agency</li>
+            <li class="tables--price">$55</li>
+            <li class="price--period">per month</li>
+            <ul class="profit__container">
+              <li class="price--profit">Up to 25 Projects</li>
+              <li class="price--profit">2 Additional Developers</li>
+              <li class="price--profit">Unlimited Support</li>
             </ul>
-            <div class="tables--btn--container">
+            <li class="tables--btn--container">
               <button class="pricing--btn">Get Started</button>
-            </div>
-          </div>
+            </li>
+          </ul>
           <!-- End of single pricing table -->
           <!-- Single pricing table -->
-          <div class="tables--single">
-            <h1 class="tables--heading">Pro</h1>
-            <p class="tables--price">$75</p>
-            <p class="price--period">per month</p>
-            <ul class="tables--list">
-              <li>Up to 25 Projects</li>
-              <li>2 Additional Developers</li>
-              <li>Unlimited Support</li>
-              <li>1.5GB Disk Space</li>
+          <ul class="tables--single">
+            <li class="tables--heading">Pro</li>
+            <li class="tables--price">$75</li>
+            <li class="price--period">per month</li>
+            <ul class="profit__container">
+              <li class="price--profit">Up to 25 Projects</li>
+              <li class="price--profit">2 Additional Developers</li>
+              <li class="price--profit">Unlimited Support</li>
+              <li class="price--profit">1.5GB Disk Space</li>
             </ul>
-            <div class="tables--btn--container">
+            <li class="tables--btn--container">
               <button class="pricing--btn">Get Started</button>
-            </div>
-          </div>
+            </li>
+          </ul>
           <!-- End of single pricing table -->
         </div>
-      </section>
+      </header>
       <!-- End of pricing plan section -->
       <section class="team">
         <div class="team--title">
           <h1 class="title--header">the team</h1>
         </div>
-        <div class="team--container">
+        <ul class="team--container">
           <!-- Single person table  -->
-          <div class="team--table">
+          <li class="team--table">
             <img
               class="team--images"
               src="./images/cto.png"
@@ -205,10 +211,10 @@
                 alt="facebook icon"
               />
             </div>
-          </div>
+          </li>
           <!-- End of single person table  -->
           <!-- Single person table  -->
-          <div class="team--table">
+          <li class="team--table">
             <img
               class="team--images"
               src="./images/ceo.png"
@@ -229,10 +235,10 @@
                 alt="facebook icon"
               />
             </div>
-          </div>
+          </li>
           <!-- End of single person table  -->
           <!-- Single person table  -->
-          <div class="team--table">
+          <li class="team--table">
             <img
               class="team--images"
               src="./images/cfo.png"
@@ -253,9 +259,9 @@
                 alt="facebook icon"
               />
             </div>
-          </div>
+          </li>
           <!-- End of single person table  -->
-        </div>
+        </ul>
       </section>
     </main>
     <!-- End of main section -->
