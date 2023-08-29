@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML & CSS BASICS - #05</title>
+    <link href="./styles/reset.css" rel="stylesheet">
+    <link href="./styles/base.css" rel="stylesheet">
+    <link href="./styles/header.css" rel="stylesheet">
+    <link href="./styles/content.css" rel="stylesheet">
+    <link href="./styles/footer.css" rel="stylesheet">
+    
+</head>
+<body>
+
+
+    <header class="header row">
+
+        <nav class="header__container container">
+            <div class="header__logo cell">
+                <a href="#"><img src="./images/logo.svg" alt="Nova logo"></a>
+            </div>
+
+            <div class="header__navbar cell">
+                <ul>
+                    <li class="navbar__list"><a class="strong" href="#Team">The Team</a></li>
+                    <li class="navbar__list"><a class="strong" href="#Pricing">Pricing</a></li>
+                    <li class="navbar__list"><a class="strong" href="#Features">Features</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header__container container">
+            <article class="header__article cell">
+                <h1>Beautiful Free Nova template</h1>
+                <h4>
+                    A top notch premium quality<br>
+                    template for your next web<br>
+                     project. 
+                </h4>
+                <button class="strong"><a>Download FREE!</a></button>
+            </article>
+            
+            <article class="header__article cell">
+                <img src="./images/screen.png" alt="Screen">
+            </article>
+        </div>
+
+    </header>
+
+
+    <section class="features row" id="Features">
+
+        <div class="features__container container info">
+            <h2 class="features__article">FEATURES</h2>
+        </div>
+
+        <div class="features__container container">
+
+            <article class="features__article cell info">
+                <div class="circle">
+                    <img src="./images/responsive.svg" alt="Mobile device">
+                </div>
+                <p class="strong">FULLY RESPONSIVE</p>
+                <p>
+                    Looks amazing on any device:<br>
+                    smartphone, tablet, laptop and <br>
+                    desktop.
+                </p>
+            </article>
+
+            <article class="features__article cell info">
+                <div class="circle">
+                    <img src="./images/customizable.svg" alt="Tools">
+                </div>
+                <p class="strong">CUSTOMIZABLE</p>
+                <p>
+                    Change the colors, pictures or<br>
+                    any of the selections to suit your<br>
+                    needs.
+                </p>
+            </article>
+
+            <article class="features__article cell info">
+                <div class="circle">
+                    <img src="./images/design.svg" alt="Nice badge">
+                </div>
+                <p class="strong">SLICK AND BEATIFUL DESIGN</p>
+                <p>
+                    Trendy and fresh design, fits<br>
+                    website.
+                </p>
+            </article>
+            
+        </div>
+
+    </section>
+
+
+    <footer class="subfooter footer row ">
+       <img class="subfooter__img" src="./images/logos.png" alt="Companies logos">
+    </footer>
+
+
+    <section class="description row">
+       <img class="description__img cell" src="./images/imac.png" alt="IMac">
+       <article class="description__article cell">
+            <h2>SIMPLE AND BEAUTIFUL</h2>
+            <p>
+                Use Nova theme for your next web project. It is completely
+                customizable so you can change any of the sections to fit your
+                needs. Nova Theme is Free for any kind of use, personal and
+                commercial. Have fun and good luck!
+            </p>
+       </article>
+    </section>
+
+
+    <section class="pricing row" id="Pricing">
+
+        <div class="pricing__container container info">
+            <h2>CHOOSE YOUR PRICING PLAN</h2>
+            <h4>Pick any of our super affordable pricing plans</h4>
+        </div>
+
+        <div class="pricing__container container">
+
+            <article class="pricing__article cell info">
+                <h3 class="pricing__option">Basic</h3>
+                <h1>$15</h1>
+                <h5>per month</h5>
+                <ul>
+                    <li class="strong">Up to 7 Projects</li>
+                    <li class="strong">2 Additions Developers</li>
+                    <li class="strong hidden">2 Additions Developers</li>
+                    <li class="strong hidden">2 Additions Developers</li>
+
+                </ul>
+                <button class="pricing__button"><a>Get Started</a></button>
+            </article>
+
+            <article class="pricing__article cell info">
+                <h3 class="pricing__option">AGENCY</h3>
+                <h1>$55</h1>
+                <h5>per month</h5>
+                <ul>
+                    <li class="strong">Up to 25 Projects</li>
+                    <li class="strong">2 additions Developers</li>
+                    <li class="strong">Unlimited Support</li>
+                    <li class="strong hidden">Unlimited Support</li>
+                </ul>
+                <button class="pricing__button"><a>Get Started</a></button>
+            </article>
+               
+            <article class="pricing__article cell info">
+                <h3 class="pricing__option">PRO</h3>
+                <h1>75$</h1>
+                <h5>per month</h5>
+                <ul>
+                    <li class="strong">Up to 25 Projects</li>
+                    <li class="strong">2 additions Developers</li>
+                    <li class="strong">Unlimited Support</li>
+                    <li class="strong">1.5GB Disk Space</li>
+                </ul>
+                <button class="pricing__button"><a>Get Started</a></button>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <section class="team row" id="Team">
+        
+        <div class="team__container container info">
+            <h2>THE TEAM</h2>
+        </div>
+
+        <div class="team__container container">
+
+            <article class="team__article cell info">
+                <img src="./images/cto.png" alt="">
+                <h3>CTO</h3>
+                <p class="strong">Johhny B Good</p> 
+                <p>The brains behind whole operation</p>
+                <div class="media__container">
+                    <img src="./images/team-twitter.svg" alt="Twitter logo">
+                    <img src="./images/team-facebook.svg" alt="Facebook logo">
+                </div>
+            </article>
+
+            <article class="team__article cell info">
+                <img src="./images/ceo.png">
+                <h3>CEO</h3>
+                <p class="strong">Roll Over Beethoven</p> 
+                <p>The one that puts it all together</p>
+                <div class="media__container">
+                    <img src="./images/team-twitter.svg" alt="Twitter logo">
+                    <img src="./images/team-facebook.svg" alt="Facebook logo">
+                </div>
+            </article>
+
+            <article class="team__article cell info">
+                <img src="./images/cfo.png">
+                <h3>CFO</h3>
+                <p class="strong">Chuck Berry</p> 
+                <p>The guy with his hand on the wallet</p>
+                <div class="media__container">
+                    <img src="./images/team-twitter.svg" alt="Twitter logo">
+                    <img src="./images/team-facebook.svg" alt="Facebook logo">
+                </div>
+            </article>
+            
+        </div>
+
+    </section>
+
+
+    <footer class="footer row">
+        <img src="./images/webscope.svg">
+    </footer>
+    
+</body>
+</html>

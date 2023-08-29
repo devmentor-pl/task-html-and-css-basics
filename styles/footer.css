@@ -1,0 +1,15 @@
+.footer {
+    background-color: var(--color-echo);
+    display: flex;
+    justify-content: center;
+}
+
+/* Subfoooter */
+
+.subfooter {
+    background-color: var(--color-bravo);
+}
+
+.subfooter img {
+    margin: 1rem 0;
+}
