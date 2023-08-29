@@ -296,9 +296,14 @@ body {
 }
 
 .profit__container {
-  list-style: none;
   padding: 0;
   margin-top: -50px;
+}
+
+.profit__container ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: -30px;
 }
 
 .price--profit {
