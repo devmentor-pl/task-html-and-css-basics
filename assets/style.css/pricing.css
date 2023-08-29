@@ -1,0 +1,76 @@
+.pricing {
+	margin-bottom: 30px;
+}
+
+.pricing__container {
+	text-align: center;
+}
+
+.pricing__title {
+	margin-bottom: 15px;
+	margin-top: 50px;
+	font-size: 26px;
+}
+
+.price__container {
+	display: flex;
+	justify-content: center;
+}
+
+.price__box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	flex: 1;
+}
+
+.box,
+.box--big {
+	margin: 25 10;
+	min-height: 400px;
+}
+
+.box__list {
+	margin-bottom: 60px;
+}
+
+.box__title {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.box__item--bold {
+	font-weight: 900;
+	font-size: 55px;
+	margin-bottom: 20px;
+}
+
+.box__item.description--projects {
+	margin-top: 50px;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+.box__item.description--developers,
+.box__item.description--support,
+.box__item.description--disk {
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 700;
+}
+
+.button__price {
+	margin-top: auto;
+	background-color: var(--color--button-blue);
+	margin-bottom: 20px;
+}
+
+.box {
+	max-width: 20%;
+}
+
+.box--big {
+	max-width: 25%;
+}
