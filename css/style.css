@@ -1,0 +1,24 @@
+@import url('./index.css');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+html {
+	font-size: 62.5%;
+	font-family: 'Montserrat', sans-serif;
+	color: var(--white-color);
+	width: 100%;
+}
+
+a {
+	color: var(--white-color);
+}
+button {
+	color: var(--white-color);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}

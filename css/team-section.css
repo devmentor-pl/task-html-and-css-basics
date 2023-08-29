@@ -1,0 +1,80 @@
+.team-section {
+	padding: 5rem 0 10rem 0;
+	color: var(--black-color);
+}
+.wrapper__team-section {
+	margin: 0 auto;
+	width: 80%;
+}
+.team-section__title {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-align: center;
+}
+.team-members-box__item {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+}
+.team-members-box__item img {
+	padding: 5rem 0 2rem;
+	width: 30%;
+}
+.team-members-box__member-job {
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+.team-members-box__member-name {
+	padding: 0.8rem 0;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+.team-members-box__member-description {
+	font-size: 1.2rem;
+	font-weight: lighter;
+}
+.team-members-box__social-media {
+	display: flex;
+	gap: 10px;
+	padding-top: 1.2rem;
+}
+.team-members-box__social-media a {
+	padding: 1rem;
+
+	width: 30px;
+	height: 30px;
+
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.social-media--twitter {
+	background-image: url('../images/twitter.svg');
+}
+.social-media--facebook {
+	background-image: url('../images/facebook.svg');
+}
+.team-members-box__social-media a {
+	filter: invert(70%) sepia(1%) saturate(1215%) hue-rotate(215deg) brightness(90%) contrast(60%);
+
+	cursor: pointer;
+}
+@media (min-width: 768px) {
+	.team-section__team-members-box {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		gap: 20px;
+	}
+	.team-members-box__social-media {
+		gap: 0;
+	}
+	.social-media--twitter {
+		background-size: 40%;
+	}
+	.social-media--facebook {
+		background-size: 30%;
+	}
+}
