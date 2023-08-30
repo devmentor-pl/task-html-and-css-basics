@@ -1,0 +1,16 @@
+.footer {
+	display: flex;
+	min-height: 90px;
+	background-color: var(--color-secondary);
+	color: var(--color-primary);
+	justify-content: center;
+}
+
+.footer__info {
+	display: flex;
+	align-items: center;
+}
+
+.footer__logo {
+	margin: 0 20px;
+}
