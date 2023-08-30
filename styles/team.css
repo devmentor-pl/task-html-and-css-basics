@@ -1,0 +1,41 @@
+.team {
+    color: #333;
+    text-align: center;
+}
+
+.team__container--content {
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px 40px;
+}
+
+.team__title {
+    font-size: 30px;
+    padding: 70px 0 40px;
+    text-transform: uppercase;
+}
+
+.team__person--list {
+    height: 380px;
+    width: 28%;
+}
+
+.team__person  {
+    padding: 20px 0 30px;
+}
+
+.team__position, .team__name, .team__description {
+    padding-bottom: 10px;
+}
+
+.team__position {
+    font-size: 18px;
+}
+
+.team__name {
+    font-weight: bold;
+}
+
+.team__logos img {
+    padding: 7px;
+}

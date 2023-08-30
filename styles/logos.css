@@ -1,0 +1,10 @@
+.logos{
+    background-color: #F9FAFA;
+}
+
+.logos__container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+}
