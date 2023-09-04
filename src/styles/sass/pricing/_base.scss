@@ -1,0 +1,117 @@
+@import '../abstracts/';
+
+.pricing {
+    background-color: $color-high-light-grey;
+
+    .pricing__header {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 20px 0 20px 0;
+        color: $color-dark-grey
+    }
+
+    .pricing__description {
+        text-align: center;
+        font-size: 1em;
+        font-weight: 200;
+        line-height: 1.5em;
+        color: $color-dark-grey
+    }
+
+    .pricing__container {
+        @include flexAbsoluteCenter;
+        display: grid;
+        grid-template-columns: 80%;
+        grid-template-rows: repeat(3, 350px);
+        grid-auto-flow: row;
+
+        .pricing__element {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px 0 20px 0;
+
+            &:hover {
+                background-color: $color-white;
+                box-shadow: 4px 5px 21px -6px $color-medium-green;
+            }
+
+            .pricing__element-info {
+                &>* {
+                    @include flexAbsoluteCenter;
+                }
+
+                .type {
+                    font-size: 1em;
+                    margin-bottom: 20px;
+                }
+
+                .price {
+                    font-size: 2em;
+                    font-weight: 600;
+                }
+
+                .sub-price {
+                    font-size: 0.8em;
+                    margin-bottom: 20px;
+                }
+
+                .benefits {
+                    margin-bottom: 20px;
+
+                    ul {
+                        @include flexAbsoluteCenter;
+                        flex-direction: column;
+                    }
+                }
+
+            }
+
+            button {
+                display: flex;
+                width: 60%;
+                padding: 10px;
+                border: none;
+                background-color: rgb(36, 242, 139);
+                color: rgb(255, 255, 255);
+                border-radius: 5px;
+                font-weight: 700;
+                font-size: 0.5em;
+            }
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    .pricing {
+        .pricing__header {
+            font-size: 1.5em;
+        }
+
+        .pricing__description {
+            font-size: 1.3em;
+            padding-bottom: 30px;
+
+        }
+
+        .pricing__container {
+            display: grid;
+            grid-template-columns: repeat(3, 300px);
+            grid-template-rows: 80%;
+            grid-auto-flow: row;
+
+            .pricing__element {
+                padding: 20px 40px 0px 40px;
+                min-height: 300px;
+            }
+
+            button {
+                width: 40%;
+                padding: 20px;
+            }
+        }
+    }
+
+}

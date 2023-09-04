@@ -1,0 +1,79 @@
+@import '../abstracts/';
+
+.hero {
+    height: 70%;
+    @include flexAbsoluteCenter;
+
+    .hero__info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.5em;
+
+        &>* {
+            margin-bottom: 20px;
+        }
+
+        .hero__header {
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .hero__sub-header {
+            font-weight: 400;
+            font-size: 0.8em;
+        }
+
+        .hero__button {
+            width: 30%;
+            padding: 10px;
+            border: none;
+            background-color: $color-medium-green;
+            color: $color-white;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 0.5em;
+        }
+    }
+
+    .hero__photo-container {
+        display: none;
+    }
+}
+
+@media(min-width: 768px) {
+    .hero {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        color: $color-white;
+        padding: 40px 0px;
+
+        &>* {
+            width: 50%;
+        }
+
+        .hero__info {
+            padding: 20px 100px 20px 0;
+        }
+
+        .hero__photo-container {
+            width: 40%;
+            height: 80%;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-white;
+            transform: rotate(-10deg);
+            border-radius: 5px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+    }
+}

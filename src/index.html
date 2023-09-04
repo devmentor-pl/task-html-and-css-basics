@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/styles/reset/reset.css">
+    <link rel="stylesheet" href="/src/styles/sass/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header__container container">
+            <h1 class='header__logo'>
+                <img src='./assets/logo.svg' alt="logo">
+                </img>
+            </h1>
+            <div class="navigation"></div>
+        </div>
+        <div class="hero container" id="hero">
+            <div class="hero__info">
+                <h2 class="hero__header">Beautiful Free Nova template</h2>
+                <p class="hero__sub-header">A top notch premium quality template for your next web project</p>
+                <button class="hero__button">Download FREE!</button>
+            </div>
+            <div class="hero__photo-container">
+                <img class="image" src="../images/screen.png" alt="screen" width="350px">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="features" id="features">
+            <h2 class="features__header container">FEATURES</h2>
+            <div class="features__container container"></div>
+        </section>
+        <section class="websites">
+            <div class="websites__container container">
+                <img class="websites__photo" src="./images/logos.png" alt="logos">
+            </div>
+        </section>
+        <section class="adverb">
+            <div class="adverb__image-container">
+                <img src="../images/imac.png" alt="monitor">
+            </div>
+            <div class="adverb__text">
+                <h3 class="adverb__text-header">SIMPLE AND BEAUTIFUL</h3>
+                <p class="adverb__text-description">Use Nova theme for your next web project. It
+                    is completely customizable so you can change any of the sections to fit your needs.
+                    Nova Theme is free for any kind of use, personal and commercial. Have fun and good luck!
+                </p>
+            </div>
+        </section>
+        <section class="pricing" id="pricing">
+            <h3 class="pricing__header container">CHOOSE YOUR PRICING PLAN</h3>
+            <p class="pricing__description container">Pick any of our super affordable pricing plans</p>
+            <div class="pricing__container container"></div>
+        </section>
+        <section class="team" id="team">
+            <h3 class="team__header container">THE TEAM</h3>
+            <div class="team__sub-header">
+                <label for="select__newmember">ADD NEW MEMBER OF TEAM</label>
+                <select name="select__newmember" id="select__member">
+                    <option value="">--Please choose an option--</option>
+                    <option value="addYourself">Add Yourself</option>
+                    <option value="generateRandomMember">Generate Random Member</option>
+                </select>
+            </div>
+            <div class="team__container container"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__text">A free template by</div>
+        <img class="footer__photo" src="./images/webscope.svg" alt="webscope">
+    </footer>
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>

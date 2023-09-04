@@ -1,0 +1,129 @@
+@import '../abstracts/';
+
+.team__header {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 20px 0 20px 0;
+    color: $color-dark-grey
+}
+
+.team__sub-header {
+    text-align: center;
+    @include flexAbsoluteCenter;
+    flex-direction: column;
+    padding: 10px 0;
+
+    label {
+        font-size: 0.5em;
+        padding-bottom: 10px;
+    }
+
+    select {
+        font-size: 0.5rem;
+        padding: 10px 5px;
+
+    }
+}
+
+.team__container {
+    @include flexAbsoluteCenter;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-columns: 80%;
+    grid-template-rows: repeat(3, 350px);
+    grid-auto-flow: row;
+
+    .team__person {
+        @include flexAbsoluteCenter;
+        flex-direction: column;
+        padding: 20px 0 20px 0;
+
+        &>* {
+            margin-bottom: 10px;
+            @include flexAbsoluteCenter
+        }
+
+        .team__photo {
+            width: 80px;
+            height: 80px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
+
+        .type {
+            font-size: 1em;
+            font-weight: 600;
+        }
+
+        .price {
+            font-size: 2em;
+            font-weight: 600;
+        }
+
+        .sub-price {
+            font-size: 0.8em;
+        }
+
+        .feature__description {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .feature__text {
+            text-align: center;
+        }
+    }
+
+    .team__person.you {
+        display: none;
+    }
+
+    .team__person.addYourself {
+
+        .team__photo {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .team__function, .team__data {
+            input {
+                border: none;
+            }
+        }
+
+    }
+}
+
+@media(min-width: 768px) {
+    .team__header {
+        font-size: 1.5em;
+    }
+
+    .team__sub-header {
+        text-align: center;
+
+        label {
+            font-size: 1em
+        }
+    }
+
+    .team__container {
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        grid-template-rows: 80%;
+        grid-auto-flow: row;
+
+        .team__person {
+            &>* {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

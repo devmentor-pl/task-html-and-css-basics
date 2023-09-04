@@ -1,0 +1,12 @@
+@import '../abstracts/';
+
+.footer{
+    width: 100%;
+    color: $color-white;
+    background-color: $color-dark-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    padding: 5px;
+}
