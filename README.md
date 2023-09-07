@@ -1,56 +1,51 @@
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+Table of Contents:
 
-&nbsp;
+- Project Overview
+- Project Structure
+- Features
+- How to Use
+- Contributing
+- License
 
+-Project Overview
 
-# HTML & CSS: Podstawy
+This project is a static HTML and CSS template. It offers a sleek and modern design with customizable elements. You can use this template for personal or commercial purposes.
 
-Najwyższy czas zakodować prawdziwą stronę internetową! 
+-Project Structure
 
-Będziemy się wzorować na projekcie od [Webscope](https://themewagon.com/themes/project-app-showasing-onepage-bootstrap-template-free-nova/), który wygląda tak:
+The project files are organized as follows:
 
-![](./assets/demo.png)
+index.html: The main HTML file containing the structure of the webpage.
+css/style.css: The CSS file that styles the HTML elements.
+node_modules: Directory for external dependencies (normalize.css in this case).
+images: Directory containing images used in the project.
+Features
 
-&nbsp;
+Header Section
+A navigation bar with links to "The Team," "Pricing," and "Features."
 
-## Opis projektu
+A header section with a title, description, and a call-to-action button.
 
-Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m.in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). W VS Code ich podgląd uzyskasz dzięki rozszerzeniu [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg).
+Features Section
+A section highlighting key features of the template.
+Each feature includes an icon, title, and description.
 
-Font, który jest używany w projekcie, to [Montserrat](https://fonts.google.com/specimen/Montserrat).
+Logo Section
+Displays a list of company logos.
+Provides a visually appealing presentation of logos.
 
-Tło w górnej części strony to gradient: 
-`background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));`
+Description Section
+Showcases a description and an image.
+Describes the template's simplicity and customizability.
 
-Jeśli chcesz dokładnie odwzorować położenie poszczególnych elementów, możesz użyć rozszerzenia do Chrome o nazwie [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi). Pozwoli Ci ono osadzić przedstawiony wyżej plik poglądowy (lokalizacja: `./assets/demo.png`) jako tło dla tworzonej strony.
+Pricing Plan Section
+Presents different pricing plans with details.
+Each plan includes a name, price, period, and a list of benefits.
+Users can choose a plan and click "Get Started."
 
-> **Uwaga!** Możliwe, że w powyższym rozszerzeniu będziesz musiał użyć odpowiedniej skali obrazu wykorzystywanego jako podgląd. Jest to zależne od [ustawień systemowych](https://pliki.wiki/blog/jak-korzystac-ze-skalowania-ekranu-w-systemie-windows-10/). Zazwyczaj jednak domyślne ustwienia wtyczki dobrze się sprawdzają i poza jej instalacją nie musisz nic robić.
+Team Section
+Introduces the team members with their names, positions, and responsibilities.
+Provides social media icons for team members.
 
-Strona nie musi być wykonana zgodnie z pierwowzorem 1:1. Ważne, aby na pierwszy rzut oka było widać, że jest to ten sam projekt. 
-
-Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinien dobrze wyglądać w różnych rozdzielczościach / na różnej wielkości monitorach. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Na razie jednak skup się na odwzorowaniu zamieszczonego w zadaniu widoku. Innymi rozdzielczościami zajmiemy się w kolejnym module.
-
-## Propozycja podziału
-
-Poniżej zamieszczam propozycję podziału strony na poszczególne grupy:
-
-- wiersz (`width: 100%`) – kolor zielony
-- wyśrodkowanie (`max-width: 1150px`) – kolor niebieski
-- komórka (wiele elementów w jednej linii) – kolor pomarańczowy.
-
-Nie musisz się od tego stosować – to jedynie moja koncepcja, która ma Ci pomóc w utworzeniu odpowiedniej struktury.
-
-![](./assets/demo-info.png)
-
-&nbsp;
-
-> :warning: Jeśli nie posiadasz materiałów do tego zadania, to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/p/html-and-css-basics/).
-
-
-&nbsp;
-
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+Footer Section
+Displays a footer with the "webscope" logo.
