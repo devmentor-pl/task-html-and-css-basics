@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav__menu,
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav__item {
+	margin: 10px 20px;
+	list-style-type: none;
+}
+
+.nav__link {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
