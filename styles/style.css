@@ -1,4 +1,3 @@
-/* Navigation */
 .nav__logo-link {
     margin-left: 1.5rem;
     align-self: flex-end;
@@ -22,8 +21,6 @@
     text-decoration: none;
     font-size: 1.7rem;
 }
-
-/* Header */
 
 .header__heading {
     padding: 10rem;
@@ -198,8 +195,6 @@
 {
     margin-top: 7rem
 }
-
-/* Teams heading */
 
 .employers {
     margin: 2rem;
