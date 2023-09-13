@@ -103,10 +103,10 @@ header {
 	max-width: 1150px;
 }
 
-.header__content__heading {
+.header__heading {
 	color: rgb(255, 255, 255);
 }
-.header__content__paragraph {
+.header__paragraph {
     color: rgba(255, 255, 255, .7);
 }
 .header__btn{
