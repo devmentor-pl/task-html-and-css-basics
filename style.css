@@ -176,3 +176,17 @@ small{
 	padding:20px;
 	background-color: #fff;
 }
+
+.nova__content{
+	max-width: 1120px;
+	margin:40px;
+	display:flex;
+	gap:100px;
+	padding:20px;
+}
+
+.nova__heading{
+	text-transform: uppercase;
+	font-weight: 100;
+	margin-bottom: 50px;
+}
