@@ -145,6 +145,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center; 
+	padding:20px;
 }
 
 .features__img {
@@ -165,6 +166,13 @@ span {
     margin-top: 20px; 
 }
 
+small{
+	text-align: center;
+}
 
-
-
+.features__logos{
+	display:flex;
+	justify-content: center;
+	padding:20px;
+	background-color: #fff;
+}
