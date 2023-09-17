@@ -1,0 +1,46 @@
+.download {
+	@include section-padding();
+	background-color: var(--color-blue);
+	color: var(--color-white);
+	text-align: center;
+
+	&__title {
+		font-size: calc(0.5rem + 0.8vw);
+		font-weight: 700;
+		margin-bottom: 1rem;
+	}
+
+	&__para {
+		font-size: calc(0.4rem + 0.4vw);
+		margin-bottom: 1rem;
+	}
+
+	&__form {
+		& input {
+			border-radius: 1rem;
+			border: none;
+			height: 4rem;
+			padding: 1rem;
+			width: 15rem;
+
+			&::placeholder {
+				color: var(--color-grey);
+				font-size: calc(0.4rem + 0.4vw);
+				padding-left: 3rem;
+			}
+			&:focus {
+				outline: none;
+			}
+		}
+
+		.download__btn {
+			background-color: var(--color-green);
+			color: var(--color-white);
+			width: 10rem;
+
+			&:hover {
+				background-color: var(--color-green-light);
+			}
+		}
+	}
+}
