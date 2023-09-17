@@ -1,56 +1,104 @@
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
-
-&nbsp;
+ ![screen](./assets/demo.png)
 
 
-# HTML & CSS: Podstawy
+# Project NoVa PaGe
+See the live version of [Project NoVa PaGe](https://themewagon.github.io/Nova/?_ga=2.59235245.1436688925.1681925893-247604377.1681740808).
 
-Najwyższy czas zakodować prawdziwą stronę internetową! 
+1-3 sentences about the project...
 
-Będziemy się wzorować na projekcie od [Webscope](https://themewagon.com/themes/project-app-showasing-onepage-bootstrap-template-free-nova/), który wygląda tak:
 
-![](./assets/demo.png)
+**The challenge**
+Users should be able to:
 
-&nbsp;
-
-## Opis projektu
-
-Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m.in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). W VS Code ich podgląd uzyskasz dzięki rozszerzeniu [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg).
-
-Font, który jest używany w projekcie, to [Montserrat](https://fonts.google.com/specimen/Montserrat).
-
-Tło w górnej części strony to gradient: 
-`background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));`
-
-Jeśli chcesz dokładnie odwzorować położenie poszczególnych elementów, możesz użyć rozszerzenia do Chrome o nazwie [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi). Pozwoli Ci ono osadzić przedstawiony wyżej plik poglądowy (lokalizacja: `./assets/demo.png`) jako tło dla tworzonej strony.
-
-> **Uwaga!** Możliwe, że w powyższym rozszerzeniu będziesz musiał użyć odpowiedniej skali obrazu wykorzystywanego jako podgląd. Jest to zależne od [ustawień systemowych](https://pliki.wiki/blog/jak-korzystac-ze-skalowania-ekranu-w-systemie-windows-10/). Zazwyczaj jednak domyślne ustwienia wtyczki dobrze się sprawdzają i poza jej instalacją nie musisz nic robić.
-
-Strona nie musi być wykonana zgodnie z pierwowzorem 1:1. Ważne, aby na pierwszy rzut oka było widać, że jest to ten sam projekt. 
-
-Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinien dobrze wyglądać w różnych rozdzielczościach / na różnej wielkości monitorach. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Na razie jednak skup się na odwzorowaniu zamieszczonego w zadaniu widoku. Innymi rozdzielczościami zajmiemy się w kolejnym module.
-
-## Propozycja podziału
-
-Poniżej zamieszczam propozycję podziału strony na poszczególne grupy:
-
-- wiersz (`width: 100%`) – kolor zielony
-- wyśrodkowanie (`max-width: 1150px`) – kolor niebieski
-- komórka (wiele elementów w jednej linii) – kolor pomarańczowy.
-
-Nie musisz się od tego stosować – to jedynie moja koncepcja, która ma Ci pomóc w utworzeniu odpowiedniej struktury.
-
-![](./assets/demo-info.png)
-
-&nbsp;
-
-> :warning: Jeśli nie posiadasz materiałów do tego zadania, to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/p/html-and-css-basics/).
+View the optimal layout for the site depending on their device's screen size
 
 
 &nbsp;
+ 
+## 💡 Technologies
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+
+
+&nbsp;
+ 
+## 🔗 links
+
+- solution URL: (https://github.com/Mike161pl/task-html-and-css-basics)
+- Live URL site: (https://mike161pl.github.io/task-html-and-css-basics/)
+
+&nbsp;
+ 
+## 🤔 Solutions provided in the project
+
+- HTML 5
+
+ &nbsp;
+
+- SASS:
+```
+some example code
+	.team {
+	display: flex;
+	&__title {
+		display: flex;
+		justify-content: center;
+		text-transform: uppercase;
+		padding: 2rem 4rem;
+		font-size: 4rem;
+		font-weight: 400;
+	}
+	&__cards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		padding: 4rem;
+	}
+	&__card {
+		padding: 2rem;
+	}
+	padding: 2rem;
+	&__role {
+		font-weight: 400;
+	}
+	&__name {
+		padding: 1rem;
+		font-weight: 700;
+	}
+	&__contact {
+		display: flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		width: 50%;
+		padding: 2rem;
+	}
+}
+more code :)
+```
+ &nbsp;
+
+ 
+- three - example with a screenshot
+[screen](./assets/screencapture-mike161pl-github-io-task-html-and-css-basics-2023-04-19-19_48_53.png)
+
+
+&nbsp;
+
+## 💭 What I learned
+
+While building this project I had a chance to test my HTML and CSS skills and build page to the given design. I practise Flexbox and planning media queries while writing HTML structure.
+
+
+&nbsp;
+
+## 🙋‍♂️ Feel free to contact me
+Find me on...
+
+Github - Mike161pl (https://github.com/Mike161pl)
+LinkedIn - [@Michał Plaszczak](https://www.linkedin.com/in/michal-plaszczak/)
+&nbsp;
+
+## 👏 Thanks / Special thanks / Credits
+Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) – for providing me with this task and for code review.
