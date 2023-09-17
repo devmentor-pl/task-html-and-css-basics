@@ -44,13 +44,149 @@ Nie musisz się od tego stosować – to jedynie moja koncepcja, która ma Ci po
 
 ![](./assets/demo-info.png)
 
+
+
+
+___
+# SEKCJA NOTATEK - usuń po napisaniu README :)
+
+###   funkcjonalności programu 
+-
+    
+### problemy i ich rozwiązania + fragmenty kodu
+-
+`fragment kodu`
+```
+większy fragment kodu
+```
+    
+    
+### materiały, które pomogły Ci uzyskać dany efekt
+-
+    
+### reużywalne części projektu
+-
+    
+### narzędzia, frameworki, biblioteki
+-
+    
+### niezbędne paczki i komendy do uruchomienia projektu
+-
+    
+###   wtyczki – rozszerzenia do przeglądarki czy do IDE
+-
+
+    
+### inspiracje
+-
+    
+### wnioski, pomysły na rozwój projektu
+-
+
 &nbsp;
 
-> :warning: Jeśli nie posiadasz materiałów do tego zadania, to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/p/html-and-css-basics/).
+
+
+## *`Koniec sekcji notatek. Poniżej znajdziesz szablon właściwego README.`*
+___
+
+
+
+
+![screen or GIF of your app](https://via.placeholder.com/1000x300)
+
+
+# Project Name
+
+See the live version of [Project Name](https://devmentor.pl).
+
+1-3 sentences about the project...
+
+**Main features**:
+- one
+- two
+- three
+
+
+&nbsp;
+ 
+## 💡 Technologies
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+
+&nbsp;
+ 
+## 🔗 See also
+
+Are you interested in **techonologyName** and **technologyName**? See my other project [Interesting Project Name](https://devmentor.pl/podcast).
+
+&nbsp;
+ 
+## 💿 Installation
+
+The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/). Having them installed, type into the terminal: `npm i`.
+
+
+&nbsp;
+ 
+## 🤔 Solutions provided in the project
+
+- one
+
+ &nbsp;
+
+- two:
+```
+some example code
+
+more code :)
+```
+ &nbsp;
+
+- three
+
+| Issue                     | Solution                       |     |
+| ------------------------- | -----------------------------  | --- |
+| one                       | `short code example`           |     |
+| two                       | `short code example`           |     |
+| thre                      | `short code example`           |     |
+
+ &nbsp;
+ 
+- four - some shortcut <kbd>Ctrl</kbd> + <kbd>C</kbd>
+
+ &nbsp;
+ 
+- five - example with a screenshot
+<img alt='what it is' src="https://via.placeholder.com/500x200" />
 
 
 &nbsp;
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+## 💭 Conclusions for future projects
+
+I would like to improve...
+
+#### This is the first issue:
+```
+and this is a code example
+```
+
+#### This is the second issue:
+```
+and this is a code example
+```
+
+
+&nbsp;
+
+## 🙋‍♂️ Feel free to contact me
+Write sth nice ;) Find me on...
+
+
+&nbsp;
+
+## 👏 Thanks / Special thanks / Credits
+Thanks to my [Mentor - devmentor.pl](https://devmentor.pl/) – for providing me with this task and for code review.
