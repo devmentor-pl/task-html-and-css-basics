@@ -1,0 +1,50 @@
+.team {
+	background-color: var(--color-white);
+	@include section-padding();
+
+	&__title {
+		@include title-styling();
+	}
+
+	&__content {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+		justify-content: center;
+
+		.team__card {
+			flex-basis: 20rem;
+			margin-top: 4rem;
+			text-align: center;
+
+			.team__img {
+				width: 40%;
+			}
+
+			.team__position {
+				font-size: calc(0.5rem + 0.5vw);
+				margin: 2rem 0 1rem 0;
+			}
+
+			.team__name,
+			.team__desc {
+				font-size: calc(0.5rem + 0.3vw);
+				margin-bottom: 1rem;
+			}
+
+			.team__name {
+				font-weight: 700;
+			}
+
+			.team__list {
+				display: flex;
+				gap: 1.5rem;
+				justify-content: center;
+
+				&--photo {
+					height: 1rem;
+				}
+			}
+		}
+	}
+}

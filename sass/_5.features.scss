@@ -1,0 +1,55 @@
+.features {
+	background-color: var(--color-black);
+	color: var(--color-white);
+	display: flex;
+	justify-content: center;
+	@include section-padding();
+
+	&__title {
+		@include title-styling();
+	}
+
+	&__cards {
+		align-items: flex-start;
+		column-gap: 5rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.card {
+			flex-basis: 20rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			text-align: center;
+
+			&__img {
+				margin-top: 3rem;
+				width: 6rem;
+				height: 6rem;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: var(--color-white);
+				border-radius: 50%;
+				margin-bottom: 3rem;
+
+				&--link {
+					width: 30%;
+				}
+			}
+
+			&__title {
+				text-transform: uppercase;
+				margin-bottom: 1rem;
+				font-size: calc(0.5rem + 0.4vw);
+			}
+
+			&__para {
+				font-size: calc(0.5rem + 0.35vw);
+				line-height: 1.5rem;
+			}
+		}
+	}
+}
