@@ -253,3 +253,65 @@ small {
 	color:rgb(255, 255, 255);
 	cursor:pointer;
 }
+.team__heading {
+	margin: 20px auto;
+	max-width: 1150px;
+	text-align: center;
+}
+
+.team__members {
+	margin: 40px auto;
+	max-width: 1150px;
+
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	padding: 20px;
+	
+}
+
+
+.team__role {
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.team__name {
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.team__icons {
+	gap: 30px;
+	margin-top: 20px;
+}
+
+.team__img,
+.team__icons {
+	display: flex;
+	justify-content: center;
+}
+
+.team__role,
+.team__name,
+.team__description {
+	text-align: center;
+}
+
+.footer__container{
+	background-color: rgb(71, 70, 70);
+	color: rgb(255, 255, 255);
+}
+
+.footer__logo{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap:20px;
+	height:70px;
+	flex-direction: row-reverse;
+}
+
+.footer__copyrights{
+	font-weight: 500;
+}
