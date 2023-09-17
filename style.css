@@ -78,6 +78,7 @@ header {
 	justify-content: space-between;
 	margin: 70px 20px 20px 80px;
 	max-width: 1150px;
+	margin:30px auto;
 }
 
 .header__heading {
@@ -179,7 +180,7 @@ small {
 }
 
 .nova__content {
-	/* max-width: 1150px; */
+	max-width: 1150px;
 	margin: 40px;
 	display: flex;
 	gap: 100px;
@@ -194,11 +195,14 @@ small {
 
 .pricing__plan {
 	text-align: center;
+	margin: 0 auto;
 	max-width: 1150px;
 }
 
 .pricing__heading {
 	font-weight: 300;
+	margin: 0 auto;
+	max-width: 1150px;
 }
 
 .pricing__examples {
@@ -207,6 +211,7 @@ small {
 	grid-template-columns: repeat(3, 1fr);
 	gap: 100px;
 	padding: 50px;
+	margin: 0 auto;
 }
 
 .pricing__basic,
@@ -262,7 +267,6 @@ small {
 .team__members {
 	margin: 40px auto;
 	max-width: 1150px;
-
 	display: flex;
 	justify-content: center;
 	gap: 30px;
