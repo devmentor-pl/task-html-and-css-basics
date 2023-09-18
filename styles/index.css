@@ -20,9 +20,12 @@ body {
     text-decoration: none;
     list-style: none;
     display: flex;
+    align-items: center;
 }
 .header__nav_list-item {
-    margin-right: 10px;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
 }
 .header__section {
     display: flex;
