@@ -1,10 +1,13 @@
 /* index.css */ 
 body {
     font-family: 'Montserrat', sans-serif;
+    width: 1440px;
+    height: 4401px;
 }
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     padding: 15px;
+    height: 15%;
 }
 .header__nav {
     display: flex;
@@ -12,8 +15,9 @@ body {
     align-items: center;
 }
 .header__nav_logo > img {
-    max-width: 100px;
-    margin-top: 5px;
+    max-width: 85px;
+    margin-top: 18px;
+    margin-left: 40px;
     padding: 5px;
 }
 .header__nav_list {
@@ -21,24 +25,29 @@ body {
     list-style: none;
     display: flex;
     align-items: center;
+    margin-right: 60px;
 }
 .header__nav_list-item {
     padding: 10px;
+    margin-right: 5px;
     font-size: 14px;
     color: white;
 }
 .header__section {
     display: flex;
-    align-items: center;
+    
 }
 .header__section_text {
     display: flex;
     flex-direction: column;
-    
-    width: 45%;
+    margin-left: 40px;  
+    max-width: 420px;
+    margin-top: 10px;
+    align-items: flex-start;
     
 }
 .header__section_text-title {
+    padding: 0px;
     color: white;
     font-size: 36px;
     margin: 20px 0px 10px;
@@ -47,20 +56,39 @@ body {
 .header__section_text-description {
     color: white;
     font-size: 18px;
+    text-align: left;
+    margin-right: 180px;
 }
 .header__section_text-button {
-    margin: 30px 0px 0px;
+    background-color: #25F18B;
+    border-radius: 10px;
+    border: 1px solid #25F18B;
+    width: 200px;
+    height: 45px;
+    color: white;
+    margin-top: 50px;
 }
 .header__section_image {
-    width: 45%;
+    rotate: -6.5deg;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    max-width: 510px;
+    
 }
 .screen__image {
+    padding-top: 8px;
+    padding-bottom: 8px;
     width: 100%;
     height: 100%;
+    border-radius: 20px;
+    scale: 0.95;
 }
 
 .features {
     background-color: #000000;
+    
 }
 .features__section {
     display: flex;
@@ -105,11 +133,13 @@ body {
 }
 .logos {
     background-color: #F9FAFA;
+    
 }
 .logos__container {}
 .design {
     display: flex;
     background-color: #FFFFFF;
+    height: 20%;
 }
 .desing__container {
     
@@ -124,6 +154,7 @@ body {
 
 .pricing {
     background-color: #F8F9F9;
+    
 }
 .pricing__container {
     display: flex;
@@ -147,6 +178,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
+    
 }
 .team__text {}
 .team__text-title {}
@@ -162,6 +194,7 @@ body {
 
 .footer {
     background-color: #464646;
+    
 }
 .footer__container {
     display: flex;
