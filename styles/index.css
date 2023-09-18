@@ -1,5 +1,7 @@
 /* index.css */ 
-
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     padding: 15px;
@@ -50,7 +52,7 @@
 }
 
 .features {
-    background-color: grey;
+    background-color: #000000;
 }
 .features__section {
     display: flex;
@@ -93,11 +95,13 @@
 .feature-subtext {
     color: white;
 }
-.logos {}
+.logos {
+    background-color: #F9FAFA;
+}
 .logos__container {}
 .design {
     display: flex;
-
+    background-color: #FFFFFF;
 }
 .desing__container {
     
@@ -110,7 +114,9 @@
 .design__text-title {}
 .design__text-subtext {}
 
-.pricing {}
+.pricing {
+    background-color: #F8F9F9;
+}
 .pricing__container {
     display: flex;
     flex-direction: column;
@@ -132,6 +138,7 @@
 .team {
     display: flex;
     flex-direction: column;
+    background-color: #FFFFFF;
 }
 .team__text {}
 .team__text-title {}
@@ -145,9 +152,10 @@
 .team__container_person-description {}
 .team__container_person-links {}
 
-.footer {}
+.footer {
+    background-color: #464646;
+}
 .footer__container {
-    background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
