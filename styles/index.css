@@ -11,6 +11,11 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.header__nav_logo > img {
+    max-width: 100px;
+    margin-top: 5px;
+    padding: 5px;
+}
 .header__nav_list {
     text-decoration: none;
     list-style: none;
