@@ -144,3 +144,17 @@
 .team__container_person-name {}
 .team__container_person-description {}
 .team__container_person-links {}
+
+.footer {}
+.footer__container {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__container-text {}
+.footer__container-logo {}
+
+
+
+
