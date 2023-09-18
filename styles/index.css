@@ -93,3 +93,41 @@
 .feature-subtext {
     color: white;
 }
+.logos {}
+.logos__container {}
+.design {
+    display: flex;
+
+}
+.desing__container {
+    
+}
+.desing__container > img {
+    width: 300px;
+    height: 300px;
+}
+.design__text {}
+.design__text-title {}
+.design__text-subtext {}
+
+.pricing {}
+.pricing__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing__container-title {}
+.pricing__container-subtitle {}
+.pricing__box-items{
+    display: flex;
+    justify-content: space-between;
+}
+.pricing__box-item {}
+.pricing__box-item-title {}
+.pricing__box-item-subtitle {}
+.pricing__box-item-monthly {}
+.pricing__box-item-list {}
+.pricing__box-item-list-ad {}
+
+
+
