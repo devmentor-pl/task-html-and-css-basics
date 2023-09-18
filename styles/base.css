@@ -1,1 +1,19 @@
 /* base.css */ 
+
+.row {
+    border: 5px solid green;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    border: 2px solid blue;
+    padding: 5px 0;
+}
+.cell {
+    min-height: 30px;
+    min-width: 30px;
+    border: 2px solid orange;
+}
