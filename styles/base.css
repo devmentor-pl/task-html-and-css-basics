@@ -1,19 +1,15 @@
 /* base.css */ 
 
 .row {
-    border: 0px solid green;
     margin-left: 0px;
     padding: 5px 0;
-    
 }
 .container {
     margin: 0 auto;
     max-width: 1150px;
-    
     padding: 5px 0;
 }
 .cell {
     min-height: 30px;
     min-width: 30px;
-    
 }
