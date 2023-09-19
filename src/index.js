@@ -24,6 +24,6 @@ selectMember(selectElement)
 
 
 
-Images(logo)
+
 
 

@@ -1,12 +1,14 @@
 import { Images } from "../src/js/Images"
-import ceo from '../src/images/ceo.png';
 
+import cto from '../src/images/cto.png';
+import ceo from '../src/images/ceo.png';
+import cfo from '../src/images/cfo.png';
 
 export const team = {
    
     list: [
       {
-        photo: Images(ceo),
+        photo: cto,
         function: 'CTO',
         data: 'Johny B Good',
         description: 'The brains behind the whole operation',
@@ -16,7 +18,7 @@ export const team = {
         ]
       },
       {
-        photo: "./images/ceo.png",
+        photo: ceo,
         function: 'CEO',
         data: 'Roll Over Beethoven',
         description: 'The one that puts it all together',
@@ -26,7 +28,7 @@ export const team = {
         ]
       },
       {
-        photo: "./images/ceo.png",
+        photo: cfo,
         function: 'CFO',
         data: 'Chuck Berry',
         description: 'The guy with his hand on the wallet',

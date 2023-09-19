@@ -19,17 +19,15 @@ export const Team = (props) => {
     return (
       <>
         <div className={'team__person'}>
-         
           <div className={'team__photo'}>
-           <Images src={item.photo}></Images>
-            {/* <img src={item.photo} alt="cto"></img> */}
-            </div>
+            <img src={item.photo}></img>
+          </div>
           <div className={'team__function'}>{item.function}</div>
           <div className={'team__data'}>{item.data}</div>
           <div className={'team__text'}>{item.description}</div>
           <div className={'team__icons'}>
             <img className={'team__icon-twitter'} src="./images/team-twitter.svg" alt="team-twitter"></img>
-            <img class={'team__icon-fb'} src="./images/team-facebook.svg" alt="team-facebook"></img>
+            <img className={'team__icon-fb'} src="./images/team-facebook.svg" alt="team-facebook"></img>
           </div>
         </div>
       </>
