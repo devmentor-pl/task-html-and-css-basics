@@ -2,7 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     width: 1440px;
-    height: 4401px;
+    height: 4400px;
 }
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -13,19 +13,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 .header__nav_logo > img {
-    max-width: 85px;
-    margin-top: 18px;
-    margin-left: 40px;
-    padding: 5px;
+    scale: 0.8;
+    padding-top: 10px;
 }
 .header__nav_list {
     text-decoration: none;
     list-style: none;
     display: flex;
     align-items: center;
-    margin-right: 60px;
+    
 }
 .header__nav_list-item {
     padding: 10px;
@@ -35,7 +34,7 @@ body {
 }
 .header__section {
     display: flex;
-    
+    justify-content: space-around;
 }
 .header__section_text {
     display: flex;
@@ -72,9 +71,10 @@ body {
     rotate: -6.5deg;
     background-color: white;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
     max-width: 510px;
+    
     
 }
 .screen__image {
@@ -88,54 +88,76 @@ body {
 
 .features {
     background-color: #000000;
-    
+    height: 11%;
 }
 .features__section {
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 .features__section_title {
     text-align: center;
     font-size: 36px;
-    padding: 12px;
+    padding: 22px 0px 50px;
     color: white;
+    
 }
 .features__section_box {
+    border: 1px solid yellow;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 20px;
+    justify-content: center;
+    
 }
+
 .features__section_box-feature {
-    width: 20%;
-    height: 130px;
-    border-radius: 10px;
-    padding: 10px;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 300px;
+    margin-right: 10px;
 }
 .feature-icon {
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: white;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     border-radius: 50%;;
+    margin-top: 30px;
 }
 .feature-icon > img {
     width: 20px;
     height: 20px;
+    
 }
 .feature-text {
     color: white;
+    text-align: center;
+    margin-top: 30px;
+    
 }
 .feature-subtext {
     color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 0px 0px;
+    max-width: 236px;
+
 }
 .logos {
     background-color: #F9FAFA;
     
 }
-.logos__container {}
+.logos__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .design {
     display: flex;
     background-color: #FFFFFF;
