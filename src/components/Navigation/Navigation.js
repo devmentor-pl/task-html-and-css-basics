@@ -24,7 +24,7 @@ export const Navigation = (props) => {
     <>
       <NavbarContext.Provider value={{ navbarOpen, setNavbarOpen }}>
         <button onClick={handleToggle} className={'hamburger'}>
-          <ChocolateHamburger open={navbarOpen} openFunc={setNavbarOpen} />
+          <ChocolateHamburger open={navbarOpen} openFunc={setNavbarOpen} span={9}/>
         </button>
         <Menu open={navbarOpen} openFunc={setNavbarOpen}></Menu>
       </NavbarContext.Provider>
