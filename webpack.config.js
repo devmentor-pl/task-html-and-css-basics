@@ -43,21 +43,50 @@ module.exports = {
         test: /\.svg$/, // Match SVG files
         use: 'svg-inline-loader', // Use svg-inline-loader for SVG files
       },
+      // {
+      //   test: /\.(png|jpe?g|gif|jp2|webp)$/,
+      //   loader: 'file-loader',
+      //   options: {
+      //     name: 'images/[name].[ext]'
+      //   }
+      // },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+      {
+        test: /\.svg$/,
         use: [
+            {
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]', // Output filename as is
+                    outputPath: 'images/', // Output folder
+                },
+            },
+        ],
+    },
+    {
+      test: /\.svg$/,
+      use: [
           {
-            loader: 'file-loader',
+              loader: 'url-loader',
+              options: {
+                  limit: 8192, // Inline files smaller than 8kb
+                  name: '[name].[ext]', // Output filename as is
+                  outputPath: 'images/', // Output folder
+              },
           },
-        ]
-      },
-      {
-        test: /\.(png|jpe?g|gif|jp2|webp)$/,
-        loader: 'file-loader',
-        options: {
-          name: 'images/[name].[ext]'
-        }
-      },
+      ],
+  },
+      // {
+      //   test: /\.(png|jpe?g|gif)$/i,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //     },
+      //   ],
+      // },
       
     ],
   },

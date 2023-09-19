@@ -1,8 +1,12 @@
+import { Images } from "../src/js/Images"
+import ceo from '../src/images/ceo.png';
+
+
 export const team = {
    
     list: [
       {
-        photo: "./images/cto.png",
+        photo: Images(ceo),
         function: 'CTO',
         data: 'Johny B Good',
         description: 'The brains behind the whole operation',
@@ -31,9 +35,6 @@ export const team = {
             './images/team-facebook.svg'
         ]
       },
-    
-  
-      
     ],
     addYou: [
         {

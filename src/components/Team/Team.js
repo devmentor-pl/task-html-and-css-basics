@@ -2,6 +2,8 @@ import React from 'react'
 
 import data from '../../../data'
 import AddYourself from './AddYourself'
+import { Images } from '../../js/Images'
+
 
 import PropTypes from 'prop-types'
 
@@ -17,9 +19,11 @@ export const Team = (props) => {
     return (
       <>
         <div className={'team__person'}>
+         
           <div className={'team__photo'}>
-            <img src={item.photo} alt="cto"></img>
-          </div>
+           <Images src={item.photo}></Images>
+            {/* <img src={item.photo} alt="cto"></img> */}
+            </div>
           <div className={'team__function'}>{item.function}</div>
           <div className={'team__data'}>{item.data}</div>
           <div className={'team__text'}>{item.description}</div>

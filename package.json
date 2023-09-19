@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --mode development --open --hot --port 3004",
+        "start": "webpack serve --mode development --open",
         "build": "webpack --mode development",
         "sass": "node-sass -w scss/ -o css/ --recursive"
     },
@@ -14,8 +14,8 @@
     "dependencies": {
         "image-webpack-loader": "^8.1.0",
         "node-sass": "^8.0.0",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
         "react-icons": "^4.10.1"
     },
     "devDependencies": {
@@ -33,5 +33,4 @@
         "webpack-cli": "^5.1.4",
         "webpack-dev-server": "^4.15.1"
     }
-    
 }
