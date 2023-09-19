@@ -32,12 +32,11 @@ export const Prices = (props) => {
 
       <div className={'pricing__element'}>
         <div className={'pricing__element-info'}>
-          <div className={'type'}>{item.type}</div>
-          <div className={'price'}>{'$' + item.price}</div>
+          <h4 className={'type'}>{item.type}</h4>
+          <h5 className={'price'}>{'$' + item.price}</h5>
           <span className={'sub-price'}>per month</span>
           <div className={'benefits'}>{renderInfo(item.info)}</div>
         </div>
-
         <button>GET STARTED</button>
       </div>
 
