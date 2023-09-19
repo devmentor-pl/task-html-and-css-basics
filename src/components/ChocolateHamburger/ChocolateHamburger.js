@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-
 export const NavbarContext = React.createContext();
 export const ChocolateHamburger = (props) => {
   const {
@@ -11,57 +10,33 @@ export const ChocolateHamburger = (props) => {
     ...otherProps
   } = props
 
-  // const renderSpan = (span) => {
-  //   return (
-  //     <ul>
-  //       {span.map(
-  //         el =>
-  //         <li 
-  //         key={el.id}
-  //         >
-  //           {el}
-  //         </li>
-  //         )
-  //       }
-  //     </ul>
-  //   )
-  // }
+  const spanElement = (spanElement) => {
+    const numberOfElements = spanElement;
+    const elements = [];
+    for (let i = 1; i <= numberOfElements; i++) {
+      elements.push(<span key={i}></span>);
+    }
+    return (
+      <>
+        {elements}
+      </>
+    );
+  }
 
+  if (open) {
+    return (
+      <div className={`${"hamburger__icon open"}`}>
+        {spanElement(props.span)}
+      </div>
+    )
 
-if(open) {
-return (
-  <div className={`${"hamburger__icon open"}`}>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-)
-   
-} else if(!open){
-
-  return (
-    <div className={`${"hamburger__icon"}`}>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  )
-}
-   
-
-  
+  } else if (!open) {
+    return (
+      <div className={`${"hamburger__icon"}`}>
+        {spanElement(props.span)}
+      </div>
+    )
+  }
 }
 
 ChocolateHamburger.propTypes = {
