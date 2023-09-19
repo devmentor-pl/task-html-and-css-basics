@@ -201,25 +201,86 @@ body {
 
 .pricing {
     background-color: #F8F9F9;
-    
+    height: 13%;
 }
 .pricing__container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 10px;
 }
-.pricing__container-title {}
-.pricing__container-subtitle {}
+.pricing__container-title {
+    font-size: 36px;
+    padding: 22px 0px 40px;
+    color:  #333333;
+    margin: 20px 0px 10px 10px;
+    padding: 0px 0px 20px;
+    font-weight: 400;
+}
+.pricing__container-subtitle {
+    font-weight: 300;
+    font-size: 15px;
+    max-width: 360px;
+    text-align: center;
+    color:  #333333;
+}
 .pricing__box-items{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    
 }
-.pricing__box-item {}
-.pricing__box-item-title {}
-.pricing__box-item-subtitle {}
-.pricing__box-item-monthly {}
-.pricing__box-item-list {}
-.pricing__box-item-list-ad {}
+.pricing__box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 350px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.pricing__box-item-title {
+    font-size: 22px;
+    color:  #333333;
+    margin: 40px 0px 10px 10px;
+    padding: 0px 0px 10px;
+    font-weight: 400;
+}
+.pricing__box-item-subtitle {
+    font-size: 30px;
+    font-weight: 600;
+    color:  #333333;
+}
+.pricing__box-item-monthly {
+    font-size: 11px;
+    font-weight: 300;
+    color:  #333333;
+    margin: 10px 0px 10px 10px;
+    padding: 0px 0px 10px;
+}
+.pricing__box-item-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.pricing__box-item-list-ad {
+    font-size: 16px;
+    font-weight: 600;
+    color:  #333333;
+    padding: 0px 0px 5px;
+    
+}
+.pricing__box-item-button {
+    background-color: #0ABCEB;
+    border-radius: 10px;
+    border: 1px solid #0ABCEB;
+    width: 200px;
+    height: 45px;
+    color: white;
+    position: absolute;
+    margin-top: 280px;
+}
 
 .team {
     display: flex;
