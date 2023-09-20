@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   features: () => (/* binding */ features)\n/* harmony export */ });\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module '../src/images/responsive.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module '../src/images/customizable.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module '../src/images/design.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\nconst features = {\n  list: [{\n    image: Object(function webpackMissingModule() { var e = new Error(\"Cannot find module '../src/images/responsive.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()),\n    title: 'FULLY RESPONSIVE',\n    text: 'Looks amazing on any device, smartphone, tablet, laptop, desktop'\n  }, {\n    image: Object(function webpackMissingModule() { var e = new Error(\"Cannot find module '../src/images/customizable.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()),\n    title: 'CUSTOMIZABLE',\n    text: 'Change the colors, pictures, or any of the sections to suit your needs'\n  }, {\n    image: Object(function webpackMissingModule() { var e = new Error(\"Cannot find module '../src/images/design.svg'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }()),\n    title: 'SLICK AND BEAUTIFUL DESIGN',\n    text: 'Trendy and fresh design, fits any website'\n  }]\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (features);\n\n//# sourceURL=webpack://personal_blog/./data/features.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   features: () => (/* binding */ features)\n/* harmony export */ });\n/* harmony import */ var _src_images_responsive_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/images/responsive.png */ \"./src/images/responsive.png\");\n/* harmony import */ var _src_images_customizable_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/images/customizable.png */ \"./src/images/customizable.png\");\n/* harmony import */ var _src_images_design_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/images/design.png */ \"./src/images/design.png\");\n\n\n\nconst features = {\n  list: [{\n    image: _src_images_responsive_png__WEBPACK_IMPORTED_MODULE_0__,\n    title: 'FULLY RESPONSIVE',\n    text: 'Looks amazing on any device, smartphone, tablet, laptop, desktop'\n  }, {\n    image: _src_images_customizable_png__WEBPACK_IMPORTED_MODULE_1__,\n    title: 'CUSTOMIZABLE',\n    text: 'Change the colors, pictures, or any of the sections to suit your needs'\n  }, {\n    image: _src_images_design_png__WEBPACK_IMPORTED_MODULE_2__,\n    title: 'SLICK AND BEAUTIFUL DESIGN',\n    text: 'Trendy and fresh design, fits any website'\n  }]\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (features);\n\n//# sourceURL=webpack://personal_blog/./data/features.js?");
 
 /***/ }),
 
@@ -491,6 +491,28 @@ eval("module.exports = __webpack_require__.p + \"8a4c3e3fd9a665f386ae.png\";\n\n
 
 /***/ }),
 
+/***/ "./src/images/customizable.png":
+/*!*************************************!*\
+  !*** ./src/images/customizable.png ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"d4db0bd471a60ecd61d4.png\";\n\n//# sourceURL=webpack://personal_blog/./src/images/customizable.png?");
+
+/***/ }),
+
+/***/ "./src/images/design.png":
+/*!*******************************!*\
+  !*** ./src/images/design.png ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"24f8e55e74d3e815dbbf.png\";\n\n//# sourceURL=webpack://personal_blog/./src/images/design.png?");
+
+/***/ }),
+
 /***/ "./src/images/facebook.png":
 /*!*********************************!*\
   !*** ./src/images/facebook.png ***!
@@ -510,6 +532,17 @@ eval("module.exports = __webpack_require__.p + \"b6ba590ed753d7199dd1.png\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"98311fdb728ae71a49c5.png\";\n\n//# sourceURL=webpack://personal_blog/./src/images/logo.png?");
+
+/***/ }),
+
+/***/ "./src/images/responsive.png":
+/*!***********************************!*\
+  !*** ./src/images/responsive.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"227b3c6566e03754ac14.png\";\n\n//# sourceURL=webpack://personal_blog/./src/images/responsive.png?");
 
 /***/ }),
 
