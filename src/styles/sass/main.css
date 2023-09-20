@@ -10,32 +10,32 @@
 
 @media (max-width: 500px) {
   .container,
-.main {
+  .main {
     max-width: 450px;
   }
 }
 @media (min-width: 501px) {
   .container,
-.main {
+  .main {
     max-width: 700px;
   }
 }
 @media (min-width: 768px) {
   .container,
-.main {
+  .main {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
   .container,
-.main {
+  .main {
     max-width: 960px;
     padding-left: 0;
   }
 }
 @media (min-width: 1200px) {
   .container,
-.main {
+  .main {
     max-width: 1050px;
     padding-left: 0;
   }
@@ -53,7 +53,7 @@ section {
   padding: 0 60px;
 }
 
-header {
+.header {
   width: 100%;
   height: 60vh;
   padding: 0 30px;
@@ -65,7 +65,13 @@ header {
   flex-direction: column;
 }
 
-header .header__container {
+@media only screen and (min-width: 900px) {
+  .header {
+    height: 75vh;
+    align-items: flex-start;
+  }
+}
+.header__container {
   width: 100%;
   height: 30%;
   padding: 30px 0px;
@@ -74,22 +80,18 @@ header .header__container {
   align-items: center;
 }
 
-header .header__container .header__logo {
+.header__container__logo {
   flex-basis: 30%;
 }
 
-header .header__container .navigation {
+.header__container__navigation {
   flex-basis: 70%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-header .header__container .navigation .nav__menu {
-  display: none;
-}
-
-header .header__container .navigation .nav__menu.nav__block {
+.header__container__navigation .nav__menu.nav__block {
   height: 40vh;
   width: 100%;
   position: absolute;
@@ -104,35 +106,29 @@ header .header__container .navigation .nav__menu.nav__block {
   background: rgb(194, 74, 126) 40%;
 }
 
-header .header__container .navigation .nav__menu.nav__block > li {
+.header__container__navigation .nav__menu.nav__block > li {
   margin-bottom: 10px;
 }
 
-header .header__container .navigation .nav__menu.nav__block > li a {
+.header__container__navigation .nav__menu.nav__block > li a {
   color: rgb(36, 242, 139);
   font-weight: bold;
 }
 
-@media screen and (min-width: 768px) {
-  header {
-    height: 75vh;
-    align-items: flex-start;
+@media only screen and (min-width: 900px) {
+  .header__container__navigation .hamburger {
+    display: none;
   }
-  header .header__container .navigation .nav .nav__menu {
+  .header__container__navigation .nav .nav__menu {
     display: block;
     display: flex;
     flex-direction: row;
   }
-  header .header__container .navigation .nav .nav__menu > li:not(:nth-child(3)) {
+  .header__container__navigation .nav .nav__menu > li:not(:nth-child(3)) {
     margin-right: 10px;
   }
-  header .header__container .navigation .nav .nav__menu > li a {
+  .header__container__navigation .nav .nav__menu > li a {
     color: rgb(255, 255, 255);
-  }
-}
-@media (min-width: 768px) {
-  .hamburger {
-    display: none;
   }
 }
 .hamburger {

@@ -19,12 +19,12 @@ export const Header = (props) => {
   return (
     <>
         <div className={"header__container container"}>
-            <h1 className={'header__logo'}>
+            <h1 className={'header__container__logo'}>
                 <img src={header.list.map((item) => {
     return renderListItem(item)})} alt="logo">
                 </img>
             </h1>
-            <div class="navigation"></div>
+            <div className={"header__container__navigation"}></div>
         </div>
         <div class="hero container" id="hero">
             <div class="hero__info">

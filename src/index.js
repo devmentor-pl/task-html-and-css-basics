@@ -12,8 +12,8 @@ import { selectMember } from './js/selectMember';
 import { Images } from './js/Images';
 
 ReactDOM.render(<Header {...data}/>, document.querySelector('.header'));
-ReactDOM.render(<Navigation/>, document.querySelector('.navigation'));
-ReactDOM.render(<Navigation/>, document.querySelector('.navigation'));
+
+ReactDOM.render(<Navigation/>, document.querySelector('.header__container__navigation'));
 ReactDOM.render(<Features {...data}/>, document.querySelector('.features__container'));
 ReactDOM.render(<Prices {...data}/>, document.querySelector('.pricing__container'));
 ReactDOM.render(<Team {...data}/>, document.querySelector('.team__container'));
