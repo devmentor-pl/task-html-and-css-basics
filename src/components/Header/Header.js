@@ -26,7 +26,7 @@ export const Header = (props) => {
             </h1>
             <div className={"header__container__navigation"}></div>
         </div>
-        <div class="hero container" id="hero">
+        <div className={"hero container"} id="hero">
             <div class="hero__info">
                 <h2 class="hero__header">Beautiful Free Nova template</h2>
                 <p class="hero__sub-header">A top notch premium quality template for your next web project</p>

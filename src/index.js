@@ -4,6 +4,7 @@ import data from '../data';
 
 import { Header } from './components/Header';
 import { Navigation } from './components/Navigation/Navigation';
+import { Main } from './components/Main';
 import { Features } from './components/Features';
 import { Prices } from './components/Prices';
 import { Team } from './components/Team';
@@ -14,7 +15,8 @@ import { Images } from './js/Images';
 ReactDOM.render(<Header {...data}/>, document.querySelector('.header'));
 
 ReactDOM.render(<Navigation/>, document.querySelector('.header__container__navigation'));
-ReactDOM.render(<Features {...data}/>, document.querySelector('.features__container'));
+// ReactDOM.render(<Features {...data}/>, document.querySelector('.features__container'));
+ReactDOM.render(<Main/>, document.querySelector('.main'));
 ReactDOM.render(<Prices {...data}/>, document.querySelector('.pricing__container'));
 ReactDOM.render(<Team {...data}/>, document.querySelector('.team__container'));
 

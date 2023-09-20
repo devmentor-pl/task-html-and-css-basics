@@ -9,8 +9,7 @@ export const Features = (props) => {
     ...otherProps
   } = props
 
- const renderListItem = (item, i) => {
-
+  const renderListItem = (item, i) => {
     return (
       <>
         <div className={'feature'}>
@@ -23,11 +22,14 @@ export const Features = (props) => {
   }
 
   return (
-    <>
-      {features.list.map((item, i) => {
-        return renderListItem(item, i)
-      })}
-    </>
+    <section className={"features"} id="features">
+      <h2 className={"features__header"}>FEATURES</h2>
+      <div className={"features__container"}>
+        {features.list.map((item, i) => {
+          return renderListItem(item, i)
+        })}
+      </div>
+    </section>
   )
 }
 
