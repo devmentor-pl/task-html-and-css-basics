@@ -9,11 +9,18 @@ export const Features = (props) => {
     ...otherProps
   } = props
 
+  const renderSrc = (item) => {
+    return (
+        item.image
+    )
+  }
+
   const renderListItem = (item, i) => {
     return (
       <>
         <div className={'feature'}>
-          <img className={'feature__image'} src={`${item.image}`} alt="responsive"></img>
+          <img className={'feature__image'} src={features.list.map((item) => {
+    return renderSrc(item)})} ></img>
           <h4 className={'feature__description'}>{item.title}</h4>
           <p className={'feature__text'}>{item.text}</p>
         </div>
