@@ -7,65 +7,61 @@
     padding-top: 20px;
     padding-bottom: 20px;
 
-    .features__header {
+    &__header {
         text-align: center;
         font-size: 1.2em;
         font-weight: bold;
         padding: 20px 0 20px 0;
+
+        @include respond(tablet) {
+            font-size: 1.5em;
+            padding: 20px 0 50px 0;
+        }
     }
 
-    .features__container {
+    &__container {
         @include flexAbsoluteCenter;
         display: grid;
         grid-template-columns: 80%;
         grid-template-rows: repeat(3, 250px);
         grid-auto-flow: row;
 
-        .feature {
-            @include flexAbsoluteCenter;
-            flex-direction: column;
-
-            &>* {
-                margin-bottom: 20px;
-            }
-
-            .feature__image {
-                width: 40px;
-                height: 40px;
-                padding: 10px;
-                border-radius: 50%;
-                background-color: $color-white;
-            }
-
-            .feature__description {
-                font-weight: bold;
-                text-align: center;
-            }
-
-            .feature__text {
-                text-align: center;
-            }
-        }
-    }
-}
-
-@media(min-width: 768px) {
-    .features {
-        .features__header {
-            font-size: 1.5em;
-            padding: 20px 0 50px 0;
-        }
-
-        .features__container {
+        @include respond(tablet) {
             margin-top: 20px;
             display: grid;
             grid-template-columns: repeat(3, 350px);
             grid-template-rows: 80%;
             grid-auto-flow: row;
+        }
+    }
 
-            .feature {
-                padding: 0 40px;
-            }
+    .feature {
+        @include flexAbsoluteCenter;
+        flex-direction: column;
+
+        @include respond(tablet) {
+            padding: 0 40px;
+        }
+
+        &>* {
+            margin-bottom: 20px;
+        }
+
+        &__image {
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: $color-white;
+        }
+
+        &__description {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        &__text {
+            text-align: center;
         }
     }
 }
