@@ -11,7 +11,7 @@ import { Prices } from './components/Prices';
 import { Team } from './components/Team';
 import { toggleHamburger } from './js/toggleHamburger';
 import { selectMember } from './js/selectMember';
-import { Images } from './js/Images';
+
 
 ReactDOM.render(<Header {...data}/>, document.querySelector('.header'));
 

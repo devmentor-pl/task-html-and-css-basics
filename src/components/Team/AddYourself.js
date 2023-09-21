@@ -20,10 +20,7 @@ export const AddYourself = (props) => {
             <img id="image" /></div>
           <div className={'team__function'}><input type="text" id="textInput" placeholder={'Please write your function'}></input></div>
           <div className={'team__data'}><input type="text" id="textInput" placeholder={'Please write your name'}></input></div>
-          <div className={'team__icons'}>
-            <img className={'team__icon-twitter'} src="./images/team-twitter.svg" alt="team-twitter"></img>
-            <img class={'team__icon-fb'} src="./images/team-facebook.svg" alt="team-facebook"></img>
-          </div>
+          
         </div>
       </>
     )

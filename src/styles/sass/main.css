@@ -645,10 +645,6 @@ section {
   border-radius: 50%;
 }
 
-.team__person.you {
-  display: none;
-}
-
 .team__person.addYourself .team__photo {
   width: 80px;
   height: 80px;
@@ -670,6 +666,10 @@ section {
   align-items: center;
   min-height: 50px;
   padding: 5px;
+}
+
+.footer > * {
+  padding: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

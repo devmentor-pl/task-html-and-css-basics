@@ -1,13 +1,24 @@
 import React from 'react'
-
+import { useState } from 'react'
 import data from '../../../data'
 import AddYourself from './AddYourself'
-import { Images } from '../../js/Images'
+
 
 
 import PropTypes from 'prop-types'
 
 export const Team = (props) => {
+  const [inputValue, setInputValue] = useState('');
+  const [showComponent, setShowComponent] = useState(false);
+
+  // Event handler for input change
+  const handleInputChange = (event) => {
+    const newValue = event.target.value;
+    setInputValue(newValue);
+    setShowComponent(true);
+  
+  };
+
 
   const {
     className,
@@ -38,9 +49,9 @@ export const Team = (props) => {
       <h3 className={"team__header container"}>THE TEAM</h3>
       <div className={"team__sub-header"}>
         <label for="select__newmember">ADD NEW MEMBER OF TEAM</label>
-        <select nameName={"select__newmember"} id="select__member">
+        <select nameName={"select__newmember"}  onChange={handleInputChange} id="select__member">
           <option value="">--Please choose an option--</option>
-          <option value="addYourself">Add Yourself</option>
+          <option value={inputValue}>Add Yourself</option>
           <option value="generateRandomMember">Generate Random Member</option>
         </select>
       </div>
@@ -48,8 +59,9 @@ export const Team = (props) => {
         {team.list.map((item, i) => {
           return renderListItem(item, i)
         })}
+        {showComponent && <AddYourself {...data}/>}
       </div>
-      <AddYourself {...data}></AddYourself>
+      
     </section>
   )
 }

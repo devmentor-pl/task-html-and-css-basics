@@ -1,4 +1,4 @@
-import { Images } from "../src/js/Images"
+
 
 import cto from '../src/images/cto.png';
 import ceo from '../src/images/ceo.png';
@@ -47,11 +47,8 @@ export const team = {
         function: '',
         data: '',
         description: '',
-        icons: {
-          twitter:twitter,
-          facebook:facebook
-        }
-      },
+        icons: false
+        },
     ]
   }
   
