@@ -76,10 +76,10 @@ header {
 .header__content {
 	display: flex;
 	justify-content: space-between;
-	margin: 70px 20px 20px 80px;
 	max-width: 1150px;
-	margin:30px auto;
+	margin:auto;
 }
+
 
 .header__heading {
 	color: rgb(255, 255, 255);
@@ -117,7 +117,6 @@ span {
 	width: 100%;
 	background-color: rgb(0, 0, 0);
 	color: rgb(255, 255, 255);
-	margin-top: 20px;
 }
 
 .features__container,
@@ -127,10 +126,6 @@ span {
 }
 
 .features__heading {
-	position: absolute;
-	top: 0;
-	left: 60%;
-	margin: 20px auto;
 	text-align: center;
 	text-transform: uppercase;
 }
