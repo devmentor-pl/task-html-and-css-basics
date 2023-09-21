@@ -7,6 +7,7 @@ import Adverb from '../Adverb/Adverb'
 import { Team } from '../Team'
 
 
+
 export const Main = (props) => {
   const {
     className,
@@ -22,6 +23,7 @@ export const Main = (props) => {
        <Websites {...data}></Websites>
        <Adverb {...data}></Adverb>
        <Team {...data}></Team>
+     
     </>
   )
 }

@@ -5,6 +5,7 @@ import data from '../data';
 import { Header } from './components/Header';
 import { Navigation } from './components/Navigation/Navigation';
 import { Main } from './components/Main';
+import { Footer } from './components/Footer';
 import { Features } from './components/Features';
 import { Prices } from './components/Prices';
 import { Team } from './components/Team';
@@ -19,6 +20,7 @@ ReactDOM.render(<Navigation/>, document.querySelector('.header__container__navig
 ReactDOM.render(<Main/>, document.querySelector('.main'));
 // ReactDOM.render(<Prices {...data}/>, document.querySelector('.pricing__container'));
 // ReactDOM.render(<Team {...data}/>, document.querySelector('.team__container'));
+ReactDOM.render(<Footer {...data}/>, document.querySelector('.footer'));
 
 const iconsHamburger = document.querySelector('.hamburger__icon');
 toggleHamburger(iconsHamburger)
