@@ -13,7 +13,7 @@ export const Websites = (props) => {
   return (
     <section className={"websites"}>
             <div className={"websites__container container"}>
-                <img className={"websites__photo"} src={websites[0]} alt="logos"></img>
+                <img className={"websites__photo"} src={websites.logos} alt="logos"></img>
             </div>
         </section>
   )
