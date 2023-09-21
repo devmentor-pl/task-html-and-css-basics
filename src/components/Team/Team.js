@@ -35,12 +35,21 @@ export const Team = (props) => {
   }
 
   return (
-    <>
+<section class="team" id="team">
+       <h3 class="team__header container">THE TEAM</h3>
+            <div class="team__sub-header">
+                <label for="select__newmember">ADD NEW MEMBER OF TEAM</label>
+                <select name="select__newmember" id="select__member">
+                    <option value="">--Please choose an option--</option>
+                    <option value="addYourself">Add Yourself</option>
+                    <option value="generateRandomMember">Generate Random Member</option>
+                </select>
+            </div>
       {team.list.map((item, i) => {
         return renderListItem(item, i)
       })}
       <AddYourself {...data}></AddYourself>
-    </>
+    </section>
   )
 }
 

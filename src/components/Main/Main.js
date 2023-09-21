@@ -4,6 +4,8 @@ import data from '../../../data'
 import { Features } from '../Features'
 import Websites from '../Websites/Websites'
 import Adverb from '../Adverb/Adverb'
+import { Team } from '../Team'
+
 
 export const Main = (props) => {
   const {
@@ -19,6 +21,7 @@ export const Main = (props) => {
        <Features {...data}></Features>
        <Websites {...data}></Websites>
        <Adverb {...data}></Adverb>
+       <Team {...data}></Team>
     </>
   )
 }
