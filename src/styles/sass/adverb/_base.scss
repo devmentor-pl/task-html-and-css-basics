@@ -4,26 +4,35 @@
     @include flexAbsoluteCenter;
     flex-direction: column;
 
-    .adverb__text {
-        .adverb__text-header {
+    @include respond(tablet) {
+        flex-direction: row;
+    }
+
+    &__text {
+        flex-basis: 60%;
+        align-self: flex-start;
+        padding: 40px 60px;
+
+        &-header {
             font-weight: bold;
             padding: 10px 0;
             color: $color-dark-grey;
         }
 
-        .adverb__text-description {
+        &-description {
             padding: 10px 0;
             color: $color-light-grey;
         }
+
+        @include respond(tablet) {
+            flex-basis: 60%;
+            align-self: flex-start;
+            padding: 40px 60px;
+        }
     }
-}
 
-
-@media(min-width: 768px) {
-    .adverb {
-        flex-direction: row;
-
-        .adverb__image-container {
+    @include respond(tablet) {
+        &__image-container {
             flex-basis: 60%;
             height: 400px;
             padding: 20px 30px;
@@ -32,13 +41,11 @@
                 width: 100%;
                 height: 100%;
             }
-
-        }
-
-        .adverb__text {
-            flex-basis: 60%;
-            align-self: flex-start;
-            padding: 40px 60px;
         }
     }
+
+
+
+
+
 }

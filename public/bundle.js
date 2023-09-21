@@ -9,6 +9,17 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./data/adverb.js":
+/*!************************!*\
+  !*** ./data/adverb.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   adverb: () => (/* binding */ adverb),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _src_images_imac_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/images/imac.png */ \"./src/images/imac.png\");\n\nconst adverb = {\n  imac: _src_images_imac_png__WEBPACK_IMPORTED_MODULE_0__\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (adverb);\n\n//# sourceURL=webpack://personal_blog/./data/adverb.js?");
+
+/***/ }),
+
 /***/ "./data/features.js":
 /*!**************************!*\
   !*** ./data/features.js ***!
@@ -38,7 +49,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   data: () => (/* binding */ data),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./data/header.js\");\n/* harmony import */ var _features__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./features */ \"./data/features.js\");\n/* harmony import */ var _pricing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pricing */ \"./data/pricing.js\");\n/* harmony import */ var _team__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./team */ \"./data/team.js\");\n/* harmony import */ var _websites__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./websites */ \"./data/websites.js\");\n\n\n\n\n\nconst data = {\n  header: _header__WEBPACK_IMPORTED_MODULE_0__[\"default\"],\n  features: _features__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  pricing: _pricing__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n  team: _team__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n  websites: _websites__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);\n\n//# sourceURL=webpack://personal_blog/./data/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   data: () => (/* binding */ data),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./data/header.js\");\n/* harmony import */ var _features__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./features */ \"./data/features.js\");\n/* harmony import */ var _pricing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pricing */ \"./data/pricing.js\");\n/* harmony import */ var _team__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./team */ \"./data/team.js\");\n/* harmony import */ var _websites__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./websites */ \"./data/websites.js\");\n/* harmony import */ var _adverb__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./adverb */ \"./data/adverb.js\");\n\n\n\n\n\n\nconst data = {\n  header: _header__WEBPACK_IMPORTED_MODULE_0__[\"default\"],\n  features: _features__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  pricing: _pricing__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n  team: _team__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n  websites: _websites__WEBPACK_IMPORTED_MODULE_4__[\"default\"],\n  adverb: _adverb__WEBPACK_IMPORTED_MODULE_5__[\"default\"]\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);\n\n//# sourceURL=webpack://personal_blog/./data/index.js?");
 
 /***/ }),
 
@@ -72,6 +83,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   websites: () => (/* binding */ websites)\n/* harmony export */ });\n/* harmony import */ var _src_images_logos_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/images/logos.png */ \"./src/images/logos.png\");\n\nconst websites = {\n  logos: _src_images_logos_png__WEBPACK_IMPORTED_MODULE_0__\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (websites);\n\n//# sourceURL=webpack://personal_blog/./data/websites.js?");
+
+/***/ }),
+
+/***/ "./src/components/Adverb/Adverb.js":
+/*!*****************************************!*\
+  !*** ./src/components/Adverb/Adverb.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Adverb: () => (/* binding */ Adverb),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../data */ \"./data/index.js\");\n\n\n\nconst Adverb = props => {\n  const {\n    className,\n    adverb,\n    ...otherProps\n  } = props;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"section\", {\n    className: \"adverb\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"adverb__image-container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    src: adverb.imac,\n    alt: \"monitor\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"adverb__text\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", {\n    className: \"adverb__text-header\"\n  }, \"SIMPLE AND BEAUTIFUL\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", {\n    className: \"adverb__text-description\"\n  }, \"Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is free for any kind of use, personal and commercial. Have fun and good luck!\")));\n};\nAdverb.propTypes = {\n  className: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Adverb);\n\n//# sourceURL=webpack://personal_blog/./src/components/Adverb/Adverb.js?");
 
 /***/ }),
 
@@ -148,7 +170,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Main: () => (/* binding */ Main),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../data */ \"./data/index.js\");\n/* harmony import */ var _Features__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Features */ \"./src/components/Features/index.js\");\n/* harmony import */ var _Websites_Websites__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Websites/Websites */ \"./src/components/Websites/Websites.js\");\n\n\n\n\n\nconst Main = props => {\n  const {\n    className,\n    header,\n    ...otherProps\n  } = props;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Features__WEBPACK_IMPORTED_MODULE_2__.Features, _data__WEBPACK_IMPORTED_MODULE_1__[\"default\"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Websites_Websites__WEBPACK_IMPORTED_MODULE_3__[\"default\"], _data__WEBPACK_IMPORTED_MODULE_1__[\"default\"]));\n};\nMain.propTypes = {\n  className: (prop_types__WEBPACK_IMPORTED_MODULE_4___default().string)\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main);\n\n//# sourceURL=webpack://personal_blog/./src/components/Main/Main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Main: () => (/* binding */ Main),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../data */ \"./data/index.js\");\n/* harmony import */ var _Features__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Features */ \"./src/components/Features/index.js\");\n/* harmony import */ var _Websites_Websites__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Websites/Websites */ \"./src/components/Websites/Websites.js\");\n/* harmony import */ var _Adverb_Adverb__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Adverb/Adverb */ \"./src/components/Adverb/Adverb.js\");\n\n\n\n\n\n\nconst Main = props => {\n  const {\n    className,\n    header,\n    ...otherProps\n  } = props;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Features__WEBPACK_IMPORTED_MODULE_2__.Features, _data__WEBPACK_IMPORTED_MODULE_1__[\"default\"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Websites_Websites__WEBPACK_IMPORTED_MODULE_3__[\"default\"], _data__WEBPACK_IMPORTED_MODULE_1__[\"default\"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Adverb_Adverb__WEBPACK_IMPORTED_MODULE_4__[\"default\"], _data__WEBPACK_IMPORTED_MODULE_1__[\"default\"]));\n};\nMain.propTypes = {\n  className: (prop_types__WEBPACK_IMPORTED_MODULE_5___default().string)\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main);\n\n//# sourceURL=webpack://personal_blog/./src/components/Main/Main.js?");
 
 /***/ }),
 
@@ -543,6 +565,17 @@ eval("module.exports = __webpack_require__.p + \"24f8e55e74d3e815dbbf.png\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"b6ba590ed753d7199dd1.png\";\n\n//# sourceURL=webpack://personal_blog/./src/images/facebook.png?");
+
+/***/ }),
+
+/***/ "./src/images/imac.png":
+/*!*****************************!*\
+  !*** ./src/images/imac.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"98cc6efaa89559c75258.png\";\n\n//# sourceURL=webpack://personal_blog/./src/images/imac.png?");
 
 /***/ }),
 
