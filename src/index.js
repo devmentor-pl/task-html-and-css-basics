@@ -17,8 +17,8 @@ ReactDOM.render(<Header {...data}/>, document.querySelector('.header'));
 ReactDOM.render(<Navigation/>, document.querySelector('.header__container__navigation'));
 // ReactDOM.render(<Features {...data}/>, document.querySelector('.features__container'));
 ReactDOM.render(<Main/>, document.querySelector('.main'));
-ReactDOM.render(<Prices {...data}/>, document.querySelector('.pricing__container'));
-ReactDOM.render(<Team {...data}/>, document.querySelector('.team__container'));
+// ReactDOM.render(<Prices {...data}/>, document.querySelector('.pricing__container'));
+// ReactDOM.render(<Team {...data}/>, document.querySelector('.team__container'));
 
 const iconsHamburger = document.querySelector('.hamburger__icon');
 toggleHamburger(iconsHamburger)

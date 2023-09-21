@@ -408,34 +408,44 @@ section {
   flex-direction: column;
 }
 
-.adverb .adverb__text .adverb__text-header {
+@media only screen and (min-width: 900px) {
+  .adverb {
+    flex-direction: row;
+  }
+}
+.adverb__text {
+  flex-basis: 60%;
+  align-self: flex-start;
+  padding: 40px 60px;
+}
+
+.adverb__text-header {
   font-weight: bold;
   padding: 10px 0;
   color: rgb(70, 70, 70);
 }
 
-.adverb .adverb__text .adverb__text-description {
+.adverb__text-description {
   padding: 10px 0;
   color: rgb(183, 182, 181);
 }
 
-@media (min-width: 768px) {
-  .adverb {
-    flex-direction: row;
+@media only screen and (min-width: 900px) {
+  .adverb__text {
+    flex-basis: 60%;
+    align-self: flex-start;
+    padding: 40px 60px;
   }
-  .adverb .adverb__image-container {
+}
+@media only screen and (min-width: 900px) {
+  .adverb__image-container {
     flex-basis: 60%;
     height: 400px;
     padding: 20px 30px;
   }
-  .adverb .adverb__image-container img {
+  .adverb__image-container img {
     width: 100%;
     height: 100%;
-  }
-  .adverb .adverb__text {
-    flex-basis: 60%;
-    align-self: flex-start;
-    padding: 40px 60px;
   }
 }
 .pricing {
@@ -556,6 +566,11 @@ section {
   color: rgb(70, 70, 70);
 }
 
+@media only screen and (min-width: 900px) {
+  .team__header {
+    font-size: 1.5em;
+  }
+}
 .team__sub-header {
   text-align: center;
   display: flex;
@@ -565,11 +580,21 @@ section {
   padding: 10px 0;
 }
 
+@media only screen and (min-width: 900px) {
+  .team__sub-header__sub-header {
+    text-align: center;
+  }
+}
 .team__sub-header label {
   font-size: 0.5em;
   padding-bottom: 10px;
 }
 
+@media only screen and (min-width: 900px) {
+  .team__sub-header label {
+    font-size: 1em;
+  }
+}
 .team__sub-header select {
   font-size: 0.5rem;
   padding: 10px 5px;
@@ -586,7 +611,15 @@ section {
   grid-auto-flow: row;
 }
 
-.team__container .team__person {
+@media only screen and (min-width: 900px) {
+  .team__container {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 80%;
+    grid-auto-flow: row;
+  }
+}
+.team__person {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -594,82 +627,40 @@ section {
   padding: 20px 0 20px 0;
 }
 
-.team__container .team__person > * {
+.team__person > * {
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.team__container .team__person .team__photo {
+.team__photo {
   width: 80px;
   height: 80px;
 }
 
-.team__container .team__person .team__photo img {
+.team__photo img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
 
-.team__container .team__person .type {
-  font-size: 1em;
-  font-weight: 600;
-}
-
-.team__container .team__person .price {
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.team__container .team__person .sub-price {
-  font-size: 0.8em;
-}
-
-.team__container .team__person .feature__description {
-  font-weight: bold;
-  text-align: center;
-}
-
-.team__container .team__person .feature__text {
-  text-align: center;
-}
-
-.team__container .team__person.you {
+.team__person.you {
   display: none;
 }
 
-.team__container .team__person.addYourself .team__photo {
+.team__person.addYourself .team__photo {
   width: 80px;
   height: 80px;
   display: flex;
   flex-direction: column;
 }
 
-.team__container .team__person.addYourself .team__function input, .team__container .team__person.addYourself .team__data input {
+.team__person.addYourself .team__function input,
+.team__person.addYourself .team__data input {
   border: none;
 }
 
-@media (min-width: 768px) {
-  .team__header {
-    font-size: 1.5em;
-  }
-  .team__sub-header {
-    text-align: center;
-  }
-  .team__sub-header label {
-    font-size: 1em;
-  }
-  .team__container {
-    display: grid;
-    grid-template-columns: repeat(3, 350px);
-    grid-template-rows: 80%;
-    grid-auto-flow: row;
-  }
-  .team__container .team__person > * {
-    margin-bottom: 20px;
-  }
-}
 .footer {
   width: 100%;
   color: rgb(255, 255, 255);
