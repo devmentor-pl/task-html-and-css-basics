@@ -1,0 +1,26 @@
+import React, {useState} from 'react'
+import data from '../../../data'
+import PropTypes from 'prop-types'
+
+export const Websites = (props) => {
+  const {
+    className,
+    websites,
+    ...otherProps
+  
+  } = props
+
+  return (
+    <section className={"websites"}>
+            <div className={"websites__container container"}>
+                <img className={"websites__photo"} src={websites[0]} alt="logos"></img>
+            </div>
+        </section>
+  )
+}
+
+Websites.propTypes = {
+  className: PropTypes.string
+}
+
+export default Websites

@@ -38,7 +38,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   data: () => (/* binding */ data),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./data/header.js\");\n/* harmony import */ var _features__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./features */ \"./data/features.js\");\n/* harmony import */ var _pricing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pricing */ \"./data/pricing.js\");\n/* harmony import */ var _team__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./team */ \"./data/team.js\");\n\n\n\n\nconst data = {\n  header: _header__WEBPACK_IMPORTED_MODULE_0__[\"default\"],\n  features: _features__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  pricing: _pricing__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n  team: _team__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);\n\n//# sourceURL=webpack://personal_blog/./data/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   data: () => (/* binding */ data),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header */ \"./data/header.js\");\n/* harmony import */ var _features__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./features */ \"./data/features.js\");\n/* harmony import */ var _pricing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pricing */ \"./data/pricing.js\");\n/* harmony import */ var _team__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./team */ \"./data/team.js\");\n/* harmony import */ var _websites__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./websites */ \"./data/websites.js\");\n\n\n\n\n\nconst data = {\n  header: _header__WEBPACK_IMPORTED_MODULE_0__[\"default\"],\n  features: _features__WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  pricing: _pricing__WEBPACK_IMPORTED_MODULE_2__[\"default\"],\n  team: _team__WEBPACK_IMPORTED_MODULE_3__[\"default\"],\n  websites: _websites__WEBPACK_IMPORTED_MODULE_4__[\"default\"]\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (data);\n\n//# sourceURL=webpack://personal_blog/./data/index.js?");
 
 /***/ }),
 
@@ -61,6 +61,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   team: () => (/* binding */ team)\n/* harmony export */ });\n/* harmony import */ var _src_js_Images__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/js/Images */ \"./src/js/Images.js\");\n/* harmony import */ var _src_images_cto_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../src/images/cto.png */ \"./src/images/cto.png\");\n/* harmony import */ var _src_images_ceo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/images/ceo.png */ \"./src/images/ceo.png\");\n/* harmony import */ var _src_images_cfo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/images/cfo.png */ \"./src/images/cfo.png\");\n/* harmony import */ var _src_images_team_twitter_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../src/images/team-twitter.png */ \"./src/images/team-twitter.png\");\n/* harmony import */ var _src_images_facebook_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../src/images/facebook.png */ \"./src/images/facebook.png\");\n\n\n\n\n\n\nconst team = {\n  list: [{\n    photo: _src_images_cto_png__WEBPACK_IMPORTED_MODULE_1__,\n    function: 'CTO',\n    data: 'Johny B Good',\n    description: 'The brains behind the whole operation',\n    icons: [_src_images_team_twitter_png__WEBPACK_IMPORTED_MODULE_4__, _src_images_facebook_png__WEBPACK_IMPORTED_MODULE_5__]\n  }, {\n    photo: _src_images_ceo_png__WEBPACK_IMPORTED_MODULE_2__,\n    function: 'CEO',\n    data: 'Roll Over Beethoven',\n    description: 'The one that puts it all together',\n    icons: [_src_images_team_twitter_png__WEBPACK_IMPORTED_MODULE_4__, _src_images_facebook_png__WEBPACK_IMPORTED_MODULE_5__]\n  }, {\n    photo: _src_images_cfo_png__WEBPACK_IMPORTED_MODULE_3__,\n    function: 'CFO',\n    data: 'Chuck Berry',\n    description: 'The guy with his hand on the wallet',\n    icons: [_src_images_team_twitter_png__WEBPACK_IMPORTED_MODULE_4__, _src_images_facebook_png__WEBPACK_IMPORTED_MODULE_5__]\n  }],\n  addYou: [{\n    id: \"Yourself\",\n    photo: \"\",\n    function: '',\n    data: '',\n    description: '',\n    icons: ['./images/team-twitter.svg', './images/team-facebook.svg']\n  }]\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (team);\n\n//# sourceURL=webpack://personal_blog/./data/team.js?");
+
+/***/ }),
+
+/***/ "./data/websites.js":
+/*!**************************!*\
+  !*** ./data/websites.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   websites: () => (/* binding */ websites)\n/* harmony export */ });\n/* harmony import */ var _src_images_logos_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/images/logos.png */ \"./src/images/logos.png\");\n\nconst websites = [_src_images_logos_png__WEBPACK_IMPORTED_MODULE_0__];\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (websites);\n\n//# sourceURL=webpack://personal_blog/./data/websites.js?");
 
 /***/ }),
 
@@ -137,7 +148,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Main: () => (/* binding */ Main),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../data */ \"./data/index.js\");\n/* harmony import */ var _Features__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Features */ \"./src/components/Features/index.js\");\n\n\n\n\nconst Main = props => {\n  const {\n    className,\n    header,\n    ...otherProps\n  } = props;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Features__WEBPACK_IMPORTED_MODULE_2__.Features, _data__WEBPACK_IMPORTED_MODULE_1__[\"default\"]));\n};\nMain.propTypes = {\n  className: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string)\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main);\n\n//# sourceURL=webpack://personal_blog/./src/components/Main/Main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Main: () => (/* binding */ Main),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../data */ \"./data/index.js\");\n/* harmony import */ var _Features__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Features */ \"./src/components/Features/index.js\");\n/* harmony import */ var _Websites_Websites__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Websites/Websites */ \"./src/components/Websites/Websites.js\");\n\n\n\n\n\nconst Main = props => {\n  const {\n    className,\n    header,\n    ...otherProps\n  } = props;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Features__WEBPACK_IMPORTED_MODULE_2__.Features, _data__WEBPACK_IMPORTED_MODULE_1__[\"default\"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Websites_Websites__WEBPACK_IMPORTED_MODULE_3__[\"default\"], _data__WEBPACK_IMPORTED_MODULE_1__[\"default\"]));\n};\nMain.propTypes = {\n  className: (prop_types__WEBPACK_IMPORTED_MODULE_4___default().string)\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Main);\n\n//# sourceURL=webpack://personal_blog/./src/components/Main/Main.js?");
 
 /***/ }),
 
@@ -237,6 +248,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   AddYourself: () => (/* reexport safe */ _AddYourself__WEBPACK_IMPORTED_MODULE_1__.AddYourself),\n/* harmony export */   Team: () => (/* reexport safe */ _Team__WEBPACK_IMPORTED_MODULE_0__.Team),\n/* harmony export */   \"default\": () => (/* reexport safe */ _AddYourself__WEBPACK_IMPORTED_MODULE_1__[\"default\"])\n/* harmony export */ });\n/* harmony import */ var _Team__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Team */ \"./src/components/Team/Team.js\");\n/* harmony import */ var _AddYourself__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AddYourself */ \"./src/components/Team/AddYourself.js\");\n\n\n\n\n//# sourceURL=webpack://personal_blog/./src/components/Team/index.js?");
+
+/***/ }),
+
+/***/ "./src/components/Websites/Websites.js":
+/*!*********************************************!*\
+  !*** ./src/components/Websites/Websites.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   Websites: () => (/* binding */ Websites),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../data */ \"./data/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nconst Websites = props => {\n  const {\n    className,\n    websites,\n    ...otherProps\n  } = props;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"section\", {\n    className: \"websites\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"websites__container container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", {\n    className: \"websites__photo\",\n    src: websites[0],\n    alt: \"logos\"\n  })));\n};\nWebsites.propTypes = {\n  className: (prop_types__WEBPACK_IMPORTED_MODULE_2___default().string)\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Websites);\n\n//# sourceURL=webpack://personal_blog/./src/components/Websites/Websites.js?");
 
 /***/ }),
 
@@ -532,6 +554,17 @@ eval("module.exports = __webpack_require__.p + \"b6ba590ed753d7199dd1.png\";\n\n
 
 "use strict";
 eval("module.exports = __webpack_require__.p + \"98311fdb728ae71a49c5.png\";\n\n//# sourceURL=webpack://personal_blog/./src/images/logo.png?");
+
+/***/ }),
+
+/***/ "./src/images/logos.png":
+/*!******************************!*\
+  !*** ./src/images/logos.png ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+eval("module.exports = __webpack_require__.p + \"ca892cf038caadff155f.png\";\n\n//# sourceURL=webpack://personal_blog/./src/images/logos.png?");
 
 /***/ }),
 
