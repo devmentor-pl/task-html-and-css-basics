@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 export const NavbarContext = React.createContext();
 export const ChocolateHamburger = (props) => {

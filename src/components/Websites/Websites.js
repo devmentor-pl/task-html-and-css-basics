@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import data from '../../../data'
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 export const Websites = (props) => {
   const {

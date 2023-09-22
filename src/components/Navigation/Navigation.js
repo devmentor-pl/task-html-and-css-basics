@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 import { ChocolateHamburger } from '../ChocolateHamburger'
 import Menu from '../Menu'

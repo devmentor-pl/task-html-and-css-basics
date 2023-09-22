@@ -2,10 +2,10 @@ import React from 'react'
 import { useState } from 'react'
 import data from '../../../data'
 import AddYourself from './AddYourself'
+import PropTypes from 'prop-types';
 
 
 
-import PropTypes from 'prop-types'
 
 export const Team = (props) => {
   const [inputValue, setInputValue] = useState('');
