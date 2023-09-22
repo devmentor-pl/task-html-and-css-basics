@@ -12,7 +12,7 @@ export const Prices = (props) => {
 
   const renderInfo = (item) => {
     return (
-      <ul>
+      <>
         {item.map(
           el =>
           <li 
@@ -22,7 +22,7 @@ export const Prices = (props) => {
           </li>
           )
         }
-      </ul>
+      </>
     )
   }
 
@@ -35,7 +35,7 @@ export const Prices = (props) => {
           <h4 className={'type'}>{item.type}</h4>
           <h5 className={'price'}>{'$' + item.price}</h5>
           <span className={'sub-price'}>per month</span>
-          <div className={'benefits'}>{renderInfo(item.info)}</div>
+          <ul className={'benefits'}>{renderInfo(item.info)}</ul>
         </div>
         <button>GET STARTED</button>
       </div>
