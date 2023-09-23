@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client';
 import data from '../data';
 import './styles/reset/reset.css'
 import './styles/sass/style.css'
-import { Header } from './components/Header';
+import Header from './components/Header/Header';
 import { Main } from './components/Main';
 import Footer from './components/Footer'
 

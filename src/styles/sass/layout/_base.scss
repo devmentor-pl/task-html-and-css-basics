@@ -4,6 +4,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    @include flexAbsoluteCenter;
+}
+
 header,
 main {
     width: 100%;
