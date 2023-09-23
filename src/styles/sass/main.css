@@ -138,6 +138,10 @@ section {
   font-weight: bold;
 }
 
+.header__container__navigation .nav__menu.nav__hide {
+  display: none;
+}
+
 @media only screen and (min-width: 900px) {
   .header__container__navigation .hamburger {
     display: none;

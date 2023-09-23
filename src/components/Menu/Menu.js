@@ -11,7 +11,7 @@ export const Menu = (props) => {
 
   return (
     <nav className={'nav'}>
-        <ul className={`${'nav__menu'} ${open ? `${'nav__block'}` : `${'nav__hide'}`}`}>
+        <ul className={`${'nav__menu'} ${open ? `${'nav__hide'}` : `${'nav__block'}`}`}>
             <li><a href="#features" className={'nav__link'}>The team</a></li>
             <li><a href="#pricing" className={'nav__link'}>Pricing</a></li>
             <li><a href="#features" className={'nav__link'}>Features</a></li>

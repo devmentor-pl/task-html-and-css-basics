@@ -54,6 +54,10 @@
         }
       }
 
+      .nav__menu.nav__hide {
+        display: none;
+      }
+
       @include respond(tablet) {
         .hamburger {
           display: none;
