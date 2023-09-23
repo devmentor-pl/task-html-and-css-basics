@@ -20,13 +20,11 @@ export const AddYourself = (props) => {
             image.style.display = 'block'
             image.src = e.target.result;
             image.style.display = 'block';
-            // fileInput.style.visibility = 'hidden'
         };
         reader.readAsDataURL(file);
     }
   
   };
-
 
   const renderListItem = () => {
     return (

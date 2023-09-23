@@ -14,7 +14,6 @@ export const Team = (props) => {
     setShowComponent(true);
   };
 
-
   const {
     className,
     team,
@@ -23,7 +22,6 @@ export const Team = (props) => {
 
   const renderListItem = (item, i) => {
     return (
-
       <div className={'team__person'}>
         <div className={'team__photo'}>
           <img src={item.photo}></img>
@@ -41,7 +39,7 @@ export const Team = (props) => {
 
   return (
     <section className={"team"} id="team">
-      <h3 className={"team__header container"}>THE TEAM</h3>
+      <h3 className={"team__header"}>THE TEAM</h3>
       <div className={'team__container'}>
         {team.list.map((item, i) => {
           return renderListItem(item, i)

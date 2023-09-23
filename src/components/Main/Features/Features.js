@@ -10,12 +10,6 @@ export const Features = (props) => {
     ...otherProps
   } = props
 
-  const renderSrc = (item) => {
-    return (
-        item.image
-    )
-  }
-
   const renderListItem = (item, i) => {
     return (
       <>

@@ -6,15 +6,15 @@ export const Websites = (props) => {
     className,
     websites,
     ...otherProps
-  
+
   } = props
 
   return (
     <section className={"websites"}>
-            <div className={"websites__container container"}>
-                <img className={"websites__photo"} src={websites.logos} alt="logos"></img>
-            </div>
-        </section>
+      <div className={"websites__container"}>
+        <img className={"websites__photo"} src={websites.logos} alt="logos"></img>
+      </div>
+    </section>
   )
 }
 

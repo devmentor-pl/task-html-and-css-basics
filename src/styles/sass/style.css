@@ -1,45 +1,3 @@
-.container,
-.main {
-  max-width: 1150px;
-  padding-right: 15px;
-  padding-left: 15px;
-  max-width: 1150px;
-  padding: 10px 0;
-  margin: 0 auto;
-}
-
-@media (max-width: 500px) {
-  .container,
-  .main {
-    max-width: 450px;
-  }
-}
-@media (min-width: 501px) {
-  .container,
-  .main {
-    max-width: 700px;
-  }
-}
-@media (min-width: 768px) {
-  .container,
-  .main {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .container,
-  .main {
-    max-width: 960px;
-    padding-left: 0;
-  }
-}
-@media (min-width: 1200px) {
-  .container,
-  .main {
-    max-width: 1050px;
-    padding-left: 0;
-  }
-}
 * {
   font-family: "Montserrat", sans-serif;
 }
@@ -213,32 +171,7 @@ section {
   align-items: center;
 }
 
-.hero .hero__info {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 1.5em;
-}
-
-.hero .hero__info > * {
-  margin-bottom: 20px;
-}
-
-.hero .hero__info .hero__header {
-  font-weight: bold;
-  font-size: 1em;
-}
-
-.hero .hero__info .hero__sub-header {
-  font-weight: 400;
-  font-size: 0.8em;
-}
-
-.hero .hero__photo-container {
-  display: none;
-}
-
-@media (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   .hero {
     width: 100%;
     height: 80%;
@@ -250,10 +183,39 @@ section {
   .hero > * {
     width: 50%;
   }
-  .hero .hero__info {
+}
+.hero__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 900px) {
+  .hero__info {
     padding: 20px 100px 20px 0;
   }
-  .hero .hero__photo-container {
+}
+.hero__info > * {
+  margin-bottom: 20px;
+}
+
+.hero .hero__header {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.hero .hero__sub-header {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.hero__photo-container {
+  display: none;
+}
+
+@media only screen and (min-width: 900px) {
+  .hero__photo-container {
     width: 40%;
     height: 80%;
     padding: 20px;
@@ -264,7 +226,7 @@ section {
     transform: rotate(-10deg);
     border-radius: 5px;
   }
-  .hero .hero__photo-container img {
+  .hero__photo-container img {
     width: 100%;
     height: 100%;
   }

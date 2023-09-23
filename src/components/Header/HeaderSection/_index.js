@@ -1,2 +1,2 @@
-export * from './ChocolateHamburger'
-export { default } from './ChocolateHamburger'
+export * from './HeaderSection'
+export { default } from './HeaderSection'

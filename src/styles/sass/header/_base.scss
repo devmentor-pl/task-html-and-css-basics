@@ -29,34 +29,31 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      @include respond(max-tablet){
-          .nav__menu.nav__block {
-        height: 40vh;
-        width: 100%;
-        position: absolute;
-        top: 60vh;
-        left: 0;
-        z-index: 2;
-        display: block;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding-left: 40%;
-        background: $color-dark-pink 40%;
 
+      @include respond(max-tablet) {
+        .nav__menu.nav__block {
+          height: 40vh;
+          width: 100%;
+          position: absolute;
+          top: 60vh;
+          left: 0;
+          z-index: 2;
+          display: block;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          padding-left: 40%;
+          background: $color-dark-pink 40%;
+          &>li {
+            margin-bottom: 10px;
 
-        &>li {
-          margin-bottom: 10px;
-
-          a {
-            color: $color-medium-green;
-            font-weight: bold;
+            a {
+              color: $color-medium-green;
+              font-weight: bold;
+            }
           }
         }
       }
-      }
-    
-
       .nav__menu.nav__hide {
         display: none;
       }

@@ -1,12 +1,9 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types';
-
 import ChocolateHamburger from '../ChocolateHamburger/ChocolateHamburger';
 import Menu from '../Menu/Menu';
 
-
 export const NavbarContext = React.createContext();
-export const ChocolateHamburgerContext = React.createContext()
 
 export const Navigation = (props) => {
   const {

@@ -13,7 +13,7 @@ export const HeaderSection = (props) => {
 
   return (
     <header className={'header'}>
-      <div className={"header__container container"}>
+      <div className={"header__container"}>
         <h1 className={'header__container__logo'}>
           <img src={header.logo} alt="logo">
           </img>
@@ -22,7 +22,7 @@ export const HeaderSection = (props) => {
           <Navigation></Navigation>
         </div>
       </div>
-      <div className={"hero container"} id="hero">
+      <div className={"hero"} id="hero">
         <article class="hero__info">
           <h2 class="hero__header">Beautiful Free Nova template</h2>
           <p class="hero__sub-header">A top notch premium quality template for your next web project</p>
