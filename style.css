@@ -48,7 +48,7 @@ body {
 	min-height: 100vh;
 }
 
-header {
+.header {
 	width: 100%;
 	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
@@ -77,9 +77,8 @@ header {
 	display: flex;
 	justify-content: space-between;
 	max-width: 1150px;
-	margin:auto;
+	margin: auto;
 }
-
 
 .header__heading {
 	color: rgb(255, 255, 255);
@@ -188,10 +187,11 @@ small {
 	margin-bottom: 50px;
 }
 
-.pricing__plan {
+.pricing__plan{
 	text-align: center;
 	margin: 0 auto;
 	max-width: 1150px;
+	background-color: rgb(255, 255, 255)
 }
 
 .pricing__heading {
@@ -216,7 +216,7 @@ small {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding:20px;
+	padding: 20px;
 }
 
 .pricing__heading--basic,
@@ -239,19 +239,19 @@ small {
 	margin-top: 20px;
 }
 
-.pricing__agency{
-	border-radius:5px;
+.pricing__agency {
+	border-radius: 5px;
 	box-shadow: 0px 5px 40px rgb(128, 128, 128);
 }
 
-.pricing__btn{
-	margin-top:50px;
-	padding:10px 60px;
-	border-radius:10px;
-	border:none;
+.pricing__btn {
+	margin-top: 50px;
+	padding: 10px 60px;
+	border-radius: 10px;
+	border: none;
 	background-color: rgb(66, 178, 200);
-	color:rgb(255, 255, 255);
-	cursor:pointer;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
 }
 .team__heading {
 	margin: 20px auto;
@@ -266,9 +266,8 @@ small {
 	justify-content: center;
 	gap: 30px;
 	padding: 20px;
-	
+	list-style-type: none;
 }
-
 
 .team__role {
 	font-weight: 300;
@@ -297,20 +296,20 @@ small {
 	text-align: center;
 }
 
-.footer__container{
+.footer__container {
 	background-color: rgb(71, 70, 70);
 	color: rgb(255, 255, 255);
 }
 
-.footer__logo{
-	display:flex;
+.footer__logo {
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap:20px;
-	height:70px;
+	gap: 20px;
+	height: 70px;
 	flex-direction: row-reverse;
 }
 
-.footer__copyrights{
+.footer__copyrights {
 	font-weight: 500;
 }
