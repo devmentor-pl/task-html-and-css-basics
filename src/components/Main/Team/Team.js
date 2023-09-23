@@ -15,6 +15,7 @@ export const Team = (props) => {
   const handleInputChange = (event) => {
     const newValue = event.target.value;
     setInputValue(newValue);
+  
     setShowComponent(true);
   
   };

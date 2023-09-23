@@ -25,14 +25,14 @@ export const ChocolateHamburger = (props) => {
 
   if (open) {
     return (
-      <div className={`${"hamburger__icon open"}`}>
+      <div className={`${"hamburger__icon-open"}`}>
         {spanElement(props.span)}
       </div>
     )
 
   } else if (!open) {
     return (
-      <div className={`${"hamburger__icon"}`}>
+      <div className={`${"hamburger__icon-close"}`}>
         {spanElement(props.span)}
       </div>
     )

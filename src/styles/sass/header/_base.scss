@@ -60,7 +60,7 @@
         }
 
         .nav {
-          .nav__menu {
+          &__menu {
             display: block;
             display: flex;
             flex-direction: row;
