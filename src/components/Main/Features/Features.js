@@ -1,4 +1,5 @@
 import React from 'react'
+import data from '../../../../data'
 import PropTypes from 'prop-types';
 
 export const Features = (props) => {
@@ -19,8 +20,7 @@ export const Features = (props) => {
     return (
       <>
         <div className={'feature'}>
-          <img className={'feature__image'} src={features.list.map((item) => {
-    return renderSrc(item)})} ></img>
+          <img className={'feature__image'} src={item.image} ></img>
           <h4 className={'feature__description'}>{item.title}</h4>
           <p className={'feature__text'}>{item.text}</p>
         </div>

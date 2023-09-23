@@ -12,31 +12,31 @@
         }
     }
 
-    &__sub-header {
-        text-align: center;
-        @include flexAbsoluteCenter;
-        flex-direction: column;
-        padding: 10px 0;
+    // &__sub-header {
+    //     text-align: center;
+    //     @include flexAbsoluteCenter;
+    //     flex-direction: column;
+    //     padding: 10px 0;
 
-        @include respond(tablet) {
-            &__sub-header {
-                text-align: center;
-            }
-        }
+    //     @include respond(tablet) {
+    //         &__sub-header {
+    //             text-align: center;
+    //         }
+    //     }
 
-        label {
-            font-size: 0.5em;
-            padding-bottom: 10px;
-            @include respond(tablet) {
-                font-size: 1em
-            }
-        }
+    //     label {
+    //         font-size: 0.5em;
+    //         padding-bottom: 10px;
+    //         @include respond(tablet) {
+    //             font-size: 1em
+    //         }
+    //     }
 
-        select {
-            font-size: 0.5rem;
-            padding: 10px 5px;
-        }
-    }
+    //     select {
+    //         font-size: 0.5rem;
+    //         padding: 10px 5px;
+    //     }
+    // }
 
     &__container {
         @include flexAbsoluteCenter;
@@ -53,6 +53,8 @@
             grid-auto-flow: row;
         }
     }
+
+    
 
     &__person {
         @include flexAbsoluteCenter;
@@ -74,7 +76,13 @@
             height: 100%;
             border-radius: 50%;
         }
+
+    .you{
+        background-color: $color-medium-green;
     }
+    }
+
+
 
     // &__person.you {
     //     display: none;

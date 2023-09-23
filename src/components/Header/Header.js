@@ -26,7 +26,7 @@ export const Header = (props) => {
         <article class="hero__info">
           <h2 class="hero__header">Beautiful Free Nova template</h2>
           <p class="hero__sub-header">A top notch premium quality template for your next web project</p>
-          <button class="hero__button">Download FREE!</button>
+          <button class="hero__button button">Download FREE!</button>
         </article>
         <div class="hero__photo-container">
           <img class="image" src={header.screen} alt="screen" width="350px"></img>

@@ -44,13 +44,36 @@
   font-family: "Montserrat", sans-serif;
 }
 
-header, main {
+header,
+main {
   width: 100%;
 }
 
 section {
   margin-bottom: 20px;
-  padding: 0 60px;
+  padding: 0 0px;
+}
+
+@media only screen and (min-width: 900px) {
+  section {
+    padding: 0 60px;
+  }
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(36, 242, 139);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 0.5em;
 }
 
 .header {
@@ -134,67 +157,34 @@ section {
 .hamburger {
   background-color: rgb(36, 242, 139);
   border-radius: 5px;
+  padding: 10px 10px;
 }
 
 .hamburger__icon-open, .hamburger__icon-close {
   width: 30px;
   height: 30px;
-  position: relative;
   transition: 0.1s;
-  margin: 10px 10px;
   cursor: pointer;
-  display: inline-block;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }
 
-.hamburger__icon-open span, .hamburger__icon-close span {
+.hamburger__icon-open div, .hamburger__icon-close div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 2px 2px;
+}
+
+.hamburger__icon-open div span {
   width: 5px;
   height: 5px;
   background-color: rgb(194, 74, 126);
   display: block;
   border-radius: 50%;
-  position: absolute;
-}
-
-.hamburger__icon-open span:nth-child(2) {
-  left: 12px;
-}
-
-.hamburger__icon-open span:nth-child(3) {
-  right: 0;
-}
-
-.hamburger__icon-open span:nth-child(4) {
-  top: 12px;
-}
-
-.hamburger__icon-open span:nth-child(5) {
-  left: 12px;
-  top: 12px;
-}
-
-.hamburger__icon-open span:nth-child(6) {
-  right: 0px;
-  top: 12px;
-}
-
-.hamburger__icon-open span:nth-child(7) {
-  left: 0px;
-  bottom: 0px;
-}
-
-.hamburger__icon-open span:nth-child(8) {
-  left: 12px;
-  bottom: 0px;
-}
-
-.hamburger__icon-open span:nth-child(9) {
-  right: 0px;
-  bottom: 0px;
-}
-
-.hamburger__icon-open span:hover span {
-  transform: scale(1.2);
-  transition: 350ms cubic-bezier(0.8, 0.5, 0.2, 1.4);
 }
 
 .hamburger__icon-close {
@@ -203,24 +193,14 @@ section {
   transition: 0.2s cubic-bezier(0.8, 0.5, 0.2, 1.4);
 }
 
-.hamburger__icon-close:nth-child(2) {
-  left: 6px;
-  top: 6px;
-}
-
-.hamburger__icon-close:nth-child(4) {
-  left: 6px;
-  top: 18px;
-}
-
-.hamburger__icon-close:nth-child(6) {
-  right: 6px;
-  top: 6px;
-}
-
-.hamburger__icon-close:nth-child(8) {
-  left: 18px;
-  bottom: 6px;
+.hamburger__icon-close div:nth-child(odd) span {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(194, 74, 126);
+  display: block;
+  border-radius: 50%;
+  transition-delay: 200ms;
+  transition: 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
 }
 
 .hero {
@@ -249,17 +229,6 @@ section {
 .hero .hero__info .hero__sub-header {
   font-weight: 400;
   font-size: 0.8em;
-}
-
-.hero .hero__info .hero__button {
-  width: 30%;
-  padding: 10px;
-  border: none;
-  background-color: rgb(36, 242, 139);
-  color: rgb(255, 255, 255);
-  border-radius: 5px;
-  font-weight: 700;
-  font-size: 0.5em;
 }
 
 .hero .hero__photo-container {
@@ -555,35 +524,6 @@ section {
     font-size: 1.5em;
   }
 }
-.team__sub-header {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 10px 0;
-}
-
-@media only screen and (min-width: 900px) {
-  .team__sub-header__sub-header {
-    text-align: center;
-  }
-}
-.team__sub-header label {
-  font-size: 0.5em;
-  padding-bottom: 10px;
-}
-
-@media only screen and (min-width: 900px) {
-  .team__sub-header label {
-    font-size: 1em;
-  }
-}
-.team__sub-header select {
-  font-size: 0.5rem;
-  padding: 10px 5px;
-}
-
 .team__container {
   display: flex;
   justify-content: center;
@@ -627,6 +567,10 @@ section {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+}
+
+.team__photo .you {
+  background-color: rgb(36, 242, 139);
 }
 
 .team__person.addYourself .team__photo {

@@ -4,20 +4,14 @@ import data from '../../../../data'
 import AddYourself from './AddYourself'
 import PropTypes from 'prop-types';
 
-
-
-
 export const Team = (props) => {
   const [inputValue, setInputValue] = useState('');
   const [showComponent, setShowComponent] = useState(false);
 
-  // Event handler for input change
   const handleInputChange = (event) => {
     const newValue = event.target.value;
     setInputValue(newValue);
-  
     setShowComponent(true);
-  
   };
 
 
@@ -48,21 +42,15 @@ export const Team = (props) => {
   return (
     <section className={"team"} id="team">
       <h3 className={"team__header container"}>THE TEAM</h3>
-      <div className={"team__sub-header"}>
-        <label for="select__newmember">ADD NEW MEMBER OF TEAM</label>
-        <select nameName={"select__newmember"}  onChange={handleInputChange} id="select__member">
-          <option value="">--Please choose an option--</option>
-          <option value={inputValue}>Add Yourself</option>
-          <option value="generateRandomMember">Generate Random Member</option>
-        </select>
-      </div>
       <div className={'team__container'}>
         {team.list.map((item, i) => {
           return renderListItem(item, i)
         })}
-        {showComponent && <AddYourself {...data}/>}
       </div>
-      
+      <div className={'center'}>
+        <button onClick={handleInputChange} className={"team__button-joinUs button"}>Join us!</button>
+      </div>
+      {showComponent && <AddYourself {...data}/>}
     </section>
   )
 }

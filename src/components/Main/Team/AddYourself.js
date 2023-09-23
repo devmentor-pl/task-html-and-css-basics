@@ -20,7 +20,7 @@ export const AddYourself = (props) => {
             image.style.display = 'block'
             image.src = e.target.result;
             image.style.display = 'block';
-            fileInput.style.visibility = 'hidden'
+            // fileInput.style.visibility = 'hidden'
         };
         reader.readAsDataURL(file);
     }
@@ -32,8 +32,9 @@ export const AddYourself = (props) => {
     return (
       <>
         <div className={'team__person you'}>
-          <div className={'team__photo'}><input type="file" id="fileInput" accept="image/*" onChange={handleInputChange} ></input>
-            <img id="image" /></div>
+          <div className={'team__photo'}>
+            <img id="image" className={'you'}/></div>
+            <input type="file" id="fileInput" accept="image/*" onChange={handleInputChange} ></input>
           <div className={'team__function'}><input type="text" id="textInput" placeholder={'Please write your function'}></input></div>
           <div className={'team__data'}><input type="text" id="textInput" placeholder={'Please write your name'}></input></div>
         </div>

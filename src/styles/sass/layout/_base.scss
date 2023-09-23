@@ -1,12 +1,34 @@
+@import '../abstracts/';
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
 
-header, main {
+header,
+main {
     width: 100%;
 }
 
-section{
+section {
     margin-bottom: 20px;
-    padding: 0 60px;
+    padding: 0 0px;
+
+    @include respond(tablet) {
+        padding: 0 60px;
+    }
+}
+
+.center {
+    @include flexAbsoluteCenter()
+}
+
+.button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: $color-medium-green;
+    color: $color-white;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.5em;
 }

@@ -27,8 +27,8 @@ const App = () => (
 root.render(<App></App>);
 
 
-const iconsHamburger = document.querySelector('.hamburger__icon');
-toggleHamburger(iconsHamburger)
+// const iconsHamburger = document.querySelector('.hamburger__icon');
+// toggleHamburger(iconsHamburger)
 
 // const selectElement = document.getElementById("select__member");
 // selectMember(selectElement)

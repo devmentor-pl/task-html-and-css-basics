@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 export const NavbarContext = React.createContext();
 export const ChocolateHamburger = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   const {
     className,
     onClick,
@@ -13,8 +19,9 @@ export const ChocolateHamburger = (props) => {
   const spanElement = (spanElement) => {
     const numberOfElements = spanElement;
     const elements = [];
+
     for (let i = 1; i <= numberOfElements; i++) {
-      elements.push(<span key={i}></span>);
+      elements.push(<div><span key={i}></span></div>);
     }
     return (
       <>
@@ -23,20 +30,12 @@ export const ChocolateHamburger = (props) => {
     );
   }
 
-  if (open) {
-    return (
-      <div className={`${"hamburger__icon-open"}`}>
-        {spanElement(props.span)}
-      </div>
-    )
-
-  } else if (!open) {
-    return (
-      <div className={`${"hamburger__icon-close"}`}>
-        {spanElement(props.span)}
-      </div>
-    )
-  }
+  return (
+    <div className={`hamburger__icon${isOpen ? '-close' : '-open'}`} onClick={toggleMenu}>
+      {spanElement(props.span)}
+    </div>
+  )
+  
 }
 
 ChocolateHamburger.propTypes = {
