@@ -1,22 +1,28 @@
-@import '../abstracts/';
+@import '../../abstracts/';
 
 .adverb {
     @include flexAbsoluteCenter;
     flex-direction: column;
+    padding: 10%;
 
     @include respond(tablet) {
         flex-direction: row;
+        padding: 0;
     }
 
     &__text {
         flex-basis: 60%;
         align-self: flex-start;
-        padding: 40px 60px;
+        padding: 30px 10px;
+        @include respond(tablet) {
+          padding: 40px 60px;  
+        }
 
         &-header {
             font-weight: bold;
             padding: 10px 0;
             color: $color-dark-grey;
+            text-align: center;
         }
 
         &-description {

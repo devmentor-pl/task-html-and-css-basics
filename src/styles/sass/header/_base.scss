@@ -29,8 +29,8 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-
-      .nav__menu.nav__block {
+      @include respond(max-tablet){
+          .nav__menu.nav__block {
         height: 40vh;
         width: 100%;
         position: absolute;
@@ -44,6 +44,7 @@
         padding-left: 40%;
         background: $color-dark-pink 40%;
 
+
         &>li {
           margin-bottom: 10px;
 
@@ -53,6 +54,8 @@
           }
         }
       }
+      }
+    
 
       .nav__menu.nav__hide {
         display: none;

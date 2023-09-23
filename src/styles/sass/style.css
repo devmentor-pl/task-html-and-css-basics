@@ -114,30 +114,29 @@ section {
   align-items: center;
 }
 
-.header__container__navigation .nav__menu.nav__block {
-  height: 40vh;
-  width: 100%;
-  position: absolute;
-  top: 60vh;
-  left: 0;
-  z-index: 2;
-  display: block;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding-left: 40%;
-  background: rgb(194, 74, 126) 40%;
+@media only screen and (max-width: 899px) {
+  .header__container__navigation .nav__menu.nav__block {
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    top: 60vh;
+    left: 0;
+    z-index: 2;
+    display: block;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 40%;
+    background: rgb(194, 74, 126) 40%;
+  }
+  .header__container__navigation .nav__menu.nav__block > li {
+    margin-bottom: 10px;
+  }
+  .header__container__navigation .nav__menu.nav__block > li a {
+    color: rgb(36, 242, 139);
+    font-weight: bold;
+  }
 }
-
-.header__container__navigation .nav__menu.nav__block > li {
-  margin-bottom: 10px;
-}
-
-.header__container__navigation .nav__menu.nav__block > li a {
-  color: rgb(36, 242, 139);
-  font-weight: bold;
-}
-
 .header__container__navigation .nav__menu.nav__hide {
   display: none;
 }
@@ -363,23 +362,31 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 10%;
 }
 
 @media only screen and (min-width: 900px) {
   .adverb {
     flex-direction: row;
+    padding: 0;
   }
 }
 .adverb__text {
   flex-basis: 60%;
   align-self: flex-start;
-  padding: 40px 60px;
+  padding: 30px 10px;
 }
 
+@media only screen and (min-width: 900px) {
+  .adverb__text {
+    padding: 40px 60px;
+  }
+}
 .adverb__text-header {
   font-weight: bold;
   padding: 10px 0;
   color: rgb(70, 70, 70);
+  text-align: center;
 }
 
 .adverb__text-description {
@@ -405,114 +412,13 @@ section {
     height: 100%;
   }
 }
-.pricing {
-  background-color: rgb(249, 250, 250);
+.team {
+  padding: 10%;
 }
 
-.pricing .pricing__header {
-  text-align: center;
-  font-size: 1.2em;
-  font-weight: bold;
-  padding: 20px 0 20px 0;
-  color: rgb(70, 70, 70);
-}
-
-.pricing .pricing__description {
-  text-align: center;
-  font-size: 1em;
-  font-weight: 200;
-  line-height: 1.5em;
-  color: rgb(70, 70, 70);
-}
-
-.pricing .pricing__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  grid-template-columns: 80%;
-  grid-template-rows: repeat(3, 350px);
-  grid-auto-flow: row;
-}
-
-.pricing .pricing__container .pricing__element {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  padding: 20px 0 20px 0;
-}
-
-.pricing .pricing__container .pricing__element:hover {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 4px 5px 21px -6px rgb(36, 242, 139);
-}
-
-.pricing .pricing__container .pricing__element .pricing__element-info > * {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.pricing .pricing__container .pricing__element .pricing__element-info .type {
-  font-size: 1em;
-  margin-bottom: 20px;
-}
-
-.pricing .pricing__container .pricing__element .pricing__element-info .price {
-  font-size: 2em;
-  font-weight: 600;
-}
-
-.pricing .pricing__container .pricing__element .pricing__element-info .sub-price {
-  font-size: 0.8em;
-  margin-bottom: 20px;
-}
-
-.pricing .pricing__container .pricing__element .pricing__element-info .benefits {
-  margin-bottom: 20px;
-}
-
-.pricing .pricing__container .pricing__element .pricing__element-info .benefits ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.pricing .pricing__container .pricing__element button {
-  display: flex;
-  width: 60%;
-  padding: 10px;
-  border: none;
-  background-color: rgb(36, 242, 139);
-  color: rgb(255, 255, 255);
-  border-radius: 5px;
-  font-weight: 700;
-  font-size: 0.5em;
-}
-
-@media (min-width: 768px) {
-  .pricing .pricing__header {
-    font-size: 1.5em;
-  }
-  .pricing .pricing__description {
-    font-size: 1.3em;
-    padding-bottom: 30px;
-  }
-  .pricing .pricing__container {
-    display: grid;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: 80%;
-    grid-auto-flow: row;
-  }
-  .pricing .pricing__container .pricing__element {
-    padding: 20px 40px 0px 40px;
-    min-height: 300px;
-  }
-  .pricing .pricing__container button {
-    width: 40%;
-    padding: 20px;
+@media only screen and (min-width: 900px) {
+  .team {
+    padding: 0;
   }
 }
 .team__header {
@@ -543,8 +449,7 @@ section {
   .team__container {
     display: grid;
     grid-template-columns: repeat(3, 350px);
-    grid-template-rows: 80%;
-    grid-auto-flow: row;
+    grid-template-rows: 1fr;
   }
 }
 .team__person {
@@ -552,21 +457,27 @@ section {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px 0 20px 0;
+  padding: 30px 0 30px 0;
 }
 
 .team__person > * {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .team__photo {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
 }
 
+@media only screen and (min-width: 900px) {
+  .team__photo {
+    width: 80px;
+    height: 80px;
+  }
+}
 .team__photo img {
   width: 100%;
   height: 100%;
@@ -574,19 +485,16 @@ section {
 }
 
 .team__photo .you {
-  background-color: rgb(36, 242, 139);
+  background-color: rgb(183, 182, 181);
 }
 
-.team__person.addYourself .team__photo {
-  width: 80px;
-  height: 80px;
-  display: flex;
-  flex-direction: column;
+.team__text {
+  text-align: center;
 }
 
-.team__person.addYourself .team__function input,
-.team__person.addYourself .team__data input {
-  border: none;
+.team__button-joinUs {
+  width: 15%;
+  background-color: rgb(70, 70, 70);
 }
 
 .footer {
@@ -604,4 +512,4 @@ section {
   padding: 10px;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */
