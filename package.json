@@ -25,6 +25,7 @@
         "babel-loader": "^8.1.0",
         "css-loader": "^3.5.3",
         "html-webpack-plugin": "^4.2.0",
+        "netlify-cli": "^16.4.2",
         "prop-types": "^15.8.1",
         "sass": "^1.66.1",
         "sass-loader": "^10.4.1",
