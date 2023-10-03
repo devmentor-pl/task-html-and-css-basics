@@ -17,14 +17,16 @@ export const Navigation = (props) => {
     setNavbarOpen(!navbarOpen);
   }
 
+    <NavbarContext.Provider value={{ navbarOpen, setNavbarOpen }}>
+        </NavbarContext.Provider>
   return (
     <>
-      <NavbarContext.Provider value={{ navbarOpen, setNavbarOpen }}>
+    
         <button onClick={handleToggle} className={'hamburger'}>
           <ChocolateHamburger open={navbarOpen} openFunc={setNavbarOpen} span={9}/>
         </button>
         <Menu open={navbarOpen} openFunc={setNavbarOpen}></Menu>
-      </NavbarContext.Provider>
+      
     </>
 )
 }

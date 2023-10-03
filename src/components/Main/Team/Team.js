@@ -5,12 +5,11 @@ import AddYourself from './AddYourself'
 import PropTypes from 'prop-types';
 
 export const Team = (props) => {
-  const [inputValue, setInputValue] = useState('');
+
   const [showComponent, setShowComponent] = useState(false);
 
-  const handleInputChange = (event) => {
-    const newValue = event.target.value;
-    setInputValue(newValue);
+  const handleInputChange = () => {
+
     setShowComponent(true);
   };
 
