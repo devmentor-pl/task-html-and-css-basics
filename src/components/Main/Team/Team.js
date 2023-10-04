@@ -47,7 +47,7 @@ export const Team = (props) => {
       <div className={'center'}>
         <button onClick={handleInputChange} className={"team__button-joinUs button"}>Join us!</button>
       </div>
-      {showComponent && <AddYourself {...data}/>}
+      {showComponent && <AddYourself {...data}/>} 
     </section>
   )
 }
