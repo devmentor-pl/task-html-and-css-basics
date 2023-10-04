@@ -1,4 +1,4 @@
-import logos from '../src/images/logos.png'
+import logos from '../../src/images/logos.png'
 
 
 export const websites = {logos:logos}

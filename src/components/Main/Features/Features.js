@@ -1,13 +1,14 @@
 import React from 'react'
 import data from '../../../../data'
 import PropTypes from 'prop-types';
-import features from '../../../../data/features';
+
 
 export const Features = (props) => {
 
   const {
     className,
     features,
+    headline,
     ...otherProps
   } = props
 
@@ -25,7 +26,8 @@ export const Features = (props) => {
 
   return (
     <section className={"features"} id="features">
-      <h2 className={"features__header"}>FEATURES</h2>
+      {headline}
+      {/* <h2 className={"features__header"}>FEATURES</h2> */}
       <div className={"features__container"}>
         {features.list.map((item, i) => {
           return renderListItem(item, i)

@@ -1,6 +1,6 @@
-import responsive from '../src/images/responsive.png';
-import customizable from '../src/images/customizable.png';
-import design from '../src/images/design.png';
+import responsive from '../../src/images/responsive.png';
+import customizable from '../../src/images/customizable.png';
+import design from '../../src/images/design.png';
 
 
 export const features = {

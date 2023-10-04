@@ -1,19 +1,15 @@
 import header from "./header"
-import features from "./features"
-import pricing from "./pricing"
-import team from "./team"
-import websites from "./websites"
-import adverb from "./adverb"
-import footer from "./footer"
+
+import main from './main/index'
 
 export const data = {
   header,
-  features,
-  pricing,
-  team,
-  websites,
-  adverb,
-  footer
+  // features,
+  // pricing,
+  // team,
+  // websites,
+  // adverb,
+  main
 }
 
 export default data

@@ -1,15 +1,26 @@
 import React from 'react'
 
+import PropTypes from 'prop-types';
 import { HeaderSection } from './HeaderSection/HeaderSection';
 
+
 export const Header = (props) => {
+  const {
+    className,
+    ...header
+  } = props
+
   return (
-    <>
-      <HeaderSection {...props}></HeaderSection>
-    </>
+    <header className={className}>
+      <HeaderSection {...header}></HeaderSection>
+    </header>
   )
 }
 
+Header.propTypes = {
+  className: PropTypes.string,
+  header: PropTypes.object
+}
 
 
 export default Header

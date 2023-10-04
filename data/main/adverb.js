@@ -1,4 +1,4 @@
-import imac from '../src/images/imac.png'
+import imac from '../../src/images/imac.png'
 
 
 export const adverb = {

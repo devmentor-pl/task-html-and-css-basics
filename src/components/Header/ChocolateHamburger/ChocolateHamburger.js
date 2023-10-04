@@ -32,7 +32,7 @@ export const ChocolateHamburger = (props) => {
 
   return (
     <div className={`hamburger__icon${isOpen ? '-close' : '-open'}`} onClick={toggleMenu}>
-      {spanElement(props.span)}
+      {spanElement(span)}
     </div>
   )
   
@@ -40,7 +40,8 @@ export const ChocolateHamburger = (props) => {
 
 ChocolateHamburger.propTypes = {
   open: PropTypes.bool,
-  span: PropTypes.number
+  span: PropTypes.number,
+  openFunc: PropTypes.func
 }
 
 export default ChocolateHamburger

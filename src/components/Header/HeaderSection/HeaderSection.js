@@ -4,12 +4,12 @@ import Navigation from '../Navigation/Navigation';
 
 export const HeaderSection = (props) => {
   const {
-   logo, 
-   screen
- } = props
+    logo,
+    screen
+  } = props
 
   return (
-    <header className={'header'}>
+    <>
       <div className={"header__container"}>
         <h1 className={'header__container__logo'}>
           <img src={logo} alt="logo">
@@ -29,13 +29,15 @@ export const HeaderSection = (props) => {
           <img class="image" src={screen} alt="screen" width="350px"></img>
         </div>
       </div>
-    </header>
+    </>
+
+
   )
 }
 
 HeaderSection.propTypes = {
-  logo: PropTypes.object,
-  screen: PropTypes.object
+  logo: PropTypes.string,
+  screen: PropTypes.string
 }
 
 export default HeaderSection
