@@ -15,7 +15,7 @@ export const Features = (props) => {
   const renderListItem = (item, i) => {
     return (
       <>
-        <div className={'feature'}>
+        <div className={className}>
           <img className={'feature__image'} src={item.image} ></img>
           <h4 className={'feature__description'}>{item.title}</h4>
           <p className={'feature__text'}>{item.text}</p>

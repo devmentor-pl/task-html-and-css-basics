@@ -4,6 +4,8 @@ import { Features } from './Features'
 import Typography from '../Typography/Typography';
 import Websites from './Websites'
 import Adverb from './Adverb'
+import Pricing from './Features'
+import Team from './Team'
 
 
 export const Main = (props) => {
@@ -15,11 +17,18 @@ export const Main = (props) => {
 
   return (
     <main className={className}>
-       <Features {...props} headline={<Typography children={props.features.headline} variant="h2" className={'features__header'}></Typography>}></Features> 
-       <Websites {...props}></Websites>
-       <Adverb {...props} headline={<Typography children={props.adverb.headline} variant="h3" className={'adverb__text-header'}></Typography>}></Adverb>
-       {/* <Pricing {...data}></Pricing>
-       <Team {...data}></Team>   */}
+      <Features {...props}
+        className={'features'}
+        headline={<Typography children={props.features.headline} variant="h2" className={'features__header'}></Typography>}></Features>
+      <Websites {...props}
+        className={'websites'}></Websites>
+      <Adverb {...props}
+        className={'adverb'}
+        headline={<Typography children={props.adverb.headline} variant="h3" className={'adverb__text-header'}></Typography>}
+        text={<Typography children={props.adverb.text} variant="p" className={'adverb__text-description'}></Typography>}
+      ></Adverb>
+      <Pricing {...props}></Pricing>
+      <Team {...props}></Team>
     </main>
   )
 }

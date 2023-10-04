@@ -10,7 +10,7 @@ export const Websites = (props) => {
   } = props
 
   return (
-    <section className={"websites"}>
+    <section className={className}>
       <div className={"websites__container"}>
         <img className={"websites__photo"} src={websites.logos} alt="logos"></img>
       </div>
