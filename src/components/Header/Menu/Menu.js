@@ -1,12 +1,9 @@
-import React, {useState} from 'react'
+import React from 'react'
 import PropTypes from 'prop-types';
 
 export const Menu = (props) => {
   const {
-    className,
-    open,
-    ...otherProps
-  
+    open
   } = props
 
   return (
@@ -21,7 +18,6 @@ export const Menu = (props) => {
 }
 
 Menu.propTypes = {
-  className: PropTypes.string,
   open: PropTypes.bool
 }
 

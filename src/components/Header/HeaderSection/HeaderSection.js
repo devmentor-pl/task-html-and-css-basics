@@ -2,20 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import Navigation from '../Navigation/Navigation';
 
-
 export const HeaderSection = (props) => {
   const {
-    className,
-    header,
-    ...otherProps
-
-  } = props
+   logo, 
+   screen
+ } = props
 
   return (
     <header className={'header'}>
       <div className={"header__container"}>
         <h1 className={'header__container__logo'}>
-          <img src={header.logo} alt="logo">
+          <img src={logo} alt="logo">
           </img>
         </h1>
         <div className={"header__container__navigation"}>
@@ -29,7 +26,7 @@ export const HeaderSection = (props) => {
           <button class="hero__button button">Download FREE!</button>
         </article>
         <div class="hero__photo-container">
-          <img class="image" src={header.screen} alt="screen" width="350px"></img>
+          <img class="image" src={screen} alt="screen" width="350px"></img>
         </div>
       </div>
     </header>
@@ -37,8 +34,8 @@ export const HeaderSection = (props) => {
 }
 
 HeaderSection.propTypes = {
-  className: PropTypes.string,
-  header: PropTypes.object
+  logo: PropTypes.object,
+  screen: PropTypes.object
 }
 
 export default HeaderSection

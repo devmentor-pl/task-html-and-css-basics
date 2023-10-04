@@ -2,19 +2,18 @@ import React from 'react';
 import { useState } from 'react';
 import PropTypes from 'prop-types';
 
-export const NavbarContext = React.createContext();
 export const ChocolateHamburger = (props) => {
+  
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
   const {
-    className,
     open,
     onFunc,
-    span,
-    ...otherProps
+    span
   } = props
 
   const spanElement = (spanElement) => {
@@ -40,7 +39,6 @@ export const ChocolateHamburger = (props) => {
 }
 
 ChocolateHamburger.propTypes = {
-  className: PropTypes.string,
   open: PropTypes.bool,
   span: PropTypes.number
 }
