@@ -4,6 +4,8 @@ import design from '../../src/images/design.png';
 
 
 export const features = {
+
+    headline: 'SIMPLE AND BEAUTIFUL',
    
     list: [
       {
