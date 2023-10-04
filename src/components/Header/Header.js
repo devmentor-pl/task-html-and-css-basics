@@ -20,7 +20,8 @@ export const Header = (props) => {
 }
 
 Header.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  header: PropTypes.object
 }
 
 export default Header

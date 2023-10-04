@@ -37,7 +37,8 @@ export const HeaderSection = (props) => {
 }
 
 HeaderSection.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  header: PropTypes.object
 }
 
 export default HeaderSection

@@ -1,7 +1,5 @@
 import React from 'react'
-
 import PropTypes from 'prop-types'
-
 
 export const AddYourself = (props) => {
 
@@ -51,7 +49,8 @@ export const AddYourself = (props) => {
 }
 
 AddYourself.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  team: PropTypes.object
 }
 
 export default AddYourself

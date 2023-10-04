@@ -12,7 +12,7 @@ export const Navigation = (props) => {
   } = props
 
   const [navbarOpen, setNavbarOpen] = useState(false);
-  
+ 
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen);
   }

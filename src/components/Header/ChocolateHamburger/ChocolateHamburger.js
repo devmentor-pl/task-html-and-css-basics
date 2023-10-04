@@ -11,7 +11,8 @@ export const ChocolateHamburger = (props) => {
   };
   const {
     className,
-    onClick,
+    open,
+    onFunc,
     span,
     ...otherProps
   } = props
@@ -39,7 +40,9 @@ export const ChocolateHamburger = (props) => {
 }
 
 ChocolateHamburger.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  open: PropTypes.bool,
+  span: PropTypes.number
 }
 
 export default ChocolateHamburger

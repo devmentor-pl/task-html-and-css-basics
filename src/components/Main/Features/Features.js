@@ -1,6 +1,7 @@
 import React from 'react'
 import data from '../../../../data'
 import PropTypes from 'prop-types';
+import features from '../../../../data/features';
 
 export const Features = (props) => {
 
@@ -35,7 +36,8 @@ export const Features = (props) => {
 }
 
 Features.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  features: PropTypes.object
 }
 
 export default Features

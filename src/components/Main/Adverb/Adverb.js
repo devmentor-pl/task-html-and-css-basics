@@ -27,7 +27,8 @@ export const Adverb = (props) => {
 }
 
 Adverb.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  adverb: PropTypes.object
 }
 
 export default Adverb

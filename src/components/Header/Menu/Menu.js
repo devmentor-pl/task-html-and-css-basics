@@ -21,7 +21,8 @@ export const Menu = (props) => {
 }
 
 Menu.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  open: PropTypes.bool
 }
 
 export default Menu

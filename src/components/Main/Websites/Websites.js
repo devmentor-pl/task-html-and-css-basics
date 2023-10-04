@@ -19,7 +19,8 @@ export const Websites = (props) => {
 }
 
 Websites.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  websites: PropTypes.object
 }
 
 export default Websites

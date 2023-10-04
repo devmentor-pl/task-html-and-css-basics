@@ -54,7 +54,8 @@ export const Pricing = (props) => {
 }
 
 Pricing.propTypes = {
-    className: PropTypes.string
+    className: PropTypes.string,
+    pricing: PropTypes.object
 }
 
 export default Pricing

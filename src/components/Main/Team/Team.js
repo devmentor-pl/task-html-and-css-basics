@@ -53,7 +53,8 @@ export const Team = (props) => {
 }
 
 Team.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  team: PropTypes.object
 }
 
 export default Team
