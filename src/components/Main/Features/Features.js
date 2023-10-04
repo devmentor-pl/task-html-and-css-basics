@@ -8,14 +8,13 @@ export const Features = (props) => {
   const {
     className,
     features,
-    headline,
-    ...otherProps
+    headline
   } = props
 
   const renderListItem = (item, i) => {
     return (
       <>
-        <div className={className}>
+        <div className='feature'>
           <img className={'feature__image'} src={item.image} ></img>
           <h4 className={'feature__description'}>{item.title}</h4>
           <p className={'feature__text'}>{item.text}</p>
@@ -25,10 +24,9 @@ export const Features = (props) => {
   }
 
   return (
-    <section className={"features"} id="features">
+    <section className={className} id="features">
       {headline}
-      {/* <h2 className={"features__header"}>FEATURES</h2> */}
-      <div className={"features__container"}>
+        <div className={"features__container"}>
         {features.list.map((item, i) => {
           return renderListItem(item, i)
         })}

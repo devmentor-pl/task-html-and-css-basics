@@ -4,7 +4,7 @@ import { Features } from './Features'
 import Typography from '../Typography/Typography';
 import Websites from './Websites'
 import Adverb from './Adverb'
-import Pricing from './Features'
+import Pricing from './Pricing'
 import Team from './Team'
 
 
