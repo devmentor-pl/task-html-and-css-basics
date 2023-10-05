@@ -5,8 +5,6 @@ export const Websites = (props) => {
   const {
     className,
     websites,
-    ...otherProps
-
   } = props
 
   return (

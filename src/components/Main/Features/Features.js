@@ -1,7 +1,6 @@
 import React from 'react'
-import data from '../../../../data'
+import Typography from '../../Typography/Typography';
 import PropTypes from 'prop-types';
-
 
 export const Features = (props) => {
 
@@ -13,13 +12,11 @@ export const Features = (props) => {
 
   const renderListItem = (item, i) => {
     return (
-      <>
-        <div className='feature'>
+        <div className='feature' key={i}>
           <img className={'feature__image'} src={item.image} ></img>
-          <h4 className={'feature__description'}>{item.title}</h4>
-          <p className={'feature__text'}>{item.text}</p>
+          <Typography className={'feature__description'} variant={'h4'} children={item.title}></Typography>
+          <Typography className={'feature__text'} variant={'p'} children={item.text}></Typography>
         </div>
-      </>
     )
   }
 

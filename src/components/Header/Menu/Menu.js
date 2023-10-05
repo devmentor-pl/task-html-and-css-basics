@@ -11,7 +11,7 @@ export const Menu = (props) => {
 
   const renderListItem = (item, i) => {
     return (
-    <li><a href={`#${item.href}`} className={'nav__link'}>{item.content}</a></li>
+    <li key={i}><a href={`#${item.href}`} className={'nav__link'}>{item.content}</a></li>
     )
   }
 

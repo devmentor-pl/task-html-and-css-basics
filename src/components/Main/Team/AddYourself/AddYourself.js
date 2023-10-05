@@ -5,9 +5,8 @@ export const AddYourself = (props) => {
 
   const {
     className,
-    team,
-    ...otherProps
-  } = props
+    addYou,
+} = props
 
   const handleInputChange = (event) => {
     const file = event.target.files[0];
@@ -40,7 +39,7 @@ export const AddYourself = (props) => {
 
   return (
     <>
-      {team.addYou.map((item, i) => {
+      {addYou.map((item, i) => {
         return renderListItem(item, i)
       })}
 

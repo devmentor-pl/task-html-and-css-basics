@@ -73,7 +73,7 @@
             box-shadow: 4px 5px 21px -6px $color-medium-green;
         }
 
-        .pricing__element-info {
+        &-info {
             &>* {
                 @include flexAbsoluteCenter;
             }
@@ -95,11 +95,7 @@
 
             .benefits {
                 margin-bottom: 20px;
-
-                ul {
-                    @include flexAbsoluteCenter;
-                    flex-direction: column;
-                }
+                flex-direction: column;
             }
 
         }
@@ -109,8 +105,8 @@
             width: 60%;
             padding: 10px;
             border: none;
-            background-color: rgb(36, 242, 139);
-            color: rgb(255, 255, 255);
+            background-color: $color-medium-green;
+            color: $color-white;
             border-radius: 5px;
             font-weight: 700;
             font-size: 0.5em;

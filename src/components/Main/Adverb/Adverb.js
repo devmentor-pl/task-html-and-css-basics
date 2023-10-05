@@ -7,10 +7,7 @@ export const Adverb = (props) => {
     adverb,
     headline,
     text
- 
-
   } = props
-
 
   return (
     <section className={className}>
@@ -23,6 +20,7 @@ export const Adverb = (props) => {
       </div>
     </section>
   )
+  
 }
 
 Adverb.propTypes = {

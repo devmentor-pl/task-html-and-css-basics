@@ -7,13 +7,10 @@ import Adverb from './Adverb'
 import Pricing from './Pricing'
 import Team from './Team'
 
-
 export const Main = (props) => {
   const {
     className,
-
   } = props
-
 
   return (
     <main className={className}>
@@ -27,7 +24,9 @@ export const Main = (props) => {
         headline={<Typography children={props.adverb.headline} variant="h3" className={'adverb__text-header'}></Typography>}
         text={<Typography children={props.adverb.text} variant="p" className={'adverb__text-description'}></Typography>}
       ></Adverb>
-      <Pricing {...props}></Pricing>
+      <Pricing 
+      {...props}
+      ></Pricing>
       <Team {...props}></Team>
     </main>
   )

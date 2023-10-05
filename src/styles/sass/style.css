@@ -546,35 +546,29 @@ section {
   box-shadow: 4px 5px 21px -6px rgb(36, 242, 139);
 }
 
-.pricing__element .pricing__element-info > * {
+.pricing__element-info > * {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.pricing__element .pricing__element-info .type {
+.pricing__element-info .type {
   font-size: 1em;
   margin-bottom: 20px;
 }
 
-.pricing__element .pricing__element-info .price {
+.pricing__element-info .price {
   font-size: 2em;
   font-weight: 600;
 }
 
-.pricing__element .pricing__element-info .sub-price {
+.pricing__element-info .sub-price {
   font-size: 0.8em;
   margin-bottom: 20px;
 }
 
-.pricing__element .pricing__element-info .benefits {
+.pricing__element-info .benefits {
   margin-bottom: 20px;
-}
-
-.pricing__element .pricing__element-info .benefits ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
