@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import classes from './styles.module.css'
 
 export const Typography = (props) => {
   const {
@@ -12,14 +11,14 @@ export const Typography = (props) => {
     ...otherProps
   } = props
 
-  const variantClass = classes[variant]
+
   const colorFont = color
 
 
-    if (variant === 'h1') {
+if (variant === 'h1') {
       return (
           <h1
-          className={`${classes.root}${className ? ` ${className}` : ''}${variantClass ? ` ${variantClass}` : ''}`}
+          className={`${className ? ` ${className}` : ''}`}
           style={{ color: colorFont }}
           {...otherProps}
       >
@@ -29,7 +28,7 @@ export const Typography = (props) => {
     } else if (variant === 'h2') {
       return (
         <h2
-          className={`${classes.root}${className ? ` ${className}` : ''}${variantClass ? ` ${variantClass}` : ''}`}
+          className={`${className ? ` ${className}` : ''}`}
           style={{ color: colorFont}}
           {...otherProps}
       >
@@ -39,7 +38,7 @@ export const Typography = (props) => {
     } else if (variant === 'h3') {
       return (
         <h3
-          className={`${classes.root}${className ? ` ${className}` : ''}${variantClass ? ` ${variantClass}` : ''}`}
+          className={`${className ? ` ${className}` : ''}`}
           style={{ color: colorFont }}
           {...otherProps}
       >
@@ -49,7 +48,7 @@ export const Typography = (props) => {
     } else if (variant === 'h4') {
       return (
         <h4
-          className={`${classes.root}${className ? ` ${className}` : ''}${variantClass ? ` ${variantClass}` : ''}`}
+          className={`${className ? ` ${className}` : ''}`}
           style={{ color: colorFont }}
           {...otherProps}
       >
@@ -59,7 +58,7 @@ export const Typography = (props) => {
     } else if (variant === 'h5') {
       return (
         <h4
-          className={`${classes.root}${className ? ` ${className}` : ''}${variantClass ? ` ${variantClass}` : ''}`}
+          className={`${className ? ` ${className}` : ''}`}
           style={{ color: colorFont }}
           {...otherProps}
       >
@@ -69,12 +68,22 @@ export const Typography = (props) => {
       else if (variant === 'p') {
       return (
         <p
-          className={`${classes.root}${className ? ` ${className}` : ''}${variantClass ? ` ${variantClass}` : ''}`}
+          className={`${className ? ` ${className}` : ''}`}
           style={{ color: colorFont }}
           {...otherProps}
       >
           {children}
         </p>
+      )
+    }else if(variant === 'button') {
+      return (
+        <button
+          className={`${className ? ` ${className}` : ''}`}
+          style={{ color: colorFont }}
+          {...otherProps}
+      >
+          {children}
+        </button>
       )
     }
   
@@ -83,7 +92,7 @@ export const Typography = (props) => {
 Typography.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
-  variant: PropTypes.oneOf(['h1','h2', 'h3','h4','button'])
+  variant: PropTypes.oneOf(['h1','h2','h3','h4','p','button'])
 }
 
 export default Typography

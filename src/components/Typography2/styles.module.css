@@ -1,0 +1,41 @@
+
+
+.h1 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+}
+
+.h2 {
+  font-family: Roboto;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+}
+
+.h3 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0.15000000596046448px;
+  text-align: left;
+}
+
+.button {
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.46000000834465027px;
+  text-align: left;
+}

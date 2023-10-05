@@ -1,7 +1,7 @@
 import React from 'react'
 
 import PropTypes from 'prop-types';
-import { HeaderSection } from './HeaderSection/HeaderSection';
+import HeaderSection from './HeaderSection';
 
 
 export const Header = (props) => {
