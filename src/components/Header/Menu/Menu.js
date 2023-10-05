@@ -2,16 +2,25 @@ import React from 'react'
 import PropTypes from 'prop-types';
 
 export const Menu = (props) => {
+
   const {
-    open
+    className,
+    open,
+    content
   } = props
 
+  const renderListItem = (item, i) => {
+    return (
+    <li><a href={`#${item.href}`} className={'nav__link'}>{item.content}</a></li>
+    )
+  }
+
   return (
-    <nav className={'nav'}>
+    <nav className={className}>
         <ul className={`${'nav__menu'} ${open ? `${'nav__hide'}` : `${'nav__block'}`}`}>
-            <li><a href="#features" className={'nav__link'}>The team</a></li>
-            <li><a href="#pricing" className={'nav__link'}>Pricing</a></li>
-            <li><a href="#features" className={'nav__link'}>Features</a></li>
+        {content.map((item, i) => {
+          return renderListItem(item, i)
+        })}  
         </ul>
     </nav>
   )

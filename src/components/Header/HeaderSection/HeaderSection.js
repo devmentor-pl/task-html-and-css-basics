@@ -10,7 +10,8 @@ export const HeaderSection = (props) => {
     headline,
     button,
     text,
-    screen, 
+    screen,
+    menu
  } = props
 
   return (
@@ -18,7 +19,7 @@ export const HeaderSection = (props) => {
       <div className={"header__container"}>
         <Logo className={'header__container__logo'} logo={logo}></Logo>
         <div className={"header__container__navigation"}>
-          <Navigation></Navigation>
+          <Navigation content={menu}></Navigation>
         </div>
       </div>
       <div className={"hero"} id="hero">
@@ -37,6 +38,9 @@ export const HeaderSection = (props) => {
 
 HeaderSection.propTypes = {
   logo: PropTypes.string,
+  screen: PropTypes.string,
+  button: PropTypes.string,
+  text: PropTypes.string,
   screen: PropTypes.string
 }
 

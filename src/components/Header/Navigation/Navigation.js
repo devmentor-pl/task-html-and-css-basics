@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
-import ChocolateHamburger from '../ChocolateHamburger/ChocolateHamburger';
+import ChocolateHamburger from '../ChocolateHamburger';
 import Menu from '../Menu/Menu';
 
 export const NavbarContext = React.createContext();
 
-export const Navigation = () => {
+export const Navigation = (props) => {
+
+  const {
+    content
+  } = props
 
   const [navbarOpen, setNavbarOpen] = useState(false);
 
@@ -12,17 +16,17 @@ export const Navigation = () => {
     setNavbarOpen(!navbarOpen);
   }
 
-
   return (
     <>
       <NavbarContext.Provider value={{ navbarOpen, setNavbarOpen }}>
         <button onClick={handleToggle} className={'hamburger'}>
           <ChocolateHamburger open={navbarOpen} openFunc={setNavbarOpen} span={9} />
         </button>
-        <Menu open={navbarOpen} openFunc={setNavbarOpen}></Menu>
+        <Menu className={'nav'} open={navbarOpen} openFunc={setNavbarOpen} content={content}></Menu>
       </NavbarContext.Provider>
     </>
   )
+
 }
 
 

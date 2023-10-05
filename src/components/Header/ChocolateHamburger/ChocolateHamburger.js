@@ -11,8 +11,6 @@ export const ChocolateHamburger = (props) => {
   };
 
   const {
-    open,
-    onFunc,
     span
   } = props
 

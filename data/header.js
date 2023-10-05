@@ -6,7 +6,21 @@ export const header = {
     headline: 'Beautiful Free Nova template', 
     button: 'Download free!',
     text: 'A top notch premium quality template for your next web project',
-    screen : screen
+    screen : screen,
+    menu: [
+        {
+          content: "The team",
+          href: 'team',
+        },
+        {
+          content: 'Pricing',
+          href: 'pricing',
+        },
+        {
+          content: 'Features',
+          hreef: 'features',
+        },
+    ]
 }
   
 
