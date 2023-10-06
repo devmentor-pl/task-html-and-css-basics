@@ -4,14 +4,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-    @include flexAbsoluteCenter;
+.header, .section, .footer {
+    padding: 0 30px;
+    @include respond(tablet) {
+        padding: 0 60px;
+    }  
 }
 
-header,
-main {
-    width: 100%;
-}
+
+// .header {
+//     @include respond(tablet) {
+//         padding: 0 60px;
+//     }  
+// }
 
 section {
     margin-bottom: 20px;

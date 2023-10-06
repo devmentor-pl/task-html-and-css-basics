@@ -17,8 +17,8 @@ export const HeaderSection = (props) => {
   return (
     <>
       <div className={"header__container"}>
-        <Logo className={'header__container__logo'} logo={logo}></Logo>
-        <div className={"header__container__navigation"}>
+        <Logo className={'header__logo'} logo={logo}></Logo>
+        <div className={"header__navigation"}>
           <Navigation content={menu}></Navigation>
         </div>
       </div>

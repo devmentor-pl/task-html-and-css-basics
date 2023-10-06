@@ -35,7 +35,6 @@ export const Pricing = (props) => {
                     <Typography className={'price'} variant={'h5'} children={'$' + item.price}></Typography>
                     <span className={'sub-price'}>per month</span>
                     <Benefits className={'benefits'} content={item.info}></Benefits>
-                    {/* <div className={'benefits'}>{renderInfo(item.info)}</div> */}
                 </div>
                 <button>GET STARTED</button>
             </div>
@@ -43,7 +42,7 @@ export const Pricing = (props) => {
     }
 
     return (
-        <section className={"pricing"} id="pricing">
+        <section className={className} id={`#${pricing}`}>
             <Typography className={'pricing__header'} variant={'h3'} children={pricing.headline}></Typography>
             <Typography className={'pricing__description'} variant={'p'} children={pricing.description}></Typography>
             <div className={"pricing__container"}>

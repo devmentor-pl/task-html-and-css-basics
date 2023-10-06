@@ -1,17 +1,14 @@
 @import '../abstracts/';
 
 .header {
-  width: 100%;
-  height: 60vh;
   padding: 0 30px;
+  height: 60vh;
   background: radial-gradient($color-dark-pink, $color-dark-violet);
   position: relative;
-  @include flexAbsoluteCenter;
-  flex-direction: column;
 
   @include respond(tablet) {
+    padding: 0 60px;
     height: 75vh;
-    align-items: flex-start;
   }
 
   &__container {
@@ -19,68 +16,72 @@
     height: 30%;
     padding: 30px 0px;
     @include flexAbsoluteCenter;
+  }
 
-    &__logo {
-      flex-basis: 30%;
+  &__logo {
+    flex-basis: 30%;
+  }
+
+  &__navigation {
+    flex-basis: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav__menu.nav__hide {
+    display: none;
+  }
+
+  @include respond(max-tablet) {
+    .nav__menu.nav__block {
+      height: 40vh;
+      width: 100%;
+      position: absolute;
+      top: 60vh;
+      left: 0;
+      z-index: 2;
+      display: block;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 40%;
+      background: $color-dark-pink 40%;
+
+      &>li {
+        margin-bottom: 10px;
+
+        a {
+          color: $color-medium-green;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+
+
+  @include respond(tablet) {
+    .hamburger {
+      display: none;
     }
 
-    &__navigation {
-      flex-basis: 70%;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
+    .nav {
+      &__menu {
+        display: block;
+        display: flex;
+        flex-direction: row;
 
-      @include respond(max-tablet) {
-        .nav__menu.nav__block {
-          height: 40vh;
-          width: 100%;
-          position: absolute;
-          top: 60vh;
-          left: 0;
-          z-index: 2;
-          display: block;
-          display: flex;
-          justify-content: center;
-          flex-direction: column;
-          padding-left: 40%;
-          background: $color-dark-pink 40%;
-          &>li {
-            margin-bottom: 10px;
-
-            a {
-              color: $color-medium-green;
-              font-weight: bold;
-            }
-          }
-        }
-      }
-      .nav__menu.nav__hide {
-        display: none;
-      }
-
-      @include respond(tablet) {
-        .hamburger {
-          display: none;
+        &>li:not(:nth-child(3)) {
+          margin-right: 10px;
         }
 
-        .nav {
-          &__menu {
-            display: block;
-            display: flex;
-            flex-direction: row;
-
-            &>li:not(:nth-child(3)) {
-              margin-right: 10px;
-            }
-
-            &>li {
-              a {
-                color: $color-white;
-              }
-            }
+        &>li {
+          a {
+            color: $color-white;
           }
         }
       }
     }
   }
+
 }

@@ -21,8 +21,8 @@ export const Features = (props) => {
   }
 
   return (
-    <section className={className} id="features">
-      {headline}
+    <section className={`${className} section`} id={`#${className}`}>
+        {headline}
         <div className={"features__container"}>
         {features.list.map((item, i) => {
           return renderListItem(item, i)

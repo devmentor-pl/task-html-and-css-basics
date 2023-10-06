@@ -2,17 +2,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header, .section, .footer {
+  padding: 0 30px;
 }
 
-header,
-main {
-  width: 100%;
+@media only screen and (min-width: 900px) {
+  .header, .section, .footer {
+    padding: 0 60px;
+  }
 }
-
 section {
   margin-bottom: 20px;
   padding: 0 0px;
@@ -41,21 +39,16 @@ section {
 }
 
 .header {
-  width: 100%;
-  height: 60vh;
   padding: 0 30px;
+  height: 60vh;
   background: radial-gradient(rgb(194, 74, 126), rgb(134, 82, 200));
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 @media only screen and (min-width: 900px) {
   .header {
+    padding: 0 60px;
     height: 75vh;
-    align-items: flex-start;
   }
 }
 .header__container {
@@ -67,19 +60,23 @@ section {
   align-items: center;
 }
 
-.header__container__logo {
+.header__logo {
   flex-basis: 30%;
 }
 
-.header__container__navigation {
+.header__navigation {
   flex-basis: 70%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
+.header .nav__menu.nav__hide {
+  display: none;
+}
+
 @media only screen and (max-width: 899px) {
-  .header__container__navigation .nav__menu.nav__block {
+  .header .nav__menu.nav__block {
     height: 40vh;
     width: 100%;
     position: absolute;
@@ -93,31 +90,27 @@ section {
     padding-left: 40%;
     background: rgb(194, 74, 126) 40%;
   }
-  .header__container__navigation .nav__menu.nav__block > li {
+  .header .nav__menu.nav__block > li {
     margin-bottom: 10px;
   }
-  .header__container__navigation .nav__menu.nav__block > li a {
+  .header .nav__menu.nav__block > li a {
     color: rgb(36, 242, 139);
     font-weight: bold;
   }
 }
-.header__container__navigation .nav__menu.nav__hide {
-  display: none;
-}
-
 @media only screen and (min-width: 900px) {
-  .header__container__navigation .hamburger {
+  .header .hamburger {
     display: none;
   }
-  .header__container__navigation .nav__menu {
+  .header .nav__menu {
     display: block;
     display: flex;
     flex-direction: row;
   }
-  .header__container__navigation .nav__menu > li:not(:nth-child(3)) {
+  .header .nav__menu > li:not(:nth-child(3)) {
     margin-right: 10px;
   }
-  .header__container__navigation .nav__menu > li a {
+  .header .nav__menu > li a {
     color: rgb(255, 255, 255);
   }
 }
@@ -241,10 +234,16 @@ section {
   width: 100%;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
+  padding: 20px 30px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
+@media only screen and (min-width: 900px) {
+  .features {
+    padding: 20px 60px;
+  }
+}
 .features__header {
   text-align: center;
   font-size: 1.2em;

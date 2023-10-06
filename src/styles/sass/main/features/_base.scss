@@ -4,8 +4,12 @@
     width: 100%;
     background-color: $color-black;
     color: $color-white;
+    padding: 20px 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    @include respond(tablet){
+        padding: 20px 60px;
+    }
 
     &__header {
         text-align: center;

@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import Section from '../Section';
 import { Features } from './Features'
 import Typography from '../Typography/Typography';
 import Websites from './Websites'
@@ -14,8 +15,9 @@ export const Main = (props) => {
 
   return (
     <main className={className}>
+    
       <Features {...props}
-        className={'features'}
+       className={'features'}
         headline={<Typography children={props.features.headline} variant="h2" className={'features__header'}></Typography>}></Features>
       <Websites {...props}
         className={'websites'}></Websites>
@@ -24,10 +26,11 @@ export const Main = (props) => {
         headline={<Typography children={props.adverb.headline} variant="h3" className={'adverb__text-header'}></Typography>}
         text={<Typography children={props.adverb.text} variant="p" className={'adverb__text-description'}></Typography>}
       ></Adverb>
-      <Pricing 
+      <Pricing
+      className={'pricing'}
       {...props}
       ></Pricing>
-      <Team {...props}></Team>
+      <Team {...props} className={'team'}></Team>
     </main>
   )
 }
