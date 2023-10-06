@@ -19,7 +19,7 @@ export const ChocolateHamburger = (props) => {
     const elements = [];
 
     for (let i = 1; i <= numberOfElements; i++) {
-      elements.push(<div key={i}><span ></span></div>);
+      elements.push(<div key={i} className={'span-container'}><span className={'span'}></span></div>);
     }
     return (
       <>
