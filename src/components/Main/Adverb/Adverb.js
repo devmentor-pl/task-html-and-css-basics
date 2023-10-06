@@ -10,7 +10,7 @@ export const Adverb = (props) => {
   } = props
 
   return (
-    <section className={className}>
+    <article className={className}>
       <div className={"adverb__image-container"}>
         <img src={adverb.imac} alt="monitor"></img>
       </div>
@@ -18,7 +18,7 @@ export const Adverb = (props) => {
         {headline}
         {text}
       </div>
-    </section>
+    </article>
   )
   
 }

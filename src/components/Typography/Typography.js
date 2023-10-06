@@ -92,7 +92,7 @@ if (variant === 'h1') {
 Typography.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
-  variant: PropTypes.oneOf(['h1','h2','h3','h4','p','button'])
+  variant: PropTypes.oneOf(['h1','h2','h3','h4','h5','p','button'])
 }
 
 export default Typography

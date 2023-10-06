@@ -5,13 +5,12 @@ export const Footer = (props) => {
   const {
     className,
     webscope,
-    ...otherProps
   } = props
 
   return (
    <footer className={className}>
-    <div class="footer__text">A free template by</div>
-    <img class="footer__photo" src={webscope} alt="webscope"></img>
+    <div className={"footer__text"}>A free template by</div>
+    <img className={"footer__photo"} src={webscope} alt="webscope"></img>
    </footer>
   )
 }

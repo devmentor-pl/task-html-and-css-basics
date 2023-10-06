@@ -9,12 +9,11 @@ export const Benefits = (props) => {
 
     return (
         <ul className={className}>
-            {content.map(
-                el =>
+            {content.map((item, i) =>
                     <li
-                        key={el.id}
+                        key={i}
                     >
-                        {el}
+                        {item}
                     </li>
             )
             }

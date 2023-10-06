@@ -3,53 +3,51 @@ import PropTypes from 'prop-types'
 
 export const AddYourself = (props) => {
 
-  const {
-    className,
-    addYou,
-} = props
+    const {
+        addYou,
+    } = props
 
-  const handleInputChange = (event) => {
-    const file = event.target.files[0];
+    const handleInputChange = (event) => {
+        const file = event.target.files[0];
 
-    if (file) {
-        const reader = new FileReader();
-        reader.onload = function (e) {
-            image.style.display = 'block'
-            image.src = e.target.result;
-            image.style.display = 'block';
-        };
-        reader.readAsDataURL(file);
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                image.style.display = 'block'
+                image.src = e.target.result;
+                image.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+    };
+
+    const renderListItem = () => {
+        return (
+            <>
+                <div className={'team__person you'}>
+                    <div className={'team__photo'}>
+                        <img id="image" className={'you'} /></div>
+                    <input type="file" id="fileInput" accept="image/*" onChange={handleInputChange} ></input>
+                    <div className={'team__function'}><input type="text" id="textInput" placeholder={'Please write your function'}></input></div>
+                    <div className={'team__data'}><input type="text" id="textInput" placeholder={'Please write your name'}></input></div>
+                </div>
+            </>
+        )
     }
-  
-  };
 
-  const renderListItem = () => {
     return (
-      <>
-        <div className={'team__person you'}>
-          <div className={'team__photo'}>
-            <img id="image" className={'you'}/></div>
-            <input type="file" id="fileInput" accept="image/*" onChange={handleInputChange} ></input>
-          <div className={'team__function'}><input type="text" id="textInput" placeholder={'Please write your function'}></input></div>
-          <div className={'team__data'}><input type="text" id="textInput" placeholder={'Please write your name'}></input></div>
-        </div>
-      </>
+        <>
+            {addYou.map((item, i) => {
+                return renderListItem(item, i)
+            })}
+
+        </>
     )
-  }
-
-  return (
-    <>
-      {addYou.map((item, i) => {
-        return renderListItem(item, i)
-      })}
-
-    </>
-  )
 }
 
 AddYourself.propTypes = {
-  className: PropTypes.string,
-  team: PropTypes.object
+    className: PropTypes.string,
+    team: PropTypes.object
 }
 
 export default AddYourself
