@@ -18,8 +18,7 @@
     }
 
     &__info {
-        display: flex;
-        justify-content: center;
+        @include flexAbsoluteCenter();
         flex-direction: column;
         font-size: 1.5em;
 
@@ -32,18 +31,16 @@
         }
     }
 
-    .hero__header {
+    &__header {
         font-weight: bold;
         font-size: 1em;
     }
 
-    .hero__sub-header {
+    &__sub-header {
         font-weight: 400;
         font-size: 0.8em;
     }
-}
-
-.hero__photo-container {
+&__photo-container {
     display: none;
 
     @include respond(tablet) {
@@ -57,9 +54,9 @@
         transform: rotate(-10deg);
         border-radius: 5px;
 
-        img {
-            width: 100%;
-            height: 100%;
-        }
+     
     }
 }
+
+}
+

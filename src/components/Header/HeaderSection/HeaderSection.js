@@ -29,7 +29,7 @@ export const HeaderSection = (props) => {
           <Typography className={'hero__button button'} variant={'button'} color={'black'} children={button}></Typography>
         </article>
         <div className={"hero__photo-container"}>
-          <img className={"image"} src={screen} alt="screen" width="350px"></img>
+          <img className={"hero__photo"} src={screen} alt="screen" width="350px"></img>
         </div>
       </div>
     </>

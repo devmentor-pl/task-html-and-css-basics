@@ -11,6 +11,11 @@
     padding: 0 60px;
   }
 }
+img {
+  width: 100%;
+  height: 100%;
+}
+
 section {
   margin-bottom: 20px;
   padding: 0 0px;
@@ -21,12 +26,6 @@ section {
     padding: 0 60px;
   }
 }
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .button {
   width: 30%;
   padding: 10px;
@@ -186,6 +185,7 @@ section {
 .hero__info {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   font-size: 1.5em;
 }
@@ -199,12 +199,12 @@ section {
   margin-bottom: 20px;
 }
 
-.hero .hero__header {
+.hero__header {
   font-weight: bold;
   font-size: 1em;
 }
 
-.hero .hero__sub-header {
+.hero__sub-header {
   font-weight: 400;
   font-size: 0.8em;
 }
@@ -224,10 +224,6 @@ section {
     background-color: rgb(255, 255, 255);
     transform: rotate(-10deg);
     border-radius: 5px;
-  }
-  .hero__photo-container img {
-    width: 100%;
-    height: 100%;
   }
 }
 .features {
