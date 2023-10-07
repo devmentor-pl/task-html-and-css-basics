@@ -16,9 +16,7 @@ export const Main = (props) => {
   return (
     <main className={className}>
     
-      <Features {...props}
-       className={'features'}
-        headline={<Typography children={props.features.headline} variant="h2" className={'features__header'}></Typography>}></Features>
+      <Features {...props} className={'features'}></Features>
       <Websites {...props}
         className={'websites'}></Websites>
       <Adverb {...props}

@@ -31,20 +31,20 @@ export const Pricing = (props) => {
         return (
             <div className={'pricing__element'} key={i}>
                 <div className={'pricing__element-info'}>
-                    <Typography className={'type'} variant={'h4'} children={item.type}></Typography>
-                    <Typography className={'price'} variant={'h5'} children={'$' + item.price}></Typography>
+                    <h4 className={'type'}>{item.type}</h4>
+                    <h5 className={'price'}>{'$' + item.price}</h5>
                     <span className={'sub-price'}>per month</span>
                     <Benefits className={'benefits'} content={item.info}></Benefits>
                 </div>
-                <button>GET STARTED</button>
+                <button className={'button'}>GET STARTED</button>
             </div>
         )
     }
 
     return (
         <section className={className} id={`#${pricing}`}>
-            <Typography className={'pricing__header'} variant={'h3'} children={pricing.headline}></Typography>
-            <Typography className={'pricing__description'} variant={'p'} children={pricing.description}></Typography>
+            <h3 className={'pricing__header'}>{pricing.headline}</h3>
+            <p className={'pricing__description'}>{pricing.description}</p>
             <div className={"pricing__container"}>
                 {pricing.list.map((item, i) => {
                     return renderListItem(item, i)

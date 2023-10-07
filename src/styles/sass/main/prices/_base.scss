@@ -104,17 +104,19 @@
             display: flex;
             width: 60%;
             padding: 10px;
-            border: none;
-            background-color: $color-medium-green;
-            color: $color-white;
             border-radius: 5px;
             font-weight: 700;
             font-size: 0.5em;
 
             @include respond(tablet) {
                 width: 40%;
-                padding: 20px;
             }
         }
     }
+
+    
+}
+
+.benefits > *{
+    padding: 2px;
 }

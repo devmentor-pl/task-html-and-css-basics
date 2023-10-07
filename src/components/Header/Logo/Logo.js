@@ -1,8 +1,5 @@
 import React from 'react'
-
 import PropTypes from 'prop-types';
-import Typography from '../../Typography';
-
 
 export const Logo = (props) => {
   const {
