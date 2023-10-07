@@ -23,13 +23,14 @@ section {
 }
 .button {
   width: 30%;
-  padding: 10px;
+  padding: 12px;
   border: none;
   background-color: rgb(36, 242, 139);
-  color: rgb(255, 255, 255);
+  color: rgb(134, 82, 200);
   border-radius: 5px;
   font-weight: 700;
   font-size: 0.5em;
+  letter-spacing: 0.1em;
 }
 
 .header {
@@ -178,9 +179,6 @@ section {
   }
 }
 .hero__info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   font-size: 1.5em;
 }
@@ -453,6 +451,17 @@ section {
 .team__button-joinUs {
   width: 15%;
   background-color: rgb(70, 70, 70);
+}
+
+.team__form {
+  position: relative;
+}
+
+.result {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  font-size: 20px;
 }
 
 .pricing {

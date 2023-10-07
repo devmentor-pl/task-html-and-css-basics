@@ -72,6 +72,17 @@
         width: 15%;
         background-color: $color-dark-grey;
     }
+
+    &__form {
+        position: relative;
+    }
+}
+
+.result {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    font-size: 20px
 }
 
 

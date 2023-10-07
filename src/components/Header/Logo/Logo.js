@@ -10,14 +10,7 @@ export const Logo = (props) => {
   } = props
 
   return (
-    <Typography
-      variant="h1"
-      className={className}
-      children={
-        <img src={props.logo} alt="logo">
-        </img>
-      }>
-    </Typography>
+    <h1 className={className} alt="logo"><img src={props.logo}></img></h1>
   )
 }
 

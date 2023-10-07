@@ -3,6 +3,10 @@ import { useState } from 'react';
 
 export default function JoinUs() {
     const [selectedFile, setSelectedFile] = useState(null);
+    const [showComponent, setShowComponent] = useState(false);
+    const [hideComponent, setHideComponent] = useState(false);
+    const [shouldShowComponent, setShouldShowComponent] = useState(true)
+ 
 
 
     // const [answer, setAnswer] = useState('');
@@ -27,7 +31,7 @@ export default function JoinUs() {
         }
     };
 
-    function handleSubmit2(e) {
+    function handleSubmit(e) {
 
         e.preventDefault();
         const form = e.target;
@@ -35,6 +39,12 @@ export default function JoinUs() {
         const formData = new FormData(form);
         const formJson = Object.fromEntries(formData.entries());
         console.log(formJson);
+        
+        setShowComponent(true);
+        
+            setShouldShowComponent(false)
+       
+       
     }
 
     const handleFileUpload = () => {
@@ -50,8 +60,10 @@ export default function JoinUs() {
     }
     return (
         <>
-            <form onSubmit={handleSubmit2} method={'POST'}>
-                <div className={'team__person you'}>
+            <form onSubmit={handleSubmit} method={'POST'} className={'team__form'}>
+            {shouldShowComponent ? (
+                <>
+                  <div className={'team__person you'}>
                     <div className={'team__photo'}>
                         <img id="image" className={'you'} /></div>
                     <input type="file" id="fileInput" accept="image/*" onChange={handleInputChange} ></input>
@@ -70,7 +82,11 @@ export default function JoinUs() {
                 >
                     Submit
                 </button>
-            </form>
+                </>
+      
+        ): <h3 className={'result'}>Your application was send!</h3>}
+        </form>
+           
         </>
     );
 }
