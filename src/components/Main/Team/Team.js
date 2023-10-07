@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 import Typography from '../../Typography/Typography';
+import JoinUs from './JoinUs';
 import AddYourself from './AddYourself'
 import PropTypes from 'prop-types';
 
@@ -9,9 +10,10 @@ export const Team = (props) => {
 
   const [showComponent, setShowComponent] = useState(false);
 
-  const handleInputChange = () => {
-
+  const handleInputChange = (e) => {
+console.log(e.target)
     setShowComponent(true);
+    e.target.style.display='none'
   };
 
   const {
@@ -47,7 +49,7 @@ export const Team = (props) => {
       <div className={'center'}>
         <button onClick={handleInputChange} className={"team__button-joinUs button"}>Join us!</button>
       </div>
-      {showComponent && <AddYourself {...team}/>} 
+      {showComponent && <JoinUs {...team}/>} 
     </section>
   )
 }
