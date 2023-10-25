@@ -49,7 +49,7 @@ section {
 .header__container {
   width: 100%;
   height: 30%;
-  padding: 30px 0px;
+  padding: 30px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,11 +102,13 @@ section {
     display: flex;
     flex-direction: row;
   }
-  .header .nav__menu > li:not(:nth-child(3)) {
+  .header .nav .menu__item:not(:nth-child(3)) {
     margin-right: 10px;
   }
-  .header .nav__menu > li a {
+  .header .nav .menu__link {
     color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-decoration: none;
   }
 }
 .hamburger {
@@ -433,6 +435,24 @@ section {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.team__person.you .info {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.team__person.you .info__item {
+  padding: 10px;
+}
+
+.team__person.you .info__label {
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 

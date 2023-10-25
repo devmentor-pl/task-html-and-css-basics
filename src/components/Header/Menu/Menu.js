@@ -11,13 +11,13 @@ export const Menu = (props) => {
 
   const renderListItem = (item, i) => {
     return (
-    <li key={i}><a href={`#${item.href}`} className={'nav__link'}>{item.content}</a></li>
+    <li key={i} className={'menu__item'}><a href={`#${item.href}`} className={'menu__link'}>{item.content}</a></li>
     )
   }
 
   return (
     <nav className={className}>
-        <ul className={`${'nav__menu'} ${open ? `${'nav__hide'}` : `${'nav__block'}`}`}>
+        <ul className={`${'nav__menu menu'} ${open ? `${'nav__hide'}` : `${'nav__block'}`}`}>
         {content.map((item, i) => {
           return renderListItem(item, i)
         })}  

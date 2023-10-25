@@ -52,6 +52,25 @@
             margin-bottom: 20px;
             @include flexAbsoluteCenter
         }
+
+    }
+
+    &__person.you {
+        .info {
+            width: 40%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            &__item {
+                padding: 10px;
+            }
+            &__label {
+                font-size: 1rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center
+            }
+        }
     }
 
     &__information {
