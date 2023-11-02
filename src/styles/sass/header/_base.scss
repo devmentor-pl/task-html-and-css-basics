@@ -1,13 +1,13 @@
 @import '../abstracts/';
 
 .header {
-  padding: 0 30px;
+  // padding: 0 30px;
   height: 60vh;
   background: radial-gradient($color-dark-pink, $color-dark-violet);
   position: relative;
 
   @include respond(tablet) {
-    padding: 0 60px;
+    // padding: 0 60px;
     height: 75vh;
   }
 

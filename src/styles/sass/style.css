@@ -2,25 +2,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.header, .section, .footer {
+.section, .footer {
   padding: 0 30px;
 }
 
-@media only screen and (min-width: 900px) {
-  .header, .section, .footer {
-    padding: 0 60px;
-  }
-}
 section {
   margin-bottom: 20px;
   padding: 0 0px;
 }
 
-@media only screen and (min-width: 900px) {
-  section {
-    padding: 0 60px;
-  }
-}
 .button {
   width: 30%;
   padding: 12px;
@@ -34,7 +24,6 @@ section {
 }
 
 .header {
-  padding: 0 30px;
   height: 60vh;
   background: radial-gradient(rgb(194, 74, 126), rgb(134, 82, 200));
   position: relative;
@@ -42,7 +31,6 @@ section {
 
 @media only screen and (min-width: 900px) {
   .header {
-    padding: 0 60px;
     height: 75vh;
   }
 }

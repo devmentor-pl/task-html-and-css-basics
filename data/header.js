@@ -13,12 +13,16 @@ export const header = {
           href: 'team',
         },
         {
+          content: "Services",
+          subcontent: ['Graphic Design', 'Web Design']
+        },
+        {
           content: 'Pricing',
           href: 'pricing',
         },
         {
           content: 'Features',
-          hreef: 'features',
+          href: 'features',
         },
     ]
 }

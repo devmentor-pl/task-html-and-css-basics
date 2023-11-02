@@ -4,24 +4,20 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.header, .section, .footer {
+ .section, .footer {
     padding: 0 30px;
-    @include respond(tablet) {
-        padding: 0 60px;
-    }  
+    // @include respond(tablet) {
+    //     padding: 0 60px;
+    // }  
 }
-
-
-
-
 
 section {
     margin-bottom: 20px;
     padding: 0 0px;
 
-    @include respond(tablet) {
-        padding: 0 60px;
-    }
+    // @include respond(tablet) {
+    //     padding: 0 60px;
+    // }
 }
 
 
