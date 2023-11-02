@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MenuList from './MenuList';
 import PropTypes from 'prop-types';
 
 export class MenuItem extends Component {
@@ -16,6 +17,10 @@ export class MenuItem extends Component {
         }));
     };
 
+    renderContent = (element) => {
+        console.log(element)
+    }
+
     render() {
         return (
             <>
@@ -24,15 +29,20 @@ export class MenuItem extends Component {
                     className={`${this.props.className ? ` ${this.props.className} menu__item` : 'menu__item'}`}
                     onMouseEnter={this.props.subMenuOpen === true ? this.toggleSubMenu : null}
                 >
-                    <a href={`#${this.props.href}`} className={'menu__link'}>{this.props.content} </a>
-                </li>
-                {this.state.isSubMenuOpen && (
-                    <ul className="submenu">
+<a href={`#${this.props.href}`} className={'menu__link'}>{this.props.content} </a>
+                       {this.state.isSubMenuOpen && (
+                    <>
+                        <MenuList className={'menu__sublist menu__sublist--bottom'} value={this.props.subcontent}></MenuList>
+                    {/* <ul className="submenu">
                         <li>Submenu Item 1</li>
                         <li>Submenu Item 2</li>
                         <li>Submenu Item 3</li>
-                    </ul>
+                    </ul> */}
+                    </>
+                
                 )}
+                </li>
+             
             </>
 
         )

@@ -20,21 +20,30 @@ export const MenuList = (props) => {
         
         )
       }
+
+    
   
       const renderListItem = (item, i) => {
+        console.log(item)
         return (
           <>
           {item.content && !item.subcontent ? <MenuItem keyElement={i} href={item.href} content={item.content} subMenuOpen={false}></MenuItem> : ''}
-            {item.content && item.subcontent? <MenuItem keyElement={i} href={item.href} content={item.content} className={'menu__item--parent'} subcontent={item.subcontent} subMenuOpen={true}></MenuItem>: ''}  
+            {item.content && item.subcontent? <MenuItem keyElement={i}  content={item.content} className={'menu__item--parent'} subcontent={item.subcontent} subMenuOpen={true}></MenuItem>: ''}  
+            {/* {item.subcontent ? <MenuItem keyElement={i} href={item.href} content={item.subcontent}   subMenuOpen={true}></MenuItem>: ''}   */}
             {/* <li key={i} className={'menu__item '}><a href={`#${item.href}`} className={'menu__link'}>{item.content}</a></li> */}
             {/* {item.subcontent ? renderSubListItem(item.subcontent): ''}  */}
           </>
         )
       }
     return (
-        <ul className={className}>{value.map((item, i) => {
+        <>
+        
+          <ul className={className}>{
+            value.map((item, i) => {
             return renderListItem(item, i)
           })}</ul>
+        </>
+      
     )
 }
 

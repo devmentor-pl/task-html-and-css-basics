@@ -14,7 +14,7 @@ export const header = {
         },
         {
           content: "Services",
-          subcontent: ['Graphic Design', 'Web Design']
+          subcontent: ['Graphic Design'],
         },
         {
           content: 'Pricing',
