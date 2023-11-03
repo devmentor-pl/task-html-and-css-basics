@@ -1,75 +1,50 @@
-import React from 'react'
-import MenuItem from './MenuItem';
-import MenuList from './MenuList';
+import React, { Component }  from 'react'
+
 import PropTypes from 'prop-types';
 
-export const SubMenu = (props) => {
+export class SubMenu extends Component{
+  constructor(props) {
+    super(props);
 
-  const {
-    className,
-    open,
-    content, 
-    subcontent
-  } = props
+    this.state = {
+        isOpen: false,
+    };
+}
 
-  console.log(content)
+toggleSubMenu = () => {
+    this.setState((prevState) => ({
+        isOpen: !prevState.isOpen,
+    }));
+};
+  
 
-  const renderSubListItem = (item, i) => {
+  renderListItem = (item, i) => {
+
     return (
-      <>
-     
-        <ul className={'menu__sublist menu__sublist--bottom'}><li className={'menu__item menu__item--parent'}>{item}</li></ul>
-      </>
-    
+      <li
+        key={i}
+        className={'menu__item'}
+        onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
+      // onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
+      // onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
+      // onMouseEnter={this.props.keyElement  ? this.toggleSubMenu : null}
+      >
+        <a href={``} className={'menu__link'}>{item} </a>
+      </li>
     )
+
   }
-
-
-  // const renderListItem = (item, i) => {
-  //   return (
-  //     <>
-  //       {<MenuItem keyElement={i} href={item.href} content={item}></MenuItem>}
-  //       {/* <li key={i} className={'menu__item '}><a href={`#${item.href}`} className={'menu__link'}>{item.content}</a></li> */}
-  //       {item.subcontent ? renderSubListItem(item.subcontent): ''} 
-  //     </>
-  //   )
-  // }
-
-  const renderListItem = (item, i) => {
- 
-return  (
-   <li
-                    key={''}
-                    className={'menu__item'}
-                    // onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
-                    // onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
-                    // onMouseEnter={this.props.keyElement  ? this.toggleSubMenu : null}
-               
-                >
-                   <a href={``} className={'menu__link'}>{item} </a>
-</li>
-)
-     
-  }
-
-        
-    
-
-
-  return (
+render() {
+    return (
     <ul className={'menu__sublist menu__sublist--bottom'}>
-                    
-          
-        {  content.map((item, i) => {
-          return   renderListItem(item, i)
-        })
+      {this.props.content.map((item, i) => {
+        return this.renderListItem(item, i)
+      })
       }
-
-        
-      
-                        {/* <li className='menu__item'><a>{this.props.subcontent}</a></li> */}
-                    </ul>
+    </ul>
   )
+}
+
 }
 
 SubMenu.propTypes = {

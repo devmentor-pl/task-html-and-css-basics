@@ -21,25 +21,8 @@ export class MenuItem extends Component {
 
    
 
-    renderSubContent = (element) => {
-        console.log(element)
-        element.forEach(elem => {
-            return (
-                <li>{elem}</li>
-            )
-        });
-    }
 
-    showMenu = () => {
 
-        this.props.subcontent.forEach(elem => {
-            return (
-                 <div>{elem}</div>
-            )
-            
-        })
-      
-    }
 
     render() {
         return (
@@ -54,37 +37,9 @@ export class MenuItem extends Component {
                
                 >
                    <a href={`#${this.props.href}`} className={'menu__link'}>{this.props.content} </a>
-                    {this.state.isOpen && <SubMenu content={this.props.subcontent}></SubMenu> }
+                    {this.state.isOpen && <SubMenu content={this.props.subcontent} ></SubMenu> }
                    
-                   {this.state.isOpen && (
-                    <>
-                   
-                    <ul className={'menu__sublist menu__sublist--bottom'}>
-                     {this.props.subcontent.forEach(elem => {
-                            return (
-                                 <div>{elem}</div>
-                            )
-                            
-                        })}   
-                        {/* <li className='menu__item'><a>{this.props.subcontent}</a></li> */}
-                    </ul>
-                        {/* {this.props.subcontent.forEach(elem => {
-            return (
-              <li className='menu__item'>    <a href={`#${this.props.href}`} className={'menu__link'}>{elem} </a> </li>
-            )
-        })}
-                    </ul> */}
-                      <MenuList className={'menu__sublist menu__sublist--bottom'} value={this.props.subcontent}></MenuList>
-                        {/* <MenuList className={'menu__sublist menu__sublist--bottom'} value={this.props.subcontent}></MenuList>  */}
-                        {/* <MenuList className={'menu__sublist menu__sublist--bottom'} value={this.props.subcontent}></MenuList> */}
-                    {/* <ul className="submenu">
-                        <li>Submenu Item 1</li>
-                        <li>Submenu Item 2</li>
-                        <li>Submenu Item 3</li>
-                    </ul> */}
-                    </>
-                
-                )}
+              
                    
                 </li>
              
