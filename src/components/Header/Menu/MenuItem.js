@@ -7,32 +7,48 @@ export class MenuItem extends Component {
         super(props);
 
         this.state = {
-            isSubMenuOpen: false,
+            isOpen: false,
         };
     }
 
     toggleSubMenu = () => {
+     
         this.setState((prevState) => ({
-            isSubMenuOpen: !prevState.isSubMenuOpen,
+            isOpen: !prevState.isOpen,
         }));
     };
 
-    renderContent = (element) => {
+    renderSubContent = (element) => {
         console.log(element)
+        element.forEach(elem => {
+            return (
+                <li>{elem}</li>
+            )
+        });
     }
 
     render() {
         return (
             <>
+            {console.log(this.props.content)}
                 <li
                     key={this.props.keyElement}
                     className={`${this.props.className ? ` ${this.props.className} menu__item` : 'menu__item'}`}
-                    onMouseEnter={this.props.subMenuOpen === true ? this.toggleSubMenu : null}
+                    onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
+               
                 >
-<a href={`#${this.props.href}`} className={'menu__link'}>{this.props.content} </a>
-                       {this.state.isSubMenuOpen && (
+                   <a href={`#${this.props.href}`} className={'menu__link'}>{this.props.content} </a>
+                   {this.state.isOpen && (
                     <>
-                        <MenuList className={'menu__sublist menu__sublist--bottom'} value={this.props.subcontent}></MenuList>
+                    {/* <ul className={'menu__sublist menu__sublist--bottom'}>
+                        {this.props.subcontent.forEach(elem => {
+            return (
+              <li className='menu__item'>    <a href={`#${this.props.href}`} className={'menu__link'}>{elem} </a> </li>
+            )
+        })}
+                    </ul> */}
+                        <MenuList className={'menu__sublist menu__sublist--bottom'} value={this.props.subcontent}></MenuList> 
+                        {/* <MenuList className={'menu__sublist menu__sublist--bottom'} value={this.props.subcontent}></MenuList> */}
                     {/* <ul className="submenu">
                         <li>Submenu Item 1</li>
                         <li>Submenu Item 2</li>
@@ -41,6 +57,7 @@ export class MenuItem extends Component {
                     </>
                 
                 )}
+                   
                 </li>
              
             </>

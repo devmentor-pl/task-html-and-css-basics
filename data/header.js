@@ -9,19 +9,23 @@ export const header = {
     screen : screen,
     menu: [
         {
-          content: "The team",
+          content: ["The team"],
           href: 'team',
+          subcontent: ['Ola', 'Ela']
         },
         {
-          content: "Services",
+          content: ["Services"],
+          className: 'menu__item--parent',
+          href: '',
+          isOpen: true,
           subcontent: ['Graphic Design'],
         },
         {
-          content: 'Pricing',
+          content: ['Pricing'],
           href: 'pricing',
         },
         {
-          content: 'Features',
+          content: ['Features'],
           href: 'features',
         },
     ]

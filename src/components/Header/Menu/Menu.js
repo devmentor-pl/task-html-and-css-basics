@@ -22,6 +22,7 @@ export const Menu = (props) => {
     )
   }
 
+
   const renderListItem = (item, i) => {
     return (
       <>
@@ -34,7 +35,8 @@ export const Menu = (props) => {
 
   return (
     <nav className={className}>
-      <MenuList ifOpen={open} value={content} className={`${'nav__menu menu__list'} ${open ? `${'nav__hide'}` : `${'nav__block'}`}`}></MenuList>
+      <MenuList value={content} className={`${'nav__menu menu__list'} ${open ? `${'nav__hide'}` : `${'nav__block'}`}`}></MenuList>
+      {/* <MenuList ifOpen={open} value={content} className={`${'nav__menu menu__list'} ${open ? `${'nav__hide'}` : `${'nav__block'}`}`}></MenuList> */}
       
       {/* <ul className={`${'nav__menu menu__list'} ${open ? `${'nav__hide'}` : `${'nav__block'}`}`}>
         {content.map((item, i) => {
