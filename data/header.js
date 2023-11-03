@@ -11,6 +11,7 @@ export const header = {
         {
           content: ["The team"],
           href: 'team',
+          isOpen: true,
           subcontent: ['Ola', 'Ela']
         },
         {
@@ -18,7 +19,7 @@ export const header = {
           className: 'menu__item--parent',
           href: '',
           isOpen: true,
-          subcontent: ['Graphic Design'],
+          subcontent: ['Graphic', 'Design'],
         },
         {
           content: ['Pricing'],

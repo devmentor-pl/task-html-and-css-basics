@@ -25,7 +25,7 @@ export const MenuList = (props) => {
   const renderListItem = (item, i) => {
     return (
       <>
-        <MenuItem2 keyElement={i} href={item.href} content={item.content || item.subcontent} className={item.className} isOpen={item.isOpen} onMouseEnter={handleToggle} open={subMenuOpen} openFunc={setsubMenuOpen} subcontent={item.subcontent}></MenuItem2>
+        <MenuItem keyElement={i} href={item.href} content={item.content || item.subcontent} className={item.className} isOpen={item.isOpen} onMouseEnter={handleToggle} open={subMenuOpen} openFunc={setsubMenuOpen} subcontent={item.subcontent}></MenuItem>
       </>
     )
   }

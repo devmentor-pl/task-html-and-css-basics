@@ -50,6 +50,7 @@ export class MenuItem extends Component {
                     className={`${this.props.className ? ` ${this.props.className} menu__item` : 'menu__item'}`}
                     // onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
                     onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
+                    // onMouseEnter={this.props.keyElement  ? this.toggleSubMenu : null}
                
                 >
                    <a href={`#${this.props.href}`} className={'menu__link'}>{this.props.content} </a>
