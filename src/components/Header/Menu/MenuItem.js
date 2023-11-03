@@ -19,6 +19,8 @@ export class MenuItem extends Component {
         }));
     };
 
+   
+
     renderSubContent = (element) => {
         console.log(element)
         element.forEach(elem => {
@@ -46,6 +48,7 @@ export class MenuItem extends Component {
                 <li
                     key={this.props.keyElement}
                     className={`${this.props.className ? ` ${this.props.className} menu__item` : 'menu__item'}`}
+                    // onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
                     onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
                
                 >
