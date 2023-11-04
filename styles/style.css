@@ -1,3 +1,80 @@
-* {
-  font-family: 'Montserrat', sans-serif;
+:root {
+  --btn-color: #7cf38c;
+  --btn-color-hover: #7bf5b5;
+  --price-btn-color: #50bceb;
+  --price-btn-color-hover: #5fd5f7;
 }
+
+/* BASES */
+* {
+  font-family: 'Montserrat', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.row {
+  width: 100%;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  background: none;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover {
+  border-radius: 20px;
+}
+.background-image {
+  min-height: 85vh;
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+/* HEADER */
+
+.header__container {
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.logo__img {
+  width: 80%;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  padding: 0 20px;
+  font-size: 14px;
+}
+.nav__link:hover {
+  color: var(--price-btn-color);
+}
+.nav__link--btn {
+  background-color: var(--price-btn-color);
+  padding: 15px 35px;
+}
+.nav__link--btn {
+  background-color: var(--price-btn-color-hover);
+}
+/* END OF HEADER */
