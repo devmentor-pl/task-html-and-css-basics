@@ -1,22 +1,16 @@
-import React, { useState } from 'react'
+import React, { useContext, } from 'react'
+import { SubMenuContext } from '../../context';
 import MenuItem from './MenuItem';
-import MenuItem2 from './MenuItem2';
-import PropTypes from 'prop-types';
 
-export const SubMenuContext = React.createContext();
+import PropTypes from 'prop-types';
 
 export const MenuList = (props) => {
   const {
-    open,
-    subcontent,
     className,
-    keyElement,
-    value,
-    href
+    content,
   } = props
 
-
-  const [subMenuOpen, setsubMenuOpen] = useState(false);
+  const {subMenuOpen, setsubMenuOpen} = useContext(SubMenuContext);
 
   const handleToggle = () => {
     setsubMenuOpen(!subMenuOpen);
@@ -25,37 +19,26 @@ export const MenuList = (props) => {
   const renderListItem = (item, i) => {
     return (
       <>
-        <MenuItem keyElement={i} href={item.href} content={item.content || item.subcontent} className={item.className} isOpen={item.isOpen} onMouseEnter={handleToggle} open={subMenuOpen} openFunc={setsubMenuOpen} subcontent={item.subcontent}></MenuItem>
+        <MenuItem keyElement={i} href={item.href} content={item.firstItem || item.secondItem} className={item.className} isOpen={item.isOpen} onMouseEnter={handleToggle} open={subMenuOpen} openFunc={setsubMenuOpen} subcontent={item.secondItem}></MenuItem>
       </>
     )
   }
 
   return (
     <>
-    <SubMenuContext.Provider value={{ subMenuOpen, setsubMenuOpen }}>
       <ul className={className} >{
-
-        value.map((item, i) => {
+        content.map((item, i) => {
           return renderListItem(item, i)
         })
-
       }
-
       </ul>
-      </SubMenuContext.Provider>
     </>
-
-
-
   )
 }
 
 MenuList.propTypes = {
   className: PropTypes.string,
-  keyElement: PropTypes.number,
   content: PropTypes.string,
-  href: PropTypes.string
-
 }
 
 export default MenuList

@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
+import { NavbarContext } from '../../context';
 import ChocolateHamburger from '../ChocolateHamburger';
 import Menu from '../Menu/Menu';
-
-export const NavbarContext = React.createContext();
 
 export const Navigation = (props) => {
 
@@ -10,6 +9,7 @@ export const Navigation = (props) => {
     content
   } = props
 
+  const { Provider: NavbarProvider } = NavbarContext;
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   const handleToggle = () => {
@@ -18,12 +18,13 @@ export const Navigation = (props) => {
 
   return (
     <>
-      <NavbarContext.Provider value={{ navbarOpen, setNavbarOpen }}>
+      <NavbarProvider value={{ navbarOpen, setNavbarOpen }}>
         <button onClick={handleToggle} className={'hamburger'}>
-          <ChocolateHamburger open={navbarOpen} openFunc={setNavbarOpen} span={9} />
+          <ChocolateHamburger isNavbarOpenopen={navbarOpen} openFunc={setNavbarOpen} span={9} />
+         
         </button>
-        <Menu className={'nav'} open={navbarOpen} openFunc={setNavbarOpen} content={content}></Menu>
-      </NavbarContext.Provider>
+        <Menu className={'nav'} isNavbarOpen={navbarOpen} navbarOpenFunc={setNavbarOpen} content={content}></Menu>
+      </NavbarProvider>
     </>
   )
 

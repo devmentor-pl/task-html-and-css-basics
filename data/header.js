@@ -9,25 +9,26 @@ export const header = {
     screen : screen,
     menu: [
         {
-          content: ["The team"],
+          firstItem: ["The team"],
+          className: 'menu__item--parent',
           href: 'team',
           isOpen: true,
-          subcontent: ['Ola', 'Ela']
+          secondItem: ['Ola', 'Ela']
         },
         {
-          content: ["Services"],
+          firstItem: ["Services"],
           className: 'menu__item--parent',
           href: '',
           isOpen: true,
-          subcontent: ['Graphic', 'Design'],
+          secondItem: ['Graphic', 'Design'],
           subSubcontent: ['ddd', 'ddddd']
         },
         {
-          content: ['Pricing'],
+          firstItem: ['Pricing'],
           href: 'pricing',
         },
         {
-          content: ['Features'],
+          firstItem: ['Features'],
           href: 'features',
         },
     ]
