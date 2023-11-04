@@ -10,7 +10,7 @@ export const MenuList = (props) => {
     content,
   } = props
 
-  const {subMenuOpen, setsubMenuOpen} = useContext(SubMenuContext);
+  const { subMenuOpen, setsubMenuOpen } = useContext(SubMenuContext);
 
   const handleToggle = () => {
     setsubMenuOpen(!subMenuOpen);
@@ -19,7 +19,17 @@ export const MenuList = (props) => {
   const renderListItem = (item, i) => {
     return (
       <>
-        <MenuItem keyElement={i} href={item.href} content={item.firstItem || item.secondItem} className={item.className} isOpen={item.isOpen} onMouseEnter={handleToggle} open={subMenuOpen} openFunc={setsubMenuOpen} subcontent={item.secondItem}></MenuItem>
+        <MenuItem
+          keyElement={i}
+          href={item.href}
+          content={item.firstItem}
+          className={item.className}
+          isOpen={item.isOpen}
+          onMouseEnter={handleToggle}
+          open={subMenuOpen}
+          openFunc={setsubMenuOpen}
+          subcontent={item.secondItem}>
+        </MenuItem>
       </>
     )
   }

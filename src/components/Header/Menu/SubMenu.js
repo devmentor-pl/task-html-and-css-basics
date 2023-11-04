@@ -23,7 +23,7 @@ toggleSubMenu = () => {
     return (
       <li
         key={i}
-        className={'menu__item'}
+        className={`${this.props.className ? ` ${this.props.className} menu__item` : 'menu__item'}`}
         onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
       // onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
       // onMouseEnter={this.props.isOpen === true ? this.toggleSubMenu : null}
