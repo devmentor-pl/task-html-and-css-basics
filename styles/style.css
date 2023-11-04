@@ -17,7 +17,7 @@
   max-width: 1150px;
   margin: 0 auto;
 }
-h3 {
+h2 {
   font-size: 2rem;
   font-weight: lighter;
   text-align: center;
@@ -38,7 +38,7 @@ a {
   border-radius: 20px;
 }
 .background-image {
-  min-height: 85vh;
+  min-height: 90vh;
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
@@ -82,7 +82,7 @@ a {
 
 /* SECTION HERO */
 .hero {
-  margin-top: 50px;
+  margin-top: 80px;
   color: white;
   outline: 1px solid yellow;
 }
@@ -128,3 +128,53 @@ a {
   rotate: -6deg;
 }
 /* END OF HERO SECTION */
+
+/* FEATURES SECTION*/
+
+.features {
+  background-color: black;
+  color: white;
+  padding: 60px 0 100px 0;
+}
+.features__header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.features__items {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  outline: 1px solid red;
+}
+
+.features__item {
+  width: 30%;
+  padding: 30px;
+}
+.features__item-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  box-shadow: 4px 14px 28px #393939;
+}
+.features__title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.features__text {
+  line-height: 1.5;
+}
+/* END OF FEATURES SECTION */
+/* LOGOS SECTIONS */
+.logos_container {
+  padding: 30px 0;
+  text-align: center;
+}
+/* END OF LOGOS SECTIONS */
+
+/* DESCRIPTION SECTION */
