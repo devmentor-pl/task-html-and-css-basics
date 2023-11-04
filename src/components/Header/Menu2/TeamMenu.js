@@ -38,8 +38,7 @@ export const TeamMenu = (props) => {
 {
   hoveredItem === item.id && (
     <ul>
-   
-      {elements
+   {elements
         .filter((el) => el.child === item.id)
         .map((el) => (
           <li key={el.id}>{el.name}</li>
