@@ -10,15 +10,25 @@ export const TeamMenu = (props) => {
   } = props
 
   const { elements } = useContext(HeaderDataTeamContext);
-  const [hoveredItem, setHoveredItem] = useState(null);
+  const [hoveredItem1, setHoveredItem1] = useState(null);
+  const [hoveredItem2, setHoveredItem2] = useState(null);
 
-  const handleMouseEnter = (key) => {
-    setHoveredItem(key);
+  const handleMouseEnter1 = (key) => {
+    setHoveredItem1(key);
   };
 
-  const handleMouseLeave = () => {
-    setHoveredItem(null);
+  const handleMouseLeave1 = () => {
+    setHoveredItem1(null);
   };
+
+  const handleMouseEnter2 = (key) => {
+    setHoveredItem2(key);
+  };
+
+  const handleMouseLeave2 = () => {
+    setHoveredItem2(null);
+  };
+
 
 
 
@@ -31,17 +41,43 @@ export const TeamMenu = (props) => {
           <li
             key={item.id}
             className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
-            onMouseEnter={() => handleMouseEnter(item.id)}
-            onMouseLeave={handleMouseLeave}
+            onMouseEnter={() => handleMouseEnter1(item.id)}
+            onMouseLeave={handleMouseLeave1}
           >
             {item.name}
+          
 {
-  hoveredItem === item.id && (
+  hoveredItem1 === item.id && (
     <ul>
    {elements
         .filter((el) => el.child === item.id)
         .map((el) => (
-          <li key={el.id}>{el.name}</li>
+          <li 
+          key={el.id}
+          onMouseEnter={() => handleMouseEnter2(el.id)}
+          onMouseLeave={handleMouseLeave2}
+          >{el.name}
+          
+          {
+  hoveredItem2 === el.id && (
+  
+    <ul>
+     { alert('hover2')  }
+   {elements
+        .filter((el2) => el2.child === el.id)
+        .map((el2) => (
+          <li 
+          key={el2.id}
+    
+          >{el2.name}
+          
+          
+          </li>
+        ))}
+    </ul>
+  )
+}
+          </li>
         ))}
     </ul>
   )

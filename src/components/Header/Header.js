@@ -8,14 +8,14 @@ import Menu2 from './Menu2';
 export const Header = (props) => {
   const {
     className,
-     initialTasks,
+     menu,
     ...header
    
   } = props
 
 
   const { Provider: HeaderDataTeamProvider } = HeaderDataTeamContext;
-  const [elements, setElements] = useState(initialTasks)
+  const [elements, setElements] = useState(menu)
   //   const [elements2, setElements2] = useState(menu2[1])
 
     
