@@ -20,8 +20,8 @@ export const header = {
           className: 'menu__item--parent',
           href: '',
           isOpen: true,
-          secondItem: ['Graphic', 'Design'],
-          subSubcontent: ['ddd', 'ddddd']
+          secondItem: ['Graphic'['ddd', 'ddddd'], 'Design'],
+          thirdItem: []
         },
         {
           firstItem: ['Pricing'],
@@ -31,8 +31,44 @@ export const header = {
           firstItem: ['Features'],
           href: 'features',
         },
-    ]
+    ],
+
+    menu2: [
+      {
+  team: {
+        teamName: "The team",
+        className: 'menu__item--parent',
+        href: 'team',
+        isOpen: true,
+        secondItem: ['Ola', 'Ela']
+      },
+    },
+
+    {
+       service: {
+        teamName: ["Service"],
+        className: 'menu__item--parent',
+        href: 'team',
+        isOpen: true,
+        secondItem: ['Ola', 'Ela']
+      },
+    }
+      
+
+     
+    ],
+  
+initialTasks: [
+  {id:1, name:'The team', isOpen:true, id1:true, className: 'menu__item--parent'},
+  {id:2, name:'Service', id1:true, className: 'menu__item--parent'},
+  {id:1, name:'Ola',  child: 1},
+  {id:1, name:'Ela', child: 1},
+  {id:5, name:'Task5', idColumn: 3, user: 'Ana'},
+]
+     
+    
 }
   
 
 export default header
+

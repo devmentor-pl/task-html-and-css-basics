@@ -1,8 +1,8 @@
 import React, { Component }  from 'react'
-import SubSubMenu from './SubSubMenu ';
+
 import PropTypes from 'prop-types';
 
-export class SubMenu extends Component{
+export class SubSubMenu extends Component{
   constructor(props) {
     super(props);
 
@@ -30,7 +30,7 @@ toggleSubMenu = () => {
       // onMouseEnter={this.props.keyElement  ? this.toggleSubMenu : null}
       >
         <a href={``} className={'menu__link'}>{item} </a>
-        {this.state.isOpen && <SubSubMenu content={this.props.thirdItem} className={this.props.className} ></SubSubMenu> }
+        {this.state.isOpen && <SubMenu content={this.props.subcontent} className={this.props.className} ></SubMenu> }
       </li>
     )
 
@@ -48,8 +48,8 @@ render() {
 
 }
 
-SubMenu.propTypes = {
+SubSubMenu.propTypes = {
   open: PropTypes.bool
 }
 
-export default SubMenu
+export default SubSubMenu

@@ -10,8 +10,11 @@ export const HeaderSection = (props) => {
     description,
     buttonText,
     screen,
-    menu
+    menu,
+    team
  } = props
+
+ console.log(team)
 
   return (
     <>
