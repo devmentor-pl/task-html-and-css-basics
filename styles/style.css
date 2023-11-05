@@ -170,6 +170,7 @@ a {
   line-height: 1.5;
 }
 /* END OF FEATURES SECTION */
+
 /* LOGOS SECTIONS */
 .logos_container {
   padding: 30px 0;
@@ -178,3 +179,32 @@ a {
 /* END OF LOGOS SECTIONS */
 
 /* DESCRIPTION SECTION */
+.description {
+  display: flex;
+  justify-content: center;
+  padding: 60px 30px;
+  outline: 1px solid red;
+}
+.description__image {
+  width: 50%;
+}
+.description__image img {
+  width: 100%;
+  /* padding: 0 0 30px 30px; */
+}
+.description__info {
+  width: 50%;
+  margin: 30px 0 0 140px;
+}
+.description__header,
+.description__text {
+  text-align: start;
+  width: 70%;
+}
+.description__text {
+  margin-top: 30px;
+  line-height: 2;
+  font-weight: lighter;
+}
+
+/* END OF DESCRIPTION SECTION */
