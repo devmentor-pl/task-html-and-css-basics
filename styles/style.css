@@ -140,7 +140,6 @@ a {
   display: flex;
   text-align: center;
   justify-content: center;
-  outline: 1px solid red;
 }
 
 .features__item {
@@ -305,3 +304,48 @@ a {
   padding: 0 10px;
 }
 /* END OF TEAM SECTION */
+
+/* FORM SECTION */
+.form__section {
+  background-color: var(--price-btn-color);
+  color: white;
+}
+.form__container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.form__title {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.form__text {
+  width: 250px;
+  margin: 0 auto 20px auto;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input__email {
+  padding: 10px 15px;
+  height: 50px;
+  width: 220px;
+  border: none;
+  border-radius: 10px;
+  color: #808080;
+  margin-right: 5px;
+}
+.btn__submit {
+  height: 50px;
+  width: 150px;
+  padding: 10px 10px;
+  background-color: var(--btn-color);
+}
+.btn__submit:hover {
+  background-color: var(--btn-color-hover);
+}
+/* END OF FORM SECTION */
