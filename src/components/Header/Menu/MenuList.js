@@ -49,7 +49,7 @@ export const MenuList = (props) => {
   hoveredItem1 === item.id && (
     <ul>
    {elements
-        .filter((el) => el.child === item.name)
+        .filter((el) => el.childFor === item.name)
         .map((el) => (
           <li 
           key={el.id}
@@ -63,7 +63,7 @@ export const MenuList = (props) => {
     <ul>
   
    {elements
-        .filter((el2) => el2.child === el.name)
+        .filter((el2) => el2.childFor === el.name)
         .map((el2) => (
           <li 
           key={el2.id}
