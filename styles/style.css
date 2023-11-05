@@ -84,20 +84,16 @@ a {
 .hero {
   margin-top: 80px;
   color: white;
-  outline: 1px solid yellow;
 }
 .hero__container {
   display: flex;
   justify-content: space-between;
-  outline: 1px solid red;
 }
 .hero__content {
   width: 35%;
-  outline: 1px solid blue;
 }
 .hero__image {
   width: 60%;
-  outline: 2px solid green;
 }
 .hero__header {
   font-size: 2.3rem;
@@ -172,6 +168,9 @@ a {
 /* END OF FEATURES SECTION */
 
 /* LOGOS SECTIONS */
+.logos {
+  background-color: #f9fafa;
+}
 .logos_container {
   padding: 30px 0;
   text-align: center;
@@ -183,7 +182,6 @@ a {
   display: flex;
   justify-content: center;
   padding: 60px 30px;
-  outline: 1px solid red;
 }
 .description__image {
   width: 50%;
@@ -208,3 +206,73 @@ a {
 }
 
 /* END OF DESCRIPTION SECTION */
+
+/* PRICING SECTION */
+
+.pricing {
+  background-color: #f8f9f9;
+  padding: 60px 0;
+}
+.pricing__header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.pricing__header-sub-titile {
+  margin-top: 15px;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  color: #808080;
+}
+.pricing__items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pricing__item {
+  position: relative;
+  padding: 40px 0;
+  width: 30%;
+  height: 460px;
+  text-align: center;
+}
+.pricing__item-title {
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.pricing__item-price {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+.pricing__item-month {
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+}
+
+.pricing__item-feature {
+  margin-bottom: 10px;
+}
+.fa-check {
+  padding-right: 10px;
+  color: var(--btn-color);
+}
+.pricing__item-btn {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  background-color: var(--price-btn-color);
+  padding: 15px 30px;
+}
+.pricing__item-btn:hover {
+  background-color: var(--price-btn-color-hover);
+  text-decoration: underline;
+}
+.pricing__item--light {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 20px;
+  border-radius: 7px;
+}
+/* END OF PRICING SECTION */
