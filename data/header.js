@@ -59,12 +59,23 @@ export const header = {
   //   ],
   
 menu: [
-  {id:1, name:'The team', isOpen:true, id1:true, className: 'menu__item--parent'},
-  {id:2, name:'Ola',  child: 1},
-  {id:3, name:'Ela', child: 1},
-  {id:4, name:'Solutions', id1:true, className: 'menu__item--parent'},
-  {id:5, child: 4, name:'For small business', text: 'From business card websites to landing pages'},
-  {id:6, child: 5, name:'website', text: 'From business card websites to landing pages'},
+  {id:1, name:'Solutions', parent:true, className: 'menu__item--parent'},
+  {id:2, child: 'Solutions', name:'For small business'},
+  {id:3, child: 'For small business', name:'From business card websites to landing pages'},
+  {id:4, child: 1, name:'Online store'},
+  {id:5, child: 4, text:'A fast and easy way to grow sales'},
+  {id:6, child: 1, name:'Blogginng'},
+  {id:7, child: 6, text:'Everything you need to start a blog'},
+  {id:8, child: 1, name:'Enterprise solutions'},
+  {id:9, child: 8, text: 'For those who want to sell websites with Nova'},
+  {id:10, child: 1, name:'Hire a professional'},
+  {id:11, child: 10, text: 'Order a website from Nova studio'},
+
+  {id:'', name:'The team', isOpen:true, parent:true, className: 'menu__item--parent'},
+  
+
+  
+  
  
 ]
 
