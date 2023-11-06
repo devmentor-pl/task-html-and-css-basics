@@ -32,7 +32,7 @@ a {
   border: none;
   border-radius: 10px;
   color: white;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   transition: 0.3s ease-in-out;
 }
 .btn:hover {
@@ -70,7 +70,7 @@ a {
   align-items: center;
   height: 50px;
 }
-.logo__img {
+.header__logo-img {
   width: 80%;
 }
 
@@ -81,7 +81,6 @@ a {
 
 .nav__link {
   padding: 0 20px;
-  font-size: 1.1rem;
 }
 .nav__link:hover {
   color: var(--price-btn-color);
@@ -120,10 +119,10 @@ a {
   margin-bottom: 40px;
 }
 .hero__btn {
-  padding: 15px 35px;
+  padding: 17px 40px;
 }
 
-.image-container {
+.hero__image-container {
   width: 80%;
   height: 430px;
   margin: -20px 0 0 50px;
@@ -167,10 +166,10 @@ a {
   border-radius: 50%;
   box-shadow: 4px 14px 28px #393939;
 }
-.features__title {
+.features__item-title {
   margin-bottom: 10px;
 }
-.features__text {
+.features__item-text {
   line-height: 1.5;
   font-size: 0.9rem;
 }
@@ -197,9 +196,7 @@ a {
 .description__image {
   width: 50%;
 }
-.description__image img {
-  width: 100%;
-}
+
 .description__info {
   width: 50%;
   margin: 30px 0 0 140px;
@@ -288,14 +285,14 @@ a {
 /* TEAM SECTION */
 
 .team__header {
-  padding: 80px 0;
+  padding: 70px 0;
 }
 .team__members {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 40px 0;
-  margin-bottom: 100px;
+  margin-bottom: 130px;
 }
 .team__member {
   text-align: center;
@@ -311,7 +308,7 @@ a {
 .member__contact {
   margin-top: 20px;
 }
-.member__contact img {
+.member__contact-icon {
   padding: 0 10px;
 }
 /* END OF TEAM SECTION */
@@ -322,17 +319,17 @@ a {
   background-color: var(--price-btn-color);
   color: white;
 }
-.form__container {
+.form__section-container {
   text-align: center;
   padding: 40px 0;
 }
 
-.form__title {
+.form__section-title {
   margin-bottom: 10px;
   font-size: 1.5rem;
   font-weight: bold;
 }
-.form__text {
+.form__section-text {
   width: 250px;
   margin: 0 auto 20px auto;
 }
@@ -342,7 +339,7 @@ a {
   align-items: center;
 }
 
-.input__email {
+.form__input-email {
   padding: 10px 15px;
   height: 50px;
   width: 220px;
@@ -351,7 +348,7 @@ a {
   color: #808080;
   margin-right: 5px;
 }
-.btn__submit {
+.form__btn-submit {
   height: 50px;
   width: 150px;
   padding: 10px 10px;
