@@ -332,6 +332,7 @@ a {
 .form__section-text {
   width: 250px;
   margin: 0 auto 20px auto;
+  line-height: 1.5;
 }
 .form {
   display: flex;
