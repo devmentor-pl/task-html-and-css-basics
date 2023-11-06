@@ -21,11 +21,11 @@ export const header = {
     { id: 10, name: 'Hire a professional', childFor: 'Solutions' },
     { id: 11, name: 'Order a website from Nova studio', childFor: 'Hire a professional' },
 
-    { name: 'The team', isOpen: true, parent: true, className: 'menu__item--parent' },
+    { name: 'The team', isOpen: true, parent: true },
    
 
-    { name: 'Features', isOpen: true, parent: true, className: 'menu__item--parent' },
-    { name: 'Prices', isOpen: true, parent: true, className: 'menu__item--parent' },
+    { name: 'Features', isOpen: true, parent: true },
+    { name: 'Prices', isOpen: true, parent: true },
     { name: 'Resources', isOpen: true, parent: true, className: 'menu__item--parent' },
     { name: 'Nova blog', childFor: 'Resources'},
     { name: 'Tips, inspirations, useful articles and more', childFor: 'Nova blog'},

@@ -1,12 +1,9 @@
 import React, { useContext, useState } from 'react'
+import {  FaChevronDown } from 'react-icons/fa';
 import { HeaderDataTeamContext } from '../../context';
 
 
-export const MenuList = (props) => {
-
-  const {
-    isNavbarOpen
-  } = props
+export const MenuList = () => {
 
   const { elements } = useContext(HeaderDataTeamContext);
   const [hoveredItem1, setHoveredItem1] = useState(null);
@@ -41,13 +38,17 @@ export const MenuList = (props) => {
             key={item.id}
             className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
             onMouseEnter={() => handleMouseEnter1(item.id)}
-            onMouseLeave={handleMouseLeave1}
+            
+           onMouseLeave={handleMouseLeave1}
+           
           >
             {item.name}
+            {item.className === 'menu__item--parent' ? <FaChevronDown />: ''}
+          
           
 {
   hoveredItem1 === item.id && (
-    <ul>
+    <ul className={'menu__sublist'}>
    {elements
         .filter((el) => el.childFor === item.name)
         .map((el) => (
@@ -60,7 +61,7 @@ export const MenuList = (props) => {
           {
   hoveredItem2 === el.id && (
   
-    <ul>
+    <ul className={'menu__sublist'}>
   
    {elements
         .filter((el2) => el2.childFor === el.name)
@@ -89,12 +90,12 @@ export const MenuList = (props) => {
   }
   return (
     <>
-      <ul className={`${'nav__menu menu'} ${isNavbarOpen ? `${'nav__hide'}` : `${'nav__block'}`} `}>{
+     {
         elements.map((item, i) => {
           return renderListItem(item, i)
         })
       }
-      </ul>
+
     </>
   )
 

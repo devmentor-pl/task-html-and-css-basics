@@ -18,7 +18,7 @@ export const Navigation = () => {
     <>
       <NavbarProvider value={{ navbarOpen, setNavbarOpen }}>
         <button onClick={handleToggle} className={'hamburger'}>
-          <ChocolateHamburger isNavbarOpenopen={navbarOpen} openFunc={setNavbarOpen} span={9} />
+          <ChocolateHamburger isNavbarOpen={navbarOpen} openFunc={setNavbarOpen} span={9} />
         </button>
         <Menu className={'nav'} isNavbarOpen={navbarOpen} navbarOpenFunc={setNavbarOpen} ></Menu> 
       </NavbarProvider>
