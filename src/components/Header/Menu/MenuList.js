@@ -10,6 +10,7 @@ export const MenuList = () => {
   const [hoveredItem2, setHoveredItem2] = useState(null);
 
   const handleMouseEnter1 = (key) => {
+
     setHoveredItem1(key);
   };
 
@@ -32,16 +33,15 @@ export const MenuList = () => {
   const renderListItem = (item, i) => {
     return (
       <>
+      {console.log(item.id)}
         {item.parent
           ?
           <li
             key={item.id}
             className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
             onMouseEnter={() => handleMouseEnter1(item.id)}
-            
-           onMouseLeave={handleMouseLeave1}
-           
-          >
+            onMouseLeave={handleMouseLeave1}
+           >
             {item.name}
             {item.className === 'menu__item--parent' ? <FaChevronDown />: ''}
           
