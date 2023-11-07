@@ -22,6 +22,7 @@ export const MenuList2 = (props) => {
   };
 
   const handleMouseEnter2 = (key) => {
+
     setHoveredItem2(key);
   };
 
@@ -53,17 +54,18 @@ export const MenuList2 = (props) => {
               {item.name}
               {item.className === 'menu__item--parent' ? <FaChevronDown /> : ''}
 
-              <ul className={`${'menu__sublist'} ${hoveredItem1 === item.id ? `${'menu__sublist--hide'}` : `${'menu__sublist--block'}`} `}>
+              <ul className={`${'menu__sublist'} ${hoveredItem1 === item.id ? `${'menu__sublist--block'}` : `${'menu__sublist--hide'}`} `}>
                 {elements
                   .filter((el) => el.childFor === item.name)
                   .map((el) => (
                     <li
                       key={el.id}
+                      className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
                       // style={myStyle}
                       onMouseEnter={() => handleMouseEnter2(el.id)}
                     // onMouseLeave={handleMouseLeave2}
                     >{el.name}
-                      <ul className={`${'menu__sublist'} ${hoveredItem2 === item.id ? `${'menu__sublist--hide'}` : `${'menu__sublist--block'}`} `}>
+                      <ul className={`${'menu__sub-sublist'} ${hoveredItem2 === el.id ? `${'menu__sub-sublist--block'}` : `${'menu__sub-sublist--hide'}`} `}>
                         {elements
                           .filter((el2) => el2.childFor === el.name)
                           .map((el2) => (
@@ -72,7 +74,9 @@ export const MenuList2 = (props) => {
 
                             >{el2.name}
                             </li>
-                          ))}
+                          ))
+                          }
+                      
                       </ul>
                     </li>))
                 }

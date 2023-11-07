@@ -84,8 +84,15 @@
   display: none;
 }
  
+&__sub-sublist {
+  display: none;
+}
 
     &__sublist--hide {
+      display: none;
+    }
+
+    &__sub-sublist--hide {
       display: none;
     }
 
@@ -131,6 +138,21 @@
 
     
     .menu__item--parent >.menu__sublist--block {
+
+      width: 400px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      position: absolute;
+      top: 10vh;
+      left: calc(30% - 150px);
+      background-color: $color-white;
+      border-radius: 5px;
+
+    }
+
+      
+    .menu__item--parent >.menu__sub-sublist--block {
 
       width: 400px;
       display: grid;

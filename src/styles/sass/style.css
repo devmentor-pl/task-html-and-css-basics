@@ -99,7 +99,15 @@ section {
   display: none;
 }
 
+.header .menu__sub-sublist {
+  display: none;
+}
+
 .header .menu__sublist--hide {
+  display: none;
+}
+
+.header .menu__sub-sublist--hide {
   display: none;
 }
 
@@ -109,6 +117,18 @@ section {
 }
 
 .header .menu__item--parent > .menu__sublist--block {
+  width: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  position: absolute;
+  top: 10vh;
+  left: calc(30% - 150px);
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.header .menu__item--parent > .menu__sub-sublist--block {
   width: 400px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
