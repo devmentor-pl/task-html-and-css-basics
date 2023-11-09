@@ -171,10 +171,6 @@ section {
     background-color: rgb(249, 213, 228);
   }
 }
-.header .menu__sub-sublist {
-  display: none;
-}
-
 .header .menu__sublist--hide {
   display: none;
 }

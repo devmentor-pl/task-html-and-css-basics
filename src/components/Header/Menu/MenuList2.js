@@ -10,6 +10,7 @@ export const MenuList2 = (props) => {
   const { elements } = useContext(HeaderDataTeamContext);
   const [hoveredItem1, setHoveredItem1] = useState(null);
   const [hoveredItem2, setHoveredItem2] = useState(null);
+  const [showBlock, setHoveredItem3] = useState(null);
   const [isFirstUlOpen, setFirstUlOpen] = useState(null);
 
   const handleMouseEnter1 = (key) => {
@@ -28,6 +29,10 @@ export const MenuList2 = (props) => {
 
   const handleMouseLeave2 = () => {
     setHoveredItem2(null);
+  };
+  const handleMouseEnter3 = (key) => {
+
+    setHoveredItem3(key);
   };
 
 
@@ -67,21 +72,19 @@ export const MenuList2 = (props) => {
                     <li
                       key={el.id}
                       className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
-                      // style={myStyle}
-                      {...{ [eventToUse]: isMobile ? () => handleMouseEnter2(item.id) : () => '' }}
-                    // onMouseEnter={() => handleMouseEnter2(el.id)}
-                    // onMouseLeave={handleMouseLeave2}
+                       {...{ [eventToUse]: isMobile ? () => handleMouseEnter2(el.id) :  () => handleMouseEnter3(el.id)}}
+                     
+                      // onMouseEnter={() => handleMouseEnter2(el.id)}
+               
                     >{el.name}
                       <ul
-                        className={{
-                          [eventToUse]
-                          :
-                          isMobile
-                            ?
-                            `${'menu__sub-sublist'} ${hoveredItem2 === el.id ? `${'menu__sub-sublist--block'}` : `${'menu__sub-sublist--hide'}`}`
+                        className={`${'menu__sub-sublist'} 
+                        ${hoveredItem2 === el.id ? `${'menu__sub-sublist--block'}` : `${'menu__sub-sublist--hide'}`}
+                        ${showBlock === el.id ? `${'menu__sub-sublist--block'}` : ''}
+                        `
+                   
 
-                            : `${'menu__sub-sublist--block'}`
-                        }}>
+                        }>
                         {elements
                           .filter((el2) => el2.childFor === el.name)
                           .map((el2) => (
