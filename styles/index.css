@@ -1,4 +1,4 @@
-/* położenie i wygląd części header */
+/* header section */
 .header {
     width: 100%;
     height: 700px;
@@ -113,8 +113,8 @@
     margin-top: 40px;
     margin-left: 130px;
 }
-/* położenie i wygląd elementu container--black*/
 
+/* container--black section */
 .container--black {
     width: 100%;
     height: 500px;
@@ -162,6 +162,9 @@
     justify-content: center;
     border-radius: 50%;
 }
+.article__icon {
+    max-width: 30px;
+}
 
 .article__head {
     font-family: Montserrat;
@@ -182,8 +185,7 @@
     margin: 20px;
 }
 
-/* wygląd i położenie logo bar */
-
+/* multiple logo section */
 .logo-bar {
     width: 100%;
     height: 60px;
@@ -199,8 +201,7 @@
     justify-content: center;
 }
 
-/* wygląd i położenie container z iMac */
-
+/* iMac section */
 .container {
     width: 100%;
     height: 500px;
@@ -242,7 +243,7 @@
     font-size: 14px;
     padding-right: 300px;
 }
-/* wygląd i położenie pricing section */
+/* pricing section */
 .container--beige {
     width: 100%;
     height: 600px;
@@ -251,8 +252,8 @@
     flex-direction: column;
     align-items: center;
 }
-
-.container--beige .container__title {
+.container--beige .container__title,
+.container--white .container__title {
     color: #000000;
 }
 .container--beige .container__subtitle {
@@ -270,11 +271,13 @@
     padding-top: 30px;
     text-align: center;
 }
-.article__name {
+.container--beige .article__head,
+.container--white .article__head {
     font-family: Montserrat;
     font-weight: 300;
     font-size: 16px;
     margin-bottom: 10px;
+    color: #000000;
 }
 .article__prize {
     font-family: Montserrat;
@@ -321,3 +324,55 @@
     background-color: white;
     box-shadow: 8px 5px 5px 5px #E4E7EA;
 }
+
+/* team section */
+.container--white {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container--white .container__container {
+    background-color: white;
+    padding-top: 20px;
+}
+.container--white .container__article {
+    width: 25%;
+}
+.article__name {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+}
+.container--white .article__text {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+}
+.container--white .article__icon-box {
+    background-color: white;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* footer section */
+.footer-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #464646;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-bar__text {
+    color: white;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+}
+
