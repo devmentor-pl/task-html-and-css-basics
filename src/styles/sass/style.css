@@ -35,30 +35,58 @@ section {
 .header__nav {
   grid-area: nav;
   display: grid;
-  grid-template-columns: 20% 50% 20%;
-  grid-template-areas: "logo menu2 other";
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "logo menu2";
   width: 100%;
   height: 10vh;
   position: fixed;
   border-radius: 2px;
 }
 
-.header__nav.scrolled {
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(70, 70, 70);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+@media only screen and (max-width: 899px) {
+  .header__nav {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(70, 70, 70);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
 }
-
+@media only screen and (min-width: 900px) {
+  .header__nav {
+    grid-template-columns: 20% 50% 20%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .header__nav {
+    grid-template-areas: "logo menu2 other";
+  }
+}
+@media only screen and (min-width: 900px) {
+  .header__nav.scrolled {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(70, 70, 70);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+  }
+}
 .header__logo {
   grid-area: logo;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+@media only screen and (min-width: 900px) {
+  .header__logo {
+    display: inline;
+  }
+}
 .header__navigation {
   grid-area: menu2;
   height: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
 }
 
 @media only screen and (min-width: 900px) {
@@ -66,10 +94,25 @@ section {
     justify-content: initial;
   }
 }
+.header__navigation .nav {
+  width: 130%;
+  height: 100%;
+  position: absolute;
+  top: 10vh;
+  left: -30%;
+  min-height: 90vh;
+  z-index: 100;
+}
+
 @media only screen and (min-width: 900px) {
   .header__navigation .nav {
     width: 100%;
-    height: 100%;
+    left: 0;
+    top: 0;
+    height: 10vh;
+    min-height: 0;
+    width: 100%;
+    z-index: 0;
   }
 }
 .header .menu {
@@ -79,7 +122,6 @@ section {
 }
 
 .header .menu__item {
-  width: 20%;
   height: 100%;
   font-size: 1.2rem;
   font-weight: 700;
@@ -89,6 +131,11 @@ section {
   align-items: center;
 }
 
+@media only screen and (min-width: 900px) {
+  .header .menu__item {
+    width: 20%;
+  }
+}
 .header .menu__item i {
   width: 10px;
   height: 20px;
@@ -117,27 +164,24 @@ section {
 }
 
 .header .menu__item--parent > .menu__sublist--block {
-  width: 400px;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  position: absolute;
-  top: 10vh;
-  left: calc(30% - 150px);
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
+  background-color: pink;
+  display: block;
 }
 
+@media only screen and (min-width: 900px) {
+  .header .menu__item--parent > .menu__sublist--block {
+    width: 400px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    position: absolute;
+    top: 10vh;
+    left: calc(30% - 150px);
+    border-radius: 5px;
+  }
+}
 .header .menu__item--parent > .menu__sub-sublist--block {
-  width: 400px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  position: absolute;
-  top: 10vh;
-  left: calc(30% - 150px);
-  background-color: rgb(255, 255, 255);
-  border-radius: 5px;
 }
 
 .header .nav__menu.nav__hide {
@@ -146,27 +190,30 @@ section {
 
 @media only screen and (max-width: 899px) {
   .header .nav__menu.nav__block {
-    height: 40vh;
-    width: 100%;
+    height: 100%;
     position: absolute;
-    top: 60vh;
-    left: 0;
+    top: 0;
+    left: 0%;
     z-index: 2;
     display: block;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 40%;
     background: rgb(194, 74, 126) 40%;
   }
   .header .nav__menu.nav__block > li {
     margin-bottom: 10px;
+    padding: 20px;
   }
   .header .nav__menu.nav__block > li a {
     color: rgb(36, 242, 139);
     font-weight: bold;
   }
 }
+.header .hamburger {
+  z-index: 100;
+}
+
 @media only screen and (min-width: 900px) {
   .header .hamburger {
     display: none;

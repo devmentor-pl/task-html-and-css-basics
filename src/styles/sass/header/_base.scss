@@ -13,28 +13,53 @@
 
   &__nav {
 
+    @include respond(max-tablet) {
+         background-color: $color-white;
+    border-bottom: 1px solid $color-dark-grey;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); 
+ 
+    }
 
    grid-area: nav;
+
     display: grid;
-    grid-template-columns: 20% 50% 20%;
+    grid-template-columns: 20% 80%;
+    @include respond(tablet) {
+       grid-template-columns: 20% 50% 20%;
+    }
     grid-template-areas: 
+    'logo menu2';
+
+   @include respond(tablet) {
+     grid-template-areas: 
     'logo menu2 other';
+   }
+   
+
+    
  
     width: 100%;
     height: 10vh;
     position: fixed;
   
     border-radius: 2px;
-
-    &.scrolled {
+@include respond(tablet) {
+   &.scrolled {
       background-color: $color-white;
       border-bottom: 1px solid $color-dark-grey;
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     }
+}
+   
   }
 
   &__logo {
     grid-area: logo;
+    z-index: 100;
+    @include flexAbsoluteCenter();
+    @include respond(tablet) {
+      display: inline;
+    }
     // flex-basis: 30%;
   }
 
@@ -45,15 +70,29 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: relative;
 
     @include respond(tablet) {
       justify-content: initial;
     }
 
     .nav {
+      width: 130%;
+      height: 100%;
+      position: absolute;
+      top: 10vh;
+      left:-30%;
+       min-height: 90vh;
+       z-index: 100;
       @include respond(tablet) {
         width: 100%;
-        height: 100%;
+        left: 0;
+        top:0;
+        height: 10vh;
+        min-height: 0;
+        width: 100%;
+        z-index: 0
+       
       }
     }
   }
@@ -64,11 +103,14 @@
     border: 2px solid pink;
 
     &__item {
-      width: 20%;
+
       height: 100%;
       font-size: 1.2rem;
       font-weight: 700;
       position: relative;
+      @include respond(tablet) {
+        width: 20%
+      }
     
       @include flexAbsoluteCenter();
 
@@ -138,7 +180,9 @@
 
     
     .menu__item--parent >.menu__sublist--block {
-
+      background-color: pink;
+      display: block;
+      @include respond(tablet) {
       width: 400px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -146,23 +190,25 @@
       position: absolute;
       top: 10vh;
       left: calc(30% - 150px);
-      background-color: $color-white;
+      // background-color: $color-white;
       border-radius: 5px;
+      }
+    
 
     }
 
       
     .menu__item--parent >.menu__sub-sublist--block {
-
-      width: 400px;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      position: absolute;
-      top: 10vh;
-      left: calc(30% - 150px);
-      background-color: $color-white;
-      border-radius: 5px;
+ display: grid;
+      // width: 400px;
+     
+      // grid-template-columns: repeat(3, 1fr);
+      // grid-template-rows: repeat(2, 1fr);
+      // position: absolute;
+      // top: 10vh;
+      // left: calc(30% - 150px);
+      // background-color: $color-white;
+      // border-radius: 5px;
 
     }
 
@@ -173,21 +219,23 @@
 
   @include respond(max-tablet) {
     .nav__menu.nav__block {
-      height: 40vh;
-      width: 100%;
+      height: 100%;
+    
+      // padding-top: 10vh;
       position: absolute;
-      top: 60vh;
-      left: 0;
+      top: 0;
+    left: 0%;
       z-index: 2;
       display: block;
       display: flex;
       justify-content: center;
       flex-direction: column;
-      padding-left: 40%;
+     
       background: $color-dark-pink 40%;
 
       &>li {
         margin-bottom: 10px;
+        padding: 20px;
 
         a {
           color: $color-medium-green;
@@ -197,7 +245,9 @@
     }
   }
 
-
+.hamburger {
+  z-index: 100
+}
   @include respond(tablet) {
     .hamburger {
       display: none;
@@ -208,6 +258,7 @@
         display: block;
         display: flex;
         flex-direction: row;
+    
       }
 
       .menu {
