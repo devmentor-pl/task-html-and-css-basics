@@ -33,6 +33,7 @@ section {
 }
 
 .header__nav {
+  color: rgb(194, 74, 126);
   grid-area: nav;
   display: grid;
   grid-template-columns: 20% 80%;
@@ -100,7 +101,8 @@ section {
   position: absolute;
   top: 10vh;
   left: -30%;
-  min-height: 90vh;
+  min-height: 100vh;
+  overflow-y: auto;
   z-index: 100;
 }
 
@@ -113,6 +115,7 @@ section {
     min-height: 0;
     width: 100%;
     z-index: 0;
+    overflow-y: initial;
   }
 }
 .header .menu {
@@ -122,10 +125,11 @@ section {
 }
 
 .header .menu__item {
-  height: 100%;
-  font-size: 1.2rem;
+  width: 100%;
+  font-size: 0.7rem;
   font-weight: 700;
   position: relative;
+  padding: 5px;
 }
 
 @media only screen and (min-width: 900px) {
@@ -140,10 +144,17 @@ section {
   display: block;
 }
 
+.header .menu__sublist {
+  max-width: 300px;
+  margin-top: 20px;
+  z-index: 100;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
+}
+
 @media only screen and (min-width: 900px) {
   .header .menu__sublist {
     min-height: 10vh;
-    width: 400px;
+    min-width: 550px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -152,6 +163,12 @@ section {
     left: calc(30% - 150px);
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
+  }
+  .header .menu__sublist .menu__item {
+    width: 100%;
+  }
+  .header .menu__sublist .menu__item:hover {
+    background-color: rgb(249, 213, 228);
   }
 }
 .header .menu__sub-sublist {
@@ -182,6 +199,8 @@ section {
 @media only screen and (max-width: 899px) {
   .header .nav__menu.nav__block {
     height: 100%;
+    z-index: 200;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     top: 0;
     left: 0%;
@@ -190,7 +209,6 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: rgb(194, 74, 126) 40%;
   }
   .header .nav__menu.nav__block > li {
     margin-bottom: 10px;

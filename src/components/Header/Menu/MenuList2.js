@@ -38,10 +38,10 @@ export const MenuList2 = (props) => {
 
 
   const renderListItem = (item, i) => {
-    const isMobile = window.innerWidth <= 768; // Adjust the breakpoint as needed
+    const isMobile = window.innerWidth <= 900; // Adjust the breakpoint as needed
     const eventToUse = isMobile ? 'onClick' : 'onMouseEnter';
-  
- 
+
+
     return (
       <>
 
@@ -52,13 +52,15 @@ export const MenuList2 = (props) => {
             <li
               key={item.id}
               className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
-              {...{ [eventToUse]: isMobile ? () => handleMouseEnter1(item.id) : () => handleMouseEnter1(item.id)}}
-           
+              {...{ [eventToUse]: isMobile ? () => handleMouseEnter1(item.id) : () => handleMouseEnter1(item.id) }}
+
             // onMouseLeave={handleMouseLeave1}
             >
               {item.name}
               {item.className === 'menu__item--parent' ? <FaChevronDown /> : ''}
-              <ul className={`${'menu__sublist'} ${hoveredItem1 === item.id ? `${'menu__sublist--block'}` : `${'menu__sublist--hide'}`} `}>
+              <ul className={`${'menu__sublist'} ${hoveredItem1 === item.id ? `${'menu__sublist--block'}` : `${'menu__sublist--hide'}`} `}
+
+              >
                 {elements
                   .filter((el) => el.childFor === item.name)
                   .map((el) => (
@@ -66,10 +68,20 @@ export const MenuList2 = (props) => {
                       key={el.id}
                       className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
                       // style={myStyle}
-                      onMouseEnter={() => handleMouseEnter2(el.id)}
+                      {...{ [eventToUse]: isMobile ? () => handleMouseEnter2(item.id) : () => '' }}
+                    // onMouseEnter={() => handleMouseEnter2(el.id)}
                     // onMouseLeave={handleMouseLeave2}
                     >{el.name}
-                      <ul className={`${'menu__sub-sublist'} ${hoveredItem2 === el.id ? `${'menu__sub-sublist--block'}` : `${'menu__sub-sublist--hide'}`} `}>
+                      <ul
+                        className={{
+                          [eventToUse]
+                          :
+                          isMobile
+                            ?
+                            `${'menu__sub-sublist'} ${hoveredItem2 === el.id ? `${'menu__sub-sublist--block'}` : `${'menu__sub-sublist--hide'}`}`
+
+                            : `${'menu__sub-sublist--block'}`
+                        }}>
                         {elements
                           .filter((el2) => el2.childFor === el.name)
                           .map((el2) => (
@@ -79,8 +91,8 @@ export const MenuList2 = (props) => {
                             >{el2.name}
                             </li>
                           ))
-                          }
-                      
+                        }
+
                       </ul>
                     </li>))
                 }

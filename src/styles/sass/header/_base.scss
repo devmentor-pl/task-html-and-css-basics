@@ -12,7 +12,7 @@
     'hero';
 
   &__nav {
-
+    color: $color-dark-pink;
     @include respond(max-tablet) {
          background-color: $color-white;
     border-bottom: 1px solid $color-dark-grey;
@@ -82,8 +82,9 @@
       position: absolute;
       top: 10vh;
       left:-30%;
-       min-height: 90vh;
-       z-index: 100;
+      min-height: 100vh;
+      overflow-y:auto;
+      z-index: 100;
       @include respond(tablet) {
         width: 100%;
         left: 0;
@@ -91,7 +92,8 @@
         height: 10vh;
         min-height: 0;
         width: 100%;
-        z-index: 0
+        z-index: 0;
+        overflow-y:initial;
        
       }
     }
@@ -102,14 +104,16 @@
     height: 100%;
     border: 2px solid pink;
 
-    &__item {
 
-      height: 100%;
-      font-size: 1.2rem;
+    &__item {
+      width: 100%;
+      font-size: 0.7rem;
       font-weight: 700;
       position: relative;
+      padding: 5px;
 
       @include respond(tablet) {
+
              display: inline;
         width: 20%
       }
@@ -125,10 +129,15 @@
     
     }
 &__sublist {
-  // display: none;   
+  // display: none; 
+  max-width: 300px;
+  margin-top: 20px;
+  z-index:100;  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+  -5px -5px 10px rgba(0, 0, 0, 0.3);
   @include respond(tablet) {
-      min-height: 10vh;
-  width: 400px;
+  min-height: 10vh;
+  min-width: 550px;
   display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr);
@@ -137,6 +146,13 @@
       left: calc(30% - 150px);
       background-color: $color-white;
       border-radius: 5px;
+      .menu__item {
+        width: 100%;
+        &:hover {
+          background-color: $color-light-pink;
+        }
+        
+      }
   }
 
 }
@@ -219,7 +235,8 @@
   @include respond(max-tablet) {
     .nav__menu.nav__block {
       height: 100%;
-    
+    z-index: 200;
+    background-color: $color-white;
       // padding-top: 10vh;
       position: absolute;
       top: 0;
@@ -229,8 +246,7 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
-     
-      background: $color-dark-pink 40%;
+
 
       &>li {
         margin-bottom: 10px;
@@ -258,6 +274,7 @@
         display: block;
         display: flex;
         flex-direction: row;
+       
     
       }
 
