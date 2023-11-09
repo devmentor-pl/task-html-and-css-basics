@@ -108,11 +108,13 @@
       font-size: 1.2rem;
       font-weight: 700;
       position: relative;
+
       @include respond(tablet) {
+             display: inline;
         width: 20%
       }
     
-      @include flexAbsoluteCenter();
+    
 
       i {
         width: 10px;
@@ -123,11 +125,25 @@
     
     }
 &__sublist {
-  display: none;
+  // display: none;   
+  @include respond(tablet) {
+      min-height: 10vh;
+  width: 400px;
+  display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      position: absolute;
+      top: 10vh;
+      left: calc(30% - 150px);
+      background-color: $color-white;
+      border-radius: 5px;
+  }
+
 }
  
 &__sub-sublist {
   display: none;
+
 }
 
     &__sublist--hide {
@@ -178,24 +194,7 @@
 
     // }
 
-    
-    .menu__item--parent >.menu__sublist--block {
-      background-color: pink;
-      display: block;
-      @include respond(tablet) {
-      width: 400px;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      position: absolute;
-      top: 10vh;
-      left: calc(30% - 150px);
-      // background-color: $color-white;
-      border-radius: 5px;
-      }
-    
-
-    }
+   
 
       
     .menu__item--parent >.menu__sub-sublist--block {
@@ -236,6 +235,7 @@
       &>li {
         margin-bottom: 10px;
         padding: 20px;
+      
 
         a {
           color: $color-medium-green;

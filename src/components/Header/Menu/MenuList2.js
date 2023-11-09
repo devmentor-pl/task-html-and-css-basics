@@ -38,6 +38,10 @@ export const MenuList2 = (props) => {
 
 
   const renderListItem = (item, i) => {
+    const isMobile = window.innerWidth <= 768; // Adjust the breakpoint as needed
+    const eventToUse = isMobile ? 'onClick' : 'onMouseEnter';
+  
+ 
     return (
       <>
 
@@ -48,12 +52,12 @@ export const MenuList2 = (props) => {
             <li
               key={item.id}
               className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
-              onMouseEnter={() => handleMouseEnter1(item.id)}
+              {...{ [eventToUse]: isMobile ? () => handleMouseEnter1(item.id) : () => handleMouseEnter1(item.id)}}
+           
             // onMouseLeave={handleMouseLeave1}
             >
               {item.name}
               {item.className === 'menu__item--parent' ? <FaChevronDown /> : ''}
-
               <ul className={`${'menu__sublist'} ${hoveredItem1 === item.id ? `${'menu__sublist--block'}` : `${'menu__sublist--hide'}`} `}>
                 {elements
                   .filter((el) => el.childFor === item.name)
