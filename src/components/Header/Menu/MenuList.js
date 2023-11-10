@@ -38,8 +38,8 @@ export const MenuList = () => {
               className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
               {...{ [eventToUse]: isMobile ? () => handleMouseEnterListItem(item.id) : () => handleMouseEnterListItem(item.id) }}
             >
-              {item.name}
-              {item.className === 'menu__item--parent' ? <FaChevronDown /> : ''}
+              
+              {item.className === 'menu__item--parent' ?<div> {item.name} <FaChevronDown /></div>  : <div>{item.name}</div>}
               {item.parentSubList
                 ?
                 <ul className={`${'menu__sublist'} ${hoveredListItem === item.id ? `${'menu__sublist--block'}` : `${'menu__sublist--hide'}`} `}>

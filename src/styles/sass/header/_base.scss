@@ -53,9 +53,11 @@
   &__logo {
     grid-area: logo;
     z-index: 100;
+    margin-left: 10px;
     @include flexAbsoluteCenter();
 
     @include respond(tablet) {
+      margin-left: 0;
       display: inline;
     }
 
@@ -134,8 +136,8 @@
       max-width: 300px;
       margin-top: 20px;
       z-index: 100;
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
-        -5px -5px 10px rgba(0, 0, 0, 0.3);
+
+    
 
       @include respond(tablet) {
         min-height: 10vh;
@@ -148,6 +150,8 @@
         left: calc(30% - 150px);
         background-color: $color-white;
         border-radius: 5px;
+       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px rgba(0, 0, 0, 0.3);
 
         .menu__item {
           width: 100%;
@@ -248,22 +252,34 @@
       justify-content: center;
       flex-direction: column;
 
-
+  @include flexAbsoluteCenter();
       &>li {
         margin-bottom: 10px;
         padding: 20px;
-
-
-        a {
-          color: $color-medium-green;
-          font-weight: bold;
+        display: grid;
+        background-color: aquamarine;
+      
+        .menu__item--parent {
+          grid-template-areas: 
+        'arrow'
+        'sublist';
+  svg {
+          grid-area: arrow;
+        }
+        .menu__sublist {
+          grid-area: sublist;
+        }
         }
       }
     }
   }
 
   .hamburger {
-    z-index: 100
+    z-index: 100;
+    margin-right: 10px;
+    @include respond(tablet) {
+      margin-right: 0;
+    }
   }
 
   @include respond(tablet) {
