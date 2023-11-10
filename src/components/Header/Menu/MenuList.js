@@ -1,96 +1,90 @@
 import React, { useContext, useState } from 'react'
-import {  FaChevronDown } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 import { HeaderDataTeamContext } from '../../context';
 
 
 export const MenuList = () => {
 
   const { elements } = useContext(HeaderDataTeamContext);
-  const [hoveredItem1, setHoveredItem1] = useState(null);
-  const [hoveredItem2, setHoveredItem2] = useState(null);
+  const [hoveredListItem, setHoveredListItem] = useState(null);
+  const [hoveredSubListItem, setHoveredSubListItem] = useState(null);
+  const [showSubList, setShowSubList] = useState(null);
 
-  const handleMouseEnter1 = (key) => {
-
-    setHoveredItem1(key);
+  const handleMouseEnterListItem = (key) => {
+    setHoveredListItem(key);
   };
 
-  const handleMouseLeave1 = () => {
-    setHoveredItem1(null);
+  const handleMouseEnterSubListItem = (key) => {
+    setHoveredSubListItem(key);
   };
 
-  const handleMouseEnter2 = (key) => {
-    setHoveredItem2(key);
-  };
-
-  const handleMouseLeave2 = () => {
-    setHoveredItem2(null);
+  const handleMouseEnterSubSubListItem = (key) => {
+    setShowSubList(key);
   };
 
 
+  const renderListItem = (item) => {
 
+    const isMobile = window.innerWidth <= 900;
+    const eventToUse = isMobile ? 'onClick' : 'onMouseEnter';
 
-
-  const renderListItem = (item, i) => {
     return (
       <>
-      {console.log(item.id)}
-        {item.parent
+        {item.elementList
           ?
-          <li
-            key={item.id}
-            className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
-            onMouseEnter={() => handleMouseEnter1(item.id)}
-            onMouseLeave={handleMouseLeave1}
-           >
-            {item.name}
-            {item.className === 'menu__item--parent' ? <FaChevronDown />: ''}
-          
-          
-{
-  hoveredItem1 === item.id && (
-    <ul className={'menu__sublist'}>
-   {elements
-        .filter((el) => el.childFor === item.name)
-        .map((el) => (
-          <li 
-          key={el.id}
-          onMouseEnter={() => handleMouseEnter2(el.id)}
-          onMouseLeave={handleMouseLeave2}
-          >{el.name}
-          
-          {
-  hoveredItem2 === el.id && (
-  
-    <ul className={'menu__sublist'}>
-  
-   {elements
-        .filter((el2) => el2.childFor === el.name)
-        .map((el2) => (
-          <li 
-          key={el2.id}
-    
-          >{el2.name}
-          
-          
-          </li>
-        ))}
-    </ul>
-  )
-}
-          </li>
-        ))}
-    </ul>
-  )
-}
-          </li> : ''
-        }
+          <>
+            <li
+              key={item.id}
+              className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
+              {...{ [eventToUse]: isMobile ? () => handleMouseEnterListItem(item.id) : () => handleMouseEnterListItem(item.id) }}
+            >
+              {item.name}
+              {item.className === 'menu__item--parent' ? <FaChevronDown /> : ''}
+              {item.parentSubList
+                ?
+                <ul className={`${'menu__sublist'} ${hoveredListItem === item.id ? `${'menu__sublist--block'}` : `${'menu__sublist--hide'}`} `}>
+                  {elements
+                    .filter((el) => el.childFor === item.name)
+                    .map((el) => (
+                      <li
+                        key={el.id}
+                        className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
+                        {...{ [eventToUse]: isMobile ? () => handleMouseEnterSubListItem(el.id) : () => handleMouseEnterSubSubListItem(el.id) }}
+                      >
+                        {el.name}
+                        <ul
+                          className={`${'menu__sub-sublist'} 
+                        ${hoveredSubListItem === el.id ? `${'menu__sub-sublist--block'}` : `${'menu__sub-sublist--hide'}`}
+                        ${showSubList === el.id ? `${'menu__sub-sublist--block'}` : ''}
+                        `}>
+                          {elements
+                            .filter((el2) => el2.childFor === el.name)
+                            .map((el2) => (
+                              <li
+                                key={el2.id}
 
+                              >{el2.name}
+                              </li>
+                            ))
+                          }
+                        </ul>
+                      </li>))
+                  }
+                </ul>
+                : ""
+              }
+
+            </li>
+          </>
+          : ""
+        }
       </>
     )
   }
+
   return (
     <>
-     {
+      {
         elements.map((item, i) => {
           return renderListItem(item, i)
         })

@@ -9,9 +9,9 @@ export const header = {
   description: 'A top notch premium quality template for your next web project',
   screen: screen,
   menu: [
-    { id: uuidv4(), name: 'Solutions', parent: true, className: 'menu__item--parent' },
-    { id: uuidv4(),  name: 'For small business', childFor: 'Solutions' },
-    { id: uuidv4(),  name: 'From business card websites to landing pages', childFor: 'For small business', },
+    { id: uuidv4(), name: 'Solutions', elementList: true, className: 'menu__item--parent', parentSubList: true },
+    { id: uuidv4(), name: 'For small business', childFor: 'Solutions' },
+    { id: uuidv4(), name: 'From business card websites to landing pages', childFor: 'For small business', },
     { id: uuidv4(), name: 'Online store', childFor: 'Solutions' },
     { id: uuidv4(), name: 'A fast and easy way to grow sales', childFor: 'Online store' },
     { id: uuidv4(), name: 'Blogginng', childFor: 'Solutions' },
@@ -21,12 +21,12 @@ export const header = {
     { id: uuidv4(), name: 'Hire a professional', childFor: 'Solutions' },
     { id: uuidv4(), name: 'Order a website from Nova studio', childFor: 'Hire a professional' },
 
-    { name: 'The team', isOpen: true, parent: true },
+    { name: 'The team', isOpen: true, elementList: true},
    
 
-    { id: uuidv4(), name: 'Features', isOpen: true, parent: true },
-    { id: uuidv4(), name: 'Prices', isOpen: true, parent: true },
-    { id: uuidv4(), name: 'Resources', isOpen: true, parent: true, className: 'menu__item--parent' },
+    { id: uuidv4(), name: 'Features', isOpen: true, elementList: true },
+    { id: uuidv4(), name: 'Prices', isOpen: true, elementList: true },
+    { id: uuidv4(), name: 'Resources', isOpen: true, elementList: true, className: 'menu__item--parent', parentSubList: true},
     { id: uuidv4(), name: 'Nova blog', childFor: 'Resources'},
     { id: uuidv4(), name: 'Tips, inspirations, useful articles and more', childFor: 'Nova blog'},
     { id: uuidv4(), name: 'Knowledge base', childFor: 'Resources'},

@@ -12,59 +12,58 @@
     'hero';
 
   &__nav {
+    grid-area: nav;
     color: $color-dark-pink;
+
     @include respond(max-tablet) {
-         background-color: $color-white;
-    border-bottom: 1px solid $color-dark-grey;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2); 
- 
-    }
-
-   grid-area: nav;
-
-    display: grid;
-    grid-template-columns: 20% 80%;
-    @include respond(tablet) {
-       grid-template-columns: 20% 50% 20%;
-    }
-    grid-template-areas: 
-    'logo menu2';
-
-   @include respond(tablet) {
-     grid-template-areas: 
-    'logo menu2 other';
-   }
-   
-
-    
- 
-    width: 100%;
-    height: 10vh;
-    position: fixed;
-  
-    border-radius: 2px;
-@include respond(tablet) {
-   &.scrolled {
       background-color: $color-white;
       border-bottom: 1px solid $color-dark-grey;
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
     }
-}
-   
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    @include respond(tablet) {
+      grid-template-columns: 20% 50% 20%;
+    }
+
+    grid-template-areas: 'logo menuItems';
+
+    @include respond(tablet) {
+      grid-template-areas:
+        'logo menuItems other';
+    }
+
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    border-radius: 2px;
+
+    @include respond(tablet) {
+      &.scrolled {
+        background-color: $color-white;
+        border-bottom: 1px solid $color-dark-grey;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+      }
+    }
+
   }
 
   &__logo {
     grid-area: logo;
     z-index: 100;
     @include flexAbsoluteCenter();
+
     @include respond(tablet) {
       display: inline;
     }
+
     // flex-basis: 30%;
   }
 
   &__navigation {
-    grid-area: menu2;
+    grid-area: menuItems;
     // flex-basis: 70%;
     height: 100%;
     display: flex;
@@ -81,20 +80,21 @@
       height: 100%;
       position: absolute;
       top: 10vh;
-      left:-30%;
+      left: -30%;
       min-height: 100vh;
-      overflow-y:auto;
+      overflow-y: auto;
       z-index: 100;
+
       @include respond(tablet) {
         width: 100%;
         left: 0;
-        top:0;
+        top: 0;
         height: 10vh;
         min-height: 0;
         width: 100%;
         z-index: 0;
-        overflow-y:initial;
-       
+        overflow-y: initial;
+
       }
     }
   }
@@ -114,49 +114,53 @@
 
       @include respond(tablet) {
 
-             display: inline;
+        display: inline;
         width: 20%
       }
-    
-    
+
+
 
       i {
         width: 10px;
         height: 20px;
         display: block;
       }
-     
-    
-    }
-&__sublist {
-  // display: none; 
-  max-width: 300px;
-  margin-top: 20px;
-  z-index:100;  
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
-  -5px -5px 10px rgba(0, 0, 0, 0.3);
-  @include respond(tablet) {
-  min-height: 10vh;
-  min-width: 550px;
-  display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      position: absolute;
-      top: 10vh;
-      left: calc(30% - 150px);
-      background-color: $color-white;
-      border-radius: 5px;
-      .menu__item {
-        width: 100%;
-        &:hover {
-          background-color: $color-light-pink;
-        }
-        
-      }
-  }
 
-}
- 
+
+    }
+
+    &__sublist {
+      // display: none; 
+      max-width: 300px;
+      margin-top: 20px;
+      z-index: 100;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px rgba(0, 0, 0, 0.3);
+
+      @include respond(tablet) {
+        min-height: 10vh;
+        min-width: 550px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        position: absolute;
+        top: 10vh;
+        left: calc(30% - 150px);
+        background-color: $color-white;
+        border-radius: 5px;
+
+        .menu__item {
+          width: 100%;
+
+          &:hover {
+            background-color: $color-light-pink;
+          }
+
+        }
+      }
+
+    }
+
 
 
     &__sublist--hide {
@@ -192,37 +196,37 @@
 
   }
 
-  
-    // .menu__item--parent:hover>.menu__sublist--block {
 
-    //   width: 400px;
-    //   display: grid;
-    //   grid-template-columns: repeat(3, 1fr);
-    //   grid-template-rows: repeat(2, 1fr);
-    //   position: absolute;
-    //   top: 20vh;
-    //   left: calc(30% - 150px);
-    //   background-color: $color-white;
-    //   border-radius: 5px;
+  // .menu__item--parent:hover>.menu__sublist--block {
 
-    // }
+  //   width: 400px;
+  //   display: grid;
+  //   grid-template-columns: repeat(3, 1fr);
+  //   grid-template-rows: repeat(2, 1fr);
+  //   position: absolute;
+  //   top: 20vh;
+  //   left: calc(30% - 150px);
+  //   background-color: $color-white;
+  //   border-radius: 5px;
 
-   
+  // }
 
-      
-    .menu__item--parent >.menu__sub-sublist--block {
- display: grid;
-      // width: 400px;
-     
-      // grid-template-columns: repeat(3, 1fr);
-      // grid-template-rows: repeat(2, 1fr);
-      // position: absolute;
-      // top: 10vh;
-      // left: calc(30% - 150px);
-      // background-color: $color-white;
-      // border-radius: 5px;
 
-    }
+
+
+  .menu__item--parent>.menu__sub-sublist--block {
+    display: grid;
+    // width: 400px;
+
+    // grid-template-columns: repeat(3, 1fr);
+    // grid-template-rows: repeat(2, 1fr);
+    // position: absolute;
+    // top: 10vh;
+    // left: calc(30% - 150px);
+    // background-color: $color-white;
+    // border-radius: 5px;
+
+  }
 
 
   .nav__menu.nav__hide {
@@ -232,12 +236,12 @@
   @include respond(max-tablet) {
     .nav__menu.nav__block {
       height: 100%;
-    z-index: 200;
-    background-color: $color-white;
+      z-index: 200;
+      background-color: $color-white;
       // padding-top: 10vh;
       position: absolute;
       top: 0;
-    left: 0%;
+      left: 0%;
       z-index: 2;
       display: block;
       display: flex;
@@ -248,7 +252,7 @@
       &>li {
         margin-bottom: 10px;
         padding: 20px;
-      
+
 
         a {
           color: $color-medium-green;
@@ -258,9 +262,10 @@
     }
   }
 
-.hamburger {
-  z-index: 100
-}
+  .hamburger {
+    z-index: 100
+  }
+
   @include respond(tablet) {
     .hamburger {
       display: none;
@@ -271,8 +276,8 @@
         display: block;
         display: flex;
         flex-direction: row;
-       
-    
+
+
       }
 
       .menu {

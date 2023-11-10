@@ -33,11 +33,11 @@ section {
 }
 
 .header__nav {
-  color: rgb(194, 74, 126);
   grid-area: nav;
+  color: rgb(194, 74, 126);
   display: grid;
   grid-template-columns: 20% 80%;
-  grid-template-areas: "logo menu2";
+  grid-template-areas: "logo menuItems";
   width: 100%;
   height: 10vh;
   position: fixed;
@@ -58,7 +58,7 @@ section {
 }
 @media only screen and (min-width: 900px) {
   .header__nav {
-    grid-template-areas: "logo menu2 other";
+    grid-template-areas: "logo menuItems other";
   }
 }
 @media only screen and (min-width: 900px) {
@@ -82,7 +82,7 @@ section {
   }
 }
 .header__navigation {
-  grid-area: menu2;
+  grid-area: menuItems;
   height: 100%;
   display: flex;
   justify-content: flex-end;

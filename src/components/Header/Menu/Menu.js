@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuList2 from './MenuList2';
+import MenuList from './MenuList';
 
 export const Menu = (props) => {
   const {
@@ -9,7 +9,7 @@ export const Menu = (props) => {
     <>
       <nav className={'nav'} >
         <ul className={`${'nav__menu menu'} ${isNavbarOpen ? `${'nav__hide'}` : `${'nav__block'}`} `}>
-          {<MenuList2 ></MenuList2>}
+          {<MenuList></MenuList>}
         </ul>
       </nav>
     </>
