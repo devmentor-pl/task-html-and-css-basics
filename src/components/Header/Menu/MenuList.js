@@ -38,8 +38,7 @@ export const MenuList = () => {
               className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
               {...{ [eventToUse]: isMobile ? () => handleMouseEnterListItem(item.id) : () => handleMouseEnterListItem(item.id) }}
             >
-              
-              {item.className === 'menu__item--parent' ?<div> {item.name} <FaChevronDown /></div>  : <div>{item.name}</div>}
+              {item.className === 'menu__item--parent' ?<div className='menu__item--parent--title'> {item.name} <FaChevronDown /></div>  : <div className='menu__item--parent--title'>{item.name}</div>}
               {item.parentSubList
                 ?
                 <ul className={`${'menu__sublist'} ${hoveredListItem === item.id ? `${'menu__sublist--block'}` : `${'menu__sublist--hide'}`} `}>
@@ -48,7 +47,7 @@ export const MenuList = () => {
                     .map((el) => (
                       <li
                         key={el.id}
-                        className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
+                        className={`${item.className ? ` ${item.className} menu__sublist__item` : 'menu__item'}`}
                         {...{ [eventToUse]: isMobile ? () => handleMouseEnterSubListItem(el.id) : () => handleMouseEnterSubSubListItem(el.id) }}
                       >
                         {el.name}

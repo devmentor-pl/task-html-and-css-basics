@@ -34,7 +34,7 @@ section {
 
 .header__nav {
   grid-area: nav;
-  color: rgb(194, 74, 126);
+  color: rgb(228, 0, 124);
   display: grid;
   grid-template-columns: 20% 80%;
   grid-template-areas: "logo menuItems";
@@ -67,6 +67,9 @@ section {
     border-bottom: 1px solid rgb(70, 70, 70);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
   }
+  .header__nav.scrolled .menu__sublist {
+    display: none;
+  }
 }
 .header__logo {
   grid-area: logo;
@@ -77,10 +80,13 @@ section {
   align-items: center;
 }
 
+.header__logo img {
+  box-shadow: 4px 4px 8px rgba(219, 112, 147, 0.3);
+}
+
 @media only screen and (min-width: 900px) {
   .header__logo {
     margin-left: 0;
-    display: inline;
   }
 }
 .header__navigation {
@@ -97,7 +103,12 @@ section {
     justify-content: initial;
   }
 }
-.header__navigation .nav {
+.header__hero {
+  grid-area: hero;
+  display: flex;
+}
+
+.nav {
   width: 130%;
   height: 100%;
   position: absolute;
@@ -109,7 +120,7 @@ section {
 }
 
 @media only screen and (min-width: 900px) {
-  .header__navigation .nav {
+  .nav {
     width: 100%;
     left: 0;
     top: 0;
@@ -120,41 +131,70 @@ section {
     overflow-y: initial;
   }
 }
-.header .menu {
+.menu {
   width: 100%;
   height: 100%;
-  border: 2px solid pink;
 }
 
-.header .menu__item {
+.menu__item {
   width: 100%;
-  font-size: 0.7rem;
-  font-weight: 700;
   position: relative;
   padding: 5px;
+  display: grid;
+  grid-template-areas: "title" "sublist";
 }
 
 @media only screen and (min-width: 900px) {
-  .header .menu__item {
-    display: inline;
+  .menu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 20%;
   }
 }
-.header .menu__item i {
-  width: 10px;
-  height: 20px;
-  display: block;
+.menu__item:hover {
+  color: rgb(219, 112, 147);
 }
 
-.header .menu__sublist {
-  max-width: 300px;
-  margin-top: 20px;
-  z-index: 100;
+.menu__item--parent--title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: title;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 900px) {
-  .header .menu__sublist {
-    min-height: 10vh;
+  .menu__item--parent--title {
+    height: 100%;
+  }
+}
+.menu__item--parent > .menu__sub-sublist--block {
+  display: grid;
+}
+
+.menu__sublist {
+  grid-area: sublist;
+  padding: 10px;
+  max-width: 300px;
+  z-index: 100;
+}
+
+.menu__sublist__item {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(228, 0, 124);
+}
+
+.menu__sublist__item:hover {
+  background-color: rgb(255, 228, 225);
+}
+
+@media only screen and (min-width: 900px) {
+  .menu__sublist {
+    min-height: 15vh;
     min-width: 550px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -166,36 +206,28 @@ section {
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(0, 0, 0, 0.3);
   }
-  .header .menu__sublist .menu__item {
+  .menu__sublist .menu__item {
     width: 100%;
   }
-  .header .menu__sublist .menu__item:hover {
-    background-color: rgb(249, 213, 228);
+  .menu__sublist .menu__item:hover {
+    color: rgb(219, 112, 147);
   }
 }
-.header .menu__sublist--hide {
+.menu__sub-sublist {
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.menu__sublist--hide {
   display: none;
 }
 
-.header .menu__sub-sublist--hide {
-  display: none;
-}
-
-.header__hero {
-  grid-area: hero;
-  display: flex;
-}
-
-.header .menu__item--parent > .menu__sub-sublist--block {
-  display: grid;
-}
-
-.header .nav__menu.nav__hide {
+.menu__sub-sublist--hide {
   display: none;
 }
 
 @media only screen and (max-width: 899px) {
-  .header .nav__menu.nav__block {
+  .nav__menu.nav__block {
     height: 100%;
     z-index: 200;
     background-color: rgb(255, 255, 255);
@@ -211,50 +243,65 @@ section {
     justify-content: center;
     align-items: center;
   }
-  .header .nav__menu.nav__block > li {
+  .nav__menu.nav__block > li {
     margin-bottom: 10px;
     padding: 20px;
     display: grid;
-    background-color: aquamarine;
   }
-  .header .nav__menu.nav__block > li .menu__item--parent {
+  .nav__menu.nav__block > li .menu__item--parent {
     grid-template-areas: "arrow" "sublist";
   }
-  .header .nav__menu.nav__block > li .menu__item--parent svg {
+  .nav__menu.nav__block > li .menu__item--parent svg {
     grid-area: arrow;
   }
-  .header .nav__menu.nav__block > li .menu__item--parent .menu__sublist {
+  .nav__menu.nav__block > li .menu__item--parent .menu__sublist {
     grid-area: sublist;
   }
 }
-.header .hamburger {
+.nav__menu.nav__hide {
+  display: none;
+}
+
+.hamburger {
   z-index: 100;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 @media only screen and (min-width: 900px) {
-  .header .hamburger {
+  .hamburger {
     margin-right: 0;
   }
 }
 @media only screen and (min-width: 900px) {
-  .header .hamburger {
+  .hamburger {
     display: none;
   }
-  .header .nav__menu {
+  .nav__menu {
     display: block;
     display: flex;
     flex-direction: row;
   }
-  .header .nav .menu__item:not(:nth-child(3)) {
+  .nav .menu__item:not(:nth-child(3)) {
     margin-right: 10px;
   }
-  .header .nav .menu__link {
+  .nav .menu__link {
     color: rgb(255, 255, 255);
     font-size: 1.2rem;
     text-decoration: none;
   }
 }
+.nav__menu {
+  display: block;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav .menu__link {
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
 .hamburger {
   background-color: rgb(36, 242, 139);
   border-radius: 5px;
@@ -283,7 +330,7 @@ section {
 .hamburger__icon-open div span {
   width: 5px;
   height: 5px;
-  background-color: rgb(194, 74, 126);
+  background-color: rgb(228, 0, 124);
   display: block;
   border-radius: 50%;
 }
@@ -297,7 +344,7 @@ section {
 .hamburger__icon-close div:nth-child(odd) span {
   width: 5px;
   height: 5px;
-  background-color: rgb(194, 74, 126);
+  background-color: rgb(228, 0, 124);
   display: block;
   border-radius: 50%;
   transition-delay: 200ms;

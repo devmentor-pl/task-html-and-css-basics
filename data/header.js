@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 export const header = {
   logo: logo,
-  headline: 'Beautiful Free Nova template',
+  headline: 'How to create a website for your business?',
   buttonText: 'Download free!',
   description: 'A top notch premium quality template for your next web project',
   screen: screen,
