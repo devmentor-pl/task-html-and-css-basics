@@ -1,4 +1,19 @@
 /* base.css */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Bold.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* base.css */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .row, .cell, .container {
     margin: 5px;
     padding: 5px;

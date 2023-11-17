@@ -1,14 +1,46 @@
 /* header.css */
 
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.nav__logo {
+    max-width: 100px;
+}
+
+.nav__menu {
+    min-width: 400px;
+}
+
 .header__container {
     display: flex;
     justify-content: space-between;
+    align-items: flex;
 }
 
-.header__logo {
-    min-width: 200px;
+.header__article {
+    min-height: 400px;
+    width: 40%;
 }
 
-.header__nav {
-    min-width: 400px;
+.header__screen {
+    width: 60%;
+    transform: scale(0.7) rotate(-8deg) translateX(10px) translateY(10px);
+    border: 20px solid white;
+    border-radius: 30px;
+    padding: 0;
+    position: relative;
+    margin-top: -60px;
+}
+
+.header__article h1 {
+    color: white;
+    font-size: 2em;
+    font-family: 'Source Sans PRO';
 }
