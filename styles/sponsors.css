@@ -1,1 +1,14 @@
 /* sponsors.css */
+
+.sponsors__container {
+    background-color: #F9FAFA;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sponsors__image {
+    max-width: 700px;
+    max-height: 25px;
+
+}
