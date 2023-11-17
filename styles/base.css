@@ -8,10 +8,11 @@
 .row {
     outline-color: green;
     margin: 15px;
+    width: 100%;
 }
 .container {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1150px;
     outline-color: blue;
 }
 .cell {
