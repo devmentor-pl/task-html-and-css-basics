@@ -1,7 +1,7 @@
 /* base.css */
 @font-face {
     font-family: 'Montserrat';
-    src: url('./fonts/Montserrat-Bold.ttf') format('opentype');
+    src: url('../fonts/Montserrat-Bold.ttf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -9,10 +9,19 @@
 /* base.css */
 @font-face {
     font-family: 'Montserrat';
-    src: url('./fonts/Montserrat-Regular.ttf') format('opentype');
+    src: url('../fonts/Montserrat-Regular.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url('../fonts/Montserrat-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 .row, .cell, .container {
     margin: 5px;
@@ -34,3 +43,4 @@
     min-height: 50px;
     outline-color: orange;
 }
+
