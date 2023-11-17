@@ -16,7 +16,7 @@
 .features__text {
     color: white;
     font-family: 'Montserrat-light';
-    font-size: 22px;
+    font-size: 30px;
     
 }
 
@@ -26,8 +26,8 @@
 }
 
 .features__article {
-    min-width: 220px;
-    min-height: 250px;
+    min-width: 240px;
+    min-height: 270px;
     text-align: center; 
     position: relative;
     display: flex;
@@ -50,6 +50,17 @@
 .article__text {
     color: white;
     text-align: center;
+    font-family: 'Montserrat-light';
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.features__article p {
+    color: white;
+    margin-top: 10px;
+    font-family: 'Montserrat-light';
+    font-size: 13px;
 }
 
 
