@@ -80,3 +80,8 @@
     width: 60%;
     position: relative;
 }
+
+.menu__item a {
+    text-decoration: none; /* Usunięcie podkreślenia */
+    color: white; /* Zmiana koloru tekstu */
+}

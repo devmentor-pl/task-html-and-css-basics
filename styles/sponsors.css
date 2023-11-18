@@ -1,7 +1,9 @@
 /* sponsors.css */
+.sponsors {
+    background-color: #F9FAFA;
+}
 
 .sponsors__container {
-    background-color: #F9FAFA;
     display: flex;
     justify-content: center;
 

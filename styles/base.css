@@ -24,10 +24,9 @@
 .row, .cell, .container {
     margin: 5px;
     padding: 5px;
-    outline: 3px solid;
 
 }
-.row {
+/*.row {
     outline-color: green;
     margin: 15px;
     width: 100%;
