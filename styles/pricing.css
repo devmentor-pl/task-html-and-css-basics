@@ -1,1 +1,29 @@
 /* pricing.css */
+
+.pricing {
+}
+
+.pricing__text {
+    min-height: 95px;
+    margin-bottom: 10px;
+}
+
+.pricing__text h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat-light';
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.pricing__text p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat-light';
+    font-size: 15px;
+}
+
+.pricing__options {
+    display: flex;
+    justify-content: center;
+}
