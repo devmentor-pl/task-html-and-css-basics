@@ -26,18 +26,18 @@
     padding: 5px;
 
 }
-/*.row {
-    outline-color: green;
+.row {
+
     margin: 15px;
     width: 100%;
 }
 .container {
     margin: 0 auto;
     max-width: 1150px;
-    outline-color: blue;
+
 }
 .cell {
     min-height: 50px;
-    outline-color: orange;
+
 }
 
