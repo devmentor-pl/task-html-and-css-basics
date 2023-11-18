@@ -1,1 +1,42 @@
 /* description.css */
+
+.description {
+    display: flex;
+
+}
+
+.description__container {
+    display: flex;
+    max-width: 1150px;
+    
+}
+
+.description__items {
+    min-height: 400px;
+    min-width: 45%;
+    box-sizing: border-box;
+    margin: 10px;
+
+}
+
+.description__image {
+    transform: scale(0.8);
+}
+
+.description__container h1 {
+    font-family: 'Montserrat-light';
+    font-weight: bold;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.description__container p {
+    font-family: 'Montserrat-light';
+    padding: 15px;
+    font-size: 15px;
+    line-height: 2;
+    margin-left: 10px;
+}
+
