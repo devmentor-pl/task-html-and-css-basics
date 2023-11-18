@@ -1,1 +1,27 @@
 /* footer.css */
+
+.footer {
+    background-color: #464646;
+    min-height: 45px;
+}
+
+.footer__container {
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer__container p {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 8px;
+    text-align: center;
+}
+
+.footer__logo {
+    transform: scale(0.6);
+    margin-left: -10px;
+}
