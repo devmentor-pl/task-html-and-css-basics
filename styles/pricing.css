@@ -13,7 +13,6 @@
     margin-top: 20px;
     font-family: 'Montserrat-light';
     font-size: 25px;
-    font-weight: bold;
 }
 
 .pricing__text p {
@@ -26,4 +25,54 @@
 .pricing__options {
     display: flex;
     justify-content: center;
+    text-align: center;
+
 }
+
+.pricing__level {
+    min-width: 250px;
+    min-height: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pricing__level h2 {
+    font-family: 'Montserrat-light';
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.pricing__level h1 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 9px;
+}
+
+.pricing__level p {
+    font-size: 10px;
+    margin-top: 6px;
+    font-family: 'Montserrat';
+    margin-bottom: 17px;
+}
+
+.pricing__level h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.pricing__level button {
+    margin-top: 35px;
+    background-color: #0ABCEB;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    min-width: 120px;
+    min-height: 35px;
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
+
+
