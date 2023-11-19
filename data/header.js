@@ -20,10 +20,7 @@ export const header = {
     { id: uuidv4(), name: 'For those who want to sell websites with Nova', childFor: 'Enterprise solutions' },
     { id: uuidv4(), name: 'Hire a professional', childFor: 'Solutions' },
     { id: uuidv4(), name: 'Order a website from Nova studio', childFor: 'Hire a professional' },
-
     { name: 'The team', isOpen: true, elementList: true},
-   
-
     { id: uuidv4(), name: 'Features', isOpen: true, elementList: true },
     { id: uuidv4(), name: 'Prices', isOpen: true, elementList: true },
     { id: uuidv4(), name: 'Resources', isOpen: true, elementList: true, className: 'menu__item--parent', parentSubList: true},

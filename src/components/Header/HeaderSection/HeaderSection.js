@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
+
 import PropTypes from 'prop-types';
 import Logo from '../Logo';
+import SelectLanguage from '../SelectLanguage';
 import Navigation from '../Navigation/Navigation';
 
 export const HeaderSection = (props) => {
@@ -15,6 +17,8 @@ export const HeaderSection = (props) => {
 
   const [scrolled, setScrolled] = useState(false);
 
+
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
@@ -25,6 +29,7 @@ export const HeaderSection = (props) => {
     };
 
     window.addEventListener('scroll', handleScroll);
+    
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -38,6 +43,7 @@ export const HeaderSection = (props) => {
         <div className={"header__navigation"}>
           <Navigation content={menu}></Navigation>
         </div>
+        <SelectLanguage className={"header__other"}></SelectLanguage>
       </div>
       <div className={"header__hero"} id="hero">
         <article className={"hero__info"}>

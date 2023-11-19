@@ -46,7 +46,8 @@
         border-bottom: 1px solid $color-dark-grey;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
         .menu__sublist {
-          display: none;
+          z-index: 20;
+          pointer-events: none;
         }
       }
     }
@@ -57,9 +58,9 @@
     grid-area: logo;
     z-index: 100;
     margin-left: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   img {
     box-shadow: 4px 4px 8px rgba(219,112,147, 0.3);
@@ -85,6 +86,50 @@
 
   }
 
+  &__other {
+    grid-area: other;
+    display: flex;
+    align-items: center;
+ }
+    &__other.custom__select {
+      position: relative;
+      display: inline-block;
+      width: 20%;
+      @include flexAbsoluteCenter();
+    }
+    
+    &__other.custom__select select {
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none; 
+      width: 100%;
+      padding: 8px;
+      border: 1px solid $color-dark-pink;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+        
+    &__other.custom__select select:focus {
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none; 
+      width: 100%;
+      padding: 8px;
+      border: 1px solid $color-dark-pink;
+      border-radius: 4px;
+      cursor: pointer;
+     
+    }
+
+    .custom-chevron {
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+ 
   &__hero {
     grid-area: hero;
     display: flex;
@@ -155,8 +200,11 @@
 
     &__sublist { 
         grid-area: sublist;
-       
         padding: 10px;
+        
+          z-index: 20;
+          pointer-events: none;
+    
         &__item {
            font-size: 1rem;
            font-weight: bold;
@@ -167,7 +215,6 @@
           }
         } 
       max-width: 300px;
-
       z-index: 100;
 
       @include respond(tablet) {

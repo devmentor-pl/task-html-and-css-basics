@@ -61,7 +61,6 @@ export const MenuList = () => {
                             .map((el2) => (
                               <li
                                 key={el2.id}
-
                               >{el2.name}
                               </li>
                             ))
