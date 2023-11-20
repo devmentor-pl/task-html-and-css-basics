@@ -1,12 +1,11 @@
 import logo from '../src/images/logo.png';
-import screen from '../src/images/screen.png'
+import screen from '../src/images/hero.jpg'
 import { v4 as uuidv4 } from 'uuid';
 
 export const header = {
   logo: logo,
   headline: 'How to create a website for your business?',
-  buttonText: 'Download free!',
-  description: 'A top notch premium quality template for your next web project',
+  description: 'No big investements at a start',
   screen: screen,
   menu: [
     { id: uuidv4(), name: 'Solutions', elementList: true, className: 'menu__item--parent', parentSubList: true },
@@ -39,8 +38,6 @@ export const header = {
   ]
 
   // https://weblium.com/create-a-travel-website
-
-
 }
 
 

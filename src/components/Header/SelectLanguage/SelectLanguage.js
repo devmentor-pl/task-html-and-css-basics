@@ -18,7 +18,7 @@ export const SelectLanguage = (props) => {
       className={`${className ? ` ${className} custom__select` : 'custom__select'}`}
       onClick={toggleChevron}
     >
-      <select>
+      <select >
         <option value="">PL</option>
         <option value="option1">EN</option>
       </select>

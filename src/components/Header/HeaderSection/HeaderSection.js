@@ -43,13 +43,18 @@ export const HeaderSection = (props) => {
         <div className={"header__navigation"}>
           <Navigation content={menu}></Navigation>
         </div>
-        <SelectLanguage className={"header__other"}></SelectLanguage>
+        <div className={"header__other"}>
+          <SelectLanguage className={'select'}></SelectLanguage>
+        <button className={'button--log'}>Log in</button>
+        <button className={'button--start'}>Start for free</button>
+        </div>
+       
       </div>
       <div className={"header__hero"} id="hero">
         <article className={"hero__info"}>
           <h2 className={'hero__header'}>{headline}</h2>
           <p className={'hero__sub-header'}>{description}</p>
-          <button className={'hero__button button'}>{buttonText}</button>
+          <button className={'button--start'}>Start now for free</button>
         </article>
         <div className={"hero__photo-container"}>
           <img className={"hero__photo"} src={screen} alt="screen" width="350px"></img>

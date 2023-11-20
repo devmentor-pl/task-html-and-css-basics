@@ -24,15 +24,16 @@
     display: grid;
     grid-template-columns: 20% 80%;
 
-    @include respond(tablet) {
-      grid-template-columns: 20% 50% 20%;
-    }
+    // @include respond(tablet) {
+    //   grid-template-columns: 20% 50% 20%;
+    // }
 
     grid-template-areas: 'logo menuItems';
 
     @include respond(tablet) {
       grid-template-areas:
-        'logo menuItems other';
+        'logo  menuItems other';
+        grid-template-columns: 20% 50% 30%;
     }
 
     width: 100%;
@@ -45,10 +46,9 @@
         background-color: $color-white;
         border-bottom: 1px solid $color-dark-grey;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-        .menu__sublist {
-          z-index: 20;
-          pointer-events: none;
-        }
+        // .menu__sublist {
+        //   display: none;
+        // }
       }
     }
 
@@ -56,14 +56,14 @@
 
   &__logo {
     grid-area: logo;
+    width: 100%;
     z-index: 100;
     margin-left: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexAbsoluteCenter();
 
   img {
     box-shadow: 4px 4px 8px rgba(219,112,147, 0.3);
+  
   }
     @include respond(tablet) {
       margin-left: 0;
@@ -71,9 +71,10 @@
     }
 
   }
-
+ 
   &__navigation {
     grid-area: menuItems;
+    
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -82,35 +83,37 @@
 
     @include respond(tablet) {
       justify-content: initial;
+      
     }
 
   }
 
   &__other {
     grid-area: other;
+    width: 100%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
  }
-    &__other.custom__select {
+    .select.custom__select {
       position: relative;
       display: inline-block;
-      width: 20%;
+      width: 13%;
       @include flexAbsoluteCenter();
+      margin-right: 10px;
     }
     
-    &__other.custom__select select {
+    .select.custom__select select {
       appearance: none; 
       -webkit-appearance: none; 
       -moz-appearance: none; 
       width: 100%;
       padding: 8px;
-      border: 1px solid $color-dark-pink;
-      border-radius: 4px;
+      border: none;
       cursor: pointer;
     }
 
-        
-    &__other.custom__select select:focus {
+    .select.custom__select select:focus {
       appearance: none; 
       -webkit-appearance: none; 
       -moz-appearance: none; 
@@ -119,7 +122,6 @@
       border: 1px solid $color-dark-pink;
       border-radius: 4px;
       cursor: pointer;
-     
     }
 
     .custom-chevron {
@@ -129,17 +131,39 @@
       transform: translateY(-50%);
       pointer-events: none;
     }
+
+    .button--log {
+      width: 20%;
+      padding: 10px;
+      border: 2px solid $color-dark-pink;
+      border-radius: 4px;
+      margin-right: 10px;
+      font-size: 14px;
+      font-weight: 800;
+      background-color: $color-white;
+    }
+    .button--start {
+      width: 30%;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 800;
+      background-color: $color-dark-pink;
+      color: $color-white;
+      margin-right: 10px;
+    }
  
   &__hero {
     grid-area: hero;
     display: flex;
+    padding: 40px;
 
   }
 }
 
 .nav {
       width: 130%;
-      height: 100%;
+      // height: 100%;
       position: absolute;
       top: 10vh;
       left: -30%;
@@ -201,18 +225,14 @@
     &__sublist { 
         grid-area: sublist;
         padding: 10px;
-        
-          z-index: 20;
-          pointer-events: none;
-    
         &__item {
            font-size: 1rem;
            font-weight: bold;
-          padding: 10px;
-          color: $color-dark-pink;
-          &:hover {
-            background-color: $color-very-light-pink;
-          }
+            padding: 10px;
+            color: $color-dark-pink;
+            &:hover {
+              background-color: $color-very-light-pink;
+            }
         } 
       max-width: 300px;
       z-index: 100;
@@ -267,7 +287,7 @@
 
     @include respond(max-tablet) {
       .nav__menu.nav__block {
-        height: 100%;
+      
         z-index: 200;
         background-color: $color-white;
         // padding-top: 10vh;
@@ -285,12 +305,11 @@
           margin-bottom: 10px;
           padding: 20px;
           display: grid;
-       
         
           .menu__item--parent {
             grid-template-areas: 
-          'arrow'
-          'sublist';
+            'arrow'
+            'sublist';
     svg {
             grid-area: arrow;
           }
