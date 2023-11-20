@@ -22,13 +22,10 @@
 }
 
 .row, .cell, .container {
-    margin: 5px;
     padding: 5px;
 
 }
 .row {
-
-    margin: 15px;
     width: 100%;
 }
 .container {
