@@ -23,6 +23,28 @@ section {
   letter-spacing: 0.1em;
 }
 
+.button--border {
+  width: 20%;
+  padding: 10px;
+  border: 2px solid rgb(228, 0, 124);
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: rgb(255, 255, 255);
+}
+
+.button--full {
+  width: 30%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 800;
+  background-color: rgb(228, 0, 124);
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+}
+
 .header {
   height: 100vh;
   background: radial-gradient(rgb(245, 245, 245), rgb(255, 255, 255));
@@ -103,18 +125,39 @@ section {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 70vh;
 }
 
+.header__other > * {
+  margin: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+  .header__other {
+    position: initial;
+    flex-direction: row;
+  }
+  .header__other > * {
+    margin: 10px;
+  }
+}
 .header .select.custom__select {
   position: relative;
   display: inline-block;
-  width: 13%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  width: 50px;
 }
 
+@media only screen and (min-width: 900px) {
+  .header .select.custom__select {
+    width: 13%;
+  }
+}
 .header .select.custom__select select {
   appearance: none;
   -webkit-appearance: none;
@@ -144,28 +187,6 @@ section {
   pointer-events: none;
 }
 
-.header .button--log {
-  width: 20%;
-  padding: 10px;
-  border: 2px solid rgb(228, 0, 124);
-  border-radius: 4px;
-  margin-right: 10px;
-  font-size: 14px;
-  font-weight: 800;
-  background-color: rgb(255, 255, 255);
-}
-
-.header .button--start {
-  width: 30%;
-  padding: 10px;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 800;
-  background-color: rgb(228, 0, 124);
-  color: rgb(255, 255, 255);
-  margin-right: 10px;
-}
-
 .header__hero {
   grid-area: hero;
   display: flex;
@@ -177,7 +198,7 @@ section {
   position: absolute;
   top: 10vh;
   left: -30%;
-  min-height: 100vh;
+  height: 60vh;
   overflow-y: auto;
   z-index: 100;
 }
@@ -368,6 +389,7 @@ section {
   background-color: rgb(255, 228, 225);
   border-radius: 5px;
   padding: 10px 10px;
+  grid-area: hamburger;
 }
 
 .hamburger__icon-open, .hamburger__icon-close {

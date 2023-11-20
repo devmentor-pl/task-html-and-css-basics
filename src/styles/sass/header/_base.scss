@@ -30,6 +30,7 @@
 
     grid-template-areas: 'logo menuItems';
 
+
     @include respond(tablet) {
       grid-template-areas:
         'logo  menuItems other';
@@ -63,18 +64,15 @@
 
   img {
     box-shadow: 4px 4px 8px rgba(219,112,147, 0.3);
-  
   }
     @include respond(tablet) {
       margin-left: 0;
-    
     }
 
   }
  
   &__navigation {
     grid-area: menuItems;
-    
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -85,7 +83,6 @@
       justify-content: initial;
       
     }
-
   }
 
   &__other {
@@ -94,13 +91,29 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 70vh;
+    &>* {
+      margin: 10px;
+    }
+    @include respond(tablet){
+      position:initial;
+      flex-direction: row;
+      &>* {
+        margin: 10px;
+      }
+    }
  }
     .select.custom__select {
       position: relative;
       display: inline-block;
-      width: 13%;
       @include flexAbsoluteCenter();
       margin-right: 10px;
+      width: 50px;
+      @include respond(tablet) {
+        width: 13%;
+      }
     }
     
     .select.custom__select select {
@@ -132,33 +145,12 @@
       pointer-events: none;
     }
 
-    .button--log {
-      width: 20%;
-      padding: 10px;
-      border: 2px solid $color-dark-pink;
-      border-radius: 4px;
-      margin-right: 10px;
-      font-size: 14px;
-      font-weight: 800;
-      background-color: $color-white;
-    }
-    .button--start {
-      width: 30%;
-      padding: 10px;
-      border-radius: 4px;
-      font-size: 14px;
-      font-weight: 800;
-      background-color: $color-dark-pink;
-      color: $color-white;
-      margin-right: 10px;
-    }
- 
-  &__hero {
+    &__hero {
     grid-area: hero;
     display: flex;
     padding: 40px;
-
   }
+
 }
 
 .nav {
@@ -167,7 +159,7 @@
       position: absolute;
       top: 10vh;
       left: -30%;
-      min-height: 100vh;
+      height: 60vh;
       overflow-y: auto;
       z-index: 100;
 

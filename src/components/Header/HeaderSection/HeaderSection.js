@@ -45,8 +45,8 @@ export const HeaderSection = (props) => {
         </div>
         <div className={"header__other"}>
           <SelectLanguage className={'select'}></SelectLanguage>
-        <button className={'button--log'}>Log in</button>
-        <button className={'button--start'}>Start for free</button>
+        <button className={'button--border'}>Log in</button>
+        <button className={'button--full'}>Start for free</button>
         </div>
        
       </div>
@@ -54,7 +54,7 @@ export const HeaderSection = (props) => {
         <article className={"hero__info"}>
           <h2 className={'hero__header'}>{headline}</h2>
           <p className={'hero__sub-header'}>{description}</p>
-          <button className={'button--start'}>Start now for free</button>
+          <button className={'button--full'}>Order a website</button>
         </article>
         <div className={"hero__photo-container"}>
           <img className={"hero__photo"} src={screen} alt="screen" width="350px"></img>

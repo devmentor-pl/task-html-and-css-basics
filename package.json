@@ -5,8 +5,11 @@
     "main": "index.js",
     "scripts": {
         "start": "webpack serve --mode development --open",
-        "build": "webpack --mode development",
+        "build": "webpack --config webpack.config.js",
         "sass": "node-sass -w scss/ -o css/ --recursive"
+    },
+    "build": {
+        "outputDirectory": "build"
     },
     "keywords": [],
     "author": "",
