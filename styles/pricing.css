@@ -56,7 +56,7 @@
     margin-bottom: 17px;
 }
 
-.pricing__level h3 {
+.pricing__level li {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: 11px;
