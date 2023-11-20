@@ -64,7 +64,7 @@
 }
 
 .pricing__level button {
-    margin-top: 35px;
+    margin-top: 45px;
     background-color: #0ABCEB;
     color: white;
     border-radius: 5px;
@@ -75,4 +75,10 @@
     font-size: 10px;
 }
 
+.pricing__level:nth-child(2) button {
+    margin-top: 30px;
+}
 
+.pricing__level:nth-child(3) button {
+    margin-top: 15px;
+}
