@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+  font-weight: 1 999;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+  font-style: italic;
+}
+
+:root {
+  --color-alpha: #000;
+  --color-beta: #fff;
+}
+
+body,
+button {
+  font-family: 'Montserrat';
+}
+
+.wrapper--first,
+.wrapper--first button {
+  color: var(--color-beta);
+}
+
+.navbar {
+  font-variation-settings: 'wght' 600;
+}
+
+.section--first .section__h1 {
+  font-size: 40px;
+  font-variation-settings: 'wght' 700;
+  line-height: 1;
+}
+.section--first .section__p {
+  font-size: 20px;
+  font-variation-settings: 'wght' 300;
+  line-height: 1.5;
+}
+
+.section--first .section__button {
+  font-size: 18px;
+  font-variation-settings: 'wght' 600;
+}
+
+/* wrapper-second */
+
+.wrapper--second {
+  color: var(--color-beta);
+}
+
+.section--second .section__container--first {
+  font-size: 40px;
+  font-variation-settings: 'wght' 300;
+}
