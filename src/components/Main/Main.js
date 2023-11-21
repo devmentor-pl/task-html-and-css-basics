@@ -7,6 +7,7 @@ import Websites from './Websites'
 import Adverb from './Adverb'
 import Pricing from './Pricing'
 import Team from './Team'
+import Review from './Review';
 
 export const Main = (props) => {
   const {
@@ -17,7 +18,7 @@ export const Main = (props) => {
     <main className={className}>
     
       <Features {...props} className={'features'}></Features>
-      <Websites {...props}
+      <Websites {...props} 
         className={'websites'}></Websites>
       <Adverb {...props}
         className={'adverb'}
@@ -25,9 +26,11 @@ export const Main = (props) => {
         text={<Typography children={props.adverb.text} variant="p" className={'adverb__text-description'}></Typography>}
       ></Adverb>
       <Pricing
+       {...props}
       className={'pricing'}
-      {...props}
+     
       ></Pricing>
+      <Review className={'review'}></Review>
       <Team {...props} className={'team'}></Team>
     </main>
   )

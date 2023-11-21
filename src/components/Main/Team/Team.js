@@ -16,6 +16,7 @@ export const Team = (props) => {
   const {
     className,
     team,
+    idSection
   } = props
 
   const renderListItem = (item, i) => {
@@ -36,7 +37,7 @@ export const Team = (props) => {
   }
 
   return (
-    <section className={className} id={`#${className}`}>
+    <section className={className} id={idSection}>
       <h3 className={"team__header"}>THE TEAM</h3>
       <ul className={'team__container'}>
         {team.list.map((item, i) => {

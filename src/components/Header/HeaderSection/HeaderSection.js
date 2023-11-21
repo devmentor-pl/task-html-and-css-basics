@@ -29,7 +29,7 @@ export const HeaderSection = (props) => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    
+
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -45,10 +45,9 @@ export const HeaderSection = (props) => {
         </div>
         <div className={"header__other"}>
           <SelectLanguage className={'select'}></SelectLanguage>
-        <button className={'button--border'}>Log in</button>
-        <button className={'button--full'}>Start for free</button>
+          <button className={'button--border'}>Log in</button>
+          <button className={'button--full'}>Start for free</button>
         </div>
-       
       </div>
       <div className={"header__hero"} id="hero">
         <article className={"hero__info"}>

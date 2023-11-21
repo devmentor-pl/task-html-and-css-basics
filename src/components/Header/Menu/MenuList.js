@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { FaChevronDown } from 'react-icons/fa';
 import { HeaderDataTeamContext } from '../../context';
+import { Link } from 'react-router-dom';
 
 
 export const MenuList = () => {
@@ -35,10 +36,10 @@ export const MenuList = () => {
           <>
             <li
               key={item.id}
-              className={`${item.className ? ` ${item.className} menu__item` : 'menu__item'}`}
+              className={`${item.className ? ` ${item.className} menu__item main` : 'menu__item'}`}
               {...{ [eventToUse]: isMobile ? () => handleMouseEnterListItem(item.id) : () => handleMouseEnterListItem(item.id) }}
             >
-              {item.className === 'menu__item--parent' ?<div className='menu__item--parent--title'> {item.name} <FaChevronDown /></div>  : <div className='menu__item--parent--title'>{item.name}</div>}
+              {item.className === 'menu__item--parent' ?<div className='menu__item--parent--title'>{item.name}<FaChevronDown /></div>  : <div className='menu__item--parent--title'> <a href={`#${item.idSection}`}>{item.name}</a></div>}
               {item.parentSubList
                 ?
                 <ul className={`${'menu__sublist'} ${hoveredListItem === item.id ? `${'menu__sublist--block'}` : `${'menu__sublist--hide'}`} `}>

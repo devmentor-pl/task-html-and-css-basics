@@ -5,6 +5,7 @@ export const Websites = (props) => {
   const {
     className,
     websites,
+    idSection
   } = props
 
   return (

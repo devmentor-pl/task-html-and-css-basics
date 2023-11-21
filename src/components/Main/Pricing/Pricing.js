@@ -1,31 +1,13 @@
 import React from 'react'
 import Benefits from '../Benefits';
-import Typography from '../../Typography/Typography';
 import PropTypes from 'prop-types';
 
 export const Pricing = (props) => {
 
     const {
         className,
-        pricing,
-
+        pricing
     } = props
-
-    const renderInfo = (item) => {
-        return (
-            <ul>
-                {item.map(
-                    el =>
-                        <li
-                            key={el.id}
-                        >
-                            {el}
-                        </li>
-                )
-                }
-            </ul>
-        )
-    }
 
     const renderListItem = (item, i) => {
         return (
@@ -36,15 +18,14 @@ export const Pricing = (props) => {
                     <span className={'sub-price'}>per month</span>
                     <Benefits className={'benefits'} content={item.info}></Benefits>
                 </div>
-                <button className={'button'}>GET STARTED</button>
+                <button className={'button--full'}>GET STARTED</button>
             </div>
         )
     }
 
     return (
-        <section className={className} id={`#${pricing}`}>
+        <section className={className} id={className}>
             <h3 className={'pricing__header'}>{pricing.headline}</h3>
-            <p className={'pricing__description'}>{pricing.description}</p>
             <div className={"pricing__container"}>
                 {pricing.list.map((item, i) => {
                     return renderListItem(item, i)

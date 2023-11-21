@@ -6,6 +6,7 @@
     position: relative;
     padding: 30px 0 30px 0;
 
+
     &::before {
         content: '';
         width: 90%;
@@ -29,18 +30,17 @@
         }
     }
 
-    &__description {
-        text-align: center;
-        font-size: 1em;
-        font-weight: 200;
-        line-height: 1.5em;
-        color: $color-dark-grey;
-
-        @include respond(tablet) {
-            font-size: 1.3em;
-            margin-bottom: 30px;
-        }
-    }
+    // &__description {
+    //     text-align: center;
+    //     font-size: 1em;
+    //     font-weight: 200;
+    //     line-height: 1.5em;
+    //     color: $color-dark-grey;
+    //     @include respond(tablet) {
+    //         font-size: 1.3em;
+    //         margin-bottom: 30px;
+    //     }
+    // }
 
     &__container {
         @include flexAbsoluteCenter;
@@ -51,8 +51,10 @@
 
         @include respond(tablet) {
             display: grid;
-            grid-template-columns: repeat(3, 300px);
+            grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 1fr;
+            margin-right: 5%;
+            margin-left: 5%;
         }
     }
 
@@ -62,9 +64,12 @@
         align-items: center;
         flex-direction: column;
         padding: 20px 0 20px 0;
+          margin: 0 40px 0 40px;
+            padding: 20px;
+            border: 2px solid $color-dark-pink;
+            border-radius: 10px;
 
         @include respond(tablet) {
-            padding: 20px 40px 0px 40px;
             min-height: 300px;
         }
 

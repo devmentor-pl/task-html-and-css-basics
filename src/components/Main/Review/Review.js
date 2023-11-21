@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-export const Features = (props) => {
+export const Review = (props) => {
 
   const {
     className,
@@ -22,19 +22,20 @@ export const Features = (props) => {
 
   return (
     <section className={`${className} section`} id={className}>
-        <h2 className={'features__header'}>{features.headline}</h2>
-        <div className={"features__container"}>
-        {features.list.map((item, i) => {
+        
+        <div className={"review__container"}>
+        <h2 class="review__headline">Nova customer's feedback</h2>
+        {/* {features.list.map((item, i) => {
           return renderListItem(item, i)
-        })}
+        })} */}
       </div>
     </section>
   )
 }
 
-Features.propTypes = {
+Review.propTypes = {
   className: PropTypes.string,
   features: PropTypes.object
 }
 
-export default Features
+export default Review

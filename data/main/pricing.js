@@ -1,7 +1,7 @@
 export const pricing = {
 
   headline: 'CHOOSE YOUR PRICING PLAN',
-  description: 'Pick any of our super affordable pricing plans',
+ 
     list: [
       {
         type: "BASIC",

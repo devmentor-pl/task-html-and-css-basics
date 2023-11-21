@@ -10,14 +10,18 @@ import footer from '../data/footer';
 import main from '../data/main';
 import './styles/reset/reset.css'
 import './styles/sass/style.css'
+import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 
 const root = createRoot(document.querySelector('#root'));
 
 const App = () => (
         <>
+         <Router>
             <Header {...header} className={'header'}></Header>
             <Main {...main} className={'main'}></Main>
             <Footer {...footer} className={'footer'}></Footer>
+      </Router>
+       
         </>
 );
 

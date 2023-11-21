@@ -14,7 +14,7 @@
   &__nav {
     grid-area: nav;
     color: $color-dark-pink;
-
+    z-index: 70;
     @include respond(max-tablet) {
       background-color: $color-white;
       border-bottom: 1px solid $color-dark-grey;
@@ -162,7 +162,7 @@
       height: 60vh;
       overflow-y: auto;
       z-index: 100;
-
+  
       @include respond(tablet) {
         width: 100%;
         left: 0;

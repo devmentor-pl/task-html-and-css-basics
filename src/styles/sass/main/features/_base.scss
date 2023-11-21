@@ -2,8 +2,8 @@
 
 .features {
     width: 100%;
-    background-color: $color-black;
-    color: $color-white;
+    background-color: $color-very-light-pink;
+    color: $color-dark-pink;
     padding: 20px 30px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -34,38 +34,53 @@
             margin-top: 20px;
             display: grid;
             grid-template-columns: repeat(3, 350px);
-            grid-template-rows: 80%;
+            grid-template-rows: 250px;
             grid-auto-flow: row;
         }
     }
 
     .feature {
-        @include flexAbsoluteCenter;
-        flex-direction: column;
+       display: grid;
+       grid-template-areas: 
+       'photo'
+       'title'
+       'description';
+       grid-template-rows: 1fr 1fr 3fr;
+       width: 100%;
+       height: 100%;
 
         @include respond(tablet) {
             padding: 0 40px;
         }
 
-        &>* {
-            margin-bottom: 20px;
+        & > * {
+            @include flexAbsoluteCenter();
         }
 
         &__image {
-            width: 40px;
-            height: 40px;
-            padding: 10px;
+            grid-area: photo;
+           width: 100%;
+           height: 100%;
+           @include flexAbsoluteCenter();
+            
+            img {
+               width: 40px;
+            height: 40px;  padding: 10px;
             border-radius: 50%;
             background-color: $color-white;
+            }
         }
 
-        &__description {
+        &__title {
+            grid-area: title;
             font-weight: bold;
             text-align: center;
         }
 
         &__text {
+            grid-area: description;
             text-align: center;
+            display: block;
         }
     }
 }

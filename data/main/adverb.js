@@ -1,6 +1,5 @@
 import imac from '../../src/images/imac.png'
 
-
 export const adverb = {
     imac:imac,
     headline: 'SIMPLE AND BEAUTIFUL',
