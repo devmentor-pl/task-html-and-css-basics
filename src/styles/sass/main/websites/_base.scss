@@ -1,0 +1,18 @@
+@import '../../abstracts/';
+
+.websites__container {
+    background-color: $color-high-light-grey;
+    animation: 3s linear 1s infinite;
+    animation-name: run;
+    animation-duration: 12s;
+  }
+ 
+  @keyframes run {
+    from {
+        transform: translateX(-100%);
+      }
+    
+      to {
+        transform: translateX(100%);
+      }
+  }

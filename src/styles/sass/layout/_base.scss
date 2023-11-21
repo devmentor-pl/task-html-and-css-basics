@@ -1,0 +1,61 @@
+@import '../abstracts/';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ .section, .footer {
+    padding: 0 30px;
+    // @include respond(tablet) {
+    //     padding: 0 60px;
+    // }  
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 0 0px;
+
+    // @include respond(tablet) {
+    //     padding: 0 60px;
+    // }
+}
+
+
+
+.button {
+    width: 30%;
+    padding: 12px;
+    border: none;
+    background-color: $color-medium-green;
+    color: $color-dark-violet;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 0.5em;
+    letter-spacing: 0.1em;
+}
+
+.button--border {
+    width: 20%;
+    padding: 10px;
+    border: 2px solid $color-dark-pink;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: $color-white;
+  }
+  .button--full {
+    width: 30%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 800;
+    background-color: $color-dark-pink;
+    color: $color-white;
+    margin-right: 10px;
+  }
+
+  a {
+    color: $color-dark-pink;
+    text-decoration: none;
+  }

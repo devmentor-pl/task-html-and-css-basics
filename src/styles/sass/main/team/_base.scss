@@ -1,0 +1,124 @@
+@import '../../abstracts/';
+
+.team {
+    padding: 10%;
+    @include respond(tablet) {
+        padding: 0;
+    }
+    &__header {
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 20px 0 20px 0;
+        color: $color-dark-grey;
+      
+        @include respond(tablet) {
+            font-size: 1.5em;
+        }
+    }
+
+    &__container {
+        @include flexAbsoluteCenter;
+        display: grid;
+        grid-template-columns: 80%;
+        grid-template-columns: 80%;
+        grid-template-rows: repeat(3, 350px);
+        grid-auto-flow: row;
+
+        @include respond(tablet) {
+            display: grid;
+            grid-template-columns: repeat(3, 350px);
+            grid-template-rows: 1fr;
+           
+        }
+    }
+
+    &__button-cont {
+        @include flexAbsoluteCenter();
+        button {
+            color: $color-white;
+            text-transform: uppercase;
+            width: 15%;
+            background-color: $color-dark-grey;
+        }
+    }
+
+    &__person {
+        @include flexAbsoluteCenter;
+        flex-direction: column;
+        padding: 30px 0 30px 0;
+
+        &>* {
+            margin-bottom: 20px;
+            @include flexAbsoluteCenter
+        }
+
+    }
+
+    &__person.you {
+        .info {
+            width: 40%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            &__item {
+                padding: 10px;
+            }
+            &__label {
+                font-size: 1rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center
+            }
+        }
+    }
+
+    &__information {
+        @include flexAbsoluteCenter();
+        flex-direction: column;
+        label {
+           padding:10px; 
+        }
+    }
+
+    &__photo {
+        width: 120px;
+        height: 120px;
+        @include respond(tablet){
+            width: 80px;
+            height: 80px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+        .you {
+            background-color: $color-light-grey;
+        }
+
+    }
+
+    &__text {
+        text-align: center;
+    }
+
+    &__form {
+        position: relative;
+    }
+}
+
+.you__result {
+    position: absolute;
+    bottom: 8%;
+    left: 45%;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+
+

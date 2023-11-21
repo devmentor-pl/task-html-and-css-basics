@@ -1,0 +1,377 @@
+@import '../abstracts/';
+
+.header {
+
+  height: 100vh;
+  background: radial-gradient($color-dark-white, $color-white);
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    'nav'
+    'hero';
+
+  &__nav {
+    grid-area: nav;
+    color: $color-dark-pink;
+    z-index: 70;
+    @include respond(max-tablet) {
+      background-color: $color-white;
+      border-bottom: 1px solid $color-dark-grey;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    // @include respond(tablet) {
+    //   grid-template-columns: 20% 50% 20%;
+    // }
+
+    grid-template-areas: 'logo menuItems';
+
+
+    @include respond(tablet) {
+      grid-template-areas:
+        'logo  menuItems other';
+        grid-template-columns: 20% 50% 30%;
+    }
+
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    border-radius: 2px;
+
+    @include respond(tablet) {
+      &.scrolled {
+        background-color: $color-white;
+        border-bottom: 1px solid $color-dark-grey;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+        // .menu__sublist {
+        //   display: none;
+        // }
+      }
+    }
+
+  }
+
+  &__logo {
+    grid-area: logo;
+    width: 100%;
+    z-index: 100;
+    margin-left: 10px;
+    @include flexAbsoluteCenter();
+
+  img {
+    box-shadow: 4px 4px 8px rgba(219,112,147, 0.3);
+  }
+    @include respond(tablet) {
+      margin-left: 0;
+    }
+
+  }
+ 
+  &__navigation {
+    grid-area: menuItems;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+
+    @include respond(tablet) {
+      justify-content: initial;
+      
+    }
+  }
+
+  &__other {
+    grid-area: other;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 70vh;
+    &>* {
+      margin: 10px;
+    }
+    @include respond(tablet){
+      position:initial;
+      flex-direction: row;
+      &>* {
+        margin: 10px;
+      }
+    }
+ }
+    .select.custom__select {
+      position: relative;
+      display: inline-block;
+      @include flexAbsoluteCenter();
+      margin-right: 10px;
+      width: 50px;
+      @include respond(tablet) {
+        width: 13%;
+      }
+    }
+    
+    .select.custom__select select {
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none; 
+      width: 100%;
+      padding: 8px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .select.custom__select select:focus {
+      appearance: none; 
+      -webkit-appearance: none; 
+      -moz-appearance: none; 
+      width: 100%;
+      padding: 8px;
+      border: 1px solid $color-dark-pink;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .custom-chevron {
+      position: absolute;
+      top: 50%;
+      right: 0px;
+      transform: translateY(-50%);
+      pointer-events: none;
+    }
+
+    &__hero {
+    grid-area: hero;
+    display: flex;
+    padding: 40px;
+  }
+
+}
+
+.nav {
+      width: 130%;
+      // height: 100%;
+      position: absolute;
+      top: 10vh;
+      left: -30%;
+      height: 60vh;
+      overflow-y: auto;
+      z-index: 100;
+  
+      @include respond(tablet) {
+        width: 100%;
+        left: 0;
+        top: 0;
+        height: 10vh;
+        min-height: 0;
+        width: 100%;
+        z-index: 0;
+        overflow-y: initial;
+
+      }
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+  
+    &__item {
+      width: 100%;
+      position: relative;
+      padding: 5px;
+      display: grid;
+      grid-template-areas: 
+        'title'
+        'sublist';
+        @include respond(tablet) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20%;
+        }
+        
+        &:hover {
+          color: $color-light-pink;
+        }
+        &--parent{
+          &--title {
+            @include flexAbsoluteCenter();
+            grid-area: title;
+            font-size: 1rem;
+            font-weight: bold;
+            @include respond(tablet) {
+              height: 100%;
+            }
+          }
+          &>.menu__sub-sublist--block {
+           display: grid;
+          }
+        }
+    }
+
+    &__sublist { 
+        grid-area: sublist;
+        padding: 10px;
+        &__item {
+           font-size: 1rem;
+           font-weight: bold;
+            padding: 10px;
+            color: $color-dark-pink;
+            &:hover {
+              background-color: $color-very-light-pink;
+            }
+        } 
+      max-width: 300px;
+      z-index: 100;
+
+      @include respond(tablet) {
+        min-height: 15vh;
+        min-width: 550px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        position: absolute;
+        top: 10vh;
+        left: calc(30% - 150px);
+        background-color: $color-white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+        -5px -5px 10px rgba(0, 0, 0, 0.3);
+
+        .menu__item {
+          width: 100%;
+
+          &:hover {
+            color: $color-light-pink;
+          }
+
+        }
+      }
+
+    }
+
+    &__sub-sublist {
+      padding: 5px;
+      color: $color-black;
+    }
+
+    &__sublist--hide {
+      display: none;
+    }
+
+    &__sub-sublist--hide {
+      display: none;
+    }
+   
+
+
+    }
+
+
+
+
+
+
+    @include respond(max-tablet) {
+      .nav__menu.nav__block {
+      
+        z-index: 200;
+        background-color: $color-white;
+        // padding-top: 10vh;
+        position: absolute;
+        top: 0;
+        left: 0%;
+        z-index: 2;
+        display: block;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+  
+    @include flexAbsoluteCenter();
+        &>li {
+          margin-bottom: 10px;
+          padding: 20px;
+          display: grid;
+        
+          .menu__item--parent {
+            grid-template-areas: 
+            'arrow'
+            'sublist';
+    svg {
+            grid-area: arrow;
+          }
+          .menu__sublist {
+            grid-area: sublist;
+          }
+          }
+        }
+      }
+    }
+
+    .nav__menu.nav__hide {
+      display:none;
+    }
+  
+    .hamburger {
+      z-index: 100;
+      margin-right: 20px;
+      @include respond(tablet) {
+        margin-right: 0;
+      }
+    }
+  
+    @include respond(tablet) {
+      .hamburger {
+        display: none;
+      }
+  
+      .nav {
+        &__menu {
+          display: block;
+          display: flex;
+          flex-direction: row;
+  
+  
+        }
+  
+        .menu {
+          &__item:not(:nth-child(3)) {
+            margin-right: 10px;
+  
+          }
+  
+          &__link {
+            color: $color-white;
+            font-size: 1.2rem;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  
+
+    .nav {
+      &__menu {
+        display: block;
+        display: flex;
+        flex-direction: row;
+
+
+      }
+
+      .menu {
+    
+
+        &__link {
+          color: $color-white;
+          font-size: 1.2rem;
+          text-decoration: none;
+        }
+      }
+    }
+  

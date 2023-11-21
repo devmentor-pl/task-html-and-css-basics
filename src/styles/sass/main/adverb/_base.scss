@@ -1,0 +1,52 @@
+@import '../../abstracts/';
+
+.adverb {
+    @include flexAbsoluteCenter;
+    flex-direction: column;
+    padding: 10%;
+
+    @include respond(tablet) {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    &__text {
+        flex-basis: 60%;
+        align-self: flex-start;
+        padding: 30px 10px;
+        @include respond(tablet) {
+          padding: 40px 60px;  
+        }
+
+        &-header {
+            font-weight: bold;
+            padding: 10px 0;
+            color: $color-dark-grey;
+            text-align: center;
+        }
+
+        &-description {
+            padding: 10px 0;
+            color: $color-light-grey;
+        }
+
+        @include respond(tablet) {
+            flex-basis: 60%;
+            align-self: flex-start;
+            padding: 40px 60px;
+        }
+    }
+
+    @include respond(tablet) {
+        &__image-container {
+            flex-basis: 60%;
+            height: 400px;
+            padding: 20px 30px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

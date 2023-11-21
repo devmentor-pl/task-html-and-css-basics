@@ -1,0 +1,57 @@
+@import '../abstracts/';
+.hamburger {
+    background-color: $color-very-light-pink;
+    border-radius: 5px;
+    padding: 10px 10px;
+    grid-area: hamburger;
+
+    &__icon-open,
+    &__icon-close {
+        width: 30px;
+        height: 30px;
+        transition: .1s;
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        div {
+            @include flexAbsoluteCenter();
+            width: 100%;
+            height: 100%;
+            padding: 2px 2px;
+        }
+    }
+
+    &__icon-open {
+        div {
+            span {
+                width: 5px;
+                height: 5px;
+                background-color: $color-dark-pink;
+                display: block;
+                border-radius: 50%; 
+            }
+        }
+    }
+
+    &__icon-close {
+        transform: rotate(180deg);
+        cursor: pointer;
+        transition: .2s cubic-bezier(.8, .5, .2, 1.4);
+
+        div:nth-child(odd) {
+            span {
+                width: 5px;
+                height: 5px;
+                background-color: $color-dark-pink;
+                display: block;
+                border-radius: 50%; 
+                transition-delay: 200ms;
+                transition: .5s cubic-bezier(.8, .5, .2, 1.4);
+               }
+        }
+    }
+}
+
+  
