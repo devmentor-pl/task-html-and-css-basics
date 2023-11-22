@@ -84,10 +84,10 @@
 }
 
 .section__container--fourth {
-  align-items: center;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  padding-bottom: 200px;
   padding-top: 120px;
   width: 1150px;
 }
@@ -96,7 +96,6 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-bottom: 200px;
   text-align: center;
   width: 33.3%;
 }
