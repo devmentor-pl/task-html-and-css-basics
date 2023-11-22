@@ -6,6 +6,8 @@
 
 .wrapper--main-page {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  padding-bottom: 240px;
+  padding-top: 40px;
 }
 
 .header {
@@ -17,7 +19,7 @@
 .header--navbar {
   justify-content: space-between;
   margin: 0 auto;
-  padding: 40px 0;
+  margin-bottom: 80px;
 }
 
 .header__logo {
@@ -36,8 +38,12 @@
 .section--main-page {
   display: flex;
   margin: 0 auto;
-  padding-bottom: 180px;
-  padding-top: 40px;
+  width: 1150px;
+}
+
+.section__container--plan {
+  display: flex;
+  justify-content: center;
   width: 1150px;
 }
 
@@ -47,11 +53,12 @@
 }
 
 .section__h1--main-page {
+  margin-bottom: 30px;
   width: 500px;
 }
 
 .section__p--main-page {
-  margin-top: 30px;
+  margin-bottom: 30px;
   width: 60%;
 }
 
@@ -59,7 +66,6 @@
   background-color: var(--button-alpha-color);
   border-radius: 10px;
   padding: 20px 50px;
-  margin-top: 30px;
 }
 
 .section__container--next-gen-app {
@@ -76,21 +82,22 @@
 
 .wrapper--features {
   background-color: black;
+  padding-bottom: 200px;
+  padding-top: 60px;
 }
 
 .header--features {
   align-items: initial;
   justify-content: center;
-  padding-top: 60px;
   margin: 0 auto;
+  margin-bottom: 120px;
 }
 
-.section__container--features {
+.section__container--features,
+.section__container--team {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  padding-bottom: 200px;
-  padding-top: 120px;
   width: 1150px;
 }
 
@@ -125,13 +132,13 @@
 
 .wrapper--logos {
   background-color: #FAFAFA;
+  padding: 30px 0;
 }
 
 .container--logos {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 30px 0;
   width: 1150px;
 }
 
@@ -169,12 +176,14 @@
   flex-direction: column;
 }
 
-.header--plan {
+.header--plan,
+.header--team {
   flex-direction: column;
   margin-bottom: 80px;
 }
 
-.section__h1--plan {
+.section__h1--plan,
+.section__h1--team {
   margin-bottom: 20px;
 }
 
@@ -209,4 +218,57 @@
   background-color: #0ABCEB;
   color: white;
   margin-top: auto;
+}
+
+/* wrapper--team */
+
+.wrapper--team {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 240px;
+  padding-top: 120px;
+}
+
+.section__img--team {
+  margin-bottom: 40px;
+}
+
+.section__img--team img {
+  width: 150px;
+}
+
+.section__h2--team,
+.section__p--team-name,
+.section__p--team-info {
+  margin-bottom: 10px;
+}
+
+.section__img.media {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.section__img.media img {
+  height: 20px;
+  width: 20px;
+}
+
+/* wrapper--webscope */
+
+.wrapper--webscope {
+  background-color: #464646;
+  padding: 20px 0;
+}
+
+.container--webscope {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.container__p--webscope {
+  margin-right: 20px;
 }

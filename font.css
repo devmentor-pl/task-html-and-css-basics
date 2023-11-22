@@ -67,7 +67,8 @@ button {
 /* wrapper--iMac */
 
 .section__h1--iMac,
-.section__h1--plan {
+.section__h1--plan,
+.section__h1--team {
   font-size: 37px;
   font-variation-settings: 'wght' 320;
 }
@@ -106,4 +107,26 @@ button {
 
 .button--plan {
   font-variation-settings: 'wght' 400;
+}
+
+.section__h2--team {
+  font-size: 22px;
+  font-variation-settings: 'wght' 260;
+}
+
+.section__p--team-name {
+  font-size: 18px;
+  font-variation-settings: 'wght' 600;
+}
+
+.section__p--team-info {
+  font-size: 18px;
+  font-variation-settings: 'wght' 300;
+}
+
+/* wrapper--webscope */
+
+.container__p--webscope {
+  color: white;
+  font-variation-settings: 'wght' 500;
 }
