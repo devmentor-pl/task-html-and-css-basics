@@ -930,6 +930,87 @@ a {
   padding: 2px;
 }
 
+.review {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 30px 0 30px 0;
+}
+
+.review::before {
+  content: "";
+  width: 90%;
+  height: 100%;
+  background-color: rgb(245, 245, 245);
+  position: absolute;
+  right: 5%;
+  left: 5%;
+  z-index: -1;
+}
+
+.review__element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+  margin: 0 40px 0 40px;
+  padding: 20px;
+  border: 2px solid rgb(228, 0, 124);
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+  .review__element {
+    min-height: 300px;
+  }
+}
+.review-slider__nav {
+  position: absolute;
+  border-radius: 10%;
+  background: rgb(255, 228, 225);
+  font-size: 32px;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.review-slider__nav:hover {
+  background-color: rgb(228, 0, 124);
+  cursor: pointer;
+}
+
+.review-slider__nav--next {
+  top: 50%;
+  right: 20px;
+}
+
+.review-slider__nav--prev {
+  top: 50%;
+  left: 20px;
+}
+
+.review-slider__wrapper {
+  height: 100%;
+  width: auto;
+  position: relative;
+}
+
+.review-slider__image {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  cursor: not-allowed;
+}
+
+.review .benefits > * {
+  padding: 2px;
+}
+
 .footer {
   width: 100%;
   color: rgb(255, 255, 255);

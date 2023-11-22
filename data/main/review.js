@@ -13,20 +13,23 @@ export const review = {
         image: responsive,
         name: 'Rita McDonald',
         text: 'The layout is intuitive, with a clean aesthetic that doesn`t overwhelm the senses. The responsive design ensures a seamless experience across devices, making it easy to enjoy the content on the go.',
-        stars: 4
+        stars: 4,
+        id:0
       },
       {
         image: customizable,
         name: 'Tom Gorge',
         text: te, elser,
         stars: 2,
+        id:1,
        
       },
       {
         image: design,
         name: 'SLICK AND BEAUTIFUL DESIGN',
         text: 'Trendy and fresh design, fits any website',
-        start:5
+        start:5,
+        id:2
       },
     ]
   }

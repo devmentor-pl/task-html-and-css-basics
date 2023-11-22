@@ -30,7 +30,7 @@ export const Main = (props) => {
       className={'pricing'}
      
       ></Pricing>
-      <Review className={'review'}></Review>
+      <Review {...props} className={'review'}></Review>
       <Team {...props} className={'team'}></Team>
     </main>
   )
