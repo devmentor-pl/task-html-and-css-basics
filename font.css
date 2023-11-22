@@ -19,8 +19,8 @@ button {
   font-family: 'Montserrat';
 }
 
-.wrapper--first,
-.wrapper--first button {
+.wrapper--main-page,
+.wrapper--main-page button {
   color: var(--color-beta);
 }
 
@@ -28,12 +28,12 @@ button {
   font-variation-settings: 'wght' 600;
 }
 
-.section__h1--first {
+.section__h1--main-page {
   font-size: 40px;
   font-variation-settings: 'wght' 700;
   line-height: 1;
 }
-.section__p--first {
+.section__p--main-page {
   font-size: 20px;
   font-variation-settings: 'wght' 300;
   line-height: 1.5;
@@ -44,70 +44,66 @@ button {
   font-variation-settings: 'wght' 600;
 }
 
-/* wrapper--second */
+/* wrapper--features */
 
-.wrapper--second {
+.wrapper--features {
   color: var(--color-beta);
 }
 
-.section__h1--second {
+.section__h1--features {
   font-size: 40px;
   font-variation-settings: 'wght' 300;
 }
 
-.section__h2--second {
+.section__h2--features {
   font-variation-settings: 'wght' 500;
 }
 
-.section__p--second {
+.section__p--features {
     line-height: 1.5;
     font-variation-settings: 'wght' 250;
 }
 
-/* wrapper--fourth */
+/* wrapper--iMac */
 
-.section__h1--third {
+.section__h1--iMac,
+.section__h1--plan {
   font-size: 37px;
   font-variation-settings: 'wght' 320;
 }
 
-.section__p--third {
+.section__p--iMac {
   font-size: 18px;
   font-variation-settings: 'wght' 300;
   line-height: 2;
 }
 
-/* wrapper--fifth */
+/* wrapper--plan */
 
-.section__h1--fourth {
-  font-size: 37px;
-  font-variation-settings: 'wght' 320;
-}
-
-.section__p--fourth {
+.section__p--plan {
   font-size: 22px;
   font-variation-settings: 'wght' 250;
 }
 
-.plan__title {
+.section__h2--plan-title {
   font-size: 22px;
   font-variation-settings: 'wght' 320;
 }
 
-.price {
+.section--price {
   font-size: 60px;
   font-variation-settings: 'wght' 700;
 }
 
-.price__info {
+.section--price-info {
   font-variation-settings: 'wght' 450;
 }
 
-.plan__info {
+.section--plan-info {
   font-size: 18px;
   font-variation-settings: 'wght' 550;
 }
 
-.button--second {
+.button--plan {
   font-variation-settings: 'wght' 400;
 }
