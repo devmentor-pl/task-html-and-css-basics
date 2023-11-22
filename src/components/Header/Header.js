@@ -18,6 +18,7 @@ export const Header = (props) => {
     <header className={className}>
       <HeaderSection {...header}></HeaderSection>
     </header>
+    <h2>WATCH</h2>
     </HeaderDataTeamProvider>
   )
 }
