@@ -28,29 +28,86 @@ button {
   font-variation-settings: 'wght' 600;
 }
 
-.section--first .section__h1 {
+.section__h1--first {
   font-size: 40px;
   font-variation-settings: 'wght' 700;
   line-height: 1;
 }
-.section--first .section__p {
+.section__p--first {
   font-size: 20px;
   font-variation-settings: 'wght' 300;
   line-height: 1.5;
 }
 
-.section--first .section__button {
+.button {
   font-size: 18px;
   font-variation-settings: 'wght' 600;
 }
 
-/* wrapper-second */
+/* wrapper--second */
 
 .wrapper--second {
   color: var(--color-beta);
 }
 
-.section--second .section__container--first {
+.section__h1--second {
   font-size: 40px;
   font-variation-settings: 'wght' 300;
+}
+
+.section__h2--second {
+  font-variation-settings: 'wght' 500;
+}
+
+.section__p--second {
+    line-height: 1.5;
+    font-variation-settings: 'wght' 250;
+}
+
+/* wrapper--fourth */
+
+.section__h1--third {
+  font-size: 37px;
+  font-variation-settings: 'wght' 320;
+}
+
+.section__p--third {
+  font-size: 18px;
+  font-variation-settings: 'wght' 300;
+  line-height: 2;
+}
+
+/* wrapper--fifth */
+
+.section__h1--fourth {
+  font-size: 37px;
+  font-variation-settings: 'wght' 320;
+}
+
+.section__p--fourth {
+  font-size: 22px;
+  font-variation-settings: 'wght' 250;
+}
+
+.plan__title {
+  font-size: 22px;
+  font-variation-settings: 'wght' 320;
+}
+
+.price {
+  font-size: 60px;
+  font-variation-settings: 'wght' 700;
+}
+
+.price__info {
+  font-variation-settings: 'wght' 450;
+}
+
+.plan__info {
+  font-size: 18px;
+  font-variation-settings: 'wght' 550;
+}
+
+.button--second {
+  font-variation-settings: 'wght' 400;
 }
