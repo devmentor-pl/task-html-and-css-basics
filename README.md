@@ -1,61 +1,53 @@
-# Czego się nauczyłem:
+# What I've Learned:
 
-- Zdobycie praktycznej wiedzy na temat struktury HTML i stylowania CSS.
-- Wykorzystanie różnych tagów HTML takich jak `<header>`, `<section>`, `<article>`, `<figure>`, `<figcaption>`, `<ul>`, `<li>`, `<aside>`, itp.
-- Implementacja podstawowych stylów CSS, takich jak kolorowanie tekstu, tło, układanie elementów, czy korzystanie z jednostek procentowych i pikselowych.
+- Acquired practical knowledge of HTML structure and CSS styling.
+- Utilized various HTML tags such as `<header>`, `<section>`, `<article>`, `<figure>`, `<figcaption>`, `<ul>`, `<li>`, `<aside>`, etc.
+- Implemented basic CSS styles, including text colorization, background, element positioning, and usage of percentage and pixel units.
 
-# Jakich rozwiązań użyłem:
+# Solutions Implemented:
 
-- Poprawienie struktury HTML na podstawie uwag mentora, uwzględniając zalecenia dotyczące semantyki, takie jak zastępowanie niektórych `<div>` tagami bardziej adekwatnymi do znaczenia, np `<header>`, `<aside>`, `<article>`, `<figure>`.
+- Improved HTML structure by following semantic recommendations, replacing some `<div>` tags with more appropriate ones like `<header>`, `<aside>`, `<article>`, `<figure>`.
 
-    - Przykład
-```
-<header>
-    <h1>Nagłówek</h1>
-</header>
-```
-- Zaimplementowanie poprawek stylów CSS, aby dostosować wygląd strony do oczekiwań mentora.
+    - Example:
+    ```html
+    <header>
+        <h1>Header</h1>
+    </header>
+    ```
+- Implemented CSS style adjustments to tailor the page appearance to expectations.
+- Properly applied HTML and CSS tags considering the semantics and functions of each section of the page.
 
-    - Przykład
-```
-/* Ustawienie koloru tekstu na biały */
-body {
-    color: white;
-}
-```
-- Odpowiednie zastosowanie tagów HTML i CSS w kontekście semantyki i funkcji poszczególnych sekcji strony.
+# Key Considerations:
 
-# Na co powinienem zwrócić uwagę:
+- Strived to use HTML tags in line with their semantic purpose to enhance the understanding of the document structure.
 
-- Starać się wykorzystywać tagi HTML zgodnie z ich przeznaczeniem semantycznym, co pomaga w zrozumieniu struktury dokumentu.
+    - Example:
+    ```html
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    ```
+- Avoided excessive use of `<div>` as containers and looked for more meaningful alternatives.
 
-    - Przykład
-```
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>
-```
-- Unikać nadmiernego używania `<div>` jako kontenerów i poszukać bardziej sensownego zastąpienia.
+    - Example:
+    ```html
+    <section>
+        <article>
+            <!-- Article content -->
+        </article>
+    </section>
+    ```
+- Ensured proper spacing and code formatting for readability and understanding of the document structure.
 
-    - Przykład
-```
-<section>
-    <article>
-        <!-- Treść artykułu -->
-    </article>
-</section>
-```
-- Dbać o odpowiednie odstępy i formatowanie kodu, co ułatwia czytanie i zrozumienie struktury dokumentu.
-
-    - Przykład
-```
-/* Dodanie odstępu między sekcjami */
-section {
-    margin-bottom: 20px;
-}
-```
-- Regularnie korzystać z narzędzi developerskich przeglądarki, aby śledzić błędy i dostosowywać style.
+    - Example:
+    ```css
+    /* Adding space between sections */
+    section {
+        margin-bottom: 20px;
+    }
+    ```
+- Regularly used browser developer tools to track errors and adjust styles.
