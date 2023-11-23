@@ -2,42 +2,40 @@
 
 .description {
     display: flex;
+
 }
 
 .description__container {
     display: flex;
-    max-width: 100%;
+    max-width: 1150px;
+    
 }
 
 .description__items {
+    min-height: 400px;
+    min-width: 45%;
     box-sizing: border-box;
     margin: 10px;
-    display: flex;
+
 }
 
 .description__image {
     transform: scale(0.8);
-    margin-left: -120px;
 }
 
-.description__text {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    margin-top: 120px;
-}
-
-.description__text h1 {
+.description__container h1 {
     font-family: 'Montserrat-light';
-    padding: 15px;
-    font-size: 35px;
-    margin-left: -50px;
-}
-
-.description__text p {
-    font-family: 'Montserrat-light';
+    font-weight: bold;
     padding: 15px;
     font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.description__container p {
+    font-family: 'Montserrat-light';
+    padding: 15px;
+    font-size: 15px;
     line-height: 2;
-    margin-left: -50px;
+    margin-left: 10px;
 }
