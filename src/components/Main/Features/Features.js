@@ -1,4 +1,5 @@
 import React from 'react'
+import Typography from '../../Typography/Typography';
 import PropTypes from 'prop-types';
 
 export const Features = (props) => {
@@ -22,8 +23,9 @@ export const Features = (props) => {
 
   return (
     <section className={`${className} section`} id={className}>
-        <h2 className={'features__header'}>{features.headline}</h2>
-        <div className={"features__container"}>
+
+        {<h3 className={'features__header headline--h3'}>{features.headline}</h3>}
+        <div className={"features__container container"}>
         {features.list.map((item, i) => {
           return renderListItem(item, i)
         })}

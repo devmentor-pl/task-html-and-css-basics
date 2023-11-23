@@ -1,27 +1,27 @@
 @import '../../abstracts/';
 
 .features {
-    width: 100%;
+    // width: 100%;
     background-color: $color-very-light-pink;
     color: $color-dark-pink;
-    padding: 20px 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    @include respond(tablet){
-        padding: 20px 60px;
-    }
+    // padding: 20px 30px;
+    // padding-top: 20px;
+    // padding-bottom: 20px;
+    // @include respond(tablet){
+    //     padding: 20px 60px;
+    // }
 
-    &__header {
-        text-align: center;
-        font-size: 1.2em;
-        font-weight: bold;
-        padding: 20px 0 20px 0;
+    // &__header {
+    //     text-align: center;
+    //     font-size: 1.2em;
+    //     font-weight: bold;
+    //     padding: 20px 0 20px 0;
 
-        @include respond(tablet) {
-            font-size: 1.5em;
-            padding: 20px 0 50px 0;
-        }
-    }
+    //     @include respond(tablet) {
+    //         font-size: 1.5em;
+    //         padding: 20px 0 50px 0;
+    //     }
+    // }
 
     &__container {
         @include flexAbsoluteCenter;

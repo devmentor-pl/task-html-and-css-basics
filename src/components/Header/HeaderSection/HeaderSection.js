@@ -30,7 +30,6 @@ export const HeaderSection = (props) => {
 
     window.addEventListener('scroll', handleScroll);
 
-
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -51,7 +50,7 @@ export const HeaderSection = (props) => {
       </div>
       <div className={"header__hero"} id="hero">
         <article className={"hero__info"}>
-          <h2 className={'hero__header'}>{headline}</h2>
+          <h3 className={'hero__header headline--h3'}>{headline}</h3>
           <p className={'hero__sub-header'}>{description}</p>
           <button className={'button--full'}>Order a website</button>
         </article>

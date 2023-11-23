@@ -1,4 +1,5 @@
 import React from 'react'
+
 import PropTypes from 'prop-types'
 
 
@@ -13,7 +14,7 @@ export const Typography = (props) => {
 
 
   const colorFont = color
-
+  // const variantClass = classes[variant]
 
 if (variant === 'h1') {
       return (
@@ -38,7 +39,7 @@ if (variant === 'h1') {
     } else if (variant === 'h3') {
       return (
         <h3
-          className={`${className ? ` ${className}` : ''}`}
+        className={`${className}${className ? ` ${className}` : ''}`}
           style={{ color: colorFont }}
           {...otherProps}
       >

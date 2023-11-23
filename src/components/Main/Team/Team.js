@@ -25,9 +25,9 @@ export const Team = (props) => {
         <div className={'team__photo'}>
           <img src={item.photo}></img>
         </div>
-        <h3 className={'team__function'}>{item.function}</h3>
-        <h4 className={'team__data'}>{item.data}</h4>
-        <p className={'team__text'}>{item.description}</p>
+        <h4 className={'team__function headline--h4'}>{item.function}</h4>
+        <h5 className={'team__data headline--h5'}>{item.data}</h5>
+        <p className={'team__text p'}>{item.description}</p>
         <div className={'team__icons'}>
           <img className={'team__icon-twitter'} src={item.icons.twitter} alt="icon-twitter"></img>
           <img className={'team__icon-fb'} src={item.icons.facebook} alt="icon-facebook"></img>
@@ -38,7 +38,7 @@ export const Team = (props) => {
 
   return (
     <section className={className} id={idSection}>
-      <h3 className={"team__header"}>THE TEAM</h3>
+      <h3 className={"team__header headline--h3"}>THE TEAM</h3>
       <ul className={'team__container'}>
         {team.list.map((item, i) => {
           return renderListItem(item, i)

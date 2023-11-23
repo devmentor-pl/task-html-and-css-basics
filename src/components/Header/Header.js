@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { HeaderDataTeamContext } from '../context';
 import HeaderSection from './HeaderSection';
 import PropTypes from 'prop-types';
@@ -15,10 +15,9 @@ export const Header = (props) => {
 
   return (
     <HeaderDataTeamProvider value={{ elements, setElements }}>
-    <header className={className}>
-      <HeaderSection {...header}></HeaderSection>
-    </header>
-    <h2>WATCH</h2>
+      <header className={className}>
+        <HeaderSection {...header}></HeaderSection>
+      </header>
     </HeaderDataTeamProvider>
   )
 }

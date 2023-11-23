@@ -25,8 +25,8 @@ export const Pricing = (props) => {
 
     return (
         <section className={className} id={className}>
-            <h3 className={'pricing__header'}>{pricing.headline}</h3>
-            <div className={"pricing__container"}>
+            <h3 className={'pricing__header headline--h3'}>{pricing.headline}</h3>
+            <div className={"pricing__container container"}>
                 {pricing.list.map((item, i) => {
                     return renderListItem(item, i)
                 })}
