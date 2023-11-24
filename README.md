@@ -32,15 +32,19 @@ So, after the edit my class names was looking much better:
 I've assigned class names to **specific sections**. f.e:
 
 `<div  class="wrapper wrapper--features">` was wrapper for this section:
+
 ![](./IMG-README/1solution_1.png)
 `<ul  class="section__item section__item--plan">` was section__item for inside payment plan page:
+
 ![](./IMG-README/1solution_2.png)
 ### 2) Problem: "border-radius hides my picture maliciously"
 I got some images to use on page **"features"**. I had to create white circle background around it.
 The first result was actually really annoying:
+
 ![](./IMG-README/2solution_2.png)
 ### > Solution
 After trying some things, I've decided to create a container around the image and it solved the problem:
+
 ![](./IMG-README/2solution_1.png)
 ```
 <div  class="section__img section__img--features">
