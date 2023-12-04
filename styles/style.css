@@ -98,3 +98,52 @@ button {
   transform: rotate(-6deg);
 }
 /* End of header */
+
+/* Features */
+.features {
+  background-color: #000;
+  color: #fff;
+}
+.features__header {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 3rem auto;
+  text-transform: uppercase;
+}
+.features__list {
+  display: flex;
+  justify-content: center;
+}
+.features__item {
+  flex-basis: 24%;
+  min-height: 350px;
+  margin: 0.6rem;
+  padding: 2rem 1.25rem;
+  text-align: center;
+}
+.features__item--small {
+  flex-basis: 21%;
+}
+.features__icon {
+  background-color: #fff;
+  border-radius: 3rem;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features__name {
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.25rem;
+  margin-top: 2rem;
+}
+.features__description {
+  font-weight: 200;
+  margin-top: 1rem;
+  line-height: 1.25rem;
+}
+/* End of features */
