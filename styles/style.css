@@ -338,3 +338,22 @@ button {
     contrast(97%);
 }
 /* End of team */
+
+/* Footer */
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #464646;
+}
+.footer__description {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.footer__link {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+/* End of footer */
