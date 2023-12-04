@@ -147,3 +147,13 @@ button {
   line-height: 1.25rem;
 }
 /* End of features */
+
+/* Logos */
+
+.aside {
+  background-color: #f9f9f9;
+}
+.aside__logos {
+  margin: 20px auto;
+}
+/* End of logos */
