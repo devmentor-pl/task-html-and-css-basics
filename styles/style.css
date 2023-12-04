@@ -1,0 +1,17 @@
+/* Common*/
+html,
+body,
+button {
+  font-family: "montserrat", sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.row {
+  width: 100%;
+}
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+}
+/* End of common */
