@@ -198,3 +198,78 @@ button {
   color: #444;
 }
 /* End of about */
+
+/* Pricing */
+.pricing {
+  color: #444;
+  background-color: #f9f9f9;
+}
+.pricing__header {
+  flex-direction: column;
+  align-items: center;
+}
+.pricing__header--top {
+  font-size: 2.2rem;
+  margin: 2.5rem 0 1.5rem 0;
+  text-transform: uppercase;
+}
+.pricing__header--description {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+.pricing__list {
+  justify-content: center;
+}
+.pricing__item {
+  flex-basis: 24%;
+  margin: 2.2rem 1rem;
+  text-align: center;
+}
+.pricing__item--big {
+  flex-basis: 32%;
+  box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+.pricing__item__name {
+  text-transform: uppercase;
+  margin-top: 65px;
+  font-size: 1.25rem;
+}
+.pricing__item__value {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+  margin-top: 1.3rem;
+}
+.pricing__item__value::before {
+  content: "\0024";
+}
+.pricing__item__time {
+  font-size: 0.8rem;
+  margin: 1rem 0 2rem 0;
+}
+.pricing__item__description-container {
+  min-height: 100px;
+}
+.pricing__item__description {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+.pricing__item__btn {
+  width: 190px;
+  height: 60px;
+  border-radius: 1rem;
+  margin: 4.3rem 0;
+  border: none;
+  background-color: #0abceb;
+  color: #fff;
+}
+.pricing__item__btn:hover {
+  background-color: #52c6e6;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}
+/* End of pricing */
