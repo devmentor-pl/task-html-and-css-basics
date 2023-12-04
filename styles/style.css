@@ -157,3 +157,44 @@ button {
   margin: 20px auto;
 }
 /* End of logos */
+
+/* About */
+.about {
+  display: flex;
+  justify-content: space-between;
+  min-height: 720px;
+}
+.about__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 54%;
+}
+.about__image {
+  max-width: 80%;
+}
+
+.about__article {
+  flex-basis: 45%;
+  position: relative;
+}
+
+.about__article-container {
+  position: absolute;
+  top: 12%;
+  left: 7%;
+  right: 38%;
+}
+
+.about__heading {
+  font-size: 2.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.about__description {
+  line-height: 35px;
+  color: #444;
+}
+/* End of about */
