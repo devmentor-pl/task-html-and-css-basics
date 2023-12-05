@@ -2,6 +2,8 @@
 
 # HTML / CSS Website Project
 
+See [the Website](https://wabinskim.github.io/task-html-and-css-basics/index.html)
+
 Nova landing Page is a page modeled after [Webscope's](https://themewagon.com/author/webscopeapp/) free template: [Nova](https://themewagon.com/themes/project-app-showasing-onepage-bootstrap-template-free-nova/)
 
 ## Solutions provided in project
