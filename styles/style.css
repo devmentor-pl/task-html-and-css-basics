@@ -208,12 +208,12 @@ button {
   flex-direction: column;
   align-items: center;
 }
-.pricing__header--top {
+.pricing__header__top {
   font-size: 2.2rem;
   margin: 2.5rem 0 1.5rem 0;
   text-transform: uppercase;
 }
-.pricing__header--description {
+.pricing__header__description {
   font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 1rem;
