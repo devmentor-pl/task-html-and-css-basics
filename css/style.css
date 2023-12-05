@@ -8,7 +8,7 @@ body {
   max-width: 100%;
 }
 
-.section {
+.container__section {
   max-width: 1150px;
   margin: 2px auto;
   margin-bottom: 0;
@@ -18,15 +18,30 @@ body {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
-.navbar {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 0;
 }
 
-.navbar__logo {
+.nav-logo {
   max-width: 100px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 10px;
+}
+
+.link {
+  font-family: "Montserrat";
+  font-weight: normal;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
 }
 
 .hero {
@@ -72,26 +87,11 @@ a {
   border: none;
 }
 
-.hero__photo {
+.hero-photo {
   width: 60%;
   transform: scale(0.8) rotate(-6deg) translateX(200px);
   border: 15px solid white;
   border-radius: 30px;
-}
-
-.navbar__links {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding-right: 10px;
-}
-
-.link {
-  font-family: "Montserrat";
-  font-weight: normal;
-  color: white;
-  padding: 10px;
-  font-size: 0.9rem;
 }
 /* END HEADER */
 
@@ -103,7 +103,7 @@ a {
   background-color: black;
 }
 
-.features__header {
+.features-header {
   display: flex;
   justify-content: center;
   margin-top: 0;
@@ -111,19 +111,19 @@ a {
   padding-bottom: 10px;
 }
 
-.features__header h2 {
+.features-header h2 {
   font-family: "Montserrat";
   font-weight: lighter;
   font-size: 30px;
 }
 
-.features__cards h3 {
+.features-cards h3 {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 15px;
 }
 
-.features__cards p {
+.features-cards p {
   font-family: "Montserrat";
   font-weight: lighter;
   font-size: 15px;
@@ -136,7 +136,7 @@ p {
   color: white;
 }
 
-.features__cards {
+.features-cards {
   display: flex;
   justify-content: center;
 }
@@ -152,7 +152,7 @@ p {
   padding: 10px;
 }
 
-.card__icon {
+.icon {
   background-color: white;
   padding: 25px;
   scale: 0.7;
@@ -178,7 +178,7 @@ p {
 
 
 /* DESCRIPTION VIEW */
-.imac__image {
+.imac {
   display: flex;
   transform: scale(0.9);
 }
@@ -202,16 +202,16 @@ p {
   line-height: 1.7;
 }
 
-.imac__image {
+.imac {
   max-width: 100%;
   padding-left: 30px;
 }
 
-.description-view {
+.description {
   padding: 5px;
 }
 
-.container-views {
+.description-view {
   display: flex;
 }
 
@@ -241,20 +241,20 @@ p {
   background-color: #f9f9f9;
 }
 
-.pricing__header {
+.pricing-header {
   text-align: center;
   padding-top: 40px;
   opacity: 0.9;
 }
 
-.pricing__header h2 {
+.pricing-header h2 {
   font-family: "Montserrat";
   font-weight: lighter;
   font-size: 30px;
   margin-bottom: 0;
 }
 
-.pricing__header p {
+.pricing-header p {
   font-family: "Montserrat";
   font-weight: lighter;
   font-size: 17px;
@@ -262,7 +262,7 @@ p {
   margin-bottom: 10px;
 }
 
-.pricing__cards {
+.pricing-cards {
   display: flex;
   min-width: 280px;
   min-height: 180px;
@@ -293,18 +293,18 @@ p {
   font-size: 12px;
 }
 
-.pricing__card--header {
+.pricing__card-header {
   font-size: 16px;
   font-weight: 200;
   margin-bottom: 5px;
 }
 
-.pricing__card--price {
+.pricing__card-price {
   font-size: 48px;
   margin: 0 auto;
 }
 
-.pricing__card--description {
+.pricing__card-description {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 14px;
@@ -314,6 +314,7 @@ p {
 
 .pricing__button {
   justify-content: end;
+
 }
 
 .middle-card {
@@ -340,7 +341,7 @@ p {
 
 
 /* TEAM */
-.team__header {
+.team-header {
   text-align: center;
   margin-top: 10px;
   padding-top: 10px;
@@ -364,6 +365,7 @@ p {
   margin-top: 10px;
   margin-bottom: 40px;
   padding: 20px;
+  list-style-type: none;
 }
 
 .member .name {
@@ -386,7 +388,7 @@ p {
   margin-bottom: 0;
 }
 
-.member__img {
+.member-img {
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -402,6 +404,10 @@ p {
   margin-right: 1rem;
 }
 
+.filter-black {
+  filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(327deg) brightness(0) contrast(104%);
+  opacity: 0.9;
+}
 /* END TEAM */
 
 
@@ -413,18 +419,18 @@ p {
   margin: 0;
 }
 
-.footer__content {
+.footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer__content h6 {
+.footer-content h6 {
   color: white;
   padding-right: 4px;
 }
 
-.content__logo {
+.logo {
   transform: scale(0.9);
 }
 /* END FOOTER */
