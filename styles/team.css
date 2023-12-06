@@ -1,0 +1,53 @@
+.team__container {
+    text-align: center;
+    font-family: 'Montserrat';
+
+}
+
+.team__container h1 {
+    font-size: 25px;
+    min-height: 70px;
+    margin-top: 20px;
+}
+
+.team__members {
+    display: flex;
+    justify-content: center;
+}
+
+.team__member {
+    min-height: 350px;
+    align-items: center;
+    text-align: center;
+}
+
+.team__img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.team__member h1 {
+    font-family: 'Montserrat-light';
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+
+.team__member h2 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+
+.team__member p {
+    font-family: 'Montserrat-light';
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.team__socials {
+    transform: scale(0.6)
+}

@@ -1,0 +1,88 @@
+/* pricing.css */
+
+.pricing {
+}
+
+.pricing__text {
+    min-height: 95px;
+    margin-bottom: 10px;
+}
+
+.pricing__text h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat-light';
+    font-size: 25px;
+}
+
+.pricing__text p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Montserrat-light';
+    font-size: 15px;
+}
+
+.pricing__options {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.pricing__level {
+    min-width: 250px;
+    min-height: 200px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.pricing__level h2 {
+    font-family: 'Montserrat-light';
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.pricing__level h1 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 33px;
+    margin-top: 9px;
+}
+
+.pricing__level p {
+    font-size: 10px;
+    margin-top: 6px;
+    font-family: 'Montserrat';
+    margin-bottom: 17px;
+}
+
+.pricing__level li {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+
+.buttons__options {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.button__level {
+    min-width: 250px;
+}
+
+
+.button__level button {
+    background-color: #0ABCEB;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    min-width: 120px;
+    min-height: 35px;
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
