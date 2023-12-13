@@ -1,0 +1,213 @@
+.header__section {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  padding: 0 0 200px 0;
+}
+.header__section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__section nav {
+  margin: 20px 0;
+}
+.header__section .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.header__section .nav__list .nav__item {
+  margin: 10px;
+}
+.header__section .nav__list .nav__item a {
+  font-size: 14px;
+}
+.header__section .header_mainText {
+  min-height: 450px;
+  padding-top: 50px;
+  color: #fff;
+}
+.header__section .header_mainText h2 {
+  font-size: 36px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 20px 0 20px 0;
+}
+.header__section .header_mainText p {
+  font-size: 18px;
+}
+.header__section .header_mainText .header__button--primary {
+  border: 1px solid #25F18B;
+  background-color: #25F18B;
+}
+.header__section .header_mainText .header__button--primary a {
+  font-size: 14px;
+}
+.header__section .header_image .imgbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 380px;
+  margin: 20px;
+  transform: rotate(-6deg);
+  border-radius: 25px;
+  background-color: #fff;
+}
+.header__section .header_image img {
+  width: 490px;
+  height: 350px;
+  z-index: 1;
+}
+
+.features__section {
+  background-color: #000;
+}
+.features__section .features__heading {
+  text-align: center;
+  padding: 60px;
+}
+.features__section .features__heading h2 {
+  font-size: 30px;
+  color: #fff;
+}
+.features__section .features__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 90px 0;
+}
+.features__section .features__items article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 30px;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+.features__section .features__items article .article__img {
+  height: 78px;
+  width: 78px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.features__section .features__items article h4 {
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 15px 0 0;
+  font-weight: 600;
+}
+.features__section .features__items article p {
+  margin: 0 0 10px;
+}
+
+.logos__section {
+  background-color: #F9FAFA;
+}
+.logos__section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+}
+
+.presentation__section {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 60px 20px;
+}
+.presentation__section .presentation__img {
+  height: 600px;
+  width: 50%;
+}
+.presentation__section .presentation__text {
+  width: 50%;
+  height: 100%;
+  padding: 80px 0 0 100px;
+}
+.presentation__section .presentation__text h4 {
+  margin: 20px 0 10px;
+  padding: 0 0 35px;
+  font-size: 30px;
+}
+.presentation__section .presentation__text .presentation__content {
+  width: 390px;
+  height: 190px;
+}
+.presentation__section .presentation__text .presentation__content p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.prining__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F8F9F9;
+}
+.prining__section .pricing__text {
+  text-align: center;
+}
+.prining__section .pricing__text h4 {
+  margin: 20px 0 10px;
+  padding: 75px 0 0;
+  font-size: 30px;
+  color: #333;
+}
+.prining__section .pricing__text p {
+  margin: 10px 0;
+  padding: 10px 0 0;
+  font-size: 18px;
+  color: #808080;
+}
+.prining__section .pricing__offerts {
+  display: flex;
+  flex-direction: column;
+}
+.prining__section .pricing__offer {
+  width: 320px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.prining__section .pricing__offer .pricing__offer--awarded {
+  background-color: #fff;
+}
+.prining__section .pricing__offer .offer__title {
+  margin: 20px 0 10px;
+  padding: 0 0 5px;
+}
+.prining__section .pricing__offer .offer__title span {
+  font-size: 18px;
+  color: #333;
+}
+.prining__section .pricing__offer .offer__price span {
+  font-size: 45px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+.prining__section .pricing__offer .offer__price p {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+.prining__section .pricing__offer .offer__benefits ul li {
+  line-height: 25px;
+}
+.prining__section .pricing__offer .pricing__button--secondary {
+  background-color: #0ABCEB;
+  border: #0ABCEB;
+  color: #fff;
+  margin-top: 100px;
+}/*# sourceMappingURL=index.css.map */

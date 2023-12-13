@@ -1,0 +1,258 @@
+// Header Section
+.header__section {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    padding: 0 0 200px 0;
+
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        .nav__list {
+            display: flex;
+            justify-content: space-between;
+
+            .nav__item {
+                margin: 10px;
+                
+                a{
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .header_mainText{
+            min-height: 450px;
+            padding-top: 50px;
+            color: #fff;
+
+            h2 {
+                font-size: 36px;
+                font-family: 'Montserrat';
+                font-weight: bold;
+                padding: 20px 0 20px 0;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .header__button--primary {
+                border: 1px solid #25F18B;
+                background-color: #25F18B;
+
+                a {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .header_image {
+            .imgbox {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 520px;
+                height: 380px;
+                margin: 20px;
+                transform: rotate(-6deg);
+                border-radius: 25px;
+                background-color: #fff;
+            }
+
+            img {
+                width: 490px;
+                height: 350px;
+                z-index: 1;
+            }
+        }
+}
+
+// Features Section________________________________________________________
+.features__section {
+    background-color: #000;
+
+        .features__heading {
+            text-align: center;
+            padding: 60px;
+
+            h2 {
+                font-size: 30px;
+                color: #fff;
+            }
+        }
+
+        .features__items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 0 90px 0;
+
+            article {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 0 30px;
+                padding: 30px;
+                text-align: center;
+                color: #fff;
+
+                .article__img {
+                    height: 78px;
+                    width: 78px;
+                    margin: 20px 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: #fff;
+                }
+
+                h4 {
+                    font-size: 14px;
+                    margin: 10px 0;
+                    padding: 15px 0 0;
+                    font-weight: 600;
+                }
+
+                p {
+                    margin: 0 0 10px;
+                }
+            }
+        }
+}
+
+// Logos Section________________________________________________________
+.logos__section {
+    background-color: #F9FAFA;
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90px;
+        }
+}
+
+// Presentation Section________________________________________________________
+.presentation__section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 60px 20px;
+
+        .presentation__img  {
+            height: 600px;
+            width: 50%;
+        }
+
+        .presentation__text {
+            width: 50%;
+            height: 100%;
+            padding: 80px 0 0 100px;
+
+            h4 {
+                margin: 20px 0 10px;
+                padding: 0 0 35px;
+                font-size: 30px;
+            }
+
+            .presentation__content {
+                width: 390px;
+                height: 190px;
+
+                p {
+                    font-weight: 300;
+                    font-size: 15px;
+                    line-height: 30px;
+                    text-align: left;
+                }
+            }
+        }
+}
+
+// Pricing Section________________________________________________________
+.prining__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F9F9;
+
+        .pricing__text{
+            text-align: center;
+
+                h4 {
+                    margin: 20px 0 10px;
+                    padding: 75px 0 0;
+                    font-size: 30px;
+                    color: #333;
+                }
+
+                p {
+                    margin: 10px 0;
+                    padding: 10px 0 0;
+                    font-size: 18px;
+                    color: #808080;
+                }
+        }
+
+        .pricing__offerts {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing__offer {
+            width: 320px;
+            height: 430px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        
+        .pricing__offer--awarded {
+            background-color: #fff;
+        }
+
+                .offer__title {
+                    margin: 20px 0 10px;
+                    padding: 0 0 5px;
+                        span {
+                            font-size: 18px;
+                            color: #333;
+                        }
+                }
+
+                .offer__price {
+                        span{
+                            font-size: 45px;
+                            margin: 10px 0;
+                            font-weight: 600;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            padding-bottom: 20px;
+                        }
+                }
+
+                .offer__benefits ul li {
+                    line-height: 25px;
+                }
+
+                .pricing__button--secondary {
+                    background-color: #0ABCEB;
+                    border: #0ABCEB;
+                    color: #fff;
+                    margin-top: 100px;
+                }
+        }
+}
