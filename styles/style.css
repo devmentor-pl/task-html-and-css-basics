@@ -1,1 +1,16 @@
-/*# sourceMappingURL=style.css.map */
+.header__section {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+.header__section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__section .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.header__section .nav__list .nav__item {
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+// HEADER SECTION
+.header__section {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav__list {
+        display: flex;
+        justify-content: space-between;
+
+        .nav__item {
+            margin: 10px;
+        }
+    }
+}
