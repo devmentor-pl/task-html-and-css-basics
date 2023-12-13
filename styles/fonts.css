@@ -5,3 +5,17 @@
 	font-style: normal;
 	font-weight: 400;
 }
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url(../Montserrat/static/Montserrat-Bold.ttf) format('opentype');
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url(../Montserrat/static/Montserrat-Light.ttf) format('opentype');
+	font-style: normal;
+	font-weight: lighter;
+}
