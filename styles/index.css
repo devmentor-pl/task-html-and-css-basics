@@ -4,16 +4,21 @@
 }
 .header__section .container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  justify-content: space-between;
 }
 .header__section nav {
-  margin: 20px 0;
+  padding: 40px 0;
+}
+.header__section .logo {
+  width: 100px;
+  height: 35px;
 }
 .header__section .nav__list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 .header__section .nav__list .nav__item {
   margin: 10px;
@@ -34,6 +39,7 @@
 }
 .header__section .header_mainText p {
   font-size: 18px;
+  line-height: 30px;
 }
 .header__section .header_mainText .header__button--primary {
   border: 1px solid #25F18B;
@@ -43,19 +49,17 @@
   font-size: 14px;
 }
 .header__section .header_image .imgbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 520px;
-  height: 380px;
-  margin: 20px;
+  width: 540px;
+  height: 420px;
+  padding: 20px;
+  margin-right: 100px;
   transform: rotate(-6deg);
   border-radius: 25px;
   background-color: #fff;
 }
 .header__section .header_image img {
-  width: 490px;
-  height: 350px;
+  width: 510px;
+  height: 360px;
   z-index: 1;
 }
 
@@ -118,7 +122,8 @@
 
 .presentation__section {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
   flex-direction: row;
   padding: 60px 20px;
 }
@@ -128,7 +133,6 @@
 }
 .presentation__section .presentation__text {
   width: 50%;
-  height: 100%;
   padding: 80px 0 0 100px;
 }
 .presentation__section .presentation__text h4 {
@@ -148,10 +152,6 @@
 }
 
 .prining__section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   background-color: #F8F9F9;
 }
 .prining__section .pricing__text {
@@ -169,45 +169,101 @@
   font-size: 18px;
   color: #808080;
 }
-.prining__section .pricing__offerts {
-  display: flex;
-  flex-direction: column;
-}
-.prining__section .pricing__offer {
-  width: 320px;
-  height: 430px;
+.prining__section .pircing__offerts {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 70px 0 100px;
+}
+.prining__section .pricing__offer--awarded {
+  background-color: #fff;
+  box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+  border-radius: 7px;
+}
+.prining__section .pricing__offer {
+  width: 320px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
   text-align: center;
 }
-.prining__section .pricing__offer .pricing__offer--awarded {
-  background-color: #fff;
-}
-.prining__section .pricing__offer .offer__title {
+.prining__section .offer__title {
   margin: 20px 0 10px;
   padding: 0 0 5px;
 }
-.prining__section .pricing__offer .offer__title span {
+.prining__section .offer__title span {
   font-size: 18px;
   color: #333;
 }
-.prining__section .pricing__offer .offer__price span {
+.prining__section .offer__price span {
   font-size: 45px;
   margin: 10px 0;
   font-weight: 600;
 }
-.prining__section .pricing__offer .offer__price p {
+.prining__section .offer__price p {
   font-size: 12px;
   padding-bottom: 20px;
 }
-.prining__section .pricing__offer .offer__benefits ul li {
+.prining__section .offer__benefits ul li {
   line-height: 25px;
 }
-.prining__section .pricing__offer .pricing__button--secondary {
+.prining__section .pricing__button--secondary {
   background-color: #0ABCEB;
   border: #0ABCEB;
   color: #fff;
   margin-top: 100px;
+}
+
+.team__section {
+  padding-bottom: 200px;
+}
+.team__section .team__text {
+  text-align: center;
+}
+.team__section .team__text h4 {
+  margin: 20px 0 10px;
+  padding: 75px 0;
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+}
+.team__section .team__workers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.team__section .team__workers .team__worker {
+  width: 320px;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+.team__section .team__workers .team__worker .img {
+  padding: 40px 0;
+}
+.team__section .team__workers .team__worker span {
+  font-weight: 600;
+  line-height: 40px;
+}
+.team__section .team__workers .team__worker img {
+  padding: 20px 10px;
+}
+
+.footer__section {
+  background-color: #464646;
+  padding: 10px;
+}
+.footer__section .footer__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.footer__section .footer__text h5 {
+  margin: 0 20px;
+  font-size: 12px;
 }/*# sourceMappingURL=index.css.map */

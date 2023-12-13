@@ -1,22 +1,56 @@
+// Mixins
+@mixin flex-J-center-A-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-center-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@mixin flex-center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin flex-center-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin flex-center-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
 // Header Section
 .header__section {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     padding: 0 0 200px 0;
 
         .container{
-            display: flex;
-            flex-direction: row;
+            @include flex-J-center-A-center;
             justify-content: space-between;
-            align-items: center;
         }
 
         nav {
-            margin: 20px 0;
+            padding: 40px 0;
+        }
+
+        .logo {
+            width: 100px;
+            height: 35px;
         }
 
         .nav__list {
-            display: flex;
-            justify-content: space-between;
+            @include flex-J-center-A-center;
 
             .nav__item {
                 margin: 10px;
@@ -41,6 +75,7 @@
 
             p {
                 font-size: 18px;
+                line-height: 30px;
             }
 
             .header__button--primary {
@@ -55,20 +90,18 @@
 
         .header_image {
             .imgbox {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 520px;
-                height: 380px;
-                margin: 20px;
+                width: 540px;
+                height: 420px;
+                padding: 20px;
+                margin-right: 100px;
                 transform: rotate(-6deg);
                 border-radius: 25px;
                 background-color: #fff;
             }
 
             img {
-                width: 490px;
-                height: 350px;
+                width: 510px;
+                height: 360px;
                 z-index: 1;
             }
         }
@@ -89,15 +122,11 @@
         }
 
         .features__items {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex-J-center-A-center;
             padding: 30px 0 90px 0;
 
             article {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flex-J-center-A-center;
                 flex-direction: column;
                 margin: 0 30px;
                 padding: 30px;
@@ -108,9 +137,7 @@
                     height: 78px;
                     width: 78px;
                     margin: 20px 0;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @include flex-J-center-A-center;
                     border-radius: 50%;
                     background-color: #fff;
                 }
@@ -134,9 +161,7 @@
     background-color: #F9FAFA;
 
         .container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex-J-center-A-center;
             height: 90px;
         }
 }
@@ -144,7 +169,8 @@
 // Presentation Section________________________________________________________
 .presentation__section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: row;
     padding: 60px 20px;
 
@@ -155,7 +181,6 @@
 
         .presentation__text {
             width: 50%;
-            height: 100%;
             padding: 80px 0 0 100px;
 
             h4 {
@@ -180,13 +205,9 @@
 
 // Pricing Section________________________________________________________
 .prining__section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-color: #F8F9F9;
 
-        .pricing__text{
+        .pricing__text {
             text-align: center;
 
                 h4 {
@@ -204,55 +225,116 @@
                 }
         }
 
-        .pricing__offerts {
-            display: flex;
-            flex-direction: column;
+        .pircing__offerts {
+            @include flex-J-center-A-center;
+            padding: 70px 0 100px;
+        }
+
+        .pricing__offer--awarded {
+            background-color: #fff;
+            box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+            border-radius: 7px;
         }
 
         .pricing__offer {
             width: 320px;
-            height: 430px;
+            height: 450px;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: space-between;
             flex-direction: column;
             text-align: center;
-        
-        .pricing__offer--awarded {
-            background-color: #fff;
         }
 
-                .offer__title {
-                    margin: 20px 0 10px;
-                    padding: 0 0 5px;
+        .offer__title {
+            margin: 20px 0 10px;
+            padding: 0 0 5px;
+                span {
+                    font-size: 18px;
+                    color: #333;
+                }
+        }
+
+        .offer__price {
+                span{
+                    font-size: 45px;
+                    margin: 10px 0;
+                    font-weight: 600;
+                }
+
+                p {
+                    font-size: 12px;
+                    padding-bottom: 20px;
+                }
+        }
+
+        .offer__benefits ul li {
+            line-height: 25px;
+        }
+
+            .pricing__button--secondary {
+                background-color: #0ABCEB;
+                border: #0ABCEB;
+                color: #fff;
+                margin-top: 100px;
+            }
+}
+
+// Team Section________________________________________________________
+.team__section {
+    padding-bottom: 200px;
+
+        .team__text {
+            text-align: center;
+
+                h4 {
+                        margin: 20px 0 10px;
+                        padding: 75px 0 ;
+                        font-size: 30px;
+                        color: #333;
+                        text-align: center;
+                }
+        }
+
+        .team__workers {
+            @include flex-J-center-A-center;
+            justify-content: space-around;
+
+                .team__worker {
+                    width: 320px;
+                    height: 250px;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    text-align: center;
+                        
+                        .img {
+                            padding: 40px 0;
+                        }
+
                         span {
-                            font-size: 18px;
-                            color: #333;
-                        }
-                }
-
-                .offer__price {
-                        span{
-                            font-size: 45px;
-                            margin: 10px 0;
                             font-weight: 600;
+                            line-height: 40px;
                         }
 
-                        p {
-                            font-size: 12px;
-                            padding-bottom: 20px;
+                        img {
+                            padding: 20px 10px;
                         }
                 }
+        }
+}
 
-                .offer__benefits ul li {
-                    line-height: 25px;
-                }
+// Footer Section________________________________________________________
+.footer__section {
+    background-color: #464646;
+    padding: 10px;
 
-                .pricing__button--secondary {
-                    background-color: #0ABCEB;
-                    border: #0ABCEB;
-                    color: #fff;
-                    margin-top: 100px;
+        .footer__text {
+            @include flex-J-center-A-center;
+            color: #fff;
+
+                h5 {
+                    margin: 0 20px;
+                    font-size: 12px;
                 }
         }
 }
