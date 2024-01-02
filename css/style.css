@@ -151,3 +151,19 @@ body .header .header__bar .header_navbar .header_navbar-links .header_nav-links 
 }
 
 /* END OF FEATURES SECTION */
+
+/* LOGOS */
+
+.logos {
+    width: 100%;
+    background: #F9FAFA;
+}
+
+.logos__container {
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
