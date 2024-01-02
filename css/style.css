@@ -92,3 +92,62 @@ body .header .header__bar .header_navbar .header_navbar-links .header_nav-links 
     border: 15px solid white;
     border-radius: 7%;
 }
+
+/* END OF HERO */
+
+/* FEATURES SECTION */
+
+.features {
+    padding-top: 30px;
+    background: black;
+    width: 100%;
+}
+
+.features__heading{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.features__heading-item {
+    color: white;
+    font-size: 25px;
+}
+
+.features__container {
+    margin: 0 auto;
+    max-width: 1150px;
+    display: flex;
+}
+
+.features__items {
+    flex-basis: 33.33333%;
+    text-align: center;
+    padding: 70px;
+    
+}
+
+.features__items-background {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    /* padding: 10px; */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 21px 19px 71px -21px rgba(255,255,255,1);  
+}
+
+.features__items-heading {
+    color: white;
+}
+
+.features__items-paragraph {
+    color: white;
+    font-size: 13px;
+}
+
+/* END OF FEATURES SECTION */
