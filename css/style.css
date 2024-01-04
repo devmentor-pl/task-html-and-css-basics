@@ -16,6 +16,10 @@ body .header .header__bar .header_navbar .header_navbar-links .header_nav-links 
     color: #68A3D3;
 }
 
+body main .plan .price__container .price__item-list li {
+    list-style-type: none;
+}
+
 
 /* HEADER*/
 .header {
@@ -194,12 +198,126 @@ body .header .header__bar .header_navbar .header_navbar-links .header_nav-links 
 }
 
 .imac__content-heading {
+    color: #333333;
     font-size: 25px;
 }
 
 .imac__content-paragraph {
-    color: #aba6ab;
+    color: #333333;
     line-height: 30px;
 }
 
 /* END OF IMAC */
+
+/* PLAN */
+
+.plan {
+    width: 100%;
+    background: #F8F9F9;
+}
+
+.heading__container {
+    margin: 0 auto;
+    max-width: 1150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.heading__container-heading{
+    padding-top: 100px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #373737;
+}
+
+.heading__container-paragraph {
+    display: flex;
+    justify-content: center;
+    color: #373737;
+    padding-bottom: 100px;
+}
+
+.price__container {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    max-width:  1150px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.price__container-item {
+    max-width: 300px;
+    height: 400px;
+    
+}
+
+.first {
+    flex-basis: 33.33333%;
+}
+
+.second {
+    flex-basis: 33.33333%;
+    /* margin: 20px; */
+}
+
+.third {
+    flex-basis: 33.33333%;
+}
+
+.price__item-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.price__item-price {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+}
+
+.price__item-paragraph {
+    display: flex;
+    justify-content: center;
+}
+
+.price__item-list {
+    padding: 0;
+    height: 100px;
+}
+
+.price__list-item {
+    display: flex;
+    justify-content: center;
+    line-height: 25px;
+}
+
+.price__container-button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+    border: none;
+    background-color: #0abceb;
+    padding: 15px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.price__container-button:hover {
+background-color: #58D5F7;
+}
+
+.activ {
+    box-shadow: 11px 15px 41px -14px rgba(107,107,107,1);
+    border-radius: 3%;
+}
