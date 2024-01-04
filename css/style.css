@@ -134,7 +134,6 @@ body .header .header__bar .header_navbar .header_navbar-links .header_nav-links 
     justify-content: center;
     align-items: center;
     background: white;
-    /* padding: 10px; */
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -160,10 +159,47 @@ body .header .header__bar .header_navbar .header_navbar-links .header_nav-links 
 }
 
 .logos__container {
-    padding: 15px;
+    padding: 30px;
     margin: 0 auto;
     max-width: 1150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* END OF LOGOS */
+
+/* IMAC */
+
+.imac {
+    width: 100%;
+    background: white;
+    display: flex;
+}
+
+.imac__container{
+    margin: 0 auto;
+    padding: 50px 0;
+    max-width: 1150px;
+    display: flex;
+}
+
+.imac__container-item {
+    width: 600px;
+    padding-right: 100px;
+}
+
+.imac__content {
+    padding: 20px;
+}
+
+.imac__content-heading {
+    font-size: 25px;
+}
+
+.imac__content-paragraph {
+    color: #aba6ab;
+    line-height: 30px;
+}
+
+/* END OF IMAC */
