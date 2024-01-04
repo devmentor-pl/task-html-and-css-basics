@@ -230,13 +230,13 @@ body main .plan .price__container .price__item-list li {
     display: flex;
     justify-content: center;
     font-size: 25px;
-    color: #373737;
+    color: #333333;
 }
 
 .heading__container-paragraph {
     display: flex;
     justify-content: center;
-    color: #373737;
+    color: #333333;
     padding-bottom: 100px;
 }
 
@@ -280,11 +280,13 @@ body main .plan .price__container .price__item-list li {
     display: flex;
     justify-content: center;
     font-size: 45px;
+    color: #333333;
 }
 
 .price__item-paragraph {
     display: flex;
     justify-content: center;
+    color: #333333;
 }
 
 .price__item-list {
@@ -296,6 +298,7 @@ body main .plan .price__container .price__item-list li {
     display: flex;
     justify-content: center;
     line-height: 25px;
+    color: #333333;
 }
 
 .price__container-button {
@@ -320,4 +323,72 @@ background-color: #58D5F7;
 .activ {
     box-shadow: 11px 15px 41px -14px rgba(107,107,107,1);
     border-radius: 3%;
+}
+
+/* END OF PLAN */
+
+/* TEAM */
+
+.team {
+    width: 100%;
+    background: white;
+}
+
+.team__heading {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.team__heading-item {
+    font-size: 25px;
+    color: #333333;
+}
+
+.team__conteiner {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.team__conteiner-person {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    flex-basis: 33.33333%;
+}
+
+.two {
+    flex-basis: 33.33333%;
+}
+
+.three {
+    flex-basis: 33.33333%;
+}
+
+.test {
+    display: flex;
+}
+
+.conteiner__person-socialmedia {
+    margin: 0 5px;
+}
+
+.conteiner__person-workplace {
+    color: #333333;
+}
+
+.conteiner__person-name {
+    color: #333333;
+}
+
+.conteiner__person-description {
+    color: #333333;
 }
