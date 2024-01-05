@@ -350,6 +350,7 @@ background-color: #58D5F7;
 .team__conteiner {
     max-width: 1150px;
     margin: 0 auto;
+    padding-bottom: 30px;
     display: flex;
     justify-content: center;
 }
@@ -391,4 +392,27 @@ background-color: #58D5F7;
 
 .conteiner__person-description {
     color: #333333;
+}
+
+/* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    background: #464646;
+    width: 100%;
+}
+
+.footer__container {
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container-paragraph {
+    color: white;
+    font-size: 10px;
+    margin-right: 10px;
 }
