@@ -1,0 +1,39 @@
+/* COMMON */
+
+.pricing {
+    text-align: center;
+    background-color: #F8F9F9
+}
+
+/* end of COMMON */
+
+/* TITLE */
+
+.pricing__title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* end of TITLE */
+
+/* PLANS */
+
+.pricing__plans {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__plans > div {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    
+}
+
+.pricing__btn {
+    background-color: #58D5F7;
+    color: white;
+}
+
+/* end of PLANS */
