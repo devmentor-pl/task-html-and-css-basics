@@ -1,0 +1,73 @@
+/* COMMON */
+.header {
+    color: white;
+    margin: 20px 0;
+}
+/* end of COMMON */
+
+/* NAVIGATION */
+.nav__items {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__item {
+    margin: 3px;
+    padding: 6px 3px 6px 1px;
+}
+
+.header__logo {
+    padding-top: 6px;
+    padding-bottom: 3px;
+    padding-left: 0;
+    padding-right: 3px;
+    margin: 3px;
+}
+/* end of NAVIGATION */
+
+/* main part of HEADER */
+.header__container-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 3px;
+}
+
+.header__container-2 {
+    display: flex;
+    align-items: center;
+}
+
+/* display: inline-block aby działał transform */
+/* jak nadać białą ramkę do obrazka? border nie działa*/
+.header__img {
+    transform: rotate(-6deg);
+    display: inline-block;
+    margin: 20px;
+    width: 500px;
+    /* border: 10px white;
+    border-radius: 5%; */
+}
+
+.header__description {
+    margin: 20px;
+}
+
+.header__btn {
+    background-color: #99F7C5;
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 5%;
+    margin: 10px;
+}
+
+.header__description > p {
+    margin: 10px;
+    width: 80%;
+}
+/* nie działa */
+.header__title {
+    font-weight: bold;
+    font-size: 25px;
+}
+/* end of main part of HEADER  */
