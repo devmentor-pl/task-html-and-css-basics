@@ -1,0 +1,33 @@
+/* COMMON */
+
+.features {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* end of COMMON */
+
+/* TITLE */
+
+.features__title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* end of TITLE */
+
+/* ADV */
+
+.features__adv {
+    display: flex;
+    justify-content: center;
+}
+.features__adv > div {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+
+}
+/* end of ADV */
+

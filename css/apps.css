@@ -1,0 +1,12 @@
+/* Nie działa wyśrodkowanie w pionie */
+
+.apps {
+    background-color: #F9FAFA;
+    text-align: center;
+    /* vertical-align: middle; */
+    height: 100px;
+}
+
+.apps__item {
+
+}

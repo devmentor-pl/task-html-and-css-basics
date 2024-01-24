@@ -1,8 +1,19 @@
 /* COMMON */
 .header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     color: white;
-    margin: 20px 0;
+    /* margin: 0 100px; */
 }
+
+/* nie działają dwa ponisze */
+.header__logo, .header__container-1 {
+    margin: 3px 3px 0px 100px;
+}
+
+.nav__items, .header__container-2 {
+    margin: 3px 100px 0px 3px;
+}
+
 /* end of COMMON */
 
 /* NAVIGATION */
@@ -21,7 +32,6 @@
     padding-bottom: 3px;
     padding-left: 0;
     padding-right: 3px;
-    margin: 3px;
 }
 /* end of NAVIGATION */
 

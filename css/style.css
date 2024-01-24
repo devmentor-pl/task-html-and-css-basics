@@ -1,8 +1,6 @@
 body, html {
     box-sizing: border-box;
-    margin: 0 100px;
+    /* margin: 0 100px; */
     padding: 0;
     font: normal 16px/1.5 Montserrat, sans-serif;
-    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
-
 }
