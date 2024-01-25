@@ -1,0 +1,37 @@
+/* COMMON */
+.team {
+    text-align: center;
+}
+
+/* end of COMMON */
+
+/* TITLE */
+
+.team__title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* end of TITLE */
+
+/* MEMBERS */
+
+.team__members {
+    display: flex;
+    justify-content: center;
+}
+
+/* end of MEMBERS */
+
+/* ICONS */
+
+.team__members--icons {
+    display: flex;
+    justify-content: center;
+}
+
+.team__members--icon {
+    color: black;
+}
+
+/* end of ICONS */
