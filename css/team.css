@@ -1,37 +1,49 @@
-/* COMMON */
+
 .team {
     text-align: center;
 }
 
-/* end of COMMON */
-
-/* TITLE */
-
 .team__title {
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 1.4em;
+    font-weight: 200;
+    padding: 70px 0;
 }
-
-/* end of TITLE */
-
-/* MEMBERS */
 
 .team__members {
     display: flex;
     justify-content: center;
 }
 
-/* end of MEMBERS */
+.team__member > img {
+    width: 90px;
+    padding-bottom: 20px;
+}
 
-/* ICONS */
+.team__members > div {
+    width: 230px;
+}
+.item__function {
+    font-size: 0.8em;
+    font-weight: 100;
+    padding: 6px;
+}
+
+.item__description {
+    font-size: 0.6em;
+    font-weight: 100;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
 
 .team__members--icons {
     display: flex;
     justify-content: center;
 }
 
+/* Nie zmienia się kolor ikony na czarny */
 .team__members--icon {
+    width: 7px;
+    margin: 0 5px;
+    padding-bottom: 100px;
     color: black;
 }
-
-/* end of ICONS */
