@@ -19,13 +19,14 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- BEM: Czy dla bloku header, w ktorym jest kilka poziomów, to klasy wewnątrz wielu poziomów mają header__element czy powtarzamy po klasie z poprzedniego poziomu? -->
     <header class="header">
         <div class="header__container-1">
             <div class="header__logo">
                 <img src="./images/logo.svg" alt="header_logo">
             </div>
             <div class="header__nav">
-                <ul class="nav__items">
+                <ul class="nav__item-list">
                     <li class="nav__item">The team</li>
                     <li class="nav__item">Pricing</li>
                     <li class="nav__item">Features</li>
@@ -35,7 +36,7 @@
         <div class="header__container-2">
             <div class="header__description">
                 <p class="header__title">Beautiful Free Nova template</p>
-                <p>A top notch premium quality template for your next web project</p>
+                <p class="header__text">A top notch premium quality template for your next web project.</p>
                 <button class="header__btn">Download FREE!</button>
             </div>
             <div class="header__img">
@@ -92,7 +93,7 @@
             <p>CHOOSE YOUR PRICING PLAN</p>
             <P>Pick any of our affordable pricing plans.</P>
         </div>
-        <div class="pricing__plans">
+        <div class="pricing__plans item">
             <div>
                 <p>BASIC</p>
                 <p>$15</p>
@@ -167,7 +168,7 @@
             <p class="footer__description">A free template by</p>
             <img class="footer__logo" src="./images/webscope.svg" alt="webscope-logo"></img>
         </div>
-        <div footer__icons>
+        <div class="footer__icons">
             <img class="footer__icon" src="./images/twitter.svg" alt="facebook-logo">
             <img class="footer__icon" src="./images/facebook.svg" alt="facebook-logo">
         </div>

@@ -1,83 +1,93 @@
 /* COMMON */
+
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     color: white;
-    /* margin: 0 100px; */
+    margin: 0;
+    padding: 0;
 }
 
-/* nie działają dwa ponisze */
-.header__logo, .header__container-1 {
-    margin: 3px 3px 0px 100px;
-}
-
-.nav__items, .header__container-2 {
-    margin: 3px 100px 0px 3px;
+.header__container-1, .header__container-2 {
+    margin: 0 160px;
 }
 
 /* end of COMMON */
 
-/* NAVIGATION */
-.nav__items {
+/* CONTAINER-1 */
+
+.header__container-1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-top: 3px;
+    padding: 6px 0;
+    width: 14vh;
+}
+
+.nav__item-list {
     display: flex;
     justify-content: flex-end;
 }
 
 .nav__item {
     margin: 3px;
-    padding: 6px 3px 6px 1px;
+    padding: 6px 3px;
+    font-size: 0.7em;
 }
 
-.header__logo {
-    padding-top: 6px;
-    padding-bottom: 3px;
-    padding-left: 0;
-    padding-right: 3px;
-}
-/* end of NAVIGATION */
+/* end of CONTAINER-1 */
 
-/* main part of HEADER */
-.header__container-1 {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 3px;
-}
+/* CONTAINER-2 */
 
 .header__container-2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
-}
-
-/* display: inline-block aby działał transform */
-/* jak nadać białą ramkę do obrazka? border nie działa*/
-.header__img {
-    transform: rotate(-6deg);
-    display: inline-block;
-    margin: 20px;
-    width: 500px;
-    /* border: 10px white;
-    border-radius: 5%; */
+    padding: 50px 0;
+    padding-bottom: 120px;
 }
 
 .header__description {
-    margin: 20px;
+    grid-column: span 2;
+}
+
+.header__title, .header__text {
+    margin: 20px 0;
+}
+/* nalezy zlikwidować odstęp między obrazkiem i obramowaniem */
+.header__img {
+    grid-column: span 3;
+    justify-self: flex-end;
+    transform: rotate(-6deg);
+    display: inline-block;
+    
+
+    width: 85vh;
+    border: 15px solid white;
+    border-radius: 5%;
+
 }
 
 .header__btn {
-    background-color: #99F7C5;
+    background-color: #59fea6;
     color: white;
     border: 0;
-    padding: 10px;
-    border-radius: 5%;
-    margin: 10px;
+    border-radius: 7px;
+    width: 170px;
+    padding: 15px 10px;
+    font-size: 0.7em;
 }
 
-.header__description > p {
-    margin: 10px;
+.header__text {
     width: 80%;
+    font-size: 0.8em;
+    line-height: 1.5;
 }
-/* nie działa */
+
 .header__title {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.5em;
 }
-/* end of main part of HEADER  */

@@ -21,6 +21,6 @@
 }
 
 /* Nie działa przesunięcie do prawej */
-.footer__icon {
-    /* text-align: end; */
+.footer__icons {
+    text-align: right;
 }
