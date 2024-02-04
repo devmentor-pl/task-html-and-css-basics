@@ -1,23 +1,20 @@
-/* COMMON */
 
 .pricing {
     text-align: center;
     background-color: #F8F9F9
 }
 
-/* end of COMMON */
-
-/* TITLE */
-
 .pricing__title {
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 1.4em;
+    font-weight: 200;
+    padding-top: 40px;
 }
 
-
-/* end of TITLE */
-
-/* PLANS */
+.pricing__text {
+    font-size: 0.8em;
+    font-weight: 200;
+    padding: 15px 0;
+}
 
 .pricing__plans {
     display: flex;
@@ -25,15 +22,57 @@
 }
 
 .pricing__plans > div {
-    margin: 20px;
-    padding: 20px;
-    width: 300px;
-    
+    margin: 20px 10px;
+    padding: 20px 10px;
+    width: 230px;  
 }
 
-.pricing__btn {
+.item__name {
+    font-size: 0.8em;
+    padding-bottom: 6px;
+}
+
+.item__price {
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+.item__period {
+    font-size: 0.6em;
+    padding-bottom: 20px;
+}
+
+.item__text-1, .item__text-2, .item__text-3, .item__text-4, .item__text-5 {
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+.pricing__btn-list {
+    display: flex;
+    justify-content: center;
+}
+.pricing__btn-list div {
+    margin: 0 10px 40px;
+    padding: 0 10px 40px;
+    width: 230px; 
+}
+
+/* OBRAMOWANIE nie działa */
+/* .pricing__btn--framed {
+    background-color: white
+} */
+
+.btn-1, .btn-2, .btn-3 {
     background-color: #58D5F7;
     color: white;
+    border: 0;
+    border-radius: 7px;
+    width: 120px;
+    padding: 15px 10px;
+    font-size: 0.7em;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
-/* end of PLANS */
+
