@@ -1,11 +1,9 @@
-/* Nie działa wyśrodkowanie w pionie */
-
 .footer {
     background-color: #464646;
     color: white;
     text-align: center;
-    /* vertical-align: middle; */
-    height: 100px;
+    height: 60px;
+    padding: 20px 0;
 }
 
 .footer__panel {
@@ -13,14 +11,10 @@
     justify-content: center;
 }
 .footer__description {
-    font-size: 12px;
+    font-size: 0.6em;
+    padding-right: 10px;
 }
 
 .footer__logo {
-    font-size: 15px;
-}
-
-/* Nie działa przesunięcie do prawej */
-.footer__icons {
-    text-align: right;
+    width: 65px;
 }
