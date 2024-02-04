@@ -20,9 +20,9 @@
     padding-bottom: 40px;
 }
 
-/* FONT-SIZE nie działa */
 .imac__text {
-    font-size: 20px;
+    font-size: 11px;
+    font-weight: 200;
     padding-bottom: 10px;
-    line-height: 1.5em;
+    line-height: 2em;
 }
