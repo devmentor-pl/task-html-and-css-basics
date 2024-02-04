@@ -5,16 +5,24 @@
     margin: 50px;
 } 
 
-.imac__title {
-    font-weight: bold;
-    font-size: 20px;
-}
-
 .imac__img {
     width: 800px;
 }
 
 .imac__description {
-    width: 800px;
-    margin-right: 200px;
+    width: 70%;
+    padding: 20px 100px;
+}
+
+.imac__title {
+    font-size: 1.4em;
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+
+/* FONT-SIZE nie działa */
+.imac__text {
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 1.5em;
 }
