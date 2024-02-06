@@ -57,18 +57,18 @@
 .header__title, .header__text {
     margin: 20px 0;
 }
-/* nalezy zlikwidować odstęp między obrazkiem i obramowaniem */
+
 .header__img {
     grid-column: span 3;
     justify-self: flex-end;
     transform: rotate(-6deg);
+    /* img jest elementem liniowym, dlatego stosujemy inline-block, aby transform zadziałał */
     display: inline-block;
     
-
     width: 85vh;
     border: 15px solid white;
     border-radius: 5%;
-
+    background-color: white;
 }
 
 .header__btn {
