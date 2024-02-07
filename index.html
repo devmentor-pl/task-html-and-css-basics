@@ -8,13 +8,74 @@
         content="width=device-width, initial-scale=1.0"
     />
     <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    />
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <link
+        rel="stylesheet"
+        href="./css/normalize.css"
+    />
+
+    <link
         rel="stylesheet"
         href="./css/style.css"
-    >
+    />
+
     <title>HTML & CSS Project</title>
 </head>
 
 <body>
+
+    <header class="header">
+
+        <section class="header__container container">
+            <img
+                class="header__logo"
+                src="./images/logo.svg"
+                alt="nova logo"
+            />
+            <nav class="nav">
+                <ul class="nav__items">
+                    <li class="nav__item"><a
+                            class="nav__link"
+                            href="#team"
+                        >The Team</a></li>
+                    <li class="nav__item"><a
+                            class="nav__link"
+                            href="#pricing"
+                        >Pricing</a></li>
+                    <li class="nav__item"><a
+                            class="nav__link"
+                            href="#features"
+                        >Features</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="hero container">
+            <article class="hero__info">
+                <h1 class="hero__header">Beautiful Free Nova template</h1>
+                <p class="hero__description">A top notch premium quality template for your next web project.</p>
+                <button class="cta-button">Download <span class="cta-button-uppercase">free</span>!</button>
+            </article>
+            <div class="hero__image-container">
+                <div class="hero__image">
+                </div>
+            </div>
+        </section>
+
+
+    </header>
 
 </body>
 
