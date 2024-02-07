@@ -1,20 +1,92 @@
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+SEKCJA NOTATEK - usuń po napisaniu README :)
+funkcjonalności programu
+problemy i ich rozwiązania + fragmenty kodu
+fragment kodu
 
-&nbsp;
+większy fragment kodu
+materiały, które pomogły Ci uzyskać dany efekt
+reużywalne części projektu
+narzędzia, frameworki, biblioteki
+niezbędne paczki i komendy do uruchomienia projektu
+wtyczki – rozszerzenia do przeglądarki czy do IDE
+inspiracje
+wnioski, pomysły na rozwój projektu
+ 
+
+Koniec sekcji notatek. Poniżej znajdziesz szablon właściwego README.
+screen or GIF of your app
+
+Project Name
+See the live version of Project Name.
+
+1-3 sentences about the project...
+
+Main features:
+
+one
+two
+three
+ 
+
+💡 Technologies
+HTML5 CSS3 JavaScript
+
+ 
+
+🔗 See also
+Are you interested in techonologyName and technologyName? See my other project Interesting Project Name.
+
+ 
+
+💿 Installation
+The project uses node and npm. Having them installed, type into the terminal: npm i.
+
+ 
+
+🤔 Solutions provided in the project
+one
+ 
+
+two:
+some example code
+
+more code :)
+ 
+
+three
+Issue	Solution	
+one	short code example	
+two	short code example	
+thre	short code example	
+ 
+
+four - some shortcut Ctrl + C
+ 
+
+five - example with a screenshot
+what it is
+
+ 
+
+💭 Conclusions for future projects
+I would like to improve...
+
+This is the first issue:
+and this is a code example
+This is the second issue:
+and this is a code example
+ 
+
+🙋‍♂️ Feel free to contact me
+Write sth nice ;) Find me on...
+
+ 
+
+👏 Thanks / Special thanks / Credits
+Thanks to my Mentor - devmentor.pl – for providing me with this task and for code review.
 
 
-# HTML & CSS: Podstawy
-
-Najwyższy czas zakodować prawdziwą stronę internetową! 
-
-Będziemy się wzorować na projekcie od [Webscope](https://themewagon.com/themes/project-app-showasing-onepage-bootstrap-template-free-nova/), który wygląda tak:
-
-![](./assets/demo.png)
-
-&nbsp;
-
+OD DEVMENTOR:
 ## Opis projektu
 
 Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m.in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). W VS Code ich podgląd uzyskasz dzięki rozszerzeniu [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg).
