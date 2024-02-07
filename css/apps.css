@@ -1,0 +1,8 @@
+.apps {
+    background-color: #F9FAFA;
+    text-align: center; 
+}
+
+.apps__item {
+    padding: 20px 300px;
+}

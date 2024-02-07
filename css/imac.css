@@ -1,0 +1,28 @@
+.imac {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 50px;
+} 
+
+.imac__img {
+    width: 800px;
+}
+
+.imac__description {
+    width: 70%;
+    padding: 20px 100px;
+}
+
+.imac__title {
+    font-size: 1.4em;
+    font-weight: 200;
+    padding-bottom: 40px;
+}
+
+.imac__text {
+    font-size: 11px;
+    font-weight: 200;
+    padding-bottom: 10px;
+    line-height: 2em;
+}

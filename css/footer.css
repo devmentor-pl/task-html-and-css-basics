@@ -1,0 +1,20 @@
+.footer {
+    background-color: #464646;
+    color: white;
+    text-align: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.footer__panel {
+    display: flex;
+    justify-content: center;
+}
+.footer__description {
+    font-size: 0.6em;
+    padding-right: 10px;
+}
+
+.footer__logo {
+    width: 65px;
+}
