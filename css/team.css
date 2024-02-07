@@ -14,7 +14,7 @@
     justify-content: center;
 }
 
-.team__member > img {
+.team__member > .item__img {
     width: 90px;
     padding-bottom: 20px;
 }
@@ -40,7 +40,6 @@
     justify-content: center;
 }
 
-/* Nie zmienia się kolor ikony na czarny */
 .team__members--icon {
     width: 7px;
     margin: 0 5px;
