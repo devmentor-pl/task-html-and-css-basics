@@ -73,7 +73,7 @@ html, body {
     color: rgb(255, 255, 255);
     line-height: 1.8rem;
     padding: 0.5rem 0;
-    width: 15rem;
+    max-width: 15rem;
 }
 
 .hero__info {
@@ -191,3 +191,39 @@ html, body {
 }
 
 /* END OF FEATURES */
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about__image {
+    flex-basis: 60%;
+    max-width: 45%;
+    height: auto;
+    padding: 3rem;
+}
+
+.about__info {
+    flex-basis: 40%;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.about__header {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2rem;
+    padding: 1.5rem 0;
+}
+
+.about__text {
+    color: rgba(0, 0, 0, 0.432);
+    font-size: 1rem;
+    max-width: 27rem;
+    line-height: 2rem;
+}
+
+/* END OF ABOUT */
