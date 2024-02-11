@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="upper-menu">
         <div class="container">
             <div class="img__header"></div>
             <div class="navigation">
@@ -28,7 +28,10 @@
                         class="nav_links"
                         class="nav_link-item"
                     >
-                        <a href="./#features" class="nav_link-item">
+                        <a
+                            href="./#features"
+                            class="nav_link-item"
+                        >
                             <li class="nav_link">Features</li>
                         </a>
                         <a
@@ -67,51 +70,60 @@
             id="features"
             class="features"
         >
-            <p class="features--header">FEATURES</p>
-            <div class="feature--container">
-                <div class="feature">
-                    <div class="feature-img-container">
-                        <div class="feature-img feature-img-left"></div>
+            <div class="features-container">
+                <p class="features--header">FEATURES</p>
+                <div class="feature--container">
+                    <div class="feature">
+                        <div class="feature-img-container">
+                            <div class="feature-img feature-img-left"></div>
+                        </div>
+                        <p class="feature--header">FULLY RESPONSIVE</p>
+                        <p class="feature--text">Looks amazing on any device: </br> smartphone, tablet, laptop and </br>
+                            desktop</p>
                     </div>
-                    <p class="feature--header">FULLY RESPONSIVE</p>
-                    <p class="feature--text">Looks amazing on any device: </br> smartphone, tablet, laptop and </br>
-                        desktop</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-img-container">
-                        <div class="feature-img feature-img-middle"></div>
+                    <div class="feature">
+                        <div class="feature-img-container">
+                            <div class="feature-img feature-img-middle"></div>
+                        </div>
+                        <p class="feature--header">CUSTOMIZABLE</p>
+                        <p class="feature--text">Change the colors, pictures or </br> any of the sections to suit your
+                            </br>
+                            needs.
+                        </p>
                     </div>
-                    <p class="feature--header">CUSTOMIZABLE</p>
-                    <p class="feature--text">Change the colors, pictures or </br> any of the sections to suit your </br>
-                        needs.
-                    </p>
-                </div>
-                <div class="feature">
-                    <div class="feature-img-container">
-                        <div class="feature-img feature-img-right"></div>
+                    <div class="feature">
+                        <div class="feature-img-container">
+                            <div class="feature-img feature-img-right"></div>
+                        </div>
+                        <p class="feature--header">SLICK AND BEAUTIFUL DESIGN</p>
+                        <p class="feature--text">Trendy and fresh design, </br> fits any website.</p>
                     </div>
-                    <p class="feature--header">SLICK AND BEAUTIFUL DESIGN</p>
-                    <p class="feature--text">Trendy and fresh design, </br> fits any website.</p>
                 </div>
             </div>
         </section>
         <section class="clients">
-            <div class="clients--logo"></div>
+            <div class="clients-container">
+                <div class="clients--logo"></div>
+            </div>
         </section>
         <section class="simple">
-            <div class="simple--img"></div>
             <div class="simple--container">
-                <p class="simple--header">SIMPLE AND BEAUTIFUL</>
-                <p class="simple--paragraph">Use Nova theme for your next web project. It is completely customizable so
-                    you can change any of the
-                    sections to fit your needs. Nova Theme is Free for any kind o use, personal and commercial. Have fun
-                    and good luck!</p>
+                <div class="simple--img-div">
+                    <div class="simple--img"></div>
+                </div>
+                <div class="simple-text">
+                    <p class="simple--header">SIMPLE AND BEAUTIFUL</p>
+                    <p class="simple--paragraph">Use Nova theme for your next web project. It is completely customizable
+                        so you can change any of the sections to fit your needs. Nova Theme is Free for any kind o use, personal and commercial. Have
+                        fun and good luck!</p>
+                </div>
             </div>
         </section>
         <section
             id="pricings"
             class="pricings"
         >
+        <div class="pricing-container">
             <div class="pricing--top">
                 <p class="pricing-top--header">CHOOSE YOUR PRICING PLAN</p>
                 <p class="pricing-top-paragraph">Pick any of our supper affordable pricing plans</p>
@@ -141,46 +153,49 @@
                     <button class="pricing-tier-button">Get Started</button>
                 </div>
             </div>
+        </div>
         </section>
         <section
             id="team"
             class="team"
         >
-            <div class="team-header">
-                <p class="team-header--paragraph">THE TEAM</p>
-            </div>
-            <div class="team-members">
-                <div class="team-member">
-                    <div class="team-member-photo team-member-photo-left"></div>
-                    <p class="team-member-role">CTO</p>
-                    <h3 class="team-member--header">Johny B Good</h3>
-                    <p>The brains behind the whole operation</p>
-                    <div class="team-member-icons">
-                        <div class="team-member-icon team-member-icon--twitter"></div>
-                        <div class="team-member-icon team-member-icon--facebook"></div>
+            <div class="team-container">
+                <div class="team-header">
+                    <p class="team-header--paragraph">THE TEAM</p>
+                </div>
+                <div class="team-members">
+                    <div class="team-member">
+                        <div class="team-member-photo team-member-photo-left"></div>
+                        <p class="team-member-role">CTO</p>
+                        <h3 class="team-member--header">Johny B Good</h3>
+                        <p>The brains behind the whole operation</p>
+                        <div class="team-member-icons">
+                            <div class="team-member-icon team-member-icon--twitter"></div>
+                            <div class="team-member-icon team-member-icon--facebook"></div>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member-photo team-member-photo-middle"></div>
+                        <p class="team-member-role">CEO</p>
+                        <h3 class="team-member--header">Roll Over Beethoven</h3>
+                        <p>The one that puts it all together</p>
+                        <div class="team-member-icons">
+                            <div class="team-member-icon team-member-icon--twitter"></div>
+                            <div class="team-member-icon team-member-icon--facebook"></div>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-member-photo team-member-photo-right"></div>
+                        <p class="team-member-role">CFO</p>
+                        <h3 class="team-member--header">Chuck Berry</h3>
+                        <p>The guy with his hand on the wallet</p>
+                        <div class="team-member-icons">
+                            <div class="team-member-icon team-member-icon--twitter"></div>
+                            <div class="team-member-icon team-member-icon--facebook"></div>
+                        </div>
                     </div>
                 </div>
-                <div class="team-member">
-                    <div class="team-member-photo team-member-photo-middle"></div>
-                    <p class="team-member-role">CEO</p>
-                    <h3 class="team-member--header">Roll Over Beethoven</h3>
-                    <p>The one that puts it all together</p>
-                    <div class="team-member-icons">
-                        <div class="team-member-icon team-member-icon--twitter"></div>
-                        <div class="team-member-icon team-member-icon--facebook"></div>
-                    </div>
-                </div>
-                <div class="team-member">
-                    <div class="team-member-photo team-member-photo-right"></div>
-                    <p class="team-member-role">CFO</p>
-                    <h3 class="team-member--header">Chuck Berry</h3>
-                    <p>The guy with his hand on the wallet</p>
-                    <div class="team-member-icons">
-                        <div class="team-member-icon team-member-icon--twitter"></div>
-                        <div class="team-member-icon team-member-icon--facebook"></div>
-                    </div>
-                </div>
-            </div>
+            </div>     
         </section>
     </main>
     <footer>
