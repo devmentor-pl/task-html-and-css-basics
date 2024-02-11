@@ -272,6 +272,7 @@ html, body {
     text-align: center;
     padding: 2rem;
     transition: all .5s ease-in-out;
+    list-style-type: none;
 }
 
 .pricing-card:hover {
