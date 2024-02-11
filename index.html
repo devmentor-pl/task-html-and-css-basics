@@ -45,7 +45,7 @@
                 alt="nova logo"
             />
             <nav class="nav">
-                <ul class="nav__items">
+                <ul class="nav__list">
                     <li class="nav__item"><a
                             class="nav__link"
                             href="#team"
@@ -83,36 +83,36 @@
 
         <h2 class="features__header">features</h2>
 
-        <ul class="features__container container">
-            <li class="feature">
+        <ul class="features__list container">
+            <li class="features__item">
                 <img
-                    class="feature__icon"
+                    class="features__icon"
                     src="./images/responsive.svg"
                     alt="mobile phone icon"
                 />
-                <h4 class="feature__name">fully responsive</h4>
-                <p class="feature__description">Looks amazing on any device: smartphone, tablet, laptop and desktop</p>
+                <h4 class="features__name">fully responsive</h4>
+                <p class="features__description">Looks amazing on any device: smartphone, tablet, laptop and desktop</p>
             </li>
 
-            <li class="feature">
+            <li class="features__item">
                 <img
-                    class="feature__icon"
+                    class="features__icon"
                     src="./images/customizable.svg"
                     alt="settings icon"
                 />
-                <h4 class="feature__name">customizable</h4>
-                <p class="feature__description">Charge the colors, pictures or any of the sections to suit your needs
+                <h4 class="features__name">customizable</h4>
+                <p class="features__description">Charge the colors, pictures or any of the sections to suit your needs
                 </p>
             </li>
 
-            <li class="feature">
+            <li class="features__item">
                 <img
-                    class="feature__icon"
+                    class="features__icon"
                     src="./images/design.svg"
                     alt="design icon"
                 />
-                <h4 class="feature__name">slick and beautiful design</h4>
-                <p class="feature__description">Trendy and fresh design, fits any website</p>
+                <h4 class="features__name">slick and beautiful design</h4>
+                <p class="features__description">Trendy and fresh design, fits any website</p>
             </li>
         </ul>
 
@@ -149,7 +149,7 @@
         id="pricing"
     >
         <div class="pricing__content container">
-            <header class="pricing__headers">
+            <header class="pricing__header-container">
                 <h2 class="pricing__header">
                     choose your pricing plan
                 </h2>
@@ -168,11 +168,11 @@
                     <p class="pricing-card__month">
                         per month
                     </p>
-                    <ul class="pricing-card__features">
-                        <li class="pricing-card__feature">
+                    <ul class="pricing-card__feature-list">
+                        <li class="pricing-card__feature-item">
                             Up to 7 Projects
                         </li>
-                        <li class="pricing-card__feature">
+                        <li class="pricing-card__feature-item">
                             2 Additional Developers
                         </li>
                         <li class="pricing-card__feature-hidden"></li>
@@ -193,14 +193,14 @@
                     <p class="pricing-card__month">
                         per month
                     </p>
-                    <ul class="pricing-card__features">
-                        <li class="pricing-card__feature">
+                    <ul class="pricing-card__feature-list">
+                        <li class="pricing-card__feature-item">
                             Up to 25 Projects
                         </li>
-                        <li class="pricing-card__feature">
+                        <li class="pricing-card__feature-item">
                             2 Additional Developers
                         </li>
-                        <li class="pricing-card__feature">
+                        <li class="pricing-card__feature-item">
                             Unlimited Support
                         </li>
                         <li class="pricing-card__feature-hidden">
@@ -221,17 +221,17 @@
                     <p class="pricing-card__month">
                         per month
                     </p>
-                    <ul class="pricing-card__features">
-                        <li class="pricing-card__feature">
+                    <ul class="pricing-card__feature-list">
+                        <li class="pricing-card__feature-item">
                             Up to 25 Projects
                         </li>
-                        <li class="pricing-card__feature">
+                        <li class="pricing-card__feature-item">
                             2 Additional Developers
                         </li>
-                        <li class="pricing-card__feature">
+                        <li class="pricing-card__feature-item">
                             Unlimited Support
                         </li>
-                        <li class="pricing-card__feature">
+                        <li class="pricing-card__feature-item">
                             1.5GB Disc Space
                         </li>
                     </ul>
@@ -257,44 +257,52 @@
                     src="./images/cto.png"
                     alt="avatar"
                 />
-                 <h2 class="member__function">cto</h2>
+                <h2 class="member__function">cto</h2>
                 <h3 class="member__fullname">Johnny B Good</h3>
                 <p class="member__text">The brains behind the whole operation</p>
-                <div class="social-icons">
-                    <img
-                        class="member__social-icon"
-                        src="./images/team-twitter.svg"
-                        alt="twitter icon"
-                    />
-                    <img
-                        class="member__social-icon"
-                        src="./images/team-facebook.svg"
-                        alt="facebook icon"
-                    />
-                </div>
+                <ul class="member__social-icon-list">
+                    <li class="member__social-icon-item">
+                        <img
+                            class="member__social-icon-image"
+                            src="./images/team-twitter.svg"
+                            alt="twitter icon"
+                        />
+                    </li>
+                    <li class="member__social-icon-item">
+                        <img
+                            class="member__social-icon-image"
+                            src="./images/team-facebook.svg"
+                            alt="facebook icon"
+                        />
+                    </li>
+                </ul>
             </div>
 
             <div class="member">
                 <img
-                     class="member__avatar"
+                    class="member__avatar"
                     src="./images/ceo.png"
                     alt="avatar"
                 />
                 <h2 class="member__function">ceo</h2>
                 <h3 class="member__fullname">Roll Over Beethoven</h3>
                 <p class="member__text">The one that puts it all together</p>
-                 <div class="social-icons">
-                    <img
-                        class="member__social-icon"
-                        src="./images/team-twitter.svg"
-                         alt="twitter icon"
-                    />
-                    <img
-                        class="team__social-icon"
-                        src="./images/team-facebook.svg"
-                        alt="facebook icon"
-                    />
-                </div>
+                <ul class="member__social-icon-list">
+                    <li class="member__social-icon-item">
+                        <img
+                            class="member__social-icon-image"
+                            src="./images/team-twitter.svg"
+                            alt="twitter icon"
+                        />
+                    </li>
+                    <li class="member__social-icon-item">
+                        <img
+                            class="member__social-icon-image"
+                            src="./images/team-facebook.svg"
+                            alt="facebook icon"
+                        />
+                    </li>
+                </ul>
             </div>
 
             <div class="member">
@@ -306,27 +314,35 @@
                 <h2 class="member__function">cfo</h2>
                 <h3 class="member__fullname">Chuck Berry</h3>
                 <p class="member__text">The guy with his hand on the wallet</p>
-                <div class="social-icons">
-                    <img
-                        class="member__social-icon"
-                        src="./images/team-twitter.svg"
-                        alt="twitter icon"
-                    />
-                    <img
-                         class="team__social-icon"
-                        src="./images/team-facebook.svg"
-                        alt="facebook icon"
-                    />
+                <div class="member__social-icon-list">
+                    <li class="member__social-icon-item">
+                        <img
+                            class="member__social-icon-image"
+                            src="./images/team-twitter.svg"
+                            alt="twitter icon"
+                        />
+                    </li>
+                    <li class="member__social-icon-item">
+                        <img
+                            class="member__social-icon-image"
+                            src="./images/team-facebook.svg"
+                            alt="facebook icon"
+                        />
+                    </li>
                 </div>
             </div>
 
-            </div>
+        </div>
         </div>
     </section>
 
     <footer class="footer">
         <p class="footer__text">A free template by</p>
-        <img class="footer__icon" src="./images/webscope.svg" alt="webscope icon">
+        <img
+            class="footer__icon"
+            src="./images/webscope.svg"
+            alt="webscope icon"
+        >
     </footer>
 </body>
 
