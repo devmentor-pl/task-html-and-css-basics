@@ -292,11 +292,18 @@ html, body {
 .pricing-card__name {
     text-transform: uppercase;
     font-weight: 300;
+    margin-block-start: 0;
+    margin-block-end: 0.8rem;
 }
 
 .pricing-card__price {
     font-weight: 700;
     font-size: 3rem;
+    margin-block-start: 0;
+    margin-block-end: 0.8rem;
+}
+
+.pricing-card__month {
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -326,6 +333,7 @@ html, body {
     font-weight: 500;
     min-width: 180px;
     padding: 1rem 2.5rem;
+    margin-top: 2.5rem;
     transition: background-color .5s ease-in-out;
 }
 
