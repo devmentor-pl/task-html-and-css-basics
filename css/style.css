@@ -366,7 +366,7 @@ html, body {
     padding: 4rem;
 }
 
-.team-panel {
+.team__member {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,23 +374,23 @@ html, body {
     gap: 2rem;
 }
 
-.team-card {
+.member {
     flex-basis: 33.33333%;
     height: 28rem;
 }
 
-.team__function {
+.member__function {
     text-transform: uppercase;
     font-weight: 300;
     margin-top: 2rem;
 }
 
 
-.team__fullname {
+.member__fullname {
     font-weight: 700;
 }
 
-.team__social-icon {
+.member__social-icon {
     margin-right: 1rem;
 }
 
