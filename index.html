@@ -29,7 +29,7 @@
 
 <body>
 
-    <header class="header row">
+    <header class="header">
 
         <div class="header__container container">
 
@@ -43,9 +43,15 @@
 
             <nav class="header__nav">
                 <ul class="nav__links">
-                    <a href="./#team"><li class="nav__link-item">The Team</li></a>
-                    <a href="./#pricing"><li class="nav__link-item">Pricing</li></a>
-                    <a href="./#features"><li class="nav__link-item">Features</li></a>
+                    <a href="./#team">
+                        <li class="nav__link-item">The Team</li>
+                    </a>
+                    <a href="./#pricing">
+                        <li class="nav__link-item">Pricing</li>
+                    </a>
+                    <a href="./#features">
+                        <li class="nav__link-item">Features</li>
+                    </a>
                 </ul>
             </nav>
 
@@ -60,7 +66,11 @@
             </div>
 
             <div class="hero-image__container">
-                <img class="hero-image white-border" src="./images/screen.png" alt="">
+                <img
+                    class="hero-image"
+                    src="./images/screen.png"
+                    alt=""
+                >
             </div>
 
         </div>
@@ -70,56 +80,65 @@
     <main>
 
         <section
-            class="features row"
+            class="features"
             id="features"
         >
 
-            <div class="features__headline container title">
-                <h2>FEATURES</h2>
+            <div class="features__headline container">
+                <h2 class="features__title title">FEATURES</h2>
             </div>
 
             <div class="features-list container">
                 <div class="feature">
-                    <img
-                        class="feature__icon"
-                        src="./images/responsive.svg"
-                        alt="Responsive icon"
-                    >
-                    <h4>FULLY RESPONSIVE</h4>
-                    <p>Looks amazing on any device: smartphone, tablet, laptop and desktop. </p>
+                    <div class="icon__container">
+                        <img
+                            class="feature__icon"
+                            src="./images/responsive.svg"
+                            alt="Responsive icon"
+                        >
+                    </div>
+                    <h4 class="feature__title">FULLY RESPONSIVE</h4>
+                    <p class="feature__description">Looks amazing on any device: smartphone, tablet, laptop and desktop.
+                    </p>
                 </div>
                 <div class="feature">
-                    <img
-                        class="feature__icon"
-                        src="./images/customizable.svg"
-                        alt="Customizable icon"
-                    >
-                    <h4>CUSTOMIZABLE</h4>
-                    <p>Change the colors, pictures or any of the sections to suit your needs.</p>
+                    <div class="icon__container">
+                        <img
+                            class="feature__icon"
+                            src="./images/customizable.svg"
+                            alt="Customizable icon"
+                        >
+                    </div>
+                    <h4 class="feature__title">CUSTOMIZABLE</h4>
+                    <p class="feature__description">Change the colors, pictures or any of the sections to suit your
+                        needs.</p>
                 </div>
                 <div class="feature">
-                    <img
-                        class="feature__icon"
-                        src="./images/design.svg"
-                        alt="Design icon"
-                    >
-                    <h4>SLICK AND BEAUTIFUL DESIGN</h4>
-                    <p>Trendy and fresh design, fits any website.</p>
+                    <div class="icon__container">
+                        <img
+                            class="feature__icon"
+                            src="./images/design.svg"
+                            alt="Design icon"
+                        >
+                    </div>
+                    <h4 class="feature__title">SLICK AND BEAUTIFUL DESIGN</h4>
+                    <p class="feature__description">Trendy and fresh design, fits any website.</p>
                 </div>
             </div>
 
         </section>
 
-        <section class="logos row">
+        <section class="logos">
             <div class="logos__container container">
                 <img
+                    class="logos__image"
                     src="./images/logos.png"
                     alt="Logos list image"
                 >
             </div>
         </section>
 
-        <section class="web-project row">
+        <section class="web-project">
             <div class="web-project__container-image">
                 <img
                     class="web-project__image"
@@ -129,7 +148,8 @@
             </div>
             <div class="web-project__container-text">
                 <h2 class="web-project__header title">SIMPLE AND BEAUTIFUL</h2>
-                <p class="web-project__description">Use Nova theme for your next web project. It is completely
+                <p class="web-project__description description">Use Nova theme for your next web project. It is
+                    completely
                     customizable so you can change any of the
                     sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial. Have
                     fun and good luck!</p>
@@ -137,13 +157,16 @@
         </section>
 
         <section
-            class="pricing-plan row"
+            class="pricing-plan-box"
             id="pricing"
         >
-            <div class="pricing-plan__header container">
-                <h2 class="pricing-plan__title title">CHOOSE YOUR PRICING PLAN</h2>
-                <p class="pricing-plan__description">Pick any of our super affordable pricing plans</p>
+            <div class="pricing-plan__container container">
+                <div class="pricing-plan__header">
+                    <h2 class="pricing-plan__title title">CHOOSE YOUR PRICING PLAN</h2>
+                    <p class="pricing-plan__description description">Pick any of our super affordable pricing plans</p>
+                </div>
             </div>
+
 
             <div class="pricing-plans container">
 
@@ -151,8 +174,10 @@
                     <p class="pricing-plan--version">BASIC</p>
                     <h3 class="pricing-plan--price">$15</h3>
                     <p class="pricing-plan--m">per month</p>
-                    <p class="pricing-plan--feature">Up to 7 Projects</p>
-                    <p class="pricing-plan--feature">2 Additional Developers</p>
+                    <div class="pricing-plan--feature__container">
+                        <p class="pricing-plan--feature">Up to 7 Projects</p>
+                        <p class="pricing-plan--feature">2 Additional Developers</p>
+                    </div>
                     <button class="cta-button pricing-button">Get Started</button>
                 </div>
 
@@ -160,9 +185,11 @@
                     <p class="pricing-plan--version">AGENCY</p>
                     <h3 class="pricing-plan--price">$55</h3>
                     <p class="pricing-plan--m">per month</p>
-                    <p class="pricing-plan--feature">Up to 25 Projects</p>
-                    <p class="pricing-plan--feature">2 Additional Developers</p>
-                    <p class="pricing-plan--feature">Unlimited Support</p>
+                    <div class="pricing-plan--feature__container">
+                        <p class="pricing-plan--feature">Up to 25 Projects</p>
+                        <p class="pricing-plan--feature">2 Additional Developers</p>
+                        <p class="pricing-plan--feature">Unlimited Support</p>
+                    </div>
                     <button class="cta-button pricing-button">Get Started</button>
                 </div>
 
@@ -170,10 +197,12 @@
                     <p class="pricing-plan--version">PRO</p>
                     <h3 class="pricing-plan--price">$75</h3>
                     <p class="pricing-plan--m">per month</p>
-                    <p class="pricing-plan--feature">Up to 25 Projects</p>
-                    <p class="pricing-plan--feature">2 Additional Developers</p>
-                    <p class="pricing-plan--feature">Unlimited Support</p>
-                    <p class="pricing-plan--feature">1.5GB Disk Space</p>
+                    <div class="pricing-plan--feature__container">
+                        <p class="pricing-plan--feature">Up to 25 Projects</p>
+                        <p class="pricing-plan--feature">2 Additional Developers</p>
+                        <p class="pricing-plan--feature">Unlimited Support</p>
+                        <p class="pricing-plan--feature">1.5GB Disk Space</p>
+                    </div>
                     <button class="cta-button pricing-button">Get Started</button>
                 </div>
 
@@ -182,7 +211,7 @@
         </section>
 
         <section
-            class="team row"
+            class="team"
             id="team"
         >
 
@@ -267,10 +296,14 @@
 
     </main>
 
-    <footer class="footer row">
+    <footer class="footer">
 
-        <p>A free template by</p>
-        <img src="./images/webscope.svg" alt="Webscope logo">
+        <p class="footer__text">A free template by</p>
+        <img
+            class="footer__image"
+            src="./images/webscope.svg"
+            alt="Webscope logo"
+        >
 
     </footer>
 

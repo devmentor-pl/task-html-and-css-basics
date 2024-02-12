@@ -1,12 +1,15 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
 }
+
+/* Header */
 
 .container {
     margin: 0 auto;
@@ -24,6 +27,10 @@ a {
     align-items: center;
     padding-top: 20px;
     margin-bottom: 50px;
+}
+
+.header__logo {
+    margin: 0;
 }
 
 .header__logo-image {
@@ -45,6 +52,11 @@ a {
     text-decoration: none;
     height: 50px;
     min-width: 100px;
+    transition: font-size 0.2s ease-in-out;
+}
+
+.nav__link-item:hover {
+    font-size: 1.1rem
 }
 
 .header__hero {
@@ -78,9 +90,13 @@ a {
     border-radius: 4px;
     color: white;
     cursor: pointer;
-    transition: background-color 0.2 ease-in-out;
-    font-family:'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #25c575;
 }
 
 .hero-image__container {
@@ -91,9 +107,187 @@ a {
 }
 
 .hero-image {
-    height: 350px;
+    height: 300px;
     transform: rotate(-5deg);
     border: 20px solid white;
     border-radius: 20px;
-    border-bottom: 70px solid white;
+    border-bottom: 90px solid white;
+    transition: height 0.5s ease-in-out;
+    background-color: white;
 }
+
+.hero-image:hover {
+    height: 310px;
+}
+
+/* Header end */
+
+/* Features */
+
+.features {
+    background-color: black;
+}
+
+.features__headline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.title {
+    color: rgb(28, 28, 28);
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+
+.features__title {
+    color: white;
+}
+
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature {
+    flex-basis: 33.333%;
+    padding: 1.5rem;
+    text-align: center;
+    height: 320px;
+    max-width: 240px;
+    margin-bottom: 50px;
+}
+
+.feature__title, .feature__description {
+    color: white;
+}
+
+.icon__container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Features end */
+
+/* Logos */
+
+.logos__container {
+    justify-content: center;
+    align-items: center;
+}
+
+.logos__image {
+    padding: 40px 0;
+}
+
+/* Logos end */
+
+/* Web Project */
+
+.web-project {
+    display: flex;
+    justify-content: center;
+}
+
+.web-project__container-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 55%;
+}
+
+.web-project__image {
+    height: 35rem;
+    padding: 5rem;
+}
+
+.web-project__container-text {
+    flex-basis: 45%;
+    padding: 5rem 2rem;
+}
+
+.description {
+    line-height: 1.75;
+    color: rgb(92, 92, 92);
+    font-size: 1.2rem;
+}
+
+.web-project__description {
+    padding-top: 20px;
+    max-width: 520px;
+}
+
+/* Web Project end */
+
+/* Pricing Plan */
+
+.pricing-plan__container {
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-plan__header {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.pricing-plan__title {
+    margin: 0;
+}
+
+.pricing-plans {
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.pricing-plan {
+   padding: 30px 60px; 
+   transition: box-shadow 0.2s ease-in-out;
+}
+
+.pricing-plan--version {
+    color: rgb(92, 92, 92);
+    font-size: 1.2rem;
+}
+
+.pricing-plan--price {
+    font-size: 3rem;
+    margin: 1rem 1rem;
+    font-weight: bolder;
+}
+
+.pricing-plan--feature__container {
+    height: 150px;
+}
+
+.pricing-plan--feature {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.pricing-button {
+    background-color: #0ABCEB;
+    border-radius: 0.7rem;
+    min-width: 180px;
+}
+
+.pricing-button:hover {
+    background-color: #06a9d6;
+}
+
+.pricing-plan:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* Pricing Plan end */
