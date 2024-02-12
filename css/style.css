@@ -85,9 +85,8 @@ html, body {
 }
 
 .hero__image-container {
-    flex-basis: 45%;
+    flex-basis: 50%;
     margin-right: 4rem;
-    min-width: 300px;
 }
 
 .hero__image {
@@ -96,13 +95,12 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 4rem solid rgb(255, 255, 255);
     border-radius: 1rem;
     border: 1rem solid rgb(255, 255, 255);
+    border-bottom: 4rem solid rgb(255, 255, 255);
     box-shadow: 2px 2px 20px 0 rgba(37, 37, 37, 0.502);
     height: 19rem;
     transform: rotate(-5deg);
-    width: 100%;
 }
 
 .cta-button {
@@ -206,7 +204,6 @@ html, body {
 
 .about__image {
     flex-basis: 60%;
-    height: auto;
     max-width: 45%;
     padding: 3rem;
 }
@@ -366,7 +363,7 @@ html, body {
     text-transform: uppercase;
 }
 
-.team__member {
+.team__members {
     align-items: center;
     display: flex;
     gap: 2rem;
@@ -379,7 +376,7 @@ html, body {
     height: 28rem;
 }
 
-.member__function {
+.member__position {
     font-weight: 300;
     margin-top: 2rem;
     text-transform: uppercase;
