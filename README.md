@@ -2,11 +2,11 @@
 # Nova landing page - html/css
 The landing page is a recreation of [Webscope's](https://themewagon.com/author/webscopeapp/) free template: [Nova](https://themewagon.com/themes/project-app-showasing-onepage-bootstrap-template-free-nova/)
 
-This is **the first** website project created through [devmentor.pl](https://devmentor.pl/mentoring-javascript) mentoring program. It's written in **html** and **css**. 
+This is **the first** website project and the conclusion of **2nd chapter** (there's **20**) of [devmentor.pl](https://devmentor.pl/mentoring-javascript) mentoring program. It's written in **html** and **css**. 
 
 Works only on **Desktop**.
 ## Problems and Solutions
-### Topics:
+### Content:
 1) Get used to [BEM](https://getbem.com/) methodology (I've just learned the idea).
 2) Use appropriate [BEM](https://getbem.com/) class naming.
 3) Properly implement [Montserrat](https://fonts.google.com/specimen/Montserrat) font.
