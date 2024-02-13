@@ -92,6 +92,7 @@ a {
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    font-weight: 600;
     transition: background-color 0.2s ease-in-out;
 }
 
@@ -138,7 +139,7 @@ a {
 .title {
     color: rgb(28, 28, 28);
     font-size: 2.2rem;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .features__title {
@@ -229,13 +230,18 @@ a {
 
 /* Pricing Plan */
 
+.pricing-plan-box {
+    background-color: #F8F9F9;
+}
+
 .pricing-plan__container {
     justify-content: center;
     align-items: center;
+    padding-top: 60px;
 }
 
 .pricing-plan__header {
-    padding-top: 60px;
+
     text-align: center;
 }
 
@@ -251,8 +257,9 @@ a {
 }
 
 .pricing-plan {
-   padding: 30px 60px; 
-   transition: box-shadow 0.2s ease-in-out;
+    padding: 30px 60px;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .pricing-plan--version {
@@ -271,8 +278,8 @@ a {
 }
 
 .pricing-plan--feature {
-    font-weight: bold;
     margin: 5px;
+    font-weight: 600;
 }
 
 .pricing-button {
@@ -287,7 +294,64 @@ a {
 
 .pricing-plan:hover {
     box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    background-color: white;
     cursor: pointer;
 }
 
 /* Pricing Plan end */
+
+/* Team */
+
+.team__header {
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.team__container {
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.team-member {
+    min-width: 310px;
+    height: 30rem;
+}
+
+.team-member--position {
+    color: rgb(92, 92, 92);
+    font-size: 1.2rem;
+}
+
+.social-media__icon {
+    padding: 7px;
+}
+
+.social-media__icon:hover {
+    cursor: pointer;
+}
+
+/* Team end */
+
+/* Footer */
+
+.footer {
+    background-color: #464646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+
+.footer__text {
+    color: white;
+    padding-right: 1rem;
+}
+
+.footer__image {
+    height: 2.2rem;
+    padding-top: 5px;
+}
+
+/* Footer end */
