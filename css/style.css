@@ -21,8 +21,8 @@ body {
 
 /* HEADER SECTION */
 .header__section {
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 110vh;
 	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 	background-size: cover;
 }
@@ -35,6 +35,7 @@ body {
 	justify-content: space-between;
 	padding: 10px 30px;
 	padding-top: 30px;
+	margin-bottom: 40px;
 }
 
 .menu__links {
@@ -59,8 +60,45 @@ body {
 
 .header__hero {
 	width: 1150px;
-    margin: 0 auto;
+	margin: 0 auto;
 	display: flex;
+	margin-bottom: 40px;
+	color: #fff;
+	align-items: center;
+}
+
+.header__hero-left {
+	width: 35%;
+}
+
+.hero-left-heading {
+	font-size: 2.2rem;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.hero-left-paragraph {
+	margin-bottom: 25px;
+}
+
+.hero-left-cta-button {
+	padding: 15px 50px;
+	color: #fff;
+	background-color: #25F18B;
+	border: none;
+	border-radius: 8px;
+}
+
+.hero-right-image {
+	height: 400px;;
+	display: block;
+	border: 15px solid #fff;
+	border-radius: 15px;
+	transform: rotate(-5deg);
+	background-color: #fff;
+	position: relative;
+	top: 40px;
+	right: -50px;
 }
 
 /* END OF HEADER SECTION */
