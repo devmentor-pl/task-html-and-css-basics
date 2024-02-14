@@ -1,0 +1,66 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* GENERAL */
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.section {
+	width: 100vw;
+}
+
+/* END OF GENERAL */
+
+/* HEADER SECTION */
+.header__section {
+	width: 100vw;
+	height: 100vh;
+	background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+	background-size: cover;
+}
+
+.header__navbar {
+	width: 1150px;
+	height: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 30px;
+	padding-top: 30px;
+}
+
+.menu__links {
+	display: flex;
+	width: 300px;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.menu__link {
+	text-decoration: none;
+}
+
+.menu__link-item {
+	font-size: 1rem;
+	color: #fff;
+}
+
+.nav-logo {
+	transform: scale(3);
+}
+
+.header__hero {
+	width: 1150px;
+    margin: 0 auto;
+	display: flex;
+}
+
+/* END OF HEADER SECTION */
