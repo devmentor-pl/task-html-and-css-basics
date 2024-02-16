@@ -1,45 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:opsz,wght@6..12,300;6..12,600;6..12,800&display=swap"
+        rel="stylesheet">
+    <title>HTML&CSS Project</title>
 </head>
+
 <body>
+
     <header class="header">
-        <section class="max-width main-section">
-            
+        <div class="section--max-width">
             <nav class="header__navbar">
                 <a href="#"><img src="/images/logo.svg" alt="logo"></a>
                 <ul>
-                    <li><a href="#">The Team</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Features</a></li>
+                    <li><a href="#nav-team">The Team</a></li>
+                    <li><a href="#nav-pricing">Pricing</a></li>
+                    <li><a href="#nav-features">Features</a></li>
                 </ul>
-             </nav>
-            </section>
-        <section class="header__product max-width">
-            <div class="product-info">
+            </nav>
+        </div>
+        <div class="header__hero section--max-width">
+            <div class="header__hero--info">
                 <h1>Beautiful Free Nova template</h1>
-                <p class="text-styling">A top notch premium quality template for your next web project.</p>
-                <button class="header__product-button">Download FREE!</button>
+                <p class="header__hero--text">A top notch premium quality template for your next web project.</p>
+                <button class="header__hero--button">Download FREE!</button>
             </div>
             <div>
-                <div class="screen-image">
-                 <a href="#"><img src="/images/screen.png" alt="screen" class="main-image"></a>
+                <div class="header__hero--image-container">
+                    <a href="#"><img src="/images/screen.png" alt="screen" class="header__hero--image"></a>
                 </div>
+            </div>
         </div>
-        </section>
     </header>
 
+    <section id="nav-features" class="features">
+        <div class="section--max-width">
+            <h2>FEATURES</h2>
+            <div class="features__details">
+                <div>
+                    <div class="features__details--flexbox">
+                        <div class=" features__img features__img--first"></div>
+                        <h4>FULLY RESPONSIVE</h4>
+                        <p class="features__details--text">Looks amazing on any device smartphone, tablet, laptop and
+                            desktop</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="features__details--flexbox">
+                        <div class=" features__img features__img--middle"></div>
+                        <h4>CUSTOMIZABLE</h4>
+                        <p class="features__details--text">Change the colours, pictures or any of the sections to suit
+                            your needs.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="features__details--flexbox">
+                        <div class=" features__img features__img--last"></div>
+                        <h4>SLICK AND BEAUTIFUL DESIGN</h4>
+                        <p class="features__details--text">Trendy and fresh designs, fits any website.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    
+    <section class="section-logos">
+        <a href="#"><img src="/images/logos.png" alt="" /></a>
+    </section>
+
+    <section class="section-simple">
+        <img src="/images/imac.png" alt="imac" />
+        <div class="section-simple--info">
+            <h2 class="section__header-margin">SIMPLE AND BEAUTIFUL</h2>
+            <p class="section__simple--text">Use Nova theme to your next web project. It is completely customizable so
+                you can
+                change any of the sections to fit your needs. Nova Theme is Free for any kid of use, personal and
+                commercia. Have fun and good luck!</p>
+        </div>
+    </section>
+
+    <section id="nav-pricing" class="pricing">
+        <div class="pricing__header">
+            <h2 class="section__header-margin">CHOOSE YOUR PRICING PLAN</h2>
+            <p class="pricing__header--text">Pick any of our super affordable pricing plans</p>
+        </div>
+        <div class="pricing-flexbox">
+            <div class="pricing__details">
+                <h3>BASIC</h3>
+                <p class="pricing__details-price"><strong>$15</strong></p>
+                <p class="pricing__details-small-font">per month</p>
+                <p class="pricing__details-bold-text">Up to 7 Projects <br>2 Additional Developers</p>
+                <button class="price--button">Get Started</button>
+            </div>
+            <div class="pricing__details pricing__details-emphasized">
+                <h3>AGENCY</h3>
+                <p class="pricing__details-price"><strong>$55</strong></p>
+                <p class="pricing__details-small-font">per month</p>
+                <p class="pricing__details-bold-text">Up to 25 Projects <br> 2 Additional Developers <br> Unlimited
+                    Support</p>
+                <button class="price--button">Get Started</button>
+            </div>
+            <div class="pricing__details">
+                <h3>PRO</h3>
+                <p class="pricing__details-price"><strong>$75</strong></p>
+                <p class="pricing__details-small-font">per month</p>
+                <p class="pricing__details-bold-text">Up to 25 Projects <br> 2 Additional Developers <br> Unlimited
+                    Support <br>1.5GB
+                    Disk Space</p>
+                <button class="price--button">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="nav-team" class="team">
+        <h2 class="section__header-margin section__team-center">THE TEAM</h2>
+        <div class="team-flexbox">
+            <div class="team__card">
+                <img src="images/cto.png" alt="" />
+                <h3>CTO</h3>
+                <p class="team__card--name">Johnny B Good</p>
+                <p>The brains behind the whole operation</p>
+                <div><a href=""><img src="/images/team-twitter.svg" alt="twitter" /></a><a href=""><img
+                            src="/images/team-facebook.svg" alt="facebook" /></a></div>
+            </div>
+            <div class="team__card">
+                <img src="images/ceo.png" alt="" />
+                <h3>CEO</h3>
+                <p class="team__card--name">Roll Over Beethoven</p>
+                <p>The one that puts it all together</p>
+                <div><a href=""><img src="/images/team-twitter.svg" alt="twitter" /></a><a href=""><img
+                            src="/images/team-facebook.svg" alt="facebook" /></a></div>
+            </div>
+            <div class="team__card">
+                <img src="images/cfo.png" alt="" />
+                <h3>CFO</h3>
+                <p class="team__card--name">JChuck Berry</p>
+                <p>The guy with his hand on the wallet</p>
+                <div><a href="#"><img src="/images/team-twitter.svg" alt="twitter" /></a><a href="#"><img
+                            src="/images/team-facebook.svg" alt="facebook" /></a></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-text">A free template by</p><a href="#"><img src="/images/webscope.svg" alt="webscope" /></a>
+    </footer>
+
 </body>
+
 </html>
