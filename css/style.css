@@ -52,6 +52,7 @@ body {
 .menu__link-item {
 	font-size: 1rem;
 	color: #fff;
+	font-weight: 700;
 }
 
 .nav-logo {
@@ -392,7 +393,17 @@ body {
 
 /* FOOTER SECTION */
 .footer-section {
-	
+	width: 100%;
+	height: 80px;
+	background-color: rgb(59, 58, 58);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__section-para {
+	color: #fff;
+	margin-right: 10px;
 }
 
 
