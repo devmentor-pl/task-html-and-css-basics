@@ -191,11 +191,11 @@ body {
 	height: 600px;
 	background-color: #fff;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .mac__left-section {
-	width: 45%;
+	width: 60%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -206,7 +206,7 @@ body {
 }
 
 .mac__right-section {
-	width: 45%;
+	width: 40%;
 }
 
 .mac__right-section-heading {
