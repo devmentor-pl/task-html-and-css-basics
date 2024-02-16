@@ -358,7 +358,7 @@ body {
 }
 
 .team__section-card {
-	background-color: #fff
+	background-color: #fff;
 	width: 350px;
 	height: 400px;
 	display: flex;
