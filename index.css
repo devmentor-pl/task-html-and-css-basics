@@ -109,15 +109,15 @@ ul {
 }
 
 .features__img--first {
-    background-image: url(/images/responsive.svg);
+    background-image: url(./images/responsive.svg);
 }
 
 .features__img--middle {
-    background-image: url(/images/customizable.svg)
+    background-image: url(./images/customizable.svg)
 }
 
 .features__img--last {
-    background-image: url(/images/design.svg)
+    background-image: url(./images/design.svg)
 }
 
 .features__details--text {
