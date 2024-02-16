@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+  font-weight: 1 999;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+  font-style: italic;
+}
+
+:root {
+  --color-alpha: #000;
+  --color-beta: #fff;
+}
+
+body,
+button {
+  font-family: 'Montserrat';
+}
+
+.wrapper--main-page,
+.wrapper--main-page button {
+  color: var(--color-beta);
+}
+
+.navbar {
+  font-variation-settings: 'wght' 600;
+}
+
+.section__h1--main-page {
+  font-size: 40px;
+  font-variation-settings: 'wght' 700;
+  line-height: 1;
+}
+.section__p--main-page {
+  font-size: 20px;
+  font-variation-settings: 'wght' 300;
+  line-height: 1.5;
+}
+
+.button {
+  font-size: 18px;
+  font-variation-settings: 'wght' 600;
+}
+
+/* wrapper--features */
+
+.wrapper--features {
+  color: var(--color-beta);
+}
+
+.section__h1--features {
+  font-size: 40px;
+  font-variation-settings: 'wght' 300;
+}
+
+.section__h2--features {
+  font-variation-settings: 'wght' 500;
+}
+
+.section__p--features {
+    line-height: 1.5;
+    font-variation-settings: 'wght' 250;
+}
+
+/* wrapper--iMac */
+
+.section__h1--iMac,
+.section__h1--plan,
+.section__h1--team {
+  font-size: 37px;
+  font-variation-settings: 'wght' 320;
+}
+
+.section__p--iMac {
+  font-size: 18px;
+  font-variation-settings: 'wght' 300;
+  line-height: 2;
+}
+
+/* wrapper--plan */
+
+.section__p--plan {
+  font-size: 22px;
+  font-variation-settings: 'wght' 250;
+}
+
+.section__h2--plan-title {
+  font-size: 22px;
+  font-variation-settings: 'wght' 320;
+}
+
+.section--price {
+  font-size: 60px;
+  font-variation-settings: 'wght' 700;
+}
+
+.section--price-info {
+  font-variation-settings: 'wght' 450;
+}
+
+.section--plan-info {
+  font-size: 18px;
+  font-variation-settings: 'wght' 550;
+}
+
+.button--plan {
+  font-variation-settings: 'wght' 400;
+}
+
+.section__h2--team {
+  font-size: 22px;
+  font-variation-settings: 'wght' 260;
+}
+
+.section__p--team-name {
+  font-size: 18px;
+  font-variation-settings: 'wght' 600;
+}
+
+.section__p--team-info {
+  font-size: 18px;
+  font-variation-settings: 'wght' 300;
+}
+
+/* wrapper--webscope */
+
+.container__p--webscope {
+  color: white;
+  font-variation-settings: 'wght' 500;
+}

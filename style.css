@@ -1,0 +1,278 @@
+:root {
+  --button-alpha-color: #25F18B;
+  --button-beta-color: #0ABCEB;
+}
+
+
+.wrapper--main-page {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  padding-bottom: 240px;
+  padding-top: 40px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  width: 1150px;
+}
+
+.header--navbar {
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.header__logo {
+  padding-top: 20px;
+}
+
+.navbar__container {
+  color: white;
+  display: flex;
+}
+
+.navbar__item {
+  margin-right: 30px;
+}
+
+.section--main-page {
+  display: flex;
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.section__container {
+  display: flex;
+  width: 1150px;
+}
+
+.section__container--plan {
+  justify-content: center;
+}
+
+.section__container--beautiful {
+  display: initial;
+  padding-top: 40px;
+  margin-right: 50px;
+}
+
+.section__h1--main-page {
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+.section__p--main-page {
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.button {
+  background-color: var(--button-alpha-color);
+  border-radius: 10px;
+  padding: 20px 50px;
+}
+
+.section__container--next-gen-app {
+  display: initial;
+  padding-right: 80px;
+}
+
+.section__img--next-gen-app {
+  background-color: white;
+  border-radius: 40px;
+  height: 350px;
+  padding: 20px;
+  transform: rotate(-5deg);
+  width: 600px;
+}
+
+/* wrapper--features */
+
+.wrapper--features {
+  background-color: black;
+  padding-bottom: 200px;
+  padding-top: 60px;
+}
+
+.header--features {
+  align-items: initial;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.section__container--features,
+.section__container--team {
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.section__item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 33.3%;
+}
+
+.section__img--features {
+  align-items: center;
+  background-color: white;
+  border-radius: 60px;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  margin-bottom: 25px;
+  width: 80px;
+}
+
+.section__h2--features {
+  margin-bottom: 15px;
+}
+.section__h2--features,
+.section__p--features {
+  width: 65%;
+}
+
+/* wrapper--logos */
+
+.wrapper--logos {
+  background-color: #FAFAFA;
+  padding: 30px 0;
+}
+
+.container--logos {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1150px;
+}
+
+/* wrapper--iMac */
+
+.wrapper--iMac {
+  display: flex;
+  padding: 80px 160px;
+}
+
+.container--iMac {
+  margin-right: 160px;
+  width: 1200px;
+}
+
+.section--iMac {
+  padding-top: 45px;
+  width: 600px;
+}
+
+.section__h1--iMac {
+  margin-bottom: 50px;
+}
+
+/* wrapper--plan */
+
+.wrapper--plan {
+  background-color: #F8F9F9;
+  padding: 80px 0;
+}
+
+.section--plan {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header--plan,
+.header--team {
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+.section__h1--plan,
+.section__h1--team {
+  margin-bottom: 20px;
+}
+
+.section__container--plan {
+  justify-content: center;
+}
+
+.section__item--plan {
+  padding: 60px 0;
+}
+
+.section__item--plan:nth-child(2) {
+  box-shadow: 0 0 25px 2px rgb(225, 224, 224)
+}
+
+.section__h2--plan-title {
+  margin-bottom: 10px;
+}
+
+.section--price-info {
+  margin-bottom: 40px;
+}
+
+.section--plan-info {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.button--plan {
+  background-color: #0ABCEB;
+  color: white;
+  margin-top: auto;
+}
+
+/* wrapper--team */
+
+.wrapper--team {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 240px;
+  padding-top: 120px;
+}
+
+.section__img--team {
+  margin-bottom: 40px;
+}
+
+.section__img--team img {
+  width: 150px;
+}
+
+.section__h2--team,
+.section__p--team-name,
+.section__p--team-info {
+  margin-bottom: 10px;
+}
+
+.section__img.media {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+
+.section__img.media img {
+  height: 20px;
+  width: 20px;
+}
+
+/* wrapper--webscope */
+
+.wrapper--webscope {
+  background-color: #464646;
+  padding: 20px 0;
+}
+
+.container--webscope {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1150px;
+}
+
+.container__p--webscope {
+  margin-right: 20px;
+}
