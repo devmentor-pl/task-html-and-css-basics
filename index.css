@@ -1,0 +1,285 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: .8rem;
+}
+
+h4 {
+    font-size: .8rem;
+}
+
+nav ul {
+    gap: 20px;
+}
+
+ul {
+    display: flex;
+}
+
+.section__header-margin {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.header__hero--text {
+    line-height: 25px;
+    max-width: 15rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: .6em;
+}
+
+.header__hero--info {
+    margin-top: 3rem;
+    font-size: 1.7rem;
+}
+
+.header {
+    color: white;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.header__hero {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+    min-height: 400px;
+}
+
+.header__hero--button {
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #25F18B;
+    border: none;
+    cursor: pointer;
+}
+
+.header__hero--image-container {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    transform: rotateZ(-5deg);
+    width: 50%;
+    margin-inline: auto;
+}
+
+.header__hero--image {
+    width: 100%;
+    height: auto;
+}
+
+.features__details--flexbox {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    max-width: 170px;
+    padding: 3em;
+    align-items: center;
+}
+
+.features__img {
+    background-color: whitesmoke;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features__img--first {
+    background-image: url(./images/responsive.svg);
+}
+
+.features__img--middle {
+    background-image: url(./images/customizable.svg)
+}
+
+.features__img--last {
+    background-image: url(./images/design.svg)
+}
+
+.features__details--text {
+    font-size: .7em;
+    line-height: 1.5em;
+}
+
+.features {
+    background-color: #000000;
+    color: white;
+    min-height: 320px;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.features__details {
+    display: flex;
+    justify-content: center;
+}
+
+.section-logos {
+    background-color: #F9FAFA;
+    text-align: center;
+    padding: 1em;
+}
+
+.section-logos img {
+    max-width: 70%;
+}
+
+.section-simple {
+    display: flex;
+    gap: 7rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.section-simple img {
+    max-width: 35%;
+    height: auto;
+}
+
+.section__simple--text {
+    font-size: .7em;
+    line-height: 1.7em;
+}
+
+.section-simple--info {
+    max-width: 260px;
+    align-items: left;
+}
+
+.pricing {
+    background-color: #F8F9F9;
+}
+
+.pricing__header {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.pricing-flexbox {
+    display: flex;
+    gap: 3rem;
+    padding: 5em 0 7em 0;
+    justify-content: center;
+}
+
+.pricing__details-price {
+    font-size: 1.5em;
+    padding: .5em 0 .5em 0;
+}
+
+.pricing__details-small-font {
+    font-size: .7em;
+}
+
+.pricing__details-bold-text {
+    font-size: .8em;
+    font-weight: 700;
+    padding: 1.5em 0 6em 0;
+    max-height: 20px;
+}
+
+.price--button {
+    border-radius: 10px;
+    padding: 1em 2em 1em 2em;
+    color: white;
+    background-color: #0ABCEB;
+    border: none;
+    cursor: pointer;
+}
+
+.pricing__details {
+    text-align: center;
+    padding: 3em;
+    max-width: 200px;
+  
+}
+
+.pricing__details-emphasized {
+    background-color: rgb(195, 193, 193)99;
+    box-shadow: 0px 0px 20px 0px #aeacac;
+    border-radius: 5px;
+}
+
+.pricing__header--text {
+    font-size: .7em;
+}
+
+.section--max-width {
+    max-width: 1150px;
+    margin-inline: auto;
+}
+
+.team__card {
+    text-align: center;
+    line-height: 1.2rem;
+    max-width: 200px;
+    font-size: .7rem;
+}
+
+.team__card--name {
+    font-weight: 700;
+}
+
+.team__card img {
+    max-width: 60px;
+    margin-bottom: 1.5em;
+}
+
+.team__card div img {
+    padding: .7em;
+}
+
+.team-flexbox {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.section__team-center {
+    text-align: center;
+    padding: 1.2rem;
+}
+
+.team {
+    min-height: 320px;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #464646;
+    color: whitesmoke;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    padding: 1em;
+    font-size: .7em;
+    font-weight: 700;
+    align-items: center;
+}
