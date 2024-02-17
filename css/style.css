@@ -19,7 +19,7 @@ html, body {
 
 /* END OF COMMON */
 
-/* HEADER */
+/* NAV */
 
 .header {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -58,7 +58,7 @@ html, body {
     color: rgba(0, 0, 0, 0.702);
 }
 
-/* END OF HEADER */
+/* END OF NAV */
 
 /* HERO */
 
@@ -126,7 +126,6 @@ html, body {
     border: 1.5px solid rgb(255, 255, 255);
     cursor: pointer;
 }
-
 
 /* END OF HERO */
 
