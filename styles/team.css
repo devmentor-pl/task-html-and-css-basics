@@ -1,0 +1,44 @@
+.main__team {
+  padding: 5rem 0;
+}
+.main__team p {
+  color: #464646;
+  text-align: center;
+}
+.team__heading {
+  color: #464646;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+.team__profiles {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 4rem;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile__img {
+  margin-bottom: 2rem;
+}
+.profile__title,
+.profile__motto {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.profile__name {
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+.profile__button-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.profile__button-container a {
+  cursor: pointer;
+}
