@@ -1,0 +1,25 @@
+.simple__container {
+  display: flex;
+  padding: 6rem 0;
+}
+.simple__img-container {
+  width: 50%;
+}
+.simple__img-container img {
+  width: 100%;
+}
+.simple__text-container {
+  width: 50%;
+  padding: 2rem 6rem;
+}
+.simple__heading {
+  color: #464746;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.simple__text {
+  color: #464746;
+  line-height: 2rem;
+  font-weight: 300;
+}
