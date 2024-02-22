@@ -52,10 +52,16 @@ body {
 	font-size: 1rem;
 	color: #fff;
 	font-weight: 700;
+	transition: color 0.3s;
+}
+
+.menu__link-item:hover {
+	color: #d1cbcb;
 }
 
 .nav-logo {
 	transform: scale(3);
+	cursor: pointer;
 }
 
 .header__hero {
@@ -87,6 +93,14 @@ body {
 	background-color: #25f18b;
 	border: none;
 	border-radius: 8px;
+	outline: none;
+	cursor: pointer;
+	transition: background-color .3s;
+}
+
+.hero-left-cta-button:hover {
+	background-color: #7dcaa4;
+	
 }
 
 .hero-right-image {
@@ -321,6 +335,13 @@ body {
 	border: none;
 	border-radius: 10px;
 	font-size: 0.9rem;
+	cursor: pointer;
+	transition: transform background-color .3s;
+}
+
+.pricing-card-button:hover {
+	transform: scale(1.03);
+	background-color: rgb(25, 183, 211);
 }
 
 /* END OF PRICING SECTION */
@@ -389,6 +410,11 @@ body {
 
 .team-twitter-logo {
 	margin-right: 15px;
+	cursor: pointer;
+}
+
+.team-facebook-logo {
+	cursor: pointer;
 }
 
 /* END OF TEAM SECTION */
