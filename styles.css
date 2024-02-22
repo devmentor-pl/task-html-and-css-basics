@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .header__background {
@@ -14,6 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: white;
+
 }
 
 .header__navbar {
@@ -31,7 +33,7 @@ body {
     width: auto;
 }
 
-.header__navbar-image {
+.image__contain {
     height: 100%;
     width: 100%;
     object-fit: contain;
@@ -43,9 +45,8 @@ body {
     align-items: center;
     height: 100%;
     min-width: 300px;
-    color: white;
     font-size: 19px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .header__navbar-link {
@@ -54,8 +55,52 @@ body {
 
 .header__content--container {
     height: 85%;
-    background-color: red;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    margin-top: 110px;
+}
+
+.header__content-text--container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.header__content-image--container {
+    max-width: 50%;
+    height: 50%;
+    padding-right: 50px;
+}
+
+.header__content-image--wrapper {
+    background-color: white;
+    transform: rotate(-5deg);
+    border: 20px solid white;
+    border-radius: 20px;
+}
+
+.header__content-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 50px 0 20px 0;
+}
+
+.header__content-description {
+    font-size: 28px;
+    width: 65%;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.button--filled {
+    padding: 20px;
+}
+
+.header__button {
+    background-color: #76fc6c;
+    color: white;
+    width: 300px;
+    border-radius: 15px;
+    font-size: 20px;
 }
