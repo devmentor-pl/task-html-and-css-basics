@@ -160,9 +160,48 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgba(225, 231, 255, 0.8);
+    padding: 30px;
 }
 
 .logos-image--wrapper {
     width: 70%;
     height: 40px
+}
+
+.desc__container {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+}
+
+.desc__image-wrapper {
+    width: 100%;
+    height: 100%
+}
+
+.desc__text-container {
+    width: 470px;
+}
+
+.desc-title {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.desc-description {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
+
+}
+
+.desc-image__container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
