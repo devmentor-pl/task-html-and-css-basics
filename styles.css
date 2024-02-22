@@ -95,13 +95,13 @@ body {
 
 .button--filled {
     padding: 20px;
+    border-radius: 15px;
 }
 
 .header__button {
     background-color: #76fc6c;
     color: white;
     width: 300px;
-    border-radius: 15px;
     font-size: 20px;
 }
 
@@ -204,4 +204,77 @@ body {
     display: flex;
     justify-content: center;
     width: 50%;
+}
+
+.pricing__background {
+    background-color: rgba(246, 246, 249, 0.8);
+}
+
+.pricing__container {
+    padding-top: 100px;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.pricing-title {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.pricing-title--desc {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.pricing-cards__container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricing-card {
+    width: 400px;
+    padding: 80px;
+}
+
+.pricing-card__title {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.pricing-card__price {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.pricing-card__price--desc {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+.pricing-card__list {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    list-style: none;
+}
+
+.pricing-card__list--item {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.highlited-card {
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.pricing-card__button {
+    border: none;
+    color: white;
+    background-color: dodgerblue;
 }
