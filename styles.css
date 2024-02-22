@@ -155,3 +155,14 @@ body {
     font-weight: 100;
     font-size: 18px;
 }
+
+.logos-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(225, 231, 255, 0.8);
+}
+
+.logos-image--wrapper {
+    width: 70%;
+    height: 40px
+}
