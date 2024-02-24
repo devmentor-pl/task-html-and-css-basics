@@ -32,6 +32,10 @@
     outline-color: transparent
 }
 
+button:hover {
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, .5);
+}
+
 /* END OF COMMON */
 
 
@@ -110,8 +114,8 @@
     margin-top: 30px;
     border: transparent;
     border-radius: 8px;
+    transition-duration: 0.5s;
 }
-
 
 
 .hero__image {
@@ -264,7 +268,7 @@
     font-size: 14px;
 }
 
-.pricing-plan, .pricing-plan1 {
+.pricing-plan {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -277,11 +281,16 @@
     padding-top: 50px;
 }
 
-.pricing-plan1 {
+.pricing-plan[title="highlighted"], .pricing-plan:hover {
     background-color: white;
     border-radius: 5px;
-
     box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, .05);
+}
+
+
+.pricing-plan[title="highlighted"]:not(:hover) {
+    background-color: initial;
+    box-shadow: none;
 }
 
 .pricing-plan--item {
@@ -356,6 +365,10 @@
 
 .team-member--icon {
     margin: 5px;
+}
+
+.team-member--icon:hover {
+    scale: 1.5;
 }
 
 /* END OF TEAM */
