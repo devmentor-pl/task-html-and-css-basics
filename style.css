@@ -30,11 +30,18 @@ h4 {
     justify-content: space-between;
     align-items: center;
     height: 10rem;
-    margin-left: 135px;
+    padding: 0 20%;
 }
 
 .header--logo {
+    max-width: 100%;
     width: 7rem;
+    margin-right: 1rem;
+}
+
+.header--logo--container {
+    display: flex;
+    align-items: center;
 }
 
 .header--nav {
@@ -60,22 +67,18 @@ h4 {
 /* header section */
 /* hero section */
 
-.hero {
-    margin: 0 15px 0 15px;
-    padding: 15px;
-    width: 95%;
-}
-
 .hero--container {
     color: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20%;
 }
 
 .hero--heading {
     font-weight: bold;
     max-width: 70%;
-    margin-left: 5rem;
+    margin-bottom: 2rem;
 }
 
 .hero--description {
@@ -83,7 +86,6 @@ h4 {
     text-align: left;
     max-width: 50%;
     font-weight: 300;
-    margin-left: 5rem;
 }
 
 .hero--img--background {
@@ -92,6 +94,8 @@ h4 {
     border-radius: 25px;
     box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, .25), 0 0px 33px rgba(0, 21, 64, .14), 0 10px 20px rgba(0, 21, 64, .05);
     width: 540px;
+    margin: 0 15px 0 15px;
+    padding: 15px;
 }
 
 .hero--img {
@@ -109,7 +113,7 @@ h4 {
     color: white;
     margin: 30px auto;
     transition-duration: 0.4s;
-    margin-left: 6rem;
+    margin-left: auto;
 }
 
 .hero--btn:hover {
