@@ -7,6 +7,19 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
+    >
     <link rel="stylesheet" href="reset.css">
     <link
         rel="stylesheet"
@@ -21,14 +34,15 @@
         <section class="header header--container">
             <a href="./#">
                 <img
-                    class="logo"
+                    class="header--logo"
                     src="./images/logo.svg"
                     alt="Nova logo"
                 >
             </a>
-            <nav class="nav">
+            <nav class="header--nav">
                 <ul class="nav--items">
-                    <a href="./#team">
+                    <a 
+                    href="./#team">
                         <li class="nav--item">The Team</li>
                     </a>
                     <a href="./#pricing">
@@ -46,9 +60,9 @@
             <div>
                 <h1 class="hero hero--heading">Beautiful Free Nova template</h1>
                 <p class="hero hero--description">A top notch premium quality template for your next web project.</p>
-                <button class="hero hero--btn">Download FREE!</button>
+                <button class="hero--btn">Download FREE!</button>
             </div>
-            <div>
+            <div class="hero hero--img--background">
                 <img
                     class="hero--img"
                     src="./images/screen.png"
