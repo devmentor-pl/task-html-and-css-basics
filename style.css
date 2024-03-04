@@ -28,6 +28,10 @@ h4 {
     font-size: 18px;
 }
 
+h5 {
+    font-size: 12px;
+}
+
 /* header section */
 .header--container {
     display: flex;
@@ -187,6 +191,7 @@ h4 {
 
 /* features */
 /* logos */
+
 .logos {
     background-color: #F9FAFA;
     text-align: center;
@@ -199,6 +204,7 @@ h4 {
 
 /* logos */
 /* about */
+
 .about {
     max-width: 1400px;
     margin: auto;
@@ -242,3 +248,112 @@ h4 {
 }
 
 /* about */
+/* pricing */
+
+.pricing {
+    background-color: #F8F9F9;
+}
+
+.pricing--header {
+    padding-top: 75px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pricing--subheader {
+    padding-top: 10px;
+    color: grey;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pricing--table {
+    padding: 70px 0 100px;
+    margin: auto;
+    display: flex;
+    max-width: 1050px;
+}
+
+.pricing--plan {
+    text-align: center;
+    max-width: 390px;
+    margin: auto;
+    height: 430px;
+    padding: 36px 15px 45px;
+}
+
+.midplan {
+    text-align: center;
+    max-width: 390px;
+    margin: auto;
+    height: 430px;
+    padding: 36px 15px 45px;
+    box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+    border-radius: 7px;
+}
+
+.col {
+    width: 33%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.plan--title {
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-weight: 300;
+}
+
+.plan--cost {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.plan--time {
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.plan--features li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.pricing--button {
+    background-color: #06bceb;
+    border-radius: 10px;
+    border: #06bceb;
+    width: 164px;
+    height: 51px;
+    color: white;
+    transition-duration: 0.4s;
+    padding: 15px;
+    margin: auto;
+    position: absolute;
+    left: calc(50% - 82px);
+    bottom: 10rem;
+    font-weight: 300;
+}
+
+.pricing--button:hover {
+    background-color: #58d5f7;
+    color: white;
+    border-radius: 20px;
+    box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+    text-decoration: underline;
+}
+
+
+
+/* pricing */
