@@ -355,5 +355,75 @@ h5 {
 }
 
 
-
 /* pricing */
+/* team */
+
+.team {
+    padding-top: 60px;
+    padding-bottom: 130px;
+}
+
+.team--header {
+    padding-bottom: 90px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.team--container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 1050px;
+}
+
+.team--member {
+    text-align: center;
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33%;
+}
+
+.team--member--text {
+    padding-top: 20px;
+}
+
+.team--function {
+    color: #747474;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.team--name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.team--description {
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+/* team */
+/* footer */
+.footer {
+    background-color: #464646;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer--container {
+    display: flex;
+}
+
+.footer--text {
+    color: white;
+    font-size: 12px;
+    padding-right: 10px;
+    align-self: center;
+}
