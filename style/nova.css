@@ -1,0 +1,60 @@
+
+/* pierwsza cześć strony z nawigacją logiem i obrazkiem */
+.pageNova{
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));;    
+    padding: 10px 0;
+    width:100%;    
+}
+
+/*górna sekcja z pierwszej części (pasek z nawigacją i logo)*/
+.pageNova__top{    
+    display: flex;
+    justify-content: space-between;        
+}
+.pageNova__logo{
+    padding: 15px;
+    width: 120px;
+}
+.pageNova__nav{
+    align-items: center;
+    display: flex;    
+    justify-content: space-between;
+    min-width:250px;
+    padding-right: 10px;
+}
+.nav__item {
+    color: var(--color-menu);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.nav__item:hover{
+    cursor:pointer;
+    color: var(--color-menu-active);
+}
+
+/*dolna sekcja z pierwszej częsci (z lewej tekst i przycisk a z prawej obrazek*/
+.pageNova__bottom{
+    display: flex;
+    justify-content: center;
+}
+/*lewa strona*/
+.pageNova__left{
+    color: var(--color-text-brigth);    
+    padding-top: 50px;
+    padding-left: 15px;    
+}
+.pageNova__h4{    
+    line-height: 40px;
+    max-width: 300px;    
+}
+/*prawa strona*/
+.pageNova__right{
+    padding:5%;
+    width: 60%;    
+}
+.pageNova__picture{
+    border: solid 10px white;
+    border-radius: 25px;
+    transform: rotate(-5deg);
+}

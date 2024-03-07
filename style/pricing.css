@@ -1,0 +1,31 @@
+.pricing{    
+    height: 350px;
+    text-align: center;
+    width: 300px;
+}
+.pricing--focus{
+    box-shadow: 0 0 20px 20px rgb(0,0,0,0.1);
+    border-radius: 5px;
+}
+.pricing__price{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top:10px;     
+}
+.pricing__price::before{
+    content: '$';
+}
+.pricing__price::after{
+    content: 'per month';
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    padding-top:5px;   
+}
+.pricing__contain{
+    padding-top: 20px;
+    min-height: 120px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;    
+}
