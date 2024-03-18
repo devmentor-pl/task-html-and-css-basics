@@ -3,6 +3,24 @@
   --color-white-light: rgba(255, 255, 255, 0.8);
 }
 
+.footer__title,
+.header__nav-item,
+.header__heading-title,
+.header__download-btn,
+.header__ad-img-container,
+.main__features-item {
+  color: var(--color-white);
+}
+
+.header__nav-container,
+.header__section-container,
+.main__features,
+.main__pricing-plan-container,
+.main__team-container {
+  width: 100%;
+  max-width: 1150px;
+}
+
 body {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
@@ -13,23 +31,19 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-
   align-items: center;
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
 .header__nav-container,
 .header__section-container {
-  width: 1150px;
-  max-width: 1150px;
-
   padding: 25px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .header__section-container {
-  padding-bottom: 125px;
+  margin-bottom: 125px;
 }
 
 .header__nav-items {
@@ -39,11 +53,9 @@ body {
 .header__nav-item {
   padding: 0 10px;
   font-weight: 700;
-  color: var(--color-white);
 }
 
 .header__heading-title {
-  color: var(--color-white);
   font-size: 2rem;
   font-weight: 700;
   max-width: 400px;
@@ -57,7 +69,6 @@ body {
 .header__download-btn {
   font-size: 0.9rem;
   font-weight: 700;
-  color: var(--color-white);
   padding: 15px 40px;
   background-color: #12f094;
   border-radius: 10px;
@@ -76,13 +87,9 @@ body {
 /* Main section */
 
 .main {
-  width: 100%;
   background-color: #000;
 }
 .main__features {
-  width: 1150px;
-  max-width: 1150px;
-
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -111,12 +118,10 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  color: var(--color-white);
 }
 .features-item__img-wrapper {
   height: 70px;
   width: 70px;
-  background-color: #000;
   border-radius: 50%;
   background-color: var(--color-white);
   display: flex;
@@ -130,7 +135,6 @@ body {
 .features-item__title {
   padding: 30px 0 20px 0;
   text-transform: uppercase;
-
   font-weight: 700;
   text-align: center;
 }
@@ -139,10 +143,8 @@ body {
   font-size: 0.9rem;
   color: var(--color-white-light);
 }
-
 /* Main Logos */
 .main__logos {
-  width: 100%;
   background-color: rgba(255, 255, 255, 0.97);
 }
 .main__logos-container {
@@ -153,17 +155,16 @@ body {
 /* Main ad */
 
 .main__ad {
-  width: 100%;
   padding: 50px 0;
   display: flex;
   justify-content: space-around;
   background-color: var(--color-white);
 }
-.main__ad-desc {
-  width: 29%;
-}
 .main__ad-img-container {
   height: 500px;
+}
+.main__ad-desc {
+  width: 29%;
 }
 
 .ad__desc-title {
@@ -179,13 +180,10 @@ body {
 /* Main pricing plan */
 
 .main__pricing-plan {
-  width: 100%;
   background-color: rgba(255, 255, 255, 0.97);
 }
 
 .main__pricing-plan-container {
-  width: 1150px;
-  max-width: 1150px;
   margin: 0 auto;
   padding: 50px 0;
   text-align: center;
@@ -206,19 +204,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   margin: 40px 0 15px 0;
 }
 
 .pricing-plan__item {
-  /* margin-top: 40px; */
   width: 25%;
   height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  /* outline: 1px solid red; */
   padding: 20px;
   border-radius: 5px;
 }
@@ -265,6 +260,10 @@ body {
   border-radius: 10px;
 }
 
+.item__buy-plan-btn:hover {
+  cursor: pointer;
+}
+
 /* Main team */
 
 .main_team {
@@ -273,8 +272,6 @@ body {
 }
 
 .main__team-container {
-  width: 1150px;
-  max-width: 1150px;
   margin: 0 auto;
   padding: 50px 0;
   text-align: center;
@@ -290,7 +287,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   margin-bottom: 90px;
 }
 
@@ -302,10 +298,6 @@ body {
   justify-content: flex-start;
   align-items: center;
   padding: 20px;
-}
-
-.team__person-ing-container {
-  flex-grow: 1;
 }
 
 .team__person-title {
@@ -329,16 +321,13 @@ body {
 /* Footer */
 
 .footer {
-  width: 100%;
   height: 50px;
   background-color: rgba(43, 42, 42, 0.8);
-  /* text-align: center; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .footer__title {
-  color: var(--color-white);
   font-size: 0.6rem;
   padding-right: 10px;
 }
