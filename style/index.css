@@ -1,0 +1,174 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.center {
+    width: 1150px;
+    /* border: 3px solid blue; */
+}
+
+.header__container {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 750px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* Menu */
+.nav__section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.logo__nova img {
+    margin-top: 1rem;
+    width: 100px;
+    height: 35px;
+}
+
+.menu-item {
+    padding: 1rem;
+}
+
+.menu-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-item:hover a {
+    color: skyblue;
+    font-size: 1.2rem;
+}
+
+/* Header content */
+
+.header__content {
+    display: flex;
+
+}
+
+.header__content-text {
+    flex-basis: 49%;
+}
+
+.header__content-text h1 {
+    padding: 3rem 0 1rem 0;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header__content-text p {
+    font-size: 1.2rem;
+}
+
+.header__content-image {
+    flex-basis: 49%;
+    position: relative;
+    top: 10%;
+    height: 400px;
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 50px;
+    border-radius: 15px;
+    transform: rotate(-5deg);
+}
+
+.header__content-image img {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.header__button {
+    background-color: #27f18b;
+    color: #fff;
+    font-size: 1.1rem;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.header__button:hover {
+    border-radius: 20px;
+    background-color: #27ff98;
+}
+
+/* Features section */
+
+.features__section {
+    background-color: black;
+    color: #fff;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__container-top {
+    flex-basis: 20%;
+    text-align: center;
+}
+
+.features__container-top h2 {
+    font-size: 1.8rem;
+    margin: 3rem;
+}
+
+.features__container-bottom {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__image {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.features__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 25%;
+    padding: 0 1rem;
+}
+
+.features__content h3 {
+    padding: 1rem;
+}
+
+.features__content p {
+    font-size: 14px;
+}
+
+/* Apple Display section */
+
