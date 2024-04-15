@@ -105,6 +105,7 @@ body {
     border: none;
     border-radius: 10px;
     margin-top: 2rem;
+    transition: border-radius .5s ease;
 }
 
 .header__button:hover {
@@ -170,5 +171,136 @@ body {
     font-size: 14px;
 }
 
-/* Apple Display section */
+/* ADS Section */
 
+.ads__section-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #f9fafa;
+}
+
+/* Mac section */
+
+.mac__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 150px;
+}
+
+.mac__section-image {
+    flex-basis: 60%;
+
+    padding: 60px 60px 0 0;
+}
+
+.mac__section-image img {
+    padding-right: 50px;
+}
+
+.mac__section-article {
+    padding: 80px 0 0 40px;
+    flex-basis: 40%;
+    line-height: 2rem;
+    display: block;
+}
+
+.mac__section-article h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+.mac__section-article h2, p {
+    max-width: 400px;
+}
+
+/* Pricing section */
+
+.pricing__section {
+    background-color: #f9fafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pricing__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.pricing__header {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pricing__header h2 {
+    font-size: 1.8rem;
+    font-weight: 300;
+    padding: 40px 0 20px 0;
+}
+
+.pricing__header p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.pricing__offerts {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.pricing__offerts-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    min-height: 400px;
+}
+
+.pricing__offerts-item h4 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding-bottom: .5rem;
+}
+
+.pricing__offerts-item h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.pricing__offerts-item p:first-of-type {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.shadow-style-box {
+    border-radius: 5px;
+    box-shadow: 3px 5px 30px 0px rgba(66, 68, 90, 0.2);
+}
+
+.pricing__button {
+    background-color: #07bceb;
+    color: #fff;
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: auto;
+    transition: border-radius .5s ease;
+
+}
+
+.pricing__button:hover {
+    border-radius: 20px;
+    background-color: #03cfffe6;
+    text-decoration: underline;
+}
