@@ -7,7 +7,6 @@ body {
 
 .center {
     width: 1150px;
-    /* border: 3px solid blue; */
 }
 
 .header__container {
@@ -219,7 +218,7 @@ body {
 
 /* Pricing section */
 
-.pricing__section {
+.pricing__section, .pricing__container {
     background-color: #f9fafa;
     display: flex;
     align-items: center;
@@ -228,9 +227,6 @@ body {
 }
 
 .pricing__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 1rem;
 }
 
@@ -262,6 +258,7 @@ body {
     text-align: center;
     padding: 50px;
     min-height: 400px;
+    flex-basis: 33%;
 }
 
 .pricing__offerts-item h4 {
@@ -303,4 +300,71 @@ body {
     border-radius: 20px;
     background-color: #03cfffe6;
     text-decoration: underline;
+}
+
+/* Team section */
+
+.team__section, .team__peoples-container, .team__people, .team__people ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team__section {
+    flex-direction: column;
+}
+.team__header h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
+.team__peoples-container {
+    padding: 0 50px;
+    min-height: 600px;
+}
+
+.team__people {
+    flex-direction: column;
+    text-align: center;
+    flex-basis: 33%;
+    padding: 50px;
+    margin: 1rem;
+    min-height: 400px; 
+}
+
+.team__people h2 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.team__people h3 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.team__people p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.team__people ul li {
+    padding: 10px;
+}
+
+
+/* Footer */      
+
+.footer__section {
+    background-color: #464646;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
 }
