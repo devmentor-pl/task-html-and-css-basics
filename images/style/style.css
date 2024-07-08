@@ -1,0 +1,411 @@
+.backgroundColor {
+  background: radial-gradient(rgb(1941, 74, 126), rgb(105, 86, 235));
+  background-size: 2300px 1000%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.green {
+  background: radial-gradient(rgb(1941, 74, 126), rgb(105, 86, 235));
+  background-size: 2300px 1000%;
+}
+
+.article {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.col {
+  width: 50%;
+}
+
+.top {
+  width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top > * {
+}
+
+
+.logo {
+  padding: 10px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 15px;
+  padding-top: 75px;
+}
+
+.header-text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.menu {
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-end; /* Przesuwa menu do prawej */
+  align-items: center; /* centruje wszystkie obiekty wewn */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  display: inline-block;
+  position: relative;
+  padding: 10px 20px;
+  color: white;
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.menu > li:hover > a {
+  color: white;
+}
+
+.menu li:hover > .submenu {
+  display: block;
+}
+
+h4 {
+  background-color: #25f18b;
+  border: none; /* Usunięcie obramowania */
+  color: white; /* Kolor tekstu */
+  padding: 15px 32px; /* Wewnętrzne marginesy (padding) */
+  text-align: center; /* Wyrównanie tekstu do środka */
+  text-decoration: none; /* Usunięcie podkreślenia tekstu */
+  display: inline-block; /* Wyświetlanie jako element liniowy blokowy */
+  font-size: 16px; /* Rozmiar czcionki */
+  margin: 4px 2px; /* Zewnętrzne marginesy (margin) */
+  cursor: pointer; /* Zmiana kursora na wskaźnik przy najechaniu */
+  border-radius: 12px; /* Zaokrąglenie rogów przycisku */
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+
+h4:hover {
+  background-color: #b7f1c4; /* Zmiana koloru tła przy podświetleniu */
+  border-radius: 24px;
+}
+
+.button {
+  border: 1px solid rgb(82, 201, 201);
+  background-color: #0abceb;
+  padding: 15px 32px; /* Wewnętrzne marginesy (padding) */
+  text-align: center; /* Wyrównanie tekstu do środka */
+  text-decoration: none; /* Usunięcie podkreślenia tekstu */
+  display: inline-block; /* Wyświetlanie jako element liniowy blokowy */
+  font-size: 16px; /* Rozmiar czcionki */
+  margin: 4px 2px; /* Zewnętrzne marginesy (margin) */
+  cursor: pointer; /* Zmiana kursora na wskaźnik przy najechaniu */
+  border-radius: 12px; /* Zaokrąglenie rogów przycisku */
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.button:hover {
+  transition: background-color 0.3s, border-radius 0.3s;
+  background-color: #0abceb;
+  border-radius: 24px;
+  color: white;
+}
+
+.black-section {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature {
+  margin: 20px;
+  max-width: 300px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.ipad-screen {
+  transform: rotate(-10deg) scale(0.75);
+  border-color: white;
+  border-radius: 30px;
+  border: 18px solid white;
+}
+
+h5 {
+  max-width: 11150px;
+}
+
+.grey-section {
+  background-color: rgb(249, 250, 250);
+  padding: 50px;
+  text-align: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feature {
+  max-width: 300px;
+  margin-right: auto;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  color: white;
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.col2 {
+  width: 50%;
+}
+.white-section {
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+}
+
+.imac {
+  transform: scale(0.65);
+  /*margin-left: 2px /* spytac czemu tutaj nie da sie tego bardziej dosnac do lewej*/
+}
+
+.simple-and-beautiful {
+  color: rgb(51, 51, 51);
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 35px;
+  margin-top: 20px;
+  text-align: justify;
+  display: block;
+}
+
+.text-nova-theme {
+  color: rgb(51, 51, 51);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+  text-size-adjust: 100%;
+
+}
+
+.choose-your-plan {
+  color: black;
+}
+
+.pricing-plans {
+  color: rgb(128, 128, 128);
+
+}
+.pricing {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 20px;
+}
+
+.pricing-plan {
+    color: black;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.pricing-plan:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-plan h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing-plan .price {
+  font-size: 40px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.pricing-plan p {
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing-plan ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.pricing-plan ul li {
+  margin: 10px 0;
+  color: black;
+  font-size: 16px;
+}
+
+.buttonStarted {
+  border: 1px solid rgb(82, 201, 201);
+  background-color: #0abceb;
+  color: white;
+  padding: 15px 32px; /* Wewnętrzne marginesy (padding) */
+  text-align: center; /* Wyrównanie tekstu do środka */
+  text-decoration: none; /* Usunięcie podkreślenia tekstu */
+  display: inline-block; /* Wyświetlanie jako element liniowy blokowy */
+  font-size: 16px; /* Rozmiar czcionki */
+  margin: 4px 2px; /* Zewnętrzne marginesy (margin) */
+  cursor: pointer; /* Zmiana kursora na wskaźnik przy najechaniu */
+  border-radius: 12px; /* Zaokrąglenie rogów przycisku */
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.team {
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.white-section2{
+    align-items: center;
+    background-color: white;
+    background-size: 2300px 1000%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.team1 {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 20px;
+}
+
+
+.team2 {
+  color: black;
+background-color: #fff;
+border-radius: 10px;
+padding: 20px;
+text-align: center;
+width: 300px;
+transition: transform 0.3s;
+}
+
+.social-media {
+  cursor: pointer; 
+}
+
+.blue-section {
+  background-color: rgb(10, 188, 235);
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.input-container input[type="email"] {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px; /* Możesz dostosować szerokość */
+}
+
+.input-container input[type="email"]::placeholder {
+  color: #b0b0b0;
+}
+
+.email-inpt {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 0;
+  background-color: rgb(10, 188, 235);
+}
+
+.button2 {
+  background-color: rgb(51, 244, 147);
+  color: white;
+  padding: 15px 32px; /* Wewnętrzne marginesy (padding) */
+  text-align: center; /* Wyrównanie tekstu do środka */
+  text-decoration: none; /* Usunięcie podkreślenia tekstu */
+  display: inline-block; /* Wyświetlanie jako element liniowy blokowy */
+  font-size: 16px; /* Rozmiar czcionki */
+  margin: 4px 2px; /* Zewnętrzne marginesy (margin) */
+  cursor: pointer; /* Zmiana kursora na wskaźnik przy najechaniu */
+  border-radius: 12px; /* Zaokrąglenie rogów przycisku */
+  transition: background-color 0.3s, border-radius 0.3s;
+}
+.button2:hover {
+  transition: background-color 0.3s, border-radius 0.3s;
+  background-color:#6AFFB4;
+  border-radius: 24px;
+  color: white;
+}
+
+.download-free {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.end-section {
+  background-color: rgb(70, 70, 70);
+  box-sizing: border-box;
+  color: white(51, 51, 51);
+  font-size: 12px;
+  height: auto;
+  line-height: 17.1429px;
+  padding-right: 7px;
+  text-align: center;
+  text-size-adjust: 100%;
+  justify-content: space-between;
+
+}
+
+.end-logos {
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-end;
+}
