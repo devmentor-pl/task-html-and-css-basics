@@ -1,0 +1,360 @@
+
+
+/* GENERAL ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat";
+}
+
+.btn {
+    padding: 15px 35px;   
+    border: none;
+    border-radius: 8px ;
+    color: white;
+    font-weight: 600;
+    background-color: #25F18B;
+    cursor: pointer;
+}
+
+/* Main --------------------------------------------------------------------- Main*/
+
+.Main {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.Main__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1150px;
+}
+
+.Main__header_box_logo {
+    width: 100px;
+}
+
+.Main__header__menu {
+    display: flex;
+    padding: 40px 0;
+    margin-bottom: 35px;
+}
+
+.Main__header__menu__item {
+    margin-left: 45px;
+    font-weight: 600;
+}
+
+.Main__header__menu__item__link {
+    text-decoration: none;
+    color: white;
+}
+
+.Main__content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.Main__content__left {
+    color: white;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+
+.Main__content__left__title {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 50px 0 25px;
+    line-height: 1;
+}
+
+.Main__content__left__text {
+    font-weight: 200;
+    line-height: 1.6;
+    margin: 0 0 25px 0;
+}
+
+.Main__content__right {
+    text-align: center;
+    min-width: 700px;
+}
+
+.Main__content__right_img {
+    width: 550px;
+    transform: rotate(-4deg);
+    margin: 10px;
+}
+
+/* Features --------------------------------------------------------------------- Features */
+
+.Features {
+    background-color: black;
+    color: white;
+    padding: 5px 0 5px;
+}
+
+.Features__header {
+    margin: auto;
+    max-width: 1150px;
+    text-align: center;
+    padding: 40px 0 50px;
+
+    /* border: 3px solid deepskyblue ; */
+}
+
+.Features__header__title {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.Features__header__box {
+    display: flex;
+    max-width: 1150px;
+    margin: 5px auto 5px;
+    padding: 0 120px 0;
+
+    /* border: 3px solid deepskyblue ; */
+}
+
+.Features__header__box__card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 100px;
+    width: 33.3333%;
+    margin: 10px;
+
+    /* border: 3px solid yellow; */
+}
+
+.Features__header__box_card__bg {
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto 30px;
+    border-radius: 100%;
+    min-width: 90px ;
+    min-height: 90px;
+    display: flex;
+}
+
+.Features__header__box__card__bg__img {
+    margin: auto;
+    align-items: center;
+}
+
+.Features__header__box__card__title {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.Features__header__box__card__text {
+    font-weight: 200;
+    line-height: 1.3;
+}
+
+/* Brands --------------------------------------------------------------------- Brands */
+
+.Brands {
+    /* border: 2px solid green; */
+}
+
+.Brands__box {
+    margin: auto;
+    max-width: 1150px;
+    text-align: center;
+    padding: 30px 0 30px;
+    
+    /* border: 3px solid deepskyblue ; */
+}
+
+/* Advert --------------------------------------------------------------------- Advert */
+
+.Advert {
+    display: flex;
+    justify-content: center;
+
+    /* border: 3px solid green; */
+}
+
+.Advert__card {
+    padding: 20px;
+    margin: 10px;
+
+    /* border: 3px solid orange; */
+}
+
+.Advert__card__img {
+    max-width: 550px;
+}
+
+.Advert__card__title {
+    font-size: 24px;
+    margin: 30px 0 45px;
+}
+
+.Advert__card__text {
+    line-height: 1.6;
+}
+
+/* Price --------------------------------------------------------------------- Price */
+
+.Price {
+    /* border: 3px solid green; */
+}
+
+.Price__header {
+    text-align: center;
+    max-width: 1150px;
+    margin: 5px auto 5px;
+
+    /* border: 3px solid deepskyblue */
+}
+
+.Price__header__title {
+    font-size: 24px;
+    margin: 35px 0 15px;
+}
+
+.Price__header__text {
+    margin-bottom: 10px;
+}
+
+.Price__box{
+    display: flex;
+    max-width: 1150px;
+    margin: auto;
+    padding: 40px 90px 60px ;
+
+    /* border: 3px solid deepskyblue */
+}
+
+.Price__box__card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3333%;
+    margin: 10px;
+    text-align: center;
+    min-height: 430px;
+    position: relative;
+    
+    /* border: 3px solid orange; */
+}
+
+.Price__box__card:hover {
+    box-shadow: 0 0 40px 3px rgba(0,0,0,0.1) ;
+    scale: 1.04;
+}
+
+.Price__box__card__title {
+    font-size: 18px;
+    margin: 50px 0 10px;
+}
+
+.Price__box__card__price {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 5px;
+}
+
+.Price__box__card__month {
+    font-size: 12px;
+    margin: 0 0 40px;
+}
+
+.Price__box__card__text {
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.Price__box__card__btn {
+    background-color: #0ABCEB;
+    position: absolute;
+    bottom: 40px;
+}
+
+/* Team --------------------------------------------------------------------- Team */
+
+.Team {
+    /* border: 3px solid green; */
+}
+
+.Team__header {
+    text-align: center;
+    max-width: 1150px;
+    margin: 5px auto 5px;
+
+    /* border: 3px solid deepskyblue */
+}
+
+.Team__header__title {
+    font-size: 27px;
+    margin: 50px 0 50px ;
+}
+
+.Team__box {
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    padding: 40px 90px 30px ;
+
+    /* border: 3px solid deepskyblue; */
+}
+
+.Team__box__card {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* border: 3px solid orange; */
+}
+
+.Team__box__card__img {
+    margin: 10px 0 30px;
+}
+
+.Team__box__card__title {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.Team__box__card__name {
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.Team__box__card__text {
+    margin: 0 0 10px;
+}
+
+.Team__box__card__social {
+    display: flex;
+    margin-bottom: 140px;
+}
+
+.Team__box__card__social__link {
+    margin: 0 10px 0;
+}
+
+/* Team --------------------------------------------------------------------- Team */
+
+.Footer {
+    background-color: #464646 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 15px;
+}
+
+.Footer__text {
+    color: white;
+    font-size: 8px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
