@@ -1,0 +1,22 @@
+.imac {
+    padding: 6rem 0;
+    display: flex;
+    justify-content: space-around;
+    color: var(--text-color);
+}
+.imac__imac {
+    width: 45%;
+}
+.imac__image {
+    max-width: 100%;
+}
+.imac__content {
+    width: 35%;
+    padding-top: 4rem;
+    padding-right: 3rem;
+}
+.imac__text {
+    margin-top: 5rem;
+    margin-right: 10rem;
+    line-height: 2.5;
+}
