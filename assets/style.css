@@ -20,15 +20,14 @@
     height: 100vh;
 }
 
-.navbar, .hero, .features {
+.navbar, .hero, .features, .partners {
     width: 100%;
     font-family: var(--font-primary);
     color: var(--color-alpha);
 }
 
-.navbar__container, .hero__container {
+.navbar__container, .hero__container, .features__container {
     max-width: 1150px;
-    display: flex;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -113,6 +112,8 @@
 
 /* ------------------------------------------------ */
 
+/* STYLES FOR SECOND SECTION - FEATURES */
+
 .features {
     background-color: black;
     display: flex;
@@ -129,20 +130,18 @@
 }
 
 .features__container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     padding-top: 80px;
-    max-width: 60%;
+    width: 100%;
+    justify-content: center;
 }
 
 .features__element {
-    width: 33.333%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 25px;
 }
 
 .features__element:last-child {
@@ -177,4 +176,18 @@
     line-height: 24px;
     padding: 20px 0;
     text-align: center;
+}
+
+/* ------------------------------------------------ */
+
+/* STYLES FOR THIRD SECTION - PARTNERS */
+
+.partners {
+    background-color: white; 
+}
+
+.partners__container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
