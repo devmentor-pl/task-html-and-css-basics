@@ -26,7 +26,7 @@
     color: var(--color-alpha);
 }
 
-.navbar__container, .hero__container, .features__container {
+.navbar__container, .hero__container, .features__container, .pricing__container {
     max-width: 1150px;
     margin: 0 auto;
     display: flex;
@@ -122,11 +122,14 @@
     padding: 40px 0 80px 0;
 }
 
-.features__title {
+.features__title, .pricing__title {
     font-size: 28px;
-    color: var(--color-alpha);
     font-weight: 300;
     line-height: 32px;
+}
+
+.features__title {
+    color: var(--color-alpha);
 }
 
 .features__container {
@@ -219,7 +222,7 @@
     padding: 40px 150px 0 60px;
 }
 
-.article__desc { 
+.article__desc, .pricing__subtitle { 
     font-size: 14px;
     font-weight: 200;
     line-height: 28px;
@@ -229,4 +232,84 @@
     font-size: 28px;
     font-weight: 300;
     line-height: 32px;
+}
+
+
+/* ------------------------------------------------ */
+
+/* STYLES FOR FIFTH SECTION - PRICING */
+
+
+.pricing__title--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.pricing__container {
+    justify-content: space-evenly;
+}
+
+.pricing {
+    width: 100%;
+    font-family: var(--font-primary);
+    color: var(--color-beta);
+    background-color: #F8F9F9;
+    padding: 60px 0;
+}
+
+.pricing__title {
+    color: var(--color-beta);
+    padding-bottom: 10px;
+}
+
+.pricing__plan, .pricing__plan--square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing__plan--square {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 60px;
+}
+
+.plan__title {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.plan__price {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 8px 0;
+}
+
+.plan__description--smaller {
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.plan__description {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.plan__button {
+    background-color: #09BCEB;
+    color: var(--color-alpha);
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 18px 45px;
+    margin-top: 50px;
 }
