@@ -191,3 +191,42 @@
     justify-content: center;
     padding: 20px 0;
 }
+
+
+/* ------------------------------------------------ */
+
+/* STYLES FOR FOURTH SECTION - DESCRIPTION */
+
+
+.description {
+    width: 100%;
+    font-family: var(--font-primary);
+    color: var(--color-beta);
+}
+
+.description__container {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.description__image, .description__article {
+    max-width: 50%;
+}
+
+.article__title, .article__desc {
+    padding: 40px 150px 0 60px;
+}
+
+.article__desc { 
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 28px;
+}
+
+.article__title {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+}
