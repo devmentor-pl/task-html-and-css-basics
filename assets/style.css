@@ -26,7 +26,7 @@
     color: var(--color-alpha);
 }
 
-.navbar__container, .hero__container, .features__container, .pricing__container {
+.navbar__container, .hero__container, .features__container, .pricing__container, .team__container {
     max-width: 1150px;
     margin: 0 auto;
     display: flex;
@@ -122,7 +122,7 @@
     padding: 40px 0 80px 0;
 }
 
-.features__title, .pricing__title {
+.features__title, .pricing__title, .team__title {
     font-size: 28px;
     font-weight: 300;
     line-height: 32px;
@@ -186,13 +186,13 @@
 /* STYLES FOR THIRD SECTION - PARTNERS */
 
 .partners {
-    background-color: white; 
+    background-color: #F8F9F9; 
 }
 
 .partners__container {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 
@@ -208,7 +208,7 @@
 }
 
 .description__container {
-    margin: 40px;
+    margin: 50px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -264,7 +264,7 @@
     padding-bottom: 10px;
 }
 
-.pricing__plan--left, .pricing__plan--center, .pricing__plan--right {
+.plan {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,7 +286,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.plan__title {
+.plan__title, .member__title {
     font-size: 16px;
     font-weight: 300;
     line-height: 24px;
@@ -321,4 +321,91 @@
     cursor: pointer;
     padding: 18px 45px;
     margin-top: 50px;
+}
+
+
+/* ------------------------------------------------ */
+
+/* STYLES FOR SIXTH SECTION - THE TEAM */
+
+.team {
+    width: 100%;
+    font-family: var(--font-primary);
+    color: var(--color-beta);
+    background-color: white;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.team__member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33.333%;
+    text-align: center;
+}
+
+.team__container {
+    width: 100%;
+    padding: 80px 0 100px 0; 
+}
+
+.member__description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.member__description--bold {
+    font-weight: 600;
+}
+
+.member__twitter, .member__facebook {
+    display: inline-block;
+}
+
+.member__logo--container {
+    display: flex;
+    width: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.member__twitter, .member__facebook {
+    height: 15px;
+    width: auto;
+    filter: brightness(0) saturate(100%);
+}
+
+.member__photo {
+    padding-bottom: 30px;
+}
+
+
+/* ------------------------------------------------ */
+
+/* STYLES FOR SEVENTH SECTION - FOOTER */
+
+.footer {
+    width: 100%;
+    background-color: #464646;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.footer__description {
+    color: var(--color-alpha);
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    padding-right: 10px;
+
 }
