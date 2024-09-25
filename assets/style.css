@@ -264,17 +264,26 @@
     padding-bottom: 10px;
 }
 
-.pricing__plan, .pricing__plan--square {
+.pricing__plan--left, .pricing__plan--center, .pricing__plan--right {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.pricing__plan--square {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding: 60px;
+}
+
+.pricing__plan--center {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.pricing__container:hover .plan {
+    box-shadow: none;
+}
+
+.pricing__container .plan:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .plan__title {
