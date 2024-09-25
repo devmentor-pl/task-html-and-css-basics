@@ -12,7 +12,7 @@
     --color-beta: #333;
 }
 
-/* STYLES FOR FIRST SECTION - START (NAVBAR & HERO) */
+/* STYLES FOR SECTION START (NAVBAR & HERO) */
 
 .start {
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -112,7 +112,7 @@
 
 /* ------------------------------------------------ */
 
-/* STYLES FOR SECOND SECTION - FEATURES */
+/* STYLES FOR SECTION FEATURES */
 
 .features {
     background-color: black;
@@ -183,7 +183,7 @@
 
 /* ------------------------------------------------ */
 
-/* STYLES FOR THIRD SECTION - PARTNERS */
+/* STYLES FOR SECTION PARTNERS */
 
 .partners {
     background-color: #F8F9F9; 
@@ -198,7 +198,7 @@
 
 /* ------------------------------------------------ */
 
-/* STYLES FOR FOURTH SECTION - DESCRIPTION */
+/* STYLES FOR SECTION DESCRIPTION */
 
 
 .description {
@@ -237,7 +237,7 @@
 
 /* ------------------------------------------------ */
 
-/* STYLES FOR FIFTH SECTION - PRICING */
+/* STYLES FOR SECTION PRICING */
 
 
 .pricing__title--container {
@@ -326,7 +326,7 @@
 
 /* ------------------------------------------------ */
 
-/* STYLES FOR SIXTH SECTION - THE TEAM */
+/* STYLES FOR SECTION TEAM */
 
 .team {
     width: 100%;
@@ -389,7 +389,7 @@
 
 /* ------------------------------------------------ */
 
-/* STYLES FOR SEVENTH SECTION - FOOTER */
+/* STYLES FOR SECTION FOOTER */
 
 .footer {
     width: 100%;
