@@ -1,0 +1,50 @@
+.features {
+  background-color: var(--clr-primary-2);
+}
+
+.features .container {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.features__container {
+  justify-content: center;
+}
+
+.features__container > * {
+  flex-basis: 260px;
+}
+
+.feature {
+  padding: 30px;
+}
+
+.features__headline {
+  padding-bottom: 70px;
+}
+
+.feature .feature__icon-container {
+  background-color: var(--clr-primary-1);
+  box-shadow: 4px 14px 28px #393939;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.feature__icon-container .feature__icon {
+  transform: scale(0.8);
+}
+
+.feature .feature__headline {
+  text-transform: uppercase;
+}
+
+/* SECTION LOGOS */
+.logos-container {
+  display: flex;
+  justify-content: center;
+}

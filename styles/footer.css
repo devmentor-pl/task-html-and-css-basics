@@ -1,0 +1,8 @@
+.footer {
+  background-color: var(--clr-primary-4);
+}
+
+.footer__content {
+  justify-content: center;
+  gap: 10px;
+}
