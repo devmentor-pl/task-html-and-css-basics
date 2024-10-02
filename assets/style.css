@@ -79,12 +79,13 @@
     width: 60%;
 }
 
-.hero__column--wider > img {
+.hero_image {
     width: 80%;
     height: auto;
     border: 15px solid white;
     border-radius: 20px;
     transform: rotate(-7deg);
+    background-color: white;
 }
 
 .hero__title {
@@ -122,7 +123,7 @@
     padding: 40px 0 80px 0;
 }
 
-.features__title, .pricing__title, .team__title {
+.title {
     font-size: 28px;
     font-weight: 300;
     line-height: 32px;
@@ -271,6 +272,7 @@
     justify-content: center;
     border-radius: 5px;
     padding: 60px;
+    list-style: none;
 }
 
 .pricing__plan--center {

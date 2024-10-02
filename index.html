@@ -29,7 +29,7 @@
             </nav>
         </header>
 
-        <div class="hero">
+        <article class="hero">
             <div class="hero__container">
 
                 <div class="hero__column">
@@ -39,49 +39,49 @@
                 </div>
 
                 <div class="hero__column--wider">
-                    <img src="/images/screen.png" alt="screen">
+                    <img class="hero_image" src="/images/screen.png" alt="screen">
                 </div>
 
             </div>
-        </div>
+        </article>
     </section>
 
     <section class="features" id="features">
-        <h2 class="features__title">FEATURES</h2>
-        <div class="features__container">
+        <h2 class="features__title title">FEATURES</h2>
+        <ul class="features__container">
 
-            <div class="features__element element">
+            <li class="features__element element">
                 <div class="element__circle">
                     <img src="/images/responsive.svg" alt="" class="element__image">
                 </div>
                 <h3 class="element__title">FULLY RESPONSIVE</h3>
                 <p class="element__description">Looks amazing on any device: </br>smartphone, tablet, laptop and desktop.</p>
-            </div>
+            </li>
 
-            <div class="features__element element">
+            <li class="features__element element">
                 <div class="element__circle">
                     <img src="/images/customizable.svg" alt="" class="element__image">
                 </div>
                 <h3 class="element__title">CUSTOMIZABLE</h3>
                 <p class="element__description">Change the colors, pictures or any of the sections to suit your needs.</p>
-            </div>
+            </li>
 
-            <div class="features__element element">
+            <li class="features__element element">
                 <div class="element__circle">
                     <img src="/images/design.svg" alt="" class="element__image">
                 </div>
                 <h3 class="element__title">SLICK AND BEAUTIFUL DESIGN</h3>
                 <p class="element__description">Trendy and fresh design, fits any website.</p>
-            </div>
+            </li>
 
-        </div>
+        </ul>
     </section>
 
-    <section class="partners">
+    <aside class="partners">
         <div class="partners__container">
             <img src="/images/logos.png" alt="" class="partners__logos">
         </div>
-    </section>
+    </aside>
 
     <section class="description">
         <div class="description__container">
@@ -98,55 +98,55 @@
 
     <section class="pricing" id="pricing">
 
-        <div class="pricing__title--container">
-            <h2 class="pricing__title">CHOOSE YOUR PRICING PLAN</h2>
+        <header class="pricing__title--container">
+            <h2 class="pricing__title title">CHOOSE YOUR PRICING PLAN</h2>
             <p class="pricing__subtitle">Pick any of our super affordable pricing plans</p>
-        </div>
+        </header>
 
         <div class="pricing__container">
-            <!-- PONIZSZE ELEMENTY ALTERNATYWNIE DO ZROBIENIA ZA POMOCĄ UL I LI -->
-            <div class="pricing__plan--left plan">
+            
+            <ul class="pricing__plan--left plan">
                 <h3 class="plan__title">BASIC</h3>
-                <p class="plan__price">$15</p>
-                <p class="plan__description--smaller">per month</p>
-                <p class="plan__description">Up to 7 Projects</p>
-                <p class="plan__description">2 Additional Developers</p>
+                <li class="plan__price">$15</li>
+                <li class="plan__description--smaller">per month</li>
+                <li class="plan__description">Up to 7 Projects</li>
+                <li class="plan__description">2 Additional Developers</li>
                 <br>
                 <br>
                 <button class="plan__button">Get Started</button>
-            </div>
+            </ul>
 
-            <div class="pricing__plan--center plan">
+            <ul class="pricing__plan--center plan">
                 <h3 class="plan__title">AGENCY</h3>
-                <p class="plan__price">$55</p>
-                <p class="plan__description--smaller">per month</p>
-                <p class="plan__description">Up to 25 Projects</p>
-                <p class="plan__description">2 Additional Developers</p>
-                <p class="plan__description">Unlimited Support</p>
+                <li class="plan__price">$55</li>
+                <li class="plan__description--smaller">per month</li>
+                <li class="plan__description">Up to 25 Projects</li>
+                <li class="plan__description">2 Additional Developers</li>
+                <li class="plan__description">Unlimited Support</li>
                 <br>
                 <button class="plan__button">Get Started</button>
-            </div>
+            </ul>
 
-            <div class="pricing__plan--right plan">
+            <ul class="pricing__plan--right plan">
                 <h3 class="plan__title">PRO</h3>
-                <p class="plan__price">$75</p>
-                <p class="plan__description--smaller">per month</p>
-                <p class="plan__description">Up to 25 Projects</p>
-                <p class="plan__description">2 Additional Developers</p>
-                <p class="plan__description">Unlimited Support</p>
-                <p class="plan__description">1.5GB Disk Space</p>
+                <li class="plan__price">$75</li>
+                <li class="plan__description--smaller">per month</li>
+                <li class="plan__description">Up to 25 Projects</li>
+                <li class="plan__description">2 Additional Developers</li>
+                <li class="plan__description">Unlimited Support</li>
+                <li class="plan__description">1.5GB Disk Space</li>
                 <button class="plan__button">Get Started</button>
-            </div>
+            </ul>
 
         </div>
     </section>
 
     <section class="team" id="team">
 
-        <h2 class="team__title">THE TEAM</h2>
-        <div class="team__container">
+        <h2 class="team__title title">THE TEAM</h2>
+        <ul class="team__container">
 
-            <div class="team__member member">
+            <li class="team__member member">
                 <img class="member__photo" src="/images/cto.png" alt="cto photo">
                 <h3 class="member__title">CTO</h3>
                 <p class="member__description member__description--bold">Johnny B Good</p>
@@ -159,9 +159,9 @@
                         <img class="member__facebook" src="/images/facebook.svg" alt="facebook logo">
                     </a>
                 </div>
-            </div>
+            </li>
 
-            <div class="team__member member">
+            <li class="team__member member">
                 <img class="member__photo" src="images/ceo.png" alt="ceo photo">
                 <h3 class="member__title">CEO</h3>
                 <p class="member__description member__description--bold">Roll Over Beethoven</p>
@@ -174,9 +174,9 @@
                         <img class="member__facebook" src="/images/facebook.svg" alt="facebook logo">
                     </a>
                 </div>
-            </div>
+            </li>
 
-            <div class="team__member member">
+            <li class="team__member member">
                 <img class="member__photo" src="images/cfo.png" alt="cfo logo">
                 <h3 class="member__title">CFO</h3>
                 <p class="member__description member__description--bold">Chuck Berry</p>
@@ -189,15 +189,15 @@
                         <img class="member__facebook" src="/images/facebook.svg" alt="facebook logo">
                     </a>
                 </div>
-            </div>
+            </li>
 
-        </div>
+        </ul>
     </section>
 
-    <section class="footer">
+    <footer class="footer">
             <p class="footer__description">A free template by</p>
             <img src="/images/webscope.svg" alt="" class="footer__logo">
-    </section>
+    </footer>
 
 </body>
 </html>
