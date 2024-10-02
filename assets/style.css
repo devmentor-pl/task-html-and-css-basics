@@ -111,6 +111,10 @@
     padding: 18px 45px;
 }
 
+.hero__button:hover {
+    color: #7255DF;
+}
+
 /* ------------------------------------------------ */
 
 /* STYLES FOR SECTION FEATURES */
@@ -382,6 +386,10 @@
     height: 15px;
     width: auto;
     filter: brightness(0) saturate(100%);
+}
+
+.member__twitter:hover, .member__facebook:hover {
+    filter: brightness(0) saturate(100%) invert(76%) sepia(57%) saturate(859%) hue-rotate(327deg) brightness(101%) contrast(95%);
 }
 
 .member__photo {
