@@ -326,6 +326,17 @@
     border: none;
     cursor: pointer;
     padding: 18px 45px;
+}
+
+.plan__button--left {
+    margin-top: 90px;
+}
+
+.plan__button--center {
+    margin-top: 70px;
+}
+
+.plan__button--right {
     margin-top: 50px;
 }
 
