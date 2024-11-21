@@ -1,0 +1,21 @@
+.footer,
+.footer__container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgb(70, 70, 70);
+    font-size: 12px;
+}
+
+.footer__logo,
+.footer__img {
+    padding: 6px;
+}
+
+.footer__container {
+    color: white;
+    max-width: 1150px;
+}

@@ -1,0 +1,70 @@
+.hero,
+.hero__container,
+.hero__download,
+.hero__screen {
+    display: flex;
+}
+
+.hero {
+    justify-content: center;
+}
+
+.hero__container {
+    color: white;
+    justify-content: space-between;
+    max-width: 1150px;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.hero__download {
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.hero__download-header {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.hero__download-paragraph {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    padding: 20px 30% 20px 0;
+}
+
+.hero__download-btn {
+    background-color: rgb(37, 241, 139);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 15px 0;
+    transition: border-radius 0.2s linear;
+    width: 200px;
+}
+
+.hero__download-btn:hover {
+    background-color: rgb(106, 255, 180);
+    border-radius: 20px;
+}
+
+.hero__screen {
+    justify-content: right;
+    padding-right: 35px;
+}
+
+.hero__img-wrapper {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 110%;
+    margin: 40px 70px 0 0;
+    transform: rotate(-6deg);
+    width: 70%;
+}
+
+.hero__img-wrapper img {
+    padding: 15px;
+}
