@@ -1,0 +1,24 @@
+/** @format */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: var(--footer-bgc);
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.footer__discription {
+  margin-right: 5px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--white-letters);
+}
+.footer__logo {
+  margin-left: 5px;
+}
