@@ -1,0 +1,31 @@
+.about {
+  padding: 2rem 0;
+}
+
+.about__container {
+    display: flex;
+}
+
+.about__text, .about__image {
+    flex-basis: 50%;
+}
+
+.about__image-container{
+
+    width: 100%;
+    height: 100%;
+}
+
+.about__text{
+    padding: 1rem 5rem ;
+    line-height:30px
+}
+
+.about__header{
+    font-size: 150%;
+}
+
+.about__description{
+    padding-top: 2rem;
+    font-size: 80%;
+}

@@ -1,0 +1,88 @@
+
+.hero {
+        background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+        color: white;
+        max-width: 1150px     
+}
+
+.hero__top{
+        flex-basis: 50%;
+        padding: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+}
+
+.hero__link{
+        text-decoration: none;
+        min-width: 150px;
+        color: white;
+ }
+ 
+ .hero__links {
+         display: flex;
+         justify-content: flex-end;
+ }
+
+ .hero__nova{
+        padding: 1rem;
+        width: 10%;
+        height: 10%;
+}
+
+.hero__bottom {
+        padding: 4rem 0rem 4rem 4rem;
+        flex-basis: 50%;
+        display: flex;
+        width: 150%;
+        height: 150%;
+}
+
+.hero__txt2{
+        font-size: 80%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+}
+
+.hero__one{
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 400px;
+}
+
+.hero_two{
+       transform: rotate(-15deg);
+       display: block;
+       border-radius: 120px 
+}
+
+.hero_two::before{
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        right: -15px;
+        bottom: -15px;
+        background-color: #fff;
+        border-radius: 20px;
+        z-index: -1;
+ }
+
+ .hero__txt{
+        font-weight: bold;
+ }
+
+ .hero__button{
+        border: none;
+        min-width:200px ;
+        background-color: rgb(16, 236, 108) ;
+        font-size: 0,5rem;
+        padding: 1rem;
+        color: white;
+        cursor:pointer;
+        transition: background-color 0,5s ease-in-out;
+        border-radius: 5px
+ }
+
+ .hero__button:hover {
+         background-color: rgb(10, 170, 77);
+ }

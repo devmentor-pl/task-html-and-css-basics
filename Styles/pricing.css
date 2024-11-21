@@ -1,0 +1,73 @@
+.pricing{
+    padding: 2rem;
+    background-color: #e9f1fa;
+}
+
+.pricing__choose{
+    text-align: center;
+}
+
+.pricing__text{
+    padding: 1rem;
+    font-size: 120%;
+}
+
+.pricing__text2{
+    padding: 1rem;
+    font-size: 80%;
+}
+
+.pricing__plans{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between
+}
+
+.pricing__button{
+    border: none;
+    min-width:150px ;
+    min-height:20px ;
+    background-color: rgb(16, 177, 236) ;
+    font-size: 0,5rem;
+    padding: 1rem;
+    color: white;
+    cursor:pointer;
+    transition: background-color 0,5s ease-in-out;
+    border-radius: 5px
+}
+
+.pricing__button:hover {
+     background-color: rgb(10, 119, 170);
+}
+
+.pricing__plansA{
+    box-shadow: -1px 2px 17px 6px rgba(0,0,0,0.46); 
+}
+
+.pricing__plansB, .pricing__plansA, .pricing__plansP{
+    flex-basis: 33.33%;
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.pricing__type{
+    font-size: 80%;
+    padding: 1rem;
+}
+
+.pricing__amount{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.pricing__month{
+    font-size: 50%;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.pricing__details{
+    font-size: 60%;
+    padding: 0.5rem;
+    font-weight: bold;
+}
