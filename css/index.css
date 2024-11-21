@@ -1,0 +1,321 @@
+:root {
+  --main-gradient: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background: var(--main-gradient);
+  min-height: 100vh;
+}
+
+nav {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu__link {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.hero {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero__left-col {
+  flex-basis: 45%;
+}
+
+.hero__right-col {
+  flex-basis: 55%;
+}
+
+.hero__title {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+}
+
+.hero__text {
+  color: white;
+  font-size: 22px;
+  margin: 40px 0;
+  font-weight: 300;
+}
+
+.hero__cta {
+  background: #25f18b;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.hero__img {
+  width: 100%;
+  height: auto;
+}
+
+.hero__img-wrapper {
+  transform: rotate(-10deg);
+  position: relative;
+  width: 90%;
+  margin-top: 50px;
+}
+.hero__img-wrapper::after {
+  content: "";
+  width: 105%;
+  height: 105%;
+  background: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.features {
+  background: black;
+  color: white;
+}
+
+.features__title {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+  padding: 80px 0 140px 0;
+}
+
+.features__list {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  text-align: center;
+  min-height: 180px;
+  margin: 0 40px;
+}
+
+.feature__img-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature__title {
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.sponsors {
+  background: #f9fafa;
+}
+
+.sponsors__wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.info {
+  margin: 100px;
+  display: flex;
+}
+
+.info__img-wrapper {
+  flex-basis: 55%;
+}
+
+.info__img {
+  width: 80%;
+  height: auto;
+}
+
+.info__description {
+  flex-basis: 45%;
+}
+
+.info__title {
+  font-size: 48px;
+  font-weight: 300;
+  padding: 30px 0;
+}
+
+.info__text {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.pricing-plans__info {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing-plans {
+  background: #f8f9f9;
+}
+
+.pricing-plans__title {
+  font-size: 48px;
+  font-weight: 300;
+  padding: 50px 0 20px 0;
+}
+
+.pricing-plans__text {
+  font-size: 22px;
+}
+
+.pricing-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.pricing-plans__list {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.pricing-plan {
+  width: 350px;
+  background: white;
+  text-align: center;
+  padding: 70px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing-plan__title {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.pricing-plan__price {
+  font-weight: bold;
+  font-size: 42px;
+  margin: 25px 0 5px 0;
+}
+
+.pricing-plan__price-info {
+  font-size: 14px;
+}
+
+.pricing-plan__features {
+  margin: 45px 0;
+}
+
+.pricing-plan__feature {
+  font-weight: 500;
+}
+
+.pricing-plan__cta {
+  display: block;
+  background: #0abceb;
+  text-decoration: none;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 10px;
+  justify-self: flex-end;
+}
+
+.team__title {
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: 48px;
+  text-align: center;
+  padding: 100px 0;
+  font-weight: 300;
+}
+
+.team__wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 200px;
+}
+
+.member {
+  text-align: center;
+}
+
+.member__role {
+  font-weight: 300;
+  margin: 40px 0 10px 0;
+}
+
+.member__name {
+  font-weight: bold;
+}
+
+.member__info {
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.member__social-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.member__social-img {
+  height: 20px;
+}
+
+footer {
+  padding: 10px 0;
+
+  background: #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__text {
+  margin-right: 5px;
+  color: white;
+  font-weight: 600;
+}
