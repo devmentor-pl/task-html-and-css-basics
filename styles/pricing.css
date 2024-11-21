@@ -1,0 +1,84 @@
+:root {
+    --color-alfa: rgb(255,255,255);
+}
+
+.pricing {
+    background-color: rgb(248, 249, 249);
+}
+
+.pricing__container {
+    height: 160px;
+    text-align: center;
+}
+
+.pricing__header {
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+.pricing__text {
+    margin: 20px 0 0 15px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.options__container {
+    display: flex;
+    justify-content: center;
+    height: 567px;
+    padding: 40px 100px;
+}
+
+.option {
+    width: 320px;
+    position: relative;
+}
+
+.option__type {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 49px;
+}
+
+.option__price {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    margin-top: 11px;
+}
+
+.option__period {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.option__amount {
+    text-align: center;
+    margin: 30px 0 50px 0;
+    font-size: 15px;
+    font-weight: 500;
+    min-width: 133px;
+}
+
+.option__starting {
+    padding: 17px 45px;
+    border-radius: 8px;
+    color: var(--color-alfa);
+    background: rgb(10, 188, 235);
+    border: none;
+    position: absolute;
+    bottom: 93px;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+.option--shadow {
+    background: var(--color-alfa);
+    box-shadow: -1px 3px 20px -6px rgba(66, 68, 90, 1);
+    border: 1px solid var(--color-alfa);
+    border-radius: 5px;
+}

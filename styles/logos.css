@@ -1,0 +1,16 @@
+.logos {
+    background-color: rgb(248, 249, 249);
+}
+
+.logos__pictures {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.logos__container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+}
+

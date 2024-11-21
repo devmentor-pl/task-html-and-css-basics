@@ -1,0 +1,34 @@
+.utility {
+    display: flex;
+    height: 690px;
+}
+
+.utility__picture {
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.picture__third {
+    width: 653px;
+    margin: 0 auto;
+}
+
+.utility__about {
+    width: 45%;
+}
+
+.utility__about-header {
+    padding-top: 110px;
+    margin-left: 34px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.utility__about-text {
+    min-width: 154px;
+    margin: 47px 210px 30px 34px;
+    line-height: 1.9em;
+    font-weight: 300;
+    font-size: 15px;
+}
