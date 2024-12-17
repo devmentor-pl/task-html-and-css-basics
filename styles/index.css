@@ -12,6 +12,8 @@
 
   --accent-primary-color: #25f18b;
   --accent-secondary-color: #0abceb;
+
+  scroll-behavior: smooth;
 }
 
 *,
@@ -57,8 +59,22 @@ p {
   font-weight: 300;
 }
 
+section {
+  padding: 2rem;
+}
+
 .container {
   width: min(100%, 1150px);
+  margin-inline: auto;
+}
+
+.container-sm {
+  width: min(100%, 900px);
+  margin-inline: auto;
+}
+
+.container-lg {
+  width: min(100%, 1400px);
   margin-inline: auto;
 }
 
@@ -173,8 +189,6 @@ header {
 
 .features-container {
   display: grid;
-  width: min(100%, 900px);
-  margin-inline: auto;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -212,7 +226,6 @@ header {
 .logos__container {
   display: flex;
   justify-content: center;
-  padding-block: 1rem;
 }
 
 /* NOVA THEME STYLES */
@@ -220,9 +233,6 @@ header {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
-  width: min(100%, 1400px);
-  margin-inline: auto;
-  padding: 3rem;
 }
 
 .nova-theme__img-container {
@@ -246,7 +256,6 @@ header {
 /* PRICING STYLES */
 .pricing {
   background-color: var(--secondary-light-color);
-  padding: 4rem 2rem;
 }
 
 .pricing__header {
@@ -259,9 +268,6 @@ header {
 }
 
 .pricing__plans {
-  width: min(100%, 900px);
-  margin-inline: auto;
-
   display: grid;
   grid-template-columns: 1fr 1.25fr 1fr;
   gap: 1rem;
@@ -316,4 +322,53 @@ header {
   max-width: 12rem;
   width: 100%;
   margin-inline: auto;
+}
+
+/* TEAM STYLES */
+.team__title {
+  text-align: center;
+  margin-block: 2rem;
+}
+
+.team__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-block: 2rem;
+}
+
+.team__member {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.team__member-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+}
+
+.team__member-title {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.team__member-socials {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.team__member-social {
+  transition: all 0.2s ease-out;
+}
+
+.team__member-social:hover {
+  opacity: 0.75;
+  transform: scale(0.95);
 }
