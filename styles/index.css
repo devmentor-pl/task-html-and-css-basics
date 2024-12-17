@@ -8,7 +8,9 @@
 :root {
   --primary-light-color: #fff;
   --primary-dark-color: #000;
+
   --secondary-light-color: #f8f9f9;
+  --secondary-dark-color: #464646;
 
   --accent-primary-color: #25f18b;
   --accent-secondary-color: #0abceb;
@@ -28,6 +30,10 @@ body {
   position: relative;
   font-family: "Montserrat";
   background-color: var(--primary-light-color);
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-height: 100dvh;
 }
 
 img {
@@ -371,4 +377,15 @@ header {
 .team__member-social:hover {
   opacity: 0.75;
   transform: scale(0.95);
+}
+
+/* FOOTER STYLES */
+footer {
+  background-color: var(--secondary-dark-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-block: 1rem;
+  color: var(--primary-light-color);
 }
