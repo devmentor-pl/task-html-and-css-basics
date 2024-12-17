@@ -131,12 +131,14 @@ header {
 .features {
   background-color: var(--primary-dark-color);
   color: var(--primary-light-color);
+  padding-block: 2rem 6rem;
 }
 
 .features__title {
   text-align: center;
-  padding-block: 3rem;
+  margin-block: 2rem;
   font-weight: 300;
+  font-size: 1.75rem;
 }
 
 .features-container {
@@ -145,7 +147,6 @@ header {
   margin-inline: auto;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
-  min-height: 22rem;
 }
 
 .feature {
