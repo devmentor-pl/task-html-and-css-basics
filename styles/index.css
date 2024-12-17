@@ -24,6 +24,11 @@ body {
   font-family: "Montserrat";
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 ul {
   list-style: none;
 }
@@ -176,4 +181,11 @@ header {
 
   background-color: var(--primary-light-color);
   box-shadow: 1px 1px 100px rgba(255, 255, 255, 0.5);
+}
+
+/* LOGOS SECTION */
+.logos {
+  display: flex;
+  justify-content: center;
+  padding-block: 1rem;
 }
