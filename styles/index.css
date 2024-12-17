@@ -43,6 +43,11 @@ h3 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-weight: 300;
+  font-size: 1.75rem;
+}
+
 p {
   letter-spacing: 1px;
   font-weight: 300;
@@ -51,6 +56,11 @@ p {
 .container {
   width: min(100%, 1150px);
   margin-inline: auto;
+}
+
+.description {
+  line-height: 1.8;
+  font-size: 0.875rem;
 }
 
 /* HERO STYLES */
@@ -104,7 +114,6 @@ header {
 
 .hero__subtitle {
   width: 60%;
-
   font-weight: 300;
 }
 
@@ -142,8 +151,6 @@ header {
 .features__title {
   text-align: center;
   margin-block: 2rem;
-  font-weight: 300;
-  font-size: 1.75rem;
 }
 
 .features-container {
@@ -162,10 +169,6 @@ header {
 .feature__title {
   margin-block: 2rem 1rem;
   font-size: 1rem;
-}
-
-.feature_description {
-  font-size: 0.875rem;
 }
 
 .feature__img-container {
@@ -188,4 +191,36 @@ header {
   display: flex;
   justify-content: center;
   padding-block: 1rem;
+  background-color: var(--primary-light-color);
+}
+
+/* NOVA THEME SECTION */
+.nova-theme {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+
+  width: min(100%, 1400px);
+  margin-inline: auto;
+
+  background-color: var(--primary-light-color);
+  padding: 2rem;
+}
+
+.nova-theme__img-container {
+  flex: 1;
+  padding: 1rem;
+}
+
+.nova-theme__content {
+  width: 40%;
+  padding: 2rem 6rem 2rem 2rem;
+}
+
+.nova-theme__title {
+  margin-block-end: 2rem;
+}
+
+.nova-theme__description {
+  width: 85%;
 }
