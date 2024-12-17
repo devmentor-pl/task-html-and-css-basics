@@ -15,20 +15,26 @@
           <img class="logo" src="./images/logo.svg" />
           <nav class="nav">
             <ul class="nav__list">
-              <li class="nav__item"><a class="nav__link">The Team</a></li>
-              <li class="nav__item"><a class="nav__link">Pricing</a></li>
-              <li class="nav__item"><a class="nav__link">Features</a></li>
+              <li class="nav__item">
+                <a href="#team" class="nav__link">The Team</a>
+              </li>
+              <li class="nav__item">
+                <a href="#pricing" class="nav__link">Pricing</a>
+              </li>
+              <li class="nav__item">
+                <a href="#features" class="nav__link">Features</a>
+              </li>
             </ul>
           </nav>
         </header>
 
-        <div class="hero__container container">
+        <div class="container hero__container">
           <div class="hero__content">
             <h1 class="hero__title">Beautiful Free Nova template</h1>
             <p class="hero__subtitle">
               A top notch premium quality template for your next web project.
             </p>
-            <button class="hero__button">Download FREE!</button>
+            <button class="button hero__button">Download FREE!</button>
           </div>
           <div class="hero__img-container">
             <img class="hero__img" src="./images/screen.png" />
@@ -86,8 +92,10 @@
       </section>
 
       <!-- LOGOS SECTION -->
-      <section class="logos container">
-        <img src="./images/logos.png" alt="" />
+      <section class="logos">
+        <div class="container logos__container">
+          <img src="./images/logos.png" alt="" />
+        </div>
       </section>
 
       <!-- NOVA THEME SECTION -->
@@ -107,6 +115,68 @@
             needs. Nova Theme is Free for any kind of use, personal and
             commercial. Have fun and good luck!
           </p>
+        </div>
+      </section>
+
+      <!-- PRICING SECTION -->
+      <section id="pricing" class="pricing">
+        <div class="container">
+          <div class="pricing__header">
+            <h2 class="pricing__title">Choose your pricing plan</h2>
+            <p class="pricing__subtitle description">
+              Pick any of our super affordable pricing plans
+            </p>
+          </div>
+
+          <div class="pricing__plans">
+            <article class="pricing__plan">
+              <div class="pricing__details">
+                <h3 class="pricing__name">BASIC</h3>
+                <div class="pricing__price">
+                  <span class="pricing__amount">$15</span>
+                  <span class="pricing__period">per month</span>
+                </div>
+                <ul class="pricing__features">
+                  <li class="pricing__feature">Up to 7 Projects</li>
+                  <li class="pricing__feature">2 Additional Developers</li>
+                </ul>
+              </div>
+              <button class="button pricing__button">Get started</button>
+            </article>
+
+            <article class="pricing__plan">
+              <div class="pricing__details">
+                <h3 class="pricing__name">AGENCY</h3>
+                <div class="pricing__price">
+                  <span class="pricing__amount">$55</span>
+                  <span class="pricing__period">per month</span>
+                </div>
+                <ul class="pricing__features">
+                  <li class="pricing__feature">Up to 25 Projects</li>
+                  <li class="pricing__feature">2 Additional Developers</li>
+                  <li class="pricing__feature">Unlimited Support</li>
+                </ul>
+              </div>
+              <button class="button pricing__button">Get started</button>
+            </article>
+
+            <article class="pricing__plan">
+              <div class="pricing__details">
+                <h3 class="pricing__name">PRO</h3>
+                <div class="pricing__price">
+                  <span class="pricing__amount">$75</span>
+                  <span class="pricing__period">per month</span>
+                </div>
+                <ul class="pricing__features">
+                  <li class="pricing__feature">Up to 25 Projects</li>
+                  <li class="pricing__feature">2 Additional Developers</li>
+                  <li class="pricing__feature">Unlimited Support</li>
+                  <li class="pricing__feature">1.5GB Disk Space</li>
+                </ul>
+              </div>
+              <button class="button pricing__button">Get started</button>
+            </article>
+          </div>
         </div>
       </section>
     </main>

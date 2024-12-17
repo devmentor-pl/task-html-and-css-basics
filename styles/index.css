@@ -8,7 +8,10 @@
 :root {
   --primary-light-color: #fff;
   --primary-dark-color: #000;
-  --accent-color: #25f18b;
+  --secondary-light-color: #f8f9f9;
+
+  --accent-primary-color: #25f18b;
+  --accent-secondary-color: #0abceb;
 }
 
 *,
@@ -22,6 +25,7 @@
 body {
   position: relative;
   font-family: "Montserrat";
+  background-color: var(--primary-light-color);
 }
 
 img {
@@ -63,6 +67,22 @@ p {
   font-size: 0.875rem;
 }
 
+.button {
+  border: none;
+  padding-block: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: bold;
+
+  transition: all 0.2s ease-out;
+}
+
+.button:hover {
+  transform: scale(0.95);
+  opacity: 0.75;
+}
+
 /* HERO STYLES */
 .hero {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
@@ -88,13 +108,17 @@ header {
 }
 
 .nav__link {
-  color: var(--primary-light-color);
+  color: var(--secondary-light-color);
   cursor: pointer;
+  transition: color 0.2s ease-out;
+}
+
+.nav__link:hover {
+  color: var(--primary-dark-color);
 }
 
 .hero__container {
   display: flex;
-  /* justify-content: space-between; */
   gap: 6rem;
   padding-block: 4rem 8rem;
 }
@@ -119,14 +143,8 @@ header {
 
 .hero__button {
   width: 45%;
-  background-color: var(--accent-color);
-  border: none;
-  padding-block: 1rem;
-  border-radius: 0.5rem;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: var(--accent-primary-color);
   color: var(--primary-light-color);
-  cursor: pointer;
-  font-weight: bold;
 }
 
 .hero__img-container {
@@ -186,25 +204,25 @@ header {
   box-shadow: 1px 1px 100px rgba(255, 255, 255, 0.5);
 }
 
-/* LOGOS SECTION */
+/* LOGOS STYLES */
 .logos {
+  background-color: var(--secondary-light-color);
+}
+
+.logos__container {
   display: flex;
   justify-content: center;
   padding-block: 1rem;
-  background-color: var(--primary-light-color);
 }
 
-/* NOVA THEME SECTION */
+/* NOVA THEME STYLES */
 .nova-theme {
   display: flex;
   justify-content: space-between;
   gap: 3rem;
-
   width: min(100%, 1400px);
   margin-inline: auto;
-
-  background-color: var(--primary-light-color);
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .nova-theme__img-container {
@@ -223,4 +241,79 @@ header {
 
 .nova-theme__description {
   width: 85%;
+}
+
+/* PRICING STYLES */
+.pricing {
+  background-color: var(--secondary-light-color);
+  padding: 4rem 2rem;
+}
+
+.pricing__header {
+  text-align: center;
+  margin-block-end: 2rem;
+}
+
+.pricing__title {
+  margin-block-end: 0.5rem;
+}
+
+.pricing__plans {
+  width: min(100%, 900px);
+  margin-inline: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1fr;
+  gap: 1rem;
+}
+
+.pricing__plan {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: space-between;
+
+  padding: 3rem 2rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.pricing__plan:nth-child(2) {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pricing__name {
+  font-weight: 300;
+  margin-block-end: 1rem;
+}
+
+.pricing__price {
+  margin-block-end: 2rem;
+  display: grid;
+}
+
+.pricing__amount {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.pricing__period {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.pricing__feature {
+  font-weight: 500;
+}
+
+.pricing__feature + .pricing__feature {
+  padding-block-start: 0.25rem;
+}
+
+.pricing__button {
+  background-color: var(--accent-secondary-color);
+  color: var(--primary-light-color);
+  max-width: 12rem;
+  width: 100%;
+  margin-inline: auto;
 }
