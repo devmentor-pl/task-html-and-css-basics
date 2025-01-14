@@ -43,4 +43,5 @@
   .green--section .orange {
     width: 30%;
     min-height: 300px;
+    display: flex;
   }
