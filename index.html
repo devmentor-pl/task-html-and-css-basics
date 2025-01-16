@@ -4,58 +4,151 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,400;0,700;1,600&family=Roboto:ital,wght@0,400;0,700;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header class="green green--header">
-      <div class="blue">
-        <h1 class="orange orange--logo"></h1>
-        <nav class="orange orange--nav"></nav>
+    <header class="header">
+      <div class="container">
+        <h1 class="logo">
+          <img src="./images/logo.svg" alt="Logo" width="160" />
+        </h1>
+        <nav class="navigation">
+          <ul class="menu">
+            <li><a href="#the-team">The Team</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#features">Features</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
-    <main class="green green--main">
-      <div class="blue">
-        <article class="orange orange--article"></article>
-        <article class="orange orange--article"></article>
+
+    <main class="header">
+      <div class="container">
+        <article class>
+          <h2>Beautiful Free Nova</h2>
+          <p>A top-notch premium quality template for your next web project.</p>
+          <button class="cta-button">Download FREE</button>
+        </article>
+        <article class="hero-image">
+          <img src="./images/screen.png" alt="Screen preview" />
+        </article>
       </div>
     </main>
-    <section class="green green--section">
-      <div class="blue"><h2>FEATURES</h2></div>
-      <div class="blue">
-        <article class="orange"></article>
-        <article class="orange"></article>
-        <article class="orange"></article>
+
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <div class="features-list">
+          <article class="feature-item">
+            <img src="./images/responsive.svg" alt="Responsive" />
+            <h3>Fully Responsive</h3>
+            <p>
+              Looks amazing on any device: smartphone, tablet, laptop, and
+              desktop.
+            </p>
+          </article>
+          <article class="feature-item">
+            <img src="./images/customizable.svg" alt="Customizable" />
+            <h3>Customizable</h3>
+            <p>
+              Change the colors, pictures, or any sections to suit your needs.
+            </p>
+          </article>
+          <article class="feature-item">
+            <img src="./images/design.svg" alt="Design" />
+            <h3>Slick and Beautiful Design</h3>
+            <p>Trendy and fresh design, fits any website.</p>
+          </article>
+        </div>
       </div>
     </section>
-    <section class="green">
-      <div class="blue">
-        <img />
-        <img />
-        <img />
-        <img />
-        <img />
+
+    <section class="partners">
+      <div class="container">
+        <img src="./images/logos.png" alt="Partner Logos" />
       </div>
     </section>
-    <section class="green green--section">
-      <article class="orange"></article>
-      <article class="orange"></article>
-    </section>
-    <section class="green green--section">
-      <div class="blue"><h2>CHOOSE YOUR PRICING PLAN</h2></div>
-      <div class="blue">
-        <article class="orange"></article>
-        <article class="orange"></article>
-        <article class="orange"></article>
+
+    <section class="about">
+      <div class="container">
+        <article class="about-image">
+          <img src="./images/imac.png"  alt="iMac" width="800px" />
+        </article>
+        <article class="about-description">
+          <h2>Simple and Beautiful</h2>
+          <p>
+            Use Nova theme for your next web project. It is completely
+            customizable so you can change any of the sections to fit your
+            needs. Nova Theme is free for any kind of use, personal and
+            commercial. Have fun and good luck!
+          </p>
+        </article>
       </div>
     </section>
-    <section class="green green--section">
-      <div class="blue"><h2>THE TEAM</h2></div>
-      <div class="blue">
-        <article class="orange"></article>
-        <article class="orange"></article>
-        <article class="orange"></article>
+
+    <section class="pricing">
+      <div class="container">
+        <h2 class="section-title">Choose Your Pricing Plan</h2>
+        <p>Pick any of our super affordable pricing plans.</p>
+        <div class="pricing-options">
+          <article class="pricing-item">
+            <h3>Basic</h3>
+            <p>$15 per month</p>
+            <p>Up to 7 Projects, 2 Additional Developers</p>
+            <button class="cta-button">Get Started</button>
+          </article>
+          <article class="pricing-item">
+            <h3>Agency</h3>
+            <p>$55 per month</p>
+            <p>Up to 25 Projects, 2 Additional Developers, Unlimited Support</p>
+            <button class="cta-button">Get Started</button>
+          </article>
+          <article class="pricing-item">
+            <h3>Pro</h3>
+            <p>$75 per month</p>
+            <p>
+              Up to 25 Projects, 2 Additional Developers, Unlimited Support,
+              1.5GB Disk Space
+            </p>
+            <button class="cta-button">Get Started</button>
+          </article>
+        </div>
       </div>
     </section>
-    <footer class="green green--footer"></footer>
+
+    <section class="team">
+      <div class="container">
+        <h2 class="section-title">The Team</h2>
+        <div class="team-members">
+          <article class="team-member">
+            <img src="./images/cto.png" alt="CTO" />
+            <h3>CTO Johnny B. Good</h3>
+            <p>The brains behind the whole operation.</p>
+          </article>
+          <article class="team-member">
+            <img src="./images/ceo.png" alt="CEO" />
+            <h3>CEO Roll Over Beethoven</h3>
+            <p>The one that puts it all together.</p>
+          </article>
+          <article class="team-member">
+            <img src="./images/cfo.png" alt="CFO" />
+            <h3>CFO Chuck Berry</h3>
+            <p>The guy with his hand on the wallet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Your Company. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
