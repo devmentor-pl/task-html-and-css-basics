@@ -31,12 +31,16 @@
     <main class="header">
       <div class="container">
         <article class>
-          <h2>Beautiful Free Nova</h2>
-          <p>A top-notch premium quality template for your next web project.</p>
-          <button class="cta-button">Download FREE</button>
+          <h2 class="heading">Beautiful Free Nova <br />template<br /></h2>
+          <p class="heading__desrciption">
+            A top-notch premium quality<br />
+            template for your next web<br />
+            project.
+          </p>
+          <button class="cta-button">Download FREE!</button>
         </article>
         <article class="hero-image">
-          <img src="./images/screen.png" alt="Screen preview" />
+          <img src="./images/screen.png" alt="Screen preview" width="600px" />
         </article>
       </div>
     </main>
@@ -46,7 +50,13 @@
         <h2 class="section-title">Features</h2>
         <div class="features-list">
           <article class="feature-item">
-            <img src="./images/responsive.svg" alt="Responsive" />
+            <span class="circle">
+              <img
+                class="circle_icon"
+                src="./images/responsive.svg"
+                alt="Responsive"
+              />
+            </span>
             <h3>Fully Responsive</h3>
             <p>
               Looks amazing on any device: smartphone, tablet, laptop, and
@@ -54,14 +64,24 @@
             </p>
           </article>
           <article class="feature-item">
-            <img src="./images/customizable.svg" alt="Customizable" />
+            <span class="circle">
+              <img
+                class="circle-icon"
+                src="./images/customizable.svg"
+                alt="Customizable"
+              />
+            </span>
+
             <h3>Customizable</h3>
             <p>
               Change the colors, pictures, or any sections to suit your needs.
             </p>
           </article>
           <article class="feature-item">
-            <img src="./images/design.svg" alt="Design" />
+            <span class="circle">
+              <img class="circle_icon" src="./images/design.svg" alt="Design" />
+            </span>
+
             <h3>Slick and Beautiful Design</h3>
             <p>Trendy and fresh design, fits any website.</p>
           </article>
@@ -78,15 +98,16 @@
     <section class="about">
       <div class="container">
         <article class="about-image">
-          <img src="./images/imac.png"  alt="iMac" width="800px" />
+          <img src="./images/imac.png" alt="iMac" />
         </article>
         <article class="about-description">
-          <h2>Simple and Beautiful</h2>
+          <h2 class="about__heading">SIMPLE AND BEAUTIFUL</h2>
           <p>
-            Use Nova theme for your next web project. It is completely
-            customizable so you can change any of the sections to fit your
-            needs. Nova Theme is free for any kind of use, personal and
-            commercial. Have fun and good luck!
+            Use Nova theme for your next web project. It is<br />
+            completely customizable so you can change any of<br />
+            the sections to fit your needs. Nova Theme is free for<br />
+            any kind of use, personal and commercial. Have fun<br />
+            and good luck!
           </p>
         </article>
       </div>
@@ -95,25 +116,42 @@
     <section class="pricing">
       <div class="container">
         <h2 class="section-title">Choose Your Pricing Plan</h2>
-        <p>Pick any of our super affordable pricing plans.</p>
+        <p class="pricing__description">
+          Pick any of our super affordable pricing plans.
+        </p>
         <div class="pricing-options">
           <article class="pricing-item">
-            <h3>Basic</h3>
-            <p>$15 per month</p>
-            <p>Up to 7 Projects, 2 Additional Developers</p>
+            <h3 class="pricing__heading">BASIC</h3>
+            <p><span class="pricing__cost">$15 </span><br />per month</p>
+            <p class="pricing__details">
+              Up to 7 Projects<br />
+              2 Additional Developers
+            </p>
             <button class="cta-button">Get Started</button>
           </article>
-          <article class="pricing-item">
-            <h3>Agency</h3>
-            <p>$55 per month</p>
-            <p>Up to 25 Projects, 2 Additional Developers, Unlimited Support</p>
-            <button class="cta-button">Get Started</button>
-          </article>
-          <article class="pricing-item">
-            <h3>Pro</h3>
-            <p>$75 per month</p>
+          <article class="pricing-item--details">
+            <h3 class="pricing__heading">AGENCY</h3>
             <p>
-              Up to 25 Projects, 2 Additional Developers, Unlimited Support,
+              <span class="pricing__cost">$55 </span><br />
+              per month
+            </p>
+            <p class="pricing__details">
+              Up to 25 Projects<br />
+              2 Additional Developers<br />
+              Unlimited Support
+            </p>
+            <button class="cta-button">Get Started</button>
+          </article>
+          <article class="pricing-item">
+            <h3 class="pricing__heading">PRO</h3>
+            <p>
+              <span class="pricing__cost">$75 </span><br />
+              per month
+            </p>
+            <p class="pricing__details">
+              Up to 25 Projects<br />
+              2 Additional Developers<br />
+              Unlimited Support<br />
               1.5GB Disk Space
             </p>
             <button class="cta-button">Get Started</button>
@@ -128,18 +166,62 @@
         <div class="team-members">
           <article class="team-member">
             <img src="./images/cto.png" alt="CTO" />
-            <h3>CTO Johnny B. Good</h3>
-            <p>The brains behind the whole operation.</p>
+            <h3><span class="team__heading">CTO</span> <br />Johnny B. Good</h3>
+            <p class="team__description">
+              The brains behind the whole operation.
+            </p>
+            <div class="team__socials">
+              <img
+                src="./images/team-twitter.svg"
+                alt="Twitter"
+                class="social-icon"
+              />
+              <img
+                src="./images/team-facebook.svg"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </div>
           </article>
           <article class="team-member">
             <img src="./images/ceo.png" alt="CEO" />
-            <h3>CEO Roll Over Beethoven</h3>
-            <p>The one that puts it all together.</p>
+            <h3>
+              <span class="team__heading">CEO</span><br />
+              Roll Over Beethoven
+            </h3>
+            <p class="team__description">The one that puts it all together.</p>
+            <div class="team__socials">
+              <img
+                src="./images/team-twitter.svg"
+                alt="Twitter"
+                class="social-icon"
+              />
+
+              <img
+                src="./images/team-facebook.svg"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </div>
           </article>
           <article class="team-member">
             <img src="./images/cfo.png" alt="CFO" />
-            <h3>CFO Chuck Berry</h3>
-            <p>The guy with his hand on the wallet.</p>
+            <h3><span class="team__heading">CFO</span> <br />Chuck Berry</h3>
+            <p class="team__description">
+              The guy with his hand on the wallet.
+            </p>
+            <div class="team__socials">
+              <img
+                src="./images/team-twitter.svg"
+                alt="Twitter"
+                class="social-icon"
+              />
+              <img
+                src="./images/team-facebook.svg"
+                alt="Facebook"
+                class="social-icon"
+              />
+            </div>
           </article>
         </div>
       </div>
@@ -147,7 +229,14 @@
 
     <footer class="footer">
       <div class="container">
-        <p>© 2025 Your Company. All rights reserved.</p>
+        <p class="footer__description">
+          A free template by
+          <img
+            src="./images/webscope.svg"
+            alt="Webscope Logo"
+            class="footer-logo"
+          />
+        </p>
       </div>
     </footer>
   </body>

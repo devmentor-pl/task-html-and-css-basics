@@ -26,7 +26,17 @@ body {
   display: flex;
   justify-content: space-between;
   padding-top: 2px;
-  padding-bottom: 5px;
+  padding-bottom: 100px;
+}
+
+.heading {
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+.heading__desrciption {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 40px;
 }
 
 .navigation {
@@ -43,7 +53,7 @@ body {
 }
 
 .menu li {
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .menu li a {
@@ -59,7 +69,7 @@ body {
 
 .features {
   background-color: black;
-  padding-top: 100px;
+  padding-top: 30px;
   text-align: center;
   padding-bottom: 150px;
   position: relative;
@@ -80,12 +90,13 @@ body {
 }
 
 .cta-button {
-  background-color: #25f18b;
+  background-color: #0abceb;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 20px 40px;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 10px;
+  font-size: 18px;
 }
 
 .partners .container {
@@ -106,11 +117,23 @@ body {
 .about-description h2 {
   padding-bottom: 50px;
 }
-
+.section-title {
+  padding-top: 60px;
+  margin-top: -10px;
+}
+.pricing__description {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -70px;
+  padding-bottom: 70px;
+}
+.pricing {
+  background-color: #f8f9f9;
+  padding-bottom: 100px;
+}
 .pricing .container {
   text-align: center;
   color: black;
-  background-color: #f8f9f9;
 }
 
 .pricing-options {
@@ -119,9 +142,25 @@ body {
 }
 
 .pricing-item {
+  position: relative;
   width: 30%;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px #ddd;
+  min-height: 300px;
+}
+.pricing-item .cta-button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pricing-item--details {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
 }
 
 .team .container {
@@ -143,4 +182,124 @@ body {
   text-align: center;
   padding: 20px 0;
   color: black;
+}
+
+.hero-image {
+  transform: translateX(-350px) translateY(-30px) rotate(-5deg);
+  border: 15px solid #fff;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.circle_icon {
+  max-width: 50%;
+  max-height: 50%;
+  vertical-align: middle;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.feature-item h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.feature-item p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 200;
+}
+
+.about__heading {
+  font-weight: 300;
+  font-size: 35px;
+}
+.about-image {
+  width: 40%;
+}
+.about-description {
+  width: 40%;
+  font-weight: 300;
+}
+.about .container {
+  justify-content: space-around;
+  padding: 80px;
+}
+.about-image img {
+  width: 100%;
+}
+.pricing__heading {
+  font-weight: 300;
+  padding: 20px;
+}
+.pricing__cost {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  font-size: 50px;
+  font-weight: bold;
+}
+.pricing__details {
+  padding: 20px;
+  font-weight: 500;
+  padding-bottom: 100px;
+}
+.team__heading {
+  display: inline-block;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.team__description {
+  margin-top: 20px;
+}
+.team__socials {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.team {
+  padding-bottom: 200px;
+}
+
+.social-icon {
+  width: 15px;
+  height: 15px;
+}
+.footer {
+  background-color: #464646;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-logo {
+  width: 100px;
+  height: auto;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.footer__description {
+  color: #fff;
+  font-weight: 500;
 }
