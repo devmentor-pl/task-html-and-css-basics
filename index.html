@@ -13,38 +13,39 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <h1 class="logo">
-          <img src="./images/logo.svg" alt="Logo" width="160" />
-        </h1>
-        <nav class="navigation">
-          <ul class="menu">
-            <li><a href="#the-team">The Team</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#features">Features</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <section class="hero">
+      <header class="header">
+        <div class="container">
+          <h1 class="logo">
+            <img src="./images/logo.svg" alt="Logo" width="160" />
+          </h1>
+          <nav class="navigation">
+            <ul class="menu">
+              <li><a href="#the-team">The Team</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#features">Features</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-    <main class="header">
-      <div class="container">
-        <article class>
-          <h2 class="heading">Beautiful Free Nova <br />template<br /></h2>
-          <p class="heading__desrciption">
-            A top-notch premium quality<br />
-            template for your next web<br />
-            project.
-          </p>
-          <button class="cta-button">Download FREE!</button>
-        </article>
-        <article class="hero-image">
-          <img src="./images/screen.png" alt="Screen preview" width="600px" />
-        </article>
-      </div>
-    </main>
-
+      <main class="header">
+        <div class="container">
+          <article class>
+            <h2 class="heading">Beautiful Free Nova <br />template<br /></h2>
+            <p class="heading__desrciption">
+              A top-notch premium quality<br />
+              template for your next web<br />
+              project.
+            </p>
+            <button class="cta-button">Download FREE!</button>
+          </article>
+          <article class="hero-image">
+            <img src="./images/screen.png" alt="Screen preview" width="600px" />
+          </article>
+        </div>
+      </main>
+    </section>
     <section class="features">
       <div class="container">
         <h2 class="section-title">Features</h2>
@@ -89,17 +90,17 @@
       </div>
     </section>
 
-    <section class="partners">
+    <aside class="partners">
       <div class="container">
         <img src="./images/logos.png" alt="Partner Logos" />
       </div>
-    </section>
+    </aside>
 
     <section class="about">
       <div class="container">
-        <article class="about-image">
+        <figure class="about-image">
           <img src="./images/imac.png" alt="iMac" />
-        </article>
+        </figure>
         <article class="about-description">
           <h2 class="about__heading">SIMPLE AND BEAUTIFUL</h2>
           <p>
@@ -123,10 +124,10 @@
           <article class="pricing-item">
             <h3 class="pricing__heading">BASIC</h3>
             <p><span class="pricing__cost">$15 </span><br />per month</p>
-            <p class="pricing__details">
-              Up to 7 Projects<br />
-              2 Additional Developers
-            </p>
+            <ul class="pricing__details">
+              <li>Up to 7 Projects</li>
+              <li>2 Additional Developers</li>
+            </ul>
             <button class="cta-button">Get Started</button>
           </article>
           <article class="pricing-item--details">
@@ -135,11 +136,11 @@
               <span class="pricing__cost">$55 </span><br />
               per month
             </p>
-            <p class="pricing__details">
-              Up to 25 Projects<br />
-              2 Additional Developers<br />
-              Unlimited Support
-            </p>
+            <ul class="pricing__details">
+              <li>Up to 25 Projects</li>
+              <li>2 Additional Developers</li>
+              <li>Unlimited Support</li>
+            </ul>
             <button class="cta-button">Get Started</button>
           </article>
           <article class="pricing-item">
@@ -148,12 +149,12 @@
               <span class="pricing__cost">$75 </span><br />
               per month
             </p>
-            <p class="pricing__details">
-              Up to 25 Projects<br />
-              2 Additional Developers<br />
-              Unlimited Support<br />
-              1.5GB Disk Space
-            </p>
+            <ul class="pricing__details">
+              <li>Up to 25 Projects</li>
+              <li>2 Additional Developers</li>
+              <li>Unlimited Support</li>
+              <li>1.5GB Disk Space</li>
+            </ul>
             <button class="cta-button">Get Started</button>
           </article>
         </div>

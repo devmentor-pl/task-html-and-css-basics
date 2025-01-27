@@ -18,7 +18,7 @@ body {
   padding-top: 20px;
 }
 
-.header {
+.hero {
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
@@ -156,10 +156,11 @@ body {
 }
 
 .pricing-item--details {
+  position: relative;
+  width: 25%;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border: 1px solid #fff;
   background-color: #fff;
-  padding: 50px;
   border-radius: 10px;
 }
 
@@ -258,6 +259,7 @@ body {
   font-weight: bold;
 }
 .pricing__details {
+  list-style-type: none;
   padding: 20px;
   font-weight: 500;
   padding-bottom: 100px;
