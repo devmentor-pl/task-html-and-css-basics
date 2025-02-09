@@ -4,11 +4,38 @@
 
 .cell__container {
   max-width: 1150px;
+  margin: 0 auto;
 }
 
 .section__landing-page {
   height: 730px;
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav__bar {
+  height: 100px;
+  padding: 35px 0 0 0;
+  outline: solid 1px blue;
+  display: flex;
+  justify-content: space-between;
+ 
+
+.nav__bar--logo > object {
+  height: 35px;
+  padding: 5px 0 0;
+}
+
+.nav__bar--links > ul {
+  display: flex;
+}
+
+.nav__bar--links li {
+  padding: 10px;
+}
+
+.nav__bar--links a {
+  text-decoration: none;
+  color: #e5def4;
 }
 
 .section__features {
