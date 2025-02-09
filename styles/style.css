@@ -1,0 +1,42 @@
+.section__container {
+  width: 100%;
+}
+
+.cell__container {
+  max-width: 1150px;
+}
+
+.section__landing-page {
+  height: 730px;
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.section__features {
+  height: 522px;
+  background-color: #000;
+}
+
+.section__icons {
+  height: 89px;
+  background-color: #f9fafa;
+}
+
+.section_theme {
+  height: 657px;
+  background-color: #ffffff;
+}
+
+.section__pricing {
+  height: 757px;
+  background-color: #f8f9f9;
+}
+
+.section__team {
+  height: 677px;
+  background-color: #a0c5e8;
+}
+
+.section_footer {
+  height: 77px;
+  background-color: #464646;
+}
