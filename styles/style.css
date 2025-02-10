@@ -12,32 +12,90 @@
   background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
 
-.nav__bar {
+.navbar {
   height: 100px;
   padding: 35px 0 0 0;
-  outline: solid 1px blue;
   display: flex;
   justify-content: space-between;
- 
+}
 
-.nav__bar--logo > object {
+.navbar__logo > object {
   height: 35px;
   padding: 5px 0 0;
 }
 
-.nav__bar--links > ul {
+.navbar__links > ul {
   display: flex;
 }
 
-.nav__bar--links li {
+.navbar__links li {
   padding: 10px;
 }
 
-.nav__bar--links a {
+.navbar__links a {
   text-decoration: none;
   color: #e5def4;
 }
+.landingpage__content-container {
+  display: flex;
+  justify-content: space-between;
+}
 
+.landingpage__left {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  color: #ffffff;
+  width: 40%;
+}
+.landingpage__left h1 {
+  margin: 20px 0 10px;
+  padding: 75px 0 15px;
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.landingpage__left h4 {
+  width: 287px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.landingpage__left button {
+  height: 51px;
+  width: 210px;
+  margin: 30px 0;
+  padding: 1px 6px;
+  color: inherit;
+  font-family: inherit;
+  font-size: 14px;
+  background-color: #25f18b;
+  border-radius: 10px;
+  border: none;
+  transition: border-radius 100ms linear, background-color 100ms ease;
+}
+
+.landingpage__left button:hover {
+  border-radius: 20px;
+  background-color: #6affb4;
+  cursor: pointer;
+}
+
+.landingpage__right {
+  margin-right: 54px;
+}
+.landingpage__right > div {
+  padding: 0 15px;
+  background-color: #fefefe;
+  margin-top: 40px;
+  width: 568px;
+  height: 480px;
+  border-radius: 25px;
+  transform: scale(0.9) rotate(-7deg);
+}
+
+.landingpage__right img {
+  margin-top: 19px;
+}
 .section__features {
   height: 522px;
   background-color: #000;
