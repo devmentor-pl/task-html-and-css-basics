@@ -101,6 +101,68 @@
   background-color: #000;
 }
 
+.features__cell--title {
+  display: flex;
+  height: calc(522px * 0.25);
+  justify-content: center;
+  align-items: center;
+}
+
+.features__cell--title h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #fffff7;
+  font-family: "Montserrat", serif;
+  font-style: normal;
+}
+
+.features__cell--cards {
+  display: flex;
+  justify-content: center;
+  height: calc(522px * 0.75);
+  font-family: "Montserrat", serif;
+  font-style: normal;
+}
+.features__container--card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 276px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.features__container--icon {
+  display: flex;
+  background-color: #fff;
+  height: 78px;
+  width: 78px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.features__container--card h5 {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 500;
+  color: #fffff7;
+  margin: 10px 0;
+  padding: 15px 0 0;
+  font-size: 14px;
+}
+
+.features__container--card p {
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  color: #fffff7;
+  margin: 0 0 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
 .section__icons {
   height: 89px;
   background-color: #f9fafa;
