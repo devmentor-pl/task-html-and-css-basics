@@ -201,6 +201,31 @@
   background-color: #f8f9f9;
 }
 
+.pricing__container--title {
+  text-align: center;
+}
+.pricing__title {
+  font-size: 30px;
+  margin: 20px 0 10px;
+  padding: 75px 0 0;
+  display: block;
+  color: #333;
+}
+.pricing__text {
+  font-size: 18px;
+  margin: 10px 0;
+  padding: 10px 0 0;
+  color: #888a88;
+}
+
+.pricing__container--card {
+  width: 350px;
+  font-size: 14px;
+}
+
+.pricing__card {
+  text-align: center;
+}
 .section__team {
   height: 677px;
   background-color: #a0c5e8;
