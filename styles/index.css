@@ -126,7 +126,7 @@ body {
   font-size: 30px;
 }
 
-.features__offer {
+.offer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -287,6 +287,10 @@ body {
 .list__item {
   font-size: 14px;
   color: #333333;
+}
+
+.btn__plan {
+  margin-top: 60px;
 }
 
 .plan__link--hover:hover {
