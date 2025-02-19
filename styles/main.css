@@ -1,0 +1,198 @@
+/* Main */
+
+/* Features section */
+.content .features-header__title {
+    color: var(--fontLight);
+}
+
+.content__features-box {
+    color: var(--fontLight);
+    gap: 4em;
+    margin: 8em auto;
+}
+
+.features-box__feature {
+    align-items: center;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    padding: 2.5em;
+    transition: var(--transitionFast);
+}
+
+.features-box__feature:hover {
+    transform: scale(1.1);
+}
+
+.feature__img {
+    background-color: var(--fontLight);
+    background: url(../images/responsive.svg) #fff no-repeat center;
+    border-radius: 50%;
+    height: 7em;
+    width: 7em;
+}
+
+.features-box__feature:nth-of-type(2) .feature__img  {
+    background-image: url(../images/customizable.svg);
+}
+
+.features-box__feature:nth-of-type(3) .feature__img  {
+    background-image: url(../images/design.svg);
+}
+
+.feature__title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.feature__content {
+    font-size: 1.4em;
+}
+
+/* SEO/Product description section */
+.content .content__description {
+    gap: 2em;
+}
+
+.description__img {
+    flex-basis: 50%;
+    padding: 4em;
+}
+
+.description__content-box {
+    flex-basis: 50%;
+    padding: 4em 15em 4em 4em;
+}
+
+.description__title {
+    margin: 1em 0;
+}
+
+.description__body {
+    font-weight: 100;
+}
+
+/* Pricing section */
+.content .pricing-header {
+    flex-direction: column;
+}
+
+.pricing-header__description {
+    font-weight: 100;
+}
+
+/* + base styles for team section */
+.pricing__cards-box, .team__cards-box {
+    gap: 2em;
+    margin: 2em auto;
+    padding: 5em;
+}
+
+.cards-box__card {
+    border-radius: 5px;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;  
+    padding: 2em;
+}
+/*  */
+
+.pricing__cards-box .cards-box__card {
+    transition: var(--transitionFast);
+}
+
+.pricing__cards-box .cards-box__card:hover{
+    box-shadow: 0 0 40px 0 rgba(0,0,0,.2);
+    flex-basis: 30%;
+}
+
+.card__header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    font-size: 1.6rem;
+    font-weight: 100;
+    margin-bottom: 1em;
+}
+
+.card__price {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.card__price-small {
+    font-size: 1.2rem;
+    margin-top: .5em;
+}
+
+.card__plan-features {
+    flex-grow: 1;
+    font-size: 1.4rem;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.plan-features__feature {
+    font-weight: 700;
+    margin: .5em;
+}
+
+.card__cta-btn {
+    background-color: var(--pricingBtnBg);
+    margin: 3em auto;
+    width: 150px;
+}
+
+.card__cta-btn:hover {
+    background-color: var(--pricingBtnBgHover);
+}
+
+/* Team section */
+.team__cards-box .cards-box__card {
+    align-items: center;
+    flex-basis: 33.33%;
+    gap: 1em;
+    padding: 1em 1em 10em 1em;
+}
+
+.card__avatar {
+    width: 50%;
+}
+
+.card__title {
+    font-size: 1.8rem;
+    margin: 2em 0 0 0;
+    /* margin: 2em 0 .5em 0; */
+}
+
+.card__person {
+    color: var(--fontDark);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.card__person-description {
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+.card__icons-list {
+    display: flex;
+    gap: 1.5em;
+    margin-top: 1em;
+}
+
+.icons-list__icon{
+    transition: var(--transitionFast);
+}
+
+.icons-list__link:hover .icons-list__icon {
+    transform: scale(1.4);
+}
