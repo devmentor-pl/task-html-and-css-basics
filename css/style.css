@@ -1,0 +1,392 @@
+/* COMMON */
+
+html, body{
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;  
+}
+
+.cta-button{
+    margin-top: 25px;
+    width: 210px; 
+    height: 51px;
+    border: none;
+    border-radius: 10px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    background-color: #25f18b;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #6affb4;
+    border-radius: 20px;
+    box-shadow: -1px 9px 46px -17px rgb(43 43 43);
+}
+
+h2{
+    font-size: 30px;
+}
+
+/* END OF COMMON */
+
+/* HEADER */
+
+.header{
+    min-height: 725px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: white;
+}
+
+.header__container {
+    height: 60px;  
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    max-width: 100px;
+    margin-top: 50px;
+}
+
+.nav{
+    padding-right: 15px;
+    margin-top: 40px;
+}
+
+.nav__items{
+    display: flex;
+    justify-content: center;
+    list-style: none;   
+}
+
+.nav__item{
+    min-width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    transition: font-weight .5s ease-in-out;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link:hover{
+    color: #58d5f7;
+}
+
+.hero {    
+    height: 500px;
+    justify-content: space-between;  
+}
+
+.hero__info {
+    width: 37%;
+    padding-top: 100px;
+}
+
+.hero__header {
+    margin: 20px 0 10px;
+    min-width: 400px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero__sub-header {
+    max-width: 287px;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.hero__image {    
+    width: 59%;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero__image-file {
+    width: 85%;
+    margin-top: 25px;
+    -ms-transform: rotate(354deg);
+    -webkit-transform: rotate(354deg);
+    transform: rotate(354deg);
+    border: 14px solid white;
+    border-bottom: 74px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* END OF HEADER */
+
+/* FEATURES */
+
+.features {
+    height: 525px;
+    padding-top: 55px;
+    background-color: black;
+    color: white;
+}
+
+.features__header {
+    justify-content: center;
+}
+
+.features__list {
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    min-height: 240px;
+    width: 23%;
+    margin: 0 10px;
+    padding: 100px 20px 20px;
+    text-align: center;
+}
+
+.feature__icon {
+    height: 80px;
+    width: 80px;
+    margin: 12px auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 4px 8px 15px 3px rgba(255, 255, 255, 0.25);
+}
+
+.feature__img {
+   height: 30px;
+}
+
+.feature__title {
+    margin-bottom: 0;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.feature__text {  
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+/* END OF FEATURES */
+
+/* MEDIA */
+
+.media {
+    height: 90px;
+    padding: 5px;
+    background-color: #f6f8f8;
+}
+
+.media__container {
+    height: 60px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.media__logos {
+    height: 30px;
+}
+
+/* END OF MEDIA */
+
+/* ABOUT */
+
+.about {
+    padding: 5px;
+    color: #333;
+}
+
+.about__container {
+    max-width: 1280px;    
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.about__image,
+.about__text-container {
+    width: 45%;
+}
+
+.about__image {
+    padding: 75px 10px;
+}
+
+.about__text-container {
+    padding: 80px 80px;
+}
+
+.about__text {
+    max-width: 400px;
+    padding-top: 45px;
+    font-size: 15px;
+    line-height: 2em;
+}
+
+/* END OF ABOUT */
+
+/* PRICING */
+
+.pricing {
+    height: 740px;
+    padding: 5px;
+    background-color: #f6f8f8;
+    color: #333;
+}
+
+.pricing__text-container {
+    display: block;
+    text-align: center;    
+}
+
+.pricing__header {
+    margin: 36px auto 15px;
+}
+
+.pricing__text {
+    margin: 15px auto 20px;
+    font-size: 18px;
+}
+
+.pricing__plans {
+    padding: 45px;
+    justify-content: center;
+}
+
+.pricing__plan {
+    width: 32%;
+    margin: 5px;    
+    text-align: center;
+}
+
+.pricing__plan--middle {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
+}
+
+.pricing__plan-type {
+    margin: 60px auto 0;   
+}
+
+.pricing__plan-price {
+    margin: 11px auto 0;
+    font-size: 45px;
+    font-weight: bold;    
+}
+
+.pricing__plan-period {
+    margin: 5px auto 25px;
+    font-size: 12px;    
+}
+
+.pricing__plan-text {
+    min-height: 106px;
+    line-height: 1.5em;
+}
+
+.cta-button--pricing {
+    width: 164px;
+    margin-bottom: 61px;
+    background-color: #0abceb;
+}
+
+.cta-button--pricing:hover {
+    background-color: #58d5f7;
+}
+
+/* END OF PRICING */
+
+/* TEAM */
+
+.team {
+    height: 580px;
+    color: #333;
+}
+
+.team__header-container {
+    min-height: 150px;
+    display: block;
+    text-align: center;   
+}
+
+.team__header {
+    margin: 60px auto 40px;
+}
+
+.team__members {
+    justify-content: center;
+}
+
+.team__member {
+    width: 25%;
+    margin: 15px;        
+    text-align: center;
+}
+
+.member__avatar {
+    width: 126px;
+    margin: 20px auto;
+}
+
+.member__position {
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.member__name {
+    margin: 10px auto;
+    font-weight: bold;
+}
+
+.member__twitter, 
+.member__fb {
+    margin: 15px 5px 30px;
+}
+
+/* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    height: 70px;
+    background-color: #525252;
+    color: white;
+}
+
+.footer__container {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer__text {
+    font-size: 12px;
+}
+
+.footer__image {
+    margin: 0 10px;
+}
+
+/* END OF FOOTER */
