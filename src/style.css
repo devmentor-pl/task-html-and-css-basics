@@ -61,6 +61,14 @@ button {
   gap: 10px;
   justify-content: center;
   padding: 40px 0 80px;
+  flex-wrap: wrap;
+}
+@media (max-width: 425px) {
+  .cards__container {
+    flex-direction: column;
+    align-content: center;
+    gap: 50px;
+  }
 }
 .cards__container .card {
   width: 300px;
@@ -119,6 +127,13 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 425px) {
+  .header__container {
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 .hero__container {
   display: flex;
   align-items: flex-start;
@@ -126,10 +141,17 @@ header {
   gap: 90px;
   color: var(--color-light);
 }
+@media (max-width: 425px) {
+  .hero__container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+}
 .logos__container {
   display: flex;
   justify-content: center;
-  padding: 20px 0;
+  padding: 20px;
   background-color: var(--color-medium-light);
 }
 .media__container {
@@ -156,6 +178,15 @@ header {
 .text h2 {
   text-transform: uppercase;
 }
+@media (max-width: 425px) {
+  .media-text {
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+  }
+}
+
 section:has(.cards__container--pricing) {
   padding: 40px 0;
   background-color: var(--color-medium-light);
