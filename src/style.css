@@ -1,0 +1,200 @@
+:root {
+  --gradient: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  --color-primary: #06bceb;
+  --color-secondary: #23f18b;
+  --color-light: #ffffff;
+  --color-medium-light: #f8f9f9;
+  --color-medium-dark: #464646;
+  --color-dark: #000000;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+p {
+  font-weight: 300;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 14px;
+}
+button {
+  padding: 15px 20px;
+  border-radius: 6px;
+  border: 0;
+  color: var(
+    --color-medium-dark
+  ); /* I decided to change the text color to fulfill WCAG criteria */
+}
+.button--primary {
+  background-color: var(--color-primary);
+}
+.button--secondary {
+  background-color: var(--color-secondary);
+  width: 60%;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.content__container {
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.cards__container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 40px 0 80px;
+}
+.cards__container .card {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.cards__container .card h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.card-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-light);
+  padding: 10px;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+.card-img img {
+  width: 30px;
+  height: 30px;
+}
+.nav__container {
+  display: flex;
+  gap: 24px;
+}
+.nav__container a {
+  color: var(--color-light);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+.nav__container a:hover {
+  border-bottom: 1px solid var(--color-light);
+}
+header {
+  background: var(--gradient);
+}
+.header__container {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__container {
+  display: flex;
+  align-items: flex-start;
+  padding: 50px 0 100px;
+  gap: 90px;
+  color: var(--color-light);
+}
+.logos__container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: var(--color-medium-light);
+}
+.media__container {
+  background-color: var(--color-light);
+  padding: 17px;
+  transform: rotate(-5deg);
+  border-radius: 20px;
+  /* margin: 40px 0 0 92px; */
+}
+.media-text {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px;
+  line-height: 2;
+  color: var(--color-medium-dark);
+}
+.media {
+  width: 40%;
+}
+.text {
+  width: 30%;
+}
+.text h2 {
+  text-transform: uppercase;
+}
+.pricing__container {
+  padding: 40px 0;
+  background-color: var(--color-medium-light);
+}
+.pricing__container--cards .card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+.card--featured {
+  background: var(--color-light);
+  border-radius: 6px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.plan-price h3 {
+  text-transform: uppercase;
+}
+.plan-price .price {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 12px 0;
+}
+.pricing__container--text,
+.team__container--title {
+  text-align: center;
+}
+.pricing__container--cards,
+.team__container--cards {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+footer {
+  background-color: var(--color-medium-dark);
+}
+section:has(.cards__container) {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+section:has(.logos__container) {
+  background-color: var(--color-medium-light);
+}
+.title__container {
+  padding: 40px 0;
+  text-align: center;
+}
