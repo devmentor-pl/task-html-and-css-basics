@@ -70,6 +70,14 @@ button {
   gap: 20px;
   align-items: center;
 }
+.team-title {
+  display: inline-block;
+}
+.team-title,
+.team-name,
+.team-info {
+  margin-bottom: 12px;
+}
 .cards__container .card h3 {
   text-transform: uppercase;
   font-weight: 700;
@@ -148,11 +156,11 @@ header {
 .text h2 {
   text-transform: uppercase;
 }
-.pricing__container {
+section:has(.cards__container--pricing) {
   padding: 40px 0;
   background-color: var(--color-medium-light);
 }
-.pricing__container--cards .card {
+.cards__container--pricing .card {
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -173,21 +181,34 @@ header {
   font-weight: 700;
   margin: 12px 0;
 }
+.cards__container--team .card {
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
 .pricing__container--text,
 .team__container--title {
   text-align: center;
 }
-.pricing__container--cards,
-.team__container--cards {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
 
 footer {
   background-color: var(--color-medium-dark);
+  color: var(--color-light);
+  text-align: center;
+  /* padding: 10px 0; */
+  font-size: 14px;
 }
-section:has(.cards__container) {
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+section:has(.cards__container--features) {
   background-color: var(--color-dark);
   color: var(--color-light);
 }
