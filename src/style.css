@@ -50,7 +50,6 @@ button:hover {
   background-color: var(--color-secondary);
   width: 60%;
 }
-
 .container {
   max-width: 1150px;
   margin: 0 auto;
@@ -172,7 +171,6 @@ header {
   border-radius: 6px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
 .plan-price h3,
 .card-content h3 {
   text-transform: uppercase;
@@ -196,7 +194,6 @@ header {
 .team {
   text-align: center;
 }
-
 footer {
   background-color: var(--color-medium-dark);
   color: var(--color-light);
