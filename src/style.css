@@ -17,6 +17,7 @@ h1,
 h2,
 h3,
 p {
+  font-family: inherit;
   font-weight: 300;
 }
 h1 {
@@ -24,6 +25,7 @@ h1 {
   font-weight: 700;
 }
 h2 {
+  margin-bottom: 16px;
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -34,9 +36,12 @@ button {
   padding: 15px 20px;
   border-radius: 6px;
   border: 0;
-  color: var(
-    --color-medium-dark
-  ); /* I decided to change the text color to fulfill WCAG criteria */
+  color: var(--color-medium-dark);
+  font-family: inherit;
+  transition: 150ms ease-in-out;
+}
+button:hover {
+  scale: 1.1;
 }
 .button--primary {
   background-color: var(--color-primary);
@@ -50,27 +55,20 @@ button {
   max-width: 1150px;
   margin: 0 auto;
 }
-.content__container {
+.content {
   margin-top: 44px;
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-.cards__container {
+.container--cards {
   display: flex;
   gap: 10px;
   justify-content: center;
   padding: 40px 0 80px;
   flex-wrap: wrap;
 }
-@media (max-width: 425px) {
-  .cards__container {
-    flex-direction: column;
-    align-content: center;
-    gap: 50px;
-  }
-}
-.cards__container .card {
+.card {
   width: 300px;
   text-align: center;
   display: flex;
@@ -86,12 +84,11 @@ button {
 .team-info {
   margin-bottom: 12px;
 }
-.cards__container .card h3 {
-  text-transform: uppercase;
+.container--cards .card h3 {
   font-weight: 700;
   margin-bottom: 14px;
 }
-.card-img {
+.card-image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,64 +99,45 @@ button {
   height: 80px;
   object-fit: contain;
 }
-.card-img img {
-  width: 30px;
-  height: 30px;
-}
-.nav__container {
+.nav__list {
   display: flex;
   gap: 24px;
 }
-.nav__container a {
+.nav__list a {
   color: var(--color-light);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
-.nav__container a:hover {
+.nav__list a:hover {
   border-bottom: 1px solid var(--color-light);
 }
 header {
   background: var(--gradient);
 }
-.header__container {
+.container--header {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-@media (max-width: 425px) {
-  .header__container {
-    padding: 20px;
-    flex-direction: column;
-    gap: 20px;
-  }
-}
-.hero__container {
+.container--hero {
   display: flex;
   align-items: flex-start;
   padding: 50px 0 100px;
   gap: 90px;
   color: var(--color-light);
 }
-@media (max-width: 425px) {
-  .hero__container {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 20px;
-  }
-}
-.logos__container {
+.container--logos {
   display: flex;
   justify-content: center;
   padding: 20px;
   background-color: var(--color-medium-light);
 }
-.media__container {
+.container--hero .media {
   background-color: var(--color-light);
   padding: 17px;
   transform: rotate(-5deg);
   border-radius: 20px;
-  /* margin: 40px 0 0 92px; */
 }
 .media-text {
   display: flex;
@@ -169,29 +147,20 @@ header {
   line-height: 2;
   color: var(--color-medium-dark);
 }
-.media {
+.media-text .media {
   width: 40%;
 }
-.text {
+.media-text .text {
+  margin-top: 16px;
   width: 30%;
 }
-.text h2 {
+.media-text .text h2 {
   text-transform: uppercase;
 }
-@media (max-width: 425px) {
-  .media-text {
-    flex-direction: column;
-  }
-  .text {
-    width: 100%;
-  }
-}
-
-section:has(.cards__container--pricing) {
-  padding: 40px 0;
+.pricing {
   background-color: var(--color-medium-light);
 }
-.cards__container--pricing .card {
+.pricing .card {
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -204,7 +173,8 @@ section:has(.cards__container--pricing) {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.plan-price h3 {
+.plan-price h3,
+.card-content h3 {
   text-transform: uppercase;
 }
 .plan-price .price {
@@ -212,16 +182,18 @@ section:has(.cards__container--pricing) {
   font-weight: 700;
   margin: 12px 0;
 }
-.cards__container--team .card {
-  width: 300px;
+.plan-details {
+  margin-bottom: 30px;
+}
+.team .card {
+  width: 30%;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
 }
-.pricing__container--text,
-.team__container--title {
+.team {
   text-align: center;
 }
 
@@ -229,7 +201,6 @@ footer {
   background-color: var(--color-medium-dark);
   color: var(--color-light);
   text-align: center;
-  /* padding: 10px 0; */
   font-size: 14px;
 }
 .footer__container {
@@ -239,14 +210,14 @@ footer {
   gap: 10px;
   padding: 20px 0;
 }
-section:has(.cards__container--features) {
+.features {
   background-color: var(--color-dark);
   color: var(--color-light);
 }
-section:has(.logos__container) {
+.logos {
   background-color: var(--color-medium-light);
 }
-.title__container {
-  padding: 40px 0;
+.container--title {
+  padding: 60px 0 26px;
   text-align: center;
 }
