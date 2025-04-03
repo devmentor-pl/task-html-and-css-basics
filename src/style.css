@@ -75,15 +75,14 @@ button:hover {
   gap: 20px;
   align-items: center;
 }
-.team-title {
+.team__position {
   display: inline-block;
 }
-.team-title,
-.team-name,
-.team-info {
+.team__position,
+.team__info {
   margin-bottom: 12px;
 }
-.container--cards .card h3 {
+.title {
   font-weight: 700;
   margin-bottom: 14px;
 }
@@ -102,15 +101,15 @@ button:hover {
   display: flex;
   gap: 24px;
 }
-.nav__list a {
+.list__link {
   color: var(--color-light);
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
-.nav__list a:hover {
+.list__link:hover {
   border-bottom: 1px solid var(--color-light);
 }
-header {
+.hero {
   background: var(--gradient);
 }
 .container--header {
@@ -132,7 +131,7 @@ header {
   padding: 20px;
   background-color: var(--color-medium-light);
 }
-.container--hero .media {
+.hero__media {
   background-color: var(--color-light);
   padding: 17px;
   transform: rotate(-5deg);
@@ -146,14 +145,14 @@ header {
   line-height: 2;
   color: var(--color-medium-dark);
 }
-.media-text .media {
+.media {
   width: 40%;
 }
-.media-text .text {
+.text {
   margin-top: 16px;
   width: 30%;
 }
-.media-text .text h2 {
+.text__title {
   text-transform: uppercase;
 }
 .pricing {
@@ -171,11 +170,11 @@ header {
   border-radius: 6px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.plan-price h3,
-.card-content h3 {
+.plan-price__title,
+.card-content__title {
   text-transform: uppercase;
 }
-.plan-price .price {
+.price {
   font-size: 32px;
   font-weight: 700;
   margin: 12px 0;
@@ -183,7 +182,7 @@ header {
 .plan-details {
   margin-bottom: 30px;
 }
-.team .card {
+.card--team {
   width: 30%;
   text-align: center;
   display: flex;
