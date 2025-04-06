@@ -213,3 +213,56 @@ body {
     text-align: center;
     font-size: 1.8em;
 }
+
+/* LOGOS */
+.logos {
+    background-color: var(--logos-background);
+}
+
+.logos__container {
+    display: flex;
+    justify-content: center;
+}
+
+.logos__item {
+    margin: 20px 0;
+}
+
+/* MAIN */
+
+.main {
+    background-color: var(--main-background);
+}
+
+.main__container {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.photo__container {
+    width: 55%;
+    padding: 35px;
+    margin-right: 20px;
+}
+
+.main__text {
+    width: 44%;
+    padding: 40px;
+}
+
+.main__heading {
+    margin-top: 30px;
+    color: var(--text-color-main);
+    font-size: 3.6em;
+    text-transform: uppercase;
+}
+
+.main__paragraph {
+    margin-top: 40px;
+    color: var(--text-color-main);
+    width: 85%;
+    line-height: 2em;
+    font-size: 1.8em;
+}
