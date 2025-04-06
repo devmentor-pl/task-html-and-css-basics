@@ -1,4 +1,4 @@
-![Preview](image.png)
+![Preview](image-3.png)
 Nova Template Clone
 👉 Live Version 
 
