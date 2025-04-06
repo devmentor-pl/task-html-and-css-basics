@@ -1,0 +1,38 @@
+/*    font-family: "Montserrat", sans-serif;
+ */
+
+ :root {
+    --text-color: #fff;
+    --text-color-hover: #000;
+    --text-color-main: #000;
+    --header-btn: #25F18B;
+    --features-background: #000;
+    --logos-background: #F9FAFA;
+    --main-background: #FFFFFF;
+    --pricing-background-color: #F8F9F9;
+    --pricing-header-heading: #333333;
+    --pricing-btn: #0ABCEB;
+    --footer-background: #464646;
+    --row-outline-color: green;
+    --cell-outline-color: orange;
+    --container-outline-color: #00A8F3;
+}
+
+body {
+    color: var(--text-color);
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+
+
+.cell {
+    min-height: 50px;
+    /* outline-color: var(--cell-outline-color); */
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    /* outline-color: var(--container-outline-color); */
+}
