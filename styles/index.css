@@ -372,3 +372,84 @@ body {
 .pricing__btn-right {
     margin-top: 20px;
 }
+
+
+/* TEAM */
+
+.team__h2heading {
+
+    margin-top: 50px;
+
+    padding: 30px;
+    color: var(--text-color-main);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.6em;
+}
+
+.team__items {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.team__item {
+    color: var(--text-color-hover);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.team__photo {
+    display: flex;
+    margin: 20px auto;
+}
+
+.team__item-h3heading {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.team__item-h4heading {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+.team__paragraph {
+    margin: 20px 15px 0 15px;
+    font-size: 1.6em;
+}
+
+.team__socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team__social {
+    margin-bottom: 100px;
+}
+
+.team__social:first-child {
+    margin-right: 20px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: var(--footer-background);
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__text {
+    margin: 20px 0;
+    align-self: center;
+    font-size: 1.6em;
+    margin-right: 20px;
+}
