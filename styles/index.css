@@ -1,11 +1,12 @@
 /*    font-family: "Montserrat", sans-serif;
  */
 
- :root {
+:root {
     --text-color: #fff;
     --text-color-hover: #000;
     --text-color-main: #000;
     --header-btn: #25F18B;
+    --header-image: #fff;
     --features-background: #000;
     --logos-background: #F9FAFA;
     --main-background: #FFFFFF;
@@ -141,6 +142,8 @@ body {
     border: 15px solid white;
     border-radius: 25px;
     transform: rotate(-10deg);
+    background-color: var(--header-image);
+
 }
 
 /* FEATURES */
