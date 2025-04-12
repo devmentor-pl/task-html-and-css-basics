@@ -1,0 +1,33 @@
+/* footer.css */
+
+:root {
+    --color-alfa: rgb(255, 255, 255);
+    --color-beta: rgb(37, 241, 139);
+    --color-gamma: rgb(51, 51, 51);
+    --color-delta: rgb(10, 188, 235);
+}
+
+.footer {
+    max-height: 80px;
+    padding: 0px;
+}
+
+.footer__container, .footer__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__container {
+    min-width: 100%;
+    min-height: 100px;
+    background-color: var(--color-gamma);
+}
+
+.footer__container span{
+    margin: 8px;
+    font: 700 0.7rem/1em 'Montserrat';
+    color: var(--color-alfa);
+}
+
+
