@@ -1,0 +1,396 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://fonts.google.com/specimen/Montserrat) format('opentype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+
+:root {
+    --color-alfa: rgb(255, 255, 255);
+    --color-beta: rgb(37, 241, 139);
+    --color-gamma: rgb(51, 51, 51);
+    --color-delta: rgb(10, 188, 235);
+}
+
+/* content.css */
+
+.content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.content__article img {
+    max-width: 100%;
+}
+
+
+
+/* Slider */
+
+section[data-id="Slider"] {
+    padding-top: 100px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+section[data-id="Slider"] .content__container {
+    margin-top: 40px;
+    padding: 0px 8px;
+}
+
+section[data-id="Slider"] .content__article.cell {
+    min-height: 500px;
+}
+
+section[data-id="Slider"] .content__article.cell.left {
+    padding: 48px 0;
+    width: 40%;
+}
+
+section[data-id="Slider"] .content__article.cell.left title {
+    font: bold 2.1rem/1.2em 'Montserrat';
+    color: var(--color-alfa);
+}
+
+section[data-id="Slider"] .content__article.cell.left p {
+    max-width: 60%;
+    font: 200 1.1rem/1.8em 'Montserrat';
+    color: var(--color-alfa);
+}
+
+section[data-id="Slider"] .content__article.cell.left button {
+    width: 200px;
+    padding: 18px 0;
+    font: 600 0.9rem/1em 'Montserrat';
+    background-color: var(--color-beta);
+    color: var(--color-alfa);
+    border-radius: 8px;
+    border: 0px;
+    cursor: pointer;
+}
+
+section[data-id="Slider"] .content__article.cell.right {
+    width: 60%;
+}
+
+section[data-id="Slider"] .content__article.cell.right a {
+    display: flex;
+    justify-content: center;
+}
+
+.screen {
+    width: 80%;
+    transform: rotate(-5deg);
+    border: 16px solid white;
+    border-radius: 20px;
+    padding-bottom: 40px;
+    background-color: var(--color-alfa);
+}
+
+/* Features */
+
+section[data-id="Features"] {
+    padding: 0px 8px;
+    background-color: black;
+    color: var(--color-alfa);
+}
+
+
+section[data-id="Features"] .content__article {
+    padding: 0px 8px;
+}
+
+section[data-id="Features"] .content__article.title--module {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 200 1.8rem/1em 'Montserrat';
+    padding: 20px 0;
+}
+
+section[data-id="Features"] .content__article.cell {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    align-items: center;
+    width: 33%;
+    min-height: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+section[data-id="Features"] .content__article.cell div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 28px;
+    background-color: var(--color-alfa);
+    border-radius: 50%;
+}
+
+section[data-id="Features"] .content__article.cell title {
+    max-width: 80%;
+    font: 400 0.9rem/1.2em 'Montserrat';
+    text-transform: uppercase;
+}
+
+section[data-id="Features"] .content__article.cell p {
+    font: 200 0.8rem/1.6em 'Montserrat';
+}
+
+section[data-id="Features"] .content__container {
+    padding: 12px 12%;
+}
+
+section[data-id="Features"] article {
+    text-align: center;
+}
+
+
+/* Module cooperating companies */
+
+section[data-id="Module cooperating"]{
+    background-color: #F9FAFA;
+}
+
+section[data-id="Module cooperating"] article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+}
+
+section[data-id="Module cooperating"] .content__article.cell.left {
+    width: 100%;
+}
+
+
+/* Simple */
+
+section[data-id="Simple"] {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 40px 0;
+}
+
+section[data-id="Simple"] .content__article.cell.left {
+    width: 55%;
+}
+
+section[data-id="Simple"] .content__article.cell.left img {
+    width: 80%;
+}
+
+section[data-id="Simple"] .content__article.cell.right {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: start;
+    justify-content: left;
+    width: 45%;
+    padding: 40px 0 0 16px;
+    text-align: left;
+}
+
+section[data-id="Simple"] .content__article.cell.right title {
+    max-width: 80%;
+    font: 300 2rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+section[data-id="Simple"] .content__article.cell.right p {
+    max-width: 65%;
+    font: 300 0.9rem/2em 'Montserrat';
+    color: var(--color-gamma);
+    filter: opacity(0.5);
+}
+
+
+section[data-id="Simple"] .content__article.cell {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    min-height: 300px;
+    text-align: center;
+}
+
+section[data-id="Simple"] .content__container {
+    padding: 12px 0px;
+}
+
+
+
+/* Pricing plan */
+
+section[data-id="Pricing plan"] {
+    background-color: #F8F9F9;
+    padding-bottom: 80px;
+
+}
+
+section[data-id="Pricing plan"] .content__article.title--module {
+    width: 100%;
+    height: 50px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section[data-id="Pricing plan"] .content__article.title--module title {
+    font: 300 2rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+section[data-id="Pricing plan"] .content__article.title--module span {
+    font: 300 1.2rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    filter: opacity(0.5);
+}
+
+section[data-id="Pricing plan"] .content__article.cell {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 400px;
+    width: 33%;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1.2s ease-in-out;
+}
+
+section[data-id="Pricing plan"] .content__article.cell:hover {
+    width: 40%;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(130, 130, 130, 0.5);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(130, 130, 130, 0.5);
+    box-shadow: 8px 8px 24px 0px rgba(130, 130, 130, 0.5);
+    transition: 1.2s ease-in-out;
+    cursor: pointer;
+}
+
+section[data-id="Pricing plan"] .content__article.cell div title {
+    margin-bottom: 8px;
+    font: 400 1.2rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    filter: opacity(0.5);
+    text-transform: uppercase;
+}
+
+section[data-id="Pricing plan"] .content__article.cell div span {
+    font: bold 3rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    text-transform: uppercase;
+}
+
+section[data-id="Pricing plan"] .content__article.cell div p {
+    font: 400 0.8rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    filter: opacity(0.8);
+}
+
+section[data-id="Pricing plan"] .content__article.cell div ul {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    padding: 0px;
+    list-style-type: none;
+}
+
+section[data-id="Pricing plan"] .content__article.cell div ul li {
+    font: 600 0.8rem/1.6em 'Montserrat';
+    color: var(--color-gamma);
+    list-style-type: none;
+}
+
+section[data-id="Pricing plan"] .content__article.cell button {
+    position: absolute;
+    bottom: 40px;
+    left: calc(50%-150px);
+    width: 150px;
+    padding: 18px 0;
+    font: 200 0.9rem/1em 'Montserrat';
+    background-color: var(--color-delta);
+    color: var(--color-alfa);
+    border-radius: 8px;
+    border: 0px;
+}
+
+section[data-id="Pricing plan"] .content__container {
+    padding: 12px 8%;
+}
+
+
+/* The team */
+
+section[data-id="The team"] .content__article {
+    padding: 0px 8px;
+}
+
+section[data-id="The team"] .content__article.title--module {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font: 300 2rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+section[data-id="The team"] .content__article.cell {
+    min-height: 400px;
+    width: 33%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+section[data-id="The team"] .content__article.cell title{
+    margin-bottom: 8px;
+    font: 400 1.2rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    filter: opacity(0.5);
+    text-transform: uppercase;
+}
+
+section[data-id="The team"] .content__article.cell .name{
+    margin-bottom: 8px;
+    font: 800 0.9rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    text-transform: capitalize;
+}
+
+section[data-id="The team"] .content__article.cell .about{
+    margin-bottom: 8px;
+    font: 300 0.8rem/1.2em 'Montserrat';
+    color: var(--color-gamma);
+    filter: opacity(0.8);
+    text-transform: capitalize;
+}
+
+section[data-id="The team"] .content__article.cell span img{
+    margin: 0 5px;
+    scale: 0.6;
+    filter: invert(0.7);
+}
+
+.person {
+    margin-bottom: 24px;
+}
+
+section[data-id="The team"] .content__container {
+    /* box-sizing: border-box; Przeniosłem do base.css */
+    padding: 12px 8%;
+}

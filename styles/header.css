@@ -1,0 +1,55 @@
+/* header.css */
+:root {
+    --color-alfa: rgb(255, 255, 255);
+    --color-beta: rgb(37, 241, 139);
+    --color-gamma: rgb(51, 51, 51);
+}
+
+.header{
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 12px 0px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: end;
+    margin: 0px;
+}
+
+.header__logo.cell img{
+    width: 100px;
+    padding: 8px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: right;
+    min-width: 400px;
+    margin: 0px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 20px;
+    padding: 0 10px 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li a{
+    font: 600 14px/1.5em 'Montserrat';
+    color: var(--color-alfa);
+    text-decoration: none;
+}
