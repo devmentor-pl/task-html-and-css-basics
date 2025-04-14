@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"
+    >
+    <link
+        rel="stylesheet"
+        href="./styles/reset.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./styles/index.css"
+    >
+
+    <title>Task - HTML and CSS basics</title>
+</head>
+
+<body>
+    <header class="header row">
+        <section class="header__container container">
+            <h1 class="header__logo cell"><img
+                    src="./images/logo.svg"
+                    alt=""
+                ></h1>
+            <nav class="nav__container cell">
+                <ul class="nav">
+                    <li class="nav__item"><a
+                            class="nav__link"
+                            href="#theteam"
+                        >The Team</a></li>
+                    <li class="nav__item"><a
+                            class="nav__link"
+                            href="#pricing"
+                        >Pricing</a></li>
+                    <li class="nav__item"><a
+                            class="nav__link"
+                            href="features"
+                        >Features</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header__container header__container-bottom container">
+            <article class="article__header cell">
+                <h2 class="header__heading ">Beautiful Free Nova Template</h2>
+                <p class="header__paragraph">A top notch premium quality template for your next web project.
+                </p>
+                <button class="header__btn">Free download</button>
+            </article>
+            <section class="header__image cell">
+                <figure class="header__image-style">
+                    <img
+                        src="./images/screen.png"
+                        alt=""
+                    >
+                </figure>
+            </section>
+        </section>
+    </header>
+    <section class="features row">
+        <header class="header__features container">
+            <h2 class="features__heading">features</h2>
+        </header>
+        <ul class="features__main container">
+            <li class="feature__item feature__item-left cell">
+                <div class="feature__icon-container"><img
+                        class="feature__icon"
+                        src="./images/responsive.svg"
+                        alt=""
+                    ></div>
+                <h3 class="feature__title">fully responsive</h3>
+                <p class="feature_text">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
+            </li>
+            <li class="feature__item feature__item-middle cell">
+                <div class="feature__icon-container"><img
+                        class="feature__icon"
+                        src="./images/customizable.svg"
+                        alt=""
+                    ></div>
+                <h3 class="feature__title">customizable</h3>
+                <p class="feature_text">Change the colors, pictures or any of the sections to suit your needs.</p>
+            </li>
+            <li class="feature__item feature__item-right cell">
+                <div class="feature__icon-container"><img
+                        class="feature__icon"
+                        src="./images/design.svg"
+                        alt=""
+                    ></div>
+                <h3 class="feature__title">slick and beautiful design</h3>
+                <p class="feature_text">Trendy and fresh design, fits any website.</p>
+            </li>
+        </ul>
+    </section>
+    <section class="logos row">
+        <div class="logos__container container ">
+            <img
+                src="./images/logos.png"
+                alt=""
+                class="logos__item "
+            >
+        </div>
+    </section>
+    <main class="main row">
+        <div class="main__container">
+            <div class="photo__container cell"><img
+                    src="./images/imac.png"
+                    alt=""
+                ></div>
+            <article class="main__text cell">
+                <h2 class="main__heading">simple and beautiful</h2>
+                <p class="main__paragraph">Use Nova theme for your next web project. It is completely customizable so
+                    you
+                    can change any of the
+                    sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial. Have
+                    fun
+                    and good luck!</p>
+            </article>
+        </div>
+    </main>
+    <section class="pricing row">
+        <header class="pricing__header container">
+            <h2 class="pricing__heading-top">choose your pricing plan</h2>
+            <p class="pricing__heading-paragraph">Pick any of our super affordable pricing plans
+            </p>
+        </header>
+        <section class="pricing__items container">
+            <article class="pricing__item pricing__item-sides cell">
+                <h2 class="pricing__heading-bottom">basic</h2>
+                <h3 class="pricing__price">$15</h3>
+                <p class="pricing__monthly">per month</p>
+                <ul class="plan__features">
+                    <li>Up to 7 Projects </li>
+                    <li> 2 Additional Developers</li>
+                </ul>
+                <button class="pricing__btn pricing__btn-left">Get Started</button>
+            </article>
+            <article class="pricing__item pricing__item-middle cell">
+                <h2 class="pricing__heading-bottom">agency</h2>
+                <h3 class="pricing__price">$55</h3>
+                <p class="pricing__monthly">per month</p>
+                <ul class="plan__features">
+                    <li>Up to 25 Projects </li>
+                    <li> 2 Additional Developers</li>
+                    <li> Unlimited Support</li>
+                </ul>
+                <button class="pricing__btn pricing__btn-middle">Get Started</button>
+            </article>
+            <article class="pricing__item pricing__item-sides cell">
+
+                <h2 class="pricing__heading-bottom">pro</h2>
+                <h3 class="pricing__price">$75</h3>
+                <p class="pricing__monthly">per month</p>
+                <ul class="plan__features">
+                    <li>Up to 25 Projects </li>
+                    <li> 2 Additional Developers</li>
+                    <li> Unlimited Support</li>
+                    <li>1.5GB Disk Space</li>
+                </ul>
+                <button class="pricing__btn pricing__btn-right">Get Started</button>
+            </article>
+        </section>
+    </section>
+    <section class="team row">
+        <header class="team__header container">
+            <h2 class="team__h2heading">the team</h2>
+        </header>
+        <div class="team__items container">
+            <div class="team__item cell">
+                <img
+                    src="./images/cto.png"
+                    alt=""
+                    class="team__photo"
+                >
+                <h3 class="team__item-h3heading">cto</h3>
+                <h4 class="team__item-h4heading">Hohnny B Good</h4>
+                <p class="team__paragraph">The brains behind the whole operation
+
+                </p>
+                <div class="team__socials">
+                    <img
+                        src="./images/team-twitter.svg"
+                        alt=""
+                        class="team__social"
+                    >
+                    <img
+                        src="./images/team-facebook.svg"
+                        alt=""
+                        class="team__social"
+                    >
+                </div>
+            </div>
+            <div class="team__item cell">
+                <img
+                    src="./images/ceo.png"
+                    alt=""
+                    class="team__photo"
+                >
+                <h3 class="team__item-h3heading">ceo</h3>
+                <h4 class="team__item-h4heading">Roll Over Beethoven
+                </h4>
+                <p class="team__paragraph">The one that puts it all together
+
+                </p>
+                <div class="team__socials">
+                    <img
+                        src="./images/team-twitter.svg"
+                        alt=""
+                        class="team__social"
+                    >
+                    <img
+                        src="./images/team-facebook.svg"
+                        alt=""
+                        class="team__social"
+                    >
+                </div>
+            </div>
+            <div class="team__item cell">
+                <img
+                    src="./images/cfo.png"
+                    alt=""
+                    class="team__photo"
+                >
+                <h3 class="team__item-h3heading">cfo</h3>
+                <h4 class="team__item-h4heading">Chuck Berry
+                </h4>
+                <p class="team__paragraph">The guy with his hand on the wallet
+
+                </p>
+                <div class="team__socials">
+                    <img
+                        src="./images/team-twitter.svg"
+                        alt=""
+                        class="team__social"
+                    >
+                    <img
+                        src="./images/team-facebook.svg"
+                        alt=""
+                        class="team__social"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer row">
+        <div class="footer__container">
+            <p class="footer__text">A free template by</p>
+            <img
+                src="./images/webscope.svg"
+                alt="Logo z napisem webscope"
+            >
+        </div>
+    </footer>
+</body>
+
+</html>

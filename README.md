@@ -1,56 +1,98 @@
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+![Preview]<video controls src="06.04.2025_22.08.14_REC.mp4" title="Title"></video>
+Nova Template Clone
+👉 Live Version 
 
-&nbsp;
+A responsive one-page template inspired by a design from Webscope. Built using HTML and CSS only, this project replicates the structure, layout, and look of a premium template, focusing on clean code and layout practice.
 
+✨ Main Features:
+Layout with Flexbox
 
-# HTML & CSS: Podstawy
+Sectioned structure: header, features, logos, main content, pricing, team, footer
 
-Najwyższy czas zakodować prawdziwą stronę internetową! 
+Interactive hover effects and reusable components
 
-Będziemy się wzorować na projekcie od [Webscope](https://themewagon.com/themes/project-app-showasing-onepage-bootstrap-template-free-nova/), który wygląda tak:
-
-![](./assets/demo.png)
-
-&nbsp;
-
-## Opis projektu
-
-Wszystkie niezbędne grafiki masz przygotowane w katalogu `images`. Znajdziesz tam m.in. [pliki SVG](https://pl.wikipedia.org/wiki/Scalable_Vector_Graphics). W VS Code ich podgląd uzyskasz dzięki rozszerzeniu [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg).
-
-Font, który jest używany w projekcie, to [Montserrat](https://fonts.google.com/specimen/Montserrat).
-
-Tło w górnej części strony to gradient: 
-`background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));`
-
-Jeśli chcesz dokładnie odwzorować położenie poszczególnych elementów, możesz użyć rozszerzenia do Chrome o nazwie [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi). Pozwoli Ci ono osadzić przedstawiony wyżej plik poglądowy (lokalizacja: `./assets/demo.png`) jako tło dla tworzonej strony.
-
-> **Uwaga!** Możliwe, że w powyższym rozszerzeniu będziesz musiał użyć odpowiedniej skali obrazu wykorzystywanego jako podgląd. Jest to zależne od [ustawień systemowych](https://pliki.wiki/blog/jak-korzystac-ze-skalowania-ekranu-w-systemie-windows-10/). Zazwyczaj jednak domyślne ustwienia wtyczki dobrze się sprawdzają i poza jej instalacją nie musisz nic robić.
-
-Strona nie musi być wykonana zgodnie z pierwowzorem 1:1. Ważne, aby na pierwszy rzut oka było widać, że jest to ten sam projekt. 
-
-Pamiętaj, że przedstawiona grafika to element statyczny, a strona internetowa to element dynamiczny, który powinien dobrze wyglądać w różnych rozdzielczościach / na różnej wielkości monitorach. Część z nich może mieć szerokość ekranu 1280px, a inna 1440px itp. Na razie jednak skup się na odwzorowaniu zamieszczonego w zadaniu widoku. Innymi rozdzielczościami zajmiemy się w kolejnym module.
-
-## Propozycja podziału
-
-Poniżej zamieszczam propozycję podziału strony na poszczególne grupy:
-
-- wiersz (`width: 100%`) – kolor zielony
-- wyśrodkowanie (`max-width: 1150px`) – kolor niebieski
-- komórka (wiele elementów w jednej linii) – kolor pomarańczowy.
-
-Nie musisz się od tego stosować – to jedynie moja koncepcja, która ma Ci pomóc w utworzeniu odpowiedniej struktury.
-
-![](./assets/demo-info.png)
-
-&nbsp;
-
-> :warning: Jeśli nie posiadasz materiałów do tego zadania, to znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/p/html-and-css-basics/).
+💡 Technologies
+![HTML5](image-1.png)
+![CSS3](image-2.png) (including custom properties and Flexbox)
 
 
-&nbsp;
+💿 Installation
+You don’t need any advanced setup to run the project. Simply:
 
-> ⭐ ***README** to coś więcej niż opis. Poprzez nie **pokazujesz swoje mocne strony** – swoją dokładność, sposób myślenia i podejście do rozwiązywania problemów. Niech Twoje README pokaże, że masz **świetne predyspozycje do rozwoju!***
-> 
-> 🎁 *Zacznij od razu. Skorzystaj z **[szablonu README i wskazówek](https://github.com/devmentor-pl/readme-template)**.* 
+# Clone the repo
+git clone git@github.com:satoshi300/task-html-and-css-basics.git
+
+# Open index.html in your browser
+To enable live preview in development, use the VS Code Live Server extension.
+
+🤔 Solutions Provided in the Project
+1. Flexbox-based Layout
+Problem: Creating a clean, responsive layout
+Solution: Use of .row, .container, .cell wrappers for control
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+2. Maintaining Design Consistency
+Problem: Repeating layout logic without a framework
+Solution: Utility-like classes with semantic naming
+
+
+.row, .container, .cell {
+  outline: 5px solid;
+}
+
+3. Gradient Header Background
+Issue	                        Solution
+Non-standard header design	    background: radial-gradient(...)
+Typography consistency      	Google Fonts: Montserrat
+Precise element placement   	PerfectPixel plugin
+
+4. Example – Gradient and Button Styling
+.header {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+🔁 Reusable Parts
+.row – 100% width section
+
+.container – max-width wrapper
+
+.cell – flexible internal block
+
+Feature and pricing cards reuse consistent structure
+
+🔧 Tools / Extensions Used
+PerfectPixel – overlay comparison with PNG mockup
+
+Live Server (VS Code) – real-time preview
+
+SVG Viewer – for previewing SVG icons
+
+Prettier – for formatting
+
+🌱 Inspirations
+Template by Webscope
+
+devmentor.pl project example
+
+PerfectPixel UX pixel-precision approach
+
+💭 Conclusions for Future Projects
+I would like to improve:
+
+Responsiveness for different resolutions (e.g. 1280px, 1440px)
+
+Use semantic HTML tags more precisely
+
+Refactor CSS into SCSS or better BEM-based naming
+
+🙋‍♂️ Feel free to contact me
+Feel free to reach out if you'd like to collaborate, give feedback, or just say hi!
+📬 Your LinkedIn https://www.linkedin.com/in/michal-wasiak-457a5331/ | Your GitHub https://github.com/satoshi300
+
+👏 Thanks / Special thanks / Credits
+Special thanks to devmentor.pl for the course, tasks, and code review guidance 🙏
+And to Webscope for the original design inspiration.
