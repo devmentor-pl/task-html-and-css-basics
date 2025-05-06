@@ -1,0 +1,402 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Bold.ttf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Light.ttf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #00e89a;
+  --secondary-color: #07bceb;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #3f3f3f;
+  --background-gradient: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  --shadow-effect: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* Button  */
+.btn {
+  border: none;
+  color: var(--white-color);
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
+}
+
+.btn--secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn:hover {
+  border-radius: 16px;
+  box-shadow: var(--shadow-effect);
+}
+
+/* Title  */
+.title {
+  font-size: 1.875;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+/* Navbar  */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav__menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav__menu li a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 0.875rem;
+}
+
+.logo {
+  width: 100px;
+}
+
+/* Hero  */
+.hero-background {
+  background: var(--background-gradient);
+}
+
+.hero__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 4rem 12rem 0;
+  color: white;
+}
+
+.hero__content-left {
+  max-width: 40%;
+}
+
+.hero__content-left h1 {
+  font-size: 40px;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.hero__content-left p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+  line-height: 30px;
+  max-width: 287px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.hero__content-right {
+  padding: 20px;
+  background-color: var(--white-color);
+  transform: rotate(-5deg);
+  border-radius: 25px;
+}
+
+.hero__content-right img {
+  max-width: 532px;
+  height: auto;
+}
+
+/* Features  */
+.features {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.features__list {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 6rem;
+}
+
+.features__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.features__icon-wrapper {
+  background-color: var(--white-color);
+  border-radius: 50%;
+  padding: 1.5rem;
+  width: 80px;
+  height: 80px;
+}
+
+.features__item-title {
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.features__item-description {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  max-width: 216px;
+  font-weight: 300;
+}
+
+/* Logos  */
+.logos img {
+  width: 760px;
+}
+
+.logos__container {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: center;
+}
+
+/* Presentation  */
+.presentation {
+  padding: 6rem 0;
+}
+
+.presentation__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  padding: 0 4rem;
+}
+
+.presentation__image img {
+  width: 700px;
+}
+
+.presentation__text {
+  max-width: 400px;
+}
+
+.presentation__description {
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 300;
+}
+
+/* Pricing */
+.pricing {
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.pricing__subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+
+.pricing__cards {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.pricing__card {
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  flex: 1;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pricing__card--highlighted {
+  box-shadow: var(--shadow-effect);
+  transform: scale(1.15);
+  z-index: 1;
+}
+
+.pricing__plan {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: var(--gray-color);
+}
+
+.pricing__price {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--gray-color);
+}
+
+.pricing__period {
+  font-size: 12px;
+  color: var(--gray-color);
+  margin-bottom: 1.5rem;
+}
+
+.pricing__features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+/* The Team  */
+.team {
+  padding: 6rem 0 12rem 0;
+  text-align: center;
+}
+
+.team__list {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 4rem;
+}
+
+.team__member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.team__avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.team__role {
+  font-size: 12px;
+  color: var(--gray-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.team__name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--gray-color);
+}
+
+.team__desc {
+  font-size: 0.875rem;
+  color: var(--gray-color);
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.team__socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.team__socials img {
+  width: 16px;
+  height: 16px;
+  opacity: 0.7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.team__socials img:hover {
+  opacity: 1;
+}
+
+/* Footer  */
+.footer {
+  background-color: var(--gray-color);
+  color: var(--white-color);
+  padding: 2rem 0;
+  font-size: 0.875rem;
+  position: relative;
+}
+
+.footer__wrapper {
+  position: relative;
+  text-align: center;
+}
+
+.footer__text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.footer__text img {
+  height: 24px;
+  object-fit: contain;
+}
+
+.footer__socials {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__socials img {
+  opacity: 0.8;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.footer__socials img:hover {
+  opacity: 1;
+}
