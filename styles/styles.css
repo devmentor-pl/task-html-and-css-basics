@@ -1,0 +1,88 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.section-1 {
+    background: linear-gradient(135deg, #6f00ff, hsl(302, 78%, 63%));
+    min-height: 100px;
+    justify-items: center;
+    color: white;
+}
+
+.header {
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    background-color: transparent;
+    gap: 35rem;
+}
+
+.logo {
+    width: 6rem;
+    height: 4rem;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    font-family: "Poppins";
+    padding: 1rem;
+}
+
+.container1-section2 {
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50vh;
+    gap: 15rem;
+}
+
+.screen {
+    width: 20rem;
+    height: 14rem;
+    border: white solid 15px;
+    border-radius: 10px;
+     transform: rotate(-10deg);
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+
+
+.button--section-1 {
+    height: 3rem;
+    width: 12rem;
+    background-color: #25f18b;
+    border-radius: 10px;
+    color: white;
+    font-size: small;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.button--section-1:hover {
+    background-color: #14e07c;
+}
