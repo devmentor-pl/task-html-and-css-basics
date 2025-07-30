@@ -88,6 +88,63 @@ h1 {
     border: none;
     cursor: pointer;
 }
+
 .button--section-1:hover {
     background-color: #14e07c;
+}
+
+.section-2 {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+.container2-header {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.container2-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.items-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container2 {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon-container2 img {
+    width: 2rem;
+    height: 2rem;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.text-align {
+    text-align: center;
+    font-weight: 300;
 }
