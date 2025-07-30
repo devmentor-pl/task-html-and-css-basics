@@ -150,15 +150,39 @@ h3 {
 }
 
 .section-3 {
-    
-}
-
-.section-3 {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #f9fafa;
-    background: #f9fafa;
     padding: 2rem 0;
 }
 
+.section-4 .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 1rem;
+    background-color: #f9fafa;
+    color: gray;
+}
+
+h2 {
+    font-size: x-large;
+    font-weight: 100;
+}
+
+.container4-section2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    font-size: small;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+
+.container4-section1 img {
+    margin-top: 2rem;
+    width: 30rem;
+    height: 25rem;
+}
