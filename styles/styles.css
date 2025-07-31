@@ -275,3 +275,66 @@ h5 {
     box-shadow: 0 10px 30px rgba(150, 150, 150, 0.6);
     transform: translateY(-4px); 
 }
+
+.section-6 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: gray;
+}
+
+.container6-section2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container6-section2--items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    min-height: 25rem;
+    text-align: center;
+}
+
+.container6-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.profile-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.icon-small {
+    width: 1rem;
+    height: 1rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container6-icons {
+    display: flex;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.h1-special {
+    font-size: xx-large;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.text-large {
+    font-size: x-large;
+    margin-bottom: 0.25rem;
+}
