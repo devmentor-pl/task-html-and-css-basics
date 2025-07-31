@@ -73,6 +73,7 @@ body {
 h1 {
     font-size: xx-large;
     font-weight: 600;
+    line-height: 1;
 }
 
 
@@ -142,6 +143,7 @@ h3 {
     font-weight: 600;
     text-align: center;
     letter-spacing: 1px;
+    line-height: 1;
 }
 
 .text-align {
@@ -336,5 +338,28 @@ h5 {
 
 .text-large {
     font-size: x-large;
-    margin-bottom: 0.25rem;
+}
+
+footer {
+    background-color: #464646;
+    min-height: 4rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.text-wrapper {
+    font-size: small;
+    color: white;
+}
+
+.footer-icon {
+    width: 4rem;
+    height: 2rem;
+    background: transparent;
 }
