@@ -162,7 +162,7 @@ h3 {
     justify-content: space-around;
     align-items: start;
     gap: 1rem;
-    background-color: #f9fafa;
+    background-color: white;
     color: gray;
 }
 
@@ -185,4 +185,93 @@ h2 {
     margin-top: 2rem;
     width: 30rem;
     height: 25rem;
+}
+
+.section-5 .content-wrapper {
+    margin-top: 3rem;
+    background-color: #f9fafa;
+    color: gray;
+}
+
+.container5-header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: xx-large;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.container5-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.container5-section2--items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    min-height: 25rem;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.button-container5 {
+    color: white;
+    font-size: small;
+    font-weight: 100;
+    letter-spacing: 2px;
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+    background-color: #0abceb;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h5 {
+    font-size: 1.5rem;
+    color: grey;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.text-small {
+    font-size: 0.75rem;
+    color: black;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.container5-section2--items h5,
+.container5-section2--items .price,
+.container5-section2--items .button-container5 {
+    margin: 0.25rem 0; 
+}
+
+.container5-section2--items:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(150, 150, 150, 0.6);
+    transform: translateY(-4px); 
 }
