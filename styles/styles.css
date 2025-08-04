@@ -302,6 +302,9 @@ h4 {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .container6-section2--items {
