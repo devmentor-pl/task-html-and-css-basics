@@ -6,7 +6,7 @@ body {
     width: 100%;
 }
 
-.section-1 {
+.section--header-and-template {
     background: linear-gradient(135deg, #6f00ff, hsl(302, 78%, 63%));
     color: white;
     padding: 2rem 0;
@@ -100,7 +100,7 @@ h1 {
     background-color: #14e07c;
 }
 
-.section-2 {
+.section--features {
     background-color: black;
     color: white;
     padding: 1rem 0;
@@ -160,7 +160,7 @@ h3 {
     font-weight: 300;
 }
 
-.section-3 {
+.section--aside {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +168,7 @@ h3 {
     padding: 2rem 0;
 }
 
-.section-4 .content-wrapper {
+.section--imac .content-wrapper {
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -198,7 +198,7 @@ h2 {
     height: 25rem;
 }
 
-.section-5 .content-wrapper {
+.section--pricing-plan .content-wrapper {
     margin-top: 3rem;
     background-color: #f9fafa;
     color: gray;
@@ -255,7 +255,7 @@ h3 {
     cursor: pointer;
 }
 
-h5 {
+h4 {
     font-size: 1.5rem;
     color: grey;
     letter-spacing: 3px;
@@ -290,7 +290,7 @@ h5 {
     transform: translateY(-4px); 
 }
 
-.section-6 {
+.section--team {
     display: block;
     justify-content: center;
     align-items: center;
