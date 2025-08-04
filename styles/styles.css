@@ -113,12 +113,15 @@ h1 {
     letter-spacing: 3px;
 }
 
-.container2-section2 {
+.features-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3rem;
     margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .items-features {
