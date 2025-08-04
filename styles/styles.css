@@ -223,6 +223,9 @@ h3 {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .container5-section2--items {
