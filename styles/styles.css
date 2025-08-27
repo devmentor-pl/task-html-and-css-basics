@@ -361,3 +361,80 @@ h3 {
 }
 
 /* End of Pricing */
+
+/* Team */
+
+.team {
+    height: 500px;
+}
+
+.team__header-container {
+    min-height: 120px;
+    display: block;
+    text-align: center;
+}
+
+.team__header {
+    margin: 60px auto 40px;
+}
+
+.team__members {
+    justify-content: center;
+}
+
+.team__member {
+    width: 25%;
+    margin: 15px;
+    text-align: center;
+}
+
+.team__avatar  {
+    width: 110px;
+    margin: 20px auto;
+}
+
+.team__position {
+    margin: 5px auto;
+}
+
+.team__name {
+    margin: 5px auto;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.team__text {
+    font-size: 12px;
+}
+
+.team__twitter,
+.team__fb,
+.team__google {
+    margin: 15px 5px 30px;
+}
+
+/* end of Team */
+
+/* Footer */
+
+.footer {
+    height: 63px;
+    background-color: #525252;
+    color: #ffff;
+}
+
+.footer__container {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 11px;
+    padding: 20px;
+}
+
+.footer__img {
+    margin: 0 10px;
+}
+
+/* end of Footer */
