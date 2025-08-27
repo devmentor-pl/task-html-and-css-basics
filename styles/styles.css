@@ -55,3 +55,155 @@ h3 {
 .cta-button:hover {
     background-color: #6abfd6;
 }
+
+/* end of cammon */
+
+/* HEADER */
+
+.header {
+    min-height: 640px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
+}
+
+.header__container {
+    height: 60px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__image {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.nav {
+    padding-right: 15px;
+    margin-top: 40px;
+    
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav__link {
+    min-width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+    font-size: 12px;
+    text-decoration: none;
+    transition: font-weight .5s ease-in-out;
+}
+
+.nav__link:hover {
+    font-weight: bold;
+}
+
+/* End of Header */
+
+
+.hero {
+    height: 500px;
+    justify-content: center;
+    color: #ffff;
+}
+
+.hero__info {
+    width: 40%;
+    padding-top: 100px;
+}
+
+.hero__header {
+    margin-bottom: 0;
+    min-width: 400px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hero__sub-header {
+    max-width: 260px;
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 1.8em;
+}
+
+.hero__image {
+    width: 60%;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero__image-file {
+    width: 80%;
+    -ms-transform: rotate(354deg);
+    -webkit-transform: rotate(354deg);
+    transform: rotate(354deg);
+    border: 14px solid white;
+    border-bottom: 74px solid white;
+    border-radius: 20px;
+    background-color: #ffff;
+}
+
+/* End of Hero */ 
+
+/* Features */
+
+.features {
+    height: 440px;
+    padding-top: 14px;
+    background-color: #000;
+    color: #ffff;
+}
+
+.features__header-container {
+    justify-content: center;
+}
+
+.features__container {
+    height: 290px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    min-height: 240px;
+    width: 20%;
+    margin: 30px 5px;
+    padding: 65px 20px 20px;
+    text-align: center;
+  
+}
+
+.feature__icon {
+    height: 70px;
+    width: 70px;
+    margin: 12px auto;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.feature__img {
+    height: 28px;
+}
+
+.feature__title {
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.feature__text {
+    font-size: 12px;
+    line-height: 1.8em;
+}
+
+/* End of Feature */
