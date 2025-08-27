@@ -228,3 +228,52 @@ h3 {
 }
 
 /* End of media */
+
+/* Design  */
+
+.design {
+    padding: 5px;
+}
+
+.design__container {
+    max-width: 1280px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.design__image-container,
+.design__text-container {
+    flex: 1;
+}
+
+.design__image-container {
+    padding: 75px 10px;
+   
+    
+}
+
+.design__text-container {
+    padding: 75px 95px;
+    margin-top: 35px;
+}
+
+.design__text {
+    max-width: 350px;
+    padding-top: 35px;
+    font-size: 13px;
+    line-height: 2em;
+    margin-left: 10%;
+}
+
+.design__header {
+    margin-left: 10%;
+    font-weight: 400;
+}
+
+.design__image {
+  max-width: 100%;
+}
+
+/* End of Design */
