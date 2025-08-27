@@ -1,0 +1,57 @@
+/* common */
+@font-face {
+    font-family: 'montserrat';
+    src: url('../Fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../Fonts/montserrat-bold-webfont.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../Fonts/montserrat-thin-webfont.woff2') format('woff2'),
+         url('../Fonts/montserrat-thin-webfont.woff') format('woff');
+    font-weight: thin;
+    font-style: normal;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.container {
+    max-width: 1150px;
+    padding: 10px;
+    margin: 0 auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cta-button {
+    min-width: 100px;
+    margin-top: 14px;
+    padding: 14px;
+    font-size: 14px;
+    color: #ffff;
+    background-color: #25f18b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #6abfd6;
+}
