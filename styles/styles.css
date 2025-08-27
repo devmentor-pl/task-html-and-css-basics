@@ -39,7 +39,7 @@ h3 {
     display: flex;
 }
 
-.cta-button {
+.cta__button {
     min-width: 100px;
     margin-top: 14px;
     padding: 14px;
@@ -49,11 +49,25 @@ h3 {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
-.cta-button:hover {
+.cta__button:hover {
+    background-color: #1cc26f;
+    border-radius: 15px;
+}
+
+.cta__button--blue {
+    min-width: 145px;
+    margin-bottom: 60px;
+    background-color: #78daf4;
+    font-size: 12px;
+}
+
+.cta__button--blue:hover {
     background-color: #6abfd6;
+    text-decoration: underline;
+    box-shadow: 0 12px 30px rgba(1, 32, 41, 0.6);
 }
 
 /* end of cammon */
@@ -198,12 +212,14 @@ h3 {
     margin-bottom: 0;
     padding: 10px;
     font-size: 12px;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
 .feature__text {
     font-size: 12px;
     line-height: 1.8em;
+    font-weight: 300;
 }
 
 /* End of Feature */
@@ -277,3 +293,71 @@ h3 {
 }
 
 /* End of Design */
+
+/* Pricing */
+
+.pricing {
+    height: 600px;
+    padding: 5px;
+    background-color: #f6f8f8;
+}
+
+.pricing__text-container {
+    display: block;
+    text-align: center;
+}
+
+.pricing__header {
+    margin: 36px auto 15px;
+}
+
+.pricing__text {
+    margin: 15px auto 20px;
+}
+
+.pricing__plans {
+    padding-bottom: 55px;
+    justify-content: center;
+}
+
+.pricing__plan {
+    width: 30%;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color, border-radius, box-shadow .3s ease-in-out;
+}
+
+.pricing__plan:hover {
+    background-color: #ffff;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+}
+
+.is-correct {
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+}
+
+.pricing__plan-type {
+    margin: 72px auto 0;
+    text-transform: uppercase;
+}
+
+.pricing__plan-price {
+    margin: 11px auto 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.pricing__plan-period {
+    margin: 0 auto 25px;
+    font-size: 12px;
+}
+
+.pricing__plan-text {
+    min-height: 106px;
+    font-size: 14px;
+}
+
+/* End of Pricing */
