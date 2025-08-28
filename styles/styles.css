@@ -1,0 +1,380 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.section--header-and-template {
+    background: linear-gradient(135deg, #6f00ff, hsl(302, 78%, 63%));
+    color: white;
+    padding: 2rem 0;
+}
+
+.content-wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.logo {
+    width: 8rem;
+    height: 6rem;
+}
+
+.menu ul {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.container1-section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.screen {
+    width: 25rem;
+    height: 20rem;
+    border: white solid 15px;
+    border-radius: 20px;
+     transform: rotate(-8deg);
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.section-right {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.text {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.button--section-1 {
+    height: 3rem;
+    width: 12rem;
+    background-color: #25f18b;
+    border-radius: 10px;
+    color: white;
+    font-size: small;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.button--section-1:hover {
+    background-color: #14e07c;
+}
+
+.section--features {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+.container2-header {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.features-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.items-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container2 {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon-container2 img {
+    width: 2rem;
+    height: 2rem;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+.text-align {
+    text-align: center;
+    font-weight: 300;
+}
+
+.section--aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafa;
+    padding: 2rem 0;
+}
+
+.section--imac .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 1rem;
+    background-color: white;
+    color: gray;
+}
+
+h2 {
+    font-size: x-large;
+    font-weight: 100;
+}
+
+.container4-section2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    font-size: small;
+    font-weight: 100;
+    margin-top: 2rem;
+}
+
+.container4-section1 img {
+    margin-top: 2rem;
+    width: 30rem;
+    height: 25rem;
+}
+
+.section--pricing-plan .content-wrapper {
+    margin-top: 3rem;
+    background-color: #f9fafa;
+    color: gray;
+}
+
+.container5-header {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: xx-large;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.container5-section2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container5-section2--items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    min-height: 25rem;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.button-container5 {
+    color: white;
+    font-size: small;
+    font-weight: 100;
+    letter-spacing: 2px;
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+    background-color: #0abceb;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: grey;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.text-small {
+    font-size: 0.75rem;
+    color: black;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.container5-section2--items h5,
+.container5-section2--items .price,
+.container5-section2--items .button-container5 {
+    margin: 0.25rem 0; 
+}
+
+.container5-section2--items:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px rgba(150, 150, 150, 0.6);
+    transform: translateY(-4px); 
+}
+
+.section--team {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: gray;
+}
+
+.container6-section2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container6-section2--items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+    margin: 1rem 2rem;
+    padding: 1rem;
+    min-height: 25rem;
+    text-align: center;
+}
+
+.container6-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.profile-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: none;
+}
+
+.icon-small {
+    width: 1rem;
+    height: 1rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+.container6-icons {
+    display: flex;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.h1-special {
+    font-size: xx-large;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.text-large {
+    font-size: x-large;
+}
+
+footer {
+    background-color: #464646;
+    min-height: 4rem;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.text-wrapper {
+    font-size: small;
+    color: white;
+}
+
+.footer-icon {
+    width: 4rem;
+    height: 2rem;
+    background: transparent;
+}
