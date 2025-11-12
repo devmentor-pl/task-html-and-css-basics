@@ -1,0 +1,60 @@
+.pricing {
+  color: var(--clr-primary-2);
+  text-align: center;
+}
+
+.pricing__sub-headline {
+  color: grey;
+}
+
+.pricing__plans {
+  justify-content: space-around;
+  padding: 70px 0 100px;
+}
+
+.pricing__plans > * {
+  flex-basis: 290px;
+}
+
+.plan__item {
+  padding: 36px 15px 45px;
+  height: 430px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.plan__item:nth-child(2) {
+  box-shadow: var(--box-shadow);
+}
+
+.plan__headline {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.plan__cost {
+  font-size: 2.8125rem;
+  font-weight: 600;
+  margin: 10px 0 0;
+}
+
+.plan__subscription {
+  padding-bottom: 20px;
+  font-size: 0.75rem;
+  margin-top: 0px;
+}
+
+.plan__features {
+  font-size: 0.875rem;
+  list-style-type: none;
+  line-height: 1.6;
+}
+
+.plan__features i {
+  color: rgb(59, 235, 141);
+}
+
+.plan__btn {
+  margin-top: auto;
+}

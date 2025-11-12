@@ -1,0 +1,33 @@
+.section.team {
+  color: var(--clr-primary-2);
+  text-align: center;
+}
+
+.team__headline {
+  padding-bottom: 90px;
+}
+
+.team__members {
+  justify-content: space-around;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.member__text__name {
+  font-weight: 600;
+}
+
+.member__text__content {
+  margin-bottom: 10px;
+}
+
+.member__text__socials {
+  justify-content: center;
+  gap: 10px;
+}
+
+.member__text__socials img {
+  filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(21deg) brightness(30%)
+    contrast(100%);
+  max-height: 15px;
+}

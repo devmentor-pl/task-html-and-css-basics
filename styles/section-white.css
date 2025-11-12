@@ -1,0 +1,24 @@
+.section-white {
+  color: var(--clr-primary-2);
+}
+
+.section-white__container > * {
+  flex: 1;
+}
+
+.section-white__img-container {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.section-white__text {
+  padding: 80px 100px;
+}
+
+.section-white__headline {
+    margin-bottom: 35px;
+}
+
+.section-white__info { 
+  line-height: 1.875rem;
+}
