@@ -26,7 +26,7 @@ Tło w górnej części strony to gradient:
 
 Jeśli chcesz dokładnie odwzorować położenie poszczególnych elementów, możesz użyć rozszerzenia do Chrome o nazwie [PerfectPixel](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi). Pozwoli Ci ono osadzić przedstawiony wyżej plik poglądowy (lokalizacja: `./assets/demo.png`) jako tło dla tworzonej strony.
 
-> **Uwaga!** Możliwe, że w powyższym rozszerzeniu będziesz musiał użyć odpowiedniej skali obrazu wykorzystywanego jako podgląd. Jest to zależne od [ustawień systemowych](https://pliki.wiki/blog/jak-korzystac-ze-skalowania-ekranu-w-systemie-windows-10/). Zazwyczaj jednak domyślne ustwienia wtyczki dobrze się sprawdzają i poza jej instalacją nie musisz nic robić.
+> **Uwaga!** Możliwe, że w powyższym rozszerzeniu będziesz musiał użyć odpowiedniej skali obrazu wykorzystywanego jako podgląd. Jest to zależne od [ustawień systemowych](https://pliki.wiki/blog/jak-korzystac-ze-skalowania-ekranu-w-systemie-windows-10/). Zazwyczaj jednak domyślne ustawienia wtyczki dobrze się sprawdzają i poza jej instalacją nie musisz nic robić.
 
 Strona nie musi być wykonana zgodnie z pierwowzorem 1:1. Ważne, aby na pierwszy rzut oka było widać, że jest to ten sam projekt. 
 
