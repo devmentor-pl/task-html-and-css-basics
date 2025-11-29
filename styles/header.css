@@ -1,0 +1,87 @@
+/* header.css */
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.nav__logo {
+    max-width: 100px;
+}
+
+.nav__menu {
+    min-width: 200px;
+    
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu__item {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    padding: 9px;
+    font-size: 12px;
+
+}
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex;
+}
+
+.header__article {
+    min-height: 400px;
+    width: 40%;
+}
+
+.header__button {
+    background-color: #25F18B;
+    border-radius: 5px;
+    padding: 8px;
+    min-width: 170px;
+    margin-left: -8px;
+    color: white;
+    font-size: 12px;
+}
+
+.header__screen {
+    width: 90%;
+    transform: scale(0.8) rotate(-8deg) translateX(90px) translateY(-20px);
+    border: 20px solid white;
+    border-radius: 30px;
+    position: relative;
+} 
+
+.header__article h1 {
+    color: white;
+    font-size: 2em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.header__article p {
+    color: white;
+    font-family: 'Montserrat-light';
+    line-height: 1.7;
+}
+
+.screen__container {
+    width: 60%;
+    position: relative;
+}
+
+.menu__item a {
+    text-decoration: none; /* Usunięcie podkreślenia */
+    color: white; /* Zmiana koloru tekstu */
+}

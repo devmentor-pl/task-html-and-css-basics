@@ -1,0 +1,40 @@
+/* base.css */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* base.css */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url('../fonts/Montserrat-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.row, .cell, .container {
+    padding: 5px;
+
+}
+.row {
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+
+}
+.cell {
+    min-height: 50px;
+
+}
+
