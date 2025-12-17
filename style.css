@@ -1,0 +1,205 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family:  helvetica, Montserrat ;
+}
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-left: 20px;
+}
+
+.header__menu {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.list__item {
+    list-style: none;
+    
+}
+
+
+.item__text {
+ margin-right: 70px;
+ text-decoration: none;
+ color: white;
+}
+
+.div__text {
+    
+}
+
+.text__all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text__h1 {
+    margin-left: 80px;
+    color: white;
+}
+
+.img__container {
+    margin-right: 70px;
+}
+
+
+.template__img {
+    transform: scale(0.8) rotate(-10deg);
+}
+
+.button__header {
+    background-color: #25f18b;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+.features {
+    background-color: #000000;
+}
+
+.features__container {
+    color: white;
+}
+
+.features__h2--text {
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.features__items {
+    display: flex;
+}
+
+.features__container--items {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.banner__container {
+    width: 100%;
+    background-color: #f9fafa;
+}
+
+.banners {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f9fafa;
+
+}
+
+.banner__container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.imac-article {
+    display: flex;
+}
+
+.imac__section-img {
+    transform: scale(0.8);
+}
+
+.imac__text {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.pricing {
+    background-color: #f8f9f9;
+}
+
+.pricing__title {
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.pricing__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.pricing_item {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.pricing__price {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.pricing__button{
+    background-color: #0abceb;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 130px;
+    border: none;
+}
+
+
+.pricing_item:hover {
+    border: 1px solid white;
+    box-shadow: 0 0 5px rgb(224, 218, 218);
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+/* Section TEAM */
+
+.team__container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.team__h2 {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team__paragraph {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    background-color: #464646;
+}
