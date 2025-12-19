@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webscope template project</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/favicon.png" type="image/png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header row">
+        <div class="header__navbar navbar container">
+
+            <nav class="navbar__nav nav">
+                <a href="#" class="nav__logo cell"><img src="./images/logo.svg" alt="Brand logo"
+                        class="logo navbar--img"></a>
+
+
+                <ul class="nav__list cell">
+                    <li class="nav__item"><a href="#" class="nav__link">The Team</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="header__teaser container">
+            <article class="teaser__title-box title-box cell">
+                <h1 class="title-box__title">Beautiful Free Nova template</h1>
+                <p class="title-box__content">A top notch premium quality template for your next web project.</p>
+                <button class="title-box__btn btn">Download <span class="uppercase">free!</span></button>
+            </article>
+            <figure class="teaser__img-box img-box cell"><img src="./images/screen.png"
+                    alt="A screen of tablet displaying website"></figure>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Features section -->
+        <section class="content row">
+
+            <header class="content__header features-header container">
+                <h2 class="features-header__title uppercase">Features</h2>
+            </header>
+            <ul class="content__features-box container">
+                <li class="features-box__feature cell">
+                    <figure class="feature__img"></figure>
+                    <h3 class="feature__title uppercase">Fully responsive</h3>
+                    <p class="feature__content">Looks amazing on any device: smartphone, tablet, laptop and desktop.</p>
+                </li>
+                <li class="features-box__feature cell">
+                    <figure class="feature__img"></figure>
+                    <h3 class="feature__title uppercase">Customizable</h3>
+                    <p class="feature__content">Change the colors, pictures or any of the section to suit your needs.
+                    </p>
+                </li>
+                <li class="features-box__feature cell">
+                    <figure class="feature__img"></figure>
+                    <h3 class="feature__title uppercase">Slick and beautiful design</h3>
+                    <p class="feature__content">Trendy and fresh design, fits any website.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Partners section -->
+        <section class="content row">
+            <figure class="content__partners partners container">
+                <img src="./images/logos.png" alt="Partners logos" class="partners__img">
+            </figure>
+        </section>
+
+        <!-- Product description section -->
+        <section class="content row">
+            <div class="content__description description container">
+                <figure class="description__img cell">
+                    <img src="./images/imac.png" alt="iMac picture" class="description__device-img">
+                </figure>
+                <article class="description__content-box cell">
+                    <h2 class="description__title uppercase">Simple and beautiful</h2>
+                    <p class="description__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam
+                        facilis, ut ratione vel optio omnis. Quae perferendis aut voluptas sapiente natus dicta nihil,
+                        harum corporis asperiores, non ducimus in magni veritatis expedita numquam aperiam cumque iure
+                        suscipit hic nisi fuga nobis a facere reprehenderit? Assumenda fuga delectus odio. Aliquam,
+                        inventore.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Pricing section -->
+        <section class="content row">
+            <header class="content__header pricing-header container">
+                <h2 class="pricing-header__title uppercase">Choose your pricing plan</h2>
+                <p class="pricing-header__description">Pick any of our super affordable pricing plans.</p>
+            </header>
+
+            <ul class="pricing__cards-box cards-box container">
+                <li class="cards-box__card cell">
+                    <header class="card__header">
+                        <h3 class="card__title uppercase">Basic</h3>
+                        <p class="card__price">$15</p>
+                        <p class="card__price-small">per month</p>
+                    </header>
+
+                    <ul class="card__plan-features plan-features">
+                        <li class="plan-features__feature">Up to 7 Projects</li>
+                        <li class="plan-features__feature">2 Additional Developers</li>
+                    </ul>
+                    <button class="card__cta-btn btn">Get Started</button>
+                </li>
+
+                <li class="cards-box__card cell">
+                    <header class="card__header">
+                        <h3 class="card__title uppercase">Agency</h3>
+                        <p class="card__price">$55</p>
+                        <p class="card__price-small">per month</p>
+                    </header>
+                    <ul class="card__plan-features plan-features">
+                        <li class="plan-features__feature">Up to 25 Projects</li>
+                        <li class="plan-features__feature">2 Additional Developers</li>
+                        <li class="plan-features__feature">Unlimited Support</li>
+                    </ul>
+                    <button class="card__cta-btn btn">Get Started</button>
+                </li>
+
+                <li class="cards-box__card cell">
+                    <header class="card__header">
+                        <h3 class="card__title uppercase">Pro</h3>
+                        <p class="card__price">$75</p>
+                        <p class="card__price-small">per month</p>
+                    </header>
+                    <ul class="card__plan-features plan-features">
+                        <li class="plan-features__feature">Up to 25 Projects</li>
+                        <li class="plan-features__feature">2 Additional Developers</li>
+                        <li class="plan-features__feature">Unlimited Support</li>
+                        <li class="plan-features__feature">1.5GB Disk Space</li>
+                    </ul>
+                    <button class="card__cta-btn btn">Get Started</button>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Team section -->
+        <section class="content row">
+            <div class="team__header container">
+                <h2 class="team__title uppercase">The team</h2>
+            </div>
+
+            <ul class="team__cards-box cards-box container">
+                <li class="cards-box__card cell">
+                    <img src="./images/cto.png" alt="CTO avatar" class="card__avatar">
+                    <h3 class="card__title uppercase">Cto</h3>
+                    <address class="card__person">Johny B Good</address>
+                    <p class="card__person-description">
+                        The brains behind the whole operation
+                    </p>
+                    <ul class="card__icons-list icons-list">
+                        <li class="icons-list__item">
+                            <a href="#" class="icons-list__link"><img src="./images/team-twitter.svg" alt="Twitter icon"
+                                    class="icons-list__icon"></a>
+                        </li>
+                        <li class="icons-list__item">
+                            <a href="#" class="icons-list__link"><img src="./images/team-facebook.svg"
+                                    alt="Facebook icon" class="icons-list__icon"></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="cards-box__card cell">
+                    <img src="./images/ceo.png" alt="CEO avatar" class="card__avatar">
+                    <h3 class="card__title uppercase">Ceo</h3>
+                    <address class="card__person">Roll Over Beethoven</address>
+                    <p class="card__person-description">
+                        The one that puts it all together
+                    </p>
+                    <ul class="card__icons-list icons-list">
+                        <li class="icons-list__item">
+                            <a href="#" class="icons-list__link"><img src="./images/team-twitter.svg" alt="Twitter icon"
+                                    class="icons-list__icon"></a>
+                        </li>
+                        <li class="icons-list__item">
+                            <a href="#" class="icons-list__link"><img src="./images/team-facebook.svg"
+                                    alt="Facebook icon" class="icons-list__icon"></a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="cards-box__card cell">
+                    <img src="./images/cfo.png" alt="CFO avatar" class="card__avatar">
+                    <h3 class="card__title uppercase">Cfo</h3>
+                    <address class="card__person">Chuck Berry</address>
+                    <p class="card__person-description">
+                        The guy with his hand on the wallet
+                    </p>
+                    <ul class="card__icons-list icons-list">
+                        <li class="icons-list__item">
+                            <a href="#" class="icons-list__link"><img src="./images/team-twitter.svg" alt="Twitter icon"
+                                    class="icons-list__icon"></a>
+                        </li>
+                        <li class="icons-list__item">
+                            <a href="#" class="icons-list__link"><img src="./images/team-facebook.svg"
+                                    alt="Facebook icon" class="icons-list__icon"></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer row">
+        <div class="footer__container container">
+            <p class="footer__description">A free template by</p>
+            <a href="#"><img src="./images/webscope.svg" alt="Webscope logo" class="footer__logo"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
