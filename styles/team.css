@@ -1,0 +1,52 @@
+.theme_team_container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.theme_team_container + .team__container {
+    margin-top: 20px;
+}
+p.team {
+    font-size: x-large;
+    color: gray;
+}
+.team__column1 {
+    min-height: 300px;
+    width: 30%;
+    margin: 0 auto;
+}
+p.cto {
+    color: lightgrey;
+}
+p.johnny {
+    color: lightgrey;
+}
+.team__column2 {
+    min-height: 300px;
+    width: 30%;
+    margin: 0 auto;
+}
+p.ceo {
+    color: lightgrey;
+}
+p.roll {
+    color: lightgrey;
+}
+.team__column3 {
+    min-height: 300px;
+    width: 30%;
+    margin: 0 auto;
+}
+p.cfo {
+    color: gray
+}
+p.chuck {
+    color: lightgrey;
+}

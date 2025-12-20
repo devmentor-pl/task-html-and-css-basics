@@ -1,0 +1,133 @@
+.theme_shop_container{
+    height: 70px;
+    text-align: center;
+}
+.shop__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.shop__row {
+    background-color: whitesmoke;
+}
+p.intro3 {
+    font-size: large;
+    color: gray;
+}
+p.outro3 {
+    font-size: small;
+    color: gray;
+}
+.theme_shop_container + .shop__container {
+    margin-top: 20px;
+}
+.shop__ads1{
+    min-height: 400px;
+    width: 28%;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shop__ads1:hover {
+    background-color: white;
+    box-shadow: 10px 5px 5px gray;
+}
+p.basic {
+    font-size: small;
+    color: gray;
+}
+p.price {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+p.month1 {
+    font-size: small;
+    margin-top: 5px;
+}
+.opis1 {
+    font-size: small;
+    margin: 16px auto;
+}
+.opis1> * {
+    margin: 4px 0;
+}
+.shop__ads2 {
+    min-height: 400px;
+    width: 34%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shop__ads2:hover {
+    background-color: white;
+    box-shadow: 10px 5px 5px gray;
+}
+p.agency {
+    font-size: small;
+    color: gray;
+}
+p.price2 {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+p.month2 {
+    font-size: small;
+    margin-top: 5px;
+}
+.opis2 {
+    font-size: small;
+    margin: 16px auto;
+}
+.opis2 > * {
+    margin: 4px 0;
+}
+.shop__ads3 {
+    min-height: 400px;
+    width: 28%;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shop__ads3:hover {
+    background-color: white;
+    box-shadow: 10px 5px 5px gray;
+}
+p.pro {
+    font-size: small;
+    color: gray;
+
+}
+p.price3 {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+p.month3 {
+    font-size: small;
+    margin-top: 5px;
+}
+.opis3 {
+    font-size: small;
+    margin: 16px auto;
+}
+.opis3> * {
+    margin: 4px 0;
+}
+p.started {
+    color: white;
+    background-color: lightskyblue;
+    border: 2px solid lightskyblue;
+    border-radius: 30%;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: small;
+}

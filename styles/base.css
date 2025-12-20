@@ -1,0 +1,27 @@
+.row, .cell, .container {
+    margin: 5px;
+    padding: 5px;
+    outline: none;
+    font-family: 'Montserrat';
+}
+.row {
+    outline-color: none;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    outline-color: none;
+    max-width: 1150px;
+}
+.cell {
+    min-height: 50px;
+    outline-color: none;
+}
+.header__row , .content__row {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235))
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
