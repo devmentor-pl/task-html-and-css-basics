@@ -1,0 +1,40 @@
+.card-section {
+  height: 800px;
+
+  &__heading {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+  }
+
+  &__title {
+    font-size: 2em;
+  }
+
+  &__subtitle {
+    color: rgb(131, 131, 131);
+  }
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 75%;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+    min-height: 440px;
+    min-width: 340px;
+    padding: 3em 2em;
+  }
+}

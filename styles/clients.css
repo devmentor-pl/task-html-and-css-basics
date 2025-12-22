@@ -1,0 +1,10 @@
+.clients {
+  height: 5vh;
+  background-color: rgb(245, 245, 245);
+}
+.clients__banner {
+  background: url(./../images/logos.png) center no-repeat;
+  height: 100%;
+}
+
+/*# sourceMappingURL=clients.css.map */

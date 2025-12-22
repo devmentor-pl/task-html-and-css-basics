@@ -1,0 +1,88 @@
+.banner {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  height: 55vh;
+
+  &__nav {
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: white;
+  }
+
+  &__link:hover {
+    color: #0ABCEB;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__hero {
+    align-items: flex-start;
+    min-height: 550px;
+    justify-content: space-between;
+    margin-top: 3em;
+  }
+
+  &__cta {
+    color: white;
+    width: 45%;
+    margin-top: 4em;
+  }
+
+  &__heading {
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: .5em;
+    max-width: 400px;
+  }
+
+  &__text {
+    max-width: 280px;
+    line-height: 2;
+  }
+
+  &__download-btn {
+    width: 220px;
+    padding: 1em 2em;
+    color: white;
+    background-color: #25F18B;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 1.4em 0;
+    transition: all 250ms ease-in-out;
+    font-size: 1rem;
+  }
+
+  &__download-btn:hover,
+  &__download-btn:focus {
+    background-color: #40fb9e;
+    border-radius: 25px;
+  }
+
+  &__download-btn:focus {
+    outline: 5px dotted black;
+  }
+
+  &__img {
+    aspect-ratio: 4/3;
+    width: 500px;
+    box-shadow: 10px 11px 45px -5px rgba(66, 68, 90, 1);
+    border: 10px solid white;
+    border-radius: 20px;
+    transform: rotateZ(-8deg);
+    background-color: white;
+  }
+}

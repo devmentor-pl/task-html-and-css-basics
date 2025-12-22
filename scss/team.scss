@@ -1,0 +1,44 @@
+.cto {
+  background-image: url(./../images/cto.png);
+}
+
+.ceo {
+  background-image: url(./../images/ceo.png);
+}
+
+.cfo {
+  background-image: url(./../images/cfo.png);
+}
+
+.team {
+  &__card {
+    padding: 5px;
+  }
+
+  &__profile-picture {
+    min-width: 100px;
+    min-height: 100px;
+    background-size: contain;
+    border-radius: 50%;
+  }
+
+  &__role {
+    color: rgb(150, 150, 150);
+    margin-top: 1.5em;
+    margin-bottom: .4em;
+  }
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__description {
+    font-size: .8em;
+    color: rgb(150, 150, 150);
+  }
+
+  &__sm-container {
+    display: flex;
+    gap: 1em;
+  }
+}

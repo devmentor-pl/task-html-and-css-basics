@@ -1,0 +1,22 @@
+.foot {
+  background-color: #464646;
+
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+  }
+
+  &__text {
+    font-size: .8em;
+    font-weight: 500;
+  }
+}

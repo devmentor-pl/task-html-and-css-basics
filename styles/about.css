@@ -1,0 +1,30 @@
+.about {
+  display: flex;
+  height: 800px;
+  justify-content: space-between;
+  padding: 3em 5px;
+}
+.about__img-container {
+  background: url(./../images/imac.png) right/contain no-repeat;
+  flex-basis: 50%;
+}
+.about__content {
+  flex-basis: 50%;
+  margin-top: 2em;
+  display: flex;
+  align-items: flex-start;
+  justify-items: flex-start;
+}
+.about__content-container {
+  max-width: 550px;
+  padding-left: 5em;
+}
+.about__title {
+  margin-bottom: 1em;
+  font-size: 2em;
+}
+.about__text {
+  line-height: 2;
+}
+
+/*# sourceMappingURL=about.css.map */

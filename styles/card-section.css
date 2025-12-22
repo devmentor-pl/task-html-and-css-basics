@@ -1,0 +1,37 @@
+.card-section {
+  height: 800px;
+}
+.card-section__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+}
+.card-section__title {
+  font-size: 2em;
+}
+.card-section__subtitle {
+  color: rgb(131, 131, 131);
+}
+.card-section__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 75%;
+}
+.card-section__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+  min-height: 440px;
+  min-width: 340px;
+  padding: 3em 2em;
+}
+
+/*# sourceMappingURL=card-section.css.map */

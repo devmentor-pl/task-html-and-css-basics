@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  height: 800px;
+  justify-content: space-between;
+  padding: 3em 5px;
+
+  &__img-container {
+    background: url(./../images/imac.png) right/contain no-repeat;
+    flex-basis: 50%;
+  }
+
+  &__content {
+    flex-basis: 50%;
+    margin-top: 2em;
+    display: flex;
+    align-items: flex-start;
+    justify-items: flex-start;
+  }
+
+  &__content-container {
+    max-width: 550px;
+    padding-left: 5em;
+  }
+
+  &__title {
+    margin-bottom: 1em;
+    font-size: 2em;
+  }
+
+  &__text {
+    line-height: 2;
+  }
+}

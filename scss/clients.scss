@@ -1,0 +1,9 @@
+.clients {
+  height: 5vh;
+  background-color: rgb(245, 245, 245);
+
+  &__banner {
+    background: url(./../images/logos.png) center no-repeat;
+    height: 100%;
+  }
+}

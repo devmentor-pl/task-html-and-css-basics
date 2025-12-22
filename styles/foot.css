@@ -1,0 +1,21 @@
+.foot {
+  background-color: #464646;
+}
+.foot__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.foot__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+.foot__text {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=foot.css.map */
