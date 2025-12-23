@@ -1,0 +1,38 @@
+.footer {
+	background-color: var(--color-grey);
+	padding: 2rem 0 2rem 0;
+	text-align: center;
+
+	.container {
+		align-items: center;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+	}
+
+	&__content {
+		grid-column: 5 / 9;
+
+		.footer__title {
+			color: var(--color-white);
+			font-size: calc(0.3rem + 0.5vw);
+		}
+
+		.footer__image {
+			margin-left: 0.5rem;
+			vertical-align: middle;
+			width: 20%;
+		}
+	}
+
+	&__socials {
+		grid-column: 11 / 13;
+
+		.footer__link-img {
+			height: 1.75rem;
+		}
+
+		.footer__link:first-of-type {
+			margin-right: 1rem;
+		}
+	}
+}

@@ -1,0 +1,48 @@
+:root {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+a:link,
+a:visited {
+	color: var(--color-white);
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	border-radius: 1rem;
+	border: none;
+	height: 4rem;
+	transition: all 0.3s ease-in-out;
+	width: 15rem;
+}
+
+button:hover {
+	border-radius: 2rem;
+	box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
+}
+
+@mixin title-styling() {
+	font-size: calc(1rem + 0.8vw);
+	font-weight: 300;
+	margin-bottom: 2rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+@mixin section-padding() {
+	padding-bottom: 9rem;
+	padding-top: 4rem;
+}
