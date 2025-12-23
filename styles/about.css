@@ -1,0 +1,31 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__product {
+    width: 53%;
+}
+
+.about__content {
+    color: #333;
+    padding: 70px 0 0 40px;
+    width: 45%;
+}
+
+.about__image {
+    padding: 40px;
+}
+
+.about__header {
+    font-size: 30px;
+    max-width: 400px;
+    text-transform: uppercase;
+}
+
+.about__text {
+    font-size: 15px;
+    line-height: 30px;
+    margin: 40px 0;
+    max-width: 400px;
+}

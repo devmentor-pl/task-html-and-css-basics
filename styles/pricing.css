@@ -1,0 +1,90 @@
+.pricing {
+    background-color: #F8F9F9;
+    color: #333;
+    text-align: center;
+}
+
+.pricing__header {
+    font-size: 30px;
+    padding-top: 70px;
+    text-transform: uppercase;
+}
+
+.pricing__subtext {
+    color: grey;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.pricing__container--content {
+    display: flex;
+    justify-content: center;
+    padding: 70px 40px;
+}
+
+.pricing__container--content .cell {
+    height: 430px;
+    padding: 36px 30px 45px;
+    width: 33%;
+}
+
+.pricing__offer, .pricing__offer--middle {
+    position: relative;
+}
+
+.pricing__offer--middle {
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+}
+
+.pricing__title, .pricing__cost {
+    padding-bottom: 10px;
+}
+
+.pricing__title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.pricing__cost {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.pricing__monthly {
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.pricing__features {
+    line-height: 1.5em;
+}
+
+.pricing__features p {
+    font-weight: bold;
+}
+
+.pricing__btn {
+    background-color: #0ABCEB;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    left: 50%;
+    min-height: 25px;
+    min-width: 160px;
+    opacity: 1;
+    padding: 15px;
+    position: absolute;
+    top: 80%;
+    transform: translate(-50%,-50%);
+    transition: 0.3s;
+}
+
+.pricing__btn:hover {
+    background-color: #16cafc;
+    border-radius: 20px;
+    box-shadow: 0px 0px 100px -20px #000;   opacity: 0.9;
+    transition: 0.3s;
+}
