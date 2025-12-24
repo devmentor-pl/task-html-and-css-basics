@@ -1,0 +1,14 @@
+
+.footer__box {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #464646;
+}
+
+.footer__text {
+  color: #fff;
+  font-size: var(--fs-200);
+  padding-right: 1rem;
+}
