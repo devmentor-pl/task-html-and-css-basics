@@ -1,0 +1,30 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*.row, .container {
+    margin: 5px;
+    padding: 5px;
+    outline: 5px solid;
+}*/
+
+/*.cell {
+    margin: 5px;
+    padding: 10px;
+    outline: 5px solid;
+}*/
+
+/*.row {
+    outline-color: green;
+}*/
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    /*outline-color: blue;*/
+}
+
+/*.cell {
+    outline-color: orange;
+}*/

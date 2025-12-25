@@ -1,0 +1,64 @@
+.team__container {
+    height: 190px;
+}
+
+.team__header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 71px;
+}
+
+.people__container {
+    display: flex;
+    justify-content: center;
+    height: 470px;
+    padding: 40px 100px;
+}
+
+.people {
+    width: 320px;
+}
+
+.personal__photo {
+    display: block;
+    margin: 0 auto;
+    min-width: 133px;
+}
+
+.people__position {
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.people__name {
+    margin-top: 6px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.people__about {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.people__contacts-logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.twitter__logo {
+    margin: 0 10px 0 auto;
+}
+
+.facebook__logo {
+    margin: 0 auto 0 10px;
+}
+
+
