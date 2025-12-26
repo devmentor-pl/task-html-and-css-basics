@@ -1,0 +1,131 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.menu {
+    align-items: center;
+    display: flex;
+    font-size: 17px;
+    height: 10vh;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.menu__img {
+    width: 85%;
+}
+
+.menu__nav {
+    display: flex;
+}
+
+.menu__item {
+    color: white;
+    cursor: pointer;
+    margin-left: 50px;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    transition: .2s;
+}
+
+.menu__link {
+    color: white;
+    transition: .2s;
+}
+
+.menu__item:hover  a {
+    color: #f1c40f;
+}
+
+.menu__item::before {
+    background-color: #f1c40f;
+    bottom: 0px;
+    content: '';
+    height: 2px;
+    left: -100%;
+    position: absolute;
+    transition: .5s;
+    width: 100%;
+}
+
+.menu__item:hover::before {
+    left: 0;
+}
+
+.head__container {
+    align-items: center;
+    color: white;
+    display: flex;
+    height: 70vh;
+    justify-content: space-around;
+    margin: 10px auto;
+    max-width: 1150px;
+}
+
+.head__headline {
+    padding: 20px;
+}
+
+
+.headline__bigger {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.headline__smaller {
+    color: gainsboro;
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 250px;
+}
+
+.headline__btn {
+    background-color: #2ecc71;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    height: 50px;
+    transition: .2s;
+    width: 180px;
+}
+
+.head__link {
+    color: white;
+    transition: .2s;
+}
+
+.headline__btn:hover {
+    background: #f1c40f;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px #bdc3c7;
+}
+
+.head__screen {
+    border-radius: 30px;
+    box-shadow: 0 0 10px 3px white;
+    margin-left: 50px;
+    transform: rotate(-5deg);
+    width: 90%;
+}
+
+.mouse {
+    bottom: -7%;
+    left: 50%;
+    transform: translateX(-50%);
+}

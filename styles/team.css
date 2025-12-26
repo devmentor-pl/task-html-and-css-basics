@@ -1,0 +1,71 @@
+.team {
+    height: 70vh;
+    padding: 40px;
+}
+
+.team__heading {
+    margin: 80px auto;
+    max-width: 1150px;
+    text-align: center;
+}
+
+.team__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.team__item {
+    height: 30vh;
+    position: relative;
+    width: 30%;
+}
+
+.item__img {
+    left: 50%;
+    position: absolute; 
+    top: 5%;
+    transform: translateX(-50%);
+}
+
+.item__job-position {
+    font-size: 20px;
+    left: 50%;
+    position: absolute;
+    top: 63%;
+    transform: translateX(-50%);
+}
+
+.item__name {
+    font-size: 13px;
+    font-weight: bold;
+    left: 50%;
+    position: absolute;
+    top: 74%;
+    transform: translateX(-50%);
+}
+
+.item__about {
+    font-size: 16px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 85%;
+    transform: translateX(-50%);
+    width: 307px;
+}
+
+.item__facebook {
+    bottom: -2%;
+    left: 45%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.item__twitter {
+    bottom: -2%;
+    left: 55%;
+    position: absolute;
+    transform: translateX(-50%);
+}
