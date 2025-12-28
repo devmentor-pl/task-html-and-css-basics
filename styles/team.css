@@ -1,0 +1,51 @@
+.team {
+	min-height: 700px;
+}
+
+.team__title {
+	font-weight: normal;
+	text-transform: uppercase;
+	color: var(--color-secondary);
+	padding: 50px;
+	text-align: center;
+}
+
+.team__list {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.member {
+	width: 30%;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.member__photo {
+	max-width: 150px;
+	margin-bottom: 28px;
+}
+
+.member__title {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.member__name {
+	font-weight: bold;
+}
+
+.social__ico {
+	padding: 12px 8px;
+	transition: transform 0.3s;
+}
+
+.social__ico:hover {
+	transform: scale(1.2);
+}
