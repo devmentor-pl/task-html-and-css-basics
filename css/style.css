@@ -1,0 +1,309 @@
+/* CSS Variables */
+:root {
+	--background-header-color: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+	--button-header-color: #2ecc71;
+	--color-nav-hover: #2ecc71;
+	--background-features-color: black;
+	--background-symbols: #ecf0f1;
+	--background-pricing-plan: #ecf0f1;
+	--background-feature-icon: white;
+	--background-footer: #34495e;
+	--color-team-icons: invert(20%) sepia(42%) saturate(495%) hue-rotate(168deg) brightness(91%) contrast(0%);
+	--text--color: white;
+	--color-pricing-header: #95a5a6;
+	--color-middle-plan-option: white;
+	--plan-option-buttons: #58d5f7;
+}
+
+/* common CSS */
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+/* end of common CSS */
+
+/* header */
+.header {
+	width: 100%;
+	height: 650px;
+	padding-top: 30px;
+	background: var(--background-header-color);
+}
+
+.header__links {
+	display: flex;
+	justify-content: center;
+}
+
+.header__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--text--color);
+	min-width: 120px;
+	text-decoration: none;
+}
+
+.header__link:hover {
+	color: var(--color-nav-hover);
+}
+
+.template__header {
+	font-size: 36px;
+	font-weight: bold;
+	color: var(--text--color);
+	margin-top: 80px;
+}
+
+.template__text {
+	margin-top: 40px;
+	margin-right: 200px;
+	font-size: 18px;
+	color: var(--text--color);
+}
+
+.template__button {
+	border-style: none;
+	margin-top: 40px;
+	min-width: 200px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: var(--button-header-color);
+	color: var(--text--color);
+	font-size: 16px;
+}
+.template__screen {
+	margin-top: 60px;
+	transform: rotate(-5deg);
+}
+/* end of header */
+
+/* main - feautures */
+.features {
+	width: 100%;
+	color: var(--text--color);
+	background-color: var(--background-features-color);
+}
+
+.features__header {
+	margin: 50px auto;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: var(--text--color);
+}
+
+.feature {
+	text-align: center;
+	width: 33.333%;
+}
+
+.feature__icon {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+	background-color: var(--background-feature-icon);
+}
+
+.feature__first-logo {
+	margin-top: 32px;
+	margin-bottom: 40px;
+}
+
+.feature__header {
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.feature__text {
+	margin-bottom: 60px;
+}
+
+/* end of main - features */
+
+/* main - symbols */
+
+.symbols {
+	width: 100%;
+	background-color: var(--background-symbols);
+}
+
+.logos {
+	margin: 15px auto;
+}
+/* end of main symbols */
+
+/* main - theme */
+.theme {
+	width: 100%;
+}
+
+.theme__icon {
+	width: 575px;
+	margin-top: 50px;
+}
+
+.theme__description {
+	width: 575px;
+}
+
+.theme__header {
+	text-transform: uppercase;
+	text-align: left;
+	font-size: 30px;
+	margin: 90px;
+}
+
+.theme__text {
+	text-align: left;
+	margin-top: 100px;
+	font-size: 14px;
+	margin: 90px;
+}
+
+/* end of main - theme */
+
+/* main - pricing plan */
+
+.pricing {
+	width: 100%;
+	background-color: var(--background-pricing-plan);
+}
+
+.pricing__info {
+	margin: 0 auto;
+}
+
+.pricing__header {
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.pricing-text {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 30px;
+	color: var(--color-pricing-header);
+}
+
+.plan {
+	height: 500px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	width: 360px;
+	position: relative;
+}
+
+.plan--active {
+	border-radius: 35px;
+	box-shadow: 15px -15px 45px #bdc3c7;
+	background-color: var(--color-middle-plan-option);
+}
+
+.plan__title {
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	margin-top: 35px;
+	font-size: 18px;
+}
+
+.plan__cost {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.plan__advantage {
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+
+.plan__button {
+	border-style: none;
+	margin-top: 40px;
+	min-width: 180px;
+	height: 50px;
+	border-radius: 15px;
+	background-color: var(--plan-option-buttons);
+	color: var(--text--color);
+	font-size: 16px;
+	position: absolute;
+	bottom: 90px;
+	right: 90px;
+	transition: 0.3s;
+}
+
+.plan__button:hover {
+	text-decoration: underline;
+	border-radius: 20px;
+	box-shadow: -5px 10px 45px -20px rgb(45 45 45);
+}
+/* end of main - pricing plan */
+
+/* team */
+
+.team {
+	width: 100%;
+}
+
+.team__header {
+	margin: 50px auto;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.team__member {
+	width: 33.33%;
+	text-align: center;
+}
+
+.team__member-picture {
+	margin-top: 60px;
+}
+
+.team__member-function {
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+.team__member-name {
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.team__member-description {
+	margin-top: 20px;
+}
+
+.team__member-icons {
+	filter: var(--color-team-icons);
+}
+
+.team__member-media {
+	margin-top: 20px;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+/* end of team */
+
+/* footer */
+
+.footer {
+	background-color: var(--background-footer);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.footer__img {
+	padding-left: 10px;
+}
