@@ -1,0 +1,437 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.container__section {
+  max-width: 1150px;
+  margin: 2px auto;
+  margin-bottom: 0;
+}
+/* HEADER */
+.header {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+
+.nav-logo {
+  max-width: 100px;
+}
+
+.nav__links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-right: 10px;
+}
+
+.link {
+  font-family: "Montserrat";
+  font-weight: normal;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.hero {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+h1,
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero__title {
+  flex-direction: column;
+}
+
+.hero__title h1 {
+  font-size: 2em;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.hero__title p {
+  font-family: "Montserrat";
+  font-weight: 100;
+  line-height: 1.7;
+  padding: 0px;
+  margin-bottom: 25px;
+}
+
+.hero__button {
+  background-color: #0fe0a3;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 5px;
+  min-width: 190px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+}
+
+.hero-photo {
+  width: 60%;
+  transform: scale(0.8) rotate(-6deg) translateX(200px);
+  border: 15px solid white;
+  border-radius: 30px;
+}
+/* END HEADER */
+
+
+
+
+/* FEATURES */
+.features {
+  background-color: black;
+}
+
+.features-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.features-header h2 {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.features-cards h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.features-cards p {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.features,
+.header,
+h3,
+p {
+  color: white;
+}
+
+.features-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  min-width: 200px;
+  min-height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.icon {
+  background-color: white;
+  padding: 25px;
+  scale: 0.7;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+/* END FEATURES */
+
+
+
+/* ADVERTISEMENT */
+.advertisement {
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+/* END ADVERTISEMENT */
+
+
+
+
+/* DESCRIPTION VIEW */
+.imac {
+  display: flex;
+  transform: scale(0.9);
+}
+
+.view {
+  min-height: 200px;
+  min-width: 45%;
+  margin: 10px;
+}
+
+.article h2 {
+  font-family: "Montserrat";
+  font-weight: normal;
+  opacity: 0.9;
+}
+
+.article p {
+  font-family: "Montserrat";
+  font-size: 15px;
+  opacity: 0.6;
+  line-height: 1.7;
+}
+
+.imac {
+  max-width: 100%;
+  padding-left: 30px;
+}
+
+.description {
+  padding: 5px;
+}
+
+.description-view {
+  display: flex;
+}
+
+.article {
+  padding-left: 60px;
+}
+
+.article h2,
+p {
+  padding: 10px;
+}
+
+.article h2 {
+  margin-top: 40px;
+}
+
+.article p {
+  line-height: 30px;
+  color: inherit;
+}
+/* END DESCRIPTION VIEW   */
+
+
+
+/* PRICING PLAN */
+.pricing {
+  background-color: #f9f9f9;
+}
+
+.pricing-header {
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0.9;
+}
+
+.pricing-header h2 {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.pricing-header p {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 17px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.pricing-cards {
+  display: flex;
+  min-width: 280px;
+  min-height: 180px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  justify-content: center;
+  text-align: center;
+}
+
+.pricing__card {
+  display: block;
+  position: relative;
+  text-align: center;
+  align-content: space-between;
+  padding: 40px 70px 120px 70px;
+}
+
+.pricing__card,
+p {
+  margin: 0;
+  color: inherit;
+}
+
+.pricing__card p {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.pricing__card-header {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+
+.pricing__card-price {
+  font-size: 48px;
+  margin: 0 auto;
+}
+
+.pricing__card-description {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 2px;
+}
+
+
+.middle-card {
+  box-shadow: 3px 3px 15px 2px rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.pricing__button {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #0ABCEB;
+  /* background-color: #0fe0a3; */
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  min-width: 170px;
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+  border: none;
+}
+/* END PRICING PLAN  */
+
+
+
+/* TEAM */
+.team-header {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.team__header h2 {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.team__members {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.member {
+  min-height: 350px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 20px;
+  list-style-type: none;
+}
+
+.member .name {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.member p {
+  font-family: "Montserrat";
+  font-size: normal;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+.member h2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.member-img {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.social__media {
+  display: inline-block;
+  justify-items: last baseline;
+  transform: scale(0.7);
+  opacity: 0.8;
+}
+
+.social__media img {
+  margin-right: 1rem;
+}
+
+.filter-black {
+  filter: invert(0%) sepia(0%) saturate(100%) hue-rotate(327deg) brightness(0) contrast(104%);
+  opacity: 0.9;
+}
+/* END TEAM */
+
+
+
+/* FOOTER */
+.footer {
+  background-color: #4d4c4c;
+  max-height: 100px;
+  margin: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content h6 {
+  color: white;
+  padding-right: 4px;
+}
+
+.logo {
+  transform: scale(0.9);
+}
+/* END FOOTER */
