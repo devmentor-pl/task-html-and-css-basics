@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Monserrat";
+    src: url(/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+body {
+    font-family: "Montserrat";
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: white;
+}
+
+.header__logo img {
+    height: 80px;
+    margin-left: 100px;
+}
+
+.header__nav {
+    display: flex;
+    margin-right: 100px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav__list a {
+    align-items: center;
+    color: #fff;
+    text-decoration: none;}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: #fff;
+}
+
+.main__content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+.main__content p {
+    max-width: 40%;
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+
+.main__content button {
+    margin-left: 60px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #12a915;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.main__image img {
+    max-width: 100%;
+    height: auto;
+    transform: rotate(-8deg);
+    margin-bottom: 100px;
+}
+
+.features {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.features__container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 100px 300px;
+}
+
+.feature__item {
+    text-align: center;
+    width: 23%;
+}
+
+.feature__item img {
+    max-width: 100px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.feature__item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.features__logos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.features__logos img {
+    max-width: 100%;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%; 
+}
+
+.image img {
+    max-width: 500px;
+}
+
+.text {
+    max-width: 500px;
+    margin-left: 40px;
+}
+
+.text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: rgb(43, 25, 43);
+}
+
+.text p {
+    font-size: 1.2rem;
+    color: rgb(43, 25, 43);
+    line-height: 1.6;
+}
+
+/* Sekcja cenowa */
+.pricing {
+    text-align: center;
+    padding: 60px;
+    background-color: #f7f7f7;
+    color: black;
+   
+}
+.pricing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.pricing p {
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.pricing-item {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.pricing-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #333;
+}
+.pricing-item .price {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #060606;
+    font-weight: 600;
+}
+.pricing-item .per-month {
+    font-size: 0.9rem;;
+}
+.pricing-item .text {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.pricing-item button {
+    justify-content: center;
+    padding: 15px 20px;
+    background-color: #1212cd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.team {
+    text-align: center;
+    padding: 60px;
+    background-color: #fff;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    letter-spacing: 0.1rem;
+    color: #333;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 250px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #777;
+}
+
+.team-member strong {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.team-member p {
+    font-size: 0.875rem;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
