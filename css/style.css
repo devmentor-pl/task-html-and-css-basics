@@ -1,0 +1,407 @@
+/* COMMON */
+html, body {
+    scroll-behavior: smooth;
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 14em;
+    color: white;
+    background-color: #25f18b;
+    border: none;
+    border-radius: 7px;
+    margin: 1rem 1rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+/* END OF COMMON */
+
+/* HEADER */
+
+.header {
+    padding: 10px;
+    width: 100%;
+    min-height: 725px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    transform: scale(0.75);
+}
+
+.nav__items {
+    display: flex;
+    margin-right: 1.5rem;
+}
+
+.nav__item {}
+
+.nav__link {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.hero__intro {
+    flex-basis: 40%;
+    color: white;
+}
+
+.hero__header {
+    margin-top: 4rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+.hero__text {
+    margin: 1rem 3rem 1rem 0;
+    word-spacing: 0.5rem;
+    line-height: 1.8rem;
+}
+
+.hero__img {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__img-container {
+    transform: rotate(-6deg) scale(0.8);
+    border: 1.8rem solid white;
+    border-radius: 1.8rem;
+    background-position: center;
+    background-color: white;
+}
+
+/* END OF HEADER */
+
+/* FEATURES */
+
+.features {
+    width: 100%;
+    height: 515px;
+    background-color: black;
+    color: white;
+}
+
+.feature__main-header {
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem;
+    font-size: 1.8rem;
+}
+
+.feature__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.feature__item {
+    flex-basis: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.feature__img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5rem;
+
+    width: 5rem;
+    height: 5rem;
+
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 10px 50px 6px #3f3f3f;
+
+    margin-top: 3rem;
+}
+
+.feature__img-responsive {
+    background-image: url(../images/responsive.svg);
+}
+
+.feature__img-customizable {
+    background-image: url(../images/customizable.svg);
+}
+
+.feature__img-design {
+    background-image: url(../images/design.svg);
+}
+
+.feature__sub-header {
+    margin-top: 1.5rem;
+    font-weight: 700;
+}
+
+.feature__text {
+    padding: 1rem 2rem;
+}
+
+/* END OF FEATURES */
+
+/* PARTNERS */
+
+.partners__container {
+    display: flex;
+    justify-content: center;
+}
+
+.partners__img {
+    background-image: url(../images/logos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 60%;
+    height: 5rem;
+}
+
+/* END OF PARTNERS */
+
+/* ADVERTISE */
+
+.advertise {
+    width: 100%;
+    height: 675px;
+}
+
+.advertise__container {
+    display: flex;
+    height: inherit;
+}
+
+.container__img, .container__text {
+    flex-basis: 50%;
+}
+
+.container__img {
+    display: flex;
+    align-items: center;
+}
+
+.advertise__text-container {
+
+}
+
+.advertise__img {
+
+}
+
+.advertise__header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 6.5rem 6.5rem 3rem 6.5rem;
+    font-size: 1.8rem;
+}
+
+.advertise__text {
+    padding: 0 5.0rem 0 6.5rem;
+    word-spacing: 0.2rem;
+    line-height: 1.8rem;
+    font-size: 0.9rem;
+}
+
+/* END OF ADVERTISE */
+
+/* PRICING */
+
+.pricing {
+    background-color: #f8f9f9;
+    min-height: 725px;
+}
+
+.pricing__header-container {
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing__header-main {
+    padding: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.pricing__header-text {
+    padding: 1.5rem;
+    font-size: 1.0rem;
+}
+
+.pricing__plans-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.pricing__plan-basic, .pricing__plan-pro {
+    flex-basis: 25%;
+}
+
+.pricing__plan-agency {
+    flex-basis: 30%;
+}
+
+.pricing__plan-basic, .pricing__plan-agency, .pricing__plan-pro {
+    min-height: 26.125rem;
+    margin: 1.5rem 1rem; 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.pricing__plan-basic:hover, .pricing__plan-agency:hover, .pricing__plan-pro:hover {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 50px 0px rgba(0, 0, 0, 0.2);
+} 
+
+.pricing__content {
+    flex-basis: 80%;
+}
+
+.pricing__button-layout {
+    flex-basis: 20%;
+}
+
+.pricing__plan-header {
+    font-size: 1.2rem;
+    padding-top: 4rem;
+}
+
+.pricing__plan-price {
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 0.7rem;
+}
+
+.pricing__plan-per {
+    font-size: 0.75rem;
+}
+
+.pricing__plan-features {
+    margin-top: 2rem;
+}
+
+.pricing__plan-feature {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.pricing__button {
+    border: none;
+    color: white;
+    background-color: #0abceb;
+    padding: 1.2rem 3rem;
+    border-radius: 0.7rem;
+}
+
+/* END OF PRICING */
+
+/* TEAM */
+
+.team {
+    min-height: 42.1875rem;
+}
+
+.team__header-main {
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.members__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.team__member {
+    margin: 1rem;
+    flex-basis: 25%;
+    height: 25rem;
+    text-align: center;
+}
+
+.team__member-cto {
+    flex-basis: 30%;
+}
+
+.team__member-img {
+    margin-top: 2.2rem;
+}
+
+.team__member-position {
+    margin-top: 2rem;
+}
+
+.team__member-name {
+    padding: 0.7rem;
+    font-weight: 800;
+}
+
+.team__member-twitter, .team__member-facebook {
+    margin-top: 1rem;
+    padding: 0.6rem;
+}
+
+/* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    background-color: #626262;
+}
+
+.footer__container {
+    min-height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer__logo {
+    padding: 0 1rem;
+}
+
+
+
+/* END OF FOOTER */
