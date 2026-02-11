@@ -1,0 +1,36 @@
+/*szablon dla 3 podobnych sekcji (2tej  4teg i 5tej)*/
+.template {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    width:100%;   
+}
+.template--dark{
+    background-color: var(--color-bcgr-dark); 
+    color: var(--color-text-brigth);
+}
+.template--bright{
+    background-color: var(--color-bcgr-bright); 
+    color: var(--color-text-dark);
+}
+.template--white{
+    background-color: #FFFFFF; 
+    color: var(--color-text-dark);
+}
+.template__header{
+    padding-bottom:10px;
+    text-align: center;
+}
+.template__header--noPadding{
+    padding: 0;
+}
+.template__content{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.template__item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;            
+    padding-top: 30px;
+}

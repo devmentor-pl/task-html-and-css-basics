@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS project</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/base.css">
+    <link rel="stylesheet" href="./style/nova.css">
+    <link rel="stylesheet" href="./style/features.css">
+    <link rel="stylesheet" href="./style/template.css">
+    <link rel="stylesheet" href="./style/logos.css">
+    <link rel="stylesheet" href="./style/simple.css">
+    <link rel="stylesheet" href="./style/pricing.css">
+    <link rel="stylesheet" href="./style/team.css">
+    <link rel="stylesheet" href="./style/footer.css">
+</head>
+
+<body>
+<!--Pierwsza sekcja z menu-->    
+    <section class="pageNova">
+        <div class="pageNova__top center">
+            <div class="pageNova__logo">
+                <img src="./images/logo.svg" alt="LOGO"/>
+            </div>
+
+            <ul class="pageNova__nav nav">
+                <li class="nav__item"><a href="#team">The Team</a></li>
+                <li class="nav__item"><a href="#pricing">Pricing</a></li>
+                <li class="nav__item"><a href="#features">Features</a></li>
+            </ul>
+        </div>        
+        <div class="pageNova__bottom center">
+            <div class="pageNova__left">
+                <h1>Beautiful Free Nova template</h1><br>
+                <h4 class="pageNova__h4">A top notch premium quality template for your next web project.</h4>
+                <button class="btn btn--green">Download FREE!</button>                
+            </div>
+            <div class="pageNova__right">
+                <img class="pageNova__picture" src="./images/screen.png" alt="Obrazek z telefonem"/>
+            </div>
+        </div>
+
+    </section>
+<!--Druga sekcja "Features" z wg szablonu "templates"--> 
+    <section id="features" class="template template--dark">
+        <h3 class="template__header center">
+            FEATURES
+        </h3>
+        <div class="template__content center">
+            <div class="template__item features">
+                <div class="features__icon"><img src="./images/responsive.svg"></div>
+                <h5 class="features__title">FULLY RESPONSIVE</h5>
+                <h6 class="features__description">Looks amazing on any device: smartphone, tablet, laptop and desktop.</h6>
+            </div>
+            <div class="template__item features">
+                <div class="features__icon"><img src="./images/customizable.svg"></div>
+                <h5 class="features__title">CUSTOMIZABLE</h5>
+                <h6 class="features__description">Change the colors, pictures or any of the sections to suit your needs.</h6>
+            </div>
+            <div class="template__item features">
+                <div class="features__icon"><img src="./images/design.svg"></div>                
+                <h5 class="features__title">SLICK AND BEAUTIFUL DESIGN</h5>
+                <h6 class="features__description">Trendy and fresh design, fits any website.</h6>
+            </div>
+        </div>
+    </section>
+<!--Druga sekcja z Logami--> 
+    <section class="pageLogos">
+        <div class="pageLogos__content center">
+                <img class="pageLogos__image" src="./images/logos.png" alt="Loga">
+        </div>
+    </section>
+<!--Trzecia sekcja "Simple"--> 
+    <section class="pageSimple">        
+        <img class="pageSimple__image" src="./images/imac.png">    
+        <div class="pageSimple__right">
+            <h3 class="pageSimple__h3">SIMPLE AND BEAUTIFUL</h3>
+            <span class="pageSimple__span">Use Nova theme for your next web project. It is completely customizable so you can change any of the sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial. Have fun and good luck!</span>
+        </div>
+    </section>
+<!--Czwarta sekcja "Princing" wg szablonu "templates"--> 
+    <section id="pricing" class="template template--bright">
+        <h3 class="template__header center">
+            CHOOSE YOUR PRINCING PLAN            
+        </h3>
+        <h5 class="template__header template__header--noPadding center">
+            Pick any of our super affordable pricing plans
+        </h5> 
+        <div class="template__content center">
+            <div class="template__item pricing">             
+                <h5 class="pricing__type">BASIC</h5>
+                <h6 class="pricing__price">15</h6>
+                <ul class="pricing__contain">
+                    <li>Up to 7 Projects</li>
+                    <li>2 Additional Developers</li>
+                </ul>
+                <button class="btn btn--blue">Get Started</button>
+
+            </div>
+            <div class="template__item pricing pricing--focus">             
+                <h5 class="pricing__type">AGENCY</h5>
+                <h6 class="pricing__price">55</h6>
+                <ul class="pricing__contain">
+                    <li>Up to 25 Projects</li>
+                    <li>2 Additional Developers</li>
+                    <li>Unlimited Support</li>
+                </ul>
+                <button class="btn btn--blue">Get Started</button>
+
+            </div>
+            <div class="template__item pricing">             
+                <h5 class="pricing__type">PRO</h5>
+                <h6 class="pricing__price">75</h6>
+                <ul class="pricing__contain">
+                    <li>Up to 7 Projects</li>
+                    <li>2 Additional Developers</li>
+                    <li>Unlimited Support</li>
+                    <li>1.5GB Disk Space</li>
+                </ul>
+                <button class="btn btn--blue">Get Started</button>
+
+            </div>
+        </div>
+    </section>
+<!--Piąta sekcja "Team" wg szablonu "templates"--> 
+    <section id="team" class="template template--white">
+        <h3 class="template__header center">
+            THE TEAM           
+        </h3>
+        <div class="template__content center">
+            <div class="template__item person">             
+                <div class="person__foto"><img src="./images/cto.png"> </div>
+                <h4 class="person__position">CTO</h3>
+                <h5 class="person__name">Johny B Good</h6>
+                <h6 class="person__description">The brains behind the whole operation</h6>
+                <div class="person__socialMediaIcons">
+                    <a href="http://twitter.com"><img src="./images/team-twitter.svg"></a>
+                    <a href="http://facebook.com"><img src="./images/team-facebook.svg"></a>
+                </div>                 
+            </div>
+            <div class="template__item person">             
+                <div class="person__foto"><img src="./images/ceo.png"> </div>
+                <h4 class="person__position">CTO</h3>
+                <h5 class="person__name">Roll Over Beethoven</h6>
+                <h6 class="person__description">The one that puts it all together</h6>
+                <div class="person__socialMediaIcons">
+                    <a href="http://twitter.com"><img src="./images/team-twitter.svg"></a>
+                    <a href="http://facebook.com"><img src="./images/team-facebook.svg"></a>
+                </div>                 
+            </div>
+            <div class="template__item person">             
+                <div class="person__foto"><img src="./images/cfo.png"> </div>
+                <h4 class="person__position">CTO</h3>
+                <h5 class="person__name">Chuck Berry</h6>
+                <h6 class="person__description">The guy with his hand on the wallet</h6>
+                <div class="person__socialMediaIcons">
+                    <a href="http://twitter.com"><img src="./images/team-twitter.svg"></a>
+                    <a href="http://facebook.com"><img src="./images/team-facebook.svg"></a>
+                </div>                 
+            </div>
+
+        </div>
+    </section>
+<!--no i stopka--> 
+    <footer class="footer">
+        <h6 class="footer__text">A free template by</h3>
+        <img src="./images/webscope.svg">
+    </footer>
+
+</body>
+</html>

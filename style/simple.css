@@ -1,0 +1,30 @@
+.pageSimple{
+    background-color: var(--color-bcgr-simple);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.pageSimple__image{  
+    max-width: calc(50% - 5px);    
+    margin-left: 50px;
+    padding: 50px;
+}
+.pageSimple__right{
+    padding: 50px;
+    width: calc(50% - 5px);
+    height: auto;
+
+}
+.pageSimple__h3{
+    color: var(--color-text-dark);
+    line-height: 100px;
+}
+.pageSimple__span{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    max-width: 360px;    
+    line-height: 200%;
+}
+
