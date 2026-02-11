@@ -1,0 +1,510 @@
+/* GENERAL */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #999;
+}
+
+
+/* END GENERAL */
+
+
+/* FRAMES */
+
+.header,
+.features,
+.ads,
+.apple,
+.pricing,
+.team,
+footer {
+    /* outline: 2px green solid; */
+    width: 100%;
+}
+
+.logo-nav,
+.hero,
+.features__header,
+.features__icons,
+.ads__img,
+.pricing__plan,
+.pricing__details,
+.team__header,
+.team__persons {
+    /* outline: 2px solid blue; */
+}
+
+.logo,
+.nav,
+.hero__text,
+.hero__screen,
+.features__icon,
+.apple__img,
+.apple__desc,
+.pricing__detail,
+.team__person {
+    /* outline: 2px orange solid; */
+}
+
+
+/* END FRAMES */
+
+
+/* COMMON */
+
+.container {
+    margin: 0 auto;
+    /* max-width: 1150px; */
+    max-width: 1440px;
+}
+
+
+/* END COMMON */
+
+
+/* HEADER LOGO NAV */
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__img {
+    width: 120px;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+
+.logo__img--size {
+    width: 100%;
+}
+
+.nav__link {
+    color: white;
+    font-weight: 700;
+    min-width: 100px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.nav__link:hover {
+    /* border-bottom: 2px solid white; */
+}
+
+.nav__link--active {
+    /* outline: 1px solid white; */
+}
+
+.nav___link-li {}
+
+
+/* END HEADER LOGO NAV */
+
+
+/* HERO */
+
+.hero {
+    display: flex;
+}
+
+.hero__text {
+    width: 50%;
+    color: white;
+    padding: 10% 5% 0 5%;
+    box-sizing: border-box;
+}
+
+.hero__header {
+    font-size: 3rem;
+}
+
+.hero__paragraph {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    padding-right: 6rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.hero__button {
+    background-color: #78e08f;
+    color: white;
+    width: 259px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s linear
+}
+
+.hero__button:hover {
+    background-color: #4cd137;
+}
+
+.hero__screen {
+    padding: 83px;
+    width: 50%;
+}
+
+.hero__screen_img {
+    width: 107%;
+    background-color: white;
+    border-radius: 30px;
+    transform: rotate(352deg);
+}
+
+.screen--width {
+    border: 20px solid white;
+    border-radius: 30px;
+    width: 95%;
+}
+
+
+/* END HERO */
+
+
+/* FEATURES */
+
+.features {
+    background-color: black;
+}
+
+.features__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-weight: 300;
+    font-size: 2.23rem;
+    ;
+}
+
+.features__icons {
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 160px;
+}
+
+.features__icon {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    width: 360px;
+}
+
+.features__icon--round {
+    background-color: white;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 29px;
+    margin-bottom: 30px;
+}
+
+.features__img {
+    width: 30px;
+    height: 30px;
+}
+
+.features__img--phone {
+    width: 40px;
+    height: 40px;
+}
+
+.features__title {
+    margin-bottom: 12px;
+}
+
+.features__text {}
+
+
+/* END FEATURES */
+
+
+/* ADS */
+
+.ads {
+    background-color: #f5f6fa;
+}
+
+.ads__img {
+    display: flex;
+    height: 115px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ads__img--img {
+    height: 37px;
+}
+
+
+/* END ADS */
+
+
+/* APPLE */
+
+.apple {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.apple__img {
+    width: 49%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.apple__img--size {
+    width: 100%;
+}
+
+.apple__header {
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding-bottom: 4.4rem;
+    padding-top: 50px;
+    color: #333;
+}
+
+.apple__desc {
+    width: 49%;
+}
+
+.apple__desc--width {
+    max-width: 600px;
+    padding-left: 45px;
+    padding-top: 60px;
+    color: #333;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+
+.apple__text {
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+
+/* END APPLE */
+
+
+/* PRICING */
+
+.pricing {
+    background-color: #f5f6fa;
+    color: #333
+}
+
+.pricing__header {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px
+}
+
+.pricing__main {
+    font-weight: 100;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+.pricing__submain {
+    font-size: 1.4rem;
+}
+
+.pricing__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+
+.pricing__detail {
+    width: 300px;
+    height: 480px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 40px 20px 40px;
+    position: relative;
+}
+
+.pricing__detail:hover {
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pricing__title {
+    padding-top: 2.2rem;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.pricing__dollers {
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+
+.pricing__month {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.pricing_offer {
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.pricing_buttom {
+    position: absolute;
+    bottom: 10px;
+    transform: translate(-50%, -50%);
+    background-color: #0097e6;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s linear
+}
+
+.pricing_buttom:hover {
+    background-color: #00a8ff;
+}
+
+
+/* END PRICING */
+
+
+/* TEAM */
+
+.team {
+    color: #222f3e;
+}
+
+.team__header {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.team__persons {
+    display: flex;
+    justify-content: center;
+}
+
+.team__person {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 30px;
+    padding-bottom: 200px;
+    padding-top: 40px;
+}
+
+.team__person-img {
+    width: 160px;
+    padding-bottom: 40px;
+}
+
+.team__paragraph {
+    padding-top: 20px;
+    font-size: 1.1rem;
+    ;
+}
+
+.team__person--icon {
+    color: black;
+}
+
+.team__paragraph--big {
+    font-size: 1.4rem;
+    ;
+}
+
+.team__person--bold {
+    font-weight: bold;
+}
+
+
+/* END TEAM */
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #353b48;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text {
+    color: white;
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.footer__logo {
+    width: 110px;
+}
+
+.footer__logo--size {
+    width: 100%;
+}
+
+
+/* END FOOTER */
