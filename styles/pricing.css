@@ -1,0 +1,100 @@
+.pricing,
+.pricing__container,
+.pricing__item {
+    display: flex;
+}
+
+.pricing {
+    align-items: center;
+    background-color: #F8F9F9;
+    color: rgb(51, 51, 51);
+    flex-direction: column;
+    padding: 60px 0;
+}
+
+.pricing__header,
+.pricing__subheading,
+.pricing__button {
+    font-weight: 200;
+}
+
+.pricing__header {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.pricing__subheading {
+    color: gray;
+    font-size: 18px;
+    margin: 10px 0 30px;
+}
+
+.pricing__container {
+    justify-content: space-around;
+    max-width: 1150px;
+    width: 900px;
+}
+
+.pricing__item {
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0;
+    padding: 45px 25px;
+    transition: border-radius 0.1s linear, box-shadow 0.1s linear;
+}
+
+.pricing__item:hover {
+    border-radius: 8px;
+    box-shadow: 5px 8.7px 40px rgb(99 117 138 / 30%);
+}
+
+.pricing__plan-header {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.pricing__plan-price,
+.pricing__month {
+    font-weight: 600;
+}
+
+.pricing__plan-price {
+    font-size: 45px;
+}
+
+.pricing__month {
+    font-size: 12px;
+}
+
+.pricing__benefits {
+    font-size: 14px;
+    line-height: 24px;
+    margin: 30px 0 45px 0;
+    text-align: center;
+}
+
+.pricing__button-container {
+    margin-top: auto;
+}
+
+.pricing__button {
+    background-color: #0ABCEB;
+    border-radius: 10px;
+    border: #0ABCEB;
+    color: white;
+    height: 51px;
+    padding: 15px;
+    transition: border-radius 0.2s linear;
+    width: 164px;
+}
+
+.pricing__button:hover {
+    background-color: rgb(88, 213, 247);
+    border-radius: 20px;
+    text-decoration: underline;
+}
+
+.fa-check {
+    color: rgb(40, 155, 59);
+    padding-right: 7px
+}

@@ -1,0 +1,40 @@
+.info,
+.info__container {
+    display: flex;
+}
+
+.info {
+    justify-content: center;
+    width: 100vw;
+}
+
+.info__container {
+    justify-content: space-between;
+    max-width: 1150px;
+    padding: 60px 30px;
+}
+
+.info__monitor {
+    max-width: 550px;
+}
+
+.info__details {
+    margin: 35px 0 0 50px;
+    width: 50%;
+}
+
+.info__header,
+.info__paragraph {
+    font-weight: 300;
+}
+
+.info__header {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.info__paragraph {
+    font-size: 15px;
+    line-height: 30px;
+    width: 75%;
+}

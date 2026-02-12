@@ -1,0 +1,37 @@
+.header-hero__wrapper {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    height: 80vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header__container {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1150px;
+    padding: 30px;
+    width: 100%;
+}
+
+.header__nav-menu {
+    display: flex;
+}
+
+.header__menu-item {
+    padding: 0 10px;
+}
+
+.header__menu-item a,
+.header__menu-item a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu-item a:hover {
+    color: #0ABCEB;
+}
