@@ -1,0 +1,293 @@
+/* START OF COMMON */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    /* Added to avoid weird spacing between divs */
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.container--background {
+    background-image: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    padding-bottom: 100px;
+}
+
+/* END OF COMMON */
+
+/* START OF NAV */
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    min-width: 150px;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    list-style: none;
+}
+
+.nav__link:hover {
+    background-image: radial-gradient(rgb(195, 74, 126), rgb(106, 86, 235));
+}
+
+/* END OF NAV */
+
+/* START OF HERO */
+
+.hero__container {
+    display: flex;
+}
+
+.hero__article {
+    padding-top: 100px;
+    min-width: 40%;
+    color: white;
+}
+
+.hero__img {
+    max-width: 60%;
+    padding: 5%;
+}
+
+.hero__img--rotate {
+    transform: rotate(355deg);
+
+}
+
+.hero__img--size {
+    max-width: 90%;
+}
+
+.hero__button {
+    color: white;
+    background-color: #4CAF50;
+    padding: 15px 32px;
+    width: 300px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+
+/* END OF HERO */
+
+/* START OF FEATURES */
+
+.features__container {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+.features__h2,
+.features__h3,
+.features__article {
+    text-align: center;
+}
+
+.features__h2 {
+    padding-top: 50px;
+}
+
+.features__h2,
+.features__container-cards {
+    padding-bottom: 50px;
+}
+
+.features__image {
+    background-color: white;
+    height: 75px;
+    width: 75px;
+    border-radius: 100%;
+    display: flex;
+}
+
+.features__image,
+.features__image--center {
+    margin: auto;
+}
+
+.features__container-cards {
+    display: flex;
+    margin: 0 15%;
+}
+
+.features__container-card {
+    flex-basis: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* END OF FEATURES */
+
+/* START OF GROUP OF LOGOS */
+
+.group-of-logos__image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* END OF GROUP OF LOGOS */
+
+/* START OF EXAMPLE DIV */
+
+.example__container {
+    display: flex;
+}
+
+.example__article {
+    padding-top: 50px;
+    max-width: 50%;
+
+}
+
+.example__img {
+    max-width: 50%;
+    padding: 5%;
+}
+
+.example__img--size {
+    max-width: 100%;
+}
+
+.example__article-h2 {
+    margin-bottom: 50px;
+}
+
+/* END OF EXAMPLE DIV */
+
+/* START OF PRICING */
+
+.pricing__container-header,
+.pricing__container-card {
+    text-align: center;
+}
+
+.pricing__container-cards {
+    display: flex;
+}
+
+.pricing__container-card {
+    margin: 0 30px;
+    border: solid;
+    border-radius: 5%;
+    border-width: thin;
+    border-color: grey;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgb(167, 165, 165);
+}
+
+.pricing__container-card:hover {
+    background-color: azure;
+}
+
+.pricing__container-card--height {
+    min-height: 250px;
+}
+
+.pricing__container-card-price {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.pricing__container-card-period {
+    font-size: 0.7em;
+}
+
+.pricing__container-card-amount {
+    font-weight: 600;
+}
+
+.pricing__button {
+    color: white;
+    background-color: #11437c;
+    padding: 15px 32px;
+    width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+
+/* END OF PRICING */
+
+/* START OF TEAM */
+
+.team__container-header,
+.team__container-cards {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.team__container-cards {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.team__container-card {
+    margin: 0 30px;
+    padding: 20px;
+}
+
+.team__container-card-position {
+    font-weight: lighter;
+}
+
+.team__container-card-name {
+    font-weight: 600;
+}
+
+.team__container-card-social-img {
+    padding: 10px;
+}
+
+/* END OF TEAM */
+
+/* START OF FOOTER */
+
+.footer__container {
+    background-color: grey;
+    color: white;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    /* margin: 0 auto; */
+
+}
+
+.footer__article {
+    margin-right: 10px;
+    min-width: 50%;
+    display: flex;
+    justify-content: right;
+}
+
+.footer__img {
+    min-width: 50%;
+}
+
+/* END OF FOOTER */
