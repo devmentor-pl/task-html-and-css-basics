@@ -1,0 +1,93 @@
+/* COMMON */
+
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.header__container-1, .header__container-2 {
+    margin: 0 160px;
+}
+
+/* end of COMMON */
+
+/* CONTAINER-1 */
+
+.header__container-1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-top: 3px;
+    padding: 6px 0;
+    width: 14vh;
+}
+
+.nav__item-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__item {
+    margin: 3px;
+    padding: 6px 3px;
+    font-size: 0.7em;
+}
+
+/* end of CONTAINER-1 */
+
+/* CONTAINER-2 */
+
+.header__container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 50px 0;
+    padding-bottom: 120px;
+}
+
+.header__description {
+    grid-column: span 2;
+}
+
+.header__title, .header__text {
+    margin: 20px 0;
+}
+
+.header__img {
+    grid-column: span 3;
+    justify-self: flex-end;
+    transform: rotate(-6deg);
+    /* img jest elementem liniowym, dlatego stosujemy inline-block, aby transform zadziałał */
+    display: inline-block;
+    
+    width: 85vh;
+    border: 15px solid white;
+    border-radius: 5%;
+    background-color: white;
+}
+
+.header__btn {
+    background-color: #59fea6;
+    color: white;
+    border: 0;
+    border-radius: 7px;
+    width: 170px;
+    padding: 15px 10px;
+    font-size: 0.7em;
+}
+
+.header__text {
+    width: 80%;
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+.header__title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
