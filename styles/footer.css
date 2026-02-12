@@ -1,0 +1,17 @@
+.footer__cointainer {
+  background-color: #696969;
+  color: white;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__cointainer .footer {
+  margin: auto;
+  position: relative;
+}
+.footer__img {
+  position: absolute;
+  left: 130px;
+  top: -8px;
+}
