@@ -1,0 +1,321 @@
+/* header container */
+.header_container {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.nav__logo {
+  display: flex;
+  justify-content: center;
+}
+.nav__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.nav__menu li {
+  margin-right: 1px;
+  display: inline-block;
+}
+.nav__menu li a {
+  text-decoration: none;
+}
+.main__container {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+.main__container--article {
+  width: 50%;
+}
+.article__title {
+  font-size: 22px;
+  color: rgb(250, 250, 250);
+  white-space: nowrap;
+  padding-bottom: 20px;
+}
+.article__text {
+  font-size: 14px;
+  color: rgb(250, 250, 250);
+  padding-bottom: 25px;
+}
+.article__button {
+  background-color: #25f18b;
+  border-radius: 10px;
+  border: 1px solid #25f18b;
+  width: 150px;
+  height: 45px;
+  color: white;
+}
+.main__container--foto {
+  width: 50%;
+  padding: 10px;
+}
+.main__foto {
+  rotate: -10deg;
+}
+/* features container */
+.features__container {
+  display: flex;
+  flex-direction: column;
+}
+.features__container--header {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.features__header {
+  font-size: 30px;
+  color: white;
+  display: flex;
+  padding: 20px 0;
+}
+.features__table {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.features__table--responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  max-width: 175px;
+}
+.features__table--background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 51px;
+  width: 51px;
+  border-radius: 50%;
+}
+.features__table--logo {
+  max-height: 31px;
+  max-width: 31px;
+}
+.features__table--responsive-title {
+  font-size: 18px;
+  padding: 15px 0px;
+  color: white;
+  justify-content: center;
+}
+.features__table--responsive-text {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0px;
+}
+.features__table--customizable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  max-width: 175px;
+}
+.features__table--customizable-title {
+  font-size: 18px;
+  padding: 15px 0px;
+  color: white;
+  justify-content: center;
+}
+.features__table--customizable-text {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0px;
+}
+.features__table--desing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px;
+  max-width: 175px;
+}
+.features__table--desing-title {
+  font-size: 18px;
+  padding: 15px 0px;
+  color: white;
+  text-align: center;
+}
+.features__table--customizable-text {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0px;
+}
+/* collaborate container */
+.collaborate__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* article container */
+.article__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.article__container--img {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 50%;
+}
+.article__container--text {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 30px;
+  width: 50%;
+}
+.text__title {
+  font-size: 24px;
+  color: gray;
+  padding-bottom: 30px;
+}
+.text__contents {
+  font-size: 18px;
+  color: gray;
+  max-width: 350px;
+}
+/* price container */
+.price__container {
+  display: flex;
+  flex-direction: column;
+}
+.price__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.price__header--title {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  color: gray;
+  padding: 10px;
+}
+.price__header--text {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: gray;
+}
+.price__list {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 40px;
+}
+.price__list--title {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.price__list--price {
+  font-size: 38px;
+  padding-bottom: 5px;
+}
+.price__list--month {
+  font-size: 10px;
+}
+.price__list--text {
+  font-size: 14px;
+  max-width: 150px;
+  padding: 30px 0px;
+  height: 120px;
+}
+.price__list--button {
+  background-color: #0ABCEB;
+  border-radius: 10px;
+  border: 1px solid #0ABCEB;
+  width: 110px;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.price__list--first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  padding: 20px 10px;
+}
+.price__list--second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  box-shadow: 5px 10px 40px rgba(99, 117, 138, 0.3);
+  border-radius: 7px;
+  padding: 20px 10px;
+}
+.price__list--third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+  padding: 20px 10px;
+}
+/*team container */
+.team__container {
+  display: flex;
+  flex-direction: column;
+}
+.team__container--title {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 65px 0px;
+}
+.team__container--members {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.team_members {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px;
+}
+.team__members--foto {
+ padding: 10px;
+}
+.members__title {
+  font-size: 24px;
+  padding: 5px;
+}
+.members__name {
+  font-size: 18px;
+}
+.members__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  padding: 20px 0px;
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.footer__text {
+  font-size: 18px;
+  color: white;
+  padding: 0px 10px;
+}
