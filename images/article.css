@@ -1,0 +1,33 @@
+/* article */
+* {
+    background-color: white;
+}
+.article {
+    display: flex;
+    justify-content: space-between;
+
+}
+.image__container {
+    width: 50%;
+    height: 600px;
+    background-image: url(imac.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.article__container {
+    width: 50%;
+    height: 600px;
+}
+h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.article__container h2 {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.article__container p {
+    padding-left: 60px;
+    padding-right: 150px;
+}
