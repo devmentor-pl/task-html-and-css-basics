@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.app-layout {
+}
+.app-layout > :nth-child(n) {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.app-layout {
+    width: 100%;
+}
+.app-layout.max-width-100 > :nth-child(n) {
+    max-width: 1400px;
+}
+.app-layout.bg--gradient {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.app-layout.bg--black {
+    background-color: #000;
+    color: white;
+}
+.app-layout.bg--lightgray {
+    background-color: #f9fafa;
+}
+.app-layout.bg--gray {
+    background-color: #464646;
+}
+
+/* RWD */
+@media screen and (max-width: 1200px) {
+    .app-layout > :nth-child(n) {
+        max-width: 970px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .app-layout > :nth-child(n) {
+        max-width: 720px;
+    }
+}
