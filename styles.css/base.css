@@ -1,0 +1,35 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav,
+.header__content,
+.features__list,
+.theme,
+.pricing__list,
+.team__list,
+footer,
+.header__menu {
+    display: flex;
+}
+
+.header,
+.features,
+footer {
+    color: #ffffff;
+}
