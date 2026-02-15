@@ -1,0 +1,16 @@
+/** @format */
+
+:root {
+  --main-top-gradient: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  --features-color-section: black;
+  --platforms-section-bgc: rgb(249, 250, 250);
+  --features-icon-bgc: white;
+  --footer-bgc: rgb(70, 70, 70);
+  --white-letters: white;
+  --gray-letters: rgb(161, 156, 151);
+  --green-btn: rgb(37, 241, 139);
+  --blue-btn: rgb(10, 188, 235);
+
+  --h1-size: 38px;
+  --h2-size: 30px;
+}
