@@ -1,0 +1,403 @@
+/* COMMON */
+* {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color1: rgb(250, 250, 250);
+}
+
+.row, .container, .cell {
+    /* outline: 4px solid; */
+}
+
+.row {
+    outline-color: green;
+
+    padding: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px 60px;
+
+    outline-color: blue;
+    max-width: 1150px;
+    min-height: 50px;
+}
+
+.cell {
+    /* background-color: orange; */
+    outline-color: transparent
+}
+
+button:hover {
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, .5);
+}
+
+/* END OF COMMON */
+
+
+/* HEADER */
+.header {
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    min-width: 70px;
+    width: 5.5rem;
+}
+
+.header__nav {
+    min-width: 200px;
+}
+
+.nav__links {
+    display: flex;
+}
+
+.nav__link {
+    display: flex;
+    margin-right: .5rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    justify-self: center;
+}
+
+.nav__link--item {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__text {
+    color: white;
+    padding-top: 1.5rem;
+    width: 40%;
+    margin-bottom: 150px;
+
+}
+
+.hero__title {
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.hero__content {
+    max-width: 250px;
+    font-size: 16px;
+    margin-top: 16px;
+
+    line-height: 1.6;
+    font-weight: 200;
+}
+
+.download__button {
+    color: white;
+    font-weight: 600;
+    background-color: rgb(81, 228, 147);
+    width: 190px;
+    padding: 15px 0;
+    margin-top: 30px;
+    border: transparent;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+}
+
+
+.hero__image {
+    display: flex;
+    width: 60%;
+    margin-left: 10%;
+}
+
+.hero__image--file {
+    position: absolute;
+    width: 30rem;
+    background-color: white;
+    border: 15px solid white;
+    border-bottom: 50px solid white;
+    border-radius: 5%;
+    transform: rotate(-6deg);
+}
+
+/* END OF HEADER */
+
+
+/* FEATURES */
+.features-list {
+    background-color: black;
+    color: white;
+}
+
+.features__header {
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+
+.features-list__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feature {
+    width: 20%;
+    text-align: center;
+    margin: 2rem;
+}
+
+.feature__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin: 12px auto;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.feature__image--file {
+    width: 30px;
+    height: 30px;
+}
+
+.feature__title {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.feature__content {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: .5rem;
+}
+
+
+/* END OF FEATURES */
+
+
+
+/* SPONSORS */
+.sponsors {
+    background-color: var(--color1);
+}
+
+.sponsors__container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors__logos {
+    min-height: 30px;
+}
+
+/* END OF SPONSORS */
+
+
+/* design */
+.design__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.design__image, .design__article {
+    width: 50%;
+    width: calc(50% - 50px);
+}
+
+.design__article {
+    padding: 20px;
+}
+
+.design__title {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.design__content {
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* END OF design */
+
+
+
+/* PRICING */
+.pricing {
+    background-color: var(--color1);
+}
+
+.pricing__container {
+    display: flex;
+    padding-top: 0;
+}
+
+.pricing__header {
+    text-align: center;
+}
+
+.pricing__title {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.pricing__subtitle {
+    color: rgb(95, 95, 95);
+    font-size: 14px;
+}
+
+.pricing-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    text-align: center;
+    min-height: 400px;
+    margin: 1rem;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.pricing-plan[title="highlighted"], .pricing-plan:hover {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, .05);
+}
+
+
+.pricing-plan[title="highlighted"]:not(:hover) {
+    background-color: initial;
+    box-shadow: none;
+}
+
+.pricing-plan--item {
+    text-transform: uppercase;
+    color: rgb(95, 95, 95);
+}
+
+.pricing-plan--price {
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.pricing-plan--time {
+    font-size: 10px;
+}
+
+.pricing-plan--content {
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.button--start {
+    color: white;
+    background-color: rgb(81, 189, 228);
+    width: 150px;
+    padding: 15px 0;
+    margin: 30px;
+    margin-top: 50px;
+    border: transparent;
+    border-radius: 8px;
+}
+
+/* END OF PRICING */
+
+
+/* TEAM */
+.team__header {
+    text-align: center;
+}
+
+.team__title {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.team__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member--photo {}
+
+.team-member--position {
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.team-member--name {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.team-member--description {
+    margin: 10px;
+}
+
+.team-member--icon {
+    margin: 5px;
+}
+
+.team-member--icon:hover {
+    scale: 1.5;
+}
+
+/* END OF TEAM */
+
+
+
+/* FOOTER */
+.footer {
+    background-color: rgb(76, 76, 77);
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+.footer__text {
+    color: white;
+    font-size: 10px;
+}
+
+.footer__content {
+    margin-left: 10px;
+    min-height: 20px;
+    min-width: 20px;
+
+}
+
+/* END OF FOOTER */
