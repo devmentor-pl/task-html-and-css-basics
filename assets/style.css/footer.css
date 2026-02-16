@@ -1,0 +1,15 @@
+.footer__row {
+	display: flex;
+	justify-content: center;
+	column-gap: 15px;
+	align-items: center;
+	background-color: var(--color-footer-background);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer__row .footer__text {
+	font-size: 10px;
+	color: var(--color-light-background);
+	font-weight: 700;
+}
