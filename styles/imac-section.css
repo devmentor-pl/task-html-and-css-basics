@@ -1,0 +1,30 @@
+.imac_content__container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imac_content__left_article {
+    width: 54%;
+}
+
+.imac_content__right_article {
+    width: 44%;
+}
+
+.h5_design_title {
+    font-size: 30px;
+    margin: 10% 0px;
+    color: gray;
+}
+
+.div_imac_desc {
+    color: gray;
+    font-size: 15px;
+    margin: 0 30px;
+}
+
+.imac_image {
+    max-width: 70%;
+    margin: 2% 13%;
+}
