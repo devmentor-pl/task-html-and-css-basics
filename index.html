@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <title>Nova Page</title>
+</head>
+
+<body>
+    <header class="header container">
+        <div class="header__nav box">
+            <a class="header__logo" href="/"><img class="header__image" src="./images/logo.svg" alt="logo nova"></a>
+
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li><a class="menu__link" href="">The Team</a></li>
+                    <li><a class="menu__link" href="">Pricing</a></li>
+                    <li><a class="menu__link" href="">Features</a></li>
+                </ul>
+            </nav>
+        </div>
+        <article class="header__cta box">
+            <div class="header__cta-description">
+                <h1 class="header__title">Beautiful Free Nova <br> template</h1>
+                <p class="header__text">A top notch premium quality template for your next web project.</p>
+                <button class="header__btn">Download FREE!</button>
+            </div>
+            <div class="header__cta-image">
+                <div class="header__image-bg">
+                    <img class="header__image" src="./images/screen.png" alt="screen poglądowej strony">
+                </div>
+            </div>
+        </article>
+    </header>
+    <main>
+        <section class="features container">
+            <header class="features__header box">
+                <h2 class="features__title">Features</h2>
+            </header>
+            <ul class="features__cards box">
+                <li class="feature-card">
+                    <div class="feature-card__bg">
+                        <img class="feature-card__icon" src="./images/responsive.svg" alt="phone icon">
+                    </div>
+                    <h3 class="feature-card__title">Fully responsive</h3>
+                    <p class="feature-card__description">Looks amazing on any device: smartphone, tablet, laptop and
+                        desktop.</p>
+                </li>
+                <li class="feature-card">
+                    <div class="feature-card__bg">
+                        <img class="feature-card__icon" src="./images/customizable.svg" alt="customizable icon">
+                    </div>
+                    <h3 class="feature-card__title">Customizable</h3>
+                    <p class="feature-card__description">Change the colors, pictures or any of the sections to suit
+                        your needs.</p>
+                </li>
+                <li class="feature-card">
+                    <div class="feature-card__bg">
+                        <img class="feature-card__icon" src="./images/design.svg" alt="design icon">
+                    </div>
+                    <h3 class="feature-card__title">Slick and beautiful design</h3>
+                    <p class="feature-card__description">Trendy and fresh design, fits any website.</p>
+                </li>
+            </ul>
+        </section>
+
+        <aside class="logos container">
+            <div class="logos__box box">
+                <img class="logos__image" src="./images/logos.png" alt="logos">
+            </div>
+        </aside>
+
+        <section class="usage container">
+            <div class="usage__box box">
+                <img class="usage__image" src="./images/imac.png" alt="Apple iMac computer">
+                <div class="usage__content">
+                    <h2 class="usage__title">Simple and beautiful</h2>
+                    <p class="usage__text">Use Nova theme for your web project. It is completely
+                        customizable so you can change any of the
+                        sections to fit your needs. Nova Theme is Free for any kind of use, personal and commercial.
+                        have fun and good luck!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing container">
+            <header class="pricing__header box">
+                <h2 class="pricing__title">Choose your pricing plan</h2>
+                <p class="pricing__subtitle">Pick any of our super affordable pricing plans</p>
+            </header>
+
+            <ul class="pricing__options box">
+                <li class="pricing-card">
+                    <h3 class="pricing-card__title">Basic</h3>
+                    <p class="pricing-card__price"><span class="pricing-card__price-value">$15</span>per month</p>
+                    <ul class="pricing-card__list">
+                        <li>Up to 7 Projects</li>
+                        <li>2 Additional Developers</li>
+                    </ul>
+                    <button class="pricing-card__btn">Get Started</button>
+                </li>
+                <li class="pricing-card pricing-card--active">
+                    <h3 class="pricing-card__title">Agency</h3>
+                    <p class="pricing-card__price"><span class="pricing-card__price-value">$55</span>per month</p>
+                    <ul class="pricing-card__list">
+                        <li>Up to 25 Projects</li>
+                        <li>2 Additional Developers</li>
+                        <li>Unlimited Support</li>
+                    </ul>
+                    <button class="pricing-card__btn">Get Started</button>
+                </li>
+                <li class="pricing-card">
+                    <h3 class="pricing-card__title">Pro</h3>
+                    <p class="pricing-card__price"><span class="pricing-card__price-value">$75</span>per month</p>
+                    <ul class="pricing-card__list">
+                        <li>Up to 25 Projects</li>
+                        <li>2 Additional Developers</li>
+                        <li>Unlimited Support</li>
+                        <li>1.5GB Disk Space</li>
+                    </ul>
+                    <button class="pricing-card__btn">Get Started</button>
+                </li>
+            </ul>
+        </section>
+
+        <section class="team container">
+            <header class="team__header box">
+                <h2 class="team__title">The team</h2>
+            </header>
+            <ul class="team__members box">
+                <li class="team-card">
+                    <img class="team-card__image" src="./images/cto.png" alt="photo of Johnny B Good">
+                    <h3 class="team-card__role">CTO</h3>
+                    <p class="team-card__name">Johnny B Good</p>
+                    <p class="team-card__description">The brains behind the whole operation</p>
+                    <div class="team-card__links">
+                        <a href="https://x.com/" target="_blank">
+                            <img src="./images/team-twitter.svg" alt="Twitter icon">
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./images/team-facebook.svg" alt="Facebook icon">
+                        </a>
+                    </div>
+                </li>
+                <li class="team-card">
+                    <img class="team-card__image" src="./images/ceo.png" alt="photo of Johnny B Good">
+                    <h3 class="team-card__role">CEO</h3>
+                    <p class="team-card__name">Roll Over Beethoven</p>
+                    <p class="team-card__description">The one that puts it all together</p>
+                    <div class="team-card__links">
+                        <a href="https://x.com/" target="_blank">
+                            <img src="./images/team-twitter.svg" alt="Twitter icon">
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./images/team-facebook.svg" alt="Facebook icon">
+                        </a>
+                    </div>
+                </li>
+                <li class="team-card">
+                    <img class="team-card__image" src="./images/cfo.png" alt="photo of Johnny B Good">
+                    <h3 class="team-card__role">CFO</h3>
+                    <p class="team-card__name">Chuck Berry</p>
+                    <p class="team-card__description">The guy with his hand on the wallet</p>
+                    <div class="team-card__links">
+                        <a href="https://x.com/" target="_blank">
+                            <img src="./images/team-twitter.svg" alt="Twitter icon">
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="./images/team-facebook.svg" alt="Facebook icon">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer container">
+        <div class="footer__box box">
+            <p class="footer__copyright">A free template by <img class="footer__logo" src="./images/webscope.svg"
+                    alt="logo"></p>
+        </div>
+    </footer>
+</body>
+
+</html>
