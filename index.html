@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML + CSS Project Website</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav-container">
+        <div class="header__nav-logo">
+          <img src="./images/logo.svg" alt="Logo" />
+        </div>
+        <ul class="header__nav-items">
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">The Team</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Pricing</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Features</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="header__section-container">
+        <div class="header__ad-container">
+          <h1 class="header__heading-title">Beautiful Free Nova template</h1>
+          <p class="header__description">
+            A top notch premium quality template for your next web project.
+          </p>
+          <button class="header__download-btn">Download FREE!</button>
+        </div>
+        <div class="header__ad-img-container">
+          <img
+            src="./images/screen.png"
+            alt="Image of modern website template"
+            class="header__ad-img"
+          />
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <section class="main__features">
+        <h2 class="main__features-title">Features</h2>
+        <div class="main_features-container">
+          <div class="main__features-item">
+            <div class="features-item__img-wrapper">
+              <img src="./images/responsive.svg" alt="Mobile phone image" />
+            </div>
+            <h3 class="features-item__title">Fully responsive</h3>
+            <p class="features-item__desc">
+              Looks amazing on any device smartphone, tablet, laptop and
+              desktop.
+            </p>
+          </div>
+          <div class="main__features-item">
+            <div class="features-item__img-wrapper">
+              <img src="./images/customizable.svg" alt="tools image" />
+            </div>
+            <h3 class="features-item__title">Customizable</h3>
+            <p class="features-item__desc">
+              Change the colors, pictures or any of the sections to suit your
+              needs.
+            </p>
+          </div>
+          <div class="main__features-item">
+            <div class="features-item__img-wrapper">
+              <img src="./images/design.svg" alt="medal image" />
+            </div>
+            <h3 class="features-item__title">Slick and beautiful design</h3>
+            <p class="features-item__desc">
+              Trendy and fresh design, fits any website.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="main__logos">
+        <div class="main__logos-container">
+          <img src="./images/logos.png" alt="Image of companies logo" />
+        </div>
+      </section>
+      <section class="main__ad">
+        <div class="main__ad-img-container">
+          <img src="./images/imac.png" alt="Image of screen" />
+        </div>
+        <article class="main__ad-desc">
+          <h2 class="ad__desc-title">Simple and beautiful</h2>
+          <p class="ad__desc-desc">
+            Use Nowa theme for your next ewb project. It is completely
+            customizable so you can change any of the sections to fit your
+            needs. Now Theme is Free for any kind of use, personal and
+            commercial. Have fun and good luck!
+          </p>
+        </article>
+      </section>
+      <section class="main__pricing-plan">
+        <div class="main__pricing-plan-container">
+          <h2 class="pricing-plan__title">Choose your pricing plan</h2>
+          <p class="pricing-plan__title-2">
+            Pick any of our super affordable pricing plans
+          </p>
+          <div class="pricing-plan__items">
+            <article class="pricing-plan__item">
+              <p class="item__option">Basic</p>
+              <h2 class="item__price">$15</h2>
+              <p class="item__period">per month</p>
+
+              <p class="item__benefit">Up to 7 projects</p>
+              <p class="item__benefit">2 Additional Developers</p>
+              <div class="item__btn-container">
+                <button class="item__buy-plan-btn">Get Started</button>
+              </div>
+            </article>
+            <article class="pricing-plan__item">
+              <p class="item__option">Agency</p>
+              <h2 class="item__price">$55</h2>
+              <p class="item__period">per month</p>
+              <p class="item__benefit">Up to 25 projects</p>
+              <p class="item__benefit">2 Additional Developers</p>
+              <p class="item__benefit">Unlimited support</p>
+              <div class="item__btn-container">
+                <button class="item__buy-plan-btn">Get Started</button>
+              </div>
+            </article>
+            <article class="pricing-plan__item">
+              <p class="item__option">Pro</p>
+              <h2 class="item__price">$75</h2>
+              <p class="item__period">per month</p>
+              <p class="item__benefit">Up to 25 projects</p>
+              <p class="item__benefit">2 Additional Developers</p>
+              <p class="item__benefit">Unlimited support</p>
+              <p class="item__benefit">1.5GB Disk Space</p>
+              <div class="item__btn-container">
+                <button class="item__buy-plan-btn">Get Started</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="main_team">
+        <div class="main__team-container">
+          <h2 class="main__team-title">The Team</h2>
+          <div class="main__team-people">
+            <article class="team__person">
+              <div class="team__person-ing-container">
+                <img src="./images/cto.png" alt="cto person" />
+              </div>
+              <p class="team__person-title">Cto</p>
+              <p class="team__person-name">Johnny B Good</p>
+              <p class="team__person-desc">
+                The brain behind the whole operation
+              </p>
+              <div class="team__person-socials">
+                <a href="#" class="team__person-twitter">
+                  <img src="./images/team-twitter.svg" alt="twitter" />
+                </a>
+                <a href="#" class="team__person-facebook">
+                  <img src="./images/team-facebook.svg" alt="facebook" />
+                </a>
+              </div>
+            </article>
+            <article class="team__person">
+              <div class="team__person-ing-container">
+                <img src="./images/ceo.png" alt="ceo person" />
+              </div>
+              <p class="team__person-title">Ceo</p>
+              <p class="team__person-name">Roll Over Beethoven</p>
+              <p class="team__person-desc">
+                The one that must pull it together
+              </p>
+              <div class="team__person-socials">
+                <a href="#" class="team__person-twitter">
+                  <img src="./images/team-twitter.svg" alt="twitter" />
+                </a>
+                <a href="#" class="team__person-facebook">
+                  <img src="./images/team-facebook.svg" alt="facebook" />
+                </a>
+              </div>
+            </article>
+            <article class="team__person">
+              <div class="team__person-ing-container">
+                <img src="./images/cfo.png" alt="cfo person" />
+              </div>
+              <p class="team__person-title">Cfo</p>
+              <p class="team__person-name">Chuck Berry</p>
+              <p class="team__person-desc">
+                The guy with the hand on the wallet
+              </p>
+              <div class="team__person-socials">
+                <a href="#" class="team__person-twitter">
+                  <img src="./images/team-twitter.svg" alt="twitter" />
+                </a>
+                <a href="#" class="team__person-facebook">
+                  <img src="./images/team-facebook.svg" alt="facebook" />
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__title">
+        A free template by
+        <p><img src="./images/webscope.svg" alt="webscope image" /></p>
+      </p>
+    </footer>
+  </body>
+</html>
