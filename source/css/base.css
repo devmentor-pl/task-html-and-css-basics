@@ -1,0 +1,32 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.cell,.container {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.row {
+    width: 100%;
+    /* outline: 3px solid #0ED145; */
+    padding: 2px;
+}
+
+.container {
+    margin: 15px auto;
+    max-width: 1450px;
+    /* outline: 3px solid #00A8F3; */
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    min-height: 75px;
+   /*  outline: 3px solid #FFCA18; */
+}
+
+
+
+
