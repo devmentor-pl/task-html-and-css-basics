@@ -1,0 +1,472 @@
+/* COMMON */
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--main-color);
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #2c3e50;
+    --color-white: #fff;
+    --color-gray: #808080;
+    --btn-bc: #0ABCEB;
+    --btn-hover-bc: #58d5f7;
+    --btn-hero-bc: #25F18B;
+    --btn-hero-hover-bc: #6affb4;
+    --bc-black: #000;
+    --bc-white: #fff;
+    --bc-gray-white: #F9FAFA;
+    --bc-dark-gray: #464646;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    width: 190px;
+    border: none;
+    border-radius: 12px;
+    color: var(--color-white);
+    background-color: var(--btn-bc);
+    padding: 16px;
+    cursor: pointer;
+    transition: background-color, border-radius 0.5s;
+}
+
+.cta-button:hover {
+    background-color: var(--btn-hover-bc);
+    border-radius: 20px;
+}
+
+.cta-button--hero {
+    width: 210px;
+    background-color: var(--btn-hero-bc);
+    margin: 30px 0;
+}
+
+.cta-button--hero:hover {
+    background-color: var(--btn-hero-hover-bc);
+    border-radius: 20px;
+}
+
+.cta-button--pricing {
+    width: 165px;
+}
+
+.cta-button--pricing:hover {
+    text-decoration: underline;
+}
+
+/* END OF COMMON */
+
+/* HEADER */
+.header {
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 100px;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 15px;
+}
+
+.nav__link-logotype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    text-decoration: none;
+    height: 30px;
+    min-width: 80px;
+    padding: 10px;
+}
+
+.nav__link:hover {
+    color: var(--btn-hover-bc);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 485px;
+    color: var(--color-white);
+    padding: 0 15px;
+    text-align: left;
+}
+
+.hero-header {
+    max-width: 380px;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+    padding: 70px 0 15px;
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    font-weight: 300;
+    max-width: 290px;
+}
+
+.hero__imagebox {
+    height: 420px;
+    transform: rotate(-6deg);
+    max-width: 45%;
+    border-radius: 25px;
+    margin-top: 45px;
+    margin-right: 100px;
+    padding: 0 15px;
+    background-color: var(--bc-white);
+}
+
+.hero__image {
+    margin-top: 19px;
+    padding-bottom: 40px;
+}
+
+/* END HEADER */
+
+/* FEATURES */
+
+.features {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 90px;
+    background-color: var(--bc-black);
+    text-align: center;
+    color: var(--color-white);
+}
+
+.features-container {
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.feature__headline {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px auto 10px;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.feature__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+    margin: 0;
+}
+
+.feature__item {
+    flex-basis: 33.333%;
+    padding: 30px;
+}
+
+.feature__icon {
+    background-color: var(--bc-white);
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.feature__img {
+    max-width: 25px;
+    vertical-align: middle;
+}
+
+.feature__name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    padding-top: 15px;
+    margin: 10px 0;
+}
+
+.feature__text {
+font-size: 14px;
+    font-weight: 300px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+
+/* END OF FEATURES */
+
+/* LOGOS */
+
+.logos {
+    background-color: var(--bc-gray-white);
+    text-align: center;
+    width: 100%;
+}
+
+.logos__img {
+    padding: 30px;
+    max-width: 100%;
+}
+
+/* END OF LOGOS */
+
+/* CONTENT */
+
+.content {
+    width: 100%;
+    background-color: var(--bc-white);
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.content__box {
+    flex-basis: 50%;
+    padding: 0 15px;
+}
+
+.content__image {
+    padding: 60px 0 40px;
+}
+
+.content__textbox {
+    padding-left: 100px;
+    padding-top: 80px;
+    width: 100%;
+    text-align: left;
+}
+
+.content__textbox-header {
+    margin: 20px 0 10px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.content__textbox-text {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 20px;
+    margin-right: 50px;
+}
+
+/* END OF CONTENT */
+
+/* PRICING */
+.pricing {
+    background-color: var(--bc-gray-white);
+    text-align: center;
+    width: 100%;
+}
+
+.pricing__header {
+    min-width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px auto 10px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.pricing__header-sub {
+    font-size: 18px;
+    color: var(--color-gray);
+    min-width: 100%;
+    padding-top: 10px;
+    margin: 10px auto;
+}
+
+.pricing__table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.pricing__plan {
+    flex-basis: 29%;
+    margin: 0;
+    padding: 30px 15px 45px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.pricing-title {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+    padding-bottom: 5px;
+}
+
+.pricing-cost {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.pricing-time {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding-bottom: 20px;
+}
+
+.pricing-pros {
+font-size: 14px;
+    line-height: 25px;
+}
+
+.fa-check {
+    font-size: 14px;
+    color: var(--btn-hero-bc);
+    padding-right: 12px;
+}
+
+.pricing__plan--best {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 5px 6px 40px 3px rgba(100, 100, 100, 0.25);
+    border-radius: 8px;
+}
+
+/* END OF PRICING */
+
+/* TEAM */
+
+.team {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.team__header {
+    min-width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 20px auto 10px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.team__table {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.team__member {
+    flex-basis: 26%;
+    margin: 0;
+    padding: 0 15px 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team__member-text {
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.team-title {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.team-name {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.team-text {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.team-social-link {
+    padding: 6px;
+    text-decoration: none;
+}
+
+/* END OF TEAM */
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    background-color: var(--bc-dark-gray);
+    padding: 20px 0;
+    color: var(--color-white);
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    padding-right: 6px;
+}
+
+/* END OF FOOTER */
