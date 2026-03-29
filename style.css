@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --pricingComponentHeight: 45vh;
+}
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.backgroundWrapper {
+    padding: 55px 0 283px 0;
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.mainMenu, .mainHeader {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navigationElementsContainer {
+    text-align: right;
+    width: 30%;
+}
+
+.navigationElementsContainer > li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigationElementsContainer > li > a {
+    color: gold;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mainHeader {
+    margin-top: 142px;
+}
+
+.textContainer > h1 {
+    font-size: 44px;
+}
+
+.textContainer > p {
+    margin: 30px 0 20px 0;
+    font-size: 22px;
+    width: 57%;
+    line-height: 160%;
+}
+
+.textContainer > button {
+    background-color: #529d52;
+    color: white;
+    width: 46%;
+    padding: 22px 25px;
+    margin: 19px 0 0 -5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: transparent;
+}
+
+.imageContainer {
+    width: 57%;
+}
+
+.imageContainer > img {
+    width: 88%;
+    transform: rotate(354deg);
+    margin-top: -53px;
+}
+
+.featuresSection {
+    background-color: black;
+}
+
+.upperLetters {
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+.featuresSection > p {
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+    padding: 5% 0 10% 0;
+    font-size: 33px;
+}
+
+.featuresContainer {
+    padding: 0 0 116px 0;
+}
+
+.flexPositioning {
+    display: flex;
+    justify-content: center;
+}
+
+.imageFeatureBox ~ p {
+    color: white;
+}
+
+.imageFeatureBox > img {
+    background-color: white;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.featuresContainer > div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageFeatureBox + p, .pricingOptionsContainer h3 {
+    padding: 15px 0;
+    letter-spacing: 0;
+    font-size: initial;
+
+}
+
+.imageFeatureBox + p + p {
+    width: 43%;
+}
+
+.socialLinksSection {
+    display: flex;
+    justify-content: center;
+    padding: 2% 8%;
+}
+
+.simpleAndBeautifulSection {
+    display: flex;
+}
+
+.imageAppleScreenBox {
+    width: 111%;
+    margin-left: 6%;
+}
+
+.imageAppleScreenBox > img {
+    width: 127%;
+}
+
+.simpleAndBeautifulContentContainer {
+    margin: 3% 0 0 18%
+}
+
+.simpleAndBeautifulContentContainer > p:last-child {
+    font-size: 23px;
+    margin: 13% 0 0 0;
+    width: 70%;
+}
+
+.pricingHeaderContainer {
+    text-align: center;
+}
+
+.pricingPlanSection {
+    margin: 8% 0 0 0;
+}
+
+.pricingHeaderContainer > p:last-child {
+    padding: 2% 0 0 0;
+    font-size: 22px;
+}
+
+.pricingOptionsContainer {
+    margin: 9% 0 0 0;
+    gap: 50px;
+}
+
+.pricingOptionsContainer ul, .mainMenu > ul {
+    list-style: none;
+}
+
+.pricingOptionsContainer > div * {
+    text-align: center;
+}
+
+.prize {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.pricingOptionsContainer h3 {
+    font-weight: normal;
+}
+
+.pricingOptionsContainer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: var(--pricingComponentHeight);
+    justify-content: space-between;
+    padding: 25px 40px;
+
+}
+
+.pricingOptionsContainer > div:nth-child(2) {
+    box-shadow: 3px 3px 10px gray, -2px -2px 10px gray;
+}
+
+.getStartedBtn {
+    padding: 10px 35px;
+    border-color: transparent;
+    background-color: #6868db;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.theTeamSection {
+    margin-top: 10%;
+}
+
+.theTeamSection > p {
+    text-align: center;
+}
+
+.teamMemeberscontainer {
+    margin-top: 7%;
+    gap: 70px;
+}
+
+.teamMemeberscontainer p, .imageMemberBox {
+    text-align: center;
+}
+
+.memberPosition {
+    text-transform: uppercase;
+    color: gray;
+    padding: 20px 0 0 0;
+}
+
+.memberDescription {
+    color: rgb(128, 118, 118);
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.socialImagesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.templateFooter {
+    margin-top: 7%;
+    padding: 20px 0;
+    background-color: rgb(26, 22, 22);
+    opacity: 0.8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
