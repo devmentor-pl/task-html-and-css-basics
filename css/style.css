@@ -1,0 +1,302 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 28px;
+
+
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+
+.section__background--one {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+
+.contaniner {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.container--max {
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 2vh;
+}
+
+.nav {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+  color: white;
+}
+
+.nav__link__a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.hero__text,
+.hero__image {
+  width: 50%;
+  color: white;
+}
+
+.hero__h1 {
+  font-weight: 700;
+}
+
+.hero__p {
+  padding: 20px 0;
+}
+
+.btn--hero {
+  background-color: #25f18b;
+}
+
+.hero__img {
+  width: 100%;
+  border: 10px solid white;
+  border-radius: 40px;
+  transform: rotate(-5deg);
+  background-color: white;
+}
+
+.section__background--two {
+  background-color: black;
+  color: white;
+  min-height: 40vh;
+}
+
+.sectiontwo__h1,
+.feature__h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.sectiontwo__h1 {
+  padding: 3rem 0;
+}
+
+.feature__h3 {
+  padding: 1.5rem;
+}
+
+.features {
+  display: flex;
+}
+
+.feature {
+  margin: 0 auto;
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bcg__image {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.feature__p {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.feature__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section__background--three {
+  background-color: #f9fafa;
+  padding: 5vh;
+}
+
+.img__tools {
+  display: block;
+  margin: 0 auto;
+}
+
+.section__four {
+  display: flex;
+  margin-top: 5rem;
+}
+
+.sectionfour__image {
+  margin-left: 10rem;
+  flex-basis: 45%;
+}
+
+.desktop__img {
+  width: 100%;
+}
+
+.sectionfour__text {
+  margin-left: 5rem;
+  color: black;
+  flex-basis: 60%;
+  line-height: 30px;
+}
+
+.sectionfour__h2,
+.pricing__h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.section__background--five {
+  background-color: #f8f9f9;
+  padding-bottom: 10vh;
+}
+
+.pricing__h2 {
+  padding-top: 3rem;
+}
+
+.pricing__p {
+  padding-bottom: 2.5rem;
+}
+
+.pricing__h2,
+.pricing__p {
+  color: black;
+  text-align: center;
+}
+
+.pricings {
+  display: flex;
+  color: black;
+  justify-content: center;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  width: 33%;
+  text-align: center;
+}
+
+.pricing__h5 {
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.pricing__h3 {
+  margin: 0.5rem 0;
+  font-weight: 800;
+}
+
+.pricing__p--period {
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+
+.pricing--color {
+  box-shadow: -2px 9px 22px 2px rgba(160, 165, 165, 1);
+  border-radius: 5px;
+}
+
+.btn--align {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.btn--pricing {
+    margin: 2rem 0;
+    align-self: center;
+  background-color: #0bbcec;
+}
+
+.section__background--six{
+  background-color: white;
+  margin-bottom: 15vh;
+}
+
+.theteam_h2{
+padding: 5rem 0;
+  text-align: center;
+}
+
+.members{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.member{
+  flex-basis: 20%;
+ text-align: center;
+}
+
+.member__p{
+  margin: 1rem ;
+}
+
+
+.footer__bcg{
+
+  background-color: #464646 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__p{
+  color: white;
+  margin: 3rem 1rem;
+ 
+}
