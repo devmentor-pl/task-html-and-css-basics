@@ -1,0 +1,229 @@
+.header {
+  background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100%;
+}
+.nav__list {
+  display: flex;
+}
+.nav__item {
+  min-width: 120px;
+  text-align: center;
+  padding: 10px;
+  transition: 0.2s;
+}
+.nav__item:hover {
+  scale: 1.2;
+}
+.header__hero-wraper {
+  flex-basis: 40%;
+}
+.header__hero {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.header__hero-heading {
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.header__hero-description {
+  margin-top: 30px;
+  line-height: 2;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.header__hero-image {
+  flex-basis: 60%;
+  text-align: center;
+}
+.header__hero-image-file {
+  width: 80%;
+  rotate: -7deg;
+  background-color: #ffffff;
+  border: 14px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-radius: 10px;
+}
+.header__hero-button {
+  padding: 20px 50px;
+  border-radius: 10px;
+  background-color: #77e077;
+  margin-top: 30px;
+}
+.features {
+  background-color: #000000;
+  color: #ffffff;
+}
+.features__container {
+  margin: 0 auto;
+}
+.features__cards {
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+.features__card {
+  flex-basis: 25%;
+  padding: 20px;
+  text-align: center;
+}
+.features__card-img {
+  padding: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.features__heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-block: 50px;
+}
+.features__card-heading {
+  text-transform: uppercase;
+  padding-block: 20px;
+}
+.features__card-description {
+  line-height: 2;
+  padding: 10px;
+}
+.partners {
+  background-color: #faf8f8;
+  text-align: center;
+  padding-block: 40px;
+}
+.advantages__container {
+  display: flex;
+  margin: 0 auto;
+}
+.advantages__image-container,
+.advantages__text-container {
+  flex-basis: 50%;
+  padding: 30px;
+}
+.advantages__heading {
+  font-size: 26px;
+  text-transform: uppercase;
+  padding-block: 20px;
+}
+.advantages__text {
+  line-height: 2;
+}
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faf8f8;
+  padding: 50px 0;
+}
+.pricing__header {
+  text-align: center;
+}
+.pricing__title {
+  font-size: 26px;
+  text-transform: uppercase;
+  padding-block: 10px;
+}
+.pricing__description {
+  padding: 10px 0 20px 0;
+}
+.pricing__cards {
+  display: flex;
+  padding: 20px 20px 40px 20px;
+}
+.pricing__card {
+  text-align: center;
+  padding: 30px;
+}
+.pricing__card--active,
+.pricing__card:hover {
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.25);
+}
+.pricing__card-title {
+  text-transform: uppercase;
+}
+.pricing__card-prix {
+  font-size: 36px;
+  font-weight: 700;
+  padding-block: 10px;
+}
+.pricing__card-period {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.pricing__card-description-list {
+  min-height: 120px;
+}
+.pricing__card-button {
+  display: block;
+  margin: 10px auto;
+  background-color: #00ccff;
+  color: #ffffff;
+  padding: 20px 50px;
+  border-radius: 3px;
+}
+.team__header {
+  padding-block: 30px;
+}
+.team__heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 26px;
+}
+.team__members-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+.team__member-item {
+  text-align: center;
+  padding: 20px;
+}
+.team__member-avatar {
+  padding-top: 20px;
+}
+.team__member-position {
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+.team__member-name {
+  font-weight: 700;
+  padding-top: 20px;
+}
+.team__member-text {
+  font-size: 14px;
+  padding-top: 20px;
+}
+.team__member-sm {
+  padding: 20px;
+}
+.footer {
+  background-color: #323131;
+  color: #ffffff;
+}
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-block: 20px;
+}
+.footer__image {
+  padding-left: 15px;
+}
