@@ -1,0 +1,23 @@
+.footer {
+  background-color: rgb(78, 78, 78);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__copyrights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  min-height: 100px;
+  width: 25%;
+}
+
+.footer__copyrights p {
+  font-family: "Monteserrat", sans-serif;
+  font-weight: 700;
+}

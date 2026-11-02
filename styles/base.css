@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
+}
+
+.row,
+.cell,
+.container {
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.btn {
+  width: 250px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+}
