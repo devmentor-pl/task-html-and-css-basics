@@ -33,7 +33,7 @@
   min-height: 60px;
 }
 
-.nav__item {
+.nav__items > .nav__item {
   color: var(--text-white);
   text-decoration: none;
   text-underline-offset: 5px;
@@ -41,7 +41,7 @@
   font-weight: bold;
 }
 
-.nav__item:hover {
+.nav__items > .nav__item:hover {
   text-decoration: underline; 
 }
 
