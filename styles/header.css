@@ -33,7 +33,7 @@
   min-height: 60px;
 }
 
-.nav > li > a {
+.nav__item {
   color: var(--text-white);
   text-decoration: none;
   text-underline-offset: 5px;
@@ -41,7 +41,7 @@
   font-weight: bold;
 }
 
-.nav > li > a:hover {
+.nav__item:hover {
   text-decoration: underline; 
 }
 
